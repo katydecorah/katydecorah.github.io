@@ -1,0 +1,19 @@
+.container {
+  max-width:50em;
+  margin: 0 auto;
+}
+
+
+
+
+.footer {
+  background:$gray;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  padding:0.65em 0;
+}
+.about {
+  float:left;
+  margin-right:1em;
+}

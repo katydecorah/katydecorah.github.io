@@ -1,0 +1,32 @@
+
+.navbar {
+  background:$gray;
+  .navbar-inner {
+    max-width:50em;
+    margin:0 auto;
+    @extend .clearfix;
+  } 
+}
+
+.nav a {
+  font-family:$sans;
+  text-decoration:none;
+  padding:0.75em 1.25em;
+  display:block;
+  float:left;
+}
+
+
+
+
+.icons {
+  float:right;
+}
+.icon {
+  float:left;
+  font-size:1.25em;
+  text-decoration:none;
+  margin-left:0.75em;
+  vertical-align:middle;
+  
+}
