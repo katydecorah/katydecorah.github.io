@@ -33,6 +33,7 @@ function sniff() {
 
 
 		$.getJSON(apiLarge,function(json){
+			$("body").append("<div class='helper'></div>");
 			$.each(json.photoset.photo,function(i,myresult){
 				$(".helper").css("background-image", "url(" + myresult.url_o + ")");
 				$(window).load(function() {
