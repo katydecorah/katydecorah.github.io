@@ -9,9 +9,8 @@ body {
   background-repeat:no-repeat;
   font-family:$sans;
   background-position:center 20%;
-  background-color:darken($gray,5%);
+  background-color:$gray;
   color:#333;
-  //background-attachment:fixed;
 }
 a {
   color:lighten(#333,10%);
