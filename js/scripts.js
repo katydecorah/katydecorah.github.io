@@ -34,9 +34,9 @@ function sniff() {
 
 		$.getJSON(apiLarge,function(json){
 			$.each(json.photoset.photo,function(i,myresult){
+				$(".helper").css("background-image", "url(" + myresult.url_o + ")");
 				$(window).load(function() {
 					$("body").css("background-image", "url(" + myresult.url_o + ")");
-
 				});
 			});
 		});
