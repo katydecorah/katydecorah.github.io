@@ -37,6 +37,7 @@ function sniff() {
 				$(".helper").css("background-image", "url(" + myresult.url_o + ")");
 				$(window).load(function() {
 					$("body").css("background-image", "url(" + myresult.url_o + ")");
+					$(".helper").remove();
 				});
 			});
 		});
