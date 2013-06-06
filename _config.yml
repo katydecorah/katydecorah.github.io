@@ -28,7 +28,7 @@ watch:       false    # deprecated
 server:      false    # deprecated
 host:        0.0.0.0
 port:        4000
-baseurl:     /
+baseurl:     http://katydecorah.com/
 url:         http://katydecorah.com/
 lsi:         false
 
