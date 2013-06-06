@@ -2,7 +2,7 @@
   max-width:50em;
   margin: 0 auto;
   position:relative;
-  @include clearfix;
+  @extend .clearfix;
 }
 
 
