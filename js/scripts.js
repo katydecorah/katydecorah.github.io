@@ -4,11 +4,12 @@ $.getJSON(apiSmall,function(json){
 	$.each(json.photoset.photo,function(i,item){
 		var inSet = json.photoset.photo.length - 1;
 		if (i === inSet) {
-			$("body").css("background-image", "url(" + item.url_n + ")");
-			$(".title").text(item.title);
+			$("html").css("background-image", "url(" + item.url_n + ")");
+			$(".title").html("<a href='http://www.flickr.com/photos/91218249@N05/sets/72157633859537779/'>" + item.title + "</a>");
 		}
 	});
 });
+
 
 //function sniff() {
 
@@ -19,7 +20,7 @@ $.getJSON(apiSmall,function(json){
 			$.each(json.photoset.photo,function(i,item){
 				var inSet = json.photoset.photo.length - 1;
 				if (i === inSet) {
-					$("body").css("background-image", "url(" + item.url_n + ")");
+					$("html").css("background-image", "url(" + item.url_n + ")");
 				}
 			});
 		});
@@ -33,7 +34,7 @@ $.getJSON(apiSmall,function(json){
 			$.each(json.photoset.photo,function(i,item){
 				var inSet = json.photoset.photo.length - 1;
 				if (i === inSet) {
-					$("body").css("background-image", "url(" + item.url_z + ")");
+					$("html").css("background-image", "url(" + item.url_z + ")");
 				}
 			});
 		});
@@ -45,13 +46,13 @@ $.getJSON(apiSmall,function(json){
 		var apiLarge = "http://api.flickr.com/services/rest/?format=json&method=flickr.photosets.getPhotos&photoset_id=72157633859537779&api_key=1e7b492b2667c5dcff54a1ba2e071ef3&format=json&jsoncallback=?&extras=url_o";
 
 		$.getJSON(apiLarge,function(json){
-			$("body").append("<div class='helper'></div>");
+			$("html").append("<div class='helper'></div>");
 			$.each(json.photoset.photo,function(i,item){
 				var inSet = json.photoset.photo.length - 1;
 				if (i === inSet) {
 					$(".helper").css("background-image", "url(" + item.url_o + ")");
 					$(window).load(function() {
-						$("body").css("background-image", "url(" + item.url_o + ")");
+						$("html").css("background-image", "url(" + item.url_o + ")");
 						$(".helper").remove();
 					});
 				}

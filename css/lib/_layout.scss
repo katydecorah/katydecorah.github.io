@@ -1,6 +1,8 @@
 .container {
   max-width:50em;
   margin: 0 auto;
+  position:relative;
+  @include clearfix;
 }
 
 
@@ -16,4 +18,11 @@
 .about {
   float:left;
   margin-right:1em;
+}
+
+.post-page {
+  .footer {
+    margin-top:2em;
+    position:relative;
+  }
 }

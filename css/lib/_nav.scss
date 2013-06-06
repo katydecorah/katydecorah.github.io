@@ -1,21 +1,57 @@
 
 .navbar {
   background:$gray;
+  position:relative;
+  z-index:1000;
   .navbar-inner {
     max-width:50em;
     margin:0 auto;
+    position:relative;
     @extend .clearfix;
   } 
 }
 
-.nav a {
-  font-family:$sans;
-  text-decoration:none;
-  padding:0.75em 1.25em;
-  display:block;
+.nav {
   float:left;
+  li {
+    display:block;
+    position:relative;
+    float:left;
+  }
+  > li:hover .children {
+    top:3em;
+    //@include transition(top 0.25s ease);
+    li {
+      width:100%;
+    }
+    a {
+      background:transparentize(white,0.5);
+      width:100%;
+      &:hover {
+        background:transparentize(black,0.7);
+      }
+    }
+  }
+  a {
+    font-family:$sans;
+    text-decoration:none;
+    padding:0.75em 1.25em;
+    display:block;
+    float:left;
+    &:hover {
+      background:transparentize(black,0.9);
+    }
+  }
+  .children {
+    top:-100em;
+    position:absolute;
+    display:block;
+    width:15em;
+    left:0;
+    z-index:-1;
+    //@include transition(top 1s);
+  }
 }
-
 
 
 

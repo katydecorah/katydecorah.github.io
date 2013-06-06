@@ -1,14 +1,48 @@
-h1 {
+.hello {
     font-family:$sans;
     text-transform:uppercase;
     font-size: 1.6em;
     padding: 0.2em 0;
+    float:left;
+    margin:0 5em 0 0;
+    line-height:1.5;
   }
-  .title {
-float: right;
-background: transparentize(black, 0.8);
+  h1, h2, h3 {
+    margin:0.75em 0 0.5em;
+    line-height:1.4;
+  }
+  h1 {
+    font-size:3em;
+    small {
+      font-size:0.5em;
+    }
+  }
+  h2 {
+    font-size:2.5em;
+  }
+  h3 {
+    font-size:2em;
+  }
+
+.post {
+  p {
+    font-size:1.35em;
+    margin-bottom:1em;
+  }
+}
+
+  .title a {
+position:absolute;
+right:0;
+top: -6em;
+background: transparentize(black, 0.5);
 color: rgb(255, 255, 255);
 padding: 0.5em 1em;
 font-size: 0.8em;
 margin-top: 1em;
+//@include transition(background, 1s, ease);
+&:hover {
+	background: transparentize(black, 0.2);
+	//@include transition(background, 1s, ease);
+}
 }

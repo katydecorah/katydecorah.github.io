@@ -1,20 +1,23 @@
 @media (max-width: 50em) {
-body {
-	background-position:bottom;
-}
-h1 {
-	padding: 0.7em 0 0.35em;
-}
-.navbar-inner, .container {
-	max-width:100%;
-	padding:0 1em;
-}
-.footer {
-	position:relative;
-	padding:0 0 0.2em;
+	body {
+		background-position:bottom;
+	}
+	.hello {
+		padding: 0.7em 0 0.35em;
+		margin-right:0;
+		float:none;
+	}
+
+	.navbar-inner, .container {
+		max-width:100%;
+		padding:0 1em;
+	}
+	.footer {
+		position:relative;
+		padding:0 0 0.2em;
 	//min-height:5em;
 }
-.about, .icons {
+.about, .icons, .nav {
 	float:none;
 	margin-bottom:1em;
 	line-height:1.4;
@@ -22,5 +25,12 @@ h1 {
 .icon {
 	float:none;
 	margin:0 1em 0 0;
+}
+.nav>li:hover .children {
+	position:relative;
+	top:0;
+}
+.pull-right, .pull-left {
+	float:none;
 }
 }
