@@ -1,0 +1,14 @@
+{% include top.html %}
+
+<body class="post-page">
+{% include nav.html %}
+<div class="container post">
+	<h1>{{ page.title }} <small>{{ page.date | date: "%B %d, %Y" }}</small></h1>
+  {{ content }}
+
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>
