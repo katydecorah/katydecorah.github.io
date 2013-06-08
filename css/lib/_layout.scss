@@ -6,13 +6,18 @@
 }
 
 
+.front-page {
+  .footer {
+    width:100%;
+  position:absolute;
+  bottom:0;
+}
+}
 
 
 .footer {
   background:$gray;
-  width:100%;
-  position:absolute;
-  bottom:0;
+  margin-top:10em;
   padding:0.65em 0;
 }
 .about {
@@ -20,9 +25,3 @@
   margin-right:1em;
 }
 
-.post-page {
-  .footer {
-    margin-top:2em;
-    position:relative;
-  }
-}

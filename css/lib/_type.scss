@@ -12,16 +12,18 @@
     line-height:1.4;
   }
   h1 {
-    font-size:3em;
+    font-size:4em;
     small {
       font-size:0.5em;
     }
   }
   h2 {
-    font-size:2.5em;
+    font-size:1.75em;
+    text-transform: uppercase;
+    font-weight:700;
   }
   h3 {
-    font-size:2em;
+    font-size:1.25em;
   }
 
 .post {
