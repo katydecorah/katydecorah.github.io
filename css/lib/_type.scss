@@ -33,21 +33,39 @@ h3 {
   }
 }
 
-.title {
-  position:relative;
-  a {
-    position:absolute;
+
+.flick-nav {
+   position:absolute;
     right:0;
     top: -6em;
+    font-size: 0.8em;
+  .prev, .next {
+    float:left;
+    color:white;
+    cursor:pointer;
+    display:block;
+    padding:0.25em 0.3em;
+    background:rgba(0,0,0,0.5);
+    &:hover {
+      background:rgba(255,255,255,0.5);
+      color:black;
+    }
+  }
+  .title {
+    float:left;
+  
+  a {
+   
     background: transparentize(black, 0.5);
     color: rgb(255, 255, 255);
-    padding: 0.5em 1em;
-    font-size: 0.8em;
-    margin-top: 1em;
-//@include transition(background, 1s, ease);
-&:hover {
-	background: transparentize(black, 0.2);
-	//@include transition(background, 1s, ease);
-}
+    padding:0.25em 0.5em;
+    
+    margin:0 0.2em;
+    float:left;
+    &:hover {
+      background:rgba(255,255,255,0.5);
+      color:black;
+    }
+  }
 }
 }
