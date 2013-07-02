@@ -8,12 +8,13 @@ body {
   line-height:1.5;
   font-family:$sans;
   color:#333;
-    background-size:100%;
+  background-size:100%;
   background-repeat:no-repeat;
   background-position:center;
-  background-color:$gray;
-  //background: -webkit-linear-gradient(top, #daddf0 0%,#efe4e8 100%);
-  //background-repeat:no-repeat;
+  background-color:white;
+  .no-js & {
+    background-image:url(http://farm4.staticflickr.com/3709/8915478669_b070b61531_o.jpg);
+  }
 }
 a {
   color:lighten(#333,10%);
