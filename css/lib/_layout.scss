@@ -9,9 +9,13 @@
 .front-page {
   .footer {
     width:100%;
-  position:absolute;
-  bottom:0;
+    position:absolute;
+    bottom:0;
+  }
 }
+
+.default-page {
+  .flick-nav {display:none;}
 }
 
 
