@@ -1,12 +1,12 @@
 <div class="navbar">
 	<div class="navbar-inner">
-		<a href="{{ base.url }}" class="hello">Katy DeCorah</a>
+		<a href="{{ site.baseurl }}" class="hello">Katy DeCorah</a>
 		<ul class="nav">
 
 			{% if page.title == "Projects" %}
-			<li><a href="{{ base.url }}projects" class="active">Projects</a></li>
+			<li><a href="{{ site.baseurl }}projects" class="active">Projects</a></li>
 			{% else %}
-			<li><a href="{{ base.url }}projects">Projects</a></li>
+			<li><a href="{{ site.baseurl }}projects">Projects</a></li>
 			{% endif %}
 
 		</ul>
