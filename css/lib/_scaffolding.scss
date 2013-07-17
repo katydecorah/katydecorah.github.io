@@ -19,7 +19,7 @@ body {
 a {
   color:lighten(#333,10%);
   text-decoration:none;
-  &:hover, &.active {
+  &:hover {
       color:#333;
     }
 }
