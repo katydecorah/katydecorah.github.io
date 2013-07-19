@@ -15,3 +15,20 @@ title: Interests
 	<li>The great outdoors</li>
 	<li>Ron Swanson GIFs<br><img src="../img/ron-swanson-snake-juice.gif"></li>
 </ul>
+<div id="test"></div>
+<script>
+	var url = "https://maps.googleapis.com/maps/api/place/textsearch/xml?query=Albany&sensor=true&key=AIzaSyC7hDt6XjNUL49061kjGhvUpVojcTHJht4";
+
+
+run();
+
+// Gets the font based on family name
+function run() {
+  $.getJSON(url,function(json){
+    $.each(json.results,function(i,type){
+      $("#test").html(type.name);
+      
+    });
+  });
+}
+</script>
