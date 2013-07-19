@@ -17,7 +17,9 @@ title: Interests
 </ul>
 <div id="test"></div>
 <script>
-	var url = "https://maps.googleapis.com/maps/api/place/textsearch/xml?query=Albany&sensor=true&key=AIzaSyC7hDt6XjNUL49061kjGhvUpVojcTHJht4";
+
+$(document).ready(function() {
+  var url = "https://maps.googleapis.com/maps/api/place/textsearch/xml?query=Albany&sensor=true&key=AIzaSyC7hDt6XjNUL49061kjGhvUpVojcTHJht4";
 
 
 run();
@@ -26,9 +28,11 @@ run();
 function run() {
   $.getJSON(url,function(json){
     $.each(json.results,function(i,type){
-      $("#test").html(type.name);
+      $("body").html(type.name);
       
     });
   });
 }
+  });
+
 </script>
