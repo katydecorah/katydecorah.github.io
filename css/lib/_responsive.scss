@@ -36,3 +36,9 @@
 	float:none;
 }
 }
+
+@media (max-width: 56.25em) {
+	.default-page {
+		iframe { width:100% !important; margin:1em 0;}
+	}
+}
