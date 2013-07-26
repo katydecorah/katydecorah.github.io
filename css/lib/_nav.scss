@@ -1,6 +1,7 @@
 
 .navbar {
-  background:$gray;
+  background:#222;
+  background:transparentize(#222,0.2);
   position:relative;
   z-index:1000;
   .navbar-inner {
@@ -23,7 +24,7 @@
     text-decoration:none;
     padding:0.75em 1.25em;
     display:block;
-    color:lighten(#333,10%);
+    color:white;
     float:left;
     &:hover, &.active {
       background:transparentize(black,0.9);

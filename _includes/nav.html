@@ -3,6 +3,12 @@
 		<a href="{{ site.baseurl }}" class="hello">Katy DeCorah</a>
 		<ul class="nav">
 
+			{% if page.title == "Hello" %}
+			<li><a href="{{ site.baseurl }}hello" class="active">Hello</a></li>
+			{% else %}
+			<li><a href="{{ site.baseurl }}hello">Hello</a></li>
+			{% endif %}
+
 			{% if page.title == "Projects" %}
 			<li><a href="{{ site.baseurl }}projects" class="active">Projects</a></li>
 			{% else %}
@@ -14,6 +20,8 @@
 			{% else %}
 			<li><a href="{{ site.baseurl }}interests">Interests</a></li>
 			{% endif %}
+
+			
 
 		</ul>
 	</div>

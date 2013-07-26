@@ -2,6 +2,15 @@
 <body class="front-page">
 {% include nav.html %}
 {{ content }}
+<div class="container">
+	{% if page.layout == "front-page" %}
+    <div class="flick-nav">
+      <span class="prev">&larr;</span>
+      <div class="title"></div>
+      <span class="next">&rarr;</span>
+    </div>
+    {% endif %}
+	</div>
 {% include footer.html %}
 {% include end.html %}
 </body>

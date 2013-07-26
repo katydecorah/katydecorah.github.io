@@ -8,14 +8,11 @@
 
 .front-page {
   .footer {
-    width:100%;
-    position:absolute;
-    bottom:0;
+    display:none;
   }
 }
 
 .default-page {
-  .flick-nav {display:none;}
   .navbar {margin-bottom:2em;}
 
   iframe {
@@ -24,13 +21,14 @@ width: 110% !important;
   }
 }
 
-.icons a { color:#222;}
 
 
 .footer {
-  background:$gray;
+  background:$red;
   margin-top:10em;
-  padding:0.65em 0;
+  padding:2em 0 5em;
+  color:white;
+  a {color:white;}
 }
 .about {
   float:left;
