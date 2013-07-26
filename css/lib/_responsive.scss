@@ -8,33 +8,21 @@
 		float:none;
 	}
 
+.profile-img {width:25%;}
+
 	.navbar-inner, .container {
 		max-width:100%;
 		padding:0 1em;
 	}
-	.footer, .front-page .footer {
-		position:relative;
-		padding:0 0 0.2em;
-		margin:0;
-	//min-height:5em;
-}
+
 .about, .icons, .nav {
 	float:none;
 	margin-bottom:1em;
 	line-height:1.4;
 }
-.icon {
-	float:none;
-	margin:0 1em 0 0;
-	font-size:1.25em;
-}
-.nav>li:hover .children {
-	position:relative;
-	top:0;
-}
-.pull-right, .pull-left {
-	float:none;
-}
+
+.flick-nav {display:none;}
+
 }
 
 @media (max-width: 56.25em) {
