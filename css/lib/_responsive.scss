@@ -8,19 +8,14 @@
 	html {
 		background-position:bottom;
 	}
-
-
 	.container {
 		max-width:100%;
 		padding:0 1em;
 	}
 
+	.flick-nav {display:none;}
 
-.flick-nav {display:none;}
-
-.profile-img {width:30%;}
-
-
+	.profile-img {width:30%;}
 
 
 	.hello {
@@ -39,6 +34,7 @@
 }
 
 @media (max-width:30em){
+	h1 {text-align:center;}
 	.profile-img {width:50%; margin:1em auto;display:block;}
 	.pull-left, .pull-right {float:none !important;}
 }
