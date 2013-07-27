@@ -21,12 +21,21 @@ h1, h2, h3 {
     color:lighten(#333,10%);
   }
 }
-h1 {
+/*h1 {
   font-size:4em;
   small {
     font-size:0.5em;
   }
 }
+*/
+
+h1 {
+  font-size:1.4em;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  padding-top:5em;
+}
+
 h2 {
   font-size:1.75em;
   text-transform: uppercase;
@@ -56,4 +65,8 @@ small, .small {font-size:0.8em;}
 ul {
   list-style:square;
   margin-left:2em;
+}
+
+ul,ol {
+  margin-bottom:1em;
 }
