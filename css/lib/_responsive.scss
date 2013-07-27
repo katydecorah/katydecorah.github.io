@@ -1,32 +1,44 @@
-@media (max-width: 50em) {
-	html {
-		background-position:bottom;
-	}
-	.hello {
-		padding: 0.7em 0 0.35em;
-		margin-right:0;
-		float:none;
-	}
-
-.profile-img {width:25%;}
-
-	.navbar-inner, .container {
-		max-width:100%;
-		padding:0 1em;
-	}
-
-.about, .icons, .nav {
-	float:none;
-	margin-bottom:1em;
-	line-height:1.4;
-}
-
-.flick-nav {display:none;}
-
-}
-
 @media (max-width: 56.25em) {
 	.default-page {
 		iframe { width:100% !important; margin:1em 0;}
 	}
+}
+
+@media (max-width: 50em) {
+	html {
+		background-position:bottom;
+	}
+
+
+	.container {
+		max-width:100%;
+		padding:0 1em;
+	}
+
+
+.flick-nav {display:none;}
+
+.profile-img {width:30%;}
+
+
+
+
+	.hello {
+		padding: 0.7em 0 0.35em;
+		margin-right:0;
+		float:none;
+		text-align:center;
+		display:block;
+	}
+	.nav {
+		width:100%;
+		display:inline-block;
+		text-align:center;
+
+	}
+}
+
+@media (max-width:30em){
+	.profile-img {width:50%; margin:1em auto;display:block;}
+	.pull-left, .pull-right {float:none !important;}
 }

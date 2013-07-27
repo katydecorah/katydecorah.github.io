@@ -4,6 +4,7 @@
   background:transparentize(#222,0.2);
   position:relative;
   z-index:1000;
+  min-height:3em;
   .navbar-inner {
     max-width:50em;
     margin:0 auto;
@@ -13,11 +14,10 @@
 }
 
 .nav {
-  float:left;
   li {
-    display:block;
+    display:inline-block;
     position:relative;
-    float:left;
+    margin:0;
   }
   a {
     font-family:$sans;
@@ -25,9 +25,11 @@
     padding:0.75em 1.25em;
     display:block;
     color:white;
-    float:left;
-    &:hover, &.active {
+    &.active {
       background:transparentize(black,0.9);
+    }
+    &:hover {
+      background:$red;
     }
   }
 }

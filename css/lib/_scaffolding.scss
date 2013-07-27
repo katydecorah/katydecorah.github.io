@@ -10,16 +10,16 @@ body {
   background-size:100%;
   background-repeat:no-repeat;
   background-position:center;
-  background-color:white;
+  background-color:rgba(0,0,0,0.01);
   .no-js & {
     background-image:url(http://farm4.staticflickr.com/3709/8915478669_b070b61531_o.jpg);
   }
 }
 a {
-  color:lighten(#f40,10%);
+  color:$blue;
   text-decoration:none;
   &:hover {
-      color:#333;
+      color:lighten($blue,10%);
     }
 }
 .helper {display:none}

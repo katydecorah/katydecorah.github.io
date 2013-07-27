@@ -7,10 +7,14 @@
   margin:0 5em 0 0;
   line-height:1.5;
   color:white;
+  color:rgba(255,255,255,0.9);
   text-decoration:none !important;
+  &:hover, &::selection {
+    color:$red;
+  }
 }
 h1, h2, h3 {
-  margin:0.75em 0 0.5em;
+  margin:1em 0 0.5em;
   line-height:1.4;
   small {
     font-size:0.75em;
@@ -32,8 +36,11 @@ h3 {
   font-size:1.25em;
 }
 
-p {
+p,li {
   margin-bottom:1em;
+}
+p, li {
+  max-width:35em;
 }
 .post {
   p {
