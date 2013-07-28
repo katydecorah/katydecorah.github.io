@@ -13,10 +13,9 @@ body {
   background-position:center;
   background-color:rgba(0,0,0,0.01);
 }
-  .no-js.front-page {
+  .no-js .front-page {
     background-image:url(http://farm4.staticflickr.com/3709/8915478669_b070b61531_o.jpg);
   }
-  
 a {
   color:$blue;
   text-decoration:none;
