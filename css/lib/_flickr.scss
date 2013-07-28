@@ -1,8 +1,14 @@
+.flickr {
+position: fixed;
+bottom: 0;
+width: 100%;
+min-height: 4em;
+}
 
 .flick-nav {
    position:absolute;
     right:0;
-    top: 1em;
+    top: 0;
     .no-js & {display:none;}
   .prev, .next {
     float:left;

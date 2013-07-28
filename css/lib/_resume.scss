@@ -1,23 +1,29 @@
 .resume {
-h1 {text-align:center}
-h2 {
-	border-top: 0.1em solid #222;
-	font-size:0.9em;
-}
-p,li {
-	max-width:none;
-	margin:0;
-}
-strong {font-weight:900;}
-em {font-style:italic;}
+	h1 {
+		text-align:center;
+		margin-bottom: 0.25em;
+	}
+	h2 {
+		border-top: 0.1em solid #222;
+		font-size:0.8em;
+	}
+	p,li {
+		max-width:none;
+		margin:0;
+	}
+	strong {
+		font-weight:400; 
+		font-size:1em;
+	}
+	em {font-style:italic;}
 
-blockquote {
-	margin-bottom:2em;
-	p {
-	text-align: center;
-text-transform: uppercase;
-font-size: 0.8em;
-margin-bottom:0.5em;
-}
-}
+	blockquote {
+		margin-bottom:2em;
+		p {
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 0.8em;
+			margin-bottom:0.5em;
+		}
+	}
 }
