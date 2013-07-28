@@ -2,15 +2,15 @@
 	<div class="navbar-inner">
 		<a href="{{ site.baseurl }}" class="hello">Katy DeCorah</a>
 		<ul class="nav pull-right">
-			{% if page.title == "Hello" %}
-			<li><a href="{{ site.baseurl }}hello#content" class="active">Hello</a></li>
+			{% if page.title == "Hello!" %}
+			<li><a href="{{ site.baseurl }}hello" class="active">Hello</a></li>
 			{% else %}
-			<li><a href="{{ site.baseurl }}hello#content">Hello</a></li>
+			<li><a href="{{ site.baseurl }}hello">Hello</a></li>
 			{% endif %}
 			{% if page.title == "Projects" %}
-			<li><a href="{{ site.baseurl }}projects#content" class="active">Projects</a></li>
+			<li><a href="{{ site.baseurl }}projects" class="active">Projects</a></li>
 			{% else %}
-			<li><a href="{{ site.baseurl }}projects#content">Projects</a></li>
+			<li><a href="{{ site.baseurl }}projects">Projects</a></li>
 			{% endif %}
 		</ul>
 	</div>
