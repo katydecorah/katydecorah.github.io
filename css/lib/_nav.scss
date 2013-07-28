@@ -26,6 +26,7 @@
     padding:0.75em 1.25em;
     display:block;
     color:white;
+    color:transparentize(white,0.3);
     &.active {
       //background:transparentize(black,0.9);
       position:relative;
@@ -42,7 +43,7 @@
       }
     }
     &:hover {
-      background:$red;
+      color:white;
     }
   }
 }

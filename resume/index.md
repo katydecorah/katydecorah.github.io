@@ -7,7 +7,7 @@ class: resume
 # Katy DeCorah
 > katydecorah@gmail.com
 >
->[www.katydecorah.com/resume](www.katydecorah.com/resume)
+> [www.katydecorah.com/resume](http://www.katydecorah.com/resume)
 
 ## Relevant Experience
 
