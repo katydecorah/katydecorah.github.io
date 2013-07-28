@@ -18,7 +18,11 @@ width: 110% !important;
   }
 }
 
-
+.front-page {
+  .navbar {
+      background:transparentize(#222,0.2) !important;
+  }
+}
 
 .footer {
   background:$red;
