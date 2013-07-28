@@ -2,28 +2,53 @@
 	h1 {
 		text-align:center;
 		margin-bottom: 0.25em;
+		font-weight:400;
+		font-size:1.5em;
 	}
 	h2 {
 		border-top: 0.1em solid #222;
-		font-size:0.8em;
+		font-size:1em;
+		margin: 2em 0 1em;
+		font-weight:400;
 	}
-	p,li {
+	h3 {
+		font-size:1em;
+		margin:0;
+		font-family:"Merriweather";
+		font-weight:700;
+	}
+	p, li {font-family:"Merriweather Sans"}
+	strong {
+		float:right;
+		font-weight:300;
+		font-size:0.9em;
+	}
+	p {
 		max-width:none;
+		margin-bottom: 0.5em; 
+	}
+	ul {
+		margin-bottom: 1em;
+	}
+	li {
 		margin:0;
 	}
-	strong {
-		font-weight:400; 
-		font-size:1em;
-	}
-	em {font-style:italic;}
 
 	blockquote {
 		margin-bottom:2em;
 		p {
 			text-align: center;
 			text-transform: uppercase;
-			font-size: 0.8em;
-			margin-bottom:0.5em;
+			margin-bottom:0.25em;
+			font-size:0.9em;
+		}
+		& p:nth-child(2) {
+			display: none;
 		}
 	}
+
+
+
+
+
 }

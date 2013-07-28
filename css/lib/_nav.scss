@@ -27,7 +27,19 @@
     display:block;
     color:white;
     &.active {
-      background:transparentize(black,0.9);
+      //background:transparentize(black,0.9);
+      position:relative;
+      &:after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        bottom: -5em;
+        border-color: transparent transparent white transparent;
+        border-width: 0 2em 1.5em 2em;
+        border-style: solid;
+        left: 16%;
+      }
     }
     &:hover {
       background:$red;

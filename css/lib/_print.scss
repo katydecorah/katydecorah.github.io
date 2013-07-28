@@ -1,0 +1,30 @@
+ @media print {
+ 	.navbar, .footer, .no-print {
+ 		display:none;
+ 	}
+ 	.resume {
+ 		h1 {padding-top:0;}
+ 		.container {font-size:0.85em;}
+ 		li {max-width:none;}
+
+ 		blockquote p:nth-child(2) {
+ 			display: block;
+ 			text-transform: none !important;
+ 		}
+ 		h2:nth-of-type(4) {
+ 			border-top:none;
+ 			&:before {
+ 				content:"Katy DeCorah";
+ 				display:block;
+ 				height:5em;
+ 				border-bottom:0.1em solid #222;
+ 				color:#ddd;
+ 			}
+ 		}
+
+ 		ul:nth-of-type(4), ul:nth-of-type(5) {
+ 			display:none;
+ 		}
+ 		
+ 	}
+ }
