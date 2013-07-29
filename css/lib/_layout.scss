@@ -25,12 +25,17 @@ width: 110% !important;
 }
 
 .footer {
-  background:darken($red,3%);
+  background:$red;
   margin-top:10em;
   padding:3em 0 5em;
-  color:white;
+  color:#222;
   p {max-width:none;}
-  a {color:#ddd; &:hover {color:white;}}
+  a {
+    color:#333; 
+    &:hover {
+      color:#222;
+      }
+    }
 }
 .about {
   float:left;
