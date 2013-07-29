@@ -25,11 +25,12 @@ width: 110% !important;
 }
 
 .footer {
-  background:$red;
+  background:darken($red,3%);
   margin-top:10em;
-  padding:2em 0 5em;
+  padding:3em 0 5em;
   color:white;
-  a {color:white;}
+  p {max-width:none;}
+  a {color:#ddd; &:hover {color:white;}}
 }
 .about {
   float:left;
