@@ -31,7 +31,7 @@ width: 110% !important;
   color:#222;
   p {max-width:none;}
   a {
-    color:#333; 
+    color:lighten(#222,5%); 
     &:hover {
       color:#222;
       }
