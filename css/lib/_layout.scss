@@ -25,11 +25,13 @@ width: 110% !important;
 }
 
 .footer {
-  background:$red;
+  background:#DEB159;
   margin-top:10em;
   padding:3em 0 5em;
   color:#222;
-  p {max-width:none;}
+  p {
+    max-width:none;
+    font-size: 0.8em}
   a {
     color:lighten(#222,5%); 
     &:hover {
