@@ -12,6 +12,11 @@
 			{% else %}
 			<li><a href="{{ site.baseurl }}projects">Projects</a></li>
 			{% endif %}
+			{% if page.title == "Adventures" %}
+			<li><a href="{{ site.baseurl }}adventures" class="active">Adventures</a></li>
+			{% else %}
+			<li><a href="{{ site.baseurl }}adventures">Adventures</a></li>
+			{% endif %}
 		</ul>
 	</div>
 </div>
