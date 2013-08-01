@@ -5,6 +5,8 @@ class: resume
 ---
 
 # Katy DeCorah
+> Albany, New York
+>
 > katydecorah@gmail.com
 >
 > [www.katydecorah.com/resume](http://www.katydecorah.com/resume)
