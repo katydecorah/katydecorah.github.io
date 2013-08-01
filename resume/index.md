@@ -49,7 +49,9 @@ Bachelors of Arts, History, May 2009, cum laude
 * Pi Gamma Mu, International Honor Society in Social Sciences
 * Dean's List: Fall 2006, Spring 2007, Fall 2007, Spring 2008
 * President's List: Fall 2008, Spring 2009
+
 <div class="page-break">&nbsp;</div>
+
 ## Other Experience
 
 ### Social Robotics Workshop
