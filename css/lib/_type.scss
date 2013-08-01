@@ -21,7 +21,7 @@ h1, h2, h3 {
   line-height:1.4;
   font-weight:$fontWeight;
   small {
-    font-size:0.75em;
+    font-size:0.5em;
     color:lighten(#333,10%);
   }
 }
@@ -54,12 +54,7 @@ p,li {
 p, li {
   max-width:35em;
 }
-.post {
-  p {
-    font-size:1.35em;
-    margin-bottom:1em;
-  }
-}
+
 
 small, .small {font-size:0.8em;}
 
