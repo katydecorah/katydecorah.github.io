@@ -2,6 +2,7 @@
  	.navbar, .footer, .no-print {
  		display:none;
  	}
+ 	.page-break	{ display: block; page-break-before: always; }
  	.resume {
  		h1 {padding-top:0;}
  		.container {font-size:0.85em;}
