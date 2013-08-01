@@ -2,6 +2,5 @@ _site/
 .sass-cache
 _ignore/
 notes/
-_posts/
 config.rb
 photobooth/
