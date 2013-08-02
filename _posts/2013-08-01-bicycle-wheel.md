@@ -5,9 +5,9 @@ category: coding
 tags: Sass, no JS
 ---
 
-After I showed my boyfriend the [CSS Octagon](octagon.html), he pointed out that when the octagon had no width, it looked like a bicycle wheel.
+After I showed my boyfriend the [CSS Octagon](octagon.html), he pointed out that when the octagon has no width, it looks like a bicycle wheel.
 
-I used similiar code as the CSS Octagon for the wheel, except I used a loop to output each spoke.
+I used similiar code as the CSS Octagon for the wheel. I did a fancy Sass loop for each spoke. I love a good Sass loop.
 
 Go on, give it a hover!
 
