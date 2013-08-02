@@ -1,16 +1,20 @@
 {% include top.html %}
 
 <body class="post-page default-page">
-{% include nav.html %}
-<div class="container post" id="content">
-	<p class="breadcrumb"><a href="http://katydecorah.com/adventures">Adventures</a> in {{ page.category }}</p>
-	<h1>{{ page.title }}</h1>
-	<p class="text-right"><small>{{ page.date | date: "%B %d, %Y" }}</small></p>
-  {{ content }}
+	{% include nav.html %}
+	<div class="container post" id="content">
+		<p class="breadcrumb"><a href="http://katydecorah.com/adventures">Adventures</a> in {{ page.category }}</p>
+		<h1>{{ page.title }}</h1>
+		<p class="text-right"><small>{{ page.date | date: "%B %d, %Y" }}</small></p>
+		{{ content }}
 
-</div>
+	</div>
 
-{% include footer.html %}
-{% include end.html %}
+	{% include footer.html %}
+
+	{% if page.category == "coding" %}
+	<script async src="http://codepen.io/assets/embed/ei.js"></script>
+	{% endif %}
+	{% include end.html %}
 </body>
 </html>
