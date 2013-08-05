@@ -1,0 +1,25 @@
+
+.label {
+text-transform: uppercase;
+font-size: 0.65em;
+vertical-align: middle;
+background: transparentize($blue,0.5);
+padding: 0.25em 0.5em;
+color: #FFF;
+}
+
+.label-baking {
+	background:transparentize(adjust-hue($blue,100deg),0.5);
+}
+
+.label-weekending {
+	background:transparentize(adjust-hue($blue,180deg),0.5);
+}
+
+.label-coding {
+	background:transparentize(adjust-hue($blue,300deg),0.5);
+}
+
+.label-freelance {
+	background:transparentize(adjust-hue($blue,230deg),0.5);
+}
