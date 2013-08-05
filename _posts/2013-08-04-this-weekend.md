@@ -21,4 +21,4 @@ I also filled my pockets with felled mini hemlock pine cones. Free craft materia
 
 <a href="http://www.flickr.com/photos/91218249@N05/9440890890/" title="Potter's Point by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5527/9440890890_ccecb2bdd6_n.jpg" width="200" alt="Potter's Point"></a>
 
-<a href="http://www.flickr.com/photos/91218249@N05/9440884304/" title="Potter's Point by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg" width="800" alt="Potter's Point"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9440884304/" title="Potter's Point by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg" alt="Potter's Point"></a>

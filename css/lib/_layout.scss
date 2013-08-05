@@ -12,15 +12,15 @@
     min-height:6em;
     padding:2em 0;
   }
-  iframe {
+  iframe, .pop-out {
     margin: 1em -5%;
-width: 110% !important;
+    width: 110% !important;
   }
 }
 
 .front-page {
   .navbar {
-      background:transparentize(#222,0.2) !important;
+    background:transparentize(#222,0.2) !important;
   }
 }
 
@@ -39,17 +39,17 @@ position: absolute;
 top: -0.7em;
 overflow:hidden;
 }
-  p {
-    max-width:none;
-    font-size: 0.8em;
-    margin-bottom:0;
+p {
+  max-width:none;
+  font-size: 0.8em;
+  margin-bottom:0;
+}
+a {
+  color:lighten(#222,5%); 
+  &:hover {
+    color:#222;
   }
-  a {
-    color:lighten(#222,5%); 
-    &:hover {
-      color:#222;
-      }
-    }
+}
 }
 .about {
   float:left;
