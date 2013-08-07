@@ -64,8 +64,6 @@ Bachelors of Arts, History, May 2009, cum laude
 * Organized events and programs by applying for grants, creating surveys, and writing reports.
 * Administered the College's social media presence.
 
-<div class="no-print">
-
 ## Notable
 
 ### CodePen Rodeo
@@ -73,6 +71,7 @@ Bachelors of Arts, History, May 2009, cum laude
 
 ### New York Celebration of Women in Computing Conference (NYCWIC)
 *Web Development in eLearning*, April 19&ndash;20, 2013
+
 Abstract: Teaching a group of learners with varied abilities, on a variety of devices, asynchronously, is the challenge of eLearning development. When use cases are hard to define, focusing on accessibility, performance, and responsive design will help to ensure courses remain effective to all learners.
 
 ### 4th Quarter Innovation Award
@@ -81,6 +80,5 @@ Abstract: Teaching a group of learners with varied abilities, on a variety of de
 ### Grace Hopper Celebration of Women in Computing Conference
 *Are They There Yet? A Social Robotics Workshop for Engaging Girls Where They Are*, October 3&ndash;6, 2012
 Presenters: Jennifer Goodall (University at Albany), Nick Webb (Union College), Katy DeCorah (University at Albany)
-Abstract: Social Robotics Workshop outreach meets grades 5-12 students where they are with the technology and ideas behind social robots and introductory programming. Learn how we convey core concepts of robotics and programming, enabling students to see the link between form and function, and allow students to program interactive social behaviors. Data indicating workshop effectiveness and practical ideas regarding replicating this workshop are provided. We will also demonstrate some workshop exercises.
 
-</div>
+Abstract: Social Robotics Workshop outreach meets grades 5-12 students where they are with the technology and ideas behind social robots and introductory programming. Learn how we convey core concepts of robotics and programming, enabling students to see the link between form and function, and allow students to program interactive social behaviors. Data indicating workshop effectiveness and practical ideas regarding replicating this workshop are provided. We will also demonstrate some workshop exercises.
