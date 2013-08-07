@@ -5,7 +5,7 @@ category: coding
 tags: Sass, Dribbble, CodePen
 ---
 
-I've been really into simple shapes lately. I found [this really interesting logo](http://dribbble.com/shots/1183733-Posh-wordpress-theme-logo-design) on Dribbble and decided to try it out.
+I've been into simple shapes lately. I found [this interesting logo](http://dribbble.com/shots/1183733-Posh-wordpress-theme-logo-design) on Dribbble and decided to try it out.
 
 I used one list item for each triangle. Each triangle has a pseudo element as its shaded triangle part. Each triangle has no width or height, instead it's shaped using border properties. I used the transform property with rotate and skew to massage each triangle into its correct orientation. (On a rainy day, I'd like to try to get the colors brighter and adjust the pseudo triangles to fit more appropriately.)
 
