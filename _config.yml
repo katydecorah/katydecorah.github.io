@@ -1,5 +1,5 @@
 source:      .
-destination: _site
+destination: _site/adventures
 plugins:     _plugins
 layouts:     _layouts
 include:     ['.htaccess']
