@@ -15,7 +15,7 @@ title: Adventures
 <div class="pagination">
 	<p class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</p>
   {% if paginator.previous_page %}
-    <a href="http://katydecorah.com/adventures/page{{ paginator.previous_page }}" class="previous btn">Previous</a>
+    <a href="http://katydecorah.com/adventures/{% if paginator.previous_page == 1 %}{% else %}page{{ paginator.previous_page }}{% endif %}" class="previous btn">Previous</a>
   {% else %}
     <span class="previous btn btn-disabled">Previous</span>
   {% endif %}
