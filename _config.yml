@@ -15,8 +15,8 @@ pygments:    true
 relative_permalinks: true
 
 permalink:     date
-paginate_path: "adventures/page:num"
-paginate: 5
+paginate_path: adventures/page:num
+paginate: 7
 
 markdown:      maruku
 markdown_ext:  markdown,mkd,mkdn,md
