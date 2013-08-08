@@ -2,12 +2,12 @@
 layout: post
 title: Forebruary
 category: coding
-tags: Sass, CodePen, JavaScript
+tags: Sass, CodePen, JavaScript, Haml, calendar
 ---
 
 A few days ago I saw [Forebruary](http://ilyabirman.net/projects/forebruary/) by Ilya Birman; a calendar that doesn't need replacing! Naturally, I needed to figure this out, CodePen style.
 
-I wrote the HTML in HAML. My main goal was to generate the numbers on the calendar efficiently. It took a some research, but I figured out how to use case statements. I have a feeling there is a better way to increment the numbers in each row, but I haven't arrived at it yet.
+I wrote the HTML in Haml. My main goal was to generate the numbers on the calendar efficiently. It took a some research, but I figured out how to use case statements. I have a feeling there is a better way to increment the numbers in each row, but I haven't arrived at it yet.
 
 Once I had everything styled, I tackled the position of the frame. The frame slides to indicate the entire month. The last two columns, highlighted in red, are the weekends. I knew I needed to find out today's date (to understand the current month) and which day of the week the first day of the month starts. I found [JavaScript to find the first day of the month](http://stackoverflow.com/questions/13571700/get-first-and-last-date-of-current-month-with-javascript-or-jquery) for any given month or the current month. 
 
