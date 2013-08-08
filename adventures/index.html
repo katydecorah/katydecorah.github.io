@@ -15,13 +15,13 @@ title: Adventures
 <div class="pagination">
 	<p class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</p>
   {% if paginator.previous_page %}
-    <a href="page{{ paginator.previous_page }}" class="previous btn">Previous</a>
+    <a href="http://katydecorah.com/adventures/page{{ paginator.previous_page }}" class="previous btn">Previous</a>
   {% else %}
     <span class="previous btn btn-disabled">Previous</span>
   {% endif %}
   
   {% if paginator.next_page %}
-    <a href="page{{ paginator.next_page }}" class="next btn">Next</a>
+    <a href="http://katydecorah.com/adventures/page{{ paginator.next_page }}" class="next btn">Next</a>
   {% else %}
     <span class="next btn btn-disabled">Next</span>
   {% endif %}
