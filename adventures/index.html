@@ -7,7 +7,7 @@ title: Adventures
 <!-- This loops through the paginated posts -->
 <ul>
 {% for post in paginator.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> on {{ post.date | date: "%B %d, %Y" }} <span class="label label-{{ post.category }}"><i class="icon-tag">&nbsp;</i>{{ post.category }}</span></li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date | date: "%B %d, %Y" }}</span> <span class="label label-{{ post.category }}"><i class="icon-tag">&nbsp;</i>{{ post.category }}</span></li>
 {% endfor %}
 </ul>
 
