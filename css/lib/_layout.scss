@@ -6,10 +6,10 @@
 }
 
 
-
 .default-page {
+
   .navbar-inner {
-    min-height:6em;
+    //min-height:6em;
     padding:2em 0;
   }
   iframe, .pop-out {
@@ -19,37 +19,31 @@
 }
 
 .front-page {
-  .navbar {
-    background:transparentize(#222,0.2) !important;
+  background:$darkGray;
+  .header .container { 
+    max-height:100%;
+    /*position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;*/
+    z-index:0;
   }
+  .navbar-inner {padding-top:2em;}
+
 }
 
 .footer {
-  background:$yellow;
+  //background:#4d4d4d;
   margin-top:10em;
   padding:4em 0 5em;
-  color:#222;
   position:relative;
-  overflow-x:hidden;
-  &:before {
-//content: "\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE\25BE";
-font-size: 2em;
-color: #FFF;
-position: absolute;
-top: -0.7em;
-overflow:hidden;
-}
 p {
   max-width:none;
   font-size: 0.8em;
   margin-bottom:0;
 }
-a {
-  color:lighten(#222,5%); 
-  &:hover {
-    color:#222;
-  }
-}
+
 }
 .about {
   float:left;

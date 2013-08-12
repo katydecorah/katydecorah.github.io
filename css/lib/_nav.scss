@@ -2,8 +2,7 @@
 .navbar {
   background:#4d4d4d;
   position:relative;
-  z-index:1000;
-  min-height:3em;
+  z-index:10;
   .navbar-inner {
     max-width:50em;
     margin:0 auto;
@@ -25,6 +24,7 @@
     padding:0.75em 1.25em;
     display:block;
     color:#ddd;
+    /*
     &.active {
       position:relative;
       &:after {
@@ -39,6 +39,7 @@
         left: 16%;
       }
     }
+    */
     &:hover {
       color:white;
     }

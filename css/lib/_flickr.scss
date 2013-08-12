@@ -8,7 +8,7 @@ min-height: 4em;
 .flick-nav {
    position:absolute;
     right:0;
-    top: 0;
+    bottom: 0;
     .no-js & {display:none;}
   .prev, .next {
     float:left;
@@ -16,7 +16,7 @@ min-height: 4em;
     cursor:pointer;
     display:block;
     padding:0.25em 0.3em;
-    background:rgba(0,0,0,0.75);
+    background:$darkGray;
     &:hover {
       background:rgba(255,255,255,0.75);
       color:black;
@@ -27,7 +27,7 @@ min-height: 4em;
   
   a {
    
-    background:rgba(0,0,0,0.75);
+    background:$darkGray;
     color: white;
     padding:0.25em 0.5em;
     

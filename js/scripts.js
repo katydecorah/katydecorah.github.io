@@ -17,7 +17,7 @@ function flickr() {
       var inSet = json.photoset.photo.length - which;
       if (i === inSet) {
         var image = item[size];
-        $("body").css("background-image", "url(" + image + ")");
+        $(".header").css("background-image", "url(" + image + ")");
         $(".title").html("<a href='http://www.flickr.com/photos/91218249@N05/sets/72157633859537779/'> " + item.title + "</a>");
       }
       if (which === 1) {

@@ -1,7 +1,8 @@
 {% include top.html %}
 <body class="default-page {{ page.class }}">
+	{% include header.html %}
 {% include nav.html %}
-<div class="container" id="content">
+<div class="container content" id="content">
 	{% if page.title == "Resume" %}
 	{% else %}
 	<h1>{{ page.title }}</h1>
