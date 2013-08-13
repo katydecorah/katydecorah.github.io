@@ -1,6 +1,22 @@
 
+.hello {
+  //font-family:"Sacramento";
+  font-size: 1.75em;
+  padding: 0.2em 0;
+  font-weight: 400;
+  float:left;
+  margin:0 5em 0 -0.25em;
+  line-height:1.5;
+  text-transform: uppercase;
+  //color:#ddd;
+  &:hover, &::selection {
+    color:$red;
+  }
+}
+
+
 .navbar {
-  background:#4d4d4d;
+  //background:#4d4d4d;
   position:relative;
   z-index:10;
   .navbar-inner {
@@ -23,26 +39,6 @@
     text-decoration:none;
     padding:0.75em 1.25em;
     display:block;
-    color:#ddd;
-    /*
-    &.active {
-      position:relative;
-      &:after {
-        content: "";
-        width: 0;
-        height: 0;
-        position: absolute;
-        bottom: -5em;
-        border-color: transparent transparent white transparent;
-        border-width: 0 2em 1.5em 2em;
-        border-style: solid;
-        left: 16%;
-      }
-    }
-    */
-    &:hover {
-      color:white;
-    }
   }
 }
 

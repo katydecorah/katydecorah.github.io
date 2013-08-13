@@ -1,16 +1,4 @@
-.hello {
-  font-family:"Sacramento";
-  font-size: 2.5em;
-  padding: 0.2em 0;
-  font-weight: 400;
-  float:left;
-  margin:0 5em 0 0;
-  line-height:1.5;
-  color:#ddd;
-  &:hover, &::selection {
-    color:$red;
-  }
-}
+
 strong {font-weight:$fontWeight;}
 em {font-style:italic; font-family:"Merriweather Sans";font-weight:300;}
 .lead {
