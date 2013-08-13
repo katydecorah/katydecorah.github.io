@@ -88,6 +88,10 @@ p {
       color:white;
     }
   }
+  .posts-date {
+display: block;
+font-size: 0.7em;
+}
   .label {
       width: 100%;
 display: block;
@@ -100,4 +104,5 @@ left:0;
 .pager {
   clear:both;
   margin-top:1em;
+  @extend .clearfix;
 }
