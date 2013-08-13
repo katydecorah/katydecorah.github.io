@@ -3,6 +3,7 @@ layout: post
 title: Double Vision
 category: coding
 tags: CodePen
+image: http://katydecorah.com/img/double-vision.png
 ---
 
 Single element, lots of text-shadow.
