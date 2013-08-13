@@ -3,7 +3,7 @@
 <body class="post-page default-page">
 	{% include nav.html %}
 	<div class="container post" id="content">
-		<p class="breadcrumb">Adventures in {{ page.category }}</p>
+		<p class="breadcrumb"><a href="http://katydecorah.com/#adventures">Adventures</a> in {{ page.category }}</p>
 		<h1>{{ page.title }}</h1>
 		<p class="text-right"><small>{{ page.date | date: "%B %d, %Y" }}</small></p>
 		{{ content }}
