@@ -35,9 +35,11 @@
 	.posts {
 		li {
 			width:100%;
+			&:nth-child(1) {width:100%; min-height:10em;}
 		}
 	}
 }
+
 
 @media (max-width:30em){
 	h1 {text-align:center;}
