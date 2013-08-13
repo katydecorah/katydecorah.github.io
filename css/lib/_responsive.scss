@@ -1,3 +1,19 @@
+@media(max-width:69.625em) {
+	.about-me {
+		padding:1em;
+	}
+	.posts {
+		li {
+			width:49%;
+			&:nth-child(1) {
+				width:49%; 
+				min-height:10em;
+			}
+		}
+	}
+
+}
+
 @media (max-width: 56.25em) {
 	.default-page {
 		iframe { width:100% !important; margin:1em 0;}
@@ -15,33 +31,18 @@
 
 	.flick-nav {display:none;}
 
-	.profile-img {width:30%;}
-
-
-	.hello {
-		padding: 0.7em 0 0.35em;
-		margin-right:0;
-		float:none;
-		text-align:center;
-		display:block;
-	}
-	.nav {
+	.front-page {
+		.lead {margin-bottom:1em;}
+		.about-me, .all-posts {
 		width:100%;
-		display:inline-block;
-		text-align:center;
+		float:none;
+		margin:0;
+	}
+}
 
-	}
+
 	.resume strong {float:none;display:block;}
-	.posts {
-		li {
-			width:100%;
-			&:nth-child(1) {
-				width:100%; 
-				min-height:10em;
-				margin-bottom:1em;
-			}
-		}
-	}
+	
 }
 
 
