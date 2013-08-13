@@ -3,6 +3,7 @@ layout: post
 title: Forebruary
 category: coding
 tags: Sass, CodePen, JavaScript, Haml, calendar
+image: http://katydecorah.com/img/forebruary.png
 ---
 
 A few days ago I saw [Forebruary](http://ilyabirman.net/projects/forebruary/) by Ilya Birman; a calendar that doesn't need replacing! Naturally, I needed to figure this out, CodePen style.

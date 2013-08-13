@@ -35,7 +35,11 @@
 	.posts {
 		li {
 			width:100%;
-			&:nth-child(1) {width:100%; min-height:10em;}
+			&:nth-child(1) {
+				width:100%; 
+				min-height:10em;
+				margin-bottom:1em;
+			}
 		}
 	}
 }
