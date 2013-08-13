@@ -16,7 +16,7 @@ relative_permalinks: true
 
 permalink:     date
 paginate_path: "adventures/page:num"
-paginate: 7
+paginate: 9
 
 markdown:      maruku
 markdown_ext:  markdown,mkd,mkdn,md
