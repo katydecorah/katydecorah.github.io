@@ -3,6 +3,7 @@ layout: post
 title: CSS Bicycle Wheel
 category: coding
 tags: Sass, no JS
+image: http://katydecorah.com/img/bicycle-wheel.png
 ---
 
 After I showed my boyfriend the [CSS Octagon](octagon.html), he pointed out that when the octagon has no width, it looks like a bicycle wheel.
