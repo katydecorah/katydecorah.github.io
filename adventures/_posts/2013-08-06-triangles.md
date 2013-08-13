@@ -3,6 +3,7 @@ layout: post
 title: Triangles
 category: coding
 tags: Sass, Dribbble, CodePen
+image: http://katydecorah.com/img/triangles.png
 ---
 
 I've been into simple shapes lately. I found [this interesting logo](http://dribbble.com/shots/1183733-Posh-wordpress-theme-logo-design) on Dribbble and decided to try it out.
