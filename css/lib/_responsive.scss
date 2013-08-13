@@ -32,6 +32,11 @@
 
 	}
 	.resume strong {float:none;display:block;}
+	.posts {
+		li {
+			width:100%;
+		}
+	}
 }
 
 @media (max-width:30em){
