@@ -1,13 +1,5 @@
 <div class="navbar" id="nav">
 	<div class="navbar-inner">
 		<a href="{{ site.baseurl }}" class="hello">Katy DeCorah</a>
-		<ul class="nav pull-right">
-			{% if page.title == "Hello!" %}<li><a href="{{ site.baseurl }}hello" class="active">Hello</a></li>
-			{% else %}<li><a href="{{ site.baseurl }}hello">Hello</a></li>{% endif %}
-			{% if page.title == "Adventures" %}<li><a href="{{ site.baseurl }}adventures" class="active">Adventures</a></li>
-			{% elsif page.category %}<li><a href="{{ site.baseurl }}adventures" class="active">Adventures</a></li>
-			{% else %}<li><a href="{{ site.baseurl }}adventures">Adventures</a></li>{% endif %}
-			
-		</ul>
 	</div>
 </div>
