@@ -3,6 +3,7 @@ layout: post
 title: Fairytale Beginnings
 category: freelance
 tags: websites, WordPress
+image: http://katydecorah.com/img/fairytale-beginnings.png
 ---
 
 A very good friend of my recently started her own magical business in Greenwich, CT. She entertains children's birthday parties dressed as a fairytale princess. Check out [Fairytale Beginnings](http://www.fairytale-beginnings.com).

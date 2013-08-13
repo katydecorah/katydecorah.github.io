@@ -3,6 +3,7 @@ layout: post
 title: Homemade Vanilla Marshmallows
 category: baking
 tags: treats
+image: http://farm4.staticflickr.com/3761/9363184178_cac8e71d0a_c.jpg
 ---
 
 I love marshmallows. I officially love homemade marshmallows even more.

@@ -3,6 +3,7 @@ layout: post
 title: This Weekend
 category: weekending
 tags: Potter's point
+image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
 ---
 
 This weekend I visited my college roommate in Lake Placid. We walked around Mirror Lake once a day, ate delicious food, and people watched. It was refreshing!

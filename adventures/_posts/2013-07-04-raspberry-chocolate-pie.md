@@ -3,6 +3,7 @@ layout: post
 title: Raspberry Chocolate Pie
 category: baking
 tags: treats
+image: http://farm3.staticflickr.com/2820/9363187784_6237192a90_c.jpg
 ---
 
 In honor of our nation's birth I accidentally made a semi-French dessert. Hmm... well. It was good. I mean real good.

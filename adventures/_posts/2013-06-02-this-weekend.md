@@ -3,6 +3,7 @@ layout: post
 title: This Weekend
 category: weekending
 tags: [waterfall, train tunnels, pizza, whoopies pies, fire tower]
+image: http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg
 ---
 
 This weekend we woke up early and drove out to North Adams, Massachussets. We took a 20-minute muddy hike through the woods and ended up at a waterfall. 
