@@ -5,7 +5,13 @@
   @extend .clearfix;
 }
 
-
+.white-out {
+  .container {background:#fafafa;}
+  margin-top:31em;
+  width:100%;
+  height:100%;
+  @extend .clearfix;
+}
 .default-page {
 
   .navbar-inner {
@@ -124,8 +130,8 @@ display: block;
 font-size: 0.7em;
 }
   .label {
-      width: 100%;
-display: block;
+      //width: 100%;
+//display: block;
 position: absolute;
 bottom: 0;
 left:0;
