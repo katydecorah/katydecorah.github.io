@@ -1,0 +1,66 @@
+// on front page
+.posts {
+  @extend .clearfix;
+  li {
+    width:24%;
+    min-height:10em;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    position:relative;
+    margin:0.5%;
+    float:left;
+    max-width:none;
+    border-radius:0.25em;
+    &:nth-child(1) {
+      width:49%;
+      min-height:20.5em;
+    }
+  }
+  a {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:transparent;
+    padding:1em;
+    @include transition(all 0.5s linear);
+    &:hover {
+      @include transition(all 0.5s linear);
+      background:rgba(black,0.5);
+      color:white;
+    }
+  }
+  .posts-date {
+    display: block;
+    font-size: 0.7em;
+  }
+  .label {
+    position: absolute;
+    bottom: 0;
+    left:0;
+  }
+}
+
+
+// on individual post pages
+
+.post {
+  .breadcrumb {
+    margin:1em 0;
+    text-transform: uppercase;
+    font-size:0.8em;
+  }
+}
+
+.post-page {
+
+  .about-me {
+    width: 10em;
+    position: absolute;
+    left: -13em;
+    top:4em;
+    p {font-size:0.8em}
+  }
+}

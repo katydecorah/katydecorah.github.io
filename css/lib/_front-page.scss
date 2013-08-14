@@ -1,0 +1,51 @@
+
+.white-out {
+  .container {background:#fafafa;}
+  margin-top:31em;
+  width:100%;
+  height:100%;
+  @extend .clearfix;
+}
+
+.front-page {
+  h1 {
+    margin:4em 0 1em;
+    text-align: center;
+  }
+  .lead {
+    margin-bottom: 10em;
+    text-align: center;
+    max-width: none;
+
+  }
+  .container {
+    max-width:100%;
+    padding:2em;
+  }
+  .about-me {
+    width:25%;
+    float:left;
+    margin-top:4.5em;
+    padding:0 4em;
+    .social-links {
+      font-size: 2em;
+      max-width: 6em;
+      margin: 0 auto;
+    }
+  }
+  .all-posts {
+    width:75%;
+    float:left;
+  }
+  .header .container { 
+    max-height:100%;
+    /*position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;*/
+    z-index:0;
+  }
+  .navbar-inner {padding-top:2em;}
+
+}
