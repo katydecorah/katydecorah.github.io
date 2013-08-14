@@ -1,31 +1,17 @@
 {% include top.html %}
 
 <body class="post-page default-page">
-	{% include nav.html %}
-	<div class="container post" id="content">
-		<p class="breadcrumb"><a href="http://katydecorah.com/#adventures">Adventures</a> in {{ page.category }}</p>
-		<h1>{{ page.title }}</h1>
-		<p class="text-right"><small>{{ page.date | date: "%B %d, %Y" }}</small></p>
-		{{ content }}
-<hr>
-<ul class="posts">
-	{% for post in paginator.posts %}
-	<li style="{{% if post.img %}}background-image:url({{ post.image }});{{% else %}}background-color:#ddd;{{% endif %}}">
-		<a href="{% if paginator.page > 1 %}../{% endif %}..{{ post.url }}">{{ post.title }} <span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> <span class="label label-{{ post.category }}"><i class="icon-tag">&nbsp;</i>{{ post.category }}</span></a>
-	</li>
-	{% endfor %}
-</ul>
+	<div class="container" id="content">
+		<div class="about-me">
+			{% include katy.html %}
+		</div>
+		<div class="post">
+			<p class="breadcrumb"><a href="http://katydecorah.com">Katy DeCorah</a> &gt; <a href="http://katydecorah.com/#adventures">Adventures</a> in {{ page.category }}</p>
+			<h1>{{ page.title }}</h1>
+			<p><small>{{ page.date | date: "%B %d, %Y" }}</small></p>
+			{{ content }}
+		</div>
 
-<!-- Pagination links -->
-<div class="pager">
-	{% if paginator.previous_page %}
-	<a href="http://katydecorah.com/adventures/{% if paginator.previous_page == 1 %}{% else %}page{{ paginator.previous_page }}{% endif %}" class="previous"><i class="icon-arrow-left"></i></a>
-	{% endif %}
-	<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-	{% if paginator.next_page %}
-	<a href="http://katydecorah.com/adventures/page{{ paginator.next_page }}" class="next"><i class="icon-arrow-right"></i></a>
-	{% endif %}
-</div>
 
 	</div>
 

@@ -31,24 +31,24 @@
     text-align: center;
   }
   .lead {
-margin-bottom: 10em;
-text-align: center;
-max-width: none;
+    margin-bottom: 10em;
+    text-align: center;
+    max-width: none;
 
-}
+  }
   .container {
     max-width:100%;
-    padding:0 2em;
+    padding:2em;
   }
   .about-me {
     width:25%;
     float:left;
     margin-top:7em;
     .social-links {
-font-size: 2em;
-max-width: 6em;
-margin: 0 auto;
-}
+      font-size: 2em;
+      max-width: 6em;
+      margin: 0 auto;
+    }
   }
   .all-posts {
     width:75%;
@@ -69,14 +69,19 @@ margin: 0 auto;
 
 .footer {
   //background:#4d4d4d;
-  margin-top:10em;
-  padding:4em 0 5em;
+
+  padding:6em 0 5em;
   position:relative;
-p {
-  max-width:none;
-  font-size: 0.8em;
-  margin-bottom:0;
-  text-align:center;
+  p {
+    max-width:none;
+    font-size: 0.8em;
+    margin-bottom:0;
+    text-align:center;
+  }
+  .social-links {
+    i {
+    font-size:2em;
+  }
 }
 
 }
@@ -126,20 +131,31 @@ p {
     }
   }
   .posts-date {
-display: block;
-font-size: 0.7em;
-}
+    display: block;
+    font-size: 0.7em;
+  }
   .label {
       //width: 100%;
 //display: block;
 position: absolute;
 bottom: 0;
 left:0;
-    }
 }
+}
+
 
 .pager {
   clear:both;
   margin-top:1em;
   @extend .clearfix;
+}
+
+.post-page {
+
+  .about-me {
+    width: 10em;
+    position: absolute;
+    left: -13em;
+    top:4em;
+  }
 }
