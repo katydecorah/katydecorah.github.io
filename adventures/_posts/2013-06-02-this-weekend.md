@@ -2,11 +2,17 @@
 layout: post
 title: This Weekend
 category: weekending
-tags: [waterfall, train tunnels, pizza, whoopies pies, fire tower]
+tags: 
+- waterfall
+- train tunnels
+- pizza
+- whoopee pies
+- fire tower
+- Massachusetts
 image: http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg
 ---
 
-This weekend we woke up early and drove out to North Adams, Massachussets. We took a 20-minute muddy hike through the woods and ended up at a waterfall. 
+This weekend we woke up early and drove out to North Adams, Massachusetts. We took a 20-minute muddy hike through the woods and ended up at a waterfall. 
 
 <a href="http://www.flickr.com/photos/91218249@N05/8916060200/" title="Waterfall by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3683/8916060200_09b49b424e.jpg" class="img-polaroid pull-left"  alt="Waterfall"></a>
 <a href="http://www.flickr.com/photos/91218249@N05/8916078180/" title="Waterfall by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg" class="img-polaroid pull-left" alt="Waterfall"></a>
@@ -16,7 +22,7 @@ The waterfall was set in two large embankments, which were not to be easily clim
 <a href="http://www.flickr.com/photos/91218249@N05/8916070822/" title="Waterfall by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3694/8916070822_41bd0c2414.jpg" class="img-polaroid pull-left" alt="Waterfall"></a>
 <a href="http://www.flickr.com/photos/91218249@N05/8916405500/" title="Waterfall by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5464/8916405500_a3e2bb44d3.jpg" class="img-polaroid pull-left" alt="Waterfall"></a>
 
-We left to find the train tunnel. Ate lunch at a Greek pizza shop in town and enjoyed whoopie pies at a local cafe.
+We left to find the train tunnel. Ate lunch at a Greek pizza shop in town and enjoyed whoopee pies at a local cafe.
 
 <a href="http://www.flickr.com/photos/91218249@N05/8915483279/" title="Train tunnel by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7399/8915483279_1bc38d402b.jpg" class="img-polaroid pull-left" alt="Train tunnel"></a>
 <a href="http://www.flickr.com/photos/91218249@N05/8916074844/" title="Whoop Pie, Luma's in North Adams by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7351/8916074844_04c97d9f75.jpg" class="img-polaroid pull-left"  alt="Whoop Pie, Luma's in North Adams"></a>

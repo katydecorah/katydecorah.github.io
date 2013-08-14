@@ -2,7 +2,9 @@
 layout: post
 title: Double Vision
 category: coding
-tags: CodePen
+tags: 
+- CodePen
+- text-shadow
 image: http://katydecorah.com/img/double-vision.png
 ---
 

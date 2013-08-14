@@ -2,7 +2,10 @@
 layout: post
 title: Windowsill Cherry Tomatoes
 category: growing
-tags: cherry tomatoes, gardening, Albany
+tags: 
+- cherry tomatoes
+- gardening
+- Albany
 image: http://farm4.staticflickr.com/3777/9496159841_8160d1b55b_z.jpg
 ---
 

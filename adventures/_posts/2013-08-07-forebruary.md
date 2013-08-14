@@ -2,7 +2,12 @@
 layout: post
 title: Forebruary
 category: coding
-tags: Sass, CodePen, JavaScript, Haml, calendar
+tags: 
+- Sass
+- CodePen
+- JavaScript
+- Haml
+- calendar
 image: http://katydecorah.com/img/forebruary.png
 ---
 

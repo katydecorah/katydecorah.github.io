@@ -2,7 +2,9 @@
 layout: post
 title: Google Font Explorer
 category: coding
-tags: Google Fonts, CodePen
+tags: 
+- Google Fonts
+- CodePen
 image: http://katydecorah.com/img/google-font-explorer.png
 ---
 

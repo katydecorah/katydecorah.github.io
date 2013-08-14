@@ -2,7 +2,9 @@
 layout: post
 title: Coconut Thumbprint Cookies with Salted Caramel
 category: baking
-tags: Martha Stewart
+tags: 
+- cookies
+- Martha Stewart
 image: http://farm6.staticflickr.com/5336/9510513917_12c4bc3152_z.jpg
 ---
 

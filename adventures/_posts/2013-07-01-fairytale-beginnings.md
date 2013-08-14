@@ -2,7 +2,9 @@
 layout: post
 title: Fairytale Beginnings
 category: freelance
-tags: websites, WordPress
+tags: 
+- websites
+- WordPress
 image: http://katydecorah.com/img/fairytale-beginnings.png
 ---
 

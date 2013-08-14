@@ -2,7 +2,9 @@
 layout: post
 title: CSS Bicycle Wheel
 category: coding
-tags: Sass, no JS
+tags: 
+- Sass
+- no JS
 image: http://katydecorah.com/img/bicycle-wheel.png
 ---
 

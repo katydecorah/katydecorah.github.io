@@ -2,7 +2,9 @@
 layout: post
 title: This Weekend
 category: weekending
-tags: Potter's point
+tags: 
+- Potter's Point
+- fresh air
 image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
 ---
 

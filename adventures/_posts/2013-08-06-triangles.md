@@ -2,7 +2,10 @@
 layout: post
 title: Triangles
 category: coding
-tags: Sass, Dribbble, CodePen
+tags: 
+- Sass
+- Dribbble
+- CodePen
 image: http://katydecorah.com/img/triangles.png
 ---
 

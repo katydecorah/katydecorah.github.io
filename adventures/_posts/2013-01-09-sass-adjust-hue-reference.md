@@ -2,7 +2,9 @@
 layout: post
 title: Sass Adjust-Hue Reference
 category: coding
-tags: Sass, CodePen
+tags: 
+- Sass
+- CodePen
 image: http://katydecorah.com/img/sass-adjust-hue.png
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: Raspberry Chocolate Pie
 category: baking
-tags: treats
+tags:
+- pie
+- Martha Stewart
 image: http://farm3.staticflickr.com/2820/9363187784_6237192a90_c.jpg
 ---
 
