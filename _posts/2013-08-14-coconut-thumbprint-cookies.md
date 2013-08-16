@@ -8,7 +8,7 @@ tags:
 image: http://farm6.staticflickr.com/5336/9510513917_12c4bc3152_z.jpg
 ---
 
-I found this recipe on a late night Pinterest binge. You know the one. The kind of binge where you can't keep your eyes open, yet you keep scrolling.
+I found this recipe on a late night Pinterest binge. I'm convinced people only post delicious treats at night time to enduce stomach howling.
 
 This recipe was easy, but time consuming. You have to roll each cookie into a 1.25" ball and then bread with coconut. And then you have to press a thumbprint in each. I found that the bottom of a 1/4 teaspoon did a much better job than my thumb. The teaspon came in handy as halfway through baking time, you need to repress all of the thumbprints. 
 
