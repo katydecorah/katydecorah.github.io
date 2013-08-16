@@ -5,6 +5,9 @@
 			margin-left:13em;
 		}
 	}
+	.default-page {
+		iframe { width:90% !important; margin:1em 0;}
+	}
 }
 
 @media(max-width:69.625em) {
@@ -24,10 +27,10 @@
 }
 
 @media (max-width: 56.25em) {
-	.default-page {
+	
+.default-page {
 		iframe { width:100% !important; margin:1em 0;}
 	}
-
 	.post-page {
 		.container {
 			max-width:100%;

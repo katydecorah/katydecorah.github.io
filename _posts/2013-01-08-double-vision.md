@@ -5,6 +5,8 @@ category: coding
 tags: 
 - CodePen
 - text-shadow
+- Sass
+- Slim
 image: http://katydecorah.com/img/double-vision.png
 ---
 
