@@ -21,10 +21,8 @@
 
 
 .footer {
-  //background:#4d4d4d;
-
-  padding:6em 0 5em;
   position:relative;
+  
   p {
     max-width:none;
     font-size: 0.8em;
@@ -32,6 +30,7 @@
     text-align:center;
   }
   .social-links {
+    margin:4em 0;
     i {
     font-size:2em;
   }

@@ -1,3 +1,12 @@
+@media(max-width:78em) {
+	.post-page {
+		.container {
+			max-width:100%;
+			margin-left:13em;
+		}
+	}
+}
+
 @media(max-width:69.625em) {
 	.about-me {
 		padding:1em;
@@ -18,12 +27,22 @@
 	.default-page {
 		iframe { width:100% !important; margin:1em 0;}
 	}
+
+	.post-page {
+		.container {
+			max-width:100%;
+			margin-left:0;
+			.about-me {
+				position:relative;
+				top:0;
+				left:0;
+				width:100%;
+			}
+		}
+	}
 }
 
 @media (max-width: 50em) {
-	html {
-		background-position:bottom;
-	}
 	.container {
 		max-width:100%;
 		padding:0 1em;

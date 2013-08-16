@@ -26,10 +26,14 @@
     color:transparent;
     padding:1em;
     @include transition(all 0.5s linear);
-    &:hover {
+    &:hover{
       @include transition(all 0.5s linear);
       background:rgba(black,0.5);
       color:white;
+      .label {
+        @include opacity(1);
+        @include transition(all 0.5s linear);
+      }
     }
   }
   .posts-date {
@@ -40,6 +44,8 @@
     position: absolute;
     bottom: 0;
     left:0;
+    @include opacity(0);
+    @include transition(all 0.5s linear);
   }
 }
 
