@@ -37,7 +37,7 @@ Then I applied a clear on the first item in each row to be sure my rows remain a
 
 As before, I spun out 500 list items in Haml. I styled each item the same. All items have a ::before pseduo element that draws the circle. I absolutely positioned the circle to fit between each square.
 
-I gave the list `margin: 0 -1em` and hid the overflow on the body. I wanted the illusion to completely fill the page.
+I gave the list `margin: 0 -1em;` and hid the overflow on the body. I wanted the illusion to completely fill the page.
 
 Super simple to style and makes you want to barf after a few minues. A success!(?)
 
