@@ -74,4 +74,13 @@
 	.profile-img {width:50%; margin:1em auto;display:block;}
 	.pull-left, .pull-right {float:none !important;}
 	.header {display:none}
+
+	.posts {
+		li {
+			width:100%;
+			&:nth-child(1) {
+				width:100%; 
+			}
+		}
+	}
 }

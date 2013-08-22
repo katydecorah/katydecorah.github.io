@@ -20,9 +20,12 @@
 	p, li {font-family:"Merriweather Sans"}
 	strong {
 		float:right;
+		margin-right:10em;
 		font-weight:300;
 		font-size:0.9em;
+		display:block;
 	}
+
 	p {
 		max-width:none;
 		margin-bottom: 0.5em; 

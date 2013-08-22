@@ -14,22 +14,22 @@ class: resume
 ## Relevant Experience
 
 ### Professional Development Program, Research Foundation at SUNY
-*Instructional Designer*					**January 2011&ndash;present**
-* Design and develop responsive and accessible trainings with HTML, CSS, jQuery, and ColdFusion.
+*Instructional Designer, Sr. Education Specialist* **January 2011&ndash;present**
+* Design and develop responsive and accessible trainings using HTML, CSS, jQuery, and ColdFusion.
 * Maintain TrainingSpace with accessibility, performance, and cross browser/device testing.
 * Redesigned TrainingSpace by building a custom content management system.
 * Developed data collection methods and a custom analytics dashboard used for report generation.
 * Provide user support and troubleshoot technical issues for TrainingSpace.
 
 ### Informatics Department, University at Albany
-*Adjunct Professor*						**September 2011&ndash;present**
+*Adjunct Professor* **September 2011&ndash;present**
 * Instructed Web Development (IIST 361) and Intermediate Web Development (IINF 362).
 * Developed an adaptive curriculum based on changing best practices.
 * Developed a course management tool as an alternative to Blackboard.
 
 ### IntelliSites
-*Web Design Intern*						**January 2011&ndash;May 2011**
-* Designed interfaces and built websites for clients with HTML, CSS, and jQuery.
+*Web Design Intern* **January 2011&ndash;May 2011**
+* Designed interfaces and built websites for clients using HTML, CSS, and jQuery.
 * Performed content and design updates to existing websites.
 
 ## Languages
@@ -54,13 +54,13 @@ Bachelors of Arts, History, May 2009, cum laude
 ## Other Experience
 
 ### Social Robotics Workshop
-*Workshop Leader*							**Summer 2010&ndash;present**
-* Co-developed a robotics workshop to encourage children to pursue careers in computing.
-* Presented workshop to groups, conferences, and camps throughout the northeast.
+*Workshop Leader* **Summer 2010&ndash;present**
+* Contributed to a robotics workshop to encourage children to pursue careers in computing.
+* Present workshop to groups, conferences, and camps throughout the northeast.
 * Designed website and printed materials.
 
 ### Student Center, College of Computing & Information, University at Albany
-*Assistant Director*				**September 2011&ndash;January 2013**
+*Assistant Director* **September 2011&ndash;January 2013**
 * Organized events and programs by applying for grants, creating surveys, and writing reports.
 * Administered the College's social media presence.
 

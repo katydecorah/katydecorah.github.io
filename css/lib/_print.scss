@@ -13,6 +13,7 @@
  		h1 {
  			padding-top:0;
  			text-align:left;
+ 			font-size:2.5em;
  		}
 
  		ul {margin-bottom:0;}
@@ -22,14 +23,17 @@
  		h2 {clear:both;}
  		h3 {margin:1em 0 0;}
 
+ 		strong {
+ 			display:inline-block;
+ 			float:none;
+ 			margin:0 0 0 3em;
+ 		}
+
+ 		//strong {margin-left:5em !important;}
+
  		p { 
  			max-width:none;
  			margin-bottom:0.25em;
- 		}
-
- 		strong {
- 			float:right; 
- 			font-size:1em;
  		}
 
  		ul {clear:both;}
@@ -58,19 +62,6 @@
  			}
 
  		}
-
- 		/* 
- 		h2:nth-of-type(4) {
- 			border-top:none;
- 			&:before {
- 				content:"Katy DeCorah";
- 				display:block;
- 				height:5em;
- 				border-bottom:0.1em solid #222;
- 				color:#ddd;
- 			}
- 		}
- 		*/
 
  		ul:nth-of-type(4), ul:nth-of-type(5) {
  			display:none;
