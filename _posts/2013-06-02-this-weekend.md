@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This Weekend
+title: This Weekend in Western Mass
 category: weekending
 tags: 
 - waterfall
@@ -8,7 +8,7 @@ tags:
 - pizza
 - whoopee pies
 - fire tower
-- Massachusetts
+- North Adams, Massachusetts
 image: http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg
 ---
 

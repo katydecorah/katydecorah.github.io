@@ -1,10 +1,11 @@
 ---
 layout: post
-title: The Snow Hole
+title: This Weekend at the Snow Hole
 category: weekending
 tags: 
 - hiking
 - fresh air
+- Taconic Mountains
 image: http://farm4.staticflickr.com/3809/9110227939_78d3fcd71f_n.jpg
 ---
 

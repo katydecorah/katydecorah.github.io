@@ -1,10 +1,11 @@
 ---
 layout: post
-title: This Weekend
+title: This Weekend in Moreau
 category: weekending
 tags: 
 - Potter's Point
 - fresh air
+- Moreau, NY
 image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
 ---
 
