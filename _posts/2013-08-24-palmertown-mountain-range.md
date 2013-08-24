@@ -6,7 +6,7 @@ tags:
  - hiking
  - Moreau Lake State Park
  - fresh air
-image:
+image: http://farm3.staticflickr.com/2891/9583836201_fdbae467f0_c.jpg
 ---
 
 We woke up early and drove up to Moreau Lake State Park for a hike.
