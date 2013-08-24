@@ -53,7 +53,6 @@
 // on individual post pages
 
 .post {
-  margin-bottom:10em;
   h1 {max-width:25em;}
   .breadcrumb {
     margin:1em 0;
@@ -64,11 +63,11 @@
 
 .post-page {
 
-  .about-me {
+  .side {
     width: 10em;
     position: absolute;
     left: -13em;
-    top:4em;
+    top:7em;
     padding:0 1%;
     p {font-size:0.8em}
   }
