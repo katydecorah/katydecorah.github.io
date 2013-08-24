@@ -1,19 +1,19 @@
+//1248px
 @media(max-width:78em) {
+	
 	.post-page {
 		.container {
 			max-width:100%;
 			margin-left:13em;
 		}
-	}
-	.default-page {
 		iframe { width:90% !important; margin:1em 0;}
 	}
+
 }
 
-@media(max-width:69.625em) {
-	.about-me {
-		padding:1em;
-	}
+//1100px
+@media(max-width:68.75em){
+
 	.posts {
 		li {
 			width:49%;
@@ -26,61 +26,70 @@
 
 }
 
+
+
+
+//900px
 @media (max-width: 56.25em) {
-	
-.default-page {
-		iframe { width:100% !important; margin:1em 0;}
-	}
-	.post-page {
-		.container {
-			max-width:100%;
-			margin-left:0;
-			.about-me {
-				position:relative;
-				top:0;
-				left:0;
-				width:100%;
-			}
-		}
-	}
-}
-
-@media (max-width: 50em) {
-	.container {
-		max-width:100%;
-		padding:0 1em;
-	}
-
-	.flick-nav {display:none;}
 
 	.front-page {
-		.lead {margin-bottom:1em;}
 		.about-me, .all-posts {
-		width:100%;
-		float:none;
-		margin:0;
+			width:100%;
+		}
 	}
+
+	.post-page {
+		.about-me, .post {
+			width:100%;
+			position:relative;
+			top:0;
+			left:0;
+		}
+		.about-me {
+			.profile-img {float:left;}
+			p {max-width:none;}
+		}
+		.container {
+			max-width: 100%;
+			margin:0;
+			padding: 2em;
+		}
+		iframe { width:100% !important; margin:1em 0;}
+	}
+
 }
 
-
-	.resume strong {float:none;display:block;}
-	
-}
-
-
+//480px;
 @media (max-width:30em){
+	
 	.white-out {margin-top:0;}
 	h1 {text-align:center;}
+	
 	.profile-img {width:50%; margin:1em auto;display:block;}
 	.pull-left, .pull-right {float:none !important;}
 	.header {display:none}
 
-	.posts {
-		li {
-			width:100%;
-			&:nth-child(1) {
-				width:100%; 
+	.front-page {
+		h1 {margin:1em auto;}
+		.lead {margin:1em auto;}
+		.about-me {
+			.text-right {text-align:center;}
+		}
+
+		.posts {
+			li {
+				width:100%;
+				&:nth-child(1) {
+					width:100%; 
+				}
 			}
 		}
 	}
+	.post-page {
+		.about-me {
+			.profile-img {float:none;}
+			p {float:none;}
+		}
+	}
 }
+
