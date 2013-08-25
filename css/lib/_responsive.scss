@@ -33,7 +33,7 @@
 @media (max-width: 56.25em) {
 
 	.front-page {
-		.about-me, .all-posts {
+		.all-posts {
 			width:100%;
 		}
 	}
@@ -58,6 +58,20 @@
 		}
 		iframe { width:100% !important; margin:1em 0;}
 	}
+	.footer {
+		.profile{
+			float:none;
+			width:100%;
+			padding:0;
+			p {margin: 0 0 1em;}
+		}
+		.profile-img {
+			float:none;
+			width:50%;
+			margin:1em auto;
+			display:block;
+		}
+	}
 
 }
 
@@ -67,16 +81,15 @@
 	.white-out {margin-top:0;}
 	h1 {text-align:center;}
 	
-	.profile-img {width:50%; margin:1em auto;display:block;}
 	.pull-left, .pull-right {float:none !important;}
 	.header {display:none}
+
 
 	.front-page {
 		h1 {margin:1em auto;}
 		.lead {margin:1em auto;}
-		.about-me {
-			.text-right {text-align:center;}
-		}
+		
+
 
 		.posts {
 			li {

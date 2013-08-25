@@ -19,19 +19,37 @@
 }
 
 
+.post-page .footer {
+  margin-top:5em;
+}
 
 .footer {
   position:relative;
-  padding-bottom:3em;
+  background:#222;
+  padding:5em 0;
+  color:#ebebeb;
+  .container {
+    max-width:70em !important; 
+    margin:0 auto;
+  }
+  .colophon {margin-top:2em;}
+
+  .profile-img {
+    float:left;
+    width:25%;
+    border-radius:100%;
+  }
+  .profile {
+    float:left;
+    width:73%;
+    padding:0 1%;
+  }
   
   p {
-    max-width:none;
-    font-size: 0.8em;
-    margin-bottom:0;
-    text-align:center;
+    margin: 0 0 1em 5em;
+
   }
   .social-links {
-    margin:6em 0;
     i {
     font-size:2em;
   }

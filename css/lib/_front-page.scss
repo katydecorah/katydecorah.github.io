@@ -1,11 +1,12 @@
 
-.white-out {
-  .container {background:#fafafa;}
+.white-out .content {
+    background:#fafafa;
   margin-top:27em;
   width:100%;
   height:100%;
   @extend .clearfix;
 }
+
 
 .front-page {
   h1 {
@@ -34,8 +35,8 @@
     }
   }
   .all-posts {
-    width:75%;
-    float:left;
+    //width:75%;
+    //float:left;
   }
   .header .container { 
     max-height:100%;
