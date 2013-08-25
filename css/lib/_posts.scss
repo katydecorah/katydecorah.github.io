@@ -3,7 +3,7 @@
   @extend .clearfix;
   li {
     width:24%;
-    min-height:10em;
+    min-height:15em;
     background-repeat:no-repeat;
     background-size:100%;
     background-position:center;
@@ -14,7 +14,7 @@
     border-radius:0.25em;
     &:nth-child(1) {
       width:49%;
-      min-height:20.5em;
+      min-height:30.5em;
     }
   }
   a {
