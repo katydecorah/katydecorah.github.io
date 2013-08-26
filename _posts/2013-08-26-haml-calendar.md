@@ -7,7 +7,7 @@ tags:
  - Haml
  - Ruby
  - Sass
-image: 
+image: http://katydecorah.com/img/haml-calendar.png
 ---
 
 I'm still new to Haml and Ruby, but I've really enjoyed what I've learned so far. I was looking through the Haml docs, when I found the ability to print out the date. My gears started spinning - why not create a calendar?
