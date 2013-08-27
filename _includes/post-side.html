@@ -1,7 +1,7 @@
 <p class="text-right side-heading">{{ page.date | date: "%B %d, %Y" }}</p>
 <p class="text-right small">
 	{% for tag in page.tags %}
-	<a href="http://katydecorah.com/categories/#{{ tag | downcase | replace:' ','_'}}"><span class="label label-{{ page.category }}">{{ tag }}</span></a>
+	<a href="http://katydecorah.com/categories/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>
 	{% endfor %}
 </p>
 <hr>
@@ -16,10 +16,10 @@
 {% if post.title == page.title %}
 {% unless forloop.last %}
 {% assign next = catg_posts[forloop.index] %}
-	<p class="small text-right"><a href="{{ next.url }}">&larr; {{ next.title }}</a></p>
+<p class="small text-right"><a href="{{ next.url }}">&larr; {{ next.title }}</a></p>
 {% endunless %}
 {% unless forloop.first %}
-	<p class="small text-right"><a href="{{ prev.url }}">{{ prev.title }} &rarr;</a></p>
+<p class="small text-right"><a href="{{ prev.url }}">{{ prev.title }} &rarr;</a></p>
 {% endunless %}
 {% endif %}
 {% assign prev = post %}
