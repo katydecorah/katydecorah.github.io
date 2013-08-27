@@ -61,6 +61,7 @@
   }
 }
 
+
 .post-page {
 
   .side {
@@ -69,6 +70,15 @@
     left: -13em;
     top:7em;
     padding:0 1%;
+
     p {font-size:0.8em}
+    .side-heading {
+      font-size:1em;
+    }
+    hr {
+      width: 60%;
+      float: right;
+      @extend .clearfix;
+    }
   }
 }
