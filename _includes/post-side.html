@@ -1,6 +1,6 @@
 <p class="text-right">{{ page.date | date: "%B %d, %Y" }}</p>
 <p class="text-right small">
 	{% for tag in page.tags %}
-	<span class="label label-{{ page.category }}">{{ tag }}</span>
+	<a href="http://katydecorah.com/categories/#{{ tag | downcase | replace:' ','_'}}"><span class="label label-{{ page.category }}">{{ tag }}</span></a>
 	{% endfor %}
 </p>
