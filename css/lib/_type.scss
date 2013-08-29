@@ -6,6 +6,7 @@ em {font-style:italic;}
 h1, h2, h3 {
   margin:1em 0 0.5em;
   line-height:1.4;
+  font-weight:bold;
   small {
     font-size:0.6em;
     color:lighten(#333,10%);
@@ -15,7 +16,6 @@ h1, h2, h3 {
 
 h1 {
   font-size:1.4em;
-  text-transform:uppercase;
   padding-top:1em;
 }
 
