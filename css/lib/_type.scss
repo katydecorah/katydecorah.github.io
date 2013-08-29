@@ -1,25 +1,17 @@
-
-strong {font-weight:$fontWeight;}
-em {font-style:italic; font-family:"Merriweather Sans";font-weight:300;}
+strong {font-weight:bold;}
+em {font-style:italic;}
 .lead {
   margin-bottom:10em;
 }
 h1, h2, h3 {
   margin:1em 0 0.5em;
   line-height:1.4;
-  font-weight:$fontWeight;
   small {
     font-size:0.6em;
     color:lighten(#333,10%);
   }
 }
-/*h1 {
-  font-size:4em;
-  small {
-    font-size:0.5em;
-  }
-}
-*/
+
 
 h1 {
   font-size:1.4em;
