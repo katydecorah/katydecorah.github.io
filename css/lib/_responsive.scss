@@ -33,6 +33,7 @@
 @media (max-width: 56.25em) {
 
 	.front-page {
+		h1 {font-size:2em;}
 		.all-posts {
 			width:100%;
 		}
@@ -87,7 +88,6 @@
 //480px;
 @media (max-width:30em){
 	
-	.white-out .content {margin-top:0;}
 	h1 {text-align:center;}
 	
 	.pull-left, .pull-right {float:none !important;}
@@ -95,7 +95,10 @@
 
 
 	.front-page {
-		h1 {margin:1em auto;}
+		h1 {
+			margin:1em auto;
+			font-size:1.5em;
+		}
 		.lead {margin:1em auto;}
 		
 
@@ -103,6 +106,7 @@
 		.posts {
 			li {
 				width:100%;
+				min-height:15em;
 				&:nth-child(1) {
 					width:100%; 
 				}

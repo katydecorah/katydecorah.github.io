@@ -3,18 +3,18 @@
   @extend .clearfix;
   li {
     width:24%;
-    min-height:15em;
+    padding-bottom: 24%;
     background-repeat:no-repeat;
-    background-size:100%;
+    background-size:cover;
     background-position:center;
     position:relative;
     margin:0.5%;
     float:left;
     max-width:none;
-    border-radius:0.25em;
+    //border-radius:0.25em;
     &:nth-child(1) {
       width:49%;
-      min-height:30.5em;
+      padding-bottom: 49%;
     }
   }
   a {
