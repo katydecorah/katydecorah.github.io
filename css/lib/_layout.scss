@@ -23,44 +23,8 @@
   margin-top:15em;
 }
 
-.footer {
-  position:relative;
-  background:#222;
-  padding:10em 0;
-  color:#ebebeb;
-  .container {
-    max-width:70em !important; 
-    margin:0 auto;
-  }
-  .colophon {
-    margin:2em 0 0 6em;
-    padding-top:2em;
-    border-top:0.1em solid rgba(white,0.1);
-    font-size:0.8em;
-  }
 
-  .profile-img {
-    float:left;
-    width:25%;
-    border-radius:100%;
-  }
-  .profile {
-    float:left;
-    width:73%;
-    padding:0 1%;
-  }
-  
-  p {
-    margin: 0 0 1em 5em;
 
-  }
-  .social-links {
-    i {
-    font-size:2em;
-  }
-}
-
-}
 .about {
   float:left;
   margin-right:1em;
