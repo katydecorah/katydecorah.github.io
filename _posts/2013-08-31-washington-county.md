@@ -13,11 +13,11 @@ Mom and I went on a Washington County/Vermont adventure today.
 
 <img src="../../../../img/2013-08-31-map.png" width="300">
 
-Old cemetery in Argyle, NY
+## Argyle, NY
 
 <a href="http://www.flickr.com/photos/91218249@N05/9637740279/" title="Washington County by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2878/9637740279_a6f70ebedd_c.jpg" width="800" alt="Washington County"></a>
 
-Cossayuna Lake
+## Cossayuna Lake
 
 <a href="http://www.flickr.com/photos/91218249@N05/9637747745/" title="Washington County by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5470/9637747745_b5989c4710_c.jpg" width="400" alt="Washington County"></a>
 <a href="http://www.flickr.com/photos/91218249@N05/9640986104/" title="Washington County by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2878/9640986104_1a6274ee92_c.jpg" width="400" alt="Washington County"></a>
@@ -25,7 +25,7 @@ Cossayuna Lake
 
 <a href="http://www.flickr.com/photos/91218249@N05/9640987334/" title="Washington County by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5498/9640987334_81452d79e3_c.jpg" width="800" alt="Washington County"></a>
 
-Hebron, NY
+## Hebron, NY
 
 <a href="http://www.flickr.com/photos/91218249@N05/9640990302/" title="Washington County by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5532/9640990302_827d1982fc_c.jpg" width="400" alt="Washington County"></a>
 
@@ -35,13 +35,13 @@ Hebron, NY
 
 <a href="http://www.flickr.com/photos/91218249@N05/9637759135/" title="Washington County by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7353/9637759135_4c2076a44d_c.jpg" width="400" alt="Washington County"></a>
 
-Rexleigh Bridge in Shushan, NY
+## Rexleigh Bridge in Shushan, NY
 
 <a href="http://www.flickr.com/photos/91218249@N05/9640995748/" title="Washington County by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2883/9640995748_1ef8807155_c.jpg" width="512" alt="Washington County"></a>
 
 <a href="http://www.flickr.com/photos/91218249@N05/9640997512/" title="Washington County by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5508/9640997512_4d46d93e11_c.jpg" width="288" alt="Washington County"></a>
 
-Rupert, VT/Salem, NY
+## Rupert, VT/Salem, NY
 
 <a href="http://www.flickr.com/photos/91218249@N05/9637763745/" title="Washington County by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5496/9637763745_235a81196b_c.jpg" width="400" alt="Washington County"></a>
 
