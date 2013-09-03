@@ -8,6 +8,7 @@
 	border-radius:0 0 0 0.25em;
 	margin:0.2em;
 }
+a.label:hover {color:black;}
 
 .label-baking {
 	background:transparentize(adjust-hue($blue,100deg),0.5);
