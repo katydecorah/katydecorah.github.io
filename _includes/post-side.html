@@ -1,26 +1,29 @@
-<p class="text-right side-heading">{{ page.date | date: "%B %d, %Y" }}</p>
-<p class="text-right small">
-	{% for tag in page.tags %}
-	<a href="http://katydecorah.com/categories/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>
-	{% endfor %}
-</p>
-<hr>
-<p class="text-right side-heading">Similiar</p>
 {% for category in site.categories %}
-{% assign catg_name = category.first %}
-{% if catg_name == page.category %}
-{% assign catg_posts = category.last %}
-{% endif %}
+  {% assign catg_name = category.first %}
+  {% if catg_name == page.category %}
+    {% assign catg_posts = category.last %}
+  {% endif %}
 {% endfor %}
+
 {% for post in catg_posts %}
-{% if post.title == page.title %}
-{% unless forloop.last %}
-{% assign next = catg_posts[forloop.index] %}
-<p class="small text-right"><a href="{{ next.url }}">&larr; {{ next.title }}</a></p>
-{% endunless %}
-{% unless forloop.first %}
-<p class="small text-right"><a href="{{ prev.url }}">{{ prev.title }} &rarr;</a></p>
-{% endunless %}
-{% endif %}
-{% assign prev = post %}
+	{% if post.title == page.title %}
+		{% unless forloop.last %}
+			{% assign prev = catg_posts[forloop.index] %}
+				<a href="{{ prev.url }}" class="prev-next text-left">&larr; {{ prev.title }} <img src="{{ prev.image }}"></a>
+		{% endunless %}
+
+	{% endif %}
+	{% assign next = post %}
+{% endfor %}
+
+
+{% for post in catg_posts %}
+	{% if post.title == page.title %}
+		
+
+		{% unless forloop.first %}
+				<a href="{{ next.url }}" class="prev-next text-right">{{ next.title }} &rarr; <img src="{{ next.image }}"></a>
+		{% endunless %}
+	{% endif %}
+	{% assign next = post %}
 {% endfor %}

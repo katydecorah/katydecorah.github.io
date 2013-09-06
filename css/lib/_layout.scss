@@ -5,6 +5,11 @@
   @extend .clearfix;
 }
 
+.post-page {
+  .container {
+    max-width:35em;
+  }
+}
 
 .default-page {
 
@@ -12,10 +17,7 @@
     //min-height:6em;
     padding:2em 0;
   }
-  iframe, .pop-out {
-    margin: 1em -10% 1em 0;
-    width: 110% !important;
-  }
+  
 }
 
 

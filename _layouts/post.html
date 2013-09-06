@@ -2,13 +2,29 @@
 <body class="post-page default-page">
 	<div class="container" id="content">
 		<div class="post">
-			<p class="breadcrumb" id="nav"><a href="http://katydecorah.com/" class="salutation">Katy DeCorah</a> &gt; <a href="http://katydecorah.com/#adventures">Adventures</a> in <a href="http://katydecorah.com/categories/#{{ page.category | downcase }}">{{ page.category }}</a></p>
-			<h1>{{ page.title }}</h1>
+
+			<h1 class="text-center">{{ page.title }}</h1>
+			<p class="post-type"><a href="http://katydecorah.com/#adventures">Adventures</a> in <a href="http://katydecorah.com/categories/#{{ page.category | downcase }}">{{ page.category }}</a></p>
+
+			<div class="post-meta tk-old-standard">
+				<p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+				
+			</div>
+
 			{{ content }}
+			<div class="find-similar-posts">
+				<div class="tags">
+					{% for tag in page.tags %}
+					<a href="http://katydecorah.com/categories/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>
+					{% endfor %}
+				</div>
+				<div class="post-prev-next">
+					{% include post-side.html %}
+				</div>
+
+			</div>
 		</div>
-		<div class="side">
-			{% include post-side.html %}
-		</div>
+
 	</div>
 	{% include footer.html %}
 	{% if page.category == "coding" %}
@@ -17,3 +33,4 @@
 	{% include end.html %}
 </body>
 </html>
+

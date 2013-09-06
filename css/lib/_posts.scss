@@ -53,32 +53,95 @@
 // on individual post pages
 
 .post {
-  h1 {max-width:25em;}
-  .breadcrumb {
-    margin:1em 0;
-    vertical-align:middle;
+  h1 {
+    font-style:italic;
+    font-size:2.5em;
+    margin:1em 0 1.5em;
+    text-align:center;
   }
+  p {
+    text-align:justify;
+  }
+
+  .post-date {
+    text-align: right;
+    font-style: italic;
+  }
+  .post-type {
+    text-align:center;
+    text-transform: uppercase;
+    font-size:0.8em;
+    max-width:none;
+    margin:1em 0 5em;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    padding:0.7em 0;
+  }
+
 }
 
+.post-mast {
+min-height: 15em;
+background-size: 100%;
+display: block;
+width: 150%;
+margin:0 -25%;
+background-position: center;
+}
 
 .post-page {
 
-  .side {
+  .post-masthead {
+    display: block;
+margin: 0 auto;
+}
+
+  .post-side {
     width: 10em;
     position: absolute;
-    left: -13em;
-    top:7em;
     padding:0 1%;
-
-    p {font-size:0.8em}
-    .side-heading {
-      font-size:1em;
-      clear:both;
+    top:16em;
+  }
+  .post-side-left {
+    left: -15em;
+  }
+  .post-side-right {
+    right: -15em;
+  }
+  .prev-next {
+    @include opacity(0.5);
+    &:hover {
+      @include opacity(1);
     }
-    hr {
-      width: 60%;
-      float: right;
-      @extend .clearfix;
+  }
+
+  .find-similar-posts {
+    border-top:1px solid #ddd;
+    padding:2em 0 1em;
+    margin:3em 0 0;
+    text-align: center;
+    .tags {
+      margin-bottom:5em;
+    }
+    .prev-next {
+      display:block;
+      float: left;
+      width:50%;
+      img {max-height:10em;}
     }
   }
 }
+
+iframe, .pop-out {
+  margin: 2em -25% 1em;
+  display:block;
+  max-width:none;
+  width: 150% !important;
+}
+
+
+
+.img-half {width:50%;}
+.img-thirds {width:33.33%}
+.img-fourths {width:25%}
+
