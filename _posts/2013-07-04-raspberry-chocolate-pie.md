@@ -19,6 +19,6 @@ Ok, it was time consuming. The crust is a Chocolate Pate Sucree, an ingredient t
 <a href="http://www.flickr.com/photos/91218249@N05/9360411037/" title="Raspberry Ganache Pie by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3706/9360411037_abc6fa513b.jpg" class="img-thirds" alt="Raspberry Ganache Pie"></a>
 
 
-<a href="http://www.flickr.com/photos/91218249@N05/9363187784/" title="Raspberry Ganache Pie by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2820/9363187784_6237192a90_c.jpg" alt="Raspberry Ganache Pie"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9363187784/" title="Raspberry Ganache Pie by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2820/9363187784_6237192a90_c.jpg" alt="Raspberry Ganache Pie" class="pop-out"></a>
 
 [Raspberry Chocolate Pie recipe](http://www.marthastewart.com/354896/raspberry-chocolate-pie)

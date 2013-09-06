@@ -29,7 +29,7 @@ We left to find the train tunnel. Ate lunch at a Greek pizza shop in town and en
 
 On the way home, we climbed the Grafton fire tower. The view was spectacular.
 
-<a href="http://www.flickr.com/photos/91218249@N05/8915478669/" title="Fire Tower, Grafton NY by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3709/8915478669_ffc6d100aa_c.jpg" alt="Fire Tower, Grafton NY"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/8915478669/" title="Fire Tower, Grafton NY by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3709/8915478669_ffc6d100aa_c.jpg" alt="Fire Tower, Grafton NY" class="pop-out"></a>
 
 On Sunday, I visited my parents. My mom and I went on a utility trail off of Blanchard Road in Wilton, NY. Toward the end, we found a trail into the woods (unadorned with POSTED signs).
 

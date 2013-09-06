@@ -19,5 +19,6 @@ Logic would tell you not to press your bare thumb into dough straight out of the
 <a href="http://www.flickr.com/photos/91218249@N05/9513301258/" title="Coconut thumbprint cookies with salted caramel. by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3699/9513301258_50b600c421_m.jpg" class="img-thirds" alt="Coconut thumbprint cookies with salted caramel."></a>
 
 
-<a href="http://www.flickr.com/photos/91218249@N05/9510513917/" title="Coconut thumbprint cookies with salted caramel. by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5336/9510513917_12c4bc3152_z.jpg"  alt="Coconut thumbprint cookies with salted caramel."></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9510513917/" title="Coconut thumbprint cookies with salted caramel. by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5336/9510513917_12c4bc3152_z.jpg"  alt="Coconut thumbprint cookies with salted caramel." class="pop-out"></a>
+
 [Coconut thumbprint cookies with salted caramel recipe](http://www.marthastewart.com/874528/coconut-thumbprint-cookies-salted-caramel)

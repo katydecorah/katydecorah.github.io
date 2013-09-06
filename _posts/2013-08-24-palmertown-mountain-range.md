@@ -19,7 +19,7 @@ We parked on Spier Falls road, at the bottom of the map just before where the Hu
 
 The first scenic overlook (and our favorite):
 
-<a href="http://www.flickr.com/photos/91218249@N05/9583833497/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7347/9583833497_0171fe8688_c.jpg"  alt="Palmertown Mountain Range"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9583833497/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7347/9583833497_0171fe8688_c.jpg"  alt="Palmertown Mountain Range" class="pop-out"></a>
 
 The next stop was the overlook of the Spier Falls Dam:
 
