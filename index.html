@@ -6,11 +6,18 @@ title: Hi, I'm Katy DeCorah.
 	<p>These are my adventures.</p>
 </div>
 
+<div class="labels">
+	<span class="label active">all</span>
+{% for category in site.categories %}
+<span class="label label-{{ category[0] }}">{{ category[0] }}</span>
+{% endfor %}
+</div>
+
 <div class="all-posts" id="adventures">
 	<ul class="posts">
 		{% for post in site.posts %}
 
-		<li style="{{% if post.img %}}background-image:url({{ post.image }});{{% else %}}background-color:#ddd;{{% endif %}}">
+		<li style="{{% if post.img %}}background-image:url({{ post.image }});{{% else %}}background-color:#ddd;{{% endif %}}" data-category="{{ post.category }}">
 			<a href="{{ post.url }}">{{ post.title }} <span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> <span class="label label-{{ post.category }}">{{ post.category }}</span></a>
 		</li>
 
