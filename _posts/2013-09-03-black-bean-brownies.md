@@ -2,18 +2,19 @@
 layout: post
 title: The Black Bean Brownie
 category: baking
-tags:
- - low-calorie
- - gluten-free
- - brownies
-image: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg
+tags: 
+  - "low-calorie"
+  - "gluten-free"
+  - brownies
+image: "http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg"
+published: true
 ---
 
-Surprisingly amazing. Didn't have the taste or texture of black beans.
+Surprisingly amazing! The brownies didn't taste or have the texture of black beans.
 
-I don't have a blender, only a small electric chopper. I was able to use the small chopper to turn the black beans into a paste. Then I threw the rest of the ingredients into the Kitchenaid along with the black beans. In no time the black beans smoothed out and it looked just like brownie batter.
+The recipe requires you to whip everything up in a blender, making the whole process easy. However, I don't own a blender. I do have a small electric chopper. I threw a can of black bean in the chopper turning the beans into a paste. Next I mixed all the ingredients in the Kitchenaid. In no time the black beans smoothed out and the batter looked just like regular brownie batter.
 
-Around 125 calories per brownie (16 brownies in a batch).
+Each brownie is about 125 calories. The recipe makes 16.
 
 <a href="http://www.flickr.com/photos/91218249@N05/9665840645/" title="Black Bean Brownies by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg" width="400" alt="Black Bean Brownies"></a>
 <a href="http://www.flickr.com/photos/91218249@N05/9669075276/" title="Black Bean Brownies by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7369/9669075276_84cdd89576_c.jpg" width="400" alt="Black Bean Brownies"></a>
