@@ -37,9 +37,9 @@ Mom and I went on a Washington County/Vermont adventure today.
 
 ## Rexleigh Bridge in Shushan, NY
 
-<a href="http://www.flickr.com/photos/91218249@N05/9640995748/" title="Washington County by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2883/9640995748_1ef8807155_c.jpg" width="512" class="img-half" alt="Washington County"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9640995748/" title="Washington County by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2883/9640995748_1ef8807155_c.jpg" width="512" class="img-split-wide" alt="Washington County"></a>
 
-<a href="http://www.flickr.com/photos/91218249@N05/9640997512/" title="Washington County by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5508/9640997512_4d46d93e11_c.jpg" width="288"  class="img-thirds" alt="Washington County"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9640997512/" title="Washington County by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5508/9640997512_4d46d93e11_c.jpg" width="288"  class="img-split-tall" alt="Washington County"></a>
 
 ## Rupert, VT/Salem, NY
 
