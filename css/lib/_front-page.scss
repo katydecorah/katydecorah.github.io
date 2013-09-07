@@ -5,8 +5,8 @@
     text-align: center;
     font-size:3em;
     font-family: "old-standard",serif;
-font-style: italic;
-font-weight: 400;
+    font-style: italic;
+    font-weight: 400;
   }
   .lead {
     margin: 4em auto 8em;
@@ -29,19 +29,64 @@ font-weight: 400;
       margin: 0 auto;
     }
   }
-  .all-posts {
-    //width:75%;
-    //float:left;
-  }
+
   .header .container { 
     max-height:100%;
-    /*position:absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;*/
     z-index:0;
   }
   .navbar-inner {padding-top:2em;}
 
+}
+
+
+// on front page
+.posts {
+  @extend .clearfix;
+  li {
+    width:24%;
+    padding-bottom: 24%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    margin:0.5%;
+    float:left;
+    max-width:none;
+    &:nth-child(1) {
+      width:49%;
+      padding-bottom: 49%;
+    }
+  }
+  a {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    @include transition(0.5s linear);
+    &:hover{
+      @include transition(0.5s linear);
+      background:rgba(black,0.5);
+      .posts-info {
+        @include opacity(1);
+        @include transition(0.5s linear);
+      }
+    }
+  }
+
+  .posts-info {
+    @include opacity(0);
+    @include transition(0.5s linear);
+    background:rgba(black,0.5);
+    color:white;
+    display:block;
+    padding:1em 2em;
+    font-family: "old-standard",serif;
+    .posts-title {
+      font-style:italic;
+      font-size:1.2em;
+      line-height:1.2;
+    }
+    .posts-date {text-transform:uppercase; display:block; font-size:0.8em;}
+  }
 }

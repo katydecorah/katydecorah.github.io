@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Double Vision
-category: coding
+category: code
 tags: 
 - CodePen
 - text-shadow
 - Sass
 - Slim
+pen: vaoKs
 image: http://katydecorah.com/img/double-vision.png
+image-small: http://codepen.io/katydecorah/pen/vaoKs/image/small.png
+image-large: http://codepen.io/katydecorah/pen/vaoKs/image/large.png
 ---
 
 Single element, lots of text-shadow.

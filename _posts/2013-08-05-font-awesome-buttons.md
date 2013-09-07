@@ -1,13 +1,17 @@
 ---
 layout: post
 title: Font Awesome Buttons
-category: coding
+category: code
 tags: 
 - Sass
 - Dribbble
 - CodePen
 - Font Awesome
+pen: Bjhdw
 image: http://katydecorah.com/img/font-awesome.png
+image-small: http://codepen.io/katydecorah/pen/Bjhdw/image/small.png
+image-large: http://codepen.io/katydecorah/pen/Bjhdw/image/large.png
+
 ---
 
 Another [Dribbble inspired](http://dribbble.com/shots/1182658-Picto-icon-detail-variations-WIP) project!

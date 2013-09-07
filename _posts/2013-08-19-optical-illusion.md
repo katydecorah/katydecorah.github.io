@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Optical Illusions
-category: coding
+category: code
 tags: 
   - CodePen
   - Sass
   - Haml
+pen: gwAmk
 image: "http://katydecorah.com/img/optical-illusion.png"
-published: true
+image-small: http://codepen.io/katydecorah/pen/pdCsB/image/small.png
+image-large: http://codepen.io/katydecorah/pen/pdCsB/image/small.png
+
 ---
 
 I gave a few optical illusions a try to flex my Sass skills. The source file for each illusion can be found in the JS tab.

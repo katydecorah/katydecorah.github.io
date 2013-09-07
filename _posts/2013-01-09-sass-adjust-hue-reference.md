@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Sass Adjust-Hue Reference
-category: coding
+category: code
 tags: 
 - Sass
 - CodePen
+pen: FgmJI
 image: http://katydecorah.com/img/sass-adjust-hue.png
+image-small: http://codepen.io/katydecorah/pen/FgmJI/image/small.png
+image-large: http://codepen.io/katydecorah/pen/FgmJI/image/large.png
 ---
 
 Pretty self explanatory for any Sass fans. If you have a color that you would like to adjust, but don't feel like guess and checking, then try out this little tool. 

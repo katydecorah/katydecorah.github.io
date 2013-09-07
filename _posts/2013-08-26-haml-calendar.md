@@ -1,14 +1,17 @@
 ---
 layout: post
 title: Haml Calendar
-category: coding
+category: code
 tags: 
   - CodePen
   - Haml
   - Ruby
   - Sass
+pen: aDAoG
 image: "http://katydecorah.com/img/haml-calendar.png"
-published: true
+image-small: http://codepen.io/katydecorah/pen/aDAoG/image/small.png
+image-large: http://codepen.io/katydecorah/pen/aDAoG/image/large.png
+
 ---
 
 While I was looking through the Haml docs today, I found the ability to print out the date. My gears started spinning. Why not create a calendar? 
@@ -98,4 +101,4 @@ I really enjoyed figuring this out. I'm new to Ruby, but I think I will do more 
 
 p.s. I'm not sure about editing the timezone, so it might be a day ahead.
 
-<p data-height="400" data-theme-id="97" data-slug-hash="de4bac53b9205077ab54f20900196df0" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/de4bac53b9205077ab54f20900196df0'>Haml Calendar</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
+<p data-height="400" data-theme-id="97" data-slug-hash="aDAoG" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/aDAoG'>Haml Calendar</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

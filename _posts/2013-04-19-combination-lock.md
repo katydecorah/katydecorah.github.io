@@ -1,13 +1,17 @@
 ---
 layout: post
 title: Combination Lock
-category: coding
+category: code
 tags: 
 - CodePen
 - Sass
 - jQuery
 - Haml
+pen: CLxkg
 image: http://katydecorah.com/img/combination-lock.png
+image-small: http://codepen.io/katydecorah/pen/CLxkg/image/small.png
+image-large: http://codepen.io/katydecorah/pen/CLxkg/image/large.png
+
 ---
 
 I created a functioning combination lock. 

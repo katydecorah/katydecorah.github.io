@@ -46,6 +46,12 @@ ul,ol {
   margin-bottom:1em;
 }
 
+ol {
+  list-style:decimal;
+  margin-left:2.5em;
+  li {margin-bottom:0.8em;}
+}
+
 hr {
   border:0.1em solid rgba(black,0.1);
 }

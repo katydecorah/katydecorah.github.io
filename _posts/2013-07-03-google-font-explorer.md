@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Google Font Explorer
-category: coding
+category: code
 tags: 
 - Google Fonts
 - CodePen
+pen: vetCA
 image: http://katydecorah.com/img/google-font-explorer.png
+image-small: http://codepen.io/katydecorah/pen/vetCA/image/small.png
+image-large: http://codepen.io/katydecorah/pen/vetCA/image/large.png
 ---
 
 I love using Google Fonts. I know webfonts are a killer for web performance, but I can't help myself. I tend to start designing something based on the font. I use ems as a unit for measure and for dictating proportions in my design. Call it process, call it whatever, I just love a good font.

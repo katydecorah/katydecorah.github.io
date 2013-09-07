@@ -18,7 +18,12 @@ title: Hi, I'm Katy DeCorah.
 		{% for post in site.posts %}
 
 		<li style="{{% if post.img %}}background-image:url({{ post.image }});{{% else %}}background-color:#ddd;{{% endif %}}" data-category="{{ post.category }}">
-			<a href="{{ post.url }}">{{ post.title }} <span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> <span class="label label-{{ post.category }}">{{ post.category }}</span></a>
+			<a href="{{ post.url }}">
+				<span class="posts-info">
+				<span class="posts-title">{{ post.title }}</span>
+				<span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> 
+			</span>
+			</a>
 		</li>
 
 		{% endfor %}

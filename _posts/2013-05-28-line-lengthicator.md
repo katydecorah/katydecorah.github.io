@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Line Length-icator
-category: coding
+category: code
 tags: 
 - CodePen
 - Sass
@@ -9,7 +9,10 @@ tags:
 - Haml
 - readability
 - typography
+pen: cufzB
 image: http://katydecorah.com/img/line-length.png
+image-small: http://codepen.io/katydecorah/pen/cufzB/image/small.png
+image-large: http://codepen.io/katydecorah/pen/cufzB/image/large.png
 ---
 
 I'm always trying to find the optimal line length for my text. After reading [several](http://webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/ "The Elements of Typographic Style Applied to the Web") [posts](http://trentwalton.com/2012/06/19/fluid-type/ "Trent Walton: Fluid Type"), I found that the sweet spot is around 66 characters. While styling my paragraphs I started counting the characters manually. That got old, real fast.
