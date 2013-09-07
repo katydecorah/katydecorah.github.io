@@ -10,6 +10,8 @@ image: http://katydecorah.com/img/google-font-explorer.png
 image-small: http://codepen.io/katydecorah/pen/vetCA/image/small.png
 image-large: http://codepen.io/katydecorah/pen/vetCA/image/large.png
 ---
+<p data-height="400" data-theme-id="97" data-slug-hash="vetCA" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/vetCA'>Google Font Explorer</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
+
 
 I love using Google Fonts. I know webfonts are a killer for web performance, but I can't help myself. I tend to start designing something based on the font. I use ems as a unit for measure and for dictating proportions in my design. Call it process, call it whatever, I just love a good font.
 
@@ -19,4 +21,3 @@ I created the Google Font Explorer to find new fonts and test them out a little 
 
 I'm tapping into Google's Font API to access all the font families data. So you can type in a family to try it out. I used Bootstrap's typeahead to help you find the font as you type. You can also click the randomize button to view a totally new font. You can edit the dummy or use the lorem ipsum text provided. Find out more about the family by clicking the information button. I also provided a history list in case you want to go back to a previously viewed family.
 
-<p data-height="400" data-theme-id="97" data-slug-hash="vetCA" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/vetCA'>Google Font Explorer</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

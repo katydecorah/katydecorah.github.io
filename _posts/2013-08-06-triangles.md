@@ -12,6 +12,7 @@ image-small: http://codepen.io/katydecorah/pen/hAive/image/small.png
 image-large: http://codepen.io/katydecorah/pen/hAive/image/large.png
 
 ---
+<p data-height="300" data-theme-id="97" data-slug-hash="hAive" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/hAive'>Triangles</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I've been into simple shapes lately. I found [this interesting logo](http://dribbble.com/shots/1183733-Posh-wordpress-theme-logo-design) on Dribbble and decided to try it out.
 
@@ -21,4 +22,3 @@ On hover the triangles become equilateral with a border-width set at 5em (and 1e
 
 Just bunch of simple shapes.
 
-<p data-height="300" data-theme-id="97" data-slug-hash="hAive" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/hAive'>Triangles</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

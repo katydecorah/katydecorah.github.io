@@ -14,6 +14,8 @@ image-small: http://codepen.io/katydecorah/pen/xADtE/image/small.png
 image-large: http://codepen.io/katydecorah/pen/xADtE/image/large.png
 ---
 
+<p data-height="400" data-theme-id="97" data-slug-hash="xADtE" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/xADtE'>Haml Clock</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
+
 After creating the [Haml calendar](http://localhost:8888/coding/2013/08/26/haml-calendar.html), I decided to go for a Haml clock.
 
 How it works:
@@ -41,4 +43,3 @@ I received design and color inspiration from [Dribbble](http://dribbble.com/shot
 
 
 
-<p data-height="400" data-theme-id="97" data-slug-hash="xADtE" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/xADtE'>Haml Clock</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

@@ -15,6 +15,8 @@ image-large: http://codepen.io/katydecorah/pen/aDAoG/image/large.png
 
 ---
 
+<p data-height="400" data-theme-id="97" data-slug-hash="aDAoG" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/aDAoG'>Haml Calendar</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
+
 While I was looking through the Haml docs today, I found the ability to print out the date. My gears started spinning. Why not create a calendar? 
 
 It took a lot of research, but I made a functioning Haml Calendar. I say functioning, because it will display the correct date and tomorrow it will automatically display tomorrow's date. You may also change the month, year, and day variables to display a specific date. 
@@ -102,4 +104,3 @@ I really enjoyed figuring this out. I'm new to Ruby, but I think I will do more 
 
 p.s. I'm not sure about editing the timezone, so it might be a day ahead.
 
-<p data-height="400" data-theme-id="97" data-slug-hash="aDAoG" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/aDAoG'>Haml Calendar</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

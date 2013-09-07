@@ -15,6 +15,8 @@ image-large: http://codepen.io/katydecorah/pen/Chmws/image/large.png
 
 ---
 
+<p data-height="500" data-theme-id="97" data-slug-hash="Chmws" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Chmws'>Forebruary</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
+
 A few days ago I saw [Forebruary](http://ilyabirman.net/projects/forebruary/) by Ilya Birman; a calendar that doesn't need replacing! Naturally, I needed to figure this out, CodePen style.
 
 I wrote the HTML in Haml. My main goal was to generate the numbers on the calendar efficiently. It took a some research, but I figured out how to use case statements. I have a feeling there is a better way to increment the numbers in each row, but I haven't arrived at it yet.
@@ -25,4 +27,3 @@ Once I had the value for the first day of the month, I was set. August starts on
 
 Next month the frame should automatically slide to capture September.
 
-<p data-height="500" data-theme-id="97" data-slug-hash="Chmws" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Chmws'>Forebruary</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

@@ -52,6 +52,7 @@
     margin:0.5%;
     float:left;
     max-width:none;
+
     &:nth-child(1) {
       width:49%;
       padding-bottom: 49%;
@@ -63,7 +64,6 @@
     left:0;
     right:0;
     bottom:0;
-    @include transition(0.5s linear);
     &:hover{
       @include transition(0.5s linear);
       background:rgba(black,0.5);

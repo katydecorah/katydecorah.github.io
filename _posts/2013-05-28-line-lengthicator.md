@@ -14,6 +14,7 @@ image: http://katydecorah.com/img/line-length.png
 image-small: http://codepen.io/katydecorah/pen/cufzB/image/small.png
 image-large: http://codepen.io/katydecorah/pen/cufzB/image/large.png
 ---
+<p data-height="600" data-theme-id="97" data-slug-hash="cufzB" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cufzB'>Line Length-icator</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I'm always trying to find the optimal line length for my text. After reading [several](http://webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/ "The Elements of Typographic Style Applied to the Web") [posts](http://trentwalton.com/2012/06/19/fluid-type/ "Trent Walton: Fluid Type"), I found that the sweet spot is around 66 characters. While styling my paragraphs I started counting the characters manually. That got old, real fast.
 
@@ -21,4 +22,3 @@ So I created this little tool. Copy a paragraph and paste it into the box. It wi
 
 Check it on CodePen (below) or on [Github](http://katydecorah.com/linelengthicator/).
 
-<p data-height="600" data-theme-id="97" data-slug-hash="cufzB" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cufzB'>Line Length-icator</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
