@@ -44,6 +44,6 @@ Beautiful morning.
 
 <a href="http://www.flickr.com/photos/91218249@N05/9696156208/" title="Thacher Park in the morning by katydecorah, on Flickr"><img alt="Thacher Park in the morning" src="http://farm4.staticflickr.com/3784/9696156208_5ebb1cfa9a_c.jpg" class="img-split-wide"></a>
 
-After we tried to get a [cronut from The Crispy Cannoli](http://alloveralbany.com/archive/2013/08/26/trying-the-apple-cider-croissant-donut-at-the-cris), but they were all out. I happily settled on a cannoli.
+Later that day we tried to get a [cronut from The Crispy Cannoli](http://alloveralbany.com/archive/2013/08/26/trying-the-apple-cider-croissant-donut-at-the-cris), but they were all out. I happily settled on a cannoli.
 
 <a href="http://www.flickr.com/photos/91218249@N05/9696130178/" title="Canoli from Crispy Canoli by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5482/9696130178_195a66632b_c.jpg" class="pop-out" alt="Canoli from Crispy Canoli"></a>
