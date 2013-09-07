@@ -34,7 +34,7 @@
 }
 a.label:hover {color:black;}
 
-$categories : "baking","weekending","coding","freelance","vacationing","growing","weekdays";
+$categories : "baking","weekending","code","freelance","vacationing","growing","weekdays";
 $labelInc: 0;
 @each $category in $categories {
 	.label-#{$category} { 

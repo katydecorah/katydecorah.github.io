@@ -22,6 +22,7 @@
 
 .make-columns {
 @include columns(2);
+@include column-gap(2em);
 }
 
 .post-page .footer {
