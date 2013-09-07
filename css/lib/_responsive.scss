@@ -61,10 +61,12 @@
 }
 @media (max-width:40em) {
 	.post-page {
-	.container {
-		padding: 0 2em;
+		.container {
+			padding: 0 2em;
+		}
 	}
-}
+
+
 }
 
 //480px;
@@ -75,10 +77,12 @@
 	.pull-left, .pull-right {float:none !important;}
 	.header {display:none}
 
-.post-page {
-	.find-similar-posts  .prev-next {width:100%;}
-}
-
+	.post-next-container, .post-prev-container {
+		display:block;
+		width:100%;
+		float:none;
+		img {display:none;}
+	}
 
 	.front-page {
 		h1 {

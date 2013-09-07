@@ -36,10 +36,6 @@
       }
     }
   }
-  .posts-date {
-    display: block;
-    font-size: 0.7em;
-  }
   .label {
     position: absolute;
     bottom: 0;
@@ -63,57 +59,29 @@
     text-align:justify;
   }
 
-  .post-date {
-    text-align: right;
-    font-style: italic;
-  }
-  .post-type {
-    text-align:center;
-    text-transform: uppercase;
-    font-size:0.8em;
-    max-width:none;
+  
+  .post-meta {
+
+
     margin:1em 0 5em;
     border-top:1px solid #ddd;
     border-bottom:1px solid #ddd;
-    padding:0.7em 0;
-  }
-
-}
-
-.post-mast {
-min-height: 15em;
-background-size: 100%;
-display: block;
-width: 150%;
-margin:0 -25%;
-background-position: center;
-}
-
-.post-page {
-
-  .post-masthead {
-    display: block;
-margin: 0 auto;
-}
-
-  .post-side {
-    width: 10em;
-    position: absolute;
-    padding:0 1%;
-    top:16em;
-  }
-  .post-side-left {
-    left: -15em;
-  }
-  .post-side-right {
-    right: -15em;
-  }
-  .prev-next {
-    @include opacity(0.5);
-    &:hover {
-      @include opacity(1);
+    padding:1em 0;
+    text-align:center;
+    .post-type,.post-date {
+      text-transform: uppercase;
+      font-size:0.8em;
+      margin-bottom:0.5em;
+      
     }
   }
+
+}
+
+
+
+
+
 
   .find-similar-posts {
     border-top:1px solid #ddd;
@@ -123,15 +91,32 @@ margin: 0 auto;
     .tags {
       margin-bottom:5em;
     }
-    .prev-next {
-      display:block;
-      float: left;
-      width:50%;
-      img {max-height:10em;}
-    }
   }
-}
 
+
+    .post-next-container {float:right}
+    .post-prev-container {float:left;}
+
+    .post-prev-img, .post-next-img {display:block;margin:0;}
+    .post-next-container, .post-prev-container {
+     display:block;
+     width:45%;
+     @include opacity(0.8);
+      @include transition(opacity .5s ease-in-out);
+      &:hover {
+        @include transition(opacity .5s ease-in-out);
+        @include opacity(1);
+      }
+    }
+    .post-next-title, .post-prev-title {
+      display:block;
+      font-size:0.7em;
+      text-transform: uppercase;
+      background:#222;
+      color:white;
+      padding:0.5em 1em;
+
+    }
 iframe, .pop-out {
   margin: 2em -25% 1em;
   display:block;
