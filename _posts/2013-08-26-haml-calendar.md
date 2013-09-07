@@ -7,6 +7,7 @@ tags:
   - Haml
   - Ruby
   - Sass
+  - no JS
 pen: aDAoG
 image: "http://katydecorah.com/img/haml-calendar.png"
 image-small: http://codepen.io/katydecorah/pen/aDAoG/image/small.png

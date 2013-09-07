@@ -6,6 +6,7 @@ tags:
   - CodePen
   - Sass
   - Haml
+  - no JS
 pen: gwAmk
 image: "http://katydecorah.com/img/optical-illusion.png"
 image-small: http://codepen.io/katydecorah/pen/pdCsB/image/small.png
