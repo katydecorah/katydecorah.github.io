@@ -5,7 +5,7 @@
   @extend .clearfix;
 }
 
-.post-page {
+.post-page, .default-page {
   .container {
     max-width:35em;
   }
@@ -20,9 +20,12 @@
   
 }
 
+.make-columns {
+@include columns(2);
+}
 
 .post-page .footer {
-  margin-top:15em;
+  margin-top:10em;
 }
 
 

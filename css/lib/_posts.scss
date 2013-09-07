@@ -5,12 +5,7 @@
 
 .post {
   font-size:1.1em;
-  h1 {
-    font-style:italic;
-    font-size:2.5em;
-    margin:1em 0 1.5em;
-    text-align:center;
-  }
+
   p {
     text-align:justify;
   }
@@ -74,7 +69,7 @@
 
     }
 iframe, .pop-out {
-  margin: 2em -25% 1em;
+  margin: 1em -25% 2em;
   display:block;
   max-width:none;
   width: 150% !important;
