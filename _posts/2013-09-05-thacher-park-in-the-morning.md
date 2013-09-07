@@ -14,7 +14,7 @@ Beautiful morning.
 
 (Confession: before today I was spelling *Thacher* with two *t*s.)
 
-<a href="http://www.flickr.com/photos/91218249@N05/9692900569/" title="Thacher Park in the morning by katydecorah, on Flickr"><img alt="Thacher Park in the morning" class="pop-out" height="600" src="http://farm6.staticflickr.com/5529/9692900569_1cdc926e2b_c.jpg" width="800"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9692900569/" title="Thacher Park in the morning by katydecorah, on Flickr"><img alt="Thacher Park in the morning" class="pop-out" height="600" src="http://farm6.staticflickr.com/5529/9692900569_1cdc926e2b_c.jpg"></a>
 
 <a href="http://www.flickr.com/photos/91218249@N05/9696132770/" title="Thacher Park in the morning by katydecorah, on Flickr"><img alt="Thacher Park in the morning" class="img-half" src="http://farm4.staticflickr.com/3665/9696132770_1d2096984d_c.jpg"></a>
 
@@ -43,3 +43,7 @@ Beautiful morning.
 <a href="http://www.flickr.com/photos/91218249@N05/9692924343/" title="Thacher Park in the morning by katydecorah, on Flickr"><img alt="Thacher Park in the morning" class="img-split-tall" src="http://farm6.staticflickr.com/5443/9692924343_aa3cf2200d_c.jpg"></a>
 
 <a href="http://www.flickr.com/photos/91218249@N05/9696156208/" title="Thacher Park in the morning by katydecorah, on Flickr"><img alt="Thacher Park in the morning" src="http://farm4.staticflickr.com/3784/9696156208_5ebb1cfa9a_c.jpg" class="img-split-wide"></a>
+
+After we tried to get a [cronut from The Crispy Cannoli](http://alloveralbany.com/archive/2013/08/26/trying-the-apple-cider-croissant-donut-at-the-cris), but they were all out. I happily settled on a cannoli.
+
+<a href="http://www.flickr.com/photos/91218249@N05/9696130178/" title="Canoli from Crispy Canoli by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5482/9696130178_195a66632b_c.jpg" class="pop-out" alt="Canoli from Crispy Canoli"></a>
