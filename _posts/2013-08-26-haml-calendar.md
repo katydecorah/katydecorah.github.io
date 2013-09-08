@@ -5,7 +5,6 @@ category: code
 tags: 
   - CodePen
   - Haml
-  - Ruby
   - Sass
   - no JS
 pen: aDAoG

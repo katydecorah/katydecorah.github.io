@@ -5,7 +5,7 @@ category: weekending
 tags: 
  - hiking
  - fresh air
-locations: moreau lake state park
+locations: Moreau Lake State Park
 image: http://farm8.staticflickr.com/7347/9583833497_0171fe8688_c.jpg
 ---
 

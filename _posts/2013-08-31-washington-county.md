@@ -6,13 +6,13 @@ tags:
   - fresh air
 image: http://farm3.staticflickr.com/2883/9640995748_1ef8807155_c.jpg
 locations: 
- - hebron,ny
- - salem,ny
- - argyle,ny
- - cossayuna lake
+ - Hebron,NY
+ - Salem,NY
+ - Argyle,NY
+ - Cossayuna lake
  - Shushan,NY
- - rupert,vt
- - pawlett,vt
+ - Rupert,VT
+ - Pawlett,VT
 zoom: 8
 ---
 
