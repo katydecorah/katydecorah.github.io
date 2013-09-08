@@ -27,9 +27,8 @@ Only one tomato has riped so far, I have about a dozen waiting to burst with col
 
 <a href="http://www.flickr.com/photos/91218249@N05/9496166341/" title="Cherry tomatoes by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7377/9496166341_409b532162_z.jpg" class="pop-out"  alt="Cherry tomatoes"></a>
 
-<a href="http://www.flickr.com/photos/91218249@N05/9496168385/" title="Cherry tomatoes by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3766/9496168385_c2f257fee9_z.jpg" class="img-thirds" alt="Cherry tomatoes"></a>
-<a href="http://www.flickr.com/photos/91218249@N05/9498969402/" title="Cherry tomatoes by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5476/9498969402_7715cfe3e5_z.jpg"  class="img-thirds" alt="Cherry tomatoes"></a>
-<a href="http://www.flickr.com/photos/91218249@N05/9496172695/" title="Cherry tomatoes by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5347/9496172695_45e75ffc55_z.jpg"  class="img-thirds" alt="Cherry tomatoes"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9498969402/" title="Cherry tomatoes by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5476/9498969402_7715cfe3e5_z.jpg"  class="img-half" alt="Cherry tomatoes"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9496172695/" title="Cherry tomatoes by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5347/9496172695_45e75ffc55_z.jpg"  class="img-half" alt="Cherry tomatoes"></a>
 
 
 <a href="http://www.flickr.com/photos/91218249@N05/9498960026/" title="Cherry tomatoes by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5465/9498960026_f54b279544_z.jpg" class="img-half" alt="Cherry tomatoes"></a>

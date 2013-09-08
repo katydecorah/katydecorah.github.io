@@ -5,6 +5,7 @@ category: code
 tags: 
 - Google Fonts
 - CodePen
+- API
 pen: vetCA
 image: http://katydecorah.com/img/google-font-explorer.png
 image-small: http://codepen.io/katydecorah/pen/vetCA/image/small.png
