@@ -7,20 +7,18 @@ tags:
   - Vermont
   - fresh air
 image: http://farm3.staticflickr.com/2883/9640995748_1ef8807155_c.jpg
-location: 
+locations: 
+ - hebron,ny
  - salem,ny
  - argyle,ny
  - cossayuna lake
- - hebron,ny
  - Shushan,NY
  - rupert,vt
  - pawlett,vt
-zoom: 9
+zoom: 8
 ---
 
 Mom and I went on a Washington County/Vermont adventure today.
-
-<img src="../../../../img/2013-08-31-map.png" width="300">
 
 ## Argyle, NY
 

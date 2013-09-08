@@ -8,7 +8,7 @@ tags:
 image: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_c.jpg
 image-small: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_n.jpg
 image-large: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_o.jpg
-location: 
+locations: 
 - Thacher State Park
 - Crispy Cannoli, East Greenbush, NY
 zoom: 10

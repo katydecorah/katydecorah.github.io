@@ -8,7 +8,8 @@ tags:
 - Portsmouth, NH
 - family
 image: http://farm6.staticflickr.com/5471/9360368377_d47822c551_c.jpg
-location:
+locations:
+- Moreau,NY
 - Lake Placid,ny
 - Thousand Islands,ny
 - Portsmouth, NH

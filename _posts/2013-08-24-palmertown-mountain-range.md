@@ -6,8 +6,7 @@ tags:
  - hiking
  - Moreau Lake State Park
  - fresh air
-location: 
-- moreau lake state park
+locations: moreau lake state park
 image: http://farm8.staticflickr.com/7347/9583833497_0171fe8688_c.jpg
 ---
 

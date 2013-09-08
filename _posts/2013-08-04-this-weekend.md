@@ -7,7 +7,7 @@ tags:
 - fresh air
 - Moreau, NY
 image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
-location:
+locations:
 - lake placid,ny
 - moreau,ny
 zoom: 5

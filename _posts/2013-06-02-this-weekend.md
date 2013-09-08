@@ -10,7 +10,7 @@ tags:
 - fire tower
 - North Adams, Massachusetts
 image: http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg
-location:
+locations:
 - North Adams, MA
 - Grafton, NY
 - Wilton, NY
