@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Lake Placid & Moreau
+title: Lake Placid & Potter's Point
 category: weekending
 tags: 
 - Potter's Point
 - fresh air
 - Moreau, NY
+- Lake Placid
 image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
 locations:
 - lake placid,ny
-- moreau,ny
-zoom: 5
+- 43.268499,-73.729198
+zoom: 6
 ---
 
 This weekend I visited my college roommate in Lake Placid. We walked around Mirror Lake once a day, ate delicious food, and people watched. It was refreshing!

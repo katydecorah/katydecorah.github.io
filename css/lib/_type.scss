@@ -4,7 +4,6 @@ em {font-style:italic;}
   margin-bottom:10em;
 }
 h1, h2, h3 {
-  margin:1em 0 0.5em;
   line-height:1.4;
   font-weight:bold;
   small {
@@ -23,9 +22,12 @@ h2 {
   font-size:1.2em;
   text-transform: uppercase;
   font-weight:700;
+  margin:1.5em 0 0.5em;
 }
 h3 {
   font-size:1.1em;
+    margin:1em 0 0.5em;
+
 }
 
 p,li {
