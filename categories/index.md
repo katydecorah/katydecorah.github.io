@@ -15,3 +15,9 @@ title: Categories
 ## {{ tag | first }}
 {% for post in tag.last %}[{{ post.title }}]({{ post.url }}){% if forloop.last %}{% else %} // {% endif %}{% endfor %}
 {% endfor %}
+
+# Locations
+{% for location in site.locations %}
+## {{ location | first }}
+{% for post in location.last %}[{{ post.title }}]({{ post.url }}){% if forloop.last %}{% else %} // {% endif %}{% endfor %}
+{% endfor %}
