@@ -5,6 +5,7 @@ category: weekending
 tags:
 - Thacher Park
 - fresh air
+- hiking
 image: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_c.jpg
 image-small: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_n.jpg
 image-large: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_o.jpg
@@ -47,6 +48,8 @@ Beautiful morning.
 <a href="http://www.flickr.com/photos/91218249@N05/9692924343/" title="Thacher Park in the morning by katydecorah, on Flickr"><img alt="Thacher Park in the morning" class="img-split-tall" src="http://farm6.staticflickr.com/5443/9692924343_aa3cf2200d_c.jpg"></a>
 
 <a href="http://www.flickr.com/photos/91218249@N05/9696156208/" title="Thacher Park in the morning by katydecorah, on Flickr"><img alt="Thacher Park in the morning" src="http://farm4.staticflickr.com/3784/9696156208_5ebb1cfa9a_c.jpg" class="img-split-wide"></a>
+
+## Post-hike treat
 
 Later that day we tried to get a [cronut from The Crispy Cannoli](http://alloveralbany.com/archive/2013/08/26/trying-the-apple-cider-croissant-donut-at-the-cris), but they were all out. I happily settled on a cannoli.
 

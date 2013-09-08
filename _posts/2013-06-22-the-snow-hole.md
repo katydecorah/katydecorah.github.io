@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This Weekend at the Snow Hole
+title: The Snow Hole
 category: weekending
 tags: 
 - hiking
