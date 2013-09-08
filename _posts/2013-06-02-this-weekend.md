@@ -4,11 +4,10 @@ title: Western Mass Adventures
 category: weekending
 tags: 
 - waterfall
-- train tunnels
 - pizza
-- whoopee pies
-- fire tower
-- North Adams, Massachusetts
+- Massachusetts
+- hiking
+- fresh air
 image: http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg
 locations:
 - North Adams, MA
