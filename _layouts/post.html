@@ -1,7 +1,23 @@
 {% include top.html %}
 <body class="post-page default-page">
+{% if page.location %}
+				<div class="post-location">
+			<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.location %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=1280x130&scale=2&sensor=false&visual_refresh=true" class="post-location-image">
+</div>
+			{% endif %}
+
+
+
+
 	<div class="container" id="content">
 		<div class="post">
+
+
+
+
+				<p></p>
+
+
 
 			<h1 class="text-center">{{ page.title }}</h1>
 			
@@ -9,10 +25,16 @@
 			<div class="post-meta tk-old-standard">
 				<span class="post-type"><a href="http://katydecorah.com/#adventures">Adventures</a> in <a href="http://katydecorah.com/categories/#{{ page.category | downcase }}">{{ page.category }}</a></span>
 				// <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
+
 				
 			</div>
 
 			{{ content }}
+
+			
+
+
+
 			<div class="find-similar-posts">
 				<div class="tags">
 					{% for tag in page.tags %}

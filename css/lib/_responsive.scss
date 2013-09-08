@@ -38,10 +38,12 @@
 			width:100%;
 		}
 	}
+	.post-location {display:none;}
 
 	.post-page {
 
 		iframe, .pop-out { width:100% !important; margin:1em 0; max-width:100%;}
+		h1 {margin-left:0;margin-right:0;}
 	}
 	.footer {
 		.profile{

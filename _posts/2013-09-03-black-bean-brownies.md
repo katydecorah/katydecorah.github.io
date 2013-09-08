@@ -6,8 +6,9 @@ tags:
   - "low-calorie"
   - "gluten-free"
   - brownies
-image: "http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg"
-image-large: "http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg"
+image: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg
+image-small: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_n.jpg
+image-large: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_o.jpg
 published: true
 ---
 

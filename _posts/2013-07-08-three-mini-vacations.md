@@ -5,9 +5,14 @@ category: vacationing
 tags: 
 - Lake Placid
 - Thousand Islands
-- Portsmouth, NY
+- Portsmouth, NH
 - family
 image: http://farm6.staticflickr.com/5471/9360368377_d47822c551_c.jpg
+location:
+- Lake Placid,ny
+- Thousand Islands,ny
+- Portsmouth, NH
+zoom: 6
 ---
 
 ## Lake Placid

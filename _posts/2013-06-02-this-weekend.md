@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This Weekend in Western Mass
+title: Western Mass Adventures
 category: weekending
 tags: 
 - waterfall
@@ -10,6 +10,11 @@ tags:
 - fire tower
 - North Adams, Massachusetts
 image: http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg
+location:
+- North Adams, MA
+- Grafton, NY
+- Wilton, NY
+zoom: 6
 ---
 
 This weekend we woke up early and drove out to North Adams, Massachusetts. We took a 20-minute muddy hike through the woods and ended up at a waterfall. 

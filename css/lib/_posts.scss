@@ -5,6 +5,10 @@
 
 .post {
   font-size:1.1em;
+  h1 {
+    margin-left:-1em;
+    margin-right:-1em;
+  }
 
   p {
     text-align:justify;
@@ -19,17 +23,26 @@
     border-bottom:1px solid #ddd;
     padding:1em 0;
     text-align:center;
-    .post-type,.post-date {
+    .post-type,.post-date, .post-location {
       text-transform: uppercase;
       font-size:0.8em;
       margin-bottom:0.5em;
-      
     }
   }
 
 }
 
-
+.post-location {}
+.post-location-image {
+position: absolute;
+top: 0;
+display: block;
+z-index: -1;
+@include opacity(.25);
+left: 0;
+right: 0;
+margin: 0 auto;
+}
 
 
 
