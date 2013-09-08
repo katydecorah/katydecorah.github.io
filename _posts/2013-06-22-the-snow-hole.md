@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Snow Hole
-category: weekending
+category: weekends
 tags: 
 - hiking
 - fresh air

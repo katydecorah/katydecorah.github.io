@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lake Placid & Potter's Point
-category: weekending
+category: weekends
 tags: 
 - Potter's Point
 - fresh air

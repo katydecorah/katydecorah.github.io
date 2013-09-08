@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Palmertown Mountain Range
-category: weekending
+category: weekends
 tags: 
  - hiking
  - fresh air
