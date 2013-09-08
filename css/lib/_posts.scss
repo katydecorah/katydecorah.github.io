@@ -16,13 +16,12 @@
 
   
   .post-meta {
-
-
     margin:1em 0 5em;
     border-top:1px solid #ddd;
     border-bottom:1px solid #ddd;
     padding:1em 0;
     text-align:center;
+    position:relative;
     .post-type,.post-date, .post-location {
       text-transform: uppercase;
       font-size:0.8em;
@@ -31,56 +30,68 @@
   }
 
 }
+.post-byline {
+  display: block;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: -2em;
+  left:0;
+  font-style: italic;
+  color:darken(#ddd,10%);
+  &:hover {
+    color:darken(#ddd,20%);
+  }
+}
 
 .post-location {}
 .post-location-image {
-position: absolute;
-top: 0;
-display: block;
-z-index: -1;
-@include opacity(.25);
-left: 0;
-right: 0;
-margin: 0 auto;
+  position: absolute;
+  top: 0;
+  display: block;
+  z-index: -1;
+  @include opacity(.25);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 
 
 
-  .find-similar-posts {
-    border-top:1px solid #ddd;
-    padding:2em 0 1em;
-    margin:3em 0 0;
-    text-align: center;
-    .tags {
-      margin-bottom:5em;
-    }
+.find-similar-posts {
+  border-top:1px solid #ddd;
+  padding:2em 0 1em;
+  margin:3em 0 0;
+  text-align: center;
+  .tags {
+    margin-bottom:5em;
   }
+}
 
 
-    .post-next-container {float:right}
-    .post-prev-container {float:left;}
+.post-next-container {float:right}
+.post-prev-container {float:left;}
 
-    .post-prev-img, .post-next-img {display:block;margin:0;}
-    .post-next-container, .post-prev-container {
-     display:block;
-     width:45%;
-     @include opacity(0.8);
-      @include transition(opacity .5s ease-in-out);
-      &:hover {
-        @include transition(opacity .5s ease-in-out);
-        @include opacity(1);
-      }
-    }
-    .post-next-title, .post-prev-title {
-      display:block;
-      font-size:0.7em;
-      text-transform: uppercase;
-      background:#222;
-      color:white;
-      padding:0.5em 1em;
+.post-prev-img, .post-next-img {display:block;margin:0;}
+.post-next-container, .post-prev-container {
+ display:block;
+ width:45%;
+ @include opacity(0.8);
+ @include transition(opacity .5s ease-in-out);
+ &:hover {
+  @include transition(opacity .5s ease-in-out);
+  @include opacity(1);
+}
+}
+.post-next-title, .post-prev-title {
+  display:block;
+  font-size:0.7em;
+  text-transform: uppercase;
+  background:#222;
+  color:white;
+  padding:0.5em 1em;
 
-    }
+}
 iframe, .pop-out {
   margin: 1em -25% 2em;
   display:block;
