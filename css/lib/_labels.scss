@@ -35,7 +35,7 @@
 }
 
 $categories : "baking","weekends","code","freelance","vacations","growing","weekdays";
-$labelInc: 0;
+$labelInc: 35;
 @each $category in $categories {
 	.label-#{$category} { 
 		background:transparentize(adjust-hue($blue,$labelInc),0.5);
@@ -45,5 +45,5 @@ $labelInc: 0;
 		}
 		&.active:after {border-color:transparentize(adjust-hue($blue,$labelInc),0.5) transparent transparent;}
 	}
-	$labelInc: $labelInc + 40;
+	$labelInc: $labelInc + 35;
 }
