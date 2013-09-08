@@ -38,7 +38,12 @@
 					{% for tag in page.tags %}
 					<a href="http://katydecorah.com/categories/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>
 					{% endfor %}
+					{% for location in page.locations %}
+					<a href="http://katydecorah.com/categories/#{{ location | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-map-marker"></i> {{ location }}</a>
+					{% endfor %}
 				</div>
+
+
 				<div class="post-prev-next">
 					{% include post-side.html %}
 				</div>

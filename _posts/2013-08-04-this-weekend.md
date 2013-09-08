@@ -5,12 +5,10 @@ category: weekending
 tags: 
 - Potter's Point
 - fresh air
-- Moreau, NY
-- Lake Placid
 image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
 locations:
-- lake placid,ny
-- 43.268499,-73.729198
+- Lake Placid,NY
+- Moreau,NY
 zoom: 6
 ---
 

@@ -5,7 +5,6 @@ category: weekending
 tags: 
 - hiking
 - fresh air
-- Taconic Mountains
 image: http://farm4.staticflickr.com/3809/9110227939_78d3fcd71f_n.jpg
 locations: The Snow Hole,Petersburgh, NY
 ---

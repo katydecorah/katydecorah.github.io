@@ -3,9 +3,9 @@ layout: post
 title: Thacher Park in the morning
 category: weekending
 tags:
-- Thacher Park
 - fresh air
 - hiking
+- treats
 image: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_c.jpg
 image-small: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_n.jpg
 image-large: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_o.jpg

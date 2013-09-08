@@ -3,17 +3,14 @@ layout: post
 title: Three Mini Vacations
 category: vacationing
 tags: 
-- Lake Placid
-- Thousand Islands
-- Portsmouth, NH
 - family
 image: http://farm6.staticflickr.com/5471/9360368377_d47822c551_c.jpg
 locations:
 - Moreau,NY
-- Lake Placid,ny
-- Thousand Islands,ny
-- Portsmouth, NH
-zoom: 6
+- Lake Placid,NY
+- Thousand Islands,NY
+- Portsmouth,NH
+zoom: 5
 ---
 
 ## Lake Placid

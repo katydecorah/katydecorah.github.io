@@ -5,14 +5,13 @@ category: weekending
 tags: 
 - waterfall
 - pizza
-- Massachusetts
 - hiking
 - fresh air
 image: http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg
 locations:
-- North Adams, MA
-- Grafton, NY
-- Wilton, NY
+- North Adams,MA
+- Grafton,NY
+- Wilton,NY
 zoom: 6
 ---
 
