@@ -6,7 +6,7 @@ $(".label").click(function(){
   $(".label").removeClass("active");
   $(this).addClass("active");
   if (category === 'all') {$("li").fadeIn();}
-  else {$("li").fadeOut();$("[data-category='"+category+"']").fadeIn();}
+  else {$("li").fadeOut();$("[data-category='"+category+"']").fadeIn("slow");}
 });
 
 //accessibility

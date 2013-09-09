@@ -64,22 +64,25 @@
     left:0;
     right:0;
     bottom:0;
+    overflow:hidden;
     &:hover{
       @include transition(0.5s linear);
-      background:rgba(black,0.5);
       .posts-info {
-        @include opacity(1);
-        @include transition(0.5s linear);
+        top:0;
+        @include transition(0.35s cubic-bezier(1,.42,.41,1.25));
       }
     }
   }
 
   .posts-info {
-    @include opacity(0);
+    top:-100%;
+    position:absolute;
     @include transition(0.5s linear);
-    background:rgba(black,0.5);
+    background:rgba(black,0.75);
     color:white;
     display:block;
+    width:100%;
+    height:100%;
     padding:1em 2em;
     font-family: "old-standard",serif;
     .posts-title {
