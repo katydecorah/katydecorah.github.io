@@ -3,7 +3,9 @@
 {% if page.category == "code" %}
 <script async src="http://codepen.io/assets/embed/ei.js"> </script>
 {% endif %}
+{% if page.layout == 'front-page' %}
 <script async src="{{site.url}}js/script-min.js"> </script>
+{% endif %}
 <script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-34842039-1']);
