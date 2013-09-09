@@ -5,6 +5,7 @@
 		<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=1280x130&scale=2&sensor=false&visual_refresh=true" class="post-location-image">
 	</div>
 	{% endif %}
+
 	<div class="container" id="content">
 		<div class="post">
 			<h1 class="text-center">{{ page.title }}</h1>
@@ -20,7 +21,7 @@
 					<a href="http://katydecorah.com/categories/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>
 					{% endfor %}
 					{% for location in page.locations %}
-					<a href="http://katydecorah.com/categories/#{{ location | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-map-marker"></i> {{ location | replace:',',', '}}</a>
+					<a href="https://www.google.com/maps?q={{ location | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-map-marker"></i> {{ location | replace:',',', '}}</a>
 					{% endfor %}
 				</div>
 				<div class="post-prev-next">
