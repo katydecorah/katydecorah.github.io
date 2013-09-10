@@ -2,13 +2,14 @@
 layout: post
 title: Last Week on Codepen vol. 1
 category: code
-tags:
-- CodePen
-- Sass
-- Haml
-- Angular
-- UI practice
-image: http://katydecorah.com/img/codepen.png
+tags: 
+  - CodePen
+  - Sass
+  - Haml
+  - Angular
+  - UI practice
+image: "http://katydecorah.com/img/codepen.png"
+published: true
 ---
 
 A few projects from last week that didn't get their own post.
