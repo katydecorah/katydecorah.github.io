@@ -3,29 +3,29 @@ layout: front-page
 title: Hi, I'm Katy DeCorah.
 ---
 <div class="lead">
-	<p>These are my adventures.</p>
+  <p>These are my adventures.</p>
 </div>
 
 <div class="labels">
-	<span class="label active">all</span>
+  <span class="label active">all</span>
 {% for category in site.categories %}
-<span class="label label-{{ category[0] }}">{{ category[0] }}</span>
+  <span class="label label-{{ category[0] }}">{{ category[0] }}</span>
 {% endfor %}
 </div>
 
 <div class="all-posts" id="adventures">
-	<ul class="posts">
-		{% for post in site.posts %}
-
-		<li style="{{% if post.img %}}background-image:url({{ post.image }});{{% endif %}}" data-category="{{ post.category }}">
-			<a href="{{ post.url }}">
-				<span class="posts-info">
-				<span class="posts-title">{{ post.title }}</span>
-				<span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> 
-			</span>
-			</a>
-		</li>
-
-		{% endfor %}
-	</ul>
+  <ul class="posts">
+  {% for post in site.posts %}
+  {% if post.front-page != 'no' %}
+    <li style="{{% if post.img %}}background-image:url({{ post.image }});{{% endif %}}" data-category="{{ post.category }}">
+      <a href="{{ post.url }}">
+        <div class="posts-info">
+          <span class="posts-title">{{ post.title }}</span>
+          <span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> 
+        </div>
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
 </div>
