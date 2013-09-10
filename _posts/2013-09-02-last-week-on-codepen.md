@@ -10,6 +10,7 @@ tags:
   - UI practice
 image: "http://katydecorah.com/img/codepen.png"
 published: true
+front-page:no
 ---
 
 A few projects from last week that didn't get their own post.
