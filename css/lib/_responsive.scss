@@ -1,11 +1,8 @@
 //1248px
 @media(max-width:78em) {
 	
-	.post-page {
-		.container {
-			//max-width:100%;
-			//margin-left:13em;
-		}
+	.default-page {
+
 		iframe { width:90% !important; margin:1em 0;}
 	}
 
@@ -40,12 +37,13 @@
 	}
 	.post-location {display:none;}
 
-	.post-page {
+	.default-page {
 
 		iframe, .pop-out, .gist { width:100% !important; margin:1em 0; max-width:100%;}
 		h1 {margin-left:0;margin-right:0;}
 	}
 	.footer {
+		padding:3em;
 		.profile{
 			float:none;
 			width:100%;
@@ -62,10 +60,11 @@
 
 }
 @media (max-width:40em) {
-	.post-page {
+	.default-page {
 		.container {
 			padding: 0 2em;
 		}
+		h1 { font-size:1.5em;}
 	}
 
 
