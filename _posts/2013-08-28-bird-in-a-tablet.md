@@ -7,6 +7,7 @@ tags:
   - Sass
   - Haml
   - no JS
+  - Font Awesome
 image: http://codepen.io/katydecorah/pen/DHCJg/image/small.png
 "show": "no"
 

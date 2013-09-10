@@ -7,7 +7,7 @@ tags:
   - CodePen
   - jQuery
   - UI practice
-image: http://codepen.io/katydecorah/pen/hdsLI/image/hungF.png
+image: http://codepen.io/katydecorah/pen/hdsLI/image/image.png
 "show": "no"
 ---
 

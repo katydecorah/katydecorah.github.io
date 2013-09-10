@@ -7,6 +7,7 @@ tags:
   - Sass
   - UI practice
   - CodePen
+  - Font Awesome
 image: http://codepen.io/katydecorah/pen/KhfCn/image/small.png
 published: true
 "show": "no"
