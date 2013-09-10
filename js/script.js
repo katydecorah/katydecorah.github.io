@@ -3,10 +3,19 @@
 
 $(".label").click(function(){
   var category = $(this).text();
+
   $(".label").removeClass("active");
+
   $(this).addClass("active");
-  if (category === 'all') {$("li").fadeIn();}
-  else {$("li").fadeOut();$("[data-category='"+category+"']").fadeIn("slow");}
+
+  if (category === 'all') {
+    $("li").not('.all-hide').fadeIn();
+    $(".all-hide").fadeOut();
+  }
+
+  else {
+    $("li").fadeOut();$("[data-category='"+category+"']").fadeIn("slow");
+  }
 });
 
 //accessibility

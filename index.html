@@ -16,8 +16,7 @@ title: Hi, I'm Katy DeCorah.
 <div class="all-posts" id="adventures">
   <ul class="posts">
   {% for post in site.posts %}
-  {% if post.front-page != 'no' %}
-    <li style="{{% if post.img %}}background-image:url({{ post.image }});{{% endif %}}" data-category="{{ post.category }}">
+    <li style="{{% if post.img %}}background-image:url({{ post.image }});{{% endif %}}{% if post.show == 'no' %}display:none;{% endif %}" data-category="{{ post.category }}" {% if post.show == 'no' %}class="all-hide"{% endif %}>
       <a href="{{ post.url }}">
         <div class="posts-info">
           <span class="posts-title">{{ post.title }}</span>
@@ -25,7 +24,6 @@ title: Hi, I'm Katy DeCorah.
         </div>
       </a>
     </li>
-    {% endif %}
     {% endfor %}
   </ul>
 </div>

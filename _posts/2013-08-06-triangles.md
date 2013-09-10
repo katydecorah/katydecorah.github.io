@@ -10,6 +10,7 @@ pen: hAive
 image: http://katydecorah.com/img/triangles.png
 image-small: http://codepen.io/katydecorah/pen/hAive/image/small.png
 image-large: http://codepen.io/katydecorah/pen/hAive/image/large.png
+"show": "no"
 
 ---
 <p data-height="300" data-theme-id="97" data-slug-hash="hAive" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/hAive'>Triangles</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
