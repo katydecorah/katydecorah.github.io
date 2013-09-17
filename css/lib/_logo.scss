@@ -1,0 +1,49 @@
+.logo {
+  width:6em;
+  height:3.35em;
+  position:relative;
+  background:$darkAccent;
+  font-family: "old-standard",serif;
+  margin:0;
+  font-weight:normal;
+  display:block;
+  text-align:center;
+  line-height:1.2;
+  padding:0.25em 0.5em 0;
+  font-style:italic;
+  font-size:2em;
+  display:block;
+  color:white;
+  position:fixed;
+  z-index:1000;
+  top:0;
+      @include transition(all .2s ease-in-out);
+
+  &:hover {
+    @include transform(translate(0,2em));
+    @include transition(all .2s ease-in-out);
+  }
+  &:before, &:after {
+    content:"";
+    position:absolute;
+    border-style:solid;
+    border-width:1.8em 3em;
+    left:0;
+    
+  }
+  &:before {
+    border-color:transparent transparent $darkAccent;
+    bottom:100%;
+  }
+  &:after {
+    border-color:$darkAccent transparent transparent;
+    top:100%;
+  }
+}
+
+.header {
+  background-image:url(http://farm8.staticflickr.com/7344/9360380681_d908857c73_o.jpg);
+  min-height:40em;
+  background-size:cover;
+  background-repeat: no-repeat;
+}

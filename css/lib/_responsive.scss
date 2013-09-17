@@ -20,6 +20,14 @@
 			}
 		}
 	}
+	.front-page {
+				.posts {
+			.posts-info {
+				padding:1em;
+				.posts-title {font-size:1em;}
+			}
+		}
+	}
 
 }
 
@@ -28,19 +36,35 @@
 
 //900px
 @media (max-width: 56.25em) {
+	body { font-size: 15px}
 
 	.front-page {
 		h1 {font-size:2em;}
 		.all-posts {
-			width:100%;
+			.post {width:49%;}
 		}
+
 	}
 	.post-location {display:none;}
+		.default-page {
+		.logo {
+			position: relative;
+margin: 0 auto;
+left: 0;
+		}
+	}
 
 	.default-page {
 
-		iframe, .pop-out, .gist { width:100% !important; margin:1em 0; max-width:100%;}
-		h1 {margin-left:0;margin-right:0;}
+		iframe, .pop-out, .gist { 
+			width:100% !important; 
+			margin:1em 0; 
+			max-width:100%;
+		}
+		h1 {
+			margin-left:0;
+			margin-right:0;
+		}
 	}
 	.footer {
 		padding:3em;
@@ -59,12 +83,43 @@
 	}
 
 }
+
+//800px
+@media (max-width: 50em) {
+	body {font-size:14px}
+
+	.front-page {
+		// make posts go full-width
+		.all-posts {
+			margin:5em 0 0 0;
+		}
+		//make logo unfixed and centered
+		.logo {
+			position:relative;
+			margin:0 auto;
+		}
+	}
+
+}
+
+
 @media (max-width:40em) {
 	.default-page {
 		.container {
 			padding: 0 2em;
 		}
 		h1 { font-size:1.5em;}
+	}
+
+.front-page {
+	.all-posts {
+		.post {width:100%;}
+	}
+}
+	.post-prev-img, .post-next-img { 
+		background: none !important;
+width: 100%;
+height: 2em;
 	}
 
 

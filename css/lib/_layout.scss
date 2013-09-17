@@ -1,21 +1,20 @@
 .container {
   max-width:50em;
+  min-height:1em;
   margin: 0 auto;
   position:relative;
   @extend .clearfix;
 }
 
-.post-page, .default-page {
+.default-page {
   .container {
     max-width:35em;
   }
-}
-
-.default-page {
-
-  .navbar-inner {
-    //min-height:6em;
-    padding:2em 0;
+  .logo {
+    font-size:1.1em;
+    //position:absolute;
+    top:0;
+    left:10%;
   }
   
 }

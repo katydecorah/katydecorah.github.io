@@ -1,16 +1,17 @@
 {% include top.html %}
 <body class="default-page {{ page.class }}">
-<div class="container content" id="content">
-	<div class="breadcrumb" id="nav">
-		<a href="http://katydecorah.com/" class="salutation"><i class="icon-angle-left"></i> Katy DeCorah</a>
+	<div class="container">
+		<a href="{{ site.url }}" class="logo">{{ site.name }}</a>
 	</div>
-	{% if page.title == "Resume" %}
-	{% else %}
-	<h1>{{ page.title }}</h1>
-	{% endif %}
-  {{ content }}
-  </div>
-{% include footer.html %}
-{% include end.html %}
+	<div class="container content" id="content">
+
+		{% if page.title == "Resume" %}
+		{% else %}
+		<h1>{{ page.title }}</h1>
+		{% endif %}
+		{{ content }}
+	</div>
+	{% include footer.html %}
+	{% include end.html %}
 </body>
 </html>

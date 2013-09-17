@@ -1,22 +1,9 @@
 
 .front-page {
-  h1 {
-    margin:2em 0 1em;
-    text-align: center;
-    font-size:3em;
-    font-family: "old-standard",serif;
-    font-style: italic;
-    font-weight: 400;
-  }
-  .lead {
-    margin: 4em auto 8em;
-    text-align: center;
-    p {max-width: none;}
 
-  }
   .container {
     max-width:80em;
-    padding:2em;
+    padding:0 2em;
   }
   .about-me {
     width:25%;
@@ -38,11 +25,16 @@
 
 }
 
+.all-posts {
+  margin-left:16em;
+  margin-right:1em;
+ // background:#ddd;
+}
 
 // on front page
 .posts {
   @extend .clearfix;
-  li {
+  .post {
     width:24%;
     padding-bottom: 24%;
     background-repeat:no-repeat;
@@ -52,13 +44,8 @@
     margin:0.5%;
     float:left;
     max-width:none;
-
-    &:nth-child(1) {
-      width:49%;
-      padding-bottom: 49%;
-    }
   }
-  a {
+  .post-link {
     position:absolute;
     top:0;
     left:0;
@@ -68,28 +55,32 @@
     &:hover{
       @include transition(0.5s linear);
       .posts-info {
-        top:0;
+        top:100%;
         @include transition(0.35s cubic-bezier(1,.42,.41,1.25));
       }
     }
   }
 
   .posts-info {
-    top:-100%;
+    //top:100%;
     position:absolute;
     @include transition(0.5s linear);
-    background:rgba(black,0.75);
+    background:rgba(black,0.5);
     color:white;
     display:block;
     width:100%;
     height:100%;
-    padding:1em 2em;
+    padding:1em;
     font-family: "old-standard",serif;
     .posts-title {
       font-style:italic;
       font-size:1.2em;
       line-height:1.2;
     }
-    .posts-date {text-transform:uppercase; display:block; font-size:0.8em;}
+    .posts-date {
+      text-transform:uppercase; 
+      display:block; 
+      font-size:0.8em;
+    }
   }
 }

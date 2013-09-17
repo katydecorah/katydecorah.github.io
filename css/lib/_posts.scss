@@ -1,6 +1,5 @@
 
 
-
 // on individual post pages
 
 .post {
@@ -8,6 +7,7 @@
   h1 {
     margin-left:-1em;
     margin-right:-1em;
+    margin-top:2.25em;
     margin-bottom: 0;
     min-height: 2.5em;
   }
@@ -23,7 +23,7 @@
     padding:1em 0;
     text-align:center;
     position:relative;
-    background:#fafafa;
+    background:$bodyBackground;
     .post-type,.post-date, .post-location {
       text-transform: uppercase;
       font-size:0.8em;
@@ -34,18 +34,20 @@
 }
 .post-byline {
   display: block;
+  display:none;
   font-size: 0.8em;
   position: absolute;
   bottom: -2em;
   left:0;
   font-style: italic;
+  width:100%;
   color:darken(#ddd,10%);
   &:hover {
     color:darken(#ddd,20%);
   }
 }
 
-.post-location {}
+
 .post-location-image {
   position: absolute;
   top: 0;
@@ -59,6 +61,9 @@
 
 
 
+.post-location {
+  min-height:1em;
+}
 
 .find-similar-posts {
   border-top:1px solid #ddd;
@@ -70,14 +75,13 @@
   }
 }
 
+.post-prev-img, .post-next-img {
+  height: 10em;
+  width:15em;
+background-size: cover;
+background-position: center;
+display:block;
 
-.post-next-container {float:right}
-.post-prev-container {float:left;}
-
-.post-prev-img, .post-next-img {display:block;margin:0;}
-.post-next-container, .post-prev-container {
- display:block;
- width:45%;
  @include opacity(0.8);
  @include transition(opacity .5s ease-in-out);
  &:hover {
@@ -103,6 +107,12 @@ iframe, .pop-out {
 .gist {
   margin: 1em -10%;
   width: 120% !important;
+}
+
+
+.twitter-share-button {
+  margin: 0 auto 2em;
+width: 56px !important;
 }
 
 

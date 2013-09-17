@@ -1,23 +1,19 @@
 ---
 layout: front-page
-title: Hi, I'm Katy DeCorah.
+title: Katy DeCorah
 ---
-<div class="lead">
-  <p>These are my adventures.</p>
-</div>
-
-<div class="labels">
-  <span class="label active">all</span>
-{% for category in site.categories %}
-  <span class="label label-{{ category[0] }}">{{ category[0] }}</span>
-{% endfor %}
-</div>
 
 <div class="all-posts" id="adventures">
+    <div class="labels">
+      <span class="label active">all</span>
+      {% for category in site.categories %}
+      <span class="label label-{{ category[0] }}">{{ category[0] }}</span>
+      {% endfor %}
+  </div>
   <ul class="posts">
-  {% for post in site.posts %}
-    <li style="{{% if post.img %}}background-image:url({{ post.image }});{{% endif %}}{% if post.show == 'no' %}display:none;{% endif %}" data-category="{{ post.category }}" {% if post.show == 'no' %}class="all-hide"{% endif %}>
-      <a href="{{ post.url }}">
+    {% for post in site.posts %}
+    <li data-category="{{ post.category }}" class="post{% if post.show == 'no' %} all-hide{% endif %}" style="{{% if post.img %}}background-image:url({{ post.image }});{{% endif %}}{% if post.show == 'no' %}display:none;{% endif %}">
+      <a href="{{ post.url }}" class="post-link">
         <div class="posts-info">
           <span class="posts-title">{{ post.title }}</span>
           <span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> 

@@ -1,5 +1,10 @@
 {% include top.html %}
 <body class="post-page default-page">
+
+	<div class="container">
+		<a href="{{ site.url }}" class="logo">{{ site.name }}</a>
+	</div>
+
 	{% if page.locations %}
 	<div class="post-location">
 		<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=1280x140&scale=2&sensor=false&visual_refresh=true" class="post-location-image">
@@ -16,6 +21,8 @@
 			</div>
 			{{ content }}
 			<div class="find-similar-posts">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none" data-text="{{page.title}}" data-url="{{site.url}}{{ page.url }}">Tweet</a>
+
 				<div class="tags">
 					{% for tag in page.tags %}
 					<a href="http://katydecorah.com/categories/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>
@@ -34,6 +41,9 @@
 	{% if page.category == "coding" %}
 	<script async src="http://codepen.io/assets/embed/ei.js"></script>
 	{% endif %}
+	<script>
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+	</script>
 	{% include end.html %}
 </body>
 </html>
