@@ -10,7 +10,7 @@ title: Katy DeCorah
       <a href="{{ post.url }}" class="post-link">
         <div class="post-thumb pull-left" style="background-image:url({{ post.image }})"></div>
         <span class="posts-title">{{ post.title }}</span>
-        <span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> 
+        <span class="posts-date">{{post.category}} // {{ post.date | date: "%B %d, %Y" }}</span> 
       </a>
     </li>
     {% endfor %}

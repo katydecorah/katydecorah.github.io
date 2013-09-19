@@ -28,93 +28,65 @@
 .all-posts {
   margin-left:16em;
   margin-right:1em;
- // background:#ddd;
+
 }
 
-// on front page
-.posts {
-  @extend .clearfix;
-  .post {
-    width:24%;
-    padding-bottom: 24%;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    position:relative;
-    margin:0.5%;
-    float:left;
-    max-width:none;
-  }
-  .post-link {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    overflow:hidden;
-    &:hover{
-      @include transition(0.5s linear);
-      .posts-info {
-        top:100%;
-        @include transition(0.35s cubic-bezier(1,.42,.41,1.25));
-      }
-    }
-  }
-
-  .posts-info {
-    //top:100%;
-    position:absolute;
-    @include transition(0.5s linear);
-    background:rgba(black,0.5);
-    color:white;
-    display:block;
-    width:100%;
-    height:100%;
-    padding:1em;
-    font-family: "old-standard",serif;
-    .posts-title {
-      font-style:italic;
-      font-size:1.2em;
-      line-height:1.2;
-    }
-    .posts-date {
-      text-transform:uppercase; 
-      display:block; 
-      font-size:0.8em;
-    }
-  }
-}
 
 .post-link {
   @extend .clearfix;
+color:#222;
+  &:hover{
+    @include transition(0.5s linear);
+    .post-thumb {
+      background-position: -1em -1em;
+      @include transition(all 1s);
+    }
+
+  }
 }
 
-.post-thumb {
-width: 10em;
-height: 10em;
-background-size: cover;
-background-position: center;
-border-radius:100%;
-margin:0.5em 2em;
-}
-.posts-title {
-  font-size:1.5em;
-  padding-top:1.25em;
-  display:block;
-  font-style:italic;
-  font-family: "old-standard",serif;
-}
 
-.posts-date {
-  display: block;
-  font-family: "old-standard",serif;
-}
+  .post-thumb {
+    width: 10em;
+    height: 10em;
+    background-size: cover;
+    background-position: center;
+    border-radius:100%;
+    margin:0.5em 2em;
+    @include transition(all 1s);
+  }
+  .posts-title {
+    font-size:1.5em;
+    padding-top:1.25em;
+    display:block;
+    font-style:italic;
+    font-family: "old-standard",serif;
+  }
 
-.pagination {margin-top:2em;}
-.previous, .next {
-background: #222;
+  .posts-date {
+
+    font-family: "old-standard",serif;
+    
+    text-transform:uppercase; 
+    display:block; 
+    font-size:0.8em;
+  }
+
+  
+  .pagination {
+    margin: 6em 0;
+max-width: 35em;
+text-align: center;
+  }
+  .previous, .next {
+   background: $darkAccent;
 display: inline-block;
 color: #FFF;
-width: 1em;
+width: 2em;
 text-align: center;
-}
+height: 2em;
+border-radius: 100%;
+line-height: 2;
+vertical-align: middle;
+margin: 0 0.5em;
+  }
