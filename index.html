@@ -18,7 +18,7 @@ title: Katy DeCorah
   
   <div class="pagination">
     {% if paginator.previous_page %}
-    <a href="/{{ paginator.previous_page }}" class="previous"><i class="icon-angle-left"></i></a>
+    <a href="{% if paginator.previous_page == 1%}/{%else%}/{{ paginator.previous_page }}{%endif%}" class="previous"><i class="icon-angle-left"></i></a>
     {% endif %}
     <span class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
