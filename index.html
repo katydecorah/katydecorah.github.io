@@ -8,38 +8,21 @@ title: Katy DeCorah
     {% for post in paginator.posts %}
     <li data-category="{{ post.category }}">
       <a href="{{ post.url }}" class="post-link">
-          <div class="post-thumb pull-left" style="background-image:url({{ post.image }})"></div>
-          <span class="posts-title">{{ post.title }}</span>
-          <span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> 
+        <div class="post-thumb pull-left" style="background-image:url({{ post.image }})"></div>
+        <span class="posts-title">{{ post.title }}</span>
+        <span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> 
       </a>
     </li>
     {% endfor %}
   </ul> 
-
-
-
-<!-- Pagination links -->
-
-
-
   
   <div class="pagination">
-
     {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous"><i class="icon-angle-left"></i></a>
-  {% endif %}
-
-      <span class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-
-
-  
-
-
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next"><i class="icon-angle-right"></i></a>
-  {% endif %}
-</div>
-
-
+    <a href="/{{ paginator.previous_page }}" class="previous"><i class="icon-angle-left"></i></a>
+    {% endif %}
+    <span class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="/{{ paginator.next_page }}" class="next"><i class="icon-angle-right"></i></a>
+    {% endif %}
+  </div>
 </div>
