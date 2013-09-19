@@ -8,5 +8,8 @@ baseurl:     http://katydecorah.com/
 url:         http://katydecorah.com/
 lsi:         false
 
+paginate: 5
+paginate_path: ":num"
+
 name: Katy DeCorah
 description: Web developer, instructional designer, and adjunct professor from Albany, NY.

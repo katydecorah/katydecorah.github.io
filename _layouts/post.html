@@ -15,7 +15,7 @@
 		<div class="post">
 			<h1 class="text-center">{{ page.title }}</h1>
 			<div class="post-meta tk-old-standard">
-				<span class="post-type"> <a href="http://katydecorah.com/categories/#{{ page.category | downcase }}">{{ page.category }}</a></span>
+				<span class="post-type"> <a href="http://katydecorah.com/archive/#{{ page.category | downcase }}">{{ page.category }}</a></span>
 				// <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
 				<a href="{{site.url}}" class="post-byline"><i class="icon-angle-left"></i> Katy DeCorah</a>
 			</div>
@@ -25,7 +25,7 @@
 
 				<div class="tags">
 					{% for tag in page.tags %}
-					<a href="http://katydecorah.com/categories/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>
+					<a href="http://katydecorah.com/archive/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>
 					{% endfor %}
 					{% for location in page.locations %}
 					<a href="https://www.google.com/maps?q={{ location | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-map-marker"></i> {{ location | replace:',',', '}}</a>

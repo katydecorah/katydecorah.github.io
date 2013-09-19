@@ -4,22 +4,42 @@ title: Katy DeCorah
 ---
 
 <div class="all-posts" id="adventures">
-    <div class="labels">
-      <span class="label active">all</span>
-      {% for category in site.categories %}
-      <span class="label label-{{ category[0] }}">{{ category[0] }}</span>
-      {% endfor %}
-  </div>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li data-category="{{ post.category }}" class="post{% if post.show == 'no' %} all-hide{% endif %}" style="{{% if post.img %}}background-image:url({{ post.image }});{{% endif %}}{% if post.show == 'no' %}display:none;{% endif %}">
+  <ul>
+    {% for post in paginator.posts %}
+    <li data-category="{{ post.category }}">
       <a href="{{ post.url }}" class="post-link">
-        <div class="posts-info">
+          <div class="post-thumb pull-left" style="background-image:url({{ post.image }})"></div>
           <span class="posts-title">{{ post.title }}</span>
           <span class="posts-date">{{ post.date | date: "%B %d, %Y" }}</span> 
-        </div>
       </a>
     </li>
     {% endfor %}
-  </ul>
+  </ul> 
+
+
+
+<!-- Pagination links -->
+
+
+
+  
+  <div class="pagination">
+
+    {% if paginator.previous_page %}
+    <a href="/page{{ paginator.previous_page }}" class="previous"><i class="icon-angle-left"></i></a>
+  {% endif %}
+
+      <span class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+
+
+  
+
+
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}" class="next"><i class="icon-angle-right"></i></a>
+  {% endif %}
+</div>
+
+
 </div>

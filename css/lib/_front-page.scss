@@ -84,3 +84,37 @@
     }
   }
 }
+
+.post-link {
+  @extend .clearfix;
+}
+
+.post-thumb {
+width: 10em;
+height: 10em;
+background-size: cover;
+background-position: center;
+border-radius:100%;
+margin:0.5em 2em;
+}
+.posts-title {
+  font-size:1.5em;
+  padding-top:1.25em;
+  display:block;
+  font-style:italic;
+  font-family: "old-standard",serif;
+}
+
+.posts-date {
+  display: block;
+  font-family: "old-standard",serif;
+}
+
+.pagination {margin-top:2em;}
+.previous, .next {
+background: #222;
+display: inline-block;
+color: #FFF;
+width: 1em;
+text-align: center;
+}

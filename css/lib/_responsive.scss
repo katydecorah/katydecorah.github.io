@@ -127,6 +127,9 @@ height: 2em;
 
 //480px;
 @media (max-width:30em){
+
+	.post-thumb{display:none;}
+	.post-link {text-align:center;}
 	
 	h1 {text-align:center;}
 	
