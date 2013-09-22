@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adirondack Balloon Festival & Coldbrook Preserve
+title: Adirondack Balloon Festival &amp; Coldbrook Preserve
 category: Weekends
 locations:
 - Floyd Bennett Memorial Airport
