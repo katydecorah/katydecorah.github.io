@@ -1,13 +1,10 @@
-source:      .
+source: .
 destination: _site
-plugins:     _plugins
-layouts:     _layouts
+layouts: _layouts
 
-safe:        true
-baseurl:     http://katydecorah.com/
-url:         http://katydecorah.com/
-lsi:         false
-future: false
+baseurl: http://katydecorah.com/
+url: http://katydecorah.com/
+lsi: false
 
 paginate: 5
 paginate_path: ":num"
