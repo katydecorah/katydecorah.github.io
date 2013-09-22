@@ -17,11 +17,9 @@ image: http://farm3.staticflickr.com/2893/9874639174_9a41feb163_b.jpg
 
 ## Balloon Festival
 
-Mom and I woke up at 4 am. We drove to Glens Falls to take the 5:10 bus to the Adirondack Balloon Festival for the 100 balloon launch. We walked around the still dark airport while people began accumulating. We purchased a duo of coffee and bagels and stood around until launch time at 6:30. It was a pleasant morning, 55 degrees. 
+Friday night I drove to my folks house. The next morning, Mom and I woke up at 4 am. We drove to Glens Falls to take the 5:10 bus to the Adirondack Balloon Festival for the 100 balloon launch. We walked around the still dark airport runway while people began accumulating. We purchased a duo of coffee and bagels and stood around until launch time at 6:30. It was a pleasant morning, 55 degrees. 
 
-Once the sun came up, the wind picked up. Balloon crews unfolded balloons and managed to get a few upright, but the wind won. The wind tossed the balloons making the crowd gasp as they flopped from side to side. That was it. No balloons to launch. Everyone was so tired and disappointed.
-
-Here are a few of the handful of balloons that tried.
+Once the sun came up, the wind picked up. Crews unfolded balloons and brought them to life, but the wind won. The wind tossed the balloons around like rag dolls making the crowd gasp. That was it. No balloons to launch. Everyone was so tired and so disappointed.
 
 <a href="http://www.flickr.com/photos/91218249@N05/9874729963/" title="Adirondack Balloon Festival 2013 by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5468/9874729963_c1bf932d8a_b.jpg" class="img-half" alt="Adirondack Balloon Festival 2013"></a>
 <a href="http://www.flickr.com/photos/91218249@N05/9874631594/" title="Adirondack Balloon Festival 2013 by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5461/9874631594_e10c10a2ce_b.jpg" class="img-half" alt="Adirondack Balloon Festival 2013"></a>
