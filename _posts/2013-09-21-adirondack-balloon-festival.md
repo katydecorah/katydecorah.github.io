@@ -3,10 +3,10 @@ layout: post
 title: Adirondack Balloon Festival &amp; Coldbrook Preserve
 category: weekends
 locations:
-- Floyd Bennett Memorial Airport
-- Glens Falls, NY
-- The Peppermill, Moreau, NY
-- Coldbrook Preserve Trailhead, Homestead Rd, NY 12866
+- "Floyd Bennett Memorial Airport"
+- "Glens Falls, NY"
+- "The Peppermill, Moreau, NY"
+- "Coldbrook Preserve Trailhead, Homestead Rd, NY 12866"
 zoom: 8
 tags: 
   - fresh air
