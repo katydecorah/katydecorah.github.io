@@ -3,8 +3,6 @@ layout: post
 title: The Black Bean Brownie
 category: baking
 tags: 
-  - "low-calorie"
-  - "gluten-free"
   - brownies
 image: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg
 image-small: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_n.jpg

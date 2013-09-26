@@ -1,34 +1,23 @@
 .footer {
-  position:relative;
-  background:$darkAccent;
-  padding:10em 0;
-  color:#ebebeb;
-  margin-top:5em;
+  margin-top:20em;
   .colophon {
     margin:2em 0 0 6em;
     padding-top:2em;
     border-top:0.1em solid rgba(white,0.1);
     font-size:0.8em;
   }
+}
 
-  .profile-img {
-    float:left;
-    width:25%;
-    border-radius:100%;
-  }
-  .profile {
-    float:left;
-    width:73%;
-    padding:0 1%;
-  }
-  
-  p {
-    margin: 0 0 1em 5em;
-
-  }
-  .social-links {
-    i {
-      font-size:2em;
-    }
-  }
+.footer-profile-img-container {
+  width:25%;
+}
+.footer-profile-img {
+  z-index:1001;
+  display:block;
+}
+.footer-details {
+  margin: 3% 0 0 2%; 
+  font-size:1.2em; 
+  width:73%;
+  max-width:30em;
 }
