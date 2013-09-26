@@ -33,7 +33,7 @@ class: resume
 * Performed content and design updates to existing websites.
 
 ## Languages
-HTML5, CSS3/Sass, JavaScript/jQuery, ColdFusion, PHP, SQL, Git
+HTML/[Haml](http://katydecorah.com/archive/#haml), CSS/[Sass](http://katydecorah.com/archive/#sass), JavaScript/[jQuery](http://katydecorah.com/archive/#jquery)/[Angular](http://katydecorah.com/archive/#angular), ColdFusion, PHP, SQL, [API](http://katydecorah.com/archive/#api), [Git](https://github.com/katydecorah), [Jekyll/Liquid Markup](https://github.com/katydecorah/katydecorah.github.com)
 
 ## Education
 
