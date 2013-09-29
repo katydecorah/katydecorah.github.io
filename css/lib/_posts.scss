@@ -91,10 +91,14 @@ display:block;
 */
 .post-prev, .post-next {
   width:15em;
-  color:#222;
+  color:$darkAccent;
   position:relative;
   @include transition(all .5s linear);
-  &:hover {@include transition(all .5s linear)};
+  &:hover {
+    @include transition(all .5s linear);
+    color:lighten($darkAccent,15%);
+    .next,.previous {background:lighten($darkAccent,15%);}
+  }
   .next,.previous {
     position: absolute;
     top: 0.5em;
@@ -108,6 +112,9 @@ display:block;
 .post-next:hover {
   @include transform(translate(1em,0));
 }
+
+
+
 
 .post-next-title, .post-prev-title {
   display:block;

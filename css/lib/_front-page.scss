@@ -90,4 +90,8 @@
  line-height: 2;
  vertical-align: middle;
  margin: 0 0.5em;
+ &:hover {
+  background:lighten($darkAccent,15%);
+  color:white;
+ }
 }
