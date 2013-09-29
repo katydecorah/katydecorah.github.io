@@ -13,7 +13,7 @@
 	}
 }
 
-$categories : "baking","weekends","code","freelance","vacations","growing","weekdays";
+$categories : "baking","weekends","code","playlist","vacations","growing","weekdays";
 $labelInc: 35;
 @each $category in $categories {
 	.label-#{$category} { 

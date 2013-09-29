@@ -16,6 +16,9 @@
 				// <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
 				<a href="{{site.url}}" class="post-byline"><i class="icon-angle-left"></i> Katy DeCorah</a>
 			</div>
+			{% if page.category == 'playlist'%}
+			<p>What I listened to this past season&hellip;</p>
+			{% endif %}
 			{{ content }}
 			<div class="find-similar-posts">
 				{% include twitter.html %}
