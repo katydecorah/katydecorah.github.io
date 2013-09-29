@@ -15,7 +15,7 @@ Where I want a category to be color coded, I used the class of 'label.' While no
 
 Sample: <span class="label">label</span>
 
-Styled:
+Style:
 
 <script src="https://gist.github.com/katydecorah/6748647.js">&nbsp;</script>
 
