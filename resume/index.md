@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-plain
 title: Resume
 class: resume
 ---
