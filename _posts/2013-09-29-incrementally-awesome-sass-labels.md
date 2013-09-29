@@ -13,7 +13,7 @@ For this site I wanted my categories to be color coded, but I didn't want to put
 
 Where I want a category to be color coded, I used the class of 'label.' While not immediately semantic, it could allow for flexibility in the future. I'm also a Bootstrap fan, so it was a go-to move. This class is intended to be used on inline elements such as spans or anchor tags.
 
-Sample: <span class="label">category</span>
+Sample: <span class="label">label</span>
 
 Styled:
 
