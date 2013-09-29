@@ -10,7 +10,9 @@
 	{% if post.title == page.title %}
 		{% unless forloop.last %}
 			{% assign prev = catg_posts[forloop.index] %}
-				<a href="{{ prev.url }}" class="post-prev post-prev-img pull-left" style="background-image:url({{ prev.image }})"> <span class="post-prev-title text-left"><i class="icon-angle-left"></i>  {{ prev.title }}</span></a>
+				<a href="{{ prev.url }}" class="post-prev post-prev-img pull-left"> 
+					<span class="post-prev-title text-left"><i class="icon-angle-left previous"></i>  {{ prev.title }}</span>
+				</a>
 		{% endunless %}
 	{% endif %}
 	{% assign next = post %}
@@ -19,7 +21,9 @@
 {% for post in catg_posts %}
 	{% if post.title == page.title %}
 		{% unless forloop.first %}
-				<a href="{{ next.url }}" class="post-next pull-right post-next-img" style="background-image:url({{ next.image }})"><span class="post-next-title text-right">{{ next.title }} <i class="icon-angle-right"></i></span></a>
+				<a href="{{ next.url }}" class="post-next pull-right post-next-img">
+					<span class="post-next-title text-right">{{ next.title }} <i class="icon-angle-right next"></i></span>
+				</a>
 		{% endunless %}
 	{% endif %}
 	{% assign next = post %}

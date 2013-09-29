@@ -1,50 +1,25 @@
-.labels {
-	margin-bottom:2em;
-	.label {
-		cursor:pointer;
-		position:relative;
-		
-	}
-}
-.post .label {border-radius:0.25em;}
 .label {
 	vertical-align: middle;
-	background: transparentize($blue,0.5);
-	border-color:transparentize($blue,0.5);
+	background: rgba($blue,0.5);
+	border-color: rgba($blue,0.5);
 	padding: 0.25em 0.75em;
-	color: #FFF;
-	display:inline-block;
-	margin:0.3em 0;
-	&.active {
-		&:after {
-			content:"";
-			width:0;
-			height:0;
-			position:absolute;
-			border-style:solid;
-			border-color:transparentize($blue,0.5) transparent transparent;
-			border-width:0.5em;
-			top:100%;
-			left: 50%;
-			right: 50%;
-			margin: 0 -.5em;
-
-		}
+	color: #fff;
+	display: inline-block;
+	margin: 0.3em 0;
+	border-radius: 0.25em;
+	&:hover {
+		background: darken(rgba($blue,0.5),15%);
+		color: #fff;
 	}
-	&:hover {color:white;}
 }
 
 $categories : "baking","weekends","code","freelance","vacations","growing","weekdays";
 $labelInc: 35;
 @each $category in $categories {
 	.label-#{$category} { 
-		background:transparentize(adjust-hue($blue,$labelInc),0.5);
-		border-color:transparentize(adjust-hue($blue,$labelInc),0.5);
-		&:hover {
-			background:darken(transparentize(adjust-hue($blue,$labelInc),0.5),15%);
-			&.active:after {border-color:darken(transparentize(adjust-hue($blue,$labelInc),0.5),15%) transparent transparent;}
-		}
-		&.active:after {border-color:transparentize(adjust-hue($blue,$labelInc),0.5) transparent transparent;}
+		background: rgba(adjust-hue($blue,$labelInc),0.5);
+		border-color: rgba(adjust-hue($blue,$labelInc),0.5);
+		&:hover {background: darken(rgba(adjust-hue($blue,$labelInc),0.5),15%);}
 	}
 	$labelInc: $labelInc + 35;
 }
