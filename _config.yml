@@ -10,7 +10,7 @@ pygments: true
 baseurl: http://katydecorah.com/
 url: http://katydecorah.com/
 
-paginate: 5
+paginate: 7
 paginate_path: ":num"
 
 name: Katy DeCorah
