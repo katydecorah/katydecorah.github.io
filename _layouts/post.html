@@ -1,36 +1,31 @@
 {% include top.html %}
 <body class="post-page default-page">
-	<div class="container">
-		<a href="{{ site.url }}" class="logo">{{ site.name }}</a>
-	</div>
-	{% if page.locations %}
-	<div class="post-location">
-		<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=1280x140&scale=2&sensor=false&visual_refresh=true" class="post-location-image">
-	</div>
-	{% endif %}
-	<div class="container" id="content">
-		<div class="post">
-			<h1 class="text-center">{{ page.title }}</h1>
-			<div class="post-meta tk-old-standard">
-				<span class="post-type"> <a href="http://katydecorah.com/archive/#{{ page.category | downcase }}">{{ page.category }}</a></span>
-				// <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
-				<a href="{{site.url}}" class="post-byline"><i class="icon-angle-left"></i> Katy DeCorah</a>
-			</div>
-			{% if page.category == 'playlist'%}
-			<p>What I listened to this past season&hellip;</p>
-			{% endif %}
-			{{ content }}
-			<div class="find-similar-posts">
-				{% include twitter.html %}
-				{% include tags.html %}
-				{% include prev-next.html %}
-			</div>
-		</div>
-	</div>
-	{% include footer.html %}
-	{% if page.category == "coding" %}
-	<script async src="http://codepen.io/assets/embed/ei.js"></script>
-	{% endif %}
-	{% include end.html %}
+<div class="container">
+<a href="{{ site.url }}" class="logo">{{ site.name }}</a>
+</div>
+{% if page.locations %}
+<div class="post-location">
+<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=1280x140&scale=2&sensor=false&visual_refresh=true" class="post-location-image">
+</div>
+{% endif %}
+<div class="container" id="content">
+<div class="post">
+<h1 class="text-center">{{ page.title }}</h1>
+<div class="post-meta tk-old-standard">
+<span class="post-type"> <a href="http://katydecorah.com/archive/#{{ page.category | downcase }}">{{ page.category }}</a></span>
+// <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
+<a href="{{site.url}}" class="post-byline"><i class="icon-angle-left"></i> Katy DeCorah</a>
+</div>
+{% if page.category == 'playlist'%}<p>What I listened to this past season&hellip;</p>{% endif %}
+{{ content }}
+<div class="find-similar-posts">
+{% include twitter.html %}
+{% include tags.html %}
+{% include prev-next.html %}
+</div>
+</div>
+</div>
+{% include footer.html %}
+{% include end.html %}
 </body>
 </html>

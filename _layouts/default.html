@@ -1,18 +1,13 @@
 {% include top.html %}
 <body class="default-page {{ page.class }}">
-	<div class="container">
-		<a href="{{ site.url }}" class="logo">{{ site.name }}</a>
-	</div>
-	<div class="container content" id="content">
-
-		{% if page.title != "Resume" and page.title !="About Katy" %}
-		<h1>{{ page.title }}</h1>
-		{% endif %}
-		{{ content }}
-	</div>
-	{% if page.title != "About Katy" %}
-	{% include footer.html %}
-	{% endif %}
-	{% include end.html %}
+<div class="container">
+<a href="{{ site.url }}" class="logo">{{ site.name }}</a>
+</div>
+<div class="container content" id="content">
+<h1>{{ page.title }}</h1>
+{{ content }}
+</div>
+{% include footer.html %}
+{% include end.html %}
 </body>
 </html>
