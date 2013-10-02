@@ -1,0 +1,42 @@
+---
+layout: default
+title: Archive
+---
+<div class="half-left">
+<h2>Categories</h2>
+<div class="make-columns">
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+{% if category[1].size > categories_max %}
+{% assign categories_max = category[1].size %}
+{% endif %}
+{% endfor %}
+{% for i in (1..categories_max) reversed %}
+{% for category in site.categories %}
+{% if category[1].size == i %}
+<h3 id="{{ category[0] | downcase | replace:' ','_' }}">{{ category[0] }}</h3>
+{% for post in category.last %}<a href="{{ post.url }}">{{ post.title }}</a>{% if forloop.last %}{% else %} // {% endif %}{% endfor %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>
+</div>
+<div class="half-right">
+<h2>Tags</h2>
+<div class="make-columns">
+{% assign tags_max = 0 %}
+{% for tag in site.tags %}
+{% if tag[1].size > tags_max %}
+{% assign tags_max = tag[1].size %}
+{% endif %}
+{% endfor %}
+{% for i in (1..tags_max) reversed %}
+{% for tag in site.tags %}
+{% if tag[1].size == i %}
+<h3 id="{{ tag[0] | downcase | replace:' ','_' }}">{{ tag[0] }}</h3>
+{% for post in tag.last %}<a href="{{ post.url }}">{{ post.title }}</a>{% if forloop.last %}{% else %} // {% endif %}{% endfor %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>
+</div>
