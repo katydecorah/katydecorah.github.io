@@ -100,10 +100,22 @@
 		}
 	}
 
+	.half-left,.half-right {
+  width:100%;
+  margin:0;
+  float:none;
+}
+
+.make-columns {
+@include columns(1);
+@include column-gap(0);
+}
+
 }
 
 
 @media (max-width:40em) {
+
 	.default-page {
 		.container {
 			padding: 0 2em;

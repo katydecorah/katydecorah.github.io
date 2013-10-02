@@ -1,5 +1,5 @@
 {% include top.html %}
-<body class="default-page {{ page.class }}">
+<body class="default-page page-{{ page.title | downcase | replace:' ','_'  }}">
 <div class="container">
 <a href="{{ site.url }}" class="logo">{{ site.name }}</a>
 </div>

@@ -16,10 +16,22 @@
     top:0;
     left:10%;
   }
-  
+}
+
+.page-archive {
+  .container {
+    max-width:69em;
+    padding:0 1em;
+  }
 }
 
 .make-columns {
 @include columns(2);
 @include column-gap(2em);
 }
+
+.half-left,.half-right {
+  width:48%;
+  float:left;
+}
+.half-left {margin-right:4%}
