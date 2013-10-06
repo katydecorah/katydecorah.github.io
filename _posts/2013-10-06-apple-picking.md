@@ -13,9 +13,9 @@ image: http://farm6.staticflickr.com/5340/10102694436_83377f3c85_c.jpg
 
 ## Saturday
 
-We woke up early and drove to [Golden Harvest Farms](http://goldenharvestfarms.com/) in Valatie. We chose this spot because someone had the bright idea to look up which local apple orchard has the best cider donuts.
+We woke up early and drove to [Golden Harvest Farms](http://goldenharvestfarms.com/) in Valatie. We chose this spot apparently they have the best cider donuts. And they do.
 
-We set out to pick a &frac12; bushel of apples by taste testing all the available varieties. The [jonagolds](http://en.wikipedia.org/wiki/Jonagold) are definitely my favorite. Then we picked up a &frac12; dozen donuts (+2 for immediate consumption) and apple cider.
+We set out to pick a &frac12; bushel of apples and started by taste testing all the available varieties. The [jonagolds](http://en.wikipedia.org/wiki/Jonagold) are definitely my favorite. Then we picked up a &frac12; dozen donuts (+2 for immediate consumption) and apple cider.
 
 <a href="http://www.flickr.com/photos/katydecorah/10102694436/" title="Apple picking! by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5340/10102694436_83377f3c85_c.jpg" class="pop-out" alt="Apple picking!"></a>
 <a href="http://www.flickr.com/photos/katydecorah/10102654325/" title="Apple picking! by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5515/10102654325_a56b0c1559_c.jpg" class="img-thirds" alt="Apple picking!"></a>
@@ -31,7 +31,7 @@ We set out to pick a &frac12; bushel of apples by taste testing all the availabl
 
 I put those apples to work.
 
-(Right before I rolled out the dough, I realized that I don't own a rolling pin. I found that a cling wrapped wine bottle can roll dough quite nicely.)
+(Right before I rolled out the dough, I realized that I don't own a rolling pin. So I cling wrapped a wine bottle and it rolled dough quite nicely.)
 
 
 <a href="http://www.flickr.com/photos/katydecorah/10120984453/" title="Apple pie! by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7416/10120984453_253b5eb02c_c.jpg" class="img-split-tall" alt="Apple pie!"></a>
