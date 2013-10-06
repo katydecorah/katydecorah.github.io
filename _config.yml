@@ -12,7 +12,7 @@ url: http://katydecorah.com/
 
 paginate: 7
 paginate_path: ":num"
-permalink: date
+permalink: pretty
 
 name: Katy DeCorah
 description: "Web developer, instructional designer, and adjunct professor from Albany, NY."
