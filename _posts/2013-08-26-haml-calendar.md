@@ -11,7 +11,7 @@ pen: aDAoG
 image: "http://katydecorah.com/img/haml-calendar.png"
 image-small: http://codepen.io/katydecorah/pen/aDAoG/image/small.png
 image-large: http://codepen.io/katydecorah/pen/aDAoG/image/large.png
-
+project: true
 ---
 
 <p data-height="400" data-theme-id="97" data-slug-hash="aDAoG" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/aDAoG'>Haml Calendar</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

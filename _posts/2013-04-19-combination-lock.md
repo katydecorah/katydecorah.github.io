@@ -11,6 +11,7 @@ pen: CLxkg
 image: http://katydecorah.com/img/combination-lock.png
 image-small: http://codepen.io/katydecorah/pen/CLxkg/image/small.png
 image-large: http://codepen.io/katydecorah/pen/CLxkg/image/large.png
+project: true
 
 ---
 <p data-height="550" data-theme-id="97" data-slug-hash="CLxkg" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/CLxkg'>Combination Lock</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

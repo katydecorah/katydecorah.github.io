@@ -13,6 +13,7 @@ pen: cufzB
 image: http://katydecorah.com/img/line-length.png
 image-small: http://codepen.io/katydecorah/pen/cufzB/image/small.png
 image-large: http://codepen.io/katydecorah/pen/cufzB/image/large.png
+project: true
 ---
 <p data-height="600" data-theme-id="97" data-slug-hash="cufzB" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cufzB'>Line Length-icator</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

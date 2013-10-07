@@ -9,8 +9,7 @@ tags:
   - Angular
   - UI practice
 image: http://codepen.io/katydecorah/pen/IiDKe/image/small.png
-"show": "no"
-
+project: true
 ---
 
 My first try Angular form validation.

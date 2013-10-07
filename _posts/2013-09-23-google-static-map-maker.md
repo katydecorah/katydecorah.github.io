@@ -9,6 +9,7 @@ tags:
   - CodePen
   - Sass
 image: http://codepen.io/katydecorah/pen/Klieu/image/large.png
+project: true
 ---
 
 [The Google Static Map Marker is also served on its own page.](http://katydecorah.com/staticmapmaker)

@@ -10,6 +10,7 @@ pen: vetCA
 image: http://katydecorah.com/img/google-font-explorer.png
 image-small: http://codepen.io/katydecorah/pen/vetCA/image/small.png
 image-large: http://codepen.io/katydecorah/pen/vetCA/image/large.png
+project: true
 ---
 <p data-height="400" data-theme-id="97" data-slug-hash="vetCA" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/vetCA'>Google Font Explorer</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

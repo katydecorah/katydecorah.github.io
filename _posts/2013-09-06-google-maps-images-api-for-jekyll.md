@@ -10,6 +10,7 @@ image: http://katydecorah.com/img/google-maps.png
 image-small: http://katydecorah.com/img/google-maps.png
 image-large: http://katydecorah.com/img/google-maps.png
 locations: Albany,NY
+project: true
 ---
 
 I have quite a few posts with locations and I wanted a better way to integrate them into my posts. I tinkered around with the static Google Maps Image API and found a neat little solution.
