@@ -1,4 +1,4 @@
 <div class="tags">
-{% for tag in page.tags %}<a href="http://katydecorah.com/archive/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>{% endfor %}
+{% for tag in page.tags %}<a href="http://katydecorah.com/tags/#{{ tag | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-tag"></i> {{ tag }}</a>{% endfor %}
 {% for location in page.locations %}<a href="https://www.google.com/maps?q={{ location | downcase | replace:' ','_'}}" class="label label-{{ page.category }}"><i class="icon-map-marker"></i> {{ location | replace:',',', '}}</a>{% endfor %}
 </div>
