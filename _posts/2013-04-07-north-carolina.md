@@ -1,7 +1,7 @@
 ---
 layout: post
 title: North Carolina
-category: vacations
+category: adventures
 tags: 
 - family
 - road trip

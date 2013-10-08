@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mount Greylock
-category: weekends
+category: adventures
 locations: "Mount Greylock"
 tags: 
   - fresh air

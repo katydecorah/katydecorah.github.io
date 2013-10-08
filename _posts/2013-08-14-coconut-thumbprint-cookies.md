@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coconut Thumbprint Cookies with Salted Caramel
-category: baking
+category: edibles
 tags: 
 - cookies
 - Martha Stewart

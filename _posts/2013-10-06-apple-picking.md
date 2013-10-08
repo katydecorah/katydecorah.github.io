@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apple Pickin &amp; Apple Pie Makin
-category: weekends
+category: adventures
 tags: 
   - fresh air
   - Martha Stewart

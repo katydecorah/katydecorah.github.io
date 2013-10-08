@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Raspberry Chocolate Pie
-category: baking
+category: edibles
 tags:
 - pie
 - Martha Stewart

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windowsill Cherry Tomatoes
-category: growing
+category: edibles
 tags: 
 - cherry tomatoes
 - gardening

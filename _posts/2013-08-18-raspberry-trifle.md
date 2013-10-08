@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Raspberry Trifle
-category: baking
+category: edibles
 tags: 
   - treats
   - Martha Stewart

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rensselaerville
-category: weekdays
+category: adventures
 tags: 
  - fresh air
 image: http://farm4.staticflickr.com/3804/9565395773_d71409faf5_c.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Homemade Vanilla Marshmallows
-category: baking
+category: edibles
 tags:
 - smores
 - Martha Stewart

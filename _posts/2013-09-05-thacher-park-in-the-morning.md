@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thacher Park in the morning
-category: weekends
+category: adventures
 tags:
 - fresh air
 - hiking

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Western Mass Adventures
-category: weekends
+category: adventures
 tags: 
 - waterfall
 - pizza

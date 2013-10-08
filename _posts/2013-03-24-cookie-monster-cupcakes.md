@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cookie Monster Cupcakes
-category: baking
+category: edibles
 tags: 
 - birthdays
 - cupcakes

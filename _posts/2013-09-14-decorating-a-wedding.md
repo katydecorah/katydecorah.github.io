@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Decorating a Wedding
-category: weekends
+category: adventures
 tags:
 - fresh air
 - crafts

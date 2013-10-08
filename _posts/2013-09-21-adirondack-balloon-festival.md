@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adirondack Balloon Festival &amp; Coldbrook Preserve
-category: weekends
+category: adventures
 locations:
 - "Floyd Bennett Memorial Airport"
 - "Glens Falls, NY"
