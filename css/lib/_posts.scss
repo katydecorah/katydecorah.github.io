@@ -140,8 +140,10 @@ embed {max-width:100%;}
 
 
 .twitter-share-button {
-  margin: 0 auto 2em;
-  width: 56px !important;
+  display: inline-block;
+margin: 0 auto 2em;
+text-transform: uppercase;
+font-size: 0.9em;
 }
 
 
