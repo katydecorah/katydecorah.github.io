@@ -3,8 +3,8 @@ destination: _site
 plugins: _plugins
 layouts: _layouts
 
-baseurl: http://katydecorah.com/
-url: http://katydecorah.com/
+baseurl: http://katydecorah.com
+url: http://katydecorah.com
 permalink: pretty
 
 paginate: 7
