@@ -16,7 +16,7 @@ project: true
 
 <p data-height="400" data-theme-id="97" data-slug-hash="xADtE" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/xADtE'>Haml Clock</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-After creating the [Haml calendar](http://katydecorah.com/coding/2013/08/26/haml-calendar), I decided to go for a Haml clock.
+After creating the [Haml calendar](http://katydecorah.com/code/2013/08/26/haml-calendar), I decided to go for a Haml clock.
 
 How it works:
 
