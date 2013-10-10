@@ -21,7 +21,10 @@
 </div>
 <div class="container content" id="content">
 <h1>Oops!</h1>
-<p class="text-center">This page has moved or was deleted. Sorry about that! <a href="http://katydecorah.com/categories">Try going here</a>.</p>
+<p class="text-center">This page has moved or was deleted.</p>
+<p class="text-center" id="go"><a href="http://katydecorah.com/"><i class="icon-arrow-left"></i> Let's go.</a></p>
+<p id="redirect" class="text-center"></p>
+
 </div>
 <script type="text/javascript">
 var _gaq = _gaq || [];
@@ -33,6 +36,14 @@ _gaq.push(['_trackPageview']);
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+var url = document.URL;
+if( url.indexOf( ".html" ) == -1 ){
+	$("#go").remove();
+  $("#redirect").html("I recently changed my url scheme to something more sustainable. This might be what you're looking for:<br><a href='"+url+".html'>"+url+".html</a>");
+}
 </script>
 </body>
 </html>
