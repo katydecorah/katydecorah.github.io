@@ -10,7 +10,7 @@ pygments: true
 baseurl: http://katydecorah.com/
 url: http://katydecorah.com/
 
-permalinks: pretty
+permalink: pretty
 
 paginate: 7
 paginate_path: ":num"
