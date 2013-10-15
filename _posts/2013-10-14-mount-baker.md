@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Mount Baker &amp; Aunt Pauline&rsquo;s .22
+title: "Mount Baker & Aunt Pauline’s .22"
 category: adventures
 tags: 
   - fresh air
   - hiking
   - red shoes
-locations:
-  - Mount Baker, Saranac Lake
-  - Lake Placid,NY
-  - Moreau,NY
-image: http://farm3.staticflickr.com/2823/10229168105_2131a10c49_c.jpg
+locations: 
+  - "Mount Baker, Saranac Lake"
+  - "Lake Placid,NY"
+  - "Moreau,NY"
+image: "http://farm3.staticflickr.com/2823/10229168105_2131a10c49_c.jpg"
+published: true
 ---
 
 ## Mount Baker
@@ -53,7 +54,7 @@ Thanks for having me, Becky!
 
 ## Aunt Pauline&rsquo;s .22
 
-On Sunday I visited my folks. Dad taught me to shoot Aunt Pauline&rsquo;s .22. A few people asked why all of the sudden I wanted to learn to shoot. Lately, I&rsquo;ve been worried about getting too comfortable with life. This definitely tested my comfort zone.
+On Sunday I visited my folks. Dad taught me to shoot Aunt Pauline&rsquo;s .22. A few people asked why all of the sudden I wanted to learn to shoot. Lately, I&rsquo;ve been worried about getting too comfortable with life. This definitely tested my comfort level.
 
 While I missed the actual targets, I hit the paper every time. Thanks, Dad!
 
@@ -66,5 +67,3 @@ While I missed the actual targets, I hit the paper every time. Thanks, Dad!
 Unfortunately, the pumpkin I carved over the weekend did not make it home in one piece.
 
 <a href="http://www.flickr.com/photos/katydecorah/10281529596/" title="Untitled by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3694/10281529596_16eee5041c_c.jpg" alt="Untitled"></a>
-
-Another good weekend in the books.
