@@ -10,7 +10,7 @@ locations:
   - Mount Baker, Saranac Lake
   - Lake Placid,NY
   - Moreau,NY
-image: 
+image: http://farm3.staticflickr.com/2823/10229168105_2131a10c49_c.jpg
 ---
 
 ## Mount Baker
