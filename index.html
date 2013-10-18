@@ -9,6 +9,7 @@ title: Katy DeCorah
 <div class="post-thumb pull-left" style="background-image:url({{ post.image }})"></div>
 <span class="posts-title">{{ post.title }}</span>
 <span class="posts-date">{{post.category}} // {{ post.date | date: "%B %d, %Y" }}</span>
+<span class="post-excerpt">This post is about {{post.tags | array_to_sentence_string }}{%if post.locations %} happening in {{post.locations | join:', '}}{%endif%}.</span>
 </a>
 </li>{% endfor %}
 </ul> 
