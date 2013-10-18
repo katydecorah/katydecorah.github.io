@@ -38,7 +38,7 @@
   &:hover{
     @include transition(0.5s linear);
     .post-thumb {
-      background-position: -1em -1em;
+      background-position: 0 -0.5em;
       @include transition(all 1s);
     }
 
@@ -47,12 +47,12 @@
 
 
 .post-thumb {
-  width: 10em;
-  height: 10em;
-  background-size: cover;
-  background-position: center;
-  border-radius:100%;
-  margin:0.5em 2em;
+  width: 50%;
+  padding-bottom: 50%;
+  width: 50%;
+background-size: cover;
+background-position: center;
+margin: 0.5em 2em 1em 0;
   @include transition(all 1s);
 }
 .posts-title {
