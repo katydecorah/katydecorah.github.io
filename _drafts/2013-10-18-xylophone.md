@@ -10,8 +10,9 @@ So let's learn how to create dimenional sides on an element, but let's make that
 
 ![xylophone inspiration](/http://2.bp.blogspot.com/_KFzj9M-mLDA/TDva0USnUaI/AAAAAAAAALg/qCekvdrOet8/s1600/xylophone.jpg)
 
-Using a Google sourced image of the children's toy version, I set to work. I laid out my goals. I wanted the outcome to look exactly like the toy, but I also want it to be scalable and flexible. If I want to add extra keys, let it. If I want to fatten the keys, let it.
+Using a Google sourced image of the children's toy version, I set to work. I laid out my goals. I wanted the outcome to look exactly like the toy, but I also wanted it to be scalable and flexible. If I want to add extra keys, let it. If I want to fatten the keys, let it. If I want to change the colors, let it.
 
 ## HTML/Haml
 
-Given
+Easy part of the project. Parent div `.xylophone` with 8 (as a starting point) children divs `.keys`.
+
