@@ -4,7 +4,7 @@ title: "Greenwich & Treasure Hunting"
 category: adventures
 tags: 
   - fresh air
-  - ocean
+  - the ocean
   - red shoes
   - family
   - treasures

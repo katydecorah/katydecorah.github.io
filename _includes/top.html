@@ -14,8 +14,8 @@
 <meta name="twitter:site" content="@katydecorah">
 <meta name="twitter:creator" content="@katydecorah">
 <meta name="twitter:title" content="{{page.title}}">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="{{page.image}}">
+<meta name="twitter:description" content="This post is about {{page.tags | array_to_sentence_string }}{%if page.locations %} happening in {{page.locations | join:', '}}{%endif%}.">
+<meta name="twitter:image:src" content="{{page.image}}">
 {% endif %}
 
 <link rel="shortcut icon" href="{{site.url}}favicon.png">
