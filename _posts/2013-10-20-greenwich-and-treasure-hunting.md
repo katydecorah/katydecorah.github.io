@@ -16,7 +16,7 @@ locations:
 image: http://farm4.staticflickr.com/3710/10390926954_1d0b25911d_c.jpg
 ---
 
-On Saturday, I woke up early and drove down to Greenwich, CT. A very good friend of mine moved down there earlier this year and I finally had a chance to visit. She showed me her new place and around town. We ordered sushi to-go and enjoyed it on the beach. It was a really great day.
+On Saturday, I woke up early and drove down to Greenwich, CT. A very good friend of mine moved down there earlier this year with her husband.She showed me their new place and around town. We ordered sushi to-go and enjoyed it on the beach. It was a really great day.
 
 <a href="http://www.flickr.com/photos/katydecorah/10391048193/" title="Greenwich, CT by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7376/10391048193_0ed2052e5b_c.jpg" class="img-half" alt="Greenwich, CT"></a>
 <a href="http://www.flickr.com/photos/katydecorah/10390895356/" title="Greenwich, CT by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5510/10390895356_61e2051e1b_c.jpg" class="img-half" alt="Greenwich, CT"></a>
