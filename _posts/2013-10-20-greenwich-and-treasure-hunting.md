@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Greenwich & Treasure Hunting"
+title: "Greenwich &amp; Treasure Hunting"
 category: adventures
 tags: 
   - fresh air
