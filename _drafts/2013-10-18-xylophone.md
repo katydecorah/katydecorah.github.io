@@ -18,4 +18,8 @@ Easy part of the project. Parent div `.xylophone` with 8 (as a starting point) c
 
 ## Styles
 
-Each key is styled similiarly, where each key's pseudo elements create sides for the key. Using a Sass loop, I am able to proportionally adjust the size, positioning, and color of the keys.
+Each key is styled similiarly, where its pseudo elements create sides making the key dimensional. Using a Sass loop, I am able to proportionally adjust the size, positioning, and color of the keys.
+
+The first key creates is primary in deciding the size and positioning of the following keys. The keys are centered vertically based on the size of the first key.
+
+The last key controls the positioning of the support beams that connect the keys onto the xylophone.
