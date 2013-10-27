@@ -21,6 +21,11 @@ Dribbble shot [Hallowiener by Bobby McKenna](http://dribbble.com/shots/1286749).
 
 This was also slightly inspired by [Apple Mice By Josh Bader](http://codepen.io/joshbader/pen/fKjra). I loved his graceful transitions between each mouse, which made the experience more of a metamorphosis.
 
-(My code could be cleaner, but I didn't feel like being picky on a fun Pen.)
+When creating a metamorphsis, I recommend building the result or hover state first. 
 
-When creating a metamorphsis, I recommend building the result first. So in this case, I started with the zombie face. Once I had the zombie face all ready, I copied all of the styles and pasted them under the :hover state for the `.head` element. At this point, when I hovered on the head I saw no difference, because it was a zombie face hovering to zombie face. I needed to make the normal state the normal face, so I carefully adjusted the styles of the normal state. I tried to be consistant among elements with styling to make for a smoother transition. I tried to remove redundant code from the normal and hover states. Lastly, I `*` styled a transition to allow all of the elements to glide into zombie mode when hovered.
+In this case, I started with the zombie face. Once I had the zombie face all ready, I copied all of the styles and pasted them under the hover state for the `.head` element. At this point, when I hovered on the head I saw no difference, because it was a zombie face hovering to zombie face. 
+Next, I needed to make the normal state the normal face, so I carefully adjusted the styles of the normal state. I tried to be consistant among elements with styling to make smoother transitions. If there was an element that appeared in one state, but was removed from the next, I tried to use `opacity` instead of `display:none`. I find that opacity will give you a more pleasant transition.
+
+Lastly, I `*` styled a transition to allow all of the elements to glide into zombie mode when hovered. I also tried to remove redundant code from the normal and hover states where possible.
+
+(My code could be cleaner, but I didn't feel like being picky on a fun Pen.)
