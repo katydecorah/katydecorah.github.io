@@ -33,9 +33,11 @@ class: resume
 * Performed content and design updates to existing websites.
 
 ## Skills
-HTML/[Haml](http://katydecorah.com/tags/#haml), CSS/[Sass](http://katydecorah.com/tags/#sass), JavaScript/[jQuery](http://katydecorah.com/tags/#jquery)/[Angular](http://katydecorah.com/tags/#angular)/Ajax, ColdFusion, PHP, SQL, [API](http://katydecorah.com/tags/#api), [Git](https://github.com/katydecorah), [Jekyll/Liquid Markup](https://github.com/katydecorah/katydecorah.github.com)
+HTML, [Haml](http://katydecorah.com/tags/#haml), CSS, [Sass](http://katydecorah.com/tags/#sass), JavaScript, [jQuery](http://katydecorah.com/tags/#jquery), [Angular](http://katydecorah.com/tags/#angular), Ajax, ColdFusion, PHP, SQL, [API](http://katydecorah.com/tags/#api), [Git](https://github.com/katydecorah), [Jekyll/Liquid Markup](https://github.com/katydecorah/katydecorah.github.com)
 
-Responsive web design, Section 508: Accessibility Standards
+Responsive web design, accessibility, web performance, crosss-browser testing
+
+Twitter Bootstrap
 
 ## Education
 
