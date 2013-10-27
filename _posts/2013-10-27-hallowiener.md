@@ -17,4 +17,6 @@ image: http://codepen.io/katydecorah/pen/qpoFv/image/large.png
 
 Another Dribbble shot turned code. Hover for zombification.
 
-Dribbble shot [Hallowiener by Bobby McKenna](http://dribbble.com/shots/1286749)
+Dribbble shot [Hallowiener by Bobby McKenna](http://dribbble.com/shots/1286749).
+
+This was also slightly inspired by [Apple Mice By Josh Bader](http://codepen.io/joshbader/pen/fKjra). I loved his graceful transitions between each mouse, which made the experience more of a metamorphosis.
