@@ -18,6 +18,6 @@ After I moved the files I realized I wanted to shorten the filenames from `L1T1-
 
 Doing this by topic, I hit the following command:
 
-	for f in *.cfm; do git mv $f $(echo $f | sed ‘s/L1T1-page//g’); done
+	for f in *.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’); done
 
 It worked. I bet there's a better way of doing it, but I'm proud of myself. As I was figuring this out, I imagined the scene from Hook where Peter begins to remember how to play pretend and the children are like "You're doing it Peter."
