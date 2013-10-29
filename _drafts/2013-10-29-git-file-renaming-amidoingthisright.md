@@ -21,3 +21,5 @@ Doing this by topic, I hit the following command:
 	for f in *.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’);done
     
 It worked. I bet there's a better way of doing it, but I'm proud of myself. As I was figuring this out, I imagined the scene from Hook where Peter begins to remember how to play pretend and the children are like "You're doing it Peter."
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/AAJaWFdgeVM?feature=player_detailpage" frameborder="0" allowfullscreen>&nbsp;</iframe>
