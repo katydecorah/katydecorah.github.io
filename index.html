@@ -3,8 +3,8 @@ layout: front-page
 title: Katy DeCorah
 ---
 <div class="all-posts" id="adventures">
-<ul>
-{% for post in paginator.posts %}<li>
+<ul class="list-posts">
+{% for post in paginator.posts %}<li class="list-post">
 <a href="{{ post.url }}" class="post-link">
 <div class="post-thumb pull-left" style="background-image:url({{ post.image }})"></div>
 <span class="posts-title">{{ post.title }}</span>
