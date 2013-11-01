@@ -23,4 +23,6 @@ I rotated the ice cream bars using the nth-child selector, but more specifically
 
 I applied a width to the body to ensure that the pattern will stay inline. Then I hid the overflow to keep the pattern tight against the browser.
 
-I partially made this because I felt that I needed to redeem myself with something light and happy after creating [this morbid pen](http://codepen.io/katydecorah/pen/Lkogi) in honor of Halloween.
+And then I made an animation on hover because it's Friday.
+
+This pen was my pursuit in redemption after creating [this morbid pen](http://codepen.io/katydecorah/pen/Lkogi) yesterday in honor of Halloween.
