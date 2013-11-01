@@ -19,8 +19,8 @@ Dribbble shot [Ice Cream Pattern by Dorottya Porkolab](http://dribbble.com/shots
 
 For this pen, I made each ice cream a single element. I used `border-top` for the pink section, `border-bottom` for the green section, and background for the yellow section. The inner ice cream shadow is a `:before` and the stick is an `:after`.
 
-I rotated the ice cream bars using the nth-child selector, but more specifically calling out odd and even.
+I rotated the ice cream bars using the nth-child selector, but more specifically calling out odd and even. The odd and even selectors have almost the same styling, but with some tweaks to the shadows, transform, and margin. The trickiest part was adding just the right amount of margin to make the pattern look evenly spaced out.
 
-I applied a width to the body to ensure that the pattern stays inline. Then I hid the overflow to keep the pattern tight against the browser.
+I applied a width to the body to ensure that the pattern will stay inline. Then I hid the overflow to keep the pattern tight against the browser.
 
 I partially made this because I felt that I needed to redeem myself with something light and happy after creating [this morbid pen](http://codepen.io/katydecorah/pen/Lkogi) in honor of Halloween.
