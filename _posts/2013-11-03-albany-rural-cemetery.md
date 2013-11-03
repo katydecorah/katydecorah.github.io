@@ -55,6 +55,6 @@ I found information about the Burden tomb from [Henry Burden By Mrs. Margaret E.
 
 <a href="http://books.google.com/books?id=A6UNAAAAYAAJ&amp;ots=t0mx1AjSo-&amp;pg=PA86-IA3&amp;ci=140%2C274%2C711%2C939&amp;source=bookclip"><img src="http://books.google.com/books?id=A6UNAAAAYAAJ&amp;pg=PA86-IA3&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U3HfiVOeep-fJFeRwDllJi8AO5hNg&amp;ci=140%2C274%2C711%2C939&amp;edge=0" class="rotate-left pop-out"></a>
 
- It's amazing to see this rendering. The area surrounding the Burden tomb is much more congested now with other stones, tombs, and trees. It makes me want to go back and take a picture from the same angle to catch the differences. I remember seeing the book sculpture out front, but I couldn't read the inscription because the pages were too weathered. The digitized book linked above provides an inscription.
+ It's amazing to see this rendering after seeing it first hand. The area surrounding the Burden tomb is much more congested now with other stones, tombs, and trees. It makes me want to go back and take a picture from the same angle to catch the differences. I remember seeing the book sculpture out front, but I couldn't read the inscription because the pages were too weathered. The digitized book linked above provides an inscription.
 
  I look forward to visiting the Albany Rural Cemetery again.
