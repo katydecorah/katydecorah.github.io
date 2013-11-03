@@ -11,7 +11,7 @@ image: http://farm6.staticflickr.com/5494/10655548255_732b4fb554_c.jpg
 
 On Sunday, mom drove down for part of the day. We grabbed lunch at the Pump Station and then explored the Albany Rural Cemetery. I got the idea to check out the cemetery from [All Over Albany](http://alloveralbany.com/archive/2008/10/17/great-local-autumn-walks). 
 
-The cemetery is huge and holds beautiful stones and mausoleums. I highly recommend checking it out.
+The cemetery is huge and holds beautiful stones and mausoleums.
 
 <a href='http://www.flickr.com/photos/katydecorah/10655796533/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class="img-tall" src='http://farm3.staticflickr.com/2805/10655796533_f776486417_c.jpg' /></a>
 <a href='http://www.flickr.com/photos/katydecorah/10655491285/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='img-wide' src='http://farm8.staticflickr.com/7351/10655491285_af03d61950_c.jpg' /></a>
@@ -20,11 +20,9 @@ The cemetery is huge and holds beautiful stones and mausoleums. I highly recomme
 <a href='http://www.flickr.com/photos/katydecorah/10655404855/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='img-half' src='http://farm3.staticflickr.com/2865/10655404855_11eb13b426_c.jpg' /></a>
 <a href='http://www.flickr.com/photos/katydecorah/10655634593/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='pop-out' src='http://farm3.staticflickr.com/2822/10655634593_e678f2917f_c.jpg' /></a>
 
-
 ## President Arthur
 <a href='http://www.flickr.com/photos/katydecorah/10655378715/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='img-wide' src='http://farm4.staticflickr.com/3687/10655378715_286758868b_c.jpg' /></a>
 <a href='http://www.flickr.com/photos/katydecorah/10655415814/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='img-tall' src='http://farm3.staticflickr.com/2841/10655415814_8492a5e31f_c.jpg' /></a>
-
 
 ## Dalton
 
@@ -47,14 +45,16 @@ The cemetery is huge and holds beautiful stones and mausoleums. I highly recomme
 
 ## Burden 1850
 
-My favorite. 
+My favorite of the day. The Burden tomb holds Henry Burden, an engineer from Troy, and several of his family members. 
 
 <a href='http://www.flickr.com/photos/katydecorah/10655535005/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='img-half' src='http://farm3.staticflickr.com/2859/10655535005_6ce0f2b5ca_c.jpg' /></a>
 <a href='http://www.flickr.com/photos/katydecorah/10655776883/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='img-half' src='http://farm8.staticflickr.com/7414/10655776883_ab150bb9e9_c.jpg' /></a>
 <a href='http://www.flickr.com/photos/katydecorah/10655548255/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='pop-out' src='http://farm6.staticflickr.com/5494/10655548255_732b4fb554_c.jpg' /></a>
 
-I found information about the Burden tomb from [Henry Burden By Mrs. Margaret E. Burden](http://books.google.com/books?id=A6UNAAAAYAAJ&ots=t0mx1AjSo-&pg=PA86#v=onepage&q&f=false). 
+I found information about the Burden tomb from [Henry Burden By Mrs. Margaret E. Burden](http://books.google.com/books?id=A6UNAAAAYAAJ&ots=t0mx1AjSo-&pg=PA86#v=onepage&q&f=false). Including this old rendering of the tomb:
 
-An old photograph of the tomb taken from the book:
+<a href="http://books.google.com/books?id=A6UNAAAAYAAJ&amp;ots=t0mx1AjSo-&amp;pg=PA86-IA3&amp;ci=140%2C274%2C711%2C939&amp;source=bookclip"><img src="http://books.google.com/books?id=A6UNAAAAYAAJ&amp;pg=PA86-IA3&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U3HfiVOeep-fJFeRwDllJi8AO5hNg&amp;ci=140%2C274%2C711%2C939&amp;edge=0" class="rotate-left pop-out"></a>
 
-<a href="http://books.google.com/books?id=A6UNAAAAYAAJ&amp;ots=t0mx1AjSo-&amp;pg=PA86-IA3&amp;ci=140%2C274%2C711%2C939&amp;source=bookclip"><img src="http://books.google.com/books?id=A6UNAAAAYAAJ&amp;pg=PA86-IA3&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U3HfiVOeep-fJFeRwDllJi8AO5hNg&amp;ci=140%2C274%2C711%2C939&amp;edge=0" class="rotate-left"></a>
+I remember seeing the book sculpture out front, but I couldn't read the inscription because the pages were too weathered. The digitized book linked above provides an inscription.
+
+I look forward to going back to the Albany Rural Cemetery and learning more about it.
