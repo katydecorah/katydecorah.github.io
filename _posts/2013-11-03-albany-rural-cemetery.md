@@ -47,8 +47,10 @@ The cemetery is huge and holds beautiful stones and mausoleums. I highly recomme
 
 ## Burden 1850
 
-My favorite.
+My favorite. 
 
 <a href='http://www.flickr.com/photos/katydecorah/10655535005/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='img-half' src='http://farm3.staticflickr.com/2859/10655535005_6ce0f2b5ca_c.jpg' /></a>
 <a href='http://www.flickr.com/photos/katydecorah/10655776883/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='img-half' src='http://farm8.staticflickr.com/7414/10655776883_ab150bb9e9_c.jpg' /></a>
 <a href='http://www.flickr.com/photos/katydecorah/10655548255/' title='Albany Rural Cemetery by katydecorah, on Flickr'><img alt='Albany Rural Cemetery' class='pop-out' src='http://farm6.staticflickr.com/5494/10655548255_732b4fb554_c.jpg' /></a>
+
+[Information about the Burden Tomb](http://books.google.com/books?id=A6UNAAAAYAAJ&ots=t0mx1AjSo-&pg=PA86#v=onepage&q&f=false)
