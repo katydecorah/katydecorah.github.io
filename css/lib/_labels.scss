@@ -17,9 +17,14 @@ $categories : "edibles","adventures","code","playlists","freelance";
 $labelInc: 35;
 @each $category in $categories {
 	.label-#{$category} { 
+		background: adjust-hue($blue,$labelInc);
 		background: rgba(adjust-hue($blue,$labelInc),0.5);
+		border-color: adjust-hue($blue,$labelInc);
 		border-color: rgba(adjust-hue($blue,$labelInc),0.5);
-		&:hover {background: darken(rgba(adjust-hue($blue,$labelInc),0.5),15%);}
+		&:hover {
+			background: darken(adjust-hue($blue,$labelInc),15%);
+			background: darken(rgba(adjust-hue($blue,$labelInc),0.5),15%);
+		}
 	}
 	$labelInc: $labelInc + 35;
 }
