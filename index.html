@@ -14,9 +14,9 @@ title: Katy DeCorah
 </li>{% endfor %}
 </ul> 
 <div class="pagination">
-{% if paginator.previous_page %}<a href="{% if paginator.previous_page == 1%}/{%else%}/{{ paginator.previous_page }}{%endif%}" class="previous"><i class="icon-angle-left"></i></a>{% endif %}
+{% if paginator.previous_page %}<a href="{% if paginator.previous_page == 1%}/{%else%}/{{ paginator.previous_page }}{%endif%}" class="previous"><i class="fa fa-angle-left"></i></a>{% endif %}
 <span class="page_number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-{% if paginator.next_page %}<a href="/{{ paginator.next_page }}" class="next"><i class="icon-angle-right"></i></a>{% endif %}
-<a href="/archive" class="next" title="Archive"><i class="icon-archive"></i></a>
+{% if paginator.next_page %}<a href="/{{ paginator.next_page }}" class="next"><i class="fa fa-angle-right"></i></a>{% endif %}
+<a href="/archive" class="next" title="Archive"><i class="fa fa-archive"></i></a>
 </div>
 </div>
