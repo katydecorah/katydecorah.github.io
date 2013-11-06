@@ -21,7 +21,7 @@ After I styled the first balloon, I absolutely positioned the balloon from the b
 
 ## Time for more balloons! 
 
-I added more `.balloon` elements and wrote a Sass loop to give each balloon slight customizations. For example, I adjusted the hue of the balloons based on a predetermined color, and give it some opacity.
+I added more `.balloon` elements and wrote a Sass loop to give each balloon slight customizations. For example, I adjusted the hue of each balloon based on a predetermined color. I also used rgba to give a nice transparent look to the balloons whenever they collide.
 
 	background:rgba(adjust-hue($balloonColorStart,random(360)),0.5);
 
