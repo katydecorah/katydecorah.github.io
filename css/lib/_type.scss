@@ -2,7 +2,7 @@ strong {font-weight:bold;}
 em {font-style:italic;}
 .lead {
   font-style: italic;
-margin: 0 1em;
+  margin: 0 1em;
 }
 h1, h2, h3 {
   line-height:1.4;
@@ -26,18 +26,23 @@ h2 {
 }
 h3 {
   font-size:1.1em;
-    margin:1em 0 0.5em;
-    text-transform:uppercase;
-    font-weight:normal;
+  margin:1em 0 0.5em;
+  text-transform:uppercase;
+  font-weight:normal;
 }
+
+h1,h2,h3,p,li,code,pre {
+  &::selection {
+    background: #FF6347;
+    color: #FFF;
+  }
+}
+
 
 p,li {
   margin-bottom:1em;
   max-width:35em;
-  &::selection {
-background: #FF6347;
-color: #FFF;
-}
+
 }
 
 
