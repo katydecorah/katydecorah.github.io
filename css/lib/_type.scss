@@ -31,7 +31,7 @@ h3 {
   font-weight:normal;
 }
 
-h1,h2,h3,p,li,code,pre {
+h1,h2,h3,p,li,code,pre,a,span {
   &::selection {
     background: #FF6347;
     color: #FFF;
@@ -40,9 +40,8 @@ h1,h2,h3,p,li,code,pre {
 
 
 p,li {
-  margin-bottom:1em;
+  margin:1em 0;
   max-width:35em;
-
 }
 
 
