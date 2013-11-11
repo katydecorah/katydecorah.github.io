@@ -15,7 +15,9 @@ layout: none
 				<description>{{ post.content | xml_escape }}</description>
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>http://katydecorah.com{{ post.url }}</link>
-				<guid isPermaLink="true">http://katydecorah.com{{ post.url }}</guid>
+				{% for tag in post.tags %}<category>{{ tag | xml_escape }}</category>
+        		{% endfor %}{% for cat in post.categories %}<category>{{ cat | xml_escape }}</category>
+        		{% endfor %}<guid isPermaLink="true">http://katydecorah.com{{ post.url }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
