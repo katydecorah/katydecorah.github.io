@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mount Baker & Aunt Pauline’s .22"
+title: "Mount Baker &amp; Aunt Pauline’s .22"
 category: adventures
 tags: 
   - fresh air
