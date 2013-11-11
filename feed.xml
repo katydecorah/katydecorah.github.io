@@ -7,13 +7,15 @@ layout: none
 		<title>{{ site.name }}</title>
 		<description>{{ site.description }}</description>
 		<link>http://katydecorah.com</link>
+		<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    	<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title }}</title>
 				<description>{{ post.content | xml_escape }}</description>
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>http://katydecorah.com{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<guid isPermaLink="true">http://katydecorah.com{{ post.url }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
