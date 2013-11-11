@@ -1,19 +1,17 @@
 ---
 layout: none
-credit: https://github.com/snaptortoise/jekyll-rss-feeds 
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
 	<channel>
 		<title>{{ site.name }}</title>
 		<description>{{ site.description }}</description>
 		<link>http://katydecorah.com</link>
-		<atom:link href="http://katydecorah.com/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title }}</title>
 				<description>{{ post.content | xml_escape }}</description>
-				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 				<link>http://katydecorah.com{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>
