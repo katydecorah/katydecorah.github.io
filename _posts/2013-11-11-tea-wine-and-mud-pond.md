@@ -1,19 +1,20 @@
 ---
 layout: post
-title: Tea, Wine, &amp; Mud Pond
+title: "Tea, Wine, & Mud Pond"
 category: adventures
-tags:
-- fresh air
-- family
-- hiking
+tags: 
+  - fresh air
+  - family
+  - hiking
 locations: 
-- Ballston Spa
-- Oliva Vineyards
-- Nassau Mud Pond Preserve
-image: http://farm6.staticflickr.com/5547/10789496434_0f2b245c5c_c.jpg
+  - Ballston Spa
+  - Oliva Vineyards
+  - Nassau Mud Pond Preserve
+image: "http://farm6.staticflickr.com/5547/10789496434_0f2b245c5c_c.jpg"
+published: true
 ---
 
-## Tea in Ballston Spa
+## Tea
 
 On Sunday, mom and I went to lunch at the [Whistling Tea Kettle](http://www.thewhistlingkettle.com/) in Ballston Spa. She had the Connie's baked apple pie tea and I had the vanilla chai.
 
@@ -21,9 +22,9 @@ After lunch, we walked around town and stopped in [Wheats & Sweets](http://www.w
 
 <a href="http://www.flickr.com/photos/katydecorah/10789405676/" title="Untitled by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2817/10789405676_2df4e07fcf_c.jpg" class="img-center" alt=""></a>
 
-## Wine at Olive Vineyards
+## Wine
 
-My cousin Kaylee works at [Oliva Vineyards](http://olivavineyards.com/) in Fort Edward. We stopped in for a wine tasting after exploring Ballston Spa. We enjoyed six different wines and both bought a bottle of the mulled wine.
+My cousin Kaylee works at [Oliva Vineyards](http://olivavineyards.com/) in Fort Edward. We stopped in for a wine tasting after exploring Ballston Spa. We enjoyed six different wines and both bought a bottle of the *Pretty Filly Rose*.
 
 The vineyard is also home to thoroughbred horses.
 
