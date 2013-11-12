@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tea, Wine, & Mud Pond"
+title: Tea, Wine, &amp; Mud Pond
 category: adventures
 tags: 
   - fresh air
