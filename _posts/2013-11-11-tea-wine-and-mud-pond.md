@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tea, Wine, &amp; Mud Pond
+title: "Tea, Wine, & Mud Pond"
 category: adventures
 tags: 
   - fresh air
@@ -24,7 +24,7 @@ After lunch, we walked around town and stopped in [Wheats & Sweets](http://www.w
 
 ## Wine
 
-My cousin Kaylee works at [Oliva Vineyards](http://olivavineyards.com/) in Fort Edward. We stopped in for a wine tasting after exploring Ballston Spa. We enjoyed six different wines and both bought a bottle of the *Pretty Filly Rose*.
+My cousin Kaylee works at [Oliva Vineyards](http://olivavineyards.com/) in Fort Edward. We stopped in for a wine tasting after exploring Ballston Spa. We enjoyed six different wines and both bought a bottle of the *Pretty Filly Ros&#233;* (the bottle included a little kit to make mulled wine).
 
 The vineyard is also home to thoroughbred horses.
 
