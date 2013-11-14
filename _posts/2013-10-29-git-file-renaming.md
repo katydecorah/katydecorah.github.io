@@ -4,10 +4,13 @@ title: Git File Renaming
 category: code
 tags: 
   - Git
-image: img/youre-doing-it-peter.jpg
+image: "img/youre-doing-it-peter.jpg"
+published: true
 ---
 
-Today at work I needed to move and rename a ton of files, but I also needed to make sure that the Git history followed. When I tried to move the files manually, SourceTree thought I just deleted the files and then created ones elsewhere. No good. It took me a while to figure this all out, so I figured I'd share.
+Today at work I needed to move and rename a ton of files, but I also needed to make sure that the Git history followed. When I tried to move the files manually, SourceTree thought I deleted the files and then created new files elsewhere. When I commit files like this, SourceTree is usually smart enough to catch on, but it wasn't happening. No good. 
+
+It took me a while to figure this all out, so I figured I'd share.
 
 In the root, I had nearly 1000 files with the following naming schema: `L1T1-page01.cfm` (standing for lesson 1, topic 1, page 1). All together there are 8 lessons, each lesson has multiple topics, and each topic has multiple pages.
 
