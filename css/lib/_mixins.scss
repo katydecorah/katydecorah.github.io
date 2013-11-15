@@ -10,10 +10,10 @@
     @media (min-width: 50em) { @content; }
   }
   @else if $point == s {
-    @media (max-width: 43.75em) { @content; }
+    @media (max-width: 50em) { @content; }
   }
   @else if $point == xs {
-    @media (min-width: 30em)  { @content; }
+    @media (max-width: 30em)  { @content; }
   }
 }
 
