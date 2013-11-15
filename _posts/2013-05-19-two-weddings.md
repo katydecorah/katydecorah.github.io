@@ -11,7 +11,7 @@ locations:
 image: http://farm3.staticflickr.com/2820/10848469853_f698588d08_b.jpg
 ---
 
-I had the distinct honor of being in two weddings in May. 
+I had the distinct honor of being in two weddings this month. 
 
 <a href="http://www.flickr.com/photos/katydecorah/10848222696/" title="2013-05-18 12.53.08-2 by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5511/10848222696_2e53047738_b.jpg" class="img-half" alt="2013-05-18 12.53.08-2"></a>
 

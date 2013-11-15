@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer
+title: Summer is almost here
 category: adventures
 tags:
 - Summer
