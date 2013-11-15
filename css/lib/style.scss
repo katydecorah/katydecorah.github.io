@@ -1,5 +1,4 @@
-@import "compass/css3";
-//@import "compass/reset";
+@import "mixins";
 
 @import "variables";
 @import "scaffolding";
@@ -10,16 +9,9 @@
 @import "footer";
 @import "nav";
 @import "labels";
-
 @import "front-page";
 @import "posts";
-
 @import "resume";
-
-
-@import "responsive";
-
 @import "accessibility";
-
 @import "utilities";
 @import "print";

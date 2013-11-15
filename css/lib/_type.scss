@@ -13,10 +13,12 @@ h1, h2, h3 {
   }
 }
 h1 {
+  @include breakpoint(s) {font-size:2em;}
   font-style:italic;
   font-size:2.5em;
   margin:3em 0 1.5em;
   text-align:center;
+
 }
 
 h2 {
@@ -41,7 +43,7 @@ h1,h2,h3,p,li,code,pre,a,span {
 
 p,li {
   margin:1em 0;
-  max-width:35em;
+  @include breakpoint(m) {max-width:35em;}
 }
 
 

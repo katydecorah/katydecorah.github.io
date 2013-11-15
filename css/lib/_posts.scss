@@ -1,7 +1,7 @@
 
 
 // on individual post pages
-
+.post-page{
 .post {
   h1 {
     margin-left:-1em;
@@ -24,23 +24,10 @@
       text-transform: uppercase;
       font-size:0.8em;
       margin-bottom:0.5em;
+      display:inline;
     }
   }
-
 }
-.post-byline {
-  display: block;
-  display:none;
-  font-size: 0.8em;
-  position: absolute;
-  bottom: -2em;
-  left:0;
-  font-style: italic;
-  width:100%;
-  color:darken(#ddd,10%);
-  &:hover {
-    color:darken(#ddd,20%);
-  }
 }
 
 
@@ -71,8 +58,15 @@
   }
 }
 
+// mobile
+.post-next-container, .post-prev-container {
+  display:block;
+  width:100%;
+}
+
+
 .post-prev, .post-next {
-  width:15em;
+  //width:15em; no mobile
   color:$darkAccent;
   position:relative;
   @include transition(all .5s linear);
@@ -89,10 +83,10 @@
   .previous {left:-2em;}
 }
 .post-prev:hover {
-  @include transform(translate(-1em,0));
+  @include translate(-1em,0);
 }
 .post-next:hover {
-  @include transform(translate(1em,0));
+  @include translate(1em,0);
 }
 
 
@@ -136,6 +130,14 @@ embed {max-width:100%;}
   width: 120% !important;
 }
 
+iframe, .pop-out, .gist {
+  @include breakpoint(xl){
+      width:100%; 
+      margin:1em 0; 
+      max-width:100%;
+    }
+}
+
 
 
 .img-half {width:50%;}
@@ -143,5 +145,5 @@ embed {max-width:100%;}
 .img-fourths {width:25%}
 .img-split-wide, .img-wide {width:64%}
 .img-split-tall, .img-tall {width:36%}
-.rotate-left {@include transform(rotate(-90deg));}
+.rotate-left {@include rotate(-90deg);}
 

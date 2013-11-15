@@ -2,19 +2,21 @@
   max-width:50em;
   min-height:1em;
   margin: 0 auto;
+  padding:0 1em;
   position:relative;
   @extend .clearfix;
 }
 
 .default-page {
   .container {
-    max-width:35em;
+   max-width:35em;
   }
   .logo {
     font-size:1.1em;
-    //position:absolute;
     top:0;
+    @include breakpoint(m){
     left:10%;
+  }
   }
 }
 
@@ -26,13 +28,15 @@
 }
 .container-large-text {font-size:1.35em;}
 
-.make-columns {
-@include columns(2);
-@include column-gap(2em);
-}
 
 .half-left,.half-right {
-  width:48%;
+
+  @include breakpoint(m) {
+      width:48%;
   float:left;
+
+  }
 }
-.half-left {margin-right:4%}
+.half-left {
+  @include breakpoint(m) {margin-right:4%;}
+}

@@ -1,6 +1,13 @@
 .footer {
+  margin-top:5em;
+  @include breakpoint(s){ border-top:1px solid #ddd;}
+  @include breakpoint(m) {
   margin-top:20em;
-  .container {max-width:75em;}
+  border-top:none;
+  .container {
+  max-width:75em;
+  }
+}
   .colophon {
     margin:2em 0 0 6em;
     padding-top:2em;
@@ -9,16 +16,29 @@
 }
 
 .footer-profile-img-container {
-  width:25%;
+  @include breakpoint(s) {display:none;}
+  @include breakpoint(m) {
+    display:block;
+    width:25%;
+  }
 }
 .footer-profile-img {
   z-index:1001;
   display:block;
   position:relative;
+
 }
 .footer-details {
+  p {text-align:center;} // mobile
+  @include breakpoint(m) {
+
   margin: 3% 0 0 2%; 
   font-size:1.2em; 
   width:73%;
   max-width:30em;
+  p {text-align:left;}
+
 }
+}
+
+

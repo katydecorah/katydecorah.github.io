@@ -1,36 +1,22 @@
 
 .front-page {
-
   .container {
-    max-width:80em;
-    padding:0 2em;
+    max-width:80em; //full-page
+    padding:0 2em; //full-page
   }
-  .about-me {
-    width:25%;
-    float:left;
-    margin-top:-0.2em;
-    padding:0 1%;
-    .social-links {
-      font-size: 2em;
-      max-width: 6em;
-      margin: 0 auto;
-    }
-  }
-
-  .header .container { 
-    max-height:100%;
-    z-index:0;
-  }
-  .navbar-inner {padding-top:2em;}
+  .post {
+   @include breakpoint(m) { max-width:40em;}
+ }
 
 }
 
 .all-posts {
+  @include breakpoint(m) { 
   margin-left:16em;
   margin-right:1em;
-
+ }
 }
-.post {max-width:40em;}
+
 
 
 .post-link {
@@ -51,22 +37,30 @@
 }
 
 .post-excerpt {
-  @include opacity(0);
+  display:none;
+  @include breakpoint(m) {
+    @include opacity(0);
   margin-top:2em;
   font-size:0.9em;
   display:block;
   @include transition(opacity .5s linear);
 }
+}
 
 .post-thumb {
+  display:none;
+  @include breakpoint(m) {
+    display:block;
   padding-bottom: 40%;
   width: 40%;
   background-size: cover;
   background-position: center;
   margin: 0.5em 2em 1em 0;
   @include transition(all 1s);
+ }
 }
-.posts-title {
+.post-title {
+  text-align:center; //mobile
   font-size:2.25em;
   padding-top:1.25em;
   line-height: 1.2;
@@ -74,20 +68,26 @@
   display:block;
   font-style:italic;
   font-family: "old-standard",serif;
+  @include breakpoint(m) { 
+    text-align: left;
+  }
 }
 
-.posts-date {
-
+.post-date {
   font-family: "old-standard",serif;
-  
   text-transform:uppercase; 
   display:block; 
   font-size:0.8em;
+  text-align:center; //mobile
+    @include breakpoint(m) { 
+    text-align: left;
+  }
 }
 
 
 .pagination {
-  margin: 6em 0;
+  @include breakpoint(m) { margin: 6em 0;}
+  margin: 6em auto;
   max-width: 35em;
   text-align: center;
 }
