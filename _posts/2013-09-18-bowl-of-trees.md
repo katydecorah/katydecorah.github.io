@@ -7,7 +7,7 @@ tags:
 - no JS
 - Haml
 - Sass
-- Random()
+- random
 image: http://codepen.io/katydecorah/pen/oEiCf/image/large.png
 
 ---
