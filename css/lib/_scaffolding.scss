@@ -1,6 +1,10 @@
 * {
   @include box-sizing(border-box);
 }
+html,body {
+  margin:0;
+  padding:0;
+}
 html {
 	width:100%;
 	min-height:100%;

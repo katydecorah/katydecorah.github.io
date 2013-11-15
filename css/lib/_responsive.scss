@@ -16,7 +16,7 @@
 
 //1100px
 @media(max-width:68.75em){
-
+/*
 	.posts {
 		li {
 			width:49%;
@@ -27,14 +27,14 @@
 		}
 	}
 	.front-page {
-		.posts {
+		.post {
 			.posts-info {
 				padding:1em;
 				.posts-title {font-size:1em;}
 			}
 		}
 	}
-
+*/
 }
 
 
@@ -46,9 +46,6 @@
 
 	.front-page {
 		h1 {font-size:2em;}
-		.all-posts {
-			.post {width:49%;}
-		}
 
 	}
 	.post-location {display:none;}
@@ -134,6 +131,11 @@
 
 //480px;
 @media (max-width:30em){
+	.default-page {
+		.container {
+			padding: 0 1em;
+		}
+	}
 
 	.logo:hover {@include transform(translate(0));}
 
