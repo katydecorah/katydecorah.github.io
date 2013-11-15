@@ -32,14 +32,18 @@
 
 
 .post-location-image {
-  position: absolute;
+  display:none;
+
+  @include breakpoint(m){
+      position: absolute;
   top: 0;
   display: block;
   z-index: -1;
-  @include opacity(.1);
+  @include opacity(.2);
   left: 0;
   right: 0;
   margin: 0 auto;
+  }
 }
 
 
@@ -79,8 +83,12 @@
     position: absolute;
     top: 0.5em;
   }
-  .next {right:-2em;}
-  .previous {left:-2em;}
+  .next {
+    right:-2em;
+  }
+  .previous {
+    left:-2em;
+  }
 }
 .post-prev:hover {
   @include translate(-1em,0);
@@ -122,12 +130,12 @@ iframe, .pop-out {
   margin: 1em -25% 2em;
   display:block;
   max-width:none;
-  width: 150% !important;
+  @include breakpoint(m){width: 150% !important;}
 }
 embed {max-width:100%;}
 .gist {
   margin: 1em -10%;
-  width: 120% !important;
+  @include breakpoint(m){width: 120% !important;}
 }
 
 iframe, .pop-out, .gist {
