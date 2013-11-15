@@ -4,8 +4,10 @@
 .post-page{
 .post {
   h1 {
-    margin-left:-1em;
+    @include breakpoint(m) {
+      margin-left:-1em;
     margin-right:-1em;
+  }
     margin-top:2.25em;
     margin-bottom: 0;
     min-height: 2.5em;
@@ -115,6 +117,10 @@
   }
 }
 
+
+.post-prev-next {
+  padding:0 1em;
+}
 
 .post-next-title, .post-prev-title {
   display:block;
