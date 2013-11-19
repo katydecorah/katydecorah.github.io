@@ -109,7 +109,9 @@
   width:2em;
   vertical-align: middle;
   color: #FFF;
-  margin: 1em 1em 2em;
+  margin: 1em 0.5em;
+  font-size:1em;
+  text-align:center;
   @include transition(all .5s linear);
   &:hover {
     background:lighten($darkAccent,15%);
