@@ -112,9 +112,23 @@
   margin: 1em 0.5em;
   font-size:1em;
   text-align:center;
-  @include transition(all .5s linear);
+  @include transition(all .25s linear);
   &:hover {
-    background:lighten($darkAccent,15%);
+    background:tomato;
+    color:white;
+  }
+}
+
+.btn-rect {
+background: $darkAccent;
+color: #FFF;
+padding: 0.25em 0.7em;
+border-radius: 0.3em;
+margin: 1em 0.5em;
+display: inline-block;
+  @include transition(all .25s linear);
+  &:hover {
+    background:tomato;
     color:white;
   }
 }
