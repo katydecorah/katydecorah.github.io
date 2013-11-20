@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pretzels & Williamsburg"
+title: "Pretzels &amp; Williamsburg"
 category: adventures
 tags: 
   - NYC
