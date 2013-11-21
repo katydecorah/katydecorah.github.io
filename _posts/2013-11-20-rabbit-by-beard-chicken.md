@@ -7,30 +7,32 @@ tags:
   - Sass
   - Haml
   - Dribbble
-  - box-shadow
-image: http://katydecorah.com/img/rabbit.png
+  - "box-shadow"
+image: "http://katydecorah.com/img/rabbit.png"
+published: true
 ---
 
 <p data-height="500" data-theme-id="97" data-slug-hash="uIEFy" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/uIEFy'>Rabbit by Beard Chicken</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 This fun little animation was built from [Beard Chicken's Dribbble shot](http://dribbble.com/shots/1316513).
 
-I was able to only use two elements for this animation by using `box-shadow`. 
+I used only two elements for this project by putting `box-shadow` to work. 
 
-The main element `.rabbit` is the rabbit's body. The `:before` is the tail, but then I used `box-shadow` to resize, recolor, and relocate the element's shadow into making the rabbit's eye. I created another `box-shadow` and made the rabbit's hind leg. Then I used multiple shadows to create the front leg.
+The main element `.rabbit` is the rabbit's body. The `:before` is the tail, but then I used `box-shadow` to resize, recolor, and relocate the element's shadow into making the rabbit's eye. I added another `box-shadow` and made the rabbit's hind leg. Then I added multiple shadows to create the front leg.
 
 Similarly, the rabbit's `:after` is one ear. By using `box-shadow`, I was able to create the second ear.
 
 I created one cloud using pseudo elements, but then used `box-shadow` to display two more clouds.
 
-The fourth value of `box-shadow` controls the size of the shadow, or `spread-radius`. I had severely under used this value, until today.
+## Spread-radius
+
+The fourth value of `box-shadow` controls the size of the shadow, or `spread-radius`. Until today, I had severely under used this value.
 
 	box-shadow: <offset-x> <offset-y> <blur-radius> <spread-radius> <color>
 
+[More on box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
-[box-shadow on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
-
-The `spread-radius` is optional, but the value is set to 0 unless specified. If the `spread-radius` is greater than 0, then the shadow will grow. If the `spread-radius` is less than 0, then the shadow will shrink. When shrinking the shadow, you have to use very small units, otherwise the shadow will disappear.
+The `spread-radius` is optional, but the value is 0 unless specified. If the `spread-radius` is greater than 0, then the shadow will grow. If the `spread-radius` is less than 0, then the shadow will shrink. When shrinking the shadow, you have to use small units (especially in ems), otherwise the shadow will disappear.
 
 So in the case of `.clouds`:
 
