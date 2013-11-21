@@ -2,41 +2,33 @@
 layout: default
 title: Archive
 ---
-<div class="half-left">
-<h2>Categories</h2>
-<div class="make-columns">
-{% assign categories_max = 0 %}
-{% for category in site.categories %}
-{% if category[1].size > categories_max %}
-{% assign categories_max = category[1].size %}
+
+
+{% for post in site.posts  %}
+{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+{% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+{% if forloop.first %}
+<h2 class="text-center">{{this_year}}</h2>
+<h3 class="text-center">{{ this_month }}</h3>
+<ul class="unstyled text-center">
+{% endif %}
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% if forloop.last %}
+</ul>
+{% else %}
+{% if this_year != next_year %}
+</ul>
+<h2 class="text-center">{{next_year}}</h2>
+<h3 class="text-center">{{ next_month }}</h3>
+<ul class="unstyled text-center">
+{% else %}
+{% if this_month != next_month %}
+</ul>
+<h3 class="text-center">{{ next_month }}</h3>
+<ul class="unstyled text-center">
+{% endif %}
+{% endif %}
 {% endif %}
 {% endfor %}
-{% for i in (1..categories_max) reversed %}
-{% for category in site.categories %}
-{% if category[1].size == i %}
-<h3 id="{{ category[0] | downcase | replace:' ','_' }}">{{ category[0] }}</h3>
-{% for post in category.last %}<a href="{{ post.url }}">{{ post.title }}</a>{% if forloop.last %}{% else %} // {% endif %}{% endfor %}
-{% endif %}
-{% endfor %}
-{% endfor %}
-</div>
-</div>
-<div class="half-right">
-<h2>Tags</h2>
-<div class="make-columns">
-{% assign tags_max = 0 %}
-{% for tag in site.tags %}
-{% if tag[1].size > tags_max %}
-{% assign tags_max = tag[1].size %}
-{% endif %}
-{% endfor %}
-{% for i in (1..tags_max) reversed %}
-{% for tag in site.tags %}
-{% if tag[1].size == i %}
-<h3 id="{{ tag[0] | downcase | replace:' ','_' }}">{{ tag[0] }}</h3>
-{% for post in tag.last %}<a href="{{ post.url }}">{{ post.title }}</a>{% if forloop.last %}{% else %} // {% endif %}{% endfor %}
-{% endif %}
-{% endfor %}
-{% endfor %}
-</div>
-</div>

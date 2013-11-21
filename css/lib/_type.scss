@@ -65,6 +65,12 @@ ol {
   margin-left:2.5em;
   li {margin-bottom:0.8em;}
 }
+.unstyled {
+  margin:0;
+  padding:0;
+  li {max-width:none;}
+  list-style:none;
+}
 
 hr {
   border:0.1em solid rgba(black,0.1);
