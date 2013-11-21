@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Pretzels &amp; Williamsburg
+title: "Pretzels &amp; Williamsburg"
 category: adventures
 tags: 
   - NYC
   - music
   - treats
 locations: 
-  - Williamsburg,NYC
-image: http://farm8.staticflickr.com/7298/10953719465_eb873a018c_b.jpg
+  - "Williamsburg,NYC"
+image: "http://farm8.staticflickr.com/7298/10953719465_eb873a018c_b.jpg"
+published: true
 ---
 
 Saturday night I had an all out snack attack. Right before heading to the store to pick-up rice krispies treat supplies, my boyfriend asked for pretzels. So I added yeast to my list.
@@ -29,7 +30,7 @@ We got a place for the night on Airbnb in Williamsburg.
 
 Well designed, elevator entrance, amazing views, and a giant fluffy bed. It was perfect.
 
-After we rested for a few minutes, we set out. We visited the Poler pop-up shop and had a great late lunch at Pies'n'Thighs.
+After we rested for a few minutes, we set out. We visited the Poler pop-up shop and had a great late lunch at [Pies'n'Thighs](http://piesnthighs.com/).
 
 Next we slowly meandered back to the apartment and rested before we headed to the Music Hall. Before we left the building, we checked out the view from the roof.
 
@@ -39,8 +40,8 @@ We had a few minutes to kill before the show started, so we explored a bit more.
 
 <a href="http://www.flickr.com/photos/katydecorah/10953719465/" title="Williamsburg by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7298/10953719465_eb873a018c_b.jpg" alt="Williamsburg"></a>
 
-After the show, which was fantastic, we headed for a late night dinner at Meatballs.
+After the show, which was fantastic, we headed for a late night dinner at [The Meatball Shop](http://www.themeatballshop.com/).
 
-In the morning, we packed up and headed to Blue Bottle Coffee for a quick breakfast. Then we headed into Manhattan for some more wandering. We walked around Times Square, grabbed lunch at Shake Shack, and checked out a few stores.
+In the morning, we packed up and headed to [Blue Bottle Coffee](http://www.bluebottlecoffee.com/) for a quick breakfast (and you know I got that smore). Then we headed into Manhattan for some more wandering. We walked around Times Square, grabbed lunch at Shake Shack, and checked out a few stores.
 
 We had a really great time.
