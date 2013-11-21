@@ -14,7 +14,7 @@ published: true
 
 <p data-height="500" data-theme-id="97" data-slug-hash="uIEFy" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/uIEFy'>Rabbit by Beard Chicken</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-This fun little animation was built from [Beard Chicken's Dribbble shot](http://dribbble.com/shots/1316513). (The animation will only run a couple times here, but on CodePen it's infinite&hellip; hypnotizing even.)
+This fun little animation was built from [Beard Chicken's Dribbble shot](http://dribbble.com/shots/1316513). (The animation will only run a couple of times here, but on CodePen it's infinite&hellip; hypnotizing even.)
 
 I used only two elements for this project by putting `box-shadow` to work. 
 
