@@ -14,8 +14,7 @@ project: true
 published: true
 ---
 
-I have quite a few posts with locations and I wanted a better way to integrate them into my posts. I tinkered around with the static Google Maps Image API and found a neat little solution.
-
+I have several posts with locations and I wanted a better way to integrate them into my posts. I tinkered around with the static Google Maps Image API and found a neat little solution.
 
 ## Code
 
