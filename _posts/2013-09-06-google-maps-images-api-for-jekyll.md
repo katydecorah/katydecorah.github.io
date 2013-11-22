@@ -22,17 +22,18 @@ I have several posts with locations and I wanted a better way to integrate them 
 
 ## Explanation
 
-For any post with a location, I simply a "locations" variable in the post header.
+For any post with a location, I simply add a "locations" variable in the post header.
 
     locations:
      - University at Albany
      - Siena College
 
-I'm using *locations* to support multiple places, but you may have just one.
+I'm using *locations* to support multiple places, but you can have just one.
 
     locations: Albany,NY
 
-Your location can be a place, a city, an address, or even coordinates. Really anything you would enter into Google Maps when searching.
+Your location can be a place, a city, an address, or even coordinates. Really anything you would enter into Google Maps search.
+
 ## Live Example
 
 {% if page.locations %}
@@ -41,17 +42,15 @@ Your location can be a place, a city, an address, or even coordinates. Really an
 
 ## Zoom for Multiple Locations
 
-When using multiple locations, the map will center around the first location. A good idea is to put your most centrally located destination first. You might also need to change the zoom on the map. You can do this by adding a "zoom" variable in the post header.
+When using multiple locations, the map will center around the first location. So it would be wise to put your most centrally located destination first. You might also need to change the zoom on the map. You can do this by adding a "zoom" variable in the post header.
 
 	locations:
     - University at Albany
     - Siena College
 	zoom: 10
 
-The lower the zoom, the farther out the map will reach. The zoom is automatically set at *13*, which is ideal for 1 location (but you can adjust that).
+The lower the zoom, the farther out the map will reach. The zoom is automatically set at *13*, which is ideal for 1 location (but you can adjust that in the code).
 
 ## More Information
 
 Take a look at the [Google Maps Image API](https://developers.google.com/maps/documentation/staticmaps/) for more parameters. You can learn how to adjust the size of the image, styling markers, and much more.
-
-I'm still new to the Jekyll world, but I hope this helpful to someone else.
