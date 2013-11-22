@@ -2,15 +2,16 @@
 layout: post
 title: Static Google Maps Image for Jekyll Posts
 category: code
-tags:
-- Jekyll
-- Google Maps
-- API
-image: http://katydecorah.com/img/google-maps.png
-image-small: http://katydecorah.com/img/google-maps.png
-image-large: http://katydecorah.com/img/google-maps.png
-locations: Albany,NY
+tags: 
+  - Jekyll
+  - Google Maps
+  - API
+image: "http://katydecorah.com/img/google-maps.png"
+"image-small": "http://katydecorah.com/img/google-maps.png"
+"image-large": "http://katydecorah.com/img/google-maps.png"
+locations: "Albany,NY"
 project: true
+published: true
 ---
 
 I have quite a few posts with locations and I wanted a better way to integrate them into my posts. I tinkered around with the static Google Maps Image API and found a neat little solution.
@@ -43,7 +44,8 @@ Your location can be a place, a city, an address, or even coordinates. Really an
 
 When using multiple locations, the map will center around the first location. A good idea is to put your most centrally located destination first. You might also need to change the zoom on the map. You can do this by adding a "zoom" variable in the post header.
 
-	- University at Albany
+	locations:
+    - University at Albany
     - Siena College
 	zoom: 10
 
