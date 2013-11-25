@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lake Placid & Potter's Point
+title: Lake Placid &amp; Potter's Point
 category: adventures
 tags: 
 - Potter's Point
