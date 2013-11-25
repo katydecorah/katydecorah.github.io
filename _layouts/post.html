@@ -6,7 +6,7 @@
 </div>
 {% if page.locations %}
 <div class="post-location">
-<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&amp;markers=color:blue%7C{{location}}{% else %}&amp;markers=color:blue%7C{{location}}{% endif %}{% endfor %}&amp;zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&amp;size=1280x180&amp;scale=2&amp;sensor=false&amp;visual_refresh=true" class="post-location-image">
+<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&amp;markers=color:blue%7C{{location}}{% else %}&amp;markers=color:blue%7C{{location}}{% endif %}{% endfor %}&amp;zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&amp;size=1280x180&amp;scale=2&amp;sensor=false&amp;visual_refresh=true" class="post-location-image" alt="">
 </div>
 {% endif %}
 <div class="container container-large-text" id="content">
