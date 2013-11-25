@@ -13,7 +13,7 @@
 <meta name="twitter:site" content="@katydecorah">
 <meta name="twitter:creator" content="@katydecorah">
 <meta name="twitter:title" content="{{page.title}}">
-<meta name="twitter:description" content="{% if page.excerpt = '' %}{{page.title}}{% else %}{{page.excerpt | strip_html}}{% endif %}">
+<meta name="twitter:description" content="{% if page.excerpt %}{{page.excerpt | strip_html}}{% else %}{{page.title}}{% endif %}">
 <meta name="twitter:image:src" content="{{page.image}}">{% else %}
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@katydecorah">
