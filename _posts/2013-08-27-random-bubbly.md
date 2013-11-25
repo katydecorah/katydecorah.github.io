@@ -7,7 +7,7 @@ tags:
   - Sass
   - Haml
   - no JS
-  - random()
+  - random
 image: http://codepen.io/katydecorah/pen/xbtch/image/small.png
 "show": "no"
 
