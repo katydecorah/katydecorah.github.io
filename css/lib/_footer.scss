@@ -2,12 +2,12 @@
   margin-top:5em;
   @include breakpoint(s){ border-top:1px solid #ddd;}
   @include breakpoint(m) {
-  margin-top:20em;
-  border-top:none;
-  .container {
-  max-width:75em;
+    margin-top:20em;
+    border-top:none;
+    .container {
+      max-width:75em;
+    }
   }
-}
   .colophon {
     margin:2em 0 0 6em;
     padding-top:2em;
@@ -29,16 +29,14 @@
 
 }
 .footer-details {
-  p {text-align:center;} // mobile
+  text-align:center;
   @include breakpoint(m) {
-
-  margin: 3% 0 0 2%; 
-  font-size:1.2em; 
-  width:73%;
-  max-width:30em;
-  p {text-align:left;}
-
-}
+    margin: 3% 0 0 2%; 
+    font-size:1.2em; 
+    width:73%;
+    max-width:30em;
+    text-align:left;
+  }
 }
 
 
