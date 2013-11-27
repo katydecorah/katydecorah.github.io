@@ -2,8 +2,9 @@
 layout: post
 title: Black Bean Burgers
 category: edibles
-tags: 
-image:
+tags: null
+image: null
+published: true
 ---
 
 This recipe was [adapted from Homemade Black Bean Veggie Burgers](http://allrecipes.com/recipe/homemade-black-bean-veggie-burgers/). 
@@ -44,7 +45,4 @@ For 1 burger:
 * Fat: 2g
 * Protein: 7.5g
 * Cholesterol: 35.3mg
-* Sodium: 404 g
-
-
-
+* Sodium: 404g
