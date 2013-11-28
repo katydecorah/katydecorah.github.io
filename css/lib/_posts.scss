@@ -14,8 +14,9 @@
     font-weight:normal;
   }
 
+.post-meta-container {margin:1em 0 5em;}
   .post-meta {
-    margin:1em 0 5em;
+    
     border-top:1px solid #ddd;
     border-bottom:1px solid #ddd;
     padding:1em 0;
@@ -30,6 +31,18 @@
     }
   }
 }
+}
+
+.post-location {
+font-size: 0.65em;
+color: lighten($darkAccent,25%);
+margin: 0 0.3em;
+}
+
+.post-locations {
+text-align: center;
+margin-top: 0.5em;
+@include breakpoint(m) {text-align:right;}
 }
 
 

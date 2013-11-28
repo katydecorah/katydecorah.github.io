@@ -10,14 +10,16 @@
   line-height:1.2;
   padding:0.25em 0.5em 0;
   font-style:italic;
-  font-size:2em;
+  
   display:block;
   color:white;
   z-index:1000;
   top:0;
   position:relative;
   @include transition(all .2s ease-in-out);
-  @include breakpoint(m) { position:fixed;
+  @include breakpoint(m) { 
+    position:fixed;
+    font-size:2em;
     &:hover {
     @include translate(0,2em);
     @include transition(all .2s ease-in-out);
