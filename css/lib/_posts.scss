@@ -43,6 +43,7 @@ display:inline-block;
 .post-locations {
 text-align: center;
 margin-top: 0.5em;
+line-height:1;
 @include breakpoint(m) {text-align:right;}
 }
 
