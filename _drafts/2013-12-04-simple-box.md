@@ -16,7 +16,9 @@ I was curious where the `:before` and `:after` would lay before I started transf
 
 <p data-height="268" data-theme-id="97" data-slug-hash="1ef155d2126eb89a515ed9873dc1b722" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/1ef155d2126eb89a515ed9873dc1b722'>Simple Box, 2</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-Without a transform specified, `:before` and `:after` will take the transform from the main element. So in this case, I just created a stack. To get each side in place, I skewed each pseudo element 45deg and then translated it into place.
+Without telling its transform otherwise, `:before` and `:after` will assume the same skew and rotate from the main element. So in this case, I just created a stack. I added an experimental hover to `.box`, so you can see the stack in the example above.
+
+To get each side in place, I skewed each pseudo element 45 degrees and then translated into place.
 
 	.box {
     	...
