@@ -22,11 +22,11 @@ Without a transform specified, `:before` and `:after` will take the transform fr
     	...
         &:before {
     		@include transform(skew(45deg,0) translate($boxSize / -2,$boxSize - 0.025));
-    		background:lighten(adjust-hue($mainColor,3),5%);
+    		background: lighten(adjust-hue($mainColor,3),5%);
   		}
   		&:after {
     		@include transform(skew(0,45deg) translate($boxSize - 0.025, $boxSize / -2));
-    		background:lighten(adjust-hue($mainColor,1),5%);
+    		background: lighten(adjust-hue($mainColor,1),5%);
   		}
       }
 
