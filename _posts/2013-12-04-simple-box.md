@@ -28,7 +28,7 @@ I added an experimental `:hover` to `.box`, so you can see the stack of elements
 
 To get each side in place, I skewed each pseudo element 45 degrees and then translated into place. I translated each side relative to the size of the box, making the box scalable. If you adjust the `$boxSize` variable, the box will happily adjust to your liking. You will also notice a slight adjustment of `0.025` applied to the translate. I found that the sides did not match exactly how I liked them, so I made a small adjustment.
 
-I added an experimental animation in the example below, so you can see the transform put to work.
+I added an experimental animation in the example below, so you can see the transform (skew and translate) put to work.
 
 <p data-height="270" data-theme-id="97" data-slug-hash="c363cbddcd4e63bf4b3940b4f8b68fc8" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/c363cbddcd4e63bf4b3940b4f8b68fc8'>Simple Box, 3</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
