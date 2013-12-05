@@ -15,7 +15,7 @@ published: true
 
 The `.box` is a single element. I used the `transform` property and pseudo elements to achieve the result. 
 
-The main element is the top of the box. When I first started, I started by making the main element the left side of the box. I think that was knee-jerk reaction for wanting to move left to right. However, styling this box is much easier when the main element is the top. The top will serve as an important reference point for the remaining sides of the box.
+The main element is the top of the box. Initially, I made the main element the left side of the box. I think that was knee-jerk reaction for wanting to move left to right. However, styling this box is much easier when the main element is the top. The top will serve as an important reference point for the remaining sides of the box.
 
 I started by drawing out a square, `.box` and then rotating it 45 degrees and skewing it -15 degrees.
 
