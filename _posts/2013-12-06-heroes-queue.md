@@ -18,10 +18,10 @@ I love trying to find different ways to get a job done. Especially when it means
 At first glance, I knew I wanted to somehow play around with the Dribbble shot [Heroes Queue by Antonas Deduchovas](http://drbl.in/jzgO), but I also knew that I didn’t want to do the grunt work. So I opened up a spreadsheet in Google Drive.
 
 ## Google spreadsheets to the rescue
-In a new spreadsheet, I resized the rows and columns to 25 and turned word text off. Now I had a grid, unscathed by length text. I opened the shot in Photoshop and adjusted the grid to closely match each bit of the image.
+In a new spreadsheet, I resized the rows and columns to 25 and turned word text off. Now I had a grid, unscathed by lengthy text. I opened the shot in Photoshop and added a grid to closely match each bit of the image.
 
 ## Format > Conditional formatting
-Before this project, I had known about this cool feature in Google Spreadsheets, *conditional formatting*. You can set conditions in the spreadsheet to style a cell based on a string or digit. If there is a match then the background color or font color of that cell can change according to your rule.
+Before this project, I had known about a cool feature in Google Spreadsheets, *conditional formatting*. You can set conditions in the spreadsheet to style a cell based on a string or digit. If there is a match then the background color or font color of that cell will change according to your rule.
 
 ![Conditional Formatting](https://dl.dropbox.com/s/h6mgo2u12t0ndi3/conditional-formatting.png)
 
@@ -67,4 +67,4 @@ When I pasted the code it had some undesirable spaces and returns, but I quickly
 This code is heavy. So heavy. I know it’s irresponsible for every day wear, but it’s fun and this is one of my favorite ways to learn new things. I spend my work days creating web-based trainings that must be pristine in IE7. For that reason, I crave projects that push boundaries.
 
 ### p.s.
-I tried to get the same animation in the Dribbble shot, the characters bouncing up and down. Unfortunately, the animation didn't take too kindly to all the values. It rendered a trippy, slapping of box-shadows, that was sure to melt a computer into liquid, Alex Mack style. I settled with a hover, so did you hover?
+I tried to get the same animation in the Dribbble shot with the characters bouncing up and down. Unfortunately, the animation didn't take too kindly to all the values. It rendered a trippy, slapping of box-shadows, that was sure to melt a computer into liquid, Alex Mack style. I settled with a hover, so did you hover?
