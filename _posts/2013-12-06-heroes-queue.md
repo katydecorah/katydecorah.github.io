@@ -9,13 +9,13 @@ tags:
   - Haml
   - box-shadow
   - Google Spreadsheets
-image: http://codepen.io/katydecorah/pen/823f0788179f16d1bbbf388a0fc113f6/image/large.png
+image: http://codepen.io/katydecorah/pen/cJfhC/image/large.png
 ---
-<p data-height="340" data-theme-id="97" data-slug-hash="823f0788179f16d1bbbf388a0fc113f6" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/823f0788179f16d1bbbf388a0fc113f6'>Heroes Queue by Antonas Deduchovas</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
+<p data-height="350" data-theme-id="97" data-slug-hash="cJfhC" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cJfhC'>Heroes Queue by Antonas Deduchovas</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I love trying to find different ways to get a job done. Especially when it means using a certain piece of technology in an unexpected way. Maybe the job is silly, but it's the problem solving that I really, truly dig.
 
-At first glance, I knew I wanted to somehow play around with the Dribbble shot [Heroes Queue by Antonas Deduchovas](http://drbl.in/jzgO), but I also knew that I didn’t want to do the grunt work. So I opened up a spreadsheet in Google Drive.
+At first glance, I knew I wanted to somehow play around with the Dribbble shot [Heroes Queue by Antonas Deduchovas](http://drbl.in/jzgO) and I was definitely thinking single element for each character, but with tons of `box-shadow`. However, I also knew that I didn’t want to do the grunt work. So I opened up a spreadsheet in Google Drive.
 
 ## Google spreadsheets to the rescue
 In a new spreadsheet, I resized the rows and columns to 25 and turned word text off. Now I had a grid, unscathed by lengthy text. I opened the shot in Photoshop and added a grid to closely match each bit of the image.
