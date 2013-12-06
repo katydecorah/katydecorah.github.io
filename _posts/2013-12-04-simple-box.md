@@ -23,11 +23,11 @@ I added an `animation` in the example below to demonstrate the `transform` value
 
 <p data-height="270" data-theme-id="97" data-slug-hash="8707388727c57ea3ff8ce3bc42af5f56" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/8707388727c57ea3ff8ce3bc42af5f56'>Simple Box, 1</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-Pseudo elements, `:before` and `:after`, were used to create the left and right sides of the box. Since it's a box, I styled the sides with the same dimensions as the top, using the variable `$boxSize`.
+I used pseudo elements, `:before` and `:after`, to create the left and right sides of the box. Since it's a box, I styled the sides with the same dimensions as the top, using the variable `$boxSize`.
  
 I was curious where `:before` and `:after` would lay before I started transforming them individually. Without telling the transform otherwise, `:before` and `:after` assumed the same transform values (in this case, skew and rotate) from the main element. Without applying each pseudo element's own skew and rotate, I ended up creating a stack of elements.
 
-I added an `animation` in the example below to demonstrate the stack of elements before they were transformed into sides.
+I added an `animation` in the example below to demonstrate the stack of elements before I transformed them into sides.
 
 <p data-height="270" data-theme-id="97" data-slug-hash="1ef155d2126eb89a515ed9873dc1b722" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/1ef155d2126eb89a515ed9873dc1b722'>Simple Box, 2</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
