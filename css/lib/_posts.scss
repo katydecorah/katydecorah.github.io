@@ -167,6 +167,8 @@ iframe, .pop-out {
   margin: 1em -25% 2em;
   display:block;
   max-width:none;
+  position:relative;
+  z-index:10001;
   @include breakpoint(m){width: 150% !important;}
 }
 embed {max-width:100%;}
