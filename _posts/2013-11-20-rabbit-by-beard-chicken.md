@@ -8,7 +8,7 @@ tags:
   - Haml
   - Dribbble
   - "box-shadow"
-image: "http://katydecorah.com/img/rabbit.png"
+image: "http://i.cdpn.io.s3.amazonaws.com/6362.uIEFy.bc2d5743-393d-4569-9887-20a32aed7fd0.png"
 published: true
 ---
 
