@@ -13,6 +13,6 @@ image: http://codepen.io/katydecorah/pen/qKnGs/image/large.png
 
 I never fully understood the values of `animation-direction`, the property that tells the animation in which direction to play. It's difficult to differentiate between `normal`, `reverse`, `alternate`, and `alternate-reverse` without a visiual reference. I created the animation above to demonstrate all of the values of `animation-direction`.
 
-Each set of dots performs the same animation, but in a different direction.
+Each set of dots performs the same animation, but in a different direction. You can [see the animation run infinitely](http://codepen.io/katydecorah/full/qKnGs/) on CodePen.
 
 [Read more about animation-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction)
