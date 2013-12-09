@@ -21,3 +21,10 @@ img {
 .text-right {text-align:right;}
 .text-left {text-align:left;}
 .text-center {text-align:center;}
+
+.pull-right, .pull-left {
+  @include breakpoint(s) {float:none;}
+}
+.text-right, .text-left {
+  @include breakpoint(s) {text-align:center;}
+  }
