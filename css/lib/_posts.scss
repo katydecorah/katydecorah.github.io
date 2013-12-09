@@ -165,7 +165,7 @@ iframe, .pop-out {
   z-index:10001;
   max-width:100%;
   @include breakpoint(xxl){
-    width: 150%;
+    width: 150% !important;
     margin: 1em -25% 2em;
     max-width:none;
   }
@@ -175,7 +175,7 @@ embed {max-width:100%;}
 .gist {
  max-width:100%;
   @include breakpoint(xxl){
-    width: 120%;
+    width: 120% !important;
     max-width:none;
      margin: 1em -10%;
   }
