@@ -14,7 +14,7 @@
     font-weight:normal;
   }
 
-.post-meta-container {margin:1em 0 5em;}
+.post-meta-container {margin:1em 0 3em;}
   .post-meta {
     
     border-top:1px solid #ddd;
@@ -33,7 +33,7 @@
 }
 }
 
-.post-location {
+.post-location, .tag {
 font-size: 0.65em;
 color: lighten($darkAccent,25%);
 margin: 0 0.3em;
@@ -42,9 +42,7 @@ display:inline-block;
 
 .post-locations {
 text-align: center;
-margin-top: 0.5em;
 line-height:1;
-@include breakpoint(m) {text-align:right;}
 }
 
 

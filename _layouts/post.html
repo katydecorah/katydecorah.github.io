@@ -17,13 +17,15 @@
 <span class="post-type"> <a href="http://katydecorah.com/categories/#{{ page.category | downcase }}">{{ page.category }}</a></span>
 // <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
 </div>
+<div class="post-meta-side">
+{% include tags.html %}
 {% include locations.html %}
+</div>
 </div>
 {% if page.category == 'playlist'%}<p>What I listened to this past season&hellip;</p>{% endif %}
 {{ content }}
 <div class="find-similar-posts">
 {% include twitter.html %}
-{% include tags.html %}
 {% include prev-next.html %}
 </div>
 </div>
