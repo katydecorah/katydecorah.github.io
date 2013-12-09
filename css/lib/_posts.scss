@@ -158,26 +158,30 @@ display: inline-block;
 }
 
 iframe, .pop-out {
-  margin: 1em -25% 2em;
+  
   display:block;
   max-width:none;
   position:relative;
   z-index:10001;
-  @include breakpoint(m){width: 150% !important;}
+  max-width:100%;
+  @include breakpoint(xxl){
+    width: 150%;
+    margin: 1em -25% 2em;
+    max-width:none;
+  }
+
 }
 embed {max-width:100%;}
 .gist {
-  margin: 1em -10%;
-  @include breakpoint(m){width: 120% !important;}
+ max-width:100%;
+  @include breakpoint(xxl){
+    width: 120%;
+    max-width:none;
+     margin: 1em -10%;
+  }
 }
 
-iframe, .pop-out, .gist {
-  @include breakpoint(xl){
-      width:100%; 
-      margin:1em 0; 
-      max-width:100%;
-    }
-}
+
 
 
 
