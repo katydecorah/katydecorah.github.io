@@ -10,20 +10,33 @@
   line-height:1.2;
   padding:0.25em 0.5em 0;
   font-style:italic;
-  
   display:block;
   color:white;
   z-index:1000;
   top:0;
   position:relative;
   @include transition(all .2s ease-in-out);
-  @include breakpoint(m) { 
-    position:fixed;
-    font-size:2em;
-    &:hover {
-    @include translate(0,2em);
-    @include transition(all .2s ease-in-out);
+
+  ///// front-page
+  .front-page & {
+    @include breakpoint(m) { 
+      position:fixed;
+      font-size:2em;
+    }
   }
+ //// default pages
+  .default-page & {
+    @include breakpoint(xxl) { 
+      left:10%;
+      position:fixed; 
+    }
+    font-size:1em;
+  }
+   @include breakpoint(m) { 
+    &:hover {
+      @include translate(0,2em);
+      @include transition(all .2s ease-in-out);
+    }
   }
   &:before, &:after {
     content:"";

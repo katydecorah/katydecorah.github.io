@@ -71,32 +71,31 @@ line-height:1;
   text-align: center;
 }
 
-// mobile
-.post-next-container, .post-prev-container {
-  display:block;
-  width:100%;
-}
 
 
 .post-prev, .post-next {
   //width:15em; no mobile
   color:$darkAccent;
   position:relative;
+  display:block;
+  @include breakpoint(m){width:50%;}
   @include transition(all .5s linear);
   &:hover {
     @include transition(all .5s linear);
     color:lighten($darkAccent,15%);
-    .next,.previous {background:lighten($darkAccent,15%);}
   }
-  .next,.previous {
+  .next, .previous {
+    @include breakpoint(m){
     position: absolute;
-    top: 0.5em;
+    top: -0.75em;
+  }
+
   }
   .next {
-    right:-2em;
+    @include breakpoint(m){right:-2.25em;}
   }
-  .previous {
-    left:-2em;
+  .previous{
+    @include breakpoint(m){left:-2.25em;}
   }
 }
 .post-prev:hover {
@@ -116,7 +115,7 @@ line-height:1;
   width:2em;
   vertical-align: middle;
   color: #FFF;
-  margin: 1em 0.5em;
+  @include breakpoint(m){margin: 1em 0.5em;}
   font-size:1em;
   text-align:center;
   @include transition(all .25s linear);
@@ -142,20 +141,22 @@ display: inline-block;
 
 
 .post-prev-next {
-  padding:0 1em;
+  @include breakpoint(m){padding:0 1em;}
   clear:both;
+  margin-top:1em;
 }
 
 .post-next-title, .post-prev-title {
-  display:block;
-  text-transform: uppercase;
-  padding:0.5em 1em;
+  @include breakpoint(m){
+    display:block;
+    padding:0.5em 1em;
+}
   font-size:0.8em;
+
+  text-transform: uppercase;
+  
 }
 
-a [class^="icon-"], a [class*=" icon-"] {
-  display: inline-block;
-}
 iframe, .pop-out {
   margin: 1em -25% 2em;
   display:block;

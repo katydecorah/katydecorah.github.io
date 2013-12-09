@@ -1,10 +1,13 @@
 // From http://css-tricks.com/media-queries-sass-3-2-and-codekit/
 @mixin breakpoint($point) {
-  @if $point == xl {
-    @media (max-width: 71.19em) { @content; }
+  @if $point == xxl {
+    @media (min-width: 75em) { @content; }
+  }
+  @else if $point == xl {
+    @media (min-width: 71.19em) { @content; }
   }
   @else if $point == l {
-    @media (min-width: 56.25) { @content; }
+    @media (min-width: 56.25em) { @content; }
   }
   @else if $point == m {
     @media (min-width: 50em) { @content; }

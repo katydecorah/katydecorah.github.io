@@ -11,13 +11,7 @@
   .container {
    max-width:35em;
   }
-  .logo {
-    font-size:1.1em;
-    top:0;
-    @include breakpoint(m){
-    left:10%;
-  }
-  }
+
 }
 
 .page-archive {
