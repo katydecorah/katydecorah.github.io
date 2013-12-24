@@ -15,4 +15,4 @@ image: "https://dl.dropbox.com/s/kdszbuvllihc7l0/food-by-nos.png"
 
 Above is the Dribbble shot, [Food by nos](http://dribbble.com/shots/1355254-Food), that I coded out and add some hover pizazz.
 
-In this example, I tried to play around with flexbox. I found that it's kind of tricky and not always intuitive. Things didn't go as expected in Firefox; I couldn't get `box-pack` to center vertically. I'll have to experiment some more to get the hang of it.
+In this example, I tried to play around with flexbox. Things didn't go as expected in Firefox; I couldn't get `box-pack` to center vertically. I'll have to experiment some more to get the hang of it.
