@@ -2,44 +2,37 @@
 
 // on individual post pages
 .post-page{
-.post {
-  h1 {
-    @include breakpoint(m) {
-      margin-left:-1em;
-    margin-right:-1em;
-  }
-    margin-top:2.25em;
-    margin-bottom: 0;
-    min-height: 2.5em;
-    font-weight:normal;
-  }
-
-.post-meta-container {margin:1em 0 3em;}
-  .post-meta {
-    
-    border-top:1px solid #ddd;
-    border-bottom:1px solid #ddd;
-    padding:1em 0;
-    text-align:center;
-    position:relative;
-    background:$bodyBackground;
-    .post-type,.post-date, .post-location {
-      text-transform: uppercase;
-      font-size:0.8em;
-      margin-bottom:0.5em;
-      display:inline;
+  .post {
+    h1 {
+      margin-top:2.25em;
+      margin-bottom: 0;
+      min-height: 2.5em;
+      font-weight:normal;
     }
   }
 }
+
+.post-meta {
+  padding:1em 0;
+  margin-bottom:1em;
+  text-align:center;
+  position:relative;
+  background:$bodyBackground;
+  .post-type,.post-date, .post-location {
+    text-transform: uppercase;
+    font-size:0.8em;
+    margin-bottom:0.5em;
+    display:inline;
+  }
 }
 
 .post-locations,.tags {text-align:center;}
 .post-location, .tag {
-font-size: 0.65em;
-color: lighten($darkAccent,25%);
-margin: 0 0.3em;
-display:inline-block;
-line-height:1;
+  font-size: 0.65em;
+  color: lighten($darkAccent,25%);
+  margin: 0 0.3em;
+  display:inline-block;
+  line-height:1;
 }
 
 
@@ -48,14 +41,14 @@ line-height:1;
   display:none;
 
   @include breakpoint(m){
-      position: absolute;
-  top: 0;
-  display: block;
-  z-index: -1;
-  @include opacity(.2);
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+    position: absolute;
+    top: 0;
+    display: block;
+    z-index: -1;
+    @include opacity(.2);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 }
 
@@ -86,9 +79,9 @@ line-height:1;
   }
   .next, .previous {
     @include breakpoint(m){
-    position: absolute;
-    top: -0.75em;
-  }
+      position: absolute;
+      top: -0.75em;
+    }
 
   }
   .next {
@@ -126,12 +119,12 @@ line-height:1;
 }
 
 .btn-rect {
-background: $darkAccent;
-color: #FFF;
-padding: 0.25em 0.7em;
-border-radius: 0.3em;
-margin: 1em 0.5em;
-display: inline-block;
+  background: $darkAccent;
+  color: #FFF;
+  padding: 0.25em 0.7em;
+  border-radius: 0.3em;
+  margin: 1em 0.5em;
+  display: inline-block;
   @include transition(all .25s linear);
   &:hover {
     background:tomato;
@@ -150,7 +143,7 @@ display: inline-block;
   @include breakpoint(m){
     display:block;
     padding:0.5em 1em;
-}
+  }
   font-size:0.8em;
 
   text-transform: uppercase;
@@ -158,7 +151,7 @@ display: inline-block;
 }
 
 iframe, .pop-out {
-  
+
   display:block;
   max-width:none;
   position:relative;
@@ -174,11 +167,11 @@ iframe, .pop-out {
 embed {max-width:100%;}
 .gist {
  max-width:100%;
-  @include breakpoint(xxl){
-    width: 120% !important;
-    max-width:none;
-     margin: 1em -10%;
-  }
+ @include breakpoint(xxl){
+  width: 120% !important;
+  max-width:none;
+  margin: 1em -10%;
+}
 }
 
 

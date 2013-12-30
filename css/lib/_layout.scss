@@ -9,9 +9,8 @@
 
 .default-page {
   .container {
-   max-width:35em;
-  }
-
+   max-width:40em;
+ }
 }
 
 .page-archive {
@@ -28,8 +27,8 @@
 .half-left,.half-right {
 
   @include breakpoint(m) {
-      width:48%;
-  float:left;
+    width:48%;
+    float:left;
 
   }
 }

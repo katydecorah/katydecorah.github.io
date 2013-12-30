@@ -9,7 +9,7 @@ title: Katy DeCorah
 	<div class="post-thumb" style="background-image:url({{ post.image }})"></div>
 </div>
 <span class="post-title">{{ post.title }}</span>
-<span class="post-date">{{post.category}} // {{ post.date | date: "%B %d, %Y" }}</span>
+<span class="post-date">{{post.category}} &times; {{ post.date | date: "%B %d, %Y" }}</span>
 </a>
 </div>
 {% endfor %}<div class="pagination">{% if paginator.previous_page %}

@@ -42,7 +42,7 @@ h1,h2,h3,p,li,code,pre,a,span {
 
 p,li {
   margin:1em 0;
-  @include breakpoint(m) {max-width:35em;}
+  //@include breakpoint(m) {max-width:35em;}
 }
 
 

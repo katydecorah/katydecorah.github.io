@@ -12,9 +12,9 @@
 
 .all-posts {
   @include breakpoint(m) { 
-  margin-left:16em;
-  margin-right:1em;
- }
+    margin: 0 auto;
+    max-width: 40em;
+  }
 }
 
 
@@ -39,20 +39,20 @@
 .post-thumb-container {
   display:none;
   @include breakpoint(m) {
-display: block;
-width: 40%;
-margin: 0.5em 2em 1em 0;
-overflow: hidden;
-  @include transition(all 1s);
- }
+    display: block;
+    width: 40%;
+    margin: 0.5em 2em 1em 0;
+    overflow: hidden;
+    @include transition(all 1s);
+  }
 }
 .post-thumb {
   display: block;
-padding-bottom: 100%;
-width: 100%;
-background-size: cover;
-background-position: center;
-@include transition(all 1s);
+  padding-bottom: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  @include transition(all 1s);
 }
 .post-title {
   text-align:center; //mobile
@@ -77,7 +77,7 @@ background-position: center;
   display:block; 
   font-size:0.8em;
   text-align:center; //mobile
-    @include breakpoint(m) { 
+  @include breakpoint(m) { 
     text-align: left;
   }
 }
