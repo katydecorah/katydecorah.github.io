@@ -24,3 +24,7 @@ And then, it came to me&hellip; a trapezoid!
 ![Ribbon tail with trapezoids](https://dl.dropbox.com/s/2l2v13jeytdi30c/zindex-ribbon-trap.png)
 
 ## Preserve the stacking order on transform
+
+When working on other Pens, I noticed that I had issues preserving the stacking order,`z-index`, of elements once a `transform` is introduced. I didn't know how to remedy it, so I avoided it.
+
+After some research, I dove into [the situation](http://stackoverflow.com/questions/16433864/do-css-transformed-elements-have-default-z-index) that takes place between stacking orders and transforms.
