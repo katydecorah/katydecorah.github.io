@@ -2,7 +2,8 @@
 published: false
 ---
 
-I wanted to create this Dribbble shot as a single element, but I was presented with a few challenges.
+I wanted to code out the Dribbble shot [END
+by Catt](http://drbl.in/jJIr) as a single element, but I was presented with a couple challenges.
 
 1. Give the ribbon tail a shadow, without adding extra elements.
 2. Make the main element transform, without losing the stacking order.
