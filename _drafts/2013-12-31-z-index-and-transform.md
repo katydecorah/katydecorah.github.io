@@ -2,8 +2,10 @@
 published: false
 ---
 
-I wanted to code out the Dribbble shot [END
-by Catt](http://drbl.in/jJIr) as a single element, but I was presented with a couple challenges.
+Starting out I knew I wanted to code out the Dribbble shot [END
+by Catt](http://drbl.in/jJIr) as a single element. I would use the main element to contain the text, or main part of the ribbon, and then use pseudo elements to create the tails of the ribbon.
+
+In making all this happen, I was presented with of couple challenges.
 
 1. Give the ribbon tail a shadow, without adding extra elements.
 2. Preserve the stacking order on transform.
@@ -22,5 +24,3 @@ And then, it came to me&hellip; a trapezoid!
 ![Ribbon tail with trapezoids](https://dl.dropbox.com/s/2l2v13jeytdi30c/zindex-ribbon-trap.png)
 
 ## Preserve the stacking order on transform
-
-
