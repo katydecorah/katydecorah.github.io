@@ -1,35 +1,41 @@
-.resume {
+.page-resume {
 	h1 {
 		text-align:center;
 		margin-bottom: 0.25em;
-		font-weight:400;
-		font-size:1.5em;
 	}
 	h2 {
-		border-top: 0.15em solid #222;
-		font-size:0.8em;
+		border-bottom: 0.1em solid #222;
+		font-size: 1em;
 		margin: 2em 0 1em;
-		font-weight:400;
+		text-transform: uppercase;
+		font-family: "proxima-nova",sans-serif;
 	}
 	h3 {
 		font-size:1em;
-		margin:0;
 		font-weight:700;
+		font-family: "proxima-nova",sans-serif;
+		margin-bottom:0;
+	}
+	h4 {
+		font-style: italic;
+		font-weight: 500;
+		margin: 0;
 	}
 	strong {
-		float:right;
-		margin-right:2em;
+		@extend .pull-right;
 		font-weight:300;
 		font-size:0.9em;
 		display:block;
 	}
 
 	p {
-		max-width:none;
 		margin-bottom: 0.5em; 
 	}
 	ul {
+		margin-top:0;
 		margin-bottom: 1em;
+		margin-left:-1em;
+		list-style-type: disc;
 	}
 	li {
 		margin:0;
@@ -39,20 +45,11 @@
 		margin-bottom:4em;
 		p {
 			text-align: center;
-			text-transform: uppercase;
-			margin-bottom:0.25em;
+			margin:0;
 			font-size:0.9em;
 		}
 		& p:nth-child(3) {
 			display: none;
 		}
 	}
-
-
-	ul {
-		list-style:disc;
-		margin-left:2em;
-	}
-
-
 }
