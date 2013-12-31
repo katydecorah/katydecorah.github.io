@@ -6,7 +6,7 @@ I wanted to code out the Dribbble shot [END
 by Catt](http://drbl.in/jJIr) as a single element, but I was presented with a couple challenges.
 
 1. Give the ribbon tail a shadow, without adding extra elements.
-2. Make the main element transform, without losing the stacking order.
+2. Preserve the stacking order on transform.
 
 ## Give the ribbon tail a shadow
 
@@ -20,4 +20,7 @@ And then, it came to me&hellip; a trapezoid!
 
 ![Ribbon tail with trapezoids with opacity](https://dl.dropbox.com/s/epktfxr3eh7xceb/zindex-ribbon-trap-op.png)
 ![Ribbon tail with trapezoids](https://dl.dropbox.com/s/2l2v13jeytdi30c/zindex-ribbon-trap.png)
+
+## Preserve the stacking order on transform
+
 
