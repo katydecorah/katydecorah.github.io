@@ -37,9 +37,7 @@
 		margin-left:-1em;
 		list-style-type: disc;
 	}
-	li {
-		margin:0;
-	}
+	li {margin:0;}
 
 	blockquote {
 		margin-bottom:4em;
@@ -51,5 +49,9 @@
 		& p:nth-child(3) {
 			display: none;
 		}
+	}
+	#skills + ul {
+		@include columns(3, 10);
+		list-style:none;
 	}
 }
