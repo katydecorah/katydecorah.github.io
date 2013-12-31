@@ -11,6 +11,8 @@ I wanted to create this Dribbble shot as a single element, but I was presented w
 
 I first tried a triangle, but found that the angles didn't match up so nice.
 
+![Ribbon tail with triangles](/https://dl.dropbox.com/s/33ijd9t5fgh0c6t/zindex-ribbon-triangle.png)
+
 Then at last, a trapezoid popped into my head.
 
 
