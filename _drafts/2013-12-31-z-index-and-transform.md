@@ -9,10 +9,14 @@ I wanted to create this Dribbble shot as a single element, but I was presented w
 
 ## Give the ribbon tail a shadow
 
-I first tried a triangle, but found that the angles didn't match up so nice.
+I first tried to create a triangle to create the shadow effect. It worked, but it didn't match up perfectly.
 
-![Ribbon tail with triangles](/https://dl.dropbox.com/s/33ijd9t5fgh0c6t/zindex-ribbon-triangle.png)
+![Ribbon tail with triangles with opacity](https://dl.dropbox.com/s/tmyt5tl3hs36c5y/zindex-ribbon-triangle-op.png)
 
-Then at last, a trapezoid popped into my head.
+![Ribbon tail with triangles](https://dl.dropbox.com/s/33ijd9t5fgh0c6t/zindex-ribbon-triangle.png)
 
+And then, it came to me&hellip; a trapezoid!
+
+![Ribbon tail with trapezoids with opacity](https://dl.dropbox.com/s/epktfxr3eh7xceb/zindex-ribbon-trap-op.png)
+![Ribbon tail with trapezoids](https://dl.dropbox.com/s/2l2v13jeytdi30c/zindex-ribbon-trap.png)
 
