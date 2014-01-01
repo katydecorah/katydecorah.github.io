@@ -47,7 +47,7 @@ Once I added `transform` to the main element, the pseudo elements appeared to di
 Through research, I dove into the situation of what takes place between stacking orders and transforms. I learned that once transformed, an element needs to play by 3D rules. Without specifying the `transform-style`, I was technically still in flat mode.
 
 > If flattened, the children will not exist on their own in the 3D-space.
-> <cite>&mdash; <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style">transform-style</a> by MDN</cite>
+> <cite>-- <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style">transform-style</a> by MDN</cite>
 
 To allow the children to exist on their own, I needed to pepper in a couple more properties. First, I told my main element to `preserve-3d`.
 
