@@ -36,7 +36,7 @@ And then, it came to me&hellip; a trapezoid!
 
 The trapezoid fit perfectly. I also used a variable `$ribbonSize` to keep the ribbon tails in proportion with the shadow. In doing so, the ribbon became scalable!
 
-##  the stacking order on transform
+## Preserve the stacking order on transform
 
 Prior to this project, I noticed issues in preserving the stacking order, `z-index`, of elements once a `transform` is introduced. Until now, I didn't know how to remedy it, so I avoided it.
 
@@ -56,7 +56,7 @@ To allow the children to exist on their own, I needed to pepper in a couple more
 		transform-style: preserve-3d;
 	}
 
-Next, I controlled the stacking order of the psuedo elements through `translateZ`. Think of `translateZ` as the 3D version of `z-index`.
+Next, I controlled the stacking order of the pseudo elements through `translateZ`. Think of `translateZ` as the 3D version of `z-index`.
 
 	.ribbon {
 		...
