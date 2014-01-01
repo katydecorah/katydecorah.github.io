@@ -69,6 +69,6 @@ Next, I controlled the stacking order of the psuedo elements through `translateZ
 
 After adding these properties, my ribbon tails popped back into place behind the ribbon. 
 
-Here's another example of using `translateZ` to stack elements in 3D-space.
+Below is a playground I created to test `translateZ`.
 
 <p data-height="375" data-theme-id="97" data-slug-hash="lKkAF" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/lKkAF'>z-index &amp; transform</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
