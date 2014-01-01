@@ -19,7 +19,7 @@ Before I started, I knew that I wanted to code out the Dribbble shot [END by Cat
 
 In making this happen, I was presented with of couple challenges.
 
-1. Give the ribbon tail a shadow, without adding extra elements.
+1. Give the ribbon tail a shadow without adding extra elements.
 2. Preserve the stacking order on transform.
 
 ## Give the ribbon tail a shadow
@@ -34,7 +34,7 @@ And then, it came to me&hellip; a trapezoid!
 ![Ribbon tail with trapezoids with opacity](https://dl.dropbox.com/s/epktfxr3eh7xceb/zindex-ribbon-trap-op.png)
 ![Ribbon tail with trapezoids](https://dl.dropbox.com/s/2l2v13jeytdi30c/zindex-ribbon-trap.png)
 
-The trapezoid fit perfectly. I also used a variable `$ribbonSize` to keep the ribbon tails in proportion with the shadow. In doing so, the ribbon is scalable!
+The trapezoid fit perfectly. I also used a variable `$ribbonSize` to keep the ribbon tails in proportion with the shadow. In doing so, the ribbon became scalable!
 
 ##  the stacking order on transform
 
@@ -44,7 +44,7 @@ Once I added `transform` to the main element, the pseudo elements appeared to di
 
 ![Ribbon transformed out of stacking order](https://dl.dropbox.com/s/30dmpxzhimhc8yz/zindex-ribbon-transform.png)
 
-After some research, I dove into the situation of what takes place between stacking orders and transforms. I learned that once transformed, an element needs to play by 3D rules. Without specifying the `transform-style`, I was technically still in flat mode.
+Through research, I dove into the situation of what takes place between stacking orders and transforms. I learned that once transformed, an element needs to play by 3D rules. Without specifying the `transform-style`, I was technically still in flat mode.
 
 > If flattened, the children will not exist on their own in the 3D-space.
 > <cite>&mdash; <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style">transform-style</a> by MDN</cite>
@@ -66,6 +66,8 @@ Next, I controlled the stacking order of the psuedo elements through `translateZ
 		...
 		transform: translateZ(-1em);
 	}
+
+After adding these properties, my ribbon tails popped back into place behind the ribbon. 
 
 Here's another example of using `translateZ` to stack elements in 3D-space.
 
