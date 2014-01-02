@@ -20,9 +20,8 @@ published: true
 On Saturday, I woke up early and drove down to Greenwich, CT. A very good friend of mine moved down there earlier this year with her husband. She showed me their new place and around town. We ordered sushi to-go and enjoyed it on the beach. It was a really great day.
 
 <a href="http://www.flickr.com/photos/katydecorah/10391048193/" title="Greenwich, CT by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7376/10391048193_0ed2052e5b_c.jpg" class="img-half" alt="Greenwich, CT"></a><a href="http://www.flickr.com/photos/katydecorah/10390895356/" title="Greenwich, CT by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5510/10390895356_61e2051e1b_c.jpg" class="img-half" alt="Greenwich, CT"></a><a href="http://www.flickr.com/photos/katydecorah/10390910816/" title="Greenwich, CT by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7441/10390910816_14ec5d95d4_c.jpg" class="pop-out" alt="Greenwich, CT"></a>
-#
 
-# East Arlington Antique Center Movie Theatre
+## East Arlington Antique Center Movie Theatre
 
 On Sunday, I joined my boyfriend's family to Vermont. We celebrated his sister's birthday with a delicious lunch and treasure hunting in antique stores!
 
