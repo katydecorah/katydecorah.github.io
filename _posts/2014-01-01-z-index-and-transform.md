@@ -2,22 +2,23 @@
 layout: post
 title: "z-index and transform"
 category: code
-tags:
-- Dribbble
-- CodePen
-- Haml
-- Sass
-- transform
+tags: 
+  - Dribbble
+  - CodePen
+  - Haml
+  - Sass
+  - transform
 image: "https://dl.dropbox.com/s/heyuicpt5o2twal/zindex-ribbon-diagram.png"
+published: true
 ---
 
 <p data-height="400" data-theme-id="97" data-slug-hash="7e32fe667693ddb55dc0cff87c47c120" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/7e32fe667693ddb55dc0cff87c47c120'>END by Catt</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-Before I started, I knew that I wanted to code out the Dribbble shot [END by Catt](http://drbl.in/jJIr) as a single element. I planned on using the main element for the text and pseudo elements to create the tails of the ribbon.
+I knew that I wanted to code out the Dribbble shot [END by Catt](http://drbl.in/jJIr) as a single element. I planned on using the main element for the text and pseudo elements to create the tails of the ribbon.
 
 ![Ribbon diagram](https://dl.dropbox.com/s/heyuicpt5o2twal/zindex-ribbon-diagram.png)
 
-In making this happen, I was presented with of couple challenges.
+In making all of this happen, I was presented with of couple challenges.
 
 1. Give the ribbon tail a shadow without adding extra elements.
 2. Preserve the stacking order on transform.
