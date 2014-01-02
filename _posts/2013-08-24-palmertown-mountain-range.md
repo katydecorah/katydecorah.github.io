@@ -23,17 +23,11 @@ The first scenic overlook (and our favorite):
 
 The next stop was the overlook of the Spier Falls Dam:
 
-<a href="http://www.flickr.com/photos/91218249@N05/9583831625/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7341/9583831625_fafaea7bb2_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a>
-
-<a href="http://www.flickr.com/photos/91218249@N05/9583837625/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2846/9583837625_cf283cb895_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a>
-
-<a href="http://www.flickr.com/photos/91218249@N05/9586629444/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2858/9586629444_457bb8211e_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9583831625/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7341/9583831625_fafaea7bb2_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a><a href="http://www.flickr.com/photos/91218249@N05/9583837625/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2846/9583837625_cf283cb895_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a><a href="http://www.flickr.com/photos/91218249@N05/9586629444/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2858/9586629444_457bb8211e_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a>
 
 We hiked up to where the yellow and orange trails meet at point 7. We then double backed on yellow and took the white trail to the blue trail until it met up with yellow again.
 
-<a href="http://www.flickr.com/photos/91218249@N05/9583834269/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2876/9583834269_d8e7b144e5_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a>
-<a href="http://www.flickr.com/photos/91218249@N05/9583845429/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5533/9583845429_86f8609032_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a>
-<a href="http://www.flickr.com/photos/91218249@N05/9583847211/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5541/9583847211_8c7620529b_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9583834269/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2876/9583834269_d8e7b144e5_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a><a href="http://www.flickr.com/photos/91218249@N05/9583845429/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5533/9583845429_86f8609032_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a><a href="http://www.flickr.com/photos/91218249@N05/9583847211/" title="Palmertown Mountain Range by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5541/9583847211_8c7620529b_c.jpg" class="img-thirds" alt="Palmertown Mountain Range"></a>
 
 The weather was perfect and the overlooks were gorgeous, but the terrain was exhausting. We didn't bring enough trail snacks, there can never be too many trail snacks.
 

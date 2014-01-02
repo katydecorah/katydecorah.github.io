@@ -16,9 +16,6 @@ The recipe requires you to whip everything up in a blender, making the whole pro
 
 Each brownie is about 125 calories. The recipe makes 16.
 
-<a href="http://www.flickr.com/photos/91218249@N05/9665840645/" title="Black Bean Brownies by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg" class="img-half" alt="Black Bean Brownies"></a>
-<a href="http://www.flickr.com/photos/91218249@N05/9669075276/" title="Black Bean Brownies by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7369/9669075276_84cdd89576_c.jpg" class="img-half" alt="Black Bean Brownies"></a>
-
-<a href="http://www.flickr.com/photos/91218249@N05/9665841991/" title="Black Bean Brownies by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5347/9665841991_a97456ee19_c.jpg" alt="Black Bean Brownies" class="pop-out"></a>
+<a href="http://www.flickr.com/photos/91218249@N05/9665840645/" title="Black Bean Brownies by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg" class="img-half" alt="Black Bean Brownies"></a><a href="http://www.flickr.com/photos/91218249@N05/9669075276/" title="Black Bean Brownies by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7369/9669075276_84cdd89576_c.jpg" class="img-half" alt="Black Bean Brownies"></a><a href="http://www.flickr.com/photos/91218249@N05/9665841991/" title="Black Bean Brownies by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5347/9665841991_a97456ee19_c.jpg" alt="Black Bean Brownies" class="pop-out"></a>
 
 [Black Bean Brownie Recipe](http://mmmisformommy.com/2011/05/legendary-black-bean-brownie.html)

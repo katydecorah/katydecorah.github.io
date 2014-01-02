@@ -13,9 +13,7 @@ image: http://farm8.staticflickr.com/7300/10848303914_d20201cda4_b.jpg
 
 ## Rensselaerville
 
-<a href="http://www.flickr.com/photos/katydecorah/10848217696/" title="2013-05-04 11.28.50-1 by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2838/10848217696_e501175023_b.jpg" class="img-wide" alt="2013-05-04 11.28.50-1"></a>
-
-<a href="http://www.flickr.com/photos/katydecorah/10848303914/" title="2013-05-04 11.23.37-1 by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7300/10848303914_d20201cda4_b.jpg" class="img-tall" alt="2013-05-04 11.23.37-1"></a>
+<a href="http://www.flickr.com/photos/katydecorah/10848217696/" title="2013-05-04 11.28.50-1 by katydecorah, on Flickr"><img src="http://farm3.staticflickr.com/2838/10848217696_e501175023_b.jpg" class="img-wide" alt="2013-05-04 11.28.50-1"></a><a href="http://www.flickr.com/photos/katydecorah/10848303914/" title="2013-05-04 11.23.37-1 by katydecorah, on Flickr"><img src="http://farm8.staticflickr.com/7300/10848303914_d20201cda4_b.jpg" class="img-tall" alt="2013-05-04 11.23.37-1"></a>
 
 ## Granville
 
