@@ -6,7 +6,7 @@ title: Katy DeCorah
 {% for post in paginator.posts %}<div class="post">
 <a href="{{ post.url }}" class="post-link">
 <div class="post-thumb-container pull-left">
-	<div class="post-thumb" style="background-image:url({{ post.image }})"></div>
+<div class="post-thumb" style="{% if post.image %}background-image:url({{ post.image }}){% else %}background:#2A2B26;{% endif %}"></div>
 </div>
 <span class="post-title">{{ post.title }}</span>
 <span class="post-date">{{post.category}} &times; {{ post.date | date: "%B %d, %Y" }}</span>
