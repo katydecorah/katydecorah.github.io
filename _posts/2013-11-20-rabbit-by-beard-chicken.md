@@ -3,11 +3,12 @@ layout: post
 title: Rabbit by Beard Chicken
 category: code
 tags: 
-  - Codepen
+  - CodePen
   - Sass
   - Haml
   - Dribbble
   - "box-shadow"
+  - animation
 image: "http://i.cdpn.io.s3.amazonaws.com/6362.uIEFy.bc2d5743-393d-4569-9887-20a32aed7fd0.png"
 published: true
 ---

@@ -3,7 +3,6 @@ layout: post
 title: "Pretzels &amp; Williamsburg"
 category: adventures
 tags: 
-  - NYC
   - music
   - treats
 locations: 

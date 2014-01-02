@@ -3,7 +3,7 @@ layout: post
 title: Windowsill Cherry Tomatoes
 category: edibles
 tags: 
-- cherry tomatoes
+- green thumb
 - gardening
 image: http://farm4.staticflickr.com/3777/9496159841_8160d1b55b_z.jpg
 locations:

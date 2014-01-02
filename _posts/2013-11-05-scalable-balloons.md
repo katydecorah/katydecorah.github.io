@@ -3,10 +3,11 @@ layout: post
 title: Scalable Balloons
 category: code
 tags: 
-  - Codepen
+  - CodePen
   - Sass
   - Haml
   - random
+  - animation
 image: "http://codepen.io/katydecorah/pen/cdkHn/image/large.png"
 published: true
 ---

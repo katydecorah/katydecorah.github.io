@@ -3,7 +3,6 @@ layout: post
 title: Lake Placid &amp; Potter's Point
 category: adventures
 tags: 
-- Potter's Point
 - fresh air
 image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
 locations:
