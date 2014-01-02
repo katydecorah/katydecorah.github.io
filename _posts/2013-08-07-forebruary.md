@@ -5,9 +5,8 @@ category: code
 tags: 
 - Sass
 - CodePen
-- JavaScript
+- jQuery
 - Haml
-- calendar
 pen: Chmws
 image: http://katydecorah.com/img/forebruary.png
 image-small: http://codepen.io/katydecorah/pen/Chmws/image/small.png

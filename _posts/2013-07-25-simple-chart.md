@@ -6,7 +6,6 @@ tags:
   - Sass
   - CodePen
   - jQuery
-  - UI practice
 image: http://codepen.io/katydecorah/pen/hungF/image/small.png
 "show": "no"
 ---

@@ -5,7 +5,7 @@ category: code
 tags:
 - Sass
 - Haml
-- Animation
+- animation
 image: http://codepen.io/katydecorah/pen/dLgqG/image/large.png
 "show": "no"
 ---

@@ -5,7 +5,6 @@ category: code
 tags: 
   - Haml
   - Sass
-  - UI practice
   - CodePen
   - Font Awesome
 image: http://codepen.io/katydecorah/pen/KhfCn/image/small.png

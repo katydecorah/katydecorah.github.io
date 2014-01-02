@@ -5,7 +5,7 @@ category: code
 tags: 
   - Google Maps
   - API
-  - Angular
+  - AngularJS
   - CodePen
   - Sass
 image: http://codepen.io/katydecorah/pen/Klieu/image/large.png

@@ -5,7 +5,6 @@ category: code
 tags: 
   - Haml
   - Sass
-  - UI practice
   - CodePen
   - Dribbble
 image: http://codepen.io/katydecorah/pen/LpsGB/image/small.png

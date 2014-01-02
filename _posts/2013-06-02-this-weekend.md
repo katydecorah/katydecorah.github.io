@@ -4,7 +4,6 @@ title: Western Mass Adventures
 category: adventures
 tags: 
 - waterfall
-- pizza
 - hiking
 - fresh air
 image: http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg

@@ -4,6 +4,7 @@ title: Lake Placid
 category: adventures
 tags:
 - friends
+- birthdays
 locations: 
 - Lake Placid,NY
 - Saranac Lake,NY

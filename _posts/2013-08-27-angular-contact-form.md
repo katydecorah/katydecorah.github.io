@@ -6,8 +6,7 @@ tags:
   - CodePen
   - Sass
   - Haml
-  - Angular
-  - UI practice
+  - AngularJS
 image: http://codepen.io/katydecorah/pen/IiDKe/image/small.png
 project: true
 ---

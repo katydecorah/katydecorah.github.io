@@ -5,6 +5,7 @@ category: edibles
 tags: 
 - treats
 - yay
+- holiday cheer
 image: http://farm8.staticflickr.com/7353/11428854303_f8bb3b982f_b.jpg
 ---
 
