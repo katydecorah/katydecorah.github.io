@@ -4,6 +4,8 @@ title: Three Mini Vacations
 category: adventures
 tags: 
 - family
+- friends
+- "road trip"
 image: http://farm6.staticflickr.com/5471/9360368377_d47822c551_c.jpg
 locations:
 - Moreau,NY

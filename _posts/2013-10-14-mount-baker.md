@@ -6,6 +6,8 @@ tags:
   - fresh air
   - hiking
   - red shoes
+  - friends
+  - family
 locations: 
   - "Mount Baker, Saranac Lake"
   - "Lake Placid,NY"

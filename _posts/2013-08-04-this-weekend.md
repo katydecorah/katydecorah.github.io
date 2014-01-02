@@ -4,6 +4,8 @@ title: Lake Placid &amp; Potter's Point
 category: adventures
 tags: 
 - fresh air
+- friends
+- family
 image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
 locations:
 - Lake Placid,NY
