@@ -6,7 +6,6 @@ em {font-style:italic;}
 }
 h1, h2, h3 {
   line-height:1.4;
-  font-weight:bold;
   small {
     font-size:0.6em;
     color:lighten(#333,10%);
@@ -22,14 +21,12 @@ h1 {
 
 h2 {
   font-size:1.4em;
-  font-weight:normal;
   margin:1.5em 0 0.75em;
 }
 h3 {
   font-size:1.1em;
   margin:1em 0 0.5em;
   text-transform:uppercase;
-  font-weight:normal;
 }
 
 h1,h2,h3,p,li,code,pre,a,span {

@@ -1,3 +1,1 @@
-<div class="tags">
-{% for tag in page.tags %}<a href="http://katydecorah.com/tags/#{{ tag | downcase | replace:' ','_'}}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>{% endfor %}
-</div>
+<div class="tags"><i class="fa fa-tag tag"></i> {% for tag in page.tags %}<a href="http://katydecorah.com/tags/#{{ tag | downcase | replace:' ','_'}}" class="tag">{{ tag }}</a> {% endfor %}</div>
