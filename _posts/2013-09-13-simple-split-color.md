@@ -4,7 +4,7 @@ title: Simple Split Color
 category: code
 tags:
 - Sass
-- Single element
+- "single element"
 image: http://codepen.io/katydecorah/pen/ElaeD/image/large.png
 "show": "no"
 ---
