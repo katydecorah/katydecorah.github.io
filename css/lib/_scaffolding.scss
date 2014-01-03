@@ -20,10 +20,10 @@ body {
 }
   
 a {
-  color:$blue;
+  color:darken($btnHover,20%);
   text-decoration:none;
   &:hover {
-      color:lighten($blue,10%);
+      color:darken($btnHover,10%);
     }
 }
 

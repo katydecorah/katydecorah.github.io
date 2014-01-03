@@ -64,7 +64,6 @@
 
 
 .post-prev, .post-next {
-  //width:15em; no mobile
   color:$darkAccent;
   position:relative;
   display:block;
@@ -73,6 +72,7 @@
   &:hover {
     @include transition(all .5s linear);
     color:lighten($darkAccent,15%);
+    .btn-circle {background:$btnHover;}
   }
   .next, .previous {
     @include breakpoint(m){
@@ -88,46 +88,15 @@
     @include breakpoint(m){left:-2.25em;}
   }
 }
-.post-prev:hover {
-  @include translate(-1em,0);
+.post-prev:hover .btn-circle {
+  @include translate(-0.5em,0);
 }
-.post-next:hover {
-  @include translate(1em,0);
-}
-
-
-.btn-circle {
-  display:inline-block;
-  background:$darkAccent;
-  border-radius:100%;
-  line-height:2em;
-  height:2em;
-  width:2em;
-  vertical-align: middle;
-  color: #FFF;
-  @include breakpoint(m){margin: 1em 0.5em;}
-  font-size:1em;
-  text-align:center;
-  @include transition(all .25s linear);
-  &:hover {
-    background:tomato;
-    color:white;
-  }
+.post-next:hover .btn-circle {
+  @include translate(0.5em,0);
 }
 
-.btn-rect {
-  background: $darkAccent;
-  color: #FFF;
-  padding: 0.25em 0.7em;
-  border-radius: 0.3em;
-  margin: 1em 0.5em;
-  display: inline-block;
-  @include transition(all .25s linear);
-  &:hover {
-    background:tomato;
-    color:white;
-  }
-}
+
+
 
 
 .post-prev-next {

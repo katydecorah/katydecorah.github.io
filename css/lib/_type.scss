@@ -31,7 +31,7 @@ h3 {
 
 h1,h2,h3,p,li,code,pre,a,span {
   &::selection {
-    background: #FF6347;
+    background: $btnHover;
     color: #FFF;
 
   }
