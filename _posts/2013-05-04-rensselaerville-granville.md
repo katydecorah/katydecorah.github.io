@@ -4,6 +4,7 @@ title: Rensselaerville &amp; Granville
 category: adventures
 tags:
 - fresh air
+- "time travel"
 locations: 
 - Rensselaerville,NY
 - Granville,NY

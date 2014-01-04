@@ -7,6 +7,7 @@ tags:
 - text-shadow
 - Sass
 - Slim
+- "time travel"
 pen: vaoKs
 image: http://katydecorah.com/img/double-vision.png
 image-small: http://codepen.io/katydecorah/pen/vaoKs/image/small.png

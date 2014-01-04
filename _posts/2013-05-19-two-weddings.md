@@ -5,6 +5,7 @@ category: adventures
 tags:
 - weddings
 - friends
+- "time travel"
 locations:
 - Poughkeepsie,NY
 - Chatham,NJ

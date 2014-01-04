@@ -5,6 +5,7 @@ category: adventures
 tags: 
 - family
 - road trip
+- "time travel"
 locations: 
 - Asheville, NC
 - Sliding Rock, Brevard, NC

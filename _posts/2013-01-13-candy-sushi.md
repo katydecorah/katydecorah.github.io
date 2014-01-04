@@ -4,6 +4,7 @@ title: Candy Sushi
 category: edibles
 tags:
 - treats
+- "time travel"
 image: http://farm8.staticflickr.com/7341/10848177206_5f518d74ef_b.jpg
 ---
 

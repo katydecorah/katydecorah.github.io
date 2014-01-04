@@ -7,6 +7,7 @@ tags:
 - Sass
 - jQuery
 - Haml
+- "time travel"
 pen: CLxkg
 image: http://katydecorah.com/img/combination-lock.png
 image-small: http://codepen.io/katydecorah/pen/CLxkg/image/small.png

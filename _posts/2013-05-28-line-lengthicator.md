@@ -9,6 +9,7 @@ tags:
 - Haml
 - readability
 - typography
+- "time travel"
 pen: cufzB
 image: http://katydecorah.com/img/line-length.png
 image-small: http://codepen.io/katydecorah/pen/cufzB/image/small.png

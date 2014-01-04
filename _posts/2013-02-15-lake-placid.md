@@ -5,6 +5,7 @@ category: adventures
 tags:
 - friends
 - birthdays
+- "time travel"
 locations: 
 - Lake Placid,NY
 - Saranac Lake,NY

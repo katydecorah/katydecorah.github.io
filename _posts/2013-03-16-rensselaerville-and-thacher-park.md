@@ -4,6 +4,7 @@ title: Rennselaerville &amp; Thacher Park
 category: adventures
 tags:
 - fresh air
+- "time travel"
 locations: 
 - Rennselaerville,NY
 - Thacher State Park

@@ -25,7 +25,6 @@
     display:inline;
   }
 }
-.tags {margin-bottom:3em;}
 .post-locations,.tags {@extend .text-right;}
 .post-location, .tag {
   font-size: 0.65em;
@@ -102,7 +101,7 @@
 .post-prev-next {
   @include breakpoint(m){padding:0 1em;}
   clear:both;
-  margin-top:1em;
+  margin-top:3em;
 }
 
 .post-next-title, .post-prev-title {
