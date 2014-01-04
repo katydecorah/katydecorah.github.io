@@ -16,8 +16,8 @@ published: true
 
 I recreated the Dribbble shot [Flat icon by Bosco](http://drbl.in/jKgx). 
 
-Each award is a single element (`.award`) that uses additional classes to decide the color (`.gold`, `.silver`, or `.bronze`) and the type (`.badge` or `.ribbon`). The award is scalable based on `font-size`, try changing the `$fontSize` in the Sass to see the scaling powers. The awards are so adorable when the value is small. 
-
+Each award is a single element (`.award`) that uses additional classes to decide the color (`.gold`, `.silver`, or `.bronze`) and the type (`.badge` or `.ribbon`). These additional classes allow for mix and matching of the colors and award types. The award is scalable based on `font-size`. Try changing the `$fontSize` in the Sass to see the scaling powers. Please note that the awards are so adorable when the value is small. 
+ 
 While `$fontSize` controls the size of the number and ultimately adjusts the size of the element (all ems all errrthang), `$size` dictates the actual size of the award around the number. Try adjusting `$size` in the Sass to change the proportion of the award to the number.
 
 The awards are all styled the same, but `.ribbon` and `.badge` provide different styles for the pseudo elements. I dreamt up the ribbon tails for `.ribbon` quickly. I manipulated the border by styling a transparent `border-bottom-color`, which created two triangles for the ribbon tails. I added height to the element to elongate it into a ribbon. I created one tail out of each pseudo element.
