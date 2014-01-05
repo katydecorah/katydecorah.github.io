@@ -22,7 +22,7 @@ I have several posts with locations and I wanted a better way to integrate them 
 
 ## Explanation
 
-For any post with a location, I simply add a "locations" variable in the post header.
+For any post with a location, I add a "locations" variable in the post header.
 
     locations:
      - University at Albany

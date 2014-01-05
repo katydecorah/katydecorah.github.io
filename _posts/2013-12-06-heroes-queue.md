@@ -31,7 +31,7 @@ I set up my color variables as conditional formatting. For example, in any cell 
 ## Writing out the characters 
 With one eye in Photoshop and another in Google Drive, I started typing my variables into the spreadsheet. As I entered a variable that matched a condition, the background instantly changed. It only took a few minutes to assign a color variable to each cell. Plus, spreadsheets allow for mass select and paste, it was a snap.
 
-I ended up creating each character on  a 26&times;26 grid or in spreadsheet terms A1:Z26. This, easy to remember, grid size came in handy later when concocting the formula.
+I ended up creating each character on  a 26&times;26 grid or in spreadsheet terms A1:Z26. This grid size came in handy later when concocting the formula.
 
 ![batman](https://dl.dropbox.com/s/2yxdr7e945npjjh/batman.png)
 

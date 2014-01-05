@@ -79,7 +79,7 @@ css: ".label {
 "
 ---
 
-For this site I wanted my categories to be color coded, but I didn't want to put a lot of effort into managing it. So I spent a little effort into making sure I didn't have to manage it.
+For this site I wanted my categories to be color coded, but I didn't want to put a lot of effort into managing it. Instead I spent a little effort into making sure I didn't have to manage it.
 
 ## The Set-up
 

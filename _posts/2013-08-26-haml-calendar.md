@@ -28,7 +28,7 @@ I used [these](http://dribbble.com/shots/1054042--Freebie-Calendar-Window?list=s
 
 The first step: print out today's date. Once I got that, I created variables for month, year, and day that default to today's date unless otherwise specified. I also created an array `@days` to hold the days of the week in the order I prefer.
 
-I looped through `@days` to create the headers for the calendar, but I decided to only display the first letter of each day. I used a list because I always find them easy to style and they help keep my code organized.
+I looped through `@days` to create the headers for the calendar, but I decided to only display the first letter of each day. I used a list because I find that they are easier to style and they help keep my code organized.
 
     - @days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
 	%ul.weekdays

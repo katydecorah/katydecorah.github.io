@@ -25,7 +25,7 @@ How it works:
 3. CSS animation keeps the hands ticking.
 
 
-Initially I only used an inline style to set the rotation of each hand. I wanted to write the animation/keyframes in the external stylesheet, but that wasn't going to work. The animation kept reseting to 0. For example, if it's 1:15, the minute hand would initially start at 15 (rotate 90 degrees) and then rotate slowly to the next minute (96 degrees). Instead the animation would only start 0 degrees. Basically, I couldn't get the inline rotation to speak with my external animation. So I wrote internal Sass so that the first keyframe was at the starting time and not reverting to 0.
+Initially I only used an inline style to set the rotation of each hand. I wanted to write the animation/keyframes in the external stylesheet, but that wasn't going to work. The animation kept reseting to 0. For example, if it's 1:15, the minute hand would initially start at 15 (rotate 90 degrees) and then rotate slowly to the next minute (96 degrees). Instead the animation would only start 0 degrees; I couldn't get the inline rotation to speak with my external animation. To make the animation work, I wrote internal Sass so that the first keyframe was at the starting time and not reverting to 0.
 
 ## Features
 
