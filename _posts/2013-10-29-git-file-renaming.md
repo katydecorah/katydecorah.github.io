@@ -30,6 +30,10 @@ Within each topic folder, I hit the following command:
 
 	for f in *.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’);done
     
+*Update 1/7/2014:* I revisited this post, I'm so glad I had save these commands! I found that instead of going into individual folders, I can run the commands from the `lessons/` folder and let it ride:
+
+	for f in */*/*.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’);done
+    
 It worked. Just by looking at the last command, I know there's a smarter way to write it. Nevertheless, it worked and I'm kind of proud of myself.
 
 As I was figuring this out, I imagined the scene from Hook where Peter begins to remember how to play pretend and the children are like "You're doing it, Peter."
