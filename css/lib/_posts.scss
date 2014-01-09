@@ -141,6 +141,17 @@ embed {max-width:100%;}
 
 
 
+.playlist-track {
+margin-bottom:1em;
+line-height:1.2;
+}
+.track-name {
+display: block;
+}
+.track-artist, .track-album {
+color:#999;
+font-size:0.8em;
+}
 
 
 .img-half {width:50%;}

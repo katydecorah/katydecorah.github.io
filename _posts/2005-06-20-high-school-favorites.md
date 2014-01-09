@@ -5,30 +5,6 @@ category: playlists
 tags:
 - music
 - "time travel"
+css: ""
 ---
-
-##2004-05, what it was (high school jams that do not involve the juliana theory)
-
-* King Of Carrot Flowers Part 1, Neutral Milk Hotel, In The Aeroplane Over The Sea
-* In The Aeroplane Over The Sea, Neutral Milk Hotel, In The Aeroplane Over The Sea
-* Oh Comely, Neutral Milk Hotel, In The Aeroplane Over The Sea
-* I Never Said That I Was Brave, mewithoutYou, [A --&#62; B] Life
-* He War, Cat Power, You Are Free
-* Balloon Maker, Midlake, Bamnan and Slivercork
-* Another Morning Stoner, ...And You Will Know Us by the Trail of Dead, Source Tags &#38; Codes
-* Wake Up, The Arcade Fire, Funeral
-* Neighborhood #2 (Laika), The Arcade Fire, Funeral
-* Don't Die In Me, Mirah, C'mon Miracle
-* Anthems For A Seventeen-Year-Old Girl, Broken Social Scene, You Forgot It In People
-* Lover's Spit, Broken Social Scene, You Forgot It In People
-* Elephant Woman, Blonde Redhead, Misery Is A Butterfly
-* Fancy Claps, Wolf Parade, &#60;Unknown&#62;
-* I'll Believe In Anything, Wolf Parade, &#60;Unknown&#62;
-* You Are A Runner And I Am My Father's Son, Wolf Parade, Apologies To The Queen Mary
-* The Engine Driver, The Decemberists, Picaresque
-* Los Angeles, I'm Yours, The Decemberists, Her Majesty The Decemberists
-* Red Right Ankle, The Decemberists, Her Majesty The Decemberists
-* Leslie Anne Levine, The Decemberists, Castaways &#38; Cutouts
-* No Cars Go, The Arcade Fire, Neon Bible
-* All the Trees of the Field Will Clap Their Hands, Sufjan Stevens, Seven Swans
-* For the Widows In Paradise, for the Fatherless In Ypsilanti, Sufjan Stevens, Greetings From Michigan: The Great Lakes State
+<div class="playlist"><h2>2004-05, what it was (high school jams that do not involve the juliana theory)</h2> <div class="playlist-track"><span class="track-name">King Of Carrot Flowers Part 1</span><span class="track-artist">Neutral Milk Hotel</span><span class="track-album"> — In The Aeroplane Over The Sea</span></div><div class="playlist-track"><span class="track-name">In The Aeroplane Over The Sea</span><span class="track-artist">Neutral Milk Hotel</span><span class="track-album"> — In The Aeroplane Over The Sea</span></div><div class="playlist-track"><span class="track-name">Oh Comely</span><span class="track-artist">Neutral Milk Hotel</span><span class="track-album"> — In The Aeroplane Over The Sea</span></div><div class="playlist-track"><span class="track-name">I Never Said That I Was Brave</span><span class="track-artist">mewithoutYou</span><span class="track-album"> — [A --&gt; B] Life</span></div><div class="playlist-track"><span class="track-name">He War</span><span class="track-artist">Cat Power</span><span class="track-album"> — You Are Free</span></div><div class="playlist-track"><span class="track-name">Balloon Maker</span><span class="track-artist">Midlake</span><span class="track-album"> — Bamnan and Slivercork</span></div><div class="playlist-track"><span class="track-name">Another Morning Stoner</span><span class="track-artist">...And You Will Know Us by the Trail of Dead</span><span class="track-album"> — Source Tags &amp; Codes</span></div><div class="playlist-track"><span class="track-name">Wake Up</span><span class="track-artist">The Arcade Fire</span><span class="track-album"> — Funeral</span></div><div class="playlist-track"><span class="track-name">Neighborhood #2 (Laika)</span><span class="track-artist">The Arcade Fire</span><span class="track-album"> — Funeral</span></div><div class="playlist-track"><span class="track-name">Don't Die In Me</span><span class="track-artist">Mirah</span><span class="track-album"> — C'mon Miracle</span></div><div class="playlist-track"><span class="track-name">Anthems For A Seventeen-Year-Old Girl</span><span class="track-artist">Broken Social Scene</span><span class="track-album"> — You Forgot It In People</span></div><div class="playlist-track"><span class="track-name">Lover's Spit</span><span class="track-artist">Broken Social Scene</span><span class="track-album"> — You Forgot It In People</span></div><div class="playlist-track"><span class="track-name">Elephant Woman</span><span class="track-artist">Blonde Redhead</span><span class="track-album"> — Misery Is A Butterfly</span></div><div class="playlist-track"><span class="track-name">Fancy Claps</span><span class="track-artist">Wolf Parade</span><span class="track-album"> — &lt;Unknown&gt;</span></div><div class="playlist-track"><span class="track-name">I'll Believe In Anything</span><span class="track-artist">Wolf Parade</span><span class="track-album"> — &lt;Unknown&gt;</span></div><div class="playlist-track"><span class="track-name">You Are A Runner And I Am My Father's Son</span><span class="track-artist">Wolf Parade</span><span class="track-album"> — Apologies To The Queen Mary</span></div><div class="playlist-track"><span class="track-name">The Engine Driver</span><span class="track-artist">The Decemberists</span><span class="track-album"> — Picaresque</span></div><div class="playlist-track"><span class="track-name">Los Angeles, I'm Yours</span><span class="track-artist">The Decemberists</span><span class="track-album"> — Her Majesty The Decemberists</span></div><div class="playlist-track"><span class="track-name">Red Right Ankle</span><span class="track-artist">The Decemberists</span><span class="track-album"> — Her Majesty The Decemberists</span></div><div class="playlist-track"><span class="track-name">Leslie Anne Levine</span><span class="track-artist">The Decemberists</span><span class="track-album"> — Castaways &amp; Cutouts</span></div><div class="playlist-track"><span class="track-name">No Cars Go</span><span class="track-artist">The Arcade Fire</span><span class="track-album"> — Neon Bible</span></div><div class="playlist-track"><span class="track-name">All the Trees of the Field Will Clap Their Hands</span><span class="track-artist">Sufjan Stevens</span><span class="track-album"> — Seven Swans</span></div><div class="playlist-track"><span class="track-name">For the Widows In Paradise, for the Fatherless In Ypsilanti</span><span class="track-artist">Sufjan Stevens</span><span class="track-album"> — Greetings From Michigan: The Great Lakes State</span></div></div>
