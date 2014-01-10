@@ -22,5 +22,4 @@ I'm always trying to find the optimal line length for my text. After reading [se
 
 So I created this little tool. Copy a paragraph and paste it into the box. It will automatically highlight the 66th character. You can adjust the character length to get a better feel for your readability. It will also tell you the width of the container to help you adjust your own CSS.
 
-Check it on CodePen (below) or on [Github](http://katydecorah.com/linelengthicator/).
-
+[Line Length-icator](http://katydecorah.com/linelengthicator/) is also served on its own page.
