@@ -7,7 +7,9 @@
   width:2em;
   vertical-align: middle;
   color: #FFF;
-  @include breakpoint(m){margin: 1em 0.5em;}
+  //@include breakpoint(m){
+    margin: 1em 0.25em;
+    //]
   font-size:1em;
   text-align:center;
   @include transition(all .25s linear);
