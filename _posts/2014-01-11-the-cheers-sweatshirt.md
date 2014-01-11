@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Cheers Sweatshirt
-category: Notes
+category: notes
 tags: 
   - family
 image: "http://farm4.staticflickr.com/3690/11890656616_c2f1b49dba_b.jpg"
