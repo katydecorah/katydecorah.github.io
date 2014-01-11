@@ -4,7 +4,7 @@ title: Git File Renaming
 category: code
 tags: 
   - Git
-image: "img/youre-doing-it-peter.jpg"
+image: "https://dl.dropbox.com/s/1ueu7em4otlnclj/youre-doing-it-peter.jpg"
 published: true
 ---
 
