@@ -51,7 +51,7 @@ hr {
 }
 
 img {
-  margin: 0 auto;
+  margin: 2em auto 3em;
   display:block;
 }
 
@@ -75,4 +75,5 @@ img {
 
 .img-half, .img-thirds, .img-fourths, .img-split-wide, .img-wide, .img-split-tall, .img-tall {
   display:inline-block;
+  margin:0;
 }
