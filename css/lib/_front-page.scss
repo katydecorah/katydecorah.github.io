@@ -74,7 +74,6 @@
 .post-date {
   text-transform:uppercase; 
   display:block; 
-  font-size:0.8em;
   text-align:center; //mobile
   @include breakpoint(m) { 
     text-align: left;
