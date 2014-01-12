@@ -139,7 +139,9 @@ embed {max-width:100%;}
 }
 
 
-
+.playlist {
+  @include columns(2,1em);
+}
 .playlist-track {
 margin-bottom:1em;
 line-height:1.2;
