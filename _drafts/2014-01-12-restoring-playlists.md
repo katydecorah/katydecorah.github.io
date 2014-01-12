@@ -25,9 +25,8 @@ I exported this query to xls.
 
 While I had my lists in the database, I wanted to add markup. I imported my xls into phpMyAdmin.
 
-Here is the PHP I ran to output all the playlists with HTML. I haven't written PHP in a while, so blah blah blah:
+Here is the PHP I ran to output all the playlists with HTML. (Disclaimer: I haven't written PHP in a while):
 
-	
     // get playlist names
     $sql =  mysqli_query($db,"SELECT distinct playlist from playlistTracks");
 	while($row = mysqli_fetch_array($sql))
