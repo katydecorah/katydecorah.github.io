@@ -7,7 +7,7 @@ tags:
   - hiking
   - fresh air
 locations: Stony Creek,NY
-image: "http://farm4.staticflickr.com/3690/11890656616_c2f1b49dba_b.jpg"
+image: "http://farm4.staticflickr.com/3762/11916446806_0ff8626e19_b.jpg"
 ---
 
 Today my folks and I explored the [Dean Farm Heritage Trail](http://www.adirondackjournal.com/news/2013/jul/01/work-continues-dean-farm-trail-stony-creek/) in Stony Creek. The trail was fairly easy to navigate as it was marked with wooden poles. We were impressed by all of the beautiful bridges, benches, and overlook points.
