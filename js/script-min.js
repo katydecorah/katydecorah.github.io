@@ -1,2 +1,0 @@
-//accessibility
-$(document).ready(function(){$("a[href^='#']").click(function(e){e.preventDefault();var t=this.href,n=t.split("#"),r=n[1],i=$("#"+r).offset(),s=i.top;$("html, body").animate({scrollTop:s},1e3);window.location.hash="#"+r;$("#"+r).attr("tabindex",-1).focus()});window.location.hash&&$(window.location.hash).attr("tabindex",-1).focus()});

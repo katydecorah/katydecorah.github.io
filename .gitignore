@@ -3,3 +3,5 @@ _site/
 _ignore/
 notes/
 photobooth/
+node_modules/
+img/source/
