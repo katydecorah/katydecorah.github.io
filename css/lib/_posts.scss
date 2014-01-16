@@ -160,4 +160,14 @@ margin-bottom: 2em;
 }
 
 
+figure { 
+  margin:3em 0 2em; 
+  iframe { margin-bottom:0.5em;}
+}
+figcaption { 
+  font-size: 0.8em; 
+  @extend .text-right;
+  color: lighten($textColor,10%);
+}
+
 

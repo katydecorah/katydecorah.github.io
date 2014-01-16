@@ -12,7 +12,7 @@ html {
 body {
   font-size:16px;
   line-height:1.618;
-  color:#333;
+  color:$textColor;
   font-weight:300;
   height:100%;
   width:100%;
@@ -35,6 +35,8 @@ hr {
   display:block;
   margin:0 auto;
 }
+.text-left {text-align:left;}
+.text-right {text-align:right;}
 
 
 .pull-right {
