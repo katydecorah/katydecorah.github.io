@@ -14,7 +14,7 @@ tags:
 image: "https://dl.dropbox.com/s/q4he7hpqshi3khn/escape-elements.png"
 ---
 
-<p data-height="399" data-theme-id="97" data-slug-hash="mJeba" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/mJeba'>Escape by Carla Corrales</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="450" data-theme-id="97" data-slug-hash="mJeba" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/mJeba'>Escape by Carla Corrales</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 I have another single element project! I explored the Dribbble shot [Escape by Carla Corrales](http://drbl.in/jMcZ).
 
@@ -32,13 +32,13 @@ I created the marker shape by using a `border-radius: 100% 100% 0;`. Then I rota
 
 ## :before
 
-I used the `:before` element for the inner background by using two gradients, linear and radial. Initially I used inset `box-shadow` to create the rings, but I lost a section of the two-toned background. Layering the radial gradient on top of the linear gradient worked better in this case and gave me a reason to tinker with gradients.
+I used the `:before` element for the inner background. I created the inner rings by using two gradients, linear and radial. Initially I used inset `box-shadow` to create the rings, but I lost a section of the two-toned background. Layering the radial gradient on top of the linear gradient worked better in this case and gave me a reason to tinker with gradients.
 
 Below is a demonstration of the linear and radial gradients coming together.
 
 <figure>
 <p data-height="307" data-theme-id="97" data-slug-hash="85ed97e499e0eae1b5ba133f7a68dd2e" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/85ed97e499e0eae1b5ba133f7a68dd2e'>Escape -- :before -- demonstration</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<figcaption>Demonstration of linear and radial gradient.</figcaption>
+<figcaption>Demonstration of linear and radial gradients.</figcaption>
 </figure>
 
 ## :after
@@ -51,6 +51,6 @@ The results were&hellip; dial-shaped!
 <figcaption>Demonstration of :after style.</figcaption>
 </figure>
 
-One last thing, did you give it a hover yet? Scroll back up there and do it. Yes, I am bossing you.
-
 This baby is scalable. [Open it up in CodePen](http://codepen.io/katydecorah/pen/mJeba) and change the `$size` (easter egg: try a number less than 5em).
+
+One last thing, did you give it a hover yet? Scroll back up there and do it. Yes, I am bossing you.
