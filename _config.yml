@@ -3,6 +3,10 @@ destination: _site
 plugins: _plugins
 layouts: _layouts
 
+safe: true
+lsi: false
+pygments: true
+
 baseurl: http://katydecorah.com/
 url: http://katydecorah.com/
 permalink: pretty
