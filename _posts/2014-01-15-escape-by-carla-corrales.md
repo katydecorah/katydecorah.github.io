@@ -14,6 +14,7 @@ tags:
   - animation
 image: "https://dl.dropbox.com/s/q4he7hpqshi3khn/escape-elements.png"
 updated: 2014/01/18
+published: true
 ---
 
 <p data-height="450" data-theme-id="97" data-slug-hash="mJeba" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/mJeba'>Escape by Carla Corrales</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -57,7 +58,7 @@ This baby is scalable. [Open it up in CodePen](http://codepen.io/katydecorah/pen
 
 One last thing, did you give it a hover yet? Scroll back up there and do it. Yes, I am bossing you.
 
-### Updated 01/17/2014
+### Updated 01/18/2014
 
 I wanted to give this Pen a little more pizazz by making the dial spin immediately and then spin again on hover. To make this happen, I needed to trade in my `transition` for `animation`, but more importantly, I needed to learn more about `animation-play-state`. I had never thought to use this property until I read Lea Verou's, [Smooth state animations with animation-play-state](http://lea.verou.me/2014/01/smooth-state-animations-with-animation-play-state/).
 
