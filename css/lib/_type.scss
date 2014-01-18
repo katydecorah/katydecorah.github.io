@@ -11,6 +11,9 @@ h1, h2, h3 {
     font-size:0.6em;
     color:lighten(#333,10%);
   }
+  &:target, &:focus {
+    background: rgba($btnHover,0.15);
+  }
 }
 h1 {
   @include breakpoint(s) {font-size:2em;}
@@ -34,7 +37,6 @@ h1,h2,h3,p,li,code,pre,a,span {
   &::selection {
     background: $btnHover;
     color: #FFF;
-
   }
 }
 

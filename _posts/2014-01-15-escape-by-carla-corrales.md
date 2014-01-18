@@ -11,7 +11,9 @@ tags:
   - single element
   - gradient
   - transform
+  - animation
 image: "https://dl.dropbox.com/s/q4he7hpqshi3khn/escape-elements.png"
+updated: 2014/01/18
 ---
 
 <p data-height="450" data-theme-id="97" data-slug-hash="mJeba" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/mJeba'>Escape by Carla Corrales</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -54,3 +56,29 @@ The results were&hellip; dial-shaped!
 This baby is scalable. [Open it up in CodePen](http://codepen.io/katydecorah/pen/mJeba) and change the `$size` (easter egg: try a number less than 5em).
 
 One last thing, did you give it a hover yet? Scroll back up there and do it. Yes, I am bossing you.
+
+### Updated 01/17/2014
+
+I wanted to give this Pen a little more pizazz by making the dial spin immediately and then spin again on hover. To make this happen, I needed to trade in my `transition` for `animation`, but more importantly, I needed to learn more about `animation-play-state`. I had never thought to use this property until I read Lea Verou's, [Smooth state animations with animation-play-state](http://lea.verou.me/2014/01/smooth-state-animations-with-animation-play-state/).
+
+Starting out, I added the `animation` to `.marker:after` and I added `animation-play-state` to `.marker:hover:after`. I wanted the animation to play and then play again on `:hover`. After trying out all of the values and combinations of values, I finally began to understand this property. I like to think about `animation-play-state` like watching a movie and the remote is my `:hover` target.
+
+<h4><i class="fa fa-play">&nbsp;</i> <code>animation-play-state: running;</code></h4>
+
+For my first try, I used the value `running`. Nothing happened. The animation was already running and then on `:hover`, I asked it to run again.
+
+If I'm watching a movie and press play then my action won't be productive.
+
+<h4><i class="fa fa-pause">&nbsp;</i> <code>animation-play-state: paused;</code></h4>
+
+Next, I tried the alternate value, `paused`. It kind of worked. The animation didn't play when I was hovering, but it played once I hovered off of the target. 
+
+If I'm watching a movie and I press pause, the movie will pause. I'm guessing that the animation restarted because it triggered the original `animation` on `.marker:after` to run again. (I need to look into this.)
+
+<h4><i class="fa fa-pause">&nbsp;</i> <i class="fa fa-play">&nbsp;</i> <code>animation-play-state: paused, running;</code></h4>
+
+A little confused with my previous tries, I checked out [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state). I read that both values can be used, which led me to try `paused, running`. This value worked great! The dial spun on `:hover`. 
+
+I was watching a movie, I paused it and then played it again. 
+
+This example might be a little stilted; I definitely plan on exploring `animation-play-state` more!

@@ -23,6 +23,7 @@
     font-size:0.8em;
     margin-bottom:0.5em;
     display:inline;
+    text-align: inherit;
   }
 }
 .post-locations,.tags {@extend .text-right;}
@@ -31,7 +32,11 @@
   color: lighten($darkAccent,25%);
 }
 
-
+.post-date-updated {
+display: block;
+text-align: inherit;
+font-size: 0.75em;
+}
 
 .post-location-image {
   display:none;
