@@ -18,6 +18,6 @@ Once I got the triangle in place, I had to consider its stacking order and color
 To achieve the same mixing of color, triangle uses `$bg`.
 
 ## Neato Burrito Feature
-Try removing the `z-index` on `:before`. You will be presented with a fun new take on the project and $100 dollars. 
+Try adding a `z-index` to `:before`. You will be presented with a fun new take on the project and $100 dollars.
 
 And thanks to college German for understanding the title of the Dribbble shot. Jawohl! 
