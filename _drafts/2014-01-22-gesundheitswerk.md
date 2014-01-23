@@ -13,11 +13,15 @@ The `:after` is a circle, with slightly larger dimension than the parent element
 ## :before
 The `:before` is the keystone piece. This pseudo element is a triangle that fits every so delicately in the crook of bottom-right corner of `.gesund`. I carefully and thoughtfully tweaked the `border-width`, `top`, and `left` based on `$size`, to make the project scalable.
 
-Once I got the triangle in place, I had to consider its stacking order and coloring. Looking at it know, it's dead obvious that the `border-color` should use `$bg`, but for whatever reason it took me a few guess and checking until I arrived at that answer. The triangle is stacked below `:after`, but above `.gesund`. It is the meat in the project party sandwich. Triangle's purpose is to provide a buffer between the color of `.gesund` and to provide the same transparency of the `:after` border as it kisses the background of the page.
+Once I got the triangle in place, I had to consider its coloring and stacking order.
 
-To achieve the same mixing of color, triangle uses `$bg`.
+Looking at it know, it's dead obvious that the `border-color` should use `$bg`, but for whatever reason it took me a few guess and checking until I arrived at that answer. 
+
+The triangle is stacked below `:after`, but above `.gesund`. This the the natural stacking order of pseudo elements with its parent element. Originally, I flip flopped the pseudos, which required me to use `z-index`. As I was typing this post, I realized that I could save myself a few rules and place them in natural order.
+
+Back to triangle, it is the meat in the project party sandwich. Triangle's purpose is to provide a buffer between the gray color of `.gesund` and to produce the same exact color of the `:after` border as it kisses the background of the page. Triangle uses `$bg` for color and blends in magically.
 
 ## Neato Burrito Feature
 Try adding a `z-index` to `:before`. You will be presented with a fun new take on the project and $100 dollars.
 
-And thanks to college German for understanding the title of the Dribbble shot. Jawohl! 
+And thanks to college German for understanding the title of the Dribbble shot. Jawohl!
