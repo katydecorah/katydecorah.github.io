@@ -7,4 +7,12 @@ I saw this great Dribble shot of a simple logo. The thing that caught my eye was
 ## .gesund
 The project is a single element, using `.gesund`, as the gray square. The `:before` element is the circle and the `:after` camouflages the bottom-right corner.
 
+The element, `.gesund`, is a full square. It is simple, with little modifications, except I added `z-index: -2`. I will explain the stacking order after I introducate the pseudo elements.
+
+## :before
+The `:before` is a circle, with slightly larger dimension than the parent element. It's absolutely positioned and is stuck to the top-most left-most corner of the parent. To keep consistant with the design and for future color changes, I set the `background-color: $bg`. With some [handy work](http://css-tricks.com/transparent-borders-with-background-clip/), I made the border transparent using `background-clip: padding;`. For a while, I didn't understand why `background-clip` wasn't working for me, until I realized that I was using `background` instead of `background-color`. Once I made the switch, `background-clip` worked.
+
+## Stacking
+In the stack of elements, `.gesund` is at the bottom. Followed by `:after` and on top `:before`.
+
 And thanks to college German for understanding the title. Jawohl! 
