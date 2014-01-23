@@ -17,11 +17,9 @@ The `:after` is the keystone piece. This pseudo element is a triangle that fits 
 
 Once I got the triangle in place, I had to consider its stacking order and coloring. Looking at it know, it's dead obvious that the `border-color` should use `$bg`, but for whatever reason it took me a few guess and checking until I arrived at that answer. The triangle is stacked below `:before`, but above `.gesund`. It is the meat in the project party sandwich. Triangle's purpose is to provide a buffer between the color of `.gesund` and to provide the same transparency of the `:before` border as it kisses the background of the page.
 
-So triangle uses `$bg`.
+To achieve the same mixing of color, triangle uses `$bg`.
 
+## Neato Burrito Feature
+Try removing the `z-index` on `:after`. You will be presented with a fun new take on the project and $100 dollars. 
 
-
-## Stacking
-In the stack of elements, `.gesund` is at the bottom. Followed by `:after` and on top `:before`.
-
-And thanks to college German for understanding the title. Jawohl! 
+And thanks to college German for understanding the title of the Dribbble shot. Jawohl! 
