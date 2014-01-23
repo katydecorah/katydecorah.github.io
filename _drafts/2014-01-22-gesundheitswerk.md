@@ -15,11 +15,13 @@ The `:before` is the keystone piece. This pseudo element is a triangle that fits
 
 Once I got the triangle in place, I had to consider its coloring and stacking order.
 
-Looking at it know, it's dead obvious that the `border-color` should use `$bg`, but for whatever reason it took me a few guess and checking until I arrived at that answer. 
+### Coloring
+It took me several over thinking Sass-color-functions-what-are-you-why-are-you-doing moments, to realize that coloring this damn triangle is actually way more simple. The triangle needs to be colored with the body background color, or `$bg`. The triangle provides a buffer atop the gray `.gesund` to allow the circular border of `:after` to rgba itself the same color upon the triangle as it does on the body background.
 
-The triangle is stacked below `:after`, but above `.gesund`. This the the natural stacking order of pseudo elements with its parent element. Originally, I flip flopped the pseudos, which required me to use `z-index`. As I was typing this post, I realized that I could save myself a few rules and place them in natural order.
+### Stacking
+The triangle is stacked below `:after`, but above `.gesund`. Think of `:before` as the meat in this project party sandwich.
 
-Back to triangle, it is the meat in the project party sandwich. Triangle's purpose is to provide a buffer between the gray color of `.gesund` and to produce the same exact color of the `:after` border as it kisses the background of the page. Triangle uses `$bg` for color and blends in magically.
+This the the natural stacking order of pseudo elements with its parent element. ??? Originally, I flip flopped the pseudos, which required me to use `z-index` to make the elements fall into the stacking order that I wanted. As I was typing this post, I realized that I could save myself a few `z-index` rules and rename the pseudo elements to fall into natural stacking order.
 
 ## Neato Burrito Feature
 Try adding a `z-index` to `:before`. You will be presented with a fun new take on the project and $100 dollars.
