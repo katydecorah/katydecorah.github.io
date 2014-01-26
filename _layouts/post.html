@@ -1,7 +1,7 @@
 {% include top.html %}
 <body class="post-page default-page">
 {% include skip.html %}
-<div class="post-header">
+<div class="post-header{% if page.locations %} post-header-has-map{% endif %}">
 <a href="{{ site.url }}" class="logo">{{ site.name }}</a>
 {% include post-map-header.html %}
 <h1>{{ page.title }}</h1>
