@@ -35,6 +35,32 @@
 
 
 
+///////// FLEXBOX
+
+@mixin display-box {
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+}
+
+@mixin box-align($box-align) {
+  -webkit-box-align: $box-align;
+  -moz-box-align: $box-align;
+  -ms-box-align: $box-align;
+  box-align: $box-align;
+}
+
+@mixin box-pack($box-pack) {
+ -webkit-box-pack: $box-pack;
+  -moz-box-pack: $box-pack;
+  -ms-box-pack: $box-pack;
+  box-pack: $box-pack;
+}
+
+
+
+
+
 //
 // Mixins from Bootstrap
 // --------------------------------------------------

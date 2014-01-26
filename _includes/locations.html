@@ -1,5 +1,8 @@
 {% if page.locations %}
+{% if page.mapType%}
+{% else %}
 <div class="post-locations">
 <i class="fa fa-map-marker post-location"></i> {% for location in page.locations %}<a href="https://www.google.com/maps?q={{ location | downcase | replace:' ','_'}}" class="post-location">{{ location | replace:',',', '}}</a> {% endfor %}
 </div>
+{% endif %}
 {% endif %}

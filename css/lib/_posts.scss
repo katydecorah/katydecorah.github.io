@@ -1,13 +1,18 @@
 
-
-// on individual post pages
-.post-page{
-  .post {
-    h1 {
-      margin-top:1.5em;
-      margin-bottom: 0.5em;
-      min-height: 2.5em;
-      font-weight:normal;
+.post-header {
+  @include breakpoint(m){height:21em;}
+  @include breakpoint(s){ padding:0 1em; }
+  position:relative;
+  h1 {
+    z-index: 100;
+    position: relative;
+    font-size: 3.75em;
+    max-width: 10em;
+    font-weight: normal;
+    margin:1.5em auto 0;
+    @include breakpoint(s){
+      font-size: 2em;
+      margin: 2em auto;
     }
   }
 }
@@ -17,7 +22,6 @@
   margin-bottom:1em;
   text-align:center;
   position:relative;
-  background:$bodyBackground;
   .post-type,.post-date, .post-location {
     text-transform: uppercase;
     font-size:0.8em;
@@ -33,25 +37,12 @@
 }
 
 .post-date-updated {
-display: block;
-text-align: inherit;
-font-size: 0.75em;
+  display: block;
+  text-align: inherit;
+  font-size: 0.75em;
 }
 
-.post-location-image {
-  display:none;
 
-  @include breakpoint(m){
-    position: absolute;
-    top: 0;
-    display: block;
-    z-index: -1;
-    @include opacity(.2);
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-}
 
 
 
@@ -119,8 +110,7 @@ font-size: 0.75em;
   text-transform: uppercase;
 }
 
-iframe, .pop-out {
-
+.cp_embed_iframe, .pop-out {
   display:block;
   max-width:none;
   position:relative;
@@ -131,8 +121,8 @@ iframe, .pop-out {
     margin: 1em -10% 2em;
     max-width:none;
   }
-
 }
+
 embed {max-width:100%;}
 .gist {
  max-width:100%;
@@ -149,19 +139,19 @@ embed {max-width:100%;}
   h2 {display: none;}
 }
 .playlist-track {
-margin-bottom:1em;
-line-height:1.2;
+  margin-bottom:1em;
+  line-height:1.2;
 }
 .track-name {
-display: block;
+  display: block;
 }
 .track-artist, .track-album {
-color:#999;
-font-size:0.8em;
+  color:#999;
+  font-size:0.8em;
 }
 
 .rdio-playlist-link {
-margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 

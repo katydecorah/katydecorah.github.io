@@ -1,0 +1,24 @@
+.post-map-header {
+		width:100%;
+	height:22.5em;
+	position:absolute; 
+	top: 0;
+	left:0; 
+	
+@include breakpoint(s){display:none}
+}
+
+.post-location-image {
+  display:none;
+
+  @include breakpoint(m){
+    display: block;
+    margin: 0 auto;
+    @include opacity(0.25);
+  }
+}
+
+
+
+.leaflet-container {cursor: default !important;}
+.leaflet-map-pane {@include opacity(0.25);}
