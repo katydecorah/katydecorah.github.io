@@ -1,6 +1,6 @@
 
 .post-header {
-  @include breakpoint(m){height:21em;}
+  @include breakpoint(m){height:26em;}
   @include breakpoint(s){ padding:0 1em; }
   position:relative;
   h1 {
