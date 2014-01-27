@@ -4,15 +4,16 @@ title: Mapbox for Jekyll Posts
 category: code
 mapType: Mapbox
 locations: 
-- "-73.7629483,42.6539068"
-- "-73.7254484,43.2440284"
-- "-82.5525523,35.565"
+  - "-73.7629483,42.6539068"
+  - "-73.7254484,43.2440284"
+  - "-82.5525523,35.565"
 tags: 
-- maps
-- API
-- Jekyll
-- JavaScript
-image: http://a.tiles.mapbox.com/v3/katydecorah.h41bj3lj/5/9/11.png
+  - maps
+  - API
+  - Jekyll
+  - JavaScript
+image: "http://a.tiles.mapbox.com/v3/katydecorah.h41bj3lj/5/9/11.png"
+published: true
 ---
 
 A few months ago, I began playing around with the Google Static Maps API. I integrated it with my [Static Google Maps Image for Jekyll Posts](http://katydecorah.com/code/2013/09/06/google-maps-images-api-for-jekyll/) and created a [Static Map Maker](http://katydecorah.com/staticmapmaker/).
@@ -22,8 +23,8 @@ Since then, the Google maps have worked great with my posts. All I need to do is
 I started playing with the [Mapbox](https://www.mapbox.com) API this weekend. The API has so many features that I started a wish list for my posts with maps: 
 
 * full width map
-* customize the overall look and feel
 * automatically fit markers to map
+* customize the overall look and feel
 
 I decided to roll Mapbox into my site, much like I did with Google maps.
 
@@ -126,7 +127,7 @@ I decided to disable dragging and zooming because for posts, the map is more sup
 
 I added `opacity` to `.leaflet-tile-pane` to allow the map to slightly recede. 
 
-I added an `animation` to the `.leaflet-marker-icon` to allow the map markers to glide onto the map. 
+I added an `animation` to the `.leaflet-marker-icon` to allow the map markers to glide onto the map. I love how the tiles transition in and I wanted to see if I could push it a little further.
 
 I didn't do too much to customize the look and feel of the map, but I definitely plan on growing into it.
 
