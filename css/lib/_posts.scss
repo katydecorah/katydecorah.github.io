@@ -1,6 +1,10 @@
 
 .post-header {
-  &.post-header-has-map {@include breakpoint(m){height:26em;}}
+  &.post-header-has-map {
+    @include breakpoint(m){height:26em;}
+  .lt-ie9 & {height: 26em}
+  }
+
   @include breakpoint(s){ padding:0 1em; }
   position:relative;
   h1 {
@@ -155,12 +159,12 @@ embed {max-width:100%;}
 }
 
 
-figure { 
-  margin:3em 0 2em; 
+figure {
+  margin:3em 0 2em;
   iframe { margin-bottom:0.5em;}
 }
-figcaption { 
-  font-size: 0.8em; 
+figcaption {
+  font-size: 0.8em;
   @extend .text-right;
   color: lighten($textColor,10%);
 }
