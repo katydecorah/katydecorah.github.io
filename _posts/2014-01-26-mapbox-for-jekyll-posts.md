@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mapbox for Jekyll Posts
+title: Mapbox.js for Jekyll Posts
 category: code
 mapType: Mapbox
 locations: 
