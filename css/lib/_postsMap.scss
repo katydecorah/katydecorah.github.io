@@ -24,7 +24,7 @@
 
 
 .leaflet-marker-icon {
-	@include animation(drop 1s backwards);
+	@include animation(drop .75s backwards linear);
   @for $i from 1 through 5 {
     &:nth-child(#{$i}){
       @include animation-delay(($i * 0.1s) + 0.5);
@@ -34,5 +34,4 @@
 
 @include keyframes (drop) {
   from {top:-50em;}
-	to {top:0em;}
 }
