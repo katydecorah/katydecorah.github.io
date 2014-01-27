@@ -27,7 +27,7 @@
 	@include animation(drop 1s backwards);
   @for $i from 1 through 5 {
     &:nth-child(#{$i}){
-      @include animation-delay($i * 0.1s);
+      @include animation-delay(($i * 0.1s) + 0.5);
     }
   }
 }
