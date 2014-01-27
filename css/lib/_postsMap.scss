@@ -20,10 +20,10 @@
 
 
 .leaflet-container,.leaflet-clickable {cursor: default !important;}
-.leaflet-tile-pane {@include opacity(0.35);}
+.leaflet-tile-pane {@include opacity(0.5);}
 
 .leaflet-marker-icon {
-	@include animation(drop 2s forwards);
+	@include animation(drop 1s forwards);
 }
 
 @include keyframes(drop) {
