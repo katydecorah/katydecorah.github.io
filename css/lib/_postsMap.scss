@@ -22,13 +22,17 @@
 .leaflet-container,.leaflet-clickable {cursor: default !important;}
 .leaflet-tile-pane {@include opacity(0.5);}
 
+
 .leaflet-marker-icon {
-	@include animation(drop 1s forwards);
+	@include animation(drop 1s backwards);
+  @for $i from 1 through 5 {
+    &:nth-child(#{$i}){
+      @include animation-delay($i * 0.1s);
+    }
+  }
 }
 
-@include keyframes(drop) {
-	from {
-		position:absolute; 
-		top:-100em;
-	}
+@include keyframes (drop) {
+  from {top:-50em;}
+	to {top:0em;}
 }

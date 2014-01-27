@@ -76,6 +76,13 @@
 }
 
 
+@mixin animation-delay ($delay) {
+    -webkit-animation-delay: $delay; 
+    -moz-animation-delay: $delay; 
+    -o-animation-delay: $delay; 
+    animation-delay: $delay;
+}
+
 
 //
 // Mixins from Bootstrap
