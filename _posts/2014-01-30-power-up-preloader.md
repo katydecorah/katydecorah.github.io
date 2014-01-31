@@ -3,13 +3,14 @@ layout: post
 title: Power Up Preloader by Mantas Ba&#269;iu&#353;ka
 category: code
 tags: 
- - Dribbnle
+ - Dribbble
  - CodePen
  - Sass
  - "single element"
  - gradient
 pen: BfuGF
 image: "https://dl.dropbox.com/s/2mftbfyn8k1p4s5/power-up.png"
+browser: Chrome 32.0.1700.102
 ---
 
 <p data-height="300" data-theme-id="97" data-slug-hash="bcc619ac0a04ac70e948a41d26e49a24" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/bcc619ac0a04ac70e948a41d26e49a24'>Power Up Preloader (GIF) by Mantas Bačiuška</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

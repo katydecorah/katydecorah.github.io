@@ -169,4 +169,11 @@ figcaption {
   color: lighten($textColor,10%);
 }
 
+.meta-browser {
+@extend .text-right;
+font-size: 0.8em;
+margin-top: 5em;
+font-style: italic;
+}
+
 
