@@ -34,4 +34,6 @@ We had an awesome lunch at the Timberline Cafe in Speculator.
 
 <a href="http://www.flickr.com/photos/katydecorah/12272554594/" title="Wells, NY by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3747/12272554594_55a460f605_b.jpg" class="pop-out" alt="Wells, NY"></a>
 
-I loved this weekend. Airbnb never fails!
+I loved this weekend!
+
+p.s. [Airbnb](https://www.airbnb.com/) never fails!
