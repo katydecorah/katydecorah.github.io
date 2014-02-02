@@ -3,7 +3,7 @@
 <script src='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
 <script>
 var geoJson = [{"type":"FeatureCollection","features":[{% for location in page.locations %}{"type":"Feature","properties":{"marker-color":"#2A2B26"},"geometry":{"type":"Point","coordinates":[{{location}}]}}{% if forloop.last == false %},{% endif %}{% endfor %}]}],
-	map = L.mapbox.map('map', 'katydecorah.h41bj3lj',{zoomControl: false}),
+	map = L.mapbox.map('map', 'katydecorah.h41bj3lj'),
 	markerLayer = L.mapbox.markerLayer().setGeoJSON(geoJson).addTo(map);
 map.fitBounds(markerLayer.getBounds());
 map.dragging.disable();
