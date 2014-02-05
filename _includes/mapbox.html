@@ -5,7 +5,7 @@
 var geoJson = [{"type":"FeatureCollection","features":[{% for location in page.locations %}{"type":"Feature","properties":{"marker-color":"#2A2B26"},"geometry":{"type":"Point","coordinates":[{{location}}]}}{% if forloop.last == false %},{% endif %}{% endfor %}]}],
 	map = L.mapbox.map('map', 'katydecorah.h41bj3lj'),
 	markerLayer = L.mapbox.markerLayer().setGeoJSON(geoJson).addTo(map);
-map.fitBounds(markerLayer.getBounds());
+map.fitBounds(markerLayer.getBounds().pad(0.1));
 map.dragging.disable();
 map.touchZoom.disable();
 map.doubleClickZoom.disable();
