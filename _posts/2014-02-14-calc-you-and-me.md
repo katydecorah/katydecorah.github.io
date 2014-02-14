@@ -5,6 +5,7 @@ category: code
 tags:
  - CodePen
  - transform
+ - animation
  - Sass
  - yay
 image: http://codepen.io/katydecorah/pen/EGAmb/image/large.png
