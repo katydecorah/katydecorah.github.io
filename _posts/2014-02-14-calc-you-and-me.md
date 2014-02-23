@@ -1,6 +1,6 @@
 ---
 layout: post
-title: calc(you &plus; me)
+title: "calc(you &plus; me)"
 category: code
 tags:
  - CodePen
