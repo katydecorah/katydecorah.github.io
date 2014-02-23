@@ -23,7 +23,7 @@ In a new spreadsheet, I resized the rows and columns to 25 and turned word text 
 ## Format > Conditional formatting
 Before this project, I had known about a cool feature in Google Spreadsheets, *conditional formatting*. You can set conditions in the spreadsheet to style a cell based on a string or digit. If there is a match then the background color or font color of that cell will change according to your rule.
 
-![Conditional Formatting](https://dl.dropbox.com/s/u9nre53057k5uxp/conditional-formatting.png)
+![Conditional Formatting](http://farm4.staticflickr.com/3783/12730143585_8cf6118b7d_o.png)
 
 ## Variables as conditions
 I set up my color variables as conditional formatting. For example, in any cell that had `$bg`, the condition called for that cell to be the background color I selected. I added more rules for other variables such as `$red`, `$face`, and `$shirt`. This step isn’t necessary, but it improves the experience.
@@ -33,7 +33,7 @@ With one eye in Photoshop and another in Google Drive, I started typing my varia
 
 I ended up creating each character on  a 26&times;26 grid or in spreadsheet terms A1:Z26. This grid size came in handy later when concocting the formula.
 
-![batman](https://dl.dropbox.com/s/2yxdr7e945npjjh/batman.png)
+![batman](http://farm8.staticflickr.com/7397/12730621234_eef39c0af6_o.png)
 
 You might notice that I didn’t need to include `$bg`. I could have left those cells blank, because in the end I’m just going to ignore those cells because the `body` background can make up for it. I’m a visual person, so  putting those values in worked for me.
 
@@ -57,11 +57,11 @@ Feel free to [check out the spreadsheet](https://docs.google.com/spreadsheet/ccc
 
 (I highlighted AA1 to indicate that that cell holds the formula.)
 
-![Batman with values](https://dl.dropbox.com/s/aooqykciw3kii4m/batman-value.png)
+![Batman with values](http://farm4.staticflickr.com/3779/12730303473_19a1b8767c_o.png)
 
 When I pasted the code it had some undesirable spaces and returns, but I quickly regex replaced that sucker into a dreamy column.
 
-![Batman Straight Values](https://dl.dropbox.com/s/8lsm53q6jgr47pr/batman-values.png)
+![Batman Straight Values](http://farm6.staticflickr.com/5478/12730621174_17712c1681_o.png)
 
 ## Phat code
 This code is heavy. So heavy. I know it’s irresponsible for every day wear, but it’s fun and this is one of my favorite ways to learn new things. I spend my work days creating web-based trainings that must be pristine in IE7. For that reason, I crave projects that push boundaries.
