@@ -7,7 +7,7 @@ safe: true
 lsi: false
 pygments: true
 
-baseurl: http://katydecorah.com/
+baseurl: /
 url: http://katydecorah.com/
 permalink: pretty
 
