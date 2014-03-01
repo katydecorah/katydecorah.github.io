@@ -1,1 +1,5 @@
-<div class="social-links">{% for link in site.links %}<a href="{{ link.url }}" title="{{ link.text }}" class="social-link"><i class="fa fa-{{ link.icon }}"></i></a>{% endfor %}</div>
+<ul class="nav">
+{% for link in site.links %}<li>
+<a href="{{ link.url }}" title="{{ link.text }}" class="nav-link"><i class="fa fa-{{ link.icon }}"></i></a>
+</li>{% endfor %}
+</ul>

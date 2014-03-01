@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+  @include transition(all .25s);
+  margin-bottom: 1em;
+  @extend .clearfix;
+
+}
+.logo {
+  @extend .big-type;
+  font-style: italic;
+  font-size: 1em;
+  color: #333;
+  padding-top: 0.2em;
+  display: block;
+  border-top: 2px solid #333;
+  text-transform: uppercase;
+  clear:both;
+}
+@include breakpoint(m) { 
+  .header:hover {
+    @include transition(all .25s);
+    .nav {
+      @include translate(0,0);
+      @include transition(all .25s);
+    }
+  }
+}
+
+.nav {
+  font-size: 1.25em;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  @include transition(all .25s);
+  @include breakpoint(m) { 
+    @include translate(0,-5em);
+    float: left;
+  }
+  li {
+    display: inline-block;
+    margin: 0;
+  }
+}
+.nav-link {
+  display: block;
+  padding: 0.5em;
+}

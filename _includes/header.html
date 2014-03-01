@@ -1,4 +1,4 @@
-<div class="main-header">
+<div class="header">
 {% include links.html %}
 <div class="post-meta">
 {% if paginator and paginator.page > 1 %}<div class="pageNumber">{{ paginator.page }} of {{ paginator.total_pages }}</div>{% endif %} 
@@ -8,5 +8,5 @@
 <span class="post-date">{{ page.date | date: "%B %d, %Y" }}{% if page.updated %}<a href="#updated_{{ page.updated | date: '%m%d%Y' }}" class="post-date-updated">Updated {{ page.updated | date: "%B %d, %Y" }}</a>{% endif %}</span>
 {% endif %}
 </div>
-<a href="http://katydecorah.com/" class="main-logo">Katy DeCorah</a>
+<a href="http://katydecorah.com/" class="logo">Katy DeCorah</a>
 </div>
