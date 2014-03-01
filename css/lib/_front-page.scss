@@ -1,26 +1,7 @@
-
-.front-page {
-  .container {
-    max-width:80em; //full-page
-    padding:0 2em; //full-page
-  }
-  .post {
-   @include breakpoint(m) { max-width:40em;}
- }
-
-}
-
-.all-posts {
-  @include breakpoint(m) { 
-    margin: 0 auto;
-    max-width: 40em;
-  }
-}
-
-
+.all-posts {margin-top: 4em;}
 .post-link {
   @extend .clearfix;
-  color:#222;
+  color: $darkAccent;
   &:hover{
     @include transition(0.5s linear);
     .post-thumb {
@@ -71,6 +52,7 @@
   }
 }
 
+.front-page {
 .post-date {
   text-transform:uppercase; 
   display:block; 
@@ -78,6 +60,7 @@
   @include breakpoint(m) { 
     text-align: left;
   }
+}
 }
 
 

@@ -12,10 +12,9 @@ title: Katy DeCorah
 <span class="post-date">{{post.category}} &times; {{ post.date | date: "%B %d, %Y" }}{% if post.updated %}<span class="post-date-updated">Updated {{ post.updated | date: "%B %d, %Y" }}</span>{% endif %}</span>
 </a>
 </div>
-{% endfor %}<div class="pagination">{% if paginator.previous_page %}
-<a href="{% if paginator.previous_page == 1%}/{%else%}/{{ paginator.previous_page }}{%endif%}" class="btn-circle"><i class="fa fa-angle-left"></i></a>{% endif %}
-<span class="page_number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-{% if paginator.next_page %}<a href="/{{ paginator.next_page }}" class="btn-circle"><i class="fa fa-angle-right"></i></a>{% endif %}
-<a href="/archive" class="btn-circle" title="Archive"><i class="fa fa-archive"></i></a>
+{% endfor %}<div class="post-prev-next">{% if paginator.previous_page %}
+<a href="{% if paginator.previous_page == 1%}/{%else%}/{{ paginator.previous_page }}{%endif%}" class="post-prev post-prev-img pull-left"><i class="fa fa-angle-left btn-circle previous"></i></a>{% endif %}
+{% if paginator.next_page %}<a href="/{{ paginator.next_page }}" class="post-next pull-right post-next-img"><i class="fa fa-angle-right btn-circle next"></i></a>
+{% endif %}
 </div>
 </div>

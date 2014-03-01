@@ -1,46 +1,5 @@
 .footer {
-  margin-top:5em;
-  @include breakpoint(s){ 
-    border-top:1px solid #ddd;
-    padding-top: 3em;
-  }
-  @include breakpoint(m) {
-    margin-top:20em;
-    border-top:none;
-    .container {
-      max-width:75em;
-    }
-  }
-  .colophon {
-    margin:2em 0 0 6em;
-    padding-top:2em;
-    font-size:0.8em;
-  }
+  margin-top: 7em;
+  margin-bottom: 4em;
+  .small { color: lighten($darkAccent,10%);}
 }
-
-.footer-profile-img-container {
-  @include breakpoint(s) {display:none;}
-  @include breakpoint(m) {
-    display:block;
-    width:25%;
-  }
-}
-.footer-profile-img {
-  z-index:1001;
-  display:block;
-  position:relative;
-  margin:0 auto;
-
-}
-.footer-details {
-  text-align:center;
-  @include breakpoint(m) {
-    margin: 3% 0 0 2%; 
-    font-size:1.2em; 
-    width:73%;
-    max-width:30em;
-    text-align:left;
-  }
-}
-
-

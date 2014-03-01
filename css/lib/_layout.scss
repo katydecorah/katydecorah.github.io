@@ -5,26 +5,12 @@
   padding:0 1em;
   position:relative;
   @extend .clearfix;
-}
-
-
-.page-archive {
-  .container {
-    max-width:69em;
-    padding:0 1em;
-  }
-}
-.container-large-text {
   @include breakpoint(m) {font-size:1.35em;}
 }
-
-
 .half-left,.half-right {
-
   @include breakpoint(m) {
     width:48%;
     float:left;
-
   }
 }
 .half-left {

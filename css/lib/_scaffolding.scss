@@ -41,16 +41,10 @@ hr {
 
 
 .pull-right {
-  float:none;
-  @include breakpoint(m) {
   float:right;
-  }
 }
 .pull-left {
-  float:none;
-  @include breakpoint(m) {
   float:left;
-}
 }
 
 img {

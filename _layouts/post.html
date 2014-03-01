@@ -2,17 +2,14 @@
 <body class="post-page default-page">
 {% include skip.html %}
 <div class="post-header{% if page.locations %} post-header-has-map{% endif %}">
-<a href="{{ site.url }}" class="logo">{{ site.name }}</a>
+<div class="container">
+{% include header.html %}
+</div>
 {% include post-map-header.html %}
 <h1>{{ page.title }}</h1>
 </div>
-<div class="container container-large-text" id="content">
+<div class="container" id="content">
 <div class="post">
-<div class="post-meta">
-<span class="post-type"> <a href="http://katydecorah.com/categories/#{{ page.category | downcase }}">{{ page.category }}</a></span>
-&times;
-<span class="post-date">{{ page.date | date: "%B %d, %Y" }}{% if page.updated %}<a href="#updated_{{ page.updated | date: '%m%d%Y' }}" class="post-date-updated">Updated {{ page.updated | date: "%B %d, %Y" }}</a>{% endif %}</span>
-</div>
 {% if page.rdio %}<div class="rdio-playlist-link"><a href="{{page.rdio}}"><i class="fa fa-music btn-circle"></i> Rdio playlist</a></div>{% endif %}
 {{ content }}
 {% if page.browser %}<p class="meta-browser">Demos looking strange in your browser? I used {{page.browser}}.</p>{% endif %}

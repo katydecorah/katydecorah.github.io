@@ -7,13 +7,14 @@
 
   @include breakpoint(s){ padding:0 1em; }
   position:relative;
+  margin-bottom: 6em;
   h1 {
     z-index: 100;
     position: relative;
     font-size: 3.75em;
     max-width: 10em;
     font-weight: normal;
-    margin:1.5em auto 0;
+    margin: 0.5em auto 0;
     @include breakpoint(s){
       font-size: 2em;
       margin: 2em auto;
@@ -22,16 +23,17 @@
 }
 
 .post-meta {
-  padding:1em 0;
-  margin-bottom:1em;
-  text-align:center;
   position:relative;
+  @extend .text-right;
+   @include breakpoint(m) { 
+    padding-top: 3em;
+    float:right;
+  }
+  @extend .xs;
+ 
   .post-type,.post-date, .post-location {
     text-transform: uppercase;
-    font-size:0.8em;
-    margin-bottom:0.5em;
     display:inline;
-    text-align: inherit;
   }
 }
 .post-locations,.tags {@extend .text-right;}
@@ -43,7 +45,7 @@
 .post-date-updated {
   display: block;
   text-align: inherit;
-  font-size: 0.75em;
+  @extend .xs;
 }
 
 
@@ -52,12 +54,6 @@
 
 .post-location {
   min-height:1px;
-}
-
-.post-footer {
-  padding:0.5em 0 1em;
-  margin:1em 0 0;
-  text-align: center;
 }
 
 
@@ -110,7 +106,7 @@
     display:block;
     padding:0.5em 1em;
   }
-  font-size:0.8em;
+  @extend .small;
   text-transform: uppercase;
 }
 
@@ -151,7 +147,7 @@ embed {max-width:100%;}
 }
 .track-artist, .track-album {
   color:#999;
-  font-size:0.8em;
+  @extend .small;
 }
 
 .rdio-playlist-link {
@@ -164,14 +160,14 @@ figure {
   iframe { margin-bottom:0.5em;}
 }
 figcaption {
-  font-size: 0.8em;
+  @extend .small;
   @extend .text-right;
   color: lighten($textColor,10%);
 }
 
 .meta-browser {
 @extend .text-right;
-font-size: 0.8em;
+@extend .small;
 margin-top: 5em;
 font-style: italic;
 }

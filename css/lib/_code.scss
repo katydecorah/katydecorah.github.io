@@ -7,7 +7,7 @@ pre {
 	margin:1em 0;
 	padding: 0.5em 1em;
 	word-wrap:break-word;
-	font-size: 0.8em;
+	@extend .small;
 	code {
 		padding:0;
 		background:none;
