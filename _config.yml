@@ -19,4 +19,24 @@ image: http://katydecorah.com/img/katy.png
 
 timezone: America/New_York
 
-exclude: ["vendor"]
+exclude: ["vendor"] # make travis happy
+
+links:
+- text: email
+  url: mailto:katydecorah@gmail.com
+  icon: envelope
+- text: CodePen
+  url: http://codepen.io/katydecorah/
+  icon: code
+- text: Twitter
+  url: https://twitter.com/katydecorah
+  icon: twitter
+- text: Instagram
+  url: http://instagram.com/katydecorah
+  icon: instagram
+- text: Feed
+  url: http://katydecorah.com/feed.xml
+  icon: rss
+- text: Archive
+  url: http://katydecorah.com/archive/
+  icon: archive
