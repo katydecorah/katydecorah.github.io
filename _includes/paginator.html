@@ -1,0 +1,3 @@
+<div class="post-prev-next paginator">{% if paginator.previous_page %}
+<a href="{% if paginator.previous_page == 1%}/{%else%}/{{ paginator.previous_page }}{%endif%}" class="post-prev post-prev-img pull-left"><i class="fa fa-angle-left btn-circle previous"></i></a>{% endif %}
+{% if paginator.next_page %}<a href="/{{ paginator.next_page }}" class="post-next pull-right post-next-img"><i class="fa fa-angle-right btn-circle next"></i></a>{% endif %}</div>

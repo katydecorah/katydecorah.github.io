@@ -1,6 +1,15 @@
+.post-map-header-google {
+	margin-bottom: 1em;
+@include breakpoint(m){min-height: 20em;}
+}
+.post-map-header-mapbox {
+	 @include breakpoint(m){height:26em;}
+
+	 .post-map-header {height: 26em;}
+}
+
 .post-map-header {
 	width:100%;
-	height:28em;
 	position:absolute; 
 	top: 0;
 	left:0; 

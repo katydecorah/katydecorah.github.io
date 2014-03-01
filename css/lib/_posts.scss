@@ -1,27 +1,20 @@
 
 .post-header {
-  &.post-header-has-map {
-    @include breakpoint(m){height:26em;}
   .lt-ie9 & {height: 26em}
-  }
-
   @include breakpoint(s){ padding:0 1em; }
   position:relative;
-  margin-bottom: 6em;
   h1 {
     z-index: 100;
-    position: relative;
-    font-size: 3.75em;
-    max-width: 10em;
+    font-size: 3em;
     font-weight: normal;
-    margin: 0.5em auto 0;
+    margin-top: 0.5em;
     @include breakpoint(s){
       font-size: 2em;
-      margin: 2em auto;
     }
   }
 }
 
+.main-header {
 .post-meta {
   position:relative;
   @extend .text-right;
@@ -35,6 +28,7 @@
     text-transform: uppercase;
     display:inline;
   }
+}
 }
 .post-locations,.tags {@extend .text-right;}
 .post-location, .tag {
@@ -63,6 +57,7 @@
   position:relative;
   display:block;
   margin-top:1em;
+  @extend .clearfix;
   @include breakpoint(m){width:50%;}
   @include transition(all .5s linear);
   &:hover {
@@ -99,6 +94,7 @@
   @include breakpoint(m){padding:0 1em;}
   clear:both;
   margin-top:3em;
+  @extend .clearfix;
 }
 
 .post-next-title, .post-prev-title {

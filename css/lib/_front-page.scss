@@ -1,4 +1,19 @@
-.all-posts {margin-top: 4em;}
+
+
+.all-posts {
+  @include breakpoint(m) {
+    margin-top: 4em;
+  }
+  .post-meta {
+    @include breakpoint(m) {
+      float: left;
+      width: 50%;
+    }
+  }
+
+}
+
+
 .post-link {
   @extend .clearfix;
   color: $darkAccent;
@@ -16,10 +31,10 @@
   }
 }
 
-
 .post-thumb-container {
   display:none;
   @include breakpoint(m) {
+    float: left;
     display: block;
     width: 40%;
     margin: 0.5em 2em 1em 0;
@@ -36,37 +51,14 @@
   @include transition(all 1s);
 }
 .post-title {
-  text-align:center; //mobile
   font-size:2.25em;
   padding-top:1.25em;
   line-height: 1.2;
   margin-bottom:0.3em;
   display:block;
   font-style:italic;
-   @extend .big-type;
-  @include breakpoint(m) { 
-    text-align: left;
-  }
+  @extend .big-type;
   @include breakpoint(s) { 
     font-size:1.5em;
   }
-}
-
-.front-page {
-.post-date {
-  text-transform:uppercase; 
-  display:block; 
-  text-align:center; //mobile
-  @include breakpoint(m) { 
-    text-align: left;
-  }
-}
-}
-
-
-.pagination {
-  @include breakpoint(m) { margin: 6em 0;}
-  margin: 6em auto;
-  max-width: 35em;
-  text-align: center;
 }
