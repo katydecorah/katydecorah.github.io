@@ -17,6 +17,7 @@ body {
   height:100%;
   width:100%;
   background-color:$bodyBackground;
+   @extend .body-type;
 }
   
 a {

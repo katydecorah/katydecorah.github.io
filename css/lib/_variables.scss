@@ -6,10 +6,14 @@ $btnHover:		#4b9ae5; // fell in love with the blue after working on http://katyd
 
 /////////////// secondary
 
-$red:			tomato;
-$gray:			whitesmoke;
+$red:					tomato;
+$gray:				whitesmoke;
 $darkGray: 		#4d4d4d;
-$textColor:     #333;
-$blue:			darken(adjust-hue($red,180),35%);
-$yellow:		#DEB159;
+$textColor:   #333;
+$blue:				darken(adjust-hue($red,180),35%);
+$yellow:			#DEB159;
 
+$mono: 		    "anonymous-pro";
+$serif:				"old-standard",serif;
+$serif-2: 		"museo-slab", serif;
+$sans:		    "proxima-nova", sans-serif;

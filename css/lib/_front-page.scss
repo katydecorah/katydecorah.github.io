@@ -62,7 +62,7 @@
   margin-bottom:0.3em;
   display:block;
   font-style:italic;
-  font-family: "old-standard",serif;
+   @extend .big-type;
   @include breakpoint(m) { 
     text-align: left;
   }

@@ -1,6 +1,7 @@
 code, pre {
 	background: #EEE;
 	background:rgba(#eee,0.5);
+	@extend .code-type;
 }
 pre {
 	margin:1em 0;

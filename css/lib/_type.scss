@@ -1,3 +1,10 @@
+
+
+.body-type { font-family: $sans;}
+.big-type { font-family: $serif;}
+.headings-type {font-family: $serif-2;}
+.code-type {font-family: $mono;}
+
 strong {font-weight:bold;}
 em {font-style:italic;}
 .lead {
@@ -15,12 +22,17 @@ h1, h2, h3 {
     background: rgba($btnHover,0.15);
   }
 }
+h2,h3,h4 {
+   @extend .headings-type;
+  font-weight: 300;
+}
 h1 {
   @include breakpoint(s) {font-size:2em;}
   font-style:italic;
   font-size:2.5em;
   margin:3em 0 1.5em;
   text-align:center;
+  @extend .big-type;
 }
 
 h2 {
@@ -43,7 +55,6 @@ h1,h2,h3,p,li,code,pre,a,span {
 
 p,li {
   margin:1em 0;
-  //@include breakpoint(m) {max-width:35em;}
 }
 
 
@@ -80,12 +91,12 @@ hr {
 blockquote {
  margin: 3em 2em;
  p {
-  font-family: "old-standard",serif;
+   @extend .big-type;
   font-style: italic;
   font-size: 1.25em;
 }
 cite {
-  font-family: "proxima-nova",sans-serif;
+   @extend .code-type;
   font-style: normal;
   font-size: 0.5em;
   display: block;
