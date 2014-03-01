@@ -23,8 +23,8 @@ h1, h2, h3 {
   }
 }
 h2,h3,h4 {
-   @extend .headings-type;
-  font-weight: 300;
+ @extend .headings-type;
+ font-weight: 300;
 }
 h1 {
   @include breakpoint(s) {font-size:2em;}
@@ -92,13 +92,13 @@ blockquote {
  margin: 3em 2em;
  p {
    @extend .big-type;
-  font-style: italic;
-  font-size: 1.25em;
-}
-cite {
+   font-style: italic;
+   font-size: 1.25em;
+ }
+ cite {
    @extend .code-type;
-  font-style: normal;
-  font-size: 0.5em;
-  display: block;
-}
+   font-style: normal;
+   font-size: 0.5em;
+   display: block;
+ }
 }
