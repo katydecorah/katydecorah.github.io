@@ -16,3 +16,6 @@
 .half-left {
   @include breakpoint(m) {margin-right:4%;}
 }
+.default-page {
+  h1 {margin-top: 1em}
+}
