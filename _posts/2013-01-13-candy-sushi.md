@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Candy Sushi
-category: edibles
+category: epicurean
 tags:
 - treats
 - "time travel"

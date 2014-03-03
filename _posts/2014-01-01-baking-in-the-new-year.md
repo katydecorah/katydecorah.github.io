@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Baking in the New Year
-category: edibles
+category: epicurean
 tags: 
   - treats
 image: http://farm6.staticflickr.com/5542/11698901103_36b11493b2_b.jpg

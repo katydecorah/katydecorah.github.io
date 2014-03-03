@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Homemade Vanilla Marshmallows
-category: edibles
+category: epicurean
 tags:
 - treats
 - Martha Stewart

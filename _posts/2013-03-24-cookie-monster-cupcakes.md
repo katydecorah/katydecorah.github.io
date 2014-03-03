@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cookie Monster Cupcakes
-category: edibles
+category: epicurean
 tags: 
 - birthdays
 - cupcakes

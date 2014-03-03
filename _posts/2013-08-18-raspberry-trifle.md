@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Raspberry Trifle
-category: edibles
+category: epicurean
 tags: 
   - treats
   - Martha Stewart

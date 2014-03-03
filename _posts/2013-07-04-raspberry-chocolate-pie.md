@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Raspberry Chocolate Pie
-category: edibles
+category: epicurean
 tags:
 - pie
 - Martha Stewart

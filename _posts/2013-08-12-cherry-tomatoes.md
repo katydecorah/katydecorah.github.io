@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windowsill Cherry Tomatoes
-category: edibles
+category: epicurean
 tags: 
 - green thumb
 image: http://farm4.staticflickr.com/3777/9496159841_8160d1b55b_z.jpg

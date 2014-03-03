@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Holiday Treats
-category: edibles
+category: epicurean
 tags: 
 - treats
 - yay

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Black Bean Brownie
-category: edibles
+category: epicurean
 tags: 
   - brownies
 image: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg
