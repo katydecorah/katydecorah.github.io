@@ -1,5 +1,6 @@
 
 .post-header {
+  .container {z-index: 1;}
   .lt-ie9 & {height: 26em}
   @include breakpoint(s){ padding:0 1em; }
   position:relative;

@@ -9,9 +9,9 @@ strong {font-weight:bold;}
 em {font-style:italic;}
 
 .lead {
-  font-style: italic;
   font-size: 1.3em;
   text-align: justify;
+  @extend .big-type;
 }
 
 
