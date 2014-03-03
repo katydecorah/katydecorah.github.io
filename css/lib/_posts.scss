@@ -7,7 +7,7 @@
     z-index: 100;
   }
 }
-
+.post-header-no-map {margin-bottom: 5em;}
 .header {
   .post-meta {
     position:relative;
@@ -37,12 +37,7 @@
 }
 
 
-
-
-
-.post-location {
-  min-height:1px;
-}
+.post-location { min-height:1px;}
 
 
 
@@ -166,11 +161,7 @@ figcaption {
 
 .meta-browser {
   @extend .text-right;
-  @extend .small;
+  @extend .xs;
   margin-top: 5em;
-  font-style: italic;
 }
-
-//space h1 from codepen iframe
-.post > div {margin-top: 3em;}
 
