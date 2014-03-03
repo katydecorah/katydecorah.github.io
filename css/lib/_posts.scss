@@ -5,30 +5,24 @@
   position:relative;
   h1 {
     z-index: 100;
-    font-size: 3em;
-    font-weight: normal;
-    margin-top: 0.5em;
-    @include breakpoint(s){
-      font-size: 2em;
-    }
   }
 }
 
 .header {
-.post-meta {
-  position:relative;
-  @extend .text-right;
-   @include breakpoint(m) { 
-    padding-top: 3em;
-    float:right;
+  .post-meta {
+    position:relative;
+    @extend .text-right;
+    @include breakpoint(m) { 
+      padding-top: 3em;
+      float:right;
+    }
+    @extend .xs;
+
+    .post-type,.post-date, .post-location {
+      text-transform: uppercase;
+      display:inline;
+    }
   }
-  @extend .xs;
- 
-  .post-type,.post-date, .post-location {
-    text-transform: uppercase;
-    display:inline;
-  }
-}
 }
 .post-locations,.tags {@extend .text-right;}
 .post-location, .tag {
@@ -153,19 +147,30 @@ embed {max-width:100%;}
 
 figure {
   margin:3em 0 2em;
-  iframe { margin-bottom:0.5em;}
+  position:relative;
+  iframe, .cp_embed_iframe { margin-bottom:0.5em;}
 }
 figcaption {
-  @extend .small;
-  @extend .text-right;
+  text-align: right;
   color: lighten($textColor,10%);
+  @extend .xs;
+  @include breakpoint(xxxl) {
+    position: absolute;
+    left: 111%;
+    top: 1em;
+    text-align: left;
+    min-width: 10em;
+    display: block;
+  }
 }
 
 .meta-browser {
-@extend .text-right;
-@extend .small;
-margin-top: 5em;
-font-style: italic;
+  @extend .text-right;
+  @extend .small;
+  margin-top: 5em;
+  font-style: italic;
 }
 
+//space h1 from codepen iframe
+.post > div {margin-top: 3em;}
 

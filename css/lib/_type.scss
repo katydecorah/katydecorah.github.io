@@ -1,87 +1,66 @@
 
 
 .body-type { font-family: $sans;}
-.big-type { font-family: $serif;}
-.headings-type {font-family: $serif-2;}
+.big-type { font-family: $serif; font-style: italic;}
+.headings-type {font-family: $serif-2; font-weight: 300;}
 .code-type {font-family: $mono;}
 
 strong {font-weight:bold;}
 em {font-style:italic;}
+
 .lead {
   font-style: italic;
   font-size: 1.3em;
   text-align: justify;
 }
-h1, h2, h3 {
-  line-height:1.4;
-  small {
-    font-size:0.6em;
-    color:lighten(#333,10%);
-  }
-  &:target, &:focus {
-    background: rgba($btnHover,0.15);
-  }
+
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
 }
-h2,h3,h4 {
- @extend .headings-type;
- font-weight: 300;
-}
+
 h1 {
-  @include breakpoint(s) {font-size:2em;}
-  font-style:italic;
-  font-size:2.5em;
-  margin:3em 0 1.5em;
-  text-align:center;
+  margin-top: 0;
+  font-size: 1.602em * 2;
   @extend .big-type;
+  @extend .text-center;
 }
 
-h2 {
-  font-size:1.4em;
-  margin:1.5em 0 0.75em;
-}
-h3 {
-  font-size:1.1em;
-  margin:1em 0 0.5em;
-  text-transform:uppercase;
-}
+h2, h3, h4 {  @extend .headings-type; }
 
-h1,h2,h3,p,li,code,pre,a,span {
-  &::selection {
-    background: $btnHover;
-    color: #FFF;
+h2 {font-size: 1.424em;}
+
+h3 {font-size: 1.266em;}
+
+h4 {font-size: 1.125em;}
+
+
+
+small, .small {
+  font-size:0.889em;
+  @include breakpoint(s) {
+    font-size: 1em;
+  }
+}
+.xs {
+  font-size: 0.7em;
+  @include breakpoint(s) {
+    font-size: 1em;
   }
 }
 
 
-p,li {
-  margin:1em 0;
-}
+ul,ol {margin-bottom:1em;}
 
+ol {list-style:decimal;}
 
-small, .small {font-size:0.8em;}
-.xs {font-size: 0.7em;}
-
-.upper {text-transform:uppercase;}
-
-
-
-ul,ol {
-  margin-bottom:1em;
-}
-
-ul {
-  margin-left:1em;
-}
-
-ol {
-  list-style:decimal;
-  margin-left:2.5em;
-  li {margin-bottom:0.8em;}
-}
 .unstyled {
   margin:0;
   padding:0;
-  li {max-width:none;}
   list-style:none;
 }
 
@@ -93,7 +72,6 @@ blockquote {
  margin: 3em 2em;
  p {
    @extend .big-type;
-   font-style: italic;
    font-size: 1.25em;
  }
  cite {
