@@ -5,6 +5,7 @@ category: epicurean
 tags:
 - treats
 - "time travel"
+- recipe
 image: http://farm8.staticflickr.com/7341/10848177206_5f518d74ef_b.jpg
 ---
 
