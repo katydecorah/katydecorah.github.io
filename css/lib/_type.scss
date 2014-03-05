@@ -52,6 +52,12 @@ small, .small {
     font-size: 1em;
   }
 }
+.xxs {
+  font-size: 0.6em;
+  @include breakpoint(s) {
+    font-size: 1em;
+  }
+}
 
 
 ul,ol {margin-bottom:1em;}

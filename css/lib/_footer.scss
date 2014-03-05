@@ -1,5 +1,9 @@
 .footer {
   margin-top: 7em;
   margin-bottom: 4em;
-  .small { color: lighten($darkAccent,10%);}
+  p { 
+  	color: lighten($darkAccent,15%);
+  	@extend .xxs;
+  	margin: 0;
+  }
 }
