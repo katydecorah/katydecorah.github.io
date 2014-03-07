@@ -1,15 +1,22 @@
 code, pre {
 	background: #EEE;
-	background:rgba(#eee,0.5);
+	background: rgba(#eee,0.75);
+	border-radius: 0.2em;
 	@extend .code-type;
 }
 pre {
-	margin:1em 0;
+	margin: 1em 0;
 	padding: 0.5em 1em;
-	word-wrap:break-word;
+	word-wrap: break-word;
 	@extend .small;
 	code {
-		padding:0;
+		padding: 0;
 		background:none;
+		display: inline;
 	}
+}
+code {
+	display: inline-block;
+	line-height: 1.5;
+	padding: 0 0.25em;
 }
