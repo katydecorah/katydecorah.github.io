@@ -8,22 +8,15 @@
   }
 }
 .post-header-no-map {margin-bottom: 5em;}
-.header {
-  .post-meta {
-    position:relative;
-    @extend .text-right;
-    @include breakpoint(m) { 
-      padding-top: 3em;
-      float:right;
-    }
-    @extend .xs;
 
-    .post-type,.post-date, .post-location {
-      text-transform: uppercase;
-      display:inline;
-    }
+.post-header {
+  .post-meta {
+    @extend .text-center;
+    @extend .xs;
+    text-transform: uppercase;
   }
 }
+
 .post-locations,.tags {@extend .text-right;}
 .post-location, .tag {
   font-size: 0.65em;
@@ -38,6 +31,7 @@
 
 
 .post-location { min-height:1px;}
+
 
 
 
