@@ -4,7 +4,7 @@ title: Incrementally Awesome Sass Labels
 category: code
 tags: 
   - Sass
-image: "http://katydecorah.com/img/sass-labels.png"
+image: http://farm8.staticflickr.com/7340/12730825944_d47ef70a77_o.png
 project: true
 published: true
 css: ".label {

@@ -11,6 +11,7 @@ tags:
 pen: Bjoui
 image: "http://codepen.io/katydecorah/pen/Bjoui/image/large.png"
 published: true
+dribbble: http://dribbble.com/shots/1294320-Ice-Cream-Pattern
 ---
 
 <p data-height="500" data-theme-id="97" data-slug-hash="Bjoui" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Bjoui'>Ice Cream Pattern by Dorottya Porkolab</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

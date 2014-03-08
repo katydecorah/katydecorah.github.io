@@ -11,6 +11,8 @@ tags:
   - animation
 image: "http://i.cdpn.io.s3.amazonaws.com/6362.uIEFy.bc2d5743-393d-4569-9887-20a32aed7fd0.png"
 published: true
+pen: uIEFy
+dribbble: http://dribbble.com/shots/1316513
 ---
 
 <p data-height="500" data-theme-id="97" data-slug-hash="uIEFy" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/uIEFy'>Rabbit by Beard Chicken</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

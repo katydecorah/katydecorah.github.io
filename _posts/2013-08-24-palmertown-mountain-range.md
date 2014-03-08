@@ -9,9 +9,10 @@ locations: Moreau Lake State Park
 image: http://farm8.staticflickr.com/7347/9583833497_0171fe8688_c.jpg
 ---
 
+
 We woke up early and drove up to Moreau Lake State Park for a hike.
 
-<img alt="Moreau Lake State Park Map" src="http://katydecorah.com/img/moreau-lake-state-park-map.png">
+<img alt="Moreau Lake State Park Map" src="http://farm8.staticflickr.com/7303/13013176105_99e4295620_o.png">
 
 We parked on Spier Falls road, at the bottom of the map just before where the Hudson River curls. We took the Western Ridge (WR) trail, or yellow trail for a majority of the hike. This trail has several scenic overlooks as indicated by stars on the map.
 

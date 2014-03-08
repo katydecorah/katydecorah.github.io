@@ -7,11 +7,7 @@ tags:
 - Dribbble
 - CodePen
 pen: hAive
-image: http://katydecorah.com/img/triangles.png
-image-small: http://codepen.io/katydecorah/pen/hAive/image/small.png
-image-large: http://codepen.io/katydecorah/pen/hAive/image/large.png
-"show": "no"
-
+image: http://farm3.staticflickr.com/2878/12730825804_16446faf71_o.png
 ---
 <p data-height="300" data-theme-id="97" data-slug-hash="hAive" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/hAive'>Triangles</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
@@ -22,4 +18,3 @@ I used one list item for each triangle. Each triangle has a pseudo element as it
 On hover the triangles become equilateral with a border-width set at 5em (and 1em for the pseudo triangles) and then I removed any trace of rotate or skew. I adjusted the positioning so that each triangle falls more elegantly.
 
 Just bunch of simple shapes.
-

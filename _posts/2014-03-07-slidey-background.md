@@ -7,10 +7,9 @@ tags:
 - Haml
 - Sass
 - gradient
-image: http://codepen.io/katydecorah/pen/whobi/image/large.png
+image: http://farm4.staticflickr.com/3326/13012960323_b657ebc39d_o.png
 pen: whobi
 ---
-
 <p data-height="300" data-theme-id="97" data-slug-hash="whobi" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/whobi'>Slidey Background</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 Each box above is an anchor tag with a `linear-gradient`. On hover, the `background-position` changes to reveal the second half of the link's gradient.

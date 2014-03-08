@@ -6,10 +6,9 @@ tags:
 - Sass
 - CodePen
 - "time travel"
+- Haml
 pen: FgmJI
-image: http://katydecorah.com/img/sass-adjust-hue.png
-image-small: http://codepen.io/katydecorah/pen/FgmJI/image/small.png
-image-large: http://codepen.io/katydecorah/pen/FgmJI/image/large.png
+image: http://farm6.staticflickr.com/5476/12730510033_3b98c3c1de_o.png
 project: true
 ---
 <p data-height="500" data-theme-id="300" data-slug-hash="FgmJI" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/FgmJI'>Sass adjust-hue reference</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

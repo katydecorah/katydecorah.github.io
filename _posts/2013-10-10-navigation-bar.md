@@ -8,7 +8,8 @@ tags:
   - Haml
   - CodePen
   - yay
-image: http://katydecorah.com/img/navigation-bar.png
+image: http://farm4.staticflickr.com/3778/12730510863_605ccbbc36_o.png
+updated: 2014/01/09
 ---
 
 <p data-height="500" data-theme-id="97" data-slug-hash="HEgwl" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/HEgwl'>Navigation Bar by Jan Kaděra</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
@@ -19,4 +20,6 @@ The navigation is typical list, where I primarily styled the anchor tags. I used
 
 This Pen made me realize how much I enjoy writing Haml; so much that I'm thinking about changing my default HTML setting to it on CodePen.
 
-**Updated 1/9/2013:** This Pen is #65 on the [Top Pens of 2013](http://codepen.io/2013/popular/4) list. Yay!
+### Updated 01/09/2014
+
+This Pen is #65 on the [Top Pens of 2013](http://codepen.io/2013/popular/4) list. Yay!

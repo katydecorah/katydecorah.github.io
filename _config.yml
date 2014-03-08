@@ -15,28 +15,38 @@ paginate_path: ":num"
 
 name: Katy DeCorah
 description: "Web developer, instructional designer, and adjunct professor from Albany, NY."
-image: http://katydecorah.com/img/katy.png
+image: http://farm8.staticflickr.com/7429/12730353475_c28166d675_o.png
 
 timezone: America/New_York
 
 exclude: ["vendor"] # make travis happy
 
 links:
-- text: email
-  url: mailto:katydecorah@gmail.com
-  icon: envelope
-- text: CodePen
-  url: http://codepen.io/katydecorah/
-  icon: code
-- text: Twitter
-  url: https://twitter.com/katydecorah
-  icon: twitter
-- text: Instagram
-  url: http://instagram.com/katydecorah
-  icon: instagram
-- text: Feed
-  url: http://katydecorah.com/feed.xml
-  icon: rss
+- text: Sup?
+  url: http://katydecorah.com
+  icon: home
+  type: internal
 - text: Archive
   url: http://katydecorah.com/archive/
   icon: archive
+  type: internal
+- text: email
+  url: mailto:katydecorah@gmail.com
+  icon: envelope
+  type: external
+- text: CodePen
+  url: http://codepen.io/katydecorah/
+  icon: code
+  type: external
+- text: Twitter
+  url: https://twitter.com/katydecorah
+  icon: twitter
+  type: external
+- text: Instagram
+  url: http://instagram.com/katydecorah
+  icon: instagram
+  type: external
+- text: Feed
+  url: http://katydecorah.com/feed.xml
+  icon: rss
+  type: internal

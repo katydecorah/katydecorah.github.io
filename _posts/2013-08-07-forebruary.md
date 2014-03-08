@@ -8,10 +8,7 @@ tags:
 - jQuery
 - Haml
 pen: Chmws
-image: http://katydecorah.com/img/forebruary.png
-image-small: http://codepen.io/katydecorah/pen/Chmws/image/small.png
-image-large: http://codepen.io/katydecorah/pen/Chmws/image/large.png
-
+image: http://farm6.staticflickr.com/5492/12730828934_f9915c2509_o.png
 ---
 
 <p data-height="500" data-theme-id="97" data-slug-hash="Chmws" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Chmws'>Forebruary</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
@@ -25,4 +22,3 @@ Once I had everything styled, I tackled the position of the frame. The frame sli
 Once I had the value for the first day of the month, I was set. August starts on a Thursday, or day of the week number 4 (remember the week starts on Monday). Now I know that, for any month that begins on a Thursday it will have the same starting position. I just needed to absolutely position the frame for each day of the week. I found the position by manually adjusting the numbers. I created if statements to compare the values to move the frame accordingly. 
 
 Next month the frame should automatically slide to capture September.
-

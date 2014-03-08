@@ -7,9 +7,7 @@ tags:
 - CodePen
 - API
 pen: vetCA
-image: http://katydecorah.com/img/google-font-explorer.png
-image-small: http://codepen.io/katydecorah/pen/vetCA/image/small.png
-image-large: http://codepen.io/katydecorah/pen/vetCA/image/large.png
+image: http://farm8.staticflickr.com/7313/12730828734_c2dd990974_o.png
 project: true
 ---
 <p data-height="400" data-theme-id="97" data-slug-hash="vetCA" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/vetCA'>Google Font Explorer</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
@@ -23,4 +21,3 @@ I am not a huge fan of the Google Font interface. For example, I never feel like
 I created the Google Font Explorer to find new fonts and test them out a little more accurately.
 
 I'm tapping into Google's Font API to access all the font families data. You can type in a family to try it out. I used Bootstrap's typeahead to help you find the font as you type. You can also click the randomize button to view a totally new font. You can edit the dummy or use the lorem ipsum text provided. Find out more about the family by clicking the information button. I also provided a history list in case you want to go back to a previously viewed family.
-

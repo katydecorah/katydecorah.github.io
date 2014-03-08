@@ -6,11 +6,8 @@ tags:
   - CodePen
   - Haml
   - Sass
-  - no JS
 pen: aDAoG
-image: "http://katydecorah.com/img/haml-calendar.png"
-image-small: http://codepen.io/katydecorah/pen/aDAoG/image/small.png
-image-large: http://codepen.io/katydecorah/pen/aDAoG/image/large.png
+image: http://farm8.staticflickr.com/7446/12730512683_90cba24840_o.png
 project: true
 ---
 
@@ -116,4 +113,3 @@ If you edit in CodePen, try writing in a custom date. I commented out the space 
 I really enjoyed figuring this out. I'm new to Ruby, but I think I will do more experimenting!
 
 p.s. I'm not sure about editing the timezone, so it might be a day ahead.
-

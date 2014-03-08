@@ -6,11 +6,8 @@ tags:
 - CodePen
 - Haml
 - Sass
-- no JS
 pen: xADtE
-image: http://katydecorah.com/img/haml-clock.png
-image-small: http://codepen.io/katydecorah/pen/xADtE/image/small.png
-image-large: http://codepen.io/katydecorah/pen/xADtE/image/large.png
+image: http://farm3.staticflickr.com/2813/12730353565_9761bd9128_o.png
 project: true
 ---
 
@@ -24,7 +21,6 @@ How it works:
 2. Internal Sass rotates the hands of the clock to portray that time.
 3. CSS animation keeps the hands ticking.
 
-
 Initially I only used an inline style to set the rotation of each hand. I wanted to write the animation/keyframes in the external stylesheet, but that wasn't going to work. The animation kept reseting to 0. For example, if it's 1:15, the minute hand would initially start at 15 (rotate 90 degrees) and then rotate slowly to the next minute (96 degrees). Instead the animation would only start 0 degrees; I couldn't get the inline rotation to speak with my external animation. To make the animation work, I wrote internal Sass so that the first keyframe was at the starting time and not reverting to 0.
 
 ## Features
@@ -37,9 +33,4 @@ For an added bonus: the background color darkens as the day progresses. (My bett
 
 ## Credits
 
-I received design and color inspiration from [Dribbble](http://dribbble.com/shots/1221456-Flat-Watch-2). Also, I used [Hugo Giraudel's items on a circle mixin
-](http://hugogiraudel.com/2013/04/02/items-on-circle/). I really love that mixin!
-
-
-
-
+I received design and color inspiration from [Dribbble](http://dribbble.com/shots/1221456-Flat-Watch-2). Also, I used [Hugo Giraudel's items on a circle mixin](http://hugogiraudel.com/2013/04/02/items-on-circle/). I really love that mixin!

@@ -9,15 +9,17 @@ tags:
   - Sass
   - transform
   - "single element"
-image: "https://dl.dropbox.com/s/heyuicpt5o2twal/zindex-ribbon-diagram.png"
+image: http://farm8.staticflickr.com/7409/12730119235_c26ceaf678_o.png
+pen: lqBtz
+dribbble: http://drbl.in/jJIr
 published: true
 ---
 
-<p data-height="400" data-theme-id="97" data-slug-hash="7e32fe667693ddb55dc0cff87c47c120" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/7e32fe667693ddb55dc0cff87c47c120'>END by Catt</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
+<p data-height="400" data-theme-id="97" data-slug-hash="lqBtz" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/lqBtz'>END by Catt</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I knew that I wanted to code out the Dribbble shot [END by Catt](http://drbl.in/jJIr) as a single element. I planned on using the main element for the text and pseudo elements to create the tails of the ribbon.
 
-![Ribbon diagram](https://dl.dropbox.com/s/heyuicpt5o2twal/zindex-ribbon-diagram.png)
+![Ribbon diagram](http://farm8.staticflickr.com/7409/12730119235_c26ceaf678_o.png)
 
 In making all of this happen, I was presented with of couple challenges.
 
@@ -28,13 +30,13 @@ In making all of this happen, I was presented with of couple challenges.
 
 First, I created a triangle by manipulating the `border` properties to recreate the shadow effect of the ribbon. It worked, but it didn't match up perfectly.
 
-![Ribbon tail with triangles with opacity](https://dl.dropbox.com/s/tmyt5tl3hs36c5y/zindex-ribbon-triangle-op.png)
-![Ribbon tail with triangles](https://dl.dropbox.com/s/33ijd9t5fgh0c6t/zindex-ribbon-triangle.png)
+![Ribbon tail with triangles with opacity](http://farm8.staticflickr.com/7320/12730118965_f0fd2fc653_o.png)
+![Ribbon tail with triangles](http://farm8.staticflickr.com/7374/12730595314_72bf0f4849_o.png)
 
 And then, it came to me&hellip; a trapezoid!
 
-![Ribbon tail with trapezoids with opacity](https://dl.dropbox.com/s/epktfxr3eh7xceb/zindex-ribbon-trap-op.png)
-![Ribbon tail with trapezoids](https://dl.dropbox.com/s/2l2v13jeytdi30c/zindex-ribbon-trap.png)
+![Ribbon tail with trapezoids with opacity](http://farm8.staticflickr.com/7317/12730595464_24caa00dba_o.png)
+![Ribbon tail with trapezoids](http://farm8.staticflickr.com/7459/12730118995_d6dcbfac16_o.png)
 
 The trapezoid fit perfectly. I also used a variable `$ribbonSize` to keep the ribbon tails in proportion with the shadow. In doing so, the ribbon became scalable!
 
@@ -44,7 +46,7 @@ Prior to this project, I noticed issues in preserving the stacking order, `z-ind
 
 Once I added `transform` to the main element, the pseudo elements appeared to disregard the `z-index: -1` rule and sat on top of the main element.
 
-![Ribbon transformed out of stacking order](https://dl.dropbox.com/s/30dmpxzhimhc8yz/zindex-ribbon-transform.png)
+![Ribbon transformed out of stacking order](http://farm8.staticflickr.com/7372/12730595494_33df26c087_o.png)
 
 Through research, I dove into the situation of what takes place between stacking orders and transforms. I learned that once transformed, an element needs to play by 3D rules. Without specifying the `transform-style`, I was technically still in flat mode.
 

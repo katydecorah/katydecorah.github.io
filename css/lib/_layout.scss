@@ -24,3 +24,8 @@
   max-width: 25em;
   margin: 0 auto;
 }
+.paginator-number {
+  @extend .small;
+  @extend .text-center;
+  padding-top: 1.75em;
+}

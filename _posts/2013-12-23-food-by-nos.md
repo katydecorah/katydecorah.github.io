@@ -9,6 +9,8 @@ tags:
 - CodePen
 - Dribbble
 image: http://farm4.staticflickr.com/3685/12730139965_505cccb115_o.png
+dribbble: http://dribbble.com/shots/1355254-Food
+pen: Kyabd
 ---
 
 <p data-height="400" data-theme-id="97" data-slug-hash="Kyabd" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Kyabd'>Food by nos</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

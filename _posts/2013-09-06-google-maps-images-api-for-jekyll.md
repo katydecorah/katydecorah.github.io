@@ -6,9 +6,7 @@ tags:
   - Jekyll
   - Google Maps
   - API
-image: "http://katydecorah.com/img/google-maps.png"
-"image-small": "http://katydecorah.com/img/google-maps.png"
-"image-large": "http://katydecorah.com/img/google-maps.png"
+image: http://farm6.staticflickr.com/5502/12730513003_185231255d_o.png
 locations: "Albany,NY"
 project: true
 published: true

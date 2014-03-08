@@ -9,6 +9,7 @@ tags:
   - holiday cheer
 image: "http://codepen.io/katydecorah/pen/xcDHf/image/large.png"
 published: true
+pen: xcDHf
 ---
 
 <p data-height="400" data-theme-id="97" data-slug-hash="xcDHf" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/xcDHf'>Holiday tree(s)</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

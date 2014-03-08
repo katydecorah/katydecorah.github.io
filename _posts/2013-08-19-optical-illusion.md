@@ -8,10 +8,7 @@ tags:
   - Haml
   - no JS
 pen: gwAmk
-image: "http://katydecorah.com/img/optical-illusion.png"
-image-small: http://codepen.io/katydecorah/pen/pdCsB/image/small.png
-image-large: http://codepen.io/katydecorah/pen/pdCsB/image/small.png
-
+image: http://farm8.staticflickr.com/7324/12730510673_c1866394ba_o.png
 ---
 
 I gave a few optical illusions a try to flex my Sass skills. The source file for each illusion can be found in the JS tab.
@@ -49,4 +46,3 @@ As before, I spun out 500 list items in Haml. I styled each item the same. All i
 I gave the list `margin: 0 -1em;` and hid the overflow on the body. I wanted the illusion to completely fill the page.
 
 Super simple to style and makes you want to barf after a few minues. A success!(?)
-

@@ -9,9 +9,7 @@ tags:
 - Haml
 - "time travel"
 pen: CLxkg
-image: http://katydecorah.com/img/combination-lock.png
-image-small: http://codepen.io/katydecorah/pen/CLxkg/image/small.png
-image-large: http://codepen.io/katydecorah/pen/CLxkg/image/large.png
+image: http://farm3.staticflickr.com/2838/12730513903_cd54d30d25_o.png
 project: true
 
 ---
@@ -28,5 +26,3 @@ I wrote the HTML in Haml, for the heck of it. I wanted to output the numbers wit
 I used Hugo Giraudel's [mixin for putting items in a circle](http://hugogiraudel.com/2013/04/02/items-on-circle/) to position all the numbers. I think the trickiest part of the CSS was getting the gradients and shadows to look authentic. I did a lot of adjusting, experimenting, and asking the opinion of others before I settled on my recipe.
 
 The jQuery was gnarly. I needed to know the width of the user's browser at the start. From that value and the width of the lock, I created a specific ratio to be sure that the dial would spin proportionally. I calculated when the browser width would coincide with each combination number and added classes to the body to indicate when a success. Writing the jQuery took a lot of guessing, scribbling, and high school formulas, but I got it!
-
-
