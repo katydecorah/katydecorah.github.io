@@ -1,32 +1,27 @@
  @media print {
 
 
- 	.navbar, .footer, .no-print {
+ 	.navbar, .footer, .no-print, .print-hide {
  		display:none;
  	}
  	.page-break	{ display: block; page-break-before: always; }
 
-
  	.page-resume {
  		font-size:12px;
 
- 		.logo {display:none;}
-
  		h1 {
- 			padding-top:0;
- 			font-size:1.5em;
- 			margin-top:0;
- 			margin-bottom:0;
+ 			font-size: 1.75em;
+ 			text-align: left;
+ 			font-family: $sans;
+ 			font-weight: 700;
+ 			font-style: normal;
+ 			margin: 0 0 0.25em;
  		}
- 		h2 {clear:both;}
-
- 		strong {
- 			display:inline-block;
- 			float:none;
- 			margin:0 0 0 3em;
- 		}
- 		#skills + ul {margin-left:-2em;}
- 		#skills + ul li { float:left; display: block; margin-right: 1em;}
+ 		.inline {text-align: left}
+ 		.skills {margin: 1em 0 0; padding: 0;}
+ 		.skills li { display: inline-block; }
+ 		.skills li:after {content: ","}
+ 		.skills li:last-child:after {content: ""}
  		
  	}
  }

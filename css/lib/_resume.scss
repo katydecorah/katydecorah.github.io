@@ -13,7 +13,7 @@
 	h3 {
 		font-weight:700;
 		@extend .body-type;
-		margin-bottom:0;
+		margin-bottom: 0.25em;
 	}
 	h4 {
 		margin: 0;
@@ -21,7 +21,8 @@
 		@extend .body-type;
 	}
 	.date {
-		margin:0;
+		@extend .small;
+		@extend .pull-right;
 	}
 
 	ul {
