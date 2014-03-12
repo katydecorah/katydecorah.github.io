@@ -1,0 +1,81 @@
+{% include top.html %}
+<body class="default-page page-{{ page.title | downcase | replace:' ','_'  }}">
+{% include skip.html %}
+<div class="container">
+<div class="content" id="content">
+
+{% for item in site.data.resume %}
+
+{% for header in item.header %}
+<h1>{{ header.name }}</h1>
+<ul class="inline">
+{% for about in header.contents %}
+<li>{% if about.link %}<a href="{{about.link}}">{% endif %}{{ about.text }}{% if about.link %}</a>{% endif %} {% if forloop.last %}{% else %} &bull; {% endif %}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+{% for section in item.section %}
+<h2>{{ section.heading }}</h2>
+<!-- experience -->
+{% if section.heading == 'Experience' %}
+{% for job in section.contents %}
+{% if job.show %}
+<h3>{{ job.title }}</h3>
+<h4>{{ job.company }}</h4>
+<p class="date">{{ job.dates }}</p>
+<ul>
+{% for role in job.roles %}
+<li>{{ role.text }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
+{% endif %}
+<!-- other experience -->
+{% if section.heading == 'Experience' %}
+<h2>Other Experience</h2>
+{% for job in section.contents %}
+{% if job.show %}
+{% else %}
+<h3>{{ job.title }}</h3>
+<h4>{{ job.company }}</h4>
+<p class="date">{{ job.dates }}</p>
+<ul>
+{% for role in job.roles %}
+<li>{{ role.text }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
+{% endif %}
+<!-- education -->
+{% if section.heading == 'Education' %}
+{% for school in section.contents %}
+<h3>{{ school.school }}</h3>
+<h4>{{ school.degree }}, {{ school.date }}</h4>
+{% endfor %}
+{% endif %}
+<!-- skills -->
+{% if section.heading == 'Skills' %}
+<ul class="skills">
+{% for skill in section.contents %}
+<li>{% if skill.tag %}<a href="../tags/#{{skill.tag}}">{% endif %}{{ skill.text }}{% if skill.tag %}</a>{% endif %}</li>
+{% endfor %}
+</ul>
+{% endif %}
+<!-- Notables -->
+{% if section.heading == 'Notables' %}
+{% for notable in section.contents %}
+<h3>{{ notable.event }}</h3>
+<h4>{{ notable.title }}, {{ notable.dates }}</h4>
+{% endfor %}
+{% endif %}
+{% endfor %} <!--- end section -->
+{% endfor %} <!--- end item -->
+
+</div>
+</div>
+{% include footer.html %}
+{% include end.html %}
+</body>
+</html>
