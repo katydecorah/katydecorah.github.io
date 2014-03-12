@@ -1,0 +1,123 @@
+- header:
+  - name: Katy DeCorah
+    contents:
+    - text: Albany, NY
+    - text: katydecorah@gmail.com
+      link: mailto:katydecorah@gmail.com
+    - text: katydecorah.com
+      link: http://katydecorah.com
+- section:
+  - heading: Experience
+    contents:
+    - title: "Instructional Designer, Sr. Education Specialist"
+      company: "Professional Development Program, Research Foundation at SUNY"
+      dates: "January 2011&ndash;present"
+      show: true
+      roles:
+        - text: "Design and develop responsive and accessible trainings using HTML, CSS, jQuery, and ColdFusion."
+        - text: "Maintain TrainingSpace with accessibility, performance, and cross browser/device testing."
+        - text: "Redesigned TrainingSpace by building a custom content management system."
+        - text: "Developed data collection methods and a custom analytics dashboard used for report generation."
+        - text: "Provide user support and troubleshoot technical issues for TrainingSpace."
+    - title: Adjunct Professor
+      company: "Informatics Department, University at Albany"
+      dates: "September 2011&ndash;May 2013"
+      show: true
+      roles:
+        - text: "Instructed Web Development (IIST 361) and Intermediate Web Development (IINF 362)."
+        - text: "Developed an adaptive curriculum based on changing best practices."
+        - text: "Developed a course management tool as an alternative to Blackboard."
+    - title: Web Design Intern 
+      company: IntelliSites
+      dates: "January 2011&ndash;May 2011"
+      show: true
+      roles:
+        - text: "Designed interfaces and built websites for clients using HTML, CSS, and jQuery."
+        - text: Performed content and design updates to existing websites.
+    - title: Workshop Leader
+      company: Social Robotics Workshop
+      dates: "Summer 2010&ndash;present"
+      roles:
+        - text: Contributed to a robotics workshop to encourage children to pursue careers in computing.
+        - text: Present workshop to groups, conferences, and camps throughout the northeast.
+        - text: Designed website and printed materials.
+    - title: Assistant Director
+      company: College of Computing &amp; Information, University at Albany
+      dates: September 2011&ndash;January 2013
+      roles:
+        - text: Organized events and programs by applying for grants, creating surveys, and writing reports.
+        - text: Administered the College's social media presence.
+- section:
+  - heading: Education
+    contents: 
+    - school: "University at Albany, State University of New York"
+      degree: "Master of Science, Information Science"
+      date: May 2011
+      gpa: 3.75
+      notables:
+        - text: Certified NYS public librarian
+    - school: "Siena College, Loudonville, New York"
+      degree: "Bachelors of Arts, History"
+      date: May 2009
+      gpa: 3.55
+      notables:
+        - text: "Classics &amp; Modern Language minor"
+        - text: "Phi Alpha Theta, National History Honor Society"
+        - text: "Pi Gamma Mu, International Honor Society in Social Sciences"
+        - text: "Dean's List: Fall 2006, Spring 2007, Fall 2007, Spring 2008"
+        - text: "President's List: Fall 2008, Spring 2009"
+- section:
+  - heading: Skills
+    contents:
+    - text: HTML
+      level: +
+    - text: Haml
+      tag: haml
+    - text: CSS
+      level: +
+    - text: Sass
+      tag: sass
+      level: +
+    - text: jQuery
+      tag: jquery
+    - text: Angular
+      tag: angular
+    - text: Ajax
+    - text: ColdFusion
+    - text: SQL
+      level: +
+    - text: PHP
+    - text: API
+      tag: api
+    - text: Git
+      tag: git
+    - text: Jekyll/Liquid Markup
+      tag: jekyll
+      level: +
+    - text: responsive web design
+      level: +
+    - text: Section 508
+      level: +
+    - text: web performance
+    - text: cross-browser testing
+    - text: Twitter Bootstrap
+      level: +
+- section:
+  - heading: Notables
+    contents:
+      - event: CodePen Rodeo Runner-up
+        title: Typeset a Poem
+        link: http://blog.codepen.io/rodeo/season-two/)
+        dates: May 23, 2013
+      - event: New York Celebration of Women in Computing Conference (NYCWIC)
+        title: Web Development in eLearning
+        abstract: Teaching a group of learners with varied abilities, on a variety of devices, asynchronously, is the challenge of eLearning development. When use cases are hard to define, focusing on accessibility, performance, and responsive design will help to ensure courses remain effective to all learners.
+        dates: April 19&ndash;20, 2013
+      - event: 4th Quarter Innovation Award
+        title: Professional Development Program
+        dates: December 2012
+      - event: Grace Hopper Celebration of Women in Computing Conference
+        title: Are They There Yet? A Social Robotics Workshop for Engaging Girls Where They Are
+        dates: October 3&ndash;6, 2012
+        presenters: Jennifer Goodall (University at Albany), Nick Webb (Union College), Katy DeCorah (University at Albany)
+        abstract: Social Robotics Workshop outreach meets grades 5-12 students where they are with the technology and ideas behind social robots and introductory programming. Learn how we convey core concepts of robotics and programming, enabling students to see the link between form and function, and allow students to program interactive social behaviors. Data indicating workshop effectiveness and practical ideas regarding replicating this workshop are provided. We will also demonstrate some workshop exercises.
