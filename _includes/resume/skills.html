@@ -1,0 +1,7 @@
+{% if section.heading == 'Skills' %}
+<ul class="skills">
+{% for skill in section.contents %}
+<li>{% if skill.tag %}<a href="../tags/#{{skill.tag}}">{% endif %}{{ skill.text }}{% if skill.tag %}</a>{% endif %}</li>
+{% endfor %}
+</ul>
+{% endif %}
