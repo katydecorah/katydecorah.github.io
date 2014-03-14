@@ -1,7 +1,11 @@
 .page-resume {
 	h1 {
-		text-align:center;
-		margin-bottom: 0.25em;
+		font-style: normal;
+		margin-bottom: 0;
+		color: lighten($darkAccent,15%);
+		font-size: 1.75em;
+		@extend .body-type;
+		@extend .text-left;
 	}
 	h2 {
 		border-bottom: 0.1em solid #222;
@@ -20,16 +24,15 @@
 		font-style: italic;
 		@extend .body-type;
 	}
-	.date {
-		@extend .small;
-		@extend .pull-right;
-	}
 
 	ul {
 		list-style-type: disc;
 		margin-top: 0.25em;
 	}
-	li {margin:0;}
+	li {
+		line-height: 1.3;
+		margin-bottom: 0.5em;
+	}
 
 	.skills {
 		@include columns(3, 10);
@@ -39,7 +42,7 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		@extend .text-center;
+		color: lighten($darkAccent,15%);
 		@extend .small;
 		li {display: inline-block;}
 	}

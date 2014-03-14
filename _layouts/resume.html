@@ -9,7 +9,7 @@
 <h1>{{ header.name }}</h1>
 <ul class="inline">
 {% for about in header.contents %}
-<li>{% if about.link %}<a href="{{about.link}}">{% endif %}{{ about.text }}{% if about.link %}</a>{% endif %} {% if forloop.last %}{% else %} &bull; {% endif %}</li>
+<li>{% if about.link %}<a href="{{about.link}}">{% endif %}{{ about.text }}{% if about.link %}</a>{% endif %} {% if forloop.last %}{% else %} &times; {% endif %}</li>
 {% endfor %}
 </ul>
 {% endfor %}

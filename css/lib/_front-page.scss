@@ -24,7 +24,7 @@
     @include transition(0.5s linear);
     .post-thumb {
       @include scale(1.3);
-      @include transition(all 2s linear);
+      @include transition(all 10s linear);
     }
     .post-excerpt {
       @include opacity(1);

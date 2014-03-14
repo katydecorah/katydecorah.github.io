@@ -1,9 +1,8 @@
 {% if section.heading == 'Experience' %}
 {% for job in section.contents %}
 {% if job.show %}
-<p class="date">{{ job.from }} &mdash; {{ job.to }}</p>
 <h3>{{ job.title }}</h3>
-<h4>{{ job.company }}</h4>
+<h4>{{ job.company }}, {{ job.from }} &mdash; {{ job.to }}</h4>
 <ul>
 {% for role in job.roles %}
 <li>{{ role.text }}</li>
