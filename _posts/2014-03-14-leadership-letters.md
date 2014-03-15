@@ -22,7 +22,7 @@ I recreated [Leadership Letters #2. by Jeroen van Eerden](http://drbl.in/ktXg) u
 
 ## Border control
 
-The project has eight block elements, `.item`, nested in a container. Each `.item` looks like the number seven. I assigned the top and right `border-color` colors, while I gave the bottom and left `border-color` transparent values.
+The project has eight block elements, `.item`, nested in a container. Each `.item` is the letter `L`. (In my first commit I totally wrote that it was the number '7', re: title.) To get the shape, I assigned the top and right `border-color` colors, while I gave the bottom and left `border-color` transparent values.
 
 <figure>
 <p data-height="300" data-theme-id="5127" data-slug-hash="b113f096098c45121f65a78adc5f8af6" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/b113f096098c45121f65a78adc5f8af6'>Leadership Letters demo 1</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
