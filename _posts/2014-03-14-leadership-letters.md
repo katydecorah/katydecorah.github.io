@@ -8,7 +8,7 @@ tags:
 - Sass
 - border
 - animation
-- dribbble
+- Dribbble
 image: http://farm8.staticflickr.com/7083/13157662535_270504e7a3_o.png
 pen: htBka
 dribbble: http://drbl.in/ktXg
