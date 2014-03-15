@@ -20,7 +20,7 @@ title: Playlists
 <div class="playlist-track">
 <span class="track-name">{{ tracks.track }}</span>
 <span class="track-artist">{{ tracks.artist }}</span>
-{% if tracks.album %}<span class="track-album">- {{ tracks.album }}</span>{% endif %}
+{% if tracks.album and tracks.album != '' %}<span class="track-album">- {{ tracks.album }}</span>{% endif %}
 </div>
 {% endfor %}
 </div>
