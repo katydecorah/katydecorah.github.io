@@ -1,0 +1,30 @@
+.playlist-meta {
+	margin-bottom: 1em;
+	@extend .small;
+}
+
+.playlist-nostalgia {
+	display: block;
+	font-style: italic;
+}
+
+
+.playlist {
+	@include columns(2,1em);
+	h2 {display: none;}
+}
+.playlist-track {
+	margin-bottom:1em;
+	line-height:1.2;
+}
+.track-name {
+	display: block;
+}
+.track-artist, .track-album {
+	color:#999;
+	@extend .small;
+}
+
+.rdio-playlist-link {
+	margin-bottom: 2em;
+}

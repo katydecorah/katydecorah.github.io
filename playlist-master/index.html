@@ -9,10 +9,12 @@ title: Playlists
 <li><a href="#{{ playlist.playlist | replace: ' ', '_' | downcase }}">{{ playlist.playlist }}</a></li>
 {% endfor %}
 </ul>
-
-
 {% for playlist in item.playlists %}
 <h2 id="{{ playlist.playlist | replace: ' ', '_' | downcase }}">{{ playlist.playlist }}</h2>
+<div class="playlist-meta">
+{% if playlist.nostalgia %}<span class="playlist-nostalgia">{{ playlist.nostalgia }}</span>{% endif %}
+{% if playlist.rdio %}<a href="{{ playlist.rdio }}" class="playlist-rdio">Rdio playlist</a>{% endif %}
+</div>
 <div class="playlist">
 {% for tracks in playlist.tracks %}
 <div class="playlist-track">

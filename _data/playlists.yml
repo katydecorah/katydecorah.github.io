@@ -1,5 +1,7 @@
 - playlists:
-  - playlist: "2004-05"
+  - playlist: 2004-2005
+    nostalgia: high school favorites
+    rdio: http://rd.io/x/QXaYuDMoxkU/
     tracks:
     - track: "King Of Carrot Flowers Part 1"
       artist: "Neutral Milk Hotel"
@@ -70,7 +72,9 @@
     - track: "For the Widows In Paradise, for the Fatherless In Ypsilanti"
       artist: "Sufjan Stevens"
       album: "Greetings From Michigan: The Great Lakes State"
-  - playlist: Spring 08 - too lazy to update ipod so i listened to this stupid playlist for three months
+  - playlist: 2008 Spring
+    nostalgia: Spring 08 - too lazy to update ipod so i listened to this stupid playlist for three months
+    rdio: http://rd.io/x/QXaYuDMox0M/
     tracks:
     - track: "Backpack Caviar"
       artist: "Flying Lotus"
@@ -111,7 +115,9 @@
     - track: "The Palm Sunday Tornado Hits Crystal Lake"
       artist: "Sufjan Stevens"
       album: "The Avalanche - Outtakes and Extras from the Illinois Album"
-  - playlist: "Summer 08 - GOOD MORNINGG, how to start your day when you work at a girl scout camp"
+  - playlist: 2008 Summer 
+    nostalgia: "Summer 08 - GOOD MORNINGG, how to start your day when you work at a girl scout camp"
+    rdio: http://rd.io/x/QXaYuDMoxyI/
     tracks:
     - track: "Bossy (Dirty)"
       artist: "Kelis feat. Too $hort"
@@ -179,7 +185,9 @@
     - track: "Disturbia"
       artist: "Rihanna"
       album: "Good Girl Gone Bad: Reloaded"
-  - playlist: Spring 09 - done-zo
+  - playlist: 2009 Spring
+    nostalgia: Spring 09 - done-zo
+    rdio: http://rd.io/x/QXaYuDMox08/
     tracks:
     - track: "Thank Me With Your Hands"
       artist: "Panthers"
@@ -223,7 +231,9 @@
     - track: "My Year In Lists"
       artist: "Los Campesinos!"
       album: "Hold On Now, Youngster..."
-  - playlist: "SUMMER 09 - summer of angst. i hate my job &amp; SGF. yet, this playlists reminds me of roadtrips to Burlington."
+  - playlist: 2009 Summer
+    nostalgia: "SUMMER 09 - summer of angst. i hate my job &amp; SGF. yet, this playlists reminds me of roadtrips to Burlington."
+    rdio: http://rd.io/x/QXaYuDMoxzo/
     tracks:
     - track: "Poppin Them Bottles feat. Currency &amp; Mac Maine"
       artist: "DJ Drama &amp; Lil Wayne"
@@ -483,7 +493,9 @@
     - track: "I Hate People"
       artist: "Jemina Pearl (Feat Iggy Pop)"
       album: "Break It Up"
-  - playlist: "Fall 09 - suckahs, it's always sunny in albany"
+  - playlist: 2009 Fall
+    nostalgia: "Fall 09 - suckahs, it's always sunny in albany"
+    rdio: http://rd.io/x/QXaYuDMoxjA/
     tracks:
     - track: "Oh (Cadence Weapon Smart Bomb Remix, Ciara)"
       artist: "Cadence Weapon"
@@ -647,7 +659,9 @@
     - track: "In the Devil's Territory"
       artist: "Sufjan Stevens"
       album: "Seven Swans"
-  - playlist: "Winter 09//10 - albany i love you, but you're bring me down"
+  - playlist: 2009/2010 Winter
+    nostalgia: "Winter 09//10 - albany i love you, but you're bring me down"
+    rdio: http://rd.io/x/QXaYuDMox5o/
     tracks:
     - track: "The Heart Gently Weeps"
       artist: "Wu-Tang Clan"
@@ -790,7 +804,9 @@
     - track: "A Winner Needs a Wand"
       artist: "Sufjan Stevens"
       album: "A Sun Came"
-  - playlist: Spring 10 - get it right.
+  - playlist: 2010 Spring
+    nostalgia: Spring 10 - get it right.
+    rdio: http://rd.io/x/QXaYuDMox10/
     tracks:
     - track: "Thats You"
       artist: "Johnny Polygon"
@@ -861,7 +877,9 @@
     - track: "Tightrope (Featuring Big Boi) [Album Version] {Big Boi Vocal Edit}"
       artist: "Janelle Monae"
       album: "The ArchAndroid"
-  - playlist: Summer 10 - albs.
+  - playlist: 2010 Summer
+    nostalgia: Summer 10 - albs.
+    rdio: http://rd.io/x/QXaYuDMox9k/
     tracks:
     - track: "Lloyd, I'm Ready to Be Heartbroken"
       artist: "Camera Obscura"
@@ -986,7 +1004,9 @@
     - track: "This Must Be The Place"
       artist: "Talking Heads"
       album: "TMT: Our Favorite Summer Jams"
-  - playlist: Fall 10 - flyin solo?
+  - playlist: 2010 Fall
+    nostalgia: Fall 10 - flyin solo?
+    rdio: http://rd.io/x/QXaYuDMoxtM/
     tracks:
     - track: "Central and Remote"
       artist: "Grizzly Bear"
@@ -1135,7 +1155,8 @@
     - track: "Hospice Gates"
       artist: "Lower Dens"
       album: "Twin-Hand Movement"
-  - playlist: Winter 10//11
+  - playlist: 2010/2011 Winter
+    rdio: http://rd.io/x/QXaYuDMox64/
     tracks:
     - track: "Birthday"
       artist: "Junior Boys"
@@ -1227,7 +1248,9 @@
     - track: "Consequence"
       artist: "The Notwist"
       album: ""
-  - playlist: SPRING 20!!
+  - playlist: 2011 Spring
+    nostalgia: SPRING 20!!
+    rdio: http://rd.io/x/QXaYuDMox2w/
     tracks:
     - track: "I Want You"
       artist: "Summer Camp"
@@ -1274,7 +1297,8 @@
     - track: "Lament"
       artist: "Mount Moriah"
       album: "Mount Moriah"
-  - playlist: Summer 2011
+  - playlist: 2011 Summer
+    rdio: http://rd.io/x/QXaYuDMox-8/
     tracks:
     - track: "Cat Claw"
       artist: "The Kills"
@@ -1387,7 +1411,8 @@
     - track: "Toooonmiiiight"
       artist: "Shabazz Palaces"
       album: "Big Orange Studios  7/13/2011"
-  - playlist: fall 2011
+  - playlist: 2011 Fall
+    rdio: http://rd.io/x/QXaYuDMoxuo/
     tracks:
     - track: "Ease"
       artist: "Hanne Hukkelberg"
@@ -1497,7 +1522,8 @@
     - track: "Solid Gold"
       artist: "AU"
       album: "Both Lights"
-  - playlist: Winter 11|12
+  - playlist: 2011/2012 Winter
+    rdio: http://rd.io/x/QXaYuDMoxEk/
     tracks:
     - track: "Notorious Thugs feat Bone Thugs-n-Harmony"
       artist: "The Notorious B.I.G."
@@ -1616,7 +1642,8 @@
     - track: "The Road"
       artist: "Mirel Wagner"
       album: "Mirel Wagner"
-  - playlist: Spring 2012
+  - playlist: 2012 Spring
+    rdio: http://rd.io/x/QXaYuDMox34/
     tracks:
     - track: "Lyrical Swords"
       artist: "GZA &amp; Ras Kass"
@@ -1780,7 +1807,8 @@
     - track: "Drone On (feat. Jamie Krasner)"
       artist: "Physical Therapy"
       album: "Safety Net"
-  - playlist: SUMMER 2012
+  - playlist: 2012 Summer
+    rdio: http://rd.io/x/QXaYuDMox_0/
     tracks:
     - track: "Bottom of the Lake"
       artist: "The Builders and the Butchers"
@@ -1890,7 +1918,8 @@
     - track: "Elizabeth's Theme"
       artist: "Dirty Beaches"
       album: "Kingfisher Bluez Single-Side Series: Vancouver DIY"
-  - playlist: Fall 2012
+  - playlist: 2012 Fall
+    rdio: http://rd.io/x/QXaYuDNM4Ec/
     tracks:
     - track: "Oblivion"
       artist: "Grimes"
@@ -2015,7 +2044,8 @@
     - track: "VII Babies"
       artist: "Tops"
       album: "Tender Opposites"
-  - playlist: Winter 2013
+  - playlist: 2013 Winter
+    rdio: http://rd.io/x/QXaYuDNDioI/
     tracks:
     - track: "Still Life"
       artist: "Social Studies"
@@ -2143,7 +2173,8 @@
     - track: "Petition"
       artist: "Tennis"
       album: "Young &amp; Old"
-  - playlist: Spring 2013
+  - playlist: 2013 Spring
+    rdio: http://rd.io/x/QXaYuDN4wFE/
     tracks:
     - track: "Ready For The World"
       artist: "How To Dress Well"
@@ -2229,7 +2260,8 @@
     - track: "Your Drums, Your Love"
       artist: "AlunaGeorge"
       album: "Your Drums, Your Love"
-  - playlist: Summer 2013
+  - playlist: 2013 Summer
+    rdio: http://rd.io/x/QXaYuDNiazM/
     tracks:
     - track: "Your Ex-Lover Is Dead"
       artist: "Stars"
@@ -2339,7 +2371,8 @@
     - track: "All Your Gold"
       artist: "Bat For Lashes"
       album: "The Haunted Man (Deluxe Version)"
-  - playlist: Fall 2013
+  - playlist: 2013 Fall
+    rdio: http://rd.io/x/QXaYuDM-fjA/
     tracks:
     - track: "Side A (Old)"
       artist: "Danny Brown"
