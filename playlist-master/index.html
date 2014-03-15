@@ -1,0 +1,26 @@
+---
+layout: default
+title: Playlists
+---
+
+{% for item in site.data.playlists %}
+<ul>
+{% for playlist in item.playlists %}
+<li><a href="#{{ playlist.playlist | replace: ' ', '_' | downcase }}">{{ playlist.playlist }}</a></li>
+{% endfor %}
+</ul>
+
+
+{% for playlist in item.playlists %}
+<h2 id="{{ playlist.playlist | replace: ' ', '_' | downcase }}">{{ playlist.playlist }}</h2>
+<div class="playlist">
+{% for tracks in playlist.tracks %}
+<div class="playlist-track">
+<span class="track-name">{{ tracks.track }}</span>
+<span class="track-artist">{{ tracks.artist }}</span>
+{% if tracks.album %}<span class="track-album">- {{ tracks.album }}</span>{% endif %}
+</div>
+{% endfor %}
+</div>
+{% endfor %}
+{% endfor %}
