@@ -12,9 +12,11 @@ tags:
   - gradient
   - transform
   - animation
-image: "https://dl.dropbox.com/s/q4he7hpqshi3khn/escape-elements.png"
+image: http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg
 updated: 2014/01/18
 published: true
+dribbble: http://drbl.in/jMcZ
+pen: mJeba
 ---
 
 <p data-height="450" data-theme-id="97" data-slug-hash="mJeba" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/mJeba'>Escape by Carla Corrales</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -24,7 +26,7 @@ I have another single element project! I explored the Dribbble shot [Escape by C
 ## .marker
 The main element, `.marker`, is the map marker shape. The `:before` is the inner circles and the `:after` is the dial.
 
-![element diagram](https://dl.dropbox.com/s/q4he7hpqshi3khn/escape-elements.png)
+![element diagram](http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg)
 
 I created the marker shape by using a `border-radius: 100% 100% 0;`. Then I rotated the element 45 degrees, making it sit on its point. I used a linear gradient for the two-toned look of the background.
 
