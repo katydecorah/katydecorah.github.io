@@ -1,8 +1,7 @@
-{% include top.html %}
-<body class="default-page page-{{ page.title | downcase | replace:' ','_'  }}">
-{% include skip.html %}
-<div class="container">
-<div class="content" id="content">
+---
+layout: no-header
+title: Resume
+---
 
 {% for item in site.data.resume %}
 {% for header in item.header %}
@@ -24,9 +23,3 @@
 {% include resume/notables.html %}
 {% endfor %}
 {% endfor %}
-</div>
-</div>
-{% include footer.html %}
-{% include end.html %}
-</body>
-</html>

@@ -1,11 +1,10 @@
 {% include top.html %}
-<body class="default-page {{ page.class }}">
+<body class="default-page page-{{ page.title | downcase | replace:' ','_'  }}">
 {% include skip.html %}
 <div class="container">
-<a href="{{ site.url }}" class="logo">{{ site.name }}</a>
-</div>
-<div class="container content" id="content">
+<div class="content" id="content">
 {{ content }}
+</div>
 </div>
 {% include footer.html %}
 {% include end.html %}
