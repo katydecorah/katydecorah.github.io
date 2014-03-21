@@ -1,0 +1,19 @@
+{% for item in site.data.playlists %}
+{% for playlist in item.playlists %}
+{% if page.title == playlist.playlist %}
+<p class="playlist-meta">
+{% if playlist.nostalgia %}<span class="lead">{{ playlist.nostalgia }}</span>{% endif %}
+{% if playlist.rdio %} <a href="{{ playlist.rdio }}" class="playlist-rdio"><i class="fa fa-music btn-circle"></i> Rdio playlist</a>{% endif %}
+</p>
+<div class="playlist">
+{% for tracks in playlist.tracks %}
+<div class="playlist-track">
+<span class="track-name">{{ tracks.track }} </span>
+<span class="track-artist">{{ tracks.artist }} </span>
+{% if tracks.album and tracks.album != '' %}<span class="track-album"> - {{ tracks.album }}</span>{% endif %}
+</div>
+{% endfor %}
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}

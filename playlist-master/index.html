@@ -18,9 +18,9 @@ title: Playlists
 <div class="playlist">
 {% for tracks in playlist.tracks %}
 <div class="playlist-track">
-<span class="track-name">{{ tracks.track }}</span>
-<span class="track-artist">{{ tracks.artist }}</span>
-{% if tracks.album and tracks.album != '' %}<span class="track-album">- {{ tracks.album }}</span>{% endif %}
+<span class="track-name">{{ tracks.track }} </span>
+<span class="track-artist">{{ tracks.artist }} </span>
+{% if tracks.album and tracks.album != '' %}<span class="track-album"> - {{ tracks.album }}</span>{% endif %}
 </div>
 {% endfor %}
 </div>

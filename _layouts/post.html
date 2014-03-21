@@ -11,8 +11,12 @@
 </div>
 <div class="container" id="content">
 <div class="post">
-{% if page.rdio %}<div class="rdio-playlist-link"><a href="{{page.rdio}}"><i class="fa fa-music btn-circle"></i> Rdio playlist</a></div>{% endif %}
 {{ content }}
+
+{% if page.category == 'playlists' %}
+{% include single-playlist.html %}
+{% endif %}
+
 {% if page.browser %}<p class="meta-browser">Demos looking strange in your browser? I used {{page.browser}}.</p>{% endif %}
 <div class="post-footer">
 {% include locations.html %}
