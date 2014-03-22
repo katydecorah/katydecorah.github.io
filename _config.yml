@@ -22,7 +22,7 @@ timezone: America/New_York
 exclude: ["vendor"] # make travis happy
 
 links:
-- text: Sup?
+- text: Home
   url: http://katydecorah.com
   icon: home
   type: internal
@@ -30,7 +30,7 @@ links:
   url: http://katydecorah.com/archive/
   icon: archive
   type: internal
-- text: email
+- text: Email
   url: mailto:katydecorah@gmail.com
   icon: envelope
   type: external
