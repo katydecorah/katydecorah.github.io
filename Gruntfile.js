@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         },*/
 
         uglify: {
-         files: {
+           files: {
             src: 'js/lib/*.js',  // source files mask
             dest: 'js/',    // destination folder
             expand: true,    // allow dynamic building
@@ -41,25 +41,33 @@ module.exports = function(grunt) {
             }
         }
     },
-    watch: {
+    autoprefixer: {
         options: {
-            livereload: true,
+          browsers: ['last 2 version', 'ie 9']
+      },
+      target: {
+        src: 'css/style.css'
+    }
+},
+watch: {
+    options: {
+        livereload: true,
+    },
+    scripts: {
+        files: ['js/lib/*.js'],
+        tasks: ['uglify'],
+        options: {
+            spawn: false,
         },
-        scripts: {
-            files: ['js/lib/*.js'],
-            tasks: ['uglify'],
-            options: {
-                spawn: false,
-            },
-        },
-        css: {
-            files: ['css/lib/*.scss'],
-            tasks: ['sass'],
-            options: {
-                spawn: false,
-            }
+    },
+    css: {
+        files: ['css/lib/*.scss'],
+        tasks: ['sass','autoprefixer'],
+        options: {
+            spawn: false,
         }
     }
+}
 
 });
 
@@ -68,10 +76,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['uglify','imagemin','sass','watch']);
+    grunt.registerTask('default', ['uglify','imagemin','sass','autoprefixer','watch']);
 
 };

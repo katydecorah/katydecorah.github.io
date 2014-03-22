@@ -42,9 +42,9 @@
   margin-top:1em;
   @extend .clearfix;
   @include breakpoint(m){width:50%;}
-  @include transition(all .5s linear);
+  transition: all .5s linear;
   &:hover {
-    @include transition(all .5s linear);
+    transition: all .5s linear;
     color:lighten($darkAccent,15%);
     .btn-circle {background:$btnHover;}
   }
@@ -62,12 +62,7 @@
     @include breakpoint(m){left:-2.25em;}
   }
 }
-.post-prev:hover .btn-circle {
-  @include translate(-0.5em,0);
-}
-.post-next:hover .btn-circle {
-  @include translate(0.5em,0);
-}
+
 
 
 

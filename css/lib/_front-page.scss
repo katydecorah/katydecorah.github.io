@@ -21,14 +21,14 @@
   @extend .clearfix;
   color: $darkAccent;
   &:hover{
-    @include transition(0.5s linear);
+    transition: 0.5s linear;
     .post-thumb {
-      @include scale(1.3);
-      @include transition(all 10s linear);
+      transform: scale(1.3);
+      transition: all 10s linear;
     }
     .post-excerpt {
-      @include opacity(1);
-      @include transition(opacity .5s linear);
+      opacity: 1;
+      transition: opacity .5s linear;
     }
 
   }
@@ -42,7 +42,7 @@
     width: 40%;
     margin: 0.5em 2em 1em 0;
     overflow: hidden;
-    @include transition(all 1s);
+    transition: all 1s;
   }
 }
 .post-thumb {
@@ -51,7 +51,7 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-  @include transition(all 1s);
+  transition: all 1s;
 }
 .post-title {
   font-size:2.25em;

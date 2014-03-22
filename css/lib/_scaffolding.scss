@@ -1,50 +1,48 @@
-* {
-  @include box-sizing(border-box);
-}
+* {  box-sizing: border-box;}
 html,body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 html {
-	width:100%;
-	min-height:100%;
+	width: 100%;
+	min-height: 100%;
 }
 body {
-  font-size:16px;
-  line-height:1.618;
-  color:$textColor;
-  font-weight:300;
-  height:100%;
-  width:100%;
-  background-color:$bodyBackground;
-   @extend .body-type;
+  font-size: 16px;
+  line-height: 1.618;
+  color: $textColor;
+  font-weight: 300;
+  height: 100%;
+  width: 100%;
+  background-color: $bodyBackground;
+  @extend .body-type;
 }
-  
+
 a {
-  color:darken($btnHover,20%);
-  text-decoration:none;
+  color: darken($btnHover,20%);
+  text-decoration: none;
   &:hover {
-      color:darken($btnHover,10%);
-    }
+    color: darken($btnHover,10%);
+  }
 }
 
 hr {
-  margin:1em 0;
+  margin: 1em 0;
 }
 
 .img-center {
-  display:block;
-  margin:0 auto;
+  display: block;
+  margin: 0 auto;
 }
-.text-left {text-align:left;}
-.text-right {text-align:right;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
 
 
 .pull-right {
-  float:right;
+  float: right;
 }
 .pull-left {
-  float:left;
+  float: left;
 }
 
 img {
@@ -59,7 +57,7 @@ img {
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0,0,0,.2);
-  @include box-shadow(0 1px 3px rgba(0,0,0,.1));
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
 }
 
 
@@ -68,7 +66,7 @@ img {
 .img-fourths {width:25%}
 .img-split-wide, .img-wide {width:64%}
 .img-split-tall, .img-tall {width:36%}
-.rotate-left {@include rotate(-90deg);}
+.rotate-left {transform: rotate(-90deg);}
 
 .img-half, .img-thirds, .img-fourths, .img-split-wide, .img-wide, .img-split-tall, .img-tall {
   display:inline-block;

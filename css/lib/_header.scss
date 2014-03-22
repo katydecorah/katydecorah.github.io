@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  @include transition(all .25s);
+  transition: 0.25s;
   margin-bottom: 1em;
   @extend .clearfix;
 
@@ -18,23 +18,24 @@
 }
 @include breakpoint(m) { 
   .header:hover {
-    @include transition(all .25s);
+    transition: 0.25s;
     .nav {
-      @include translate(0,0);
-      @include transition(all .25s);
+      transform: translate(0,0);
+      transition: 0.25s;
     }
   }
 }
 
 .nav {
-  font-size: 1.25em;
+  .footer & { font-size: 1.25em;}
   position: relative;
   margin: 0;
   padding: 0;
-  @include transition(all .25s);
-  @include breakpoint(m) { 
-    @include translate(0,-5em);
-    float: left;
+  transition: .25s;
+  .header & {
+    @include breakpoint(m) { 
+      transform: translate(0,-5em);
+    }
   }
   li {
     display: inline-block;
@@ -44,4 +45,5 @@
 .nav-link {
   display: block;
   padding: 0.5em;
+  .header & {@extend .small;}
 }

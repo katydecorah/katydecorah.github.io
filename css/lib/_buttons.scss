@@ -10,7 +10,6 @@
   margin: 1em 0.25em;
   font-size:1em;
   text-align:center;
-  @include transition(all .25s linear);
   &:hover {
     background:$btnHover;
     color:white;
@@ -24,7 +23,6 @@
   border-radius: 0.3em;
   margin: 1em 0.5em;
   display: inline-block;
-  @include transition(all .25s linear);
   &:hover {
     background:$btnHover;
     color:white;

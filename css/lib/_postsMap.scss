@@ -1,11 +1,11 @@
 .post-map-header-google {
 	margin-bottom: 1em;
-@include breakpoint(m){min-height: 22em;}
+	@include breakpoint(m){min-height: 22em;}
 }
 .post-map-header-mapbox {
-	 @include breakpoint(m){height:26em;}
+	@include breakpoint(m){height:26em;}
 
-	 .post-map-header {height: 26em;}
+	.post-map-header {height: 26em;}
 }
 
 .post-map-header {
@@ -21,25 +21,25 @@
 	@include breakpoint(m){
 		display: block;
 		margin: 0 auto;
-		@include opacity(0.25);
+		opacity: 0.25;
 	}
 }
 
 
 
 .leaflet-container,.leaflet-clickable {cursor: default !important;}
-.leaflet-tile-pane {@include opacity(0.5);}
+.leaflet-tile-pane { opacity: 0.5;}
 
 
 .leaflet-marker-icon {
-	@include animation(drop .75s backwards linear);
-  @for $i from 1 through 5 {
-    &:nth-child(#{$i}){
-      @include animation-delay(($i * 0.1s) + 0.5);
-    }
-  }
+	animation: drop .75s backwards linear;
+	@for $i from 1 through 5 {
+		&:nth-child(#{$i}){
+			animation-delay:($i * 0.1s) + 0.5;
+		}
+	}
 }
 
-@include keyframes (drop) {
-  from {top:-50em;}
+@keyframes drop {
+	from {top:-50em;}
 }

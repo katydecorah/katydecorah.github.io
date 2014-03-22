@@ -10,7 +10,7 @@
 
 
 .playlist {
-	@include columns(2,1em);
+	columns: 2 1em;
 	h2 {display: none;}
 }
 .playlist-track {
