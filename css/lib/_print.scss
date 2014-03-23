@@ -8,6 +8,7 @@
 
  	.page-resume {
  		font-size:12px;
+ 		h2 {color: $textColor;}
  		.skills {margin: 1em 0 0;}
  		.skills li { display: inline-block; }
  		.skills li:after {content: ","}
