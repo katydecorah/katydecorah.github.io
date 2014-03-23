@@ -35,8 +35,9 @@
 	}
 
 	.skills {
-		columns: 3 10;
-		list-style:none;
+		columns: 1em 3;
+		list-style: none;
+		padding: 0;
 	}
 	.inline {
 		list-style: none;
