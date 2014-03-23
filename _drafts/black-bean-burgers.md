@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Black Bean Burgers
-category: edibles
-tags: null
-image: null
+category: epicurean
+tags:
+image: 
 published: true
 ---
 
