@@ -14,9 +14,9 @@ In 2008, I started creating a playlist for every season. I kept my playlists in 
 
 ## Jail breaking the playlists
 
-When I got a new computer in 2012, I didn't save my playlists in iTunes properly. In short, my files got disconnected from my library. It was a hot mess, but thankfully I had the original `iTunes Music Library.xml`. I found [a great tutorial](http://www.youtube.com/watch?v=MIOUirsX0LM) that taught me how to import the data in the XML into an Access database. Eventually, I migrated the database to PHPmyadmin.
+When I got a new computer in 2012, I didn't save my playlists in iTunes properly. In short, my files got disconnected from my library. It was a hot mess, but thankfully I had the original `iTunes Music Library.xml`. I found [a great tutorial](http://www.youtube.com/watch?v=MIOUirsX0LM) that taught me how to import the data in the XML into an Access database. Now I had a table containing all my playlists with track title, artist, and album.
 
-Using PHP I spun out each playlist into markup and pasted the contents into its own post on this site. It worked great, a little time consuming, but it worked.
+Next, I migrated the database to PHPmyadmin. Using PHP I spun out each playlist into markup and pasted the contents into its own post on this site. It worked great, a little time consuming, but it worked.
 
 ## Importing to Rdio
 
@@ -32,7 +32,7 @@ I decided to tighten up the process.
 
 ## Jekyll data files
 
-I ditched the database and moved the playlists into a YAML file. Using PHP, I spun through the playlists and outputted the data into YAML format. I had to clean out special characters, but in all it worked beautifully. I saved my data into [`playlists.yml`](https://github.com/katydecorah/katydecorah.github.com/blob/master/_data/playlists.yml) in my site's `_data` folder.
+I ditched the database and moved the playlists into a single YAML file. Using PHP, I outputted the playlist data into YAML format. I had to clean out special characters, but in all it worked beautifully. I saved my data into [`playlists.yml`](https://github.com/katydecorah/katydecorah.github.com/blob/master/_data/playlists.yml) in my site's `_data` folder.
 
 ![playlists.xml](https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png)
 
