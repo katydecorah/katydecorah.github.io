@@ -20,9 +20,9 @@ Using PHP I spun out each playlist into markup and pasted the contents into its 
 
 ## Importing to Rdio
 
-After some more hacking, I was able to import the playlists into Rdio using [re/spin](http://resp.in/). Re/spin easily imports any Last.fm or Spotify playlist into Rdio. The service also accept [XSPF](http://www.xspf.org/). I was able to save each playlist as an XSPF and import it into Rdio. Not all songs transferred over, but enough did to make it worth it.
+After some more hacking, I was able to import the playlists into Rdio using [re/spin](http://resp.in/). Re/spin easily imports any Last.fm or Spotify playlist into Rdio. The service also accept [XSPF](http://www.xspf.org/). I was able to save each playlist as an XSPF and import it into Rdio.
 
-The only issue I encountered was when re/spin and Rdio tried unsuccessfully to match a track it would find *something* instead of nothing. If Rdio doesn't have the track on file then re/spin will find anything to put in its place. I had to breeze through each playlist to make a few deletions and corrections in Rdio. Otherwise, re/spin was fantastic.
+Not all songs transferred over, but enough did to make it worth it. Re/spin will want to find something if Rdio doesn't have a match, so beware of some funky replacements. Otherwise, re/spin is a fabulous service.
 
 ## Datarrhea
 
