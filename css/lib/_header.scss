@@ -16,34 +16,3 @@
   text-transform: uppercase;
   clear:both;
 }
-@include breakpoint(m) { 
-  .header:hover {
-    transition: 0.25s;
-    .nav {
-      transform: translate(0,0);
-      transition: 0.25s;
-    }
-  }
-}
-
-.nav {
-  .footer & { font-size: 1.25em;}
-  position: relative;
-  margin: 0;
-  padding: 0;
-  transition: .25s;
-  .header & {
-    @include breakpoint(m) { 
-      transform: translate(0,-5em);
-    }
-  }
-  li {
-    display: inline-block;
-    margin: 0;
-  }
-}
-.nav-link {
-  display: block;
-  padding: 0.5em;
-  .header & {@extend .small;}
-}

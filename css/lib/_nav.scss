@@ -1,0 +1,33 @@
+.nav {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  transition: .25s;
+  .footer & {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    line-height: 1;
+  }
+  .header & {
+    transform: translate(0,-5em);
+  }
+  @include breakpoint(m) { 
+    .header:hover &, .touch .header & {
+      transform: translate(0,0);
+      transition: 0.25s;
+    }
+  }
+  li {
+    display: inline-block;
+    margin: 0;
+  }
+}
+.nav-link {
+  display: block;
+  padding: 0.5em;
+  .header & {@extend .small;}
+  .footer & {
+    padding: 0 0.5em;
+    line-height: 1;
+  }
+}

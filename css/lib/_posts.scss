@@ -45,8 +45,8 @@
   transition: all .5s linear;
   &:hover {
     transition: all .5s linear;
-    color:lighten($darkAccent,15%);
-    .btn-circle {background:$btnHover;}
+    color: lighten($darkAccent,15%);
+    .btn-circle { background: $btnHover;}
   }
   .next, .previous {
     @include breakpoint(m){
@@ -69,27 +69,27 @@
 
 
 .post-prev-next {
-  @include breakpoint(m){padding:0 1em;}
-  clear:both;
-  margin-top:3em;
+  @include breakpoint(m){padding: 0 1em;}
+  clear: both;
+  margin-top: 3em;
   @extend .clearfix;
 }
 
 .post-next-title, .post-prev-title {
   @include breakpoint(m){
-    display:block;
-    padding:0.5em 1em;
+    display: block;
+    padding: 0.5em 1em;
   }
   @extend .small;
   text-transform: uppercase;
 }
 
 .cp_embed_iframe, .pop-out {
-  display:block;
-  max-width:none;
-  position:relative;
-  z-index:10001;
-  max-width:100%;
+  display: block;
+  max-width: none;
+  position: relative;
+  z-index: 10001;
+  max-width: 100%;
   @include breakpoint(xxl){
     width: 120% !important;
     margin: 1em -10% 2em;
