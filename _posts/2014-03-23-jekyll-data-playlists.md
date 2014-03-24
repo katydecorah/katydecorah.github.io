@@ -10,7 +10,7 @@ tags:
 image: https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png
 ---
 
-In 2008, I started creating a playlist for every season. I kept my playlists in iTunes, but have migrated to Rdio. These playlists are my audio diaries. I can listened to one and remember where I was, where I was going, who I was with, and how I felt. I love these playlists.
+In 2008, I started creating a playlist for every season. I kept my playlists in iTunes, but have migrated to Rdio. These playlists are my audio diaries. I can listen to one and remember where I was, where I was going, who I was with, and how I felt. I love these playlists.
 
 ## Jail breaking the playlists
 
@@ -62,7 +62,7 @@ My new workflow for adding a playlist to my site at the end of the season:
 
 ## Rdio bookmarklet
 
-I found [this great bookmarklet](https://gist.github.com/nloko/3001053) that scrapes the title, artist, and album from a given Rdio playlist. I've had little experienced with bookmarklets, but I hacked away at it. My version outputs the playlist into YAML. It also grabs the playlist title, image, and link to the playlist on Rdio.
+I found [this great bookmarklet](https://gist.github.com/nloko/3001053) that scrapes the title, artist, and album from a given Rdio playlist. I've had little experience with bookmarklets, but I hacked away at it. My version outputs the playlist into YAML. It also grabs the playlist title, image, and link to the playlist on Rdio.
 
 At this time, I need to make sure that the entire playlist is loaded and that I open the "Share" modal, otherwise the bookmarklet won't find those values. I'll make the bookmarklet sweet on a rainy day, but for now it works despite the conditions.
 
