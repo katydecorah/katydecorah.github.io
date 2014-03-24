@@ -1,6 +1,7 @@
+{% if page.title != 'Hello!'%}
 <div class="footer">
 <div class="container">
-{% if page.title != 'Hello'%}<p>{{ site.description }}</p>{% endif %}
+<p>{{ site.description }}</p>
 <ul class="nav">
 {% for link in site.links %}
 {% if link.type == 'external' %}
@@ -11,3 +12,4 @@
 <p>Powered by <a href="http://jekyllrb.com/">Jekyll</a> on <a href="https://github.com/katydecorah/katydecorah.github.com">Github</a>.</p>
 </div>
 </div>
+{% endif %}

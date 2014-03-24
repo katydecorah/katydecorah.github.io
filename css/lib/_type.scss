@@ -38,8 +38,12 @@ h3 {font-size: 1.266em;}
 
 h4 {font-size: 1.125em;}
 
-
-
+.xl {
+  font-size: 1.5em;
+}
+.large {
+  font-size: 1.25em;
+}
 small, .small {
   font-size:0.889em;
   @include breakpoint(s) {

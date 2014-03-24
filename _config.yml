@@ -26,6 +26,9 @@ links:
   url: http://katydecorah.com
   icon: home
   type: internal
+- text: Hello
+  url: http://katydecorah.com/hello
+  type: internal
 - text: Archive
   url: http://katydecorah.com/archive/
   icon: archive
