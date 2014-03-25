@@ -10,12 +10,14 @@
   }
   .header & {
     transform: translate(0,-5em);
-  }
-  @include breakpoint(m) { 
-    .header:hover &, .touch .header & {
+    @include breakpoint(s) {
       transform: translate(0,0);
       transition: 0.25s;
     }
+  }
+  .touch .header & {
+    transform: translate(0,0);
+    transition: 0.25s;
   }
   li {
     display: inline-block;
