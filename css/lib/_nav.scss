@@ -15,7 +15,7 @@
       transition: 0.25s;
     }
   }
-  .touch .header & {
+  .touch .header &, .header:hover & {
     transform: translate(0,0);
     transition: 0.25s;
   }
