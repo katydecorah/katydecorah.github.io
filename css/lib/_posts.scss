@@ -9,14 +9,6 @@
 }
 .post-header-no-map {margin-bottom: 5em;}
 
-.post-header {
-  .post-meta {
-    @extend .text-center;
-    @extend .xs;
-    text-transform: uppercase;
-  }
-}
-
 .post-locations,.tags {@extend .text-right;}
 .post-location, .tag {
   font-size: 0.65em;
@@ -134,4 +126,3 @@ figcaption {
   @extend .xs;
   margin-top: 5em;
 }
-

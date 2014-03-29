@@ -13,10 +13,6 @@
 
 }
 
-.post-date {
-  color: $lightAccent;
-  text-transform: uppercase;
-}
 .post-link {
   @extend .clearfix;
   color: $darkAccent;
@@ -26,11 +22,6 @@
       transform: scale(1.3);
       transition: all 10s linear;
     }
-    .post-excerpt {
-      opacity: 1;
-      transition: opacity .5s linear;
-    }
-
   }
 }
 
@@ -61,7 +52,7 @@
   display:block;
   font-style:italic;
   @extend .big-type;
-  @include breakpoint(s) { 
+  @include breakpoint(s) {
     font-size:1.5em;
   }
 }
