@@ -1,20 +1,34 @@
 //////////////// primary
 
-$bodyBackground: 	#fff;
+$bodyBackground:   #fff;
 $darkAccent: 			#2A2B26;
 $lightAccent:			lighten($darkAccent,15%);
-$btnHover:				#4b9ae5; // fell in love with the blue after working on http://katydecorah.com/code/2014/01/01/z-index-and-transform/
+$btnHover:				 #4b9ae5; // fell in love with the blue after working on http://katydecorah.com/code/2014/01/01/z-index-and-transform/
 
 /////////////// secondary
 
-$red:					tomato;
-$gray:				whitesmoke;
-$darkGray: 		#4d4d4d;
-$textColor:   #333;
-$blue:				darken(adjust-hue($red,180),35%);
-$yellow:			#DEB159;
+$red:              tomato;
+$gray:             whitesmoke;
+$darkGray:         #4d4d4d;
+$textColor:        #333;
+$blue:             darken(adjust-hue($red,180),35%);
+$yellow:           #DEB159;
 
-$mono: 		    "anonymous-pro";
-$serif:				"old-standard",serif;
-$serif-2: 		"museo-slab", serif;
-$sans:		    "proxima-nova", sans-serif;
+$mono: 		        "anonymous-pro";
+$serif:				    "old-standard",serif;
+$serif-2: 		     "museo-slab", serif;
+$sans:		         "proxima-nova", sans-serif;
+
+
+/////////////// Highlighter
+// Adapted from https://gist.github.com/edwardhotchkiss/2005058
+
+$highlightOne: #586E75;
+$highlightTwo: #93A1A1;
+$highlightThree: #859900;
+$highlightFour: #CB4B16;
+$highlightFive: #2AA198;
+$highlightSix: #DC322F;
+$highlightSeven: #268BD2;
+$highlightEight: #B58900;
+$highlightNine: #555;

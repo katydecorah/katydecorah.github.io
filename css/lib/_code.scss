@@ -3,20 +3,97 @@ code, pre {
 	background: rgba(#eee,0.75);
 	border-radius: 0.2em;
 	@extend .code-type;
+	// prism.js
+	white-space: pre;
+	word-spacing: normal;
+	word-break: break-word;
+	tab-size: 4;
+	hyphens: none;
+
 }
 pre {
 	margin: 1em 0;
 	padding: 0.5em 1em;
-	word-wrap: break-word;
 	@extend .small;
 	code {
 		padding: 0;
-		background:none;
-		display: inline;
+		background: none;
 	}
 }
 code {
-	display: inline-block;
-	line-height: 1.5;
 	padding: 0 0.25em;
+}
+
+
+// Adapted from https://gist.github.com/edwardhotchkiss/2005058
+.highlight {
+  .c { color: $highlightOne } /* Comment */
+  .err { color: $highlightTwo } /* Error */
+  .g { color: $highlightTwo } /* Generic */
+  .k { color: $highlightThree } /* Keyword */
+  .l { color: $highlightTwo } /* Literal */
+  .n { color: $highlightTwo } /* Name */
+  .o { color: $highlightThree } /* Operator */
+  .x { color: $highlightFour } /* Other */
+  .p { color: $highlightTwo } /* Punctuation */
+  .cm { color: $highlightOne } /* Comment.Multiline */
+  .cp { color: $highlightThree } /* Comment.Preproc */
+  .c1 { color: $highlightOne } /* Comment.Single */
+  .cs { color: $highlightThree } /* Comment.Special */
+  .gd { color: $highlightFive } /* Generic.Deleted */
+  .ge { color: $highlightTwo; font-style: italic } /* Generic.Emph */
+  .gr { color: $highlightSix } /* Generic.Error */
+  .gh { color: $highlightFour } /* Generic.Heading */
+  .gi { color: $highlightThree } /* Generic.Inserted */
+  .go { color: $highlightTwo } /* Generic.Output */
+  .gp { color: $highlightTwo } /* Generic.Prompt */
+  .gs { color: $highlightTwo; font-weight: bold } /* Generic.Strong */
+  .gu { color: $highlightFour } /* Generic.Subheading */
+  .gt { color: $highlightTwo } /* Generic.Traceback */
+  .kc { color: $highlightFour } /* Keyword.Constant */
+  .kd { color: $highlightSeven } /* Keyword.Declaration */
+  .kn { color: $highlightThree } /* Keyword.Namespace */
+  .kp { color: $highlightThree } /* Keyword.Pseudo */
+  .kr { color: $highlightSeven } /* Keyword.Reserved */
+  .kt { color: $highlightSix } /* Keyword.Type */
+  .ld { color: $highlightTwo } /* Literal.Date */
+  .m { color: $highlightFive } /* Literal.Number */
+  .s { color: $highlightFive } /* Literal.String */
+  .na { color: $highlightTwo } /* Name.Attribute */
+  .nb { color: $highlightEight } /* Name.Builtin */
+  .nc { color: $highlightSeven } /* Name.Class */
+  .no { color: $highlightFour } /* Name.Constant */
+  .nd { color: $highlightSeven } /* Name.Decorator */
+  .ni { color: $highlightFour } /* Name.Entity */
+  .ne { color: $highlightFour } /* Name.Exception */
+  .nf { color: $highlightSeven } /* Name.Function */
+  .nl { color: $highlightTwo } /* Name.Label */
+  .nn { color: $highlightTwo } /* Name.Namespace */
+  .nx { color: $highlightNine } /* Name.Other */
+  .py { color: $highlightTwo } /* Name.Property */
+  .nt { color: $highlightSeven } /* Name.Tag */
+  .nv { color: $highlightSeven } /* Name.Variable */
+  .ow { color: $highlightThree } /* Operator.Word */
+  .w { color: $highlightTwo } /* Text.Whitespace */
+  .mf { color: $highlightFive } /* Literal.Number.Float */
+  .mh { color: $highlightFive } /* Literal.Number.Hex */
+  .mi { color: $highlightFive } /* Literal.Number.Integer */
+  .mo { color: $highlightFive } /* Literal.Number.Oct */
+  .sb { color: $highlightOne } /* Literal.String.Backtick */
+  .sc { color: $highlightFive } /* Literal.String.Char */
+  .sd { color: $highlightTwo } /* Literal.String.Doc */
+  .s2 { color: $highlightFive } /* Literal.String.Double */
+  .se { color: $highlightFour } /* Literal.String.Escape */
+  .sh { color: $highlightTwo } /* Literal.String.Heredoc */
+  .si { color: $highlightFive } /* Literal.String.Interpol */
+  .sx { color: $highlightFive } /* Literal.String.Other */
+  .sr { color: $highlightSix } /* Literal.String.Regex */
+  .s1 { color: $highlightFive } /* Literal.String.Single */
+  .ss { color: $highlightFive } /* Literal.String.Symbol */
+  .bp { color: $highlightSeven } /* Name.Builtin.Pseudo */
+  .vc { color: $highlightSeven } /* Name.Variable.Class */
+  .vg { color: $highlightSeven } /* Name.Variable.Global */
+  .vi { color: $highlightSeven } /* Name.Variable.Instance */
+  .il { color: $highlightFive } /* Literal.Number.Integer.Long */
+
 }
