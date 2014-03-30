@@ -1,6 +1,8 @@
 .footer {
   margin-top: 7em;
-  margin-bottom: 4em;
+  //margin-bottom: 4em;
+  background: #fafafa;
+  padding: 5em 0;
   p {
   	color: lighten($darkAccent,15%);
   	@extend .xxs;

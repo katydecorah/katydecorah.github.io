@@ -2,5 +2,5 @@
 <ul class="nav">
 {% for link in site.links %}{% if link.type == 'internal' %}<li><a href="{{ link.url }}" class="nav-link">{{ link.text }}</a></li>{% endif %}{% endfor %}
 </ul>
-<a href="http://katydecorah.com/" class="logo">Katy DeCorah</a>
+<a href="{{ site.url }}" class="logo">Katy DeCorah</a>
 </div>
