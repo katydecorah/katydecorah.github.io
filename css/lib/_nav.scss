@@ -22,6 +22,9 @@
   li {
     display: inline-block;
     margin: 0;
+    &:nth-child(1) > a {
+      padding-left: 0;
+    }
   }
 }
 .nav-link {
