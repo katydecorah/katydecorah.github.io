@@ -29,3 +29,11 @@
   @extend .text-center;
   padding-top: 1.75em;
 }
+
+.columns {
+  @include breakpoint(m) {
+    columns: 2;
+    orphans: 0;
+    widows: 2;
+  }
+}

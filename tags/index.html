@@ -13,7 +13,11 @@ title: Tags
 {% if tag[1].size == i %}
 <h2 id="{{ tag[0] | downcase | replace:' ','_' }}">{{ tag[0] }}</h2>
 {% if tag[0] == 'time travel' %}<p>Posts that I wrote after the fact.</p>{% endif %}
-{% for post in tag.last %}<a href="{{ post.url }}">{{ post.title }}</a>{% if forloop.last %}{% else %} &bull; {% endif %}{% endfor %}
+<div class="columns">
+<ul class="unstyled">
+{% for post in tag.last %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+</ul>
+</div>
 {% endif %}
 {% endfor %}
 {% endfor %}

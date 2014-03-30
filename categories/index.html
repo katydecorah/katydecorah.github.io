@@ -12,7 +12,11 @@ title: Categories
 {% for category in site.categories %}
 {% if category[1].size == i %}
 <h2 id="{{ category[0] | downcase | replace:' ','_' }}">{{ category[0] }}</h2>
-{% for post in category.last %}<a href="{{ post.url }}">{{ post.title }}</a>{% if forloop.last %}{% else %} &bull; {% endif %}{% endfor %}
+<div class="columns">
+<ul class="unstyled">
+{% for post in category.last %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+</ul>
+</div>
 {% endif %}
 {% endfor %}
 {% endfor %}
