@@ -1,7 +1,7 @@
 {% if page.title != 'Hello!'%}<div class="footer">
 <div class="container">
-<ul class="nav">{% for link in site.links %}
-{% if link.type == 'external' %}<li><a href="{{ link.url }}" title="{{ link.text }}" class="nav-link"><i class="fa fa-{{ link.icon }}"></i></a></li>{% endif %}{% endfor %}
+<ul class="nav">{% for link in site.links %}{% if link.type == 'external' %}
+<li><a href="{{ link.url }}" title="{{ link.text }}" class="nav-link"><i class="fa fa-{{ link.icon }}"></i></a></li>{% endif %}{% endfor %}
 </ul>
 <p>{{ site.description }}</p>
 <p>Powered by <a href="http://jekyllrb.com/">Jekyll</a> on <a href="https://github.com/katydecorah/katydecorah.github.com">Github</a>.</p>

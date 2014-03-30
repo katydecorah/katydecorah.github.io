@@ -1,5 +1,4 @@
-{% include top.html %}
-<body class="post-page default-page">
+{% include top.html %}<body class="post-page default-page">
 {% include skip.html %}
 <div class="post-header{% if page.locations %} post-header-has-map{% else %} post-header-no-map{% endif %}{% if page.locations and (page.mapType == "" or page.mapType == nil) %} post-map-header-google{% endif %}{% if page.mapType%} post-map-header-mapbox{% endif %}">
 <div class="container">
@@ -11,12 +10,8 @@
 </div>
 <div class="container" id="content">
 <div class="post">
-{{ content }}
-
-{% if page.category == 'playlists' %}
-{% include single-playlist.html %}
-{% endif %}
-{% if page.credits %}<p class="xs text-right">{{ page.credits }}.</p>{% endif %}
+{{ content }}{% if page.category == 'playlists' %}{% include single-playlist.html %}{% endif %}{% if page.credits %}
+<p class="xs text-right">{{ page.credits }}.</p>{% endif %}
 <div class="post-footer">
 {% include locations.html %}
 {% include tags.html %}
@@ -25,6 +20,5 @@
 </div>
 </div>
 {% include footer.html %}
-{% include end.html %}
-</body>
+{% include end.html %}</body>
 </html>
