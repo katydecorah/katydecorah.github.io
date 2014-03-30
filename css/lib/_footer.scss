@@ -1,9 +1,12 @@
 .footer {
   margin-top: 7em;
   margin-bottom: 4em;
-  p { 
+  p {
   	color: lighten($darkAccent,15%);
   	@extend .xxs;
   	margin: 0;
+  }
+  @include breakpoint(m) {
+    .nav { float: right; }
   }
 }
