@@ -2,7 +2,7 @@
 layout: post
 title: Scalable Balloons
 category: code
-tags: 
+tags:
   - CodePen
   - Sass
   - Haml
@@ -21,11 +21,13 @@ I started by creating a single `.balloon` element. I styled the main element for
 
 After I styled the first balloon, I absolutely positioned the balloon from the bottom, using the height of the string as the bottom value. I set the `html` and `body` height and width to 100% and hid the overflow, to keep my balloon on the page and at the bottom.
 
-## Time for more balloons! 
+## Time for more balloons!
 
 I added more `.balloon` elements and wrote a Sass loop to give each balloon slight customizations. For example, I adjusted the hue of each balloon based on a predetermined color. I also used rgba to give a nice transparent look to the balloons whenever they collide.
 
-	background:rgba(adjust-hue($balloonColorStart,random(360)),0.5);
+{% highlight css %}
+background: rgba(adjust-hue($balloonColorStart,random(360)),0.5);
+{% endhighlight %}
 
 Here `$balloonColorStart` is defined at the top of my Sass file, to be easily changed.
 
@@ -41,10 +43,12 @@ I decided that the balloon width, or `$balloonWidth`, would be the main variable
 
 Next, I adjusted my `:before`, or the rubber tie part of the balloon, to be in proportion with the width of the balloon. Here's what I came up with:
 
-	width:$balloonWidth / 8;
-    height:$balloonWidth / 14;
-    bottom:($balloonWidth / 14) * -0.75;
-    left: ($balloonWidth / 2) - ($balloonWidth / 14);
+{% highlight css %}
+width: $balloonWidth / 8;
+height: $balloonWidth / 14;
+bottom: ($balloonWidth / 14) * -0.75;
+left: ($balloonWidth / 2) - ($balloonWidth / 14);
+{% endhighlight %}
 
 I went back and forth between setting the `$balloonWidth` from a low number and then to a high number and decided that those equations suited my rubber tie part of the balloon best.
 

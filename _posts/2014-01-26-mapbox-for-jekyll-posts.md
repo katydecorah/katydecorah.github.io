@@ -77,7 +77,7 @@ In the front-matter of this post, I added `locations`, just like I have done in 
 
 The following is currently in this page's front-matter to generate the map:
 
-{% highlight ruby %}
+{% highlight yaml %}
 mapType: Mapbox
 locations:
  - "-73.7629483,42.6539068"
@@ -89,7 +89,7 @@ Since I'm still exploring and learning the Mapbox API, I'm not 100% ready to bre
 
 I altered my Google map code to consider the new Mapbox flag:
 
-{% highlight ruby %}
+{% highlight erb %}
 {% raw %}
 {% if page.locations %}
 <div{% if page.mapType %} id="map"{% endif %} class="post-map-header">
@@ -109,7 +109,7 @@ If the post has `mapType`, then Jekyll will add `id="map"` and it will not load 
 
 In my `end.html` include, that wraps up every post and page, I added a new include, `mapbox.html`. This include contains the following logic:
 
-{% highlight html %}
+{% highlight erb %}
 {% raw %}
 {% if page.mapType %}
 <link href='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />

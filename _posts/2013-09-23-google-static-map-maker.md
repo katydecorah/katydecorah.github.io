@@ -2,7 +2,7 @@
 layout: post
 title: Google Static Map Maker
 category: code
-tags: 
+tags:
   - Google Maps
   - API
   - AngularJS
@@ -22,21 +22,24 @@ This project is powered with Angular. I've only dabbled in Angular, but it came 
 
 ## Head Scratcher
 
-One thing that had me scratching my head: how to evaluate an expression, but then output something else. For instance, when there is no value for the API Key input, I don't want the parameter to be displayed in the API call. Because if the value of *api* is blank, it can throw an error. I knew I needed a way to check the value of the input and output code based on that evaluation, but I couldn't  figure out how to write it. 
+One thing that had me scratching my head: how to evaluate an expression, but then output something else. For instance, when there is no value for the API Key input, I don't want the parameter to be displayed in the API call. Because if the value of *api* is blank, it can throw an error. I knew I needed a way to check the value of the input and output code based on that evaluation, but I couldn't  figure out how to write it.
 
 Finally, I figured it out.
 
-	{% raw %}
-	{{ e.API !== '' && '&key='+e.API || ''}}
-	{% endraw %}
+{% highlight javascript %}
+{% raw %}
+{{ e.API !== '' && '&key='+e.API || ''}}
+{% endraw %}
+{% endhighlight %}
 
 Wherever this is present, it will evaluate the input and then output based on evaluation. If the input does not equal an empty string, or if the input has a value, (`e.API !== ''`) then output `&key=[whatever the api key is]` otherwise (`||`) show `''` (empty string).
 
 I evaluated the checkbox for the Map Marker (showMarker) the same way:
 
-	{% raw %}
-	{{ showMarker == 'true' && '&markers=size:'+e.markerSize+'%7Ccolor:'+e.markerColor+'%7C'+e.location.split(' ').join('+') || '' }}	
-	{% endraw %}
+{% highlight javascript %}
+{% raw %}
+{{ showMarker == 'true' && '&markers=size:'+e.markerSize+'%7Ccolor:'+e.markerColor+'%7C'+e.location.split(' ').join('+') || '' }}
+{% endraw %}
+{% endhighlight %}
 
 Angular is pretty cool.
-
