@@ -6,6 +6,7 @@ tags:
 - CodePen
 - Haml
 - Sass
+- responsive
 pen: xADtE
 image: http://farm3.staticflickr.com/2813/12730353565_9761bd9128_o.png
 project: true
