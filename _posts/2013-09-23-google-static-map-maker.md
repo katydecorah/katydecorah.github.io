@@ -8,6 +8,7 @@ tags:
   - AngularJS
   - CodePen
   - Sass
+  - responsive
 image: http://codepen.io/katydecorah/pen/Klieu/image/large.png
 project: true
 ---
