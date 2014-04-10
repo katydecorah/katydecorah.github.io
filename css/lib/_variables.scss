@@ -20,8 +20,9 @@ $serif-2: 		     "museo-slab", serif;
 $sans:		         "proxima-nova", sans-serif;
 
 
-/////////////// Highlighter
+/////////////// Code Highlighter
 // Adapted from https://gist.github.com/edwardhotchkiss/2005058
+
 
 $highlightOne: #586E75;
 $highlightTwo: #93A1A1;
@@ -32,3 +33,74 @@ $highlightSix: #DC322F;
 $highlightSeven: #268BD2;
 $highlightEight: #B58900;
 $highlightNine: #555;
+
+$highlightComment: $highlightOne;
+$highlightError: $highlightTwo;
+$highlightGeneric: $highlightTwo;
+$highlightKeyword: $highlightThree;
+$highlightLiteral: $highlightTwo;
+$highlightName: $highlightTwo;
+$highlightOperator: $highlightThree;
+$highlightOther: $highlightFour;
+$highlightPunctuation: $highlightTwo;
+$highlightCommentMultiline: $highlightOne;
+$highlightCommentPreproc: $highlightThree;
+$highlightCommentSingle: $highlightOne;
+$highlightCommentSpecial: $highlightThree;
+$highlightGenericDeleted: $highlightFive;
+$highlightGenericEmph: $highlightTwo;
+$highlightGenericEmph: $highlightTwo;
+$highlightGenericError: $highlightSix;
+$highlightGenericHeading: $highlightFour;
+$highlightGenericInserted: $highlightThree;
+$highlightGenericOutput: $highlightTwo;
+$highlightGenericPrompt: $highlightTwo;
+$highlightGenericStrong: $highlightTwo;
+$highlightGenericSubheading: $highlightFour;
+$highlightGenericTraceback: $highlightTwo;
+$highlightKeywordConstant: $highlightFour;
+$highlightKeywordDeclaration: $highlightSeven;
+$highlightKeywordNamespace: $highlightThree;
+$highlightKeywordPseudo: $highlightThree;
+$highlightKeywordReserved: $highlightSeven;
+$highlightKeywordType: $highlightSix;
+$highlightLiteralDate: $highlightTwo;
+$highlightLiteralNumber: $highlightFive;
+$highlightLiteralString: $highlightFive;
+$highlightNameAttribute: $highlightTwo;
+$highlightNameBuiltin: $highlightEight;
+$highlightNameClass: $highlightSeven;
+$highlightNameConstant: $highlightFour;
+$highlightNameDecorator: $highlightSeven;
+$highlightNameEntity: $highlightFour;
+$highlightNameException: $highlightFour;
+$highlightNameFunction: $highlightSeven;
+$highlightNameLabel: $highlightTwo;
+$highlightNameLabel: $highlightTwo;
+$highlightNameNamespace: $highlightTwo;
+$highlightNameOther: $highlightNine;
+$highlightNameProperty: $highlightTwo;
+$highlightNameTag: $highlightSeven;
+$highlightNameVariable: $highlightSeven;
+$highlightOperatorWord: $highlightThree;
+$highlightTextWhitespace: $highlightTwo;
+$highlightLiteralNumberFloat: $highlightFive;
+$highlightLiteralNumberHex: $highlightFive;
+$highlightLiteralNumberInteger: $highlightFive;
+$highlightLiteralNumberOct: $highlightFive;
+$highlightLiteralStringBacktick: $highlightOne;
+$highlightLiteralStringChar: $highlightFive;
+$highlightLiteralStringDoc: $highlightTwo;
+$highlightLiteralStringDouble: $highlightFive;
+$highlightLiteralStringEscape: $highlightFour;
+$highlightLiteralStringHeredoc: $highlightTwo;
+$highlightLiteralStringInterpol: $highlightFive;
+$highlightLiteralStringOther: $highlightFive;
+$highlightLiteralStringRegex: $highlightSix;
+$highlightLiteralStringSingle: $highlightFive;
+$highlightLiteralStringSymbol: $highlightFive;
+$highlightNameBuiltinPseudo: $highlightSeven;
+$highlightNameVariableClass: $highlightSeven;
+$highlightNameVariableGlobal: $highlightSeven;
+$highlightNameVariableInstance: $highlightSeven;
+$highlightLiteralNumberIntegerLong: $highlightFive;
