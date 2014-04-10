@@ -14,7 +14,7 @@ paginate: 7
 paginate_path: ":num"
 
 name: Katy DeCorah
-description: "Front-end web developer and instructional designer from Albany, NY."
+description: "Front-end developer and instructional designer from Albany, NY."
 image: http://farm4.staticflickr.com/3712/13168348425_548a43fe0b_o.jpg
 
 timezone: America/New_York
@@ -23,14 +23,14 @@ exclude: ["vendor"] # make travis happy
 
 links:
 - text: Home
-  url: http://katydecorah.com
+  url: /
   icon: home
   type: internal
 - text: Hello
-  url: http://katydecorah.com/hello
+  url: /hello/
   type: internal
 - text: Archive
-  url: http://katydecorah.com/archive/
+  url: /archive/
   icon: archive
   type: internal
 - text: Email
@@ -50,6 +50,6 @@ links:
   icon: instagram
   type: external
 - text: Feed
-  url: http://katydecorah.com/feed.xml
+  url: /feed.xml
   icon: rss
   type: internal
