@@ -99,6 +99,7 @@
     - text: Jekyll/Liquid Markup
       tag: jekyll
       level: +
+    - text: WordPress
     - text: responsive web design
       level: +
     - text: Section 508
