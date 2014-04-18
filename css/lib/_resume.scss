@@ -25,7 +25,7 @@
 	}
 	h4 {
 		margin: 0;
-		font-style: italic;
+		@extend .small;
 		@extend .body-type;
 	}
 
