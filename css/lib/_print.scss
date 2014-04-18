@@ -7,13 +7,12 @@
  	.page-break	{ display: block; page-break-before: always; }
 
  	.page-resume {
- 		font-size:12px;
- 		h2 {color: $textColor;}
+ 		font-size: 13px;
+ 		h2 { color: $textColor; margin: 1em 0 0;}
  		.skills {margin: 1em 0 0;}
  		.skills li { display: inline-block; }
  		.skills li:after {content: ","}
  		.skills li:last-child:after {content: ""}
- 		
+
  	}
  }
- 

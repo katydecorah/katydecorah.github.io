@@ -10,7 +10,7 @@
 	h2 {
 		border-bottom: 0.1em solid;
 		font-size: 1em;
-		margin: 1em 0 0;
+		margin: 1em 0 2em;
 		text-transform: uppercase;
 		color: lighten($textColor,25%);
 		font-weight: bold;
@@ -31,8 +31,9 @@
 
 	ul {
 		list-style-type: disc;
-		margin-top: 0.25em;
 		margin-bottom: 2em;
+		padding-left: 1em;
+		@extend .small;
 	}
 	li {
 		line-height: 1.3;
