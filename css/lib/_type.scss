@@ -1,8 +1,8 @@
 
 
 .body-type { font-family: $sans;}
-.big-type { font-family: $serif; font-style: italic;}
-.headings-type {font-family: $serif-2; font-weight: 300;}
+.big-type { font-family: $serif; font-style: italic; font-weight: 400;}
+.headings-type {font-weight: 700;}
 .code-type {font-family: $mono;}
 
 strong {font-weight:bold;}
@@ -19,7 +19,6 @@ p {margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-weight: inherit;
   line-height: 1.2;
 }
 
@@ -27,7 +26,6 @@ h1 {
   margin-top: 0;
   font-size: 1.602em * 2;
   @extend .big-type;
-  //@extend .text-center;
 }
 
 h2, h3, h4 {  @extend .headings-type; }
