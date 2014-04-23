@@ -2,14 +2,14 @@
 layout: post
 title: Power Up Preloader by Mantas Ba&#269;iu&#353;ka
 category: code
-tags: 
+tags:
  - Dribbble
  - CodePen
  - Sass
  - "single element"
  - gradient
 pen: BfuGF
-image: "https://dl.dropbox.com/s/2mftbfyn8k1p4s5/power-up.png"
+image: https://farm3.staticflickr.com/2860/12730278733_e045273427_o.png
 browser: Chrome 32.0.1700.102
 ---
 
@@ -46,10 +46,10 @@ The magic of this whole thing is the animated gradient. The first step was creat
 <figcaption>Demonstration of gradient</figcaption>
 </figure>
 
-The animation moves the `background-position` of the gradient horizontally. In `@keyframes` I set `to {background-position:(($size /2) - $border) 0;}`. I used a variable here so that the gradient stays in proportion. 
+The animation moves the `background-position` of the gradient horizontally. In `@keyframes` I set `to {background-position:(($size /2) - $border) 0;}`. I used a variable here so that the gradient stays in proportion.
 
 I coupled the `@keyframes` with `animation: charge 0.5s infinite linear;` on `:before`. Once the `background-position` gets to `(($size /2) - $border)` it runs again, but it's seamless so we can't tell.
 
-It took me a few tries to get the `repeating-linear-gradient` just right. Gradients are so useful, but dang&hellip; I need to spend more time with them. For instance, I didn't know until about a month ago that the repeating function existed for linear and radial. 
+It took me a few tries to get the `repeating-linear-gradient` just right. Gradients are so useful, but dang&hellip; I need to spend more time with them. For instance, I didn't know until about a month ago that the repeating function existed for linear and radial.
 
 I think I'll need to do some more experiments with gradients.
