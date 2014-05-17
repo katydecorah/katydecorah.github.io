@@ -21,13 +21,13 @@ This is one of my favorite trails to date. The preserve has four trails, all rel
 
 <a href="https://www.flickr.com/photos/katydecorah/14183626136" title="Papscanee Island Nature Preserve by Katy DeCorah, on Flickr"><img src="https://farm6.staticflickr.com/5515/14183626136_779273e8ad_h.jpg" class="pop-out" alt="Papscanee Island Nature Preserve"></a>
 
-The preserves sits between a railroad and the Hudson River. There is an old rail line that cuts through the marsh; it's really quite beautiful. We were fortunate enough to catch an Amtrak passing by not once, but twice!
+The preserve sits between a railroad and the Hudson River. There's an old rail line that cuts through the marsh; it's really quite beautiful. We were fortunate enough to catch an Amtrak passing by not once, but twice!
 
 <a href="https://www.flickr.com/photos/katydecorah/14206668054" title="Papscanee Island Nature Preserve by Katy DeCorah, on Flickr"><img src="https://farm3.staticflickr.com/2907/14206668054_314f8802da_c.jpg" class="img-wide" alt="Papscanee Island Nature Preserve"></a><a href="https://www.flickr.com/photos/katydecorah/14020127058" title="Papscanee Island Nature Preserve by Katy DeCorah, on Flickr"><img src="https://farm6.staticflickr.com/5549/14020127058_bc752ea65e_c.jpg" class="img-tall" alt="Papscanee Island Nature Preserve"></a>
 
 <iframe src="//player.vimeo.com/video/95605159?title=0&amp;byline=0&amp;portrait=0" width="840" height="472" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-Unfortunately, the trails were a little difficult to navigate as trail markers were few and far between. We accidentally ended up on a trail that the map specifically forbids people to go. Sorry, government.
+Unfortunately, the trails are a little difficult to navigate as trail markers are few and far between. We accidentally ended up on a trail that the map specifically forbids people to go. Sorry, government.
 
 <a href="https://www.flickr.com/photos/katydecorah/14226946423" title="Papscanee Island Nature Preserve by Katy DeCorah, on Flickr"><img src="https://farm6.staticflickr.com/5275/14226946423_9a3297d2ed_c.jpg" alt="Papscanee Island Nature Preserve"></a>
 
