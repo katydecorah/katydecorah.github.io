@@ -2,57 +2,54 @@
 
 .all-posts {
   @include breakpoint(m) {
-    margin-top: 4em;
+    margin-top: 1em;
   }
   .post-meta {
     @include breakpoint(m) {
       float: left;
-      width: 50%;
+      width: 70%;
     }
+    .no-flexbox & { padding-top: 2em;}
   }
 
 }
 
 .post-link {
   @extend .clearfix;
-  color: $darkAccent;
-  &:hover{
-    transition: 0.5s linear;
-    .post-thumb {
-      transform: scale(1.3);
-      transition: all 10s linear;
+  color: $text-color;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 2em;
+}
+
+
+
+.post-img-container  {
+  display: none;
+  @include breakpoint(m) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    margin-right: 6%;
+    .post-img {
+      display: block;
+      margin: 0;
     }
   }
 }
 
-.post-thumb-container {
-  display:none;
-  @include breakpoint(m) {
-    float: left;
-    display: block;
-    width: 40%;
-    margin: 0.5em 2em 1em 0;
-    overflow: hidden;
-    transition: all 1s;
-  }
-}
-.post-thumb {
-  display: block;
-  padding-bottom: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  transition: all 1s;
-}
+
 .post-title {
-  font-size:2.25em;
-  padding-top:1.25em;
+  font-size: 2.25em;
   line-height: 1.2;
-  margin-bottom:0.1em;
-  display:block;
-  font-style:italic;
+  font-style: italic;
   @extend .big-type;
   @include breakpoint(s) {
-    font-size:1.5em;
+    font-size: 1.5em;
   }
 }

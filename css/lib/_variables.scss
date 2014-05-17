@@ -1,22 +1,15 @@
 //////////////// primary
 
-$bodyBackground:   #fff;
-$darkAccent: 			#2A2B26;
-$lightAccent:			lighten($darkAccent,15%);
-$btnHover:				 #4b9ae5; // fell in love with the blue after working on http://katydecorah.com/code/2014/01/01/z-index-and-transform/
+$body-bg:           #fff;
+$dark-accent: 			#2c3e50;
+$light-accent:			#ecf0f1;
+$link-color:        darken(#16a085,10%);
+$link-hover:        #16a085;
+$text-color:        #333;
 
-/////////////// secondary
-
-$red:              tomato;
-$gray:             whitesmoke;
-$darkGray:         #4d4d4d;
-$textColor:        #333;
-$blue:             darken(adjust-hue($red,180),35%);
-$yellow:           #DEB159;
 
 $mono: 		        "anonymous-pro";
 $serif:				    "old-standard",serif;
-$serif-2: 		     "museo-slab", serif;
 $sans:		         "proxima-nova", sans-serif;
 
 

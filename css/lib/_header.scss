@@ -2,17 +2,19 @@
   position: relative;
   transition: 0.25s;
   margin-bottom: 1em;
+  padding-top: 2em;
   @extend .clearfix;
-
+  .container {
+    padding-bottom: 2em;
+    border-bottom: 1px dashed $light-accent;
+  }
 }
 .logo {
-  @extend .big-type;
-  font-style: italic;
-  font-size: 1em;
-  color: $darkAccent;
-  padding-top: 0.2em;
+  color: $dark-accent;
   display: block;
-  border-top: 2px solid #333;
-  text-transform: uppercase;
-  clear:both;
+  font-weight: bold;
+  @include breakpoint(m) { float: left;}
+  &:hover {
+    color: $link-hover;
+  }
 }

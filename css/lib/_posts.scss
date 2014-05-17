@@ -7,12 +7,12 @@
     z-index: 100;
   }
 }
-.post-header-no-map {margin-bottom: 5em;}
+.post-header-no-map {margin-bottom: 3em;}
 
 .post-locations,.tags {@extend .text-right;}
 .post-location, .tag {
   font-size: 0.65em;
-  color: lighten($darkAccent,25%);
+  color: lighten($dark-accent,25%);
 }
 
 .post-date-updated {
@@ -28,7 +28,7 @@
 
 
 .post-prev, .post-next {
-  color:$darkAccent;
+  color: $dark-accent;
   position:relative;
   display:block;
   margin-top:1em;
@@ -37,8 +37,8 @@
   transition: all .5s linear;
   &:hover {
     transition: all .5s linear;
-    color: lighten($darkAccent,15%);
-    .btn-circle { background: $btnHover;}
+    color: lighten($dark-accent,15%);
+    .btn-circle { background: $link-hover;}
   }
   .next, .previous {
     @include breakpoint(m){
@@ -109,7 +109,7 @@ figure {
 }
 figcaption {
   text-align: right;
-  color: lighten($textColor,10%);
+  color: lighten($text-color,10%);
   @extend .xs;
   @include breakpoint(xxxl) {
     position: absolute;

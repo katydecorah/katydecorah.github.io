@@ -1,86 +1,82 @@
 module.exports = function(grunt) {
 
-    // 1. All configuration goes here 
-    grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
 
-      /*  concat: {
-            dist: {
-                src: ['js/lib/*.js'],
-                dest: 'js/script.js',
-            }
-        },*/
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+    
+    uglify: {
+      files: {
+        src: 'js/lib/*.js',
+        dest: 'js/',
+        expand: true,
+        flatten: true,
+        ext: '.min.js'
+      }
 
-        uglify: {
-           files: {
-            src: 'js/lib/*.js',  // source files mask
-            dest: 'js/',    // destination folder
-            expand: true,    // allow dynamic building
-            flatten: true,   // remove all unnecessary nesting
-            ext: '.min.js'   // replace .js to .min.js
-        }
-
+    },
+    copy: {
+      css: {
+        src: 'css/style.css',
+        dest: '_site/css/style.css',
+      },
     },
     imagemin: {
-        dynamic: {
-            files: [{
-                expand: true,
-                cwd: 'img/source/',
-                src: ['**/*.{png,jpg,gif}'],
-                dest: 'img/'
-            }]
-        }
+      dynamic: {
+        files: [{
+          expand: true,
+          cwd: 'img/source/',
+          src: ['**/*.{png,jpg,gif}'],
+          dest: 'img/'
+        }]
+      }
     },
     sass: {
-        dist: {
-            options: {
-                style: 'compressed'
-            },
-            files: {
-                'css/style.css': 'css/lib/style.scss'
-            }
+      dist: {
+        options: {
+          style: 'compressed'
+        },
+        files: {
+          'css/style.css': 'css/lib/style.scss'
         }
+      }
     },
     autoprefixer: {
-        options: {
-          browsers: ['last 2 version', 'ie 9']
+      options: {
+        browsers: ['last 2 version', 'ie 9']
       },
       target: {
         src: 'css/style.css'
-    }
-},
-watch: {
-    options: {
-        livereload: true,
+      }
     },
-    scripts: {
+    watch: {
+      options: {
+        livereload: true,
+      },
+      scripts: {
         files: ['js/lib/*.js'],
         tasks: ['uglify'],
         options: {
-            spawn: false,
+          spawn: false,
         },
-    },
-    css: {
+      },
+      css: {
         files: ['css/lib/*.scss'],
-        tasks: ['sass','autoprefixer'],
+        tasks: ['sass','autoprefixer','copy:css'],
         options: {
-            spawn: false,
+          spawn: false,
         }
+      }
     }
-}
 
-});
+  });
 
-    // 3. Where we tell Grunt we plan to use this plug-in.
-    //grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
-    grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-autoprefixer');
-    grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
-
-    // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['uglify','imagemin','sass','autoprefixer','watch']);
+  grunt.registerTask('default', ['uglify','imagemin','sass','autoprefixer','copy','watch']);
 
 };

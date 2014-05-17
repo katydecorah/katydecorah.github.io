@@ -1,7 +1,7 @@
 .btn-circle {
   display:inline-block;
-  background:$darkAccent;
-  border-radius:100%;
+  background:$dark-accent;
+  border-radius: 100%;
   line-height:2em;
   height:2em;
   width:2em;
@@ -11,20 +11,20 @@
   font-size:1em;
   text-align:center;
   &:hover {
-    background:$btnHover;
+    background:$link-hover;
     color:white;
   }
 }
 
 .btn-rect {
-  background: $darkAccent;
+  background: $dark-accent;
   color: #FFF;
   padding: 0.25em 0.7em;
   border-radius: 0.3em;
   margin: 1em 0.5em;
   display: inline-block;
   &:hover {
-    background:$btnHover;
+    background:$link-hover;
     color:white;
   }
 }

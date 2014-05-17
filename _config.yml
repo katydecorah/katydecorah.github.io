@@ -20,37 +20,33 @@ image: http://farm4.staticflickr.com/3712/13168348425_548a43fe0b_o.jpg
 
 timezone: America/New_York
 
-exclude: ["vendor"] # make travis happy
+exclude: [vendor, node_modules, Gemfile, Gemfile.lock, Gruntfile.js, package.json]
 
 links:
-- text: Home
-  url: /
-  icon: home
-  type: internal
 - text: Hello
   url: /hello/
-  type: internal
+  position: top
 - text: Archive
   url: /archive/
   icon: archive
-  type: internal
+  position: top
 - text: Email
   url: mailto:katydecorah@gmail.com
   icon: envelope
-  type: external
+  position: bottom
 - text: CodePen
   url: http://codepen.io/katydecorah/
-  icon: code
-  type: external
+  icon: codepen
+  position: bottom
 - text: Twitter
   url: https://twitter.com/katydecorah
   icon: twitter
-  type: external
+  position: bottom
 - text: Instagram
   url: http://instagram.com/katydecorah
   icon: instagram
-  type: external
+  position: bottom
 - text: Feed
   url: /feed.xml
   icon: rss
-  type: internal
+  position: bottom

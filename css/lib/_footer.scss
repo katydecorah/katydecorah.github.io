@@ -1,14 +1,22 @@
 .footer {
-  margin-top: 7em;
-  //margin-bottom: 4em;
-  background: #fafafa;
-  padding: 5em 0;
+
+  @include breakpoint(m) {margin-top: 7em; }
+
+  .container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border-top: 1px dashed $light-accent;
+  }
   p {
-  	color: lighten($darkAccent,15%);
+  	color: lighten($dark-accent,15%);
   	@extend .xxs;
   	margin: 0;
   }
   @include breakpoint(m) {
     .nav { float: right; }
+  }
+  .nav-link {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }

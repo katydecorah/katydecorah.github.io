@@ -3,26 +3,21 @@ html,body {
   margin: 0;
   padding: 0;
 }
-html {
-	width: 100%;
-	min-height: 100%;
-}
 body {
-  font-size: 16px;
-  line-height: 1.618;
-  color: $textColor;
+  font-size: 21px;
+  line-height: 1.4;
+  color: $text-color;
   font-weight: 300;
-  height: 100%;
-  width: 100%;
-  background-color: $bodyBackground;
+  background-color: $body-bg;
   @extend .body-type;
 }
 
 a {
-  color: darken($btnHover,20%);
+  color: $link-color;
   text-decoration: none;
   &:hover {
-    color: darken($btnHover,10%);
+    color: $link-hover,10%;
+    text-decoration: underline;
   }
 }
 

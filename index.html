@@ -5,8 +5,8 @@ title: Katy DeCorah
 <div class="all-posts" id="adventures">
 {% for post in paginator.posts %}<div class="post">
 <a href="{{ post.url }}" class="post-link">
-<div class="post-thumb-container">
-<div class="post-thumb" style="{% if post.image %}background-image:url({{ post.image }}){% else %}background:#2A2B26;{% endif %}"></div>
+<div class="post-img-container">
+<img src="{% if post.image %}{{ post.image }}{%else%}http://placehold.it/400{%endif%}" class="post-img" alt="{{ post.title }}">
 </div>
 <div class="post-meta">
 <div class="post-title">{{ post.title }}</div>

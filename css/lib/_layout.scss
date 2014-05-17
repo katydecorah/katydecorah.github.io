@@ -1,11 +1,10 @@
 .container {
-  max-width:42em;
+  max-width: 42em;
   min-height:1em;
   margin: 0 auto;
-  padding:0 1em;
+  padding: 0 1em;
   position:relative;
   @extend .clearfix;
-  @include breakpoint(m) {font-size:1.35em;}
 }
 .half-left,.half-right {
   @include breakpoint(m) {

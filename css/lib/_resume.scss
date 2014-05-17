@@ -12,7 +12,7 @@
 		font-size: 1em;
 		margin: 1em 0 2em;
 		text-transform: uppercase;
-		color: lighten($textColor,25%);
+		color: lighten($text-color,25%);
 		font-weight: bold;
 		@extend .text-right;
 		@extend .body-type;
@@ -50,7 +50,7 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		color: lighten($darkAccent,15%);
+		color: lighten($dark-accent,15%);
 		@extend .small;
 		li {display: inline-block;}
 	}
