@@ -1,8 +1,6 @@
 {% if section.heading == 'Volunteer' %}
-<div class="print-hide">
 {% for outreach in section.contents %}
 <h3>{% if outreach.link %}<a href="{{outreach.link}}">{% endif %}{% if outreach.role %}{{ outreach.role }} at {% endif %}{{ outreach.event }}{% if outreach.link %}</a>{% endif %}</h3>
 <h4>{{ outreach.venue }}, {{ outreach.date }}</h4>
 {% endfor %}
-</div>
 {% endif %}

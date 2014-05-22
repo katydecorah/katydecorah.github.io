@@ -9,10 +9,15 @@
 - section:
   - heading: Experience
     contents:
+    - title: UI Designer
+      company: Fire Engine RED
+      from: June 2014
+      to: present
+      show: false
     - title: Instructional Designer/Web Developer
       company: "Professional Development Program, Research Foundation at SUNY"
       from: January 2011
-      to: present
+      to: May 2014
       show: true
       roles:
         - text: "Design and develop responsive and accessible trainings using HTML, CSS, jQuery, and ColdFusion."
@@ -140,6 +145,9 @@
 - section:
   - heading: Notables
     contents:
+      - event: 1st Quarter Innovation Award
+        title: Professional Development Program
+        date: May 2014
       - event: CodePen Rodeo Runner-up
         title: Typeset a Poem
         link: http://blog.codepen.io/rodeo/season-two/

@@ -1,6 +1,7 @@
 .page-resume {
 	h1 {
 		font-style: normal;
+		margin-top: 1em;
 		margin-bottom: 0;
 		font-size: 1.75em;
 		font-weight: bold;
@@ -27,6 +28,7 @@
 		margin: 0;
 		@extend .small;
 		@extend .body-type;
+		font-weight: normal;
 	}
 
 	ul {

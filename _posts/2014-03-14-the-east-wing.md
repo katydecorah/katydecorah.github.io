@@ -4,6 +4,8 @@ title: The East Wing Episode 86
 category: elsewhere
 link: http://5by5.tv/eastwing/86
 image: https://farm6.staticflickr.com/5272/14060621609_2ffa436f77_o.jpg
+tags:
+ - time travel
 ---
 
 I had a nice time chatting with Chris Enns on the East Wing!

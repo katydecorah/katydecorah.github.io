@@ -13,7 +13,8 @@ title: Resume
 </ul>
 {% endfor %}
 {% for section in item.section %}
-<h2{% if section.heading == 'Notables' or section.heading == 'Speaking' or section.heading == 'Volunteer' %} class="print-hide"{% endif %}>{{ section.heading }}</h2>
+<section class="resume-{{ section.heading | downcase }}{% if section.heading == 'Notables' or section.heading == 'Speaking' or section.heading == 'Volunteer' %} print-hide{% endif %}">
+<h2>{{ section.heading }}</h2>
 {% include resume/experience.html %}
 {% include resume/other-experience.html %}
 {% include resume/education.html %}
@@ -21,5 +22,6 @@ title: Resume
 {% include resume/speaking.html %}
 {% include resume/volunteer.html %}
 {% include resume/notables.html %}
+</section>
 {% endfor %}
 {% endfor %}

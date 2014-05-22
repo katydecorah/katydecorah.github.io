@@ -1,8 +1,6 @@
 {% if section.heading == 'Speaking' %}
-<div class="print-hide">
 {% for speaking in section.contents %}
 <h3>{% if speaking.link %}<a href="{{speaking.link}}">{% endif %}{{ speaking.title }}{% if speaking.link %}</a>{% endif %}</h3>
 <h4>{{ speaking.event }}{% if speaking.presenters %}, {{ speaking.presenters }}{% endif %}, {{ speaking.date }}</h4>
 {% endfor %}
-</div>
 {% endif %}
