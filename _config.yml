@@ -8,7 +8,7 @@ lsi: false
 pygments: true
 markdown: kramdown
 
-url: http://katydecorah.com/
+url: http://katydecorah.com
 permalink: pretty
 
 paginate: 7
