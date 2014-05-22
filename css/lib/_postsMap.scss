@@ -1,9 +1,9 @@
 .post-map-header-google {
 	margin-bottom: 1em;
-	@include breakpoint(m) { min-height: 22em;}
+	@include breakpoint(m) { min-height: 17em;}
 }
 .post-map-header-mapbox {
-	@include breakpoint(m) { height:26em;}
+	@include breakpoint(m) { height: 20em;}
 
 	.post-map-header {height: 26em;}
 }
@@ -12,12 +12,14 @@
 	width:100%;
 	position: absolute;
 	top: 0;
-	left:0;
+	left: 0;
+	overflow: hidden;
 	@include breakpoint(s) { display:none }
 }
 
 .post-location-image {
-	display:none;
+	display: none;
+	max-width: none;
 	@include breakpoint(m) {
 		display: block;
 		margin: 0 auto;
