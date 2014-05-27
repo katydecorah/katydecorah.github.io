@@ -24,7 +24,7 @@ We took a ride out to Rensselaerville and explored the Huyck Preserve again. We 
 
 <a href="https://www.flickr.com/photos/katydecorah/14082114487" title="Huyck Preserve by Katy DeCorah, on Flickr"><img src="https://farm4.staticflickr.com/3820/14082114487_c465c78ce5_h.jpg" class="pop-out" alt="Huyck Preserve"></a>
 
-On the way home, we picked up a jalopeno and a cubanelle pepper plant for the garden.
+On the way home, we picked up a jalope&ntilde;o and a cubanelle pepper plant for the garden.
 
 <a href="https://www.flickr.com/photos/katydecorah/14082126427" title="Huyck Preserve by Katy DeCorah, on Flickr"><img src="https://farm4.staticflickr.com/3734/14082126427_058eefa637_b.jpg" width="768" height="1024" alt="Huyck Preserve"></a>
 
