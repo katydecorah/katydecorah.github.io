@@ -4,6 +4,11 @@ title: Papscanee Island Nature Preserve
 category: adventures
 tags:
  - fresh air
+locations:
+ - Rensselaer, NY
+coordinates:
+ - -73.7440735,42.5726903
+map: static
 image: https://farm3.staticflickr.com/2897/14226916873_111fb655b5_z.jpg
 ---
 

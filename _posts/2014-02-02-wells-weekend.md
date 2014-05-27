@@ -2,10 +2,12 @@
 layout: post
 title: Wells Weekend
 category: adventures
-mapType: Mapbox
-locations: 
- - "-74.289580,43.395900"
- - "-74.361810,43.497290"
+map: static
+locations:
+ - Wells, NY
+pad: 0
+coordinates: 
+ - -74.289580,43.395900
 tags: 
 - yay
 - fresh air

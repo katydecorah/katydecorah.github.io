@@ -7,15 +7,12 @@ tags:
  - yay
  - maps
 image: "https://s3.yimg.com/so/7405/12667170644_fcf57be895_b.jpg"
-mapType: Mapbox
-markers: none
+map: static
 pad: 0
-locations: 
+locations:
+ - Washington, DC
+coordinates: 
  - -77.05020904541016,38.889295860173895
- - -77.03518867492676,38.88949628153173
- - -77.00905323028564,38.88979691250822
- - -77.03317165374756,38.91317542364432
- - -77.03139066696167,38.90591221056121
 ---
 
 I spent an awesome week in DC.

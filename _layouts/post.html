@@ -1,6 +1,6 @@
 {% include top.html %}<body class="post-page default-page">
 {% include skip.html %}
-<div class="post-header{% if page.locations %} post-header-has-map{% else %} post-header-no-map{% endif %}{% if page.locations and (page.mapType == "" or page.mapType == nil) %} post-map-header-google{% endif %}{% if page.mapType%} post-map-header-mapbox{% endif %}">
+<div class="post-header{% if page.locations %} post-header-has-map{% else %} post-header-no-map{% endif %}{% if page.locations and (page.map == "" or page.map == nil) %} post-map-header-google{% endif %}{% if page.map%} post-map-header-mapbox{% endif %}">
 {% include header.html %}
 
 <div class="container">
