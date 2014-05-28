@@ -2,11 +2,15 @@
 layout: post
 title: Mapbox for Jekyll Posts
 category: code
-mapType: Mapbox
-locations:
+map: Mapbox
+coordinates:
   - "-73.7629483,42.6539068"
   - "-73.7254484,43.2440284"
   - "-82.5525523,35.565"
+locations:
+ - Albany, NY
+ - South Glens Falls, NY
+ - Asheville, NC
 tags:
   - maps
   - API
