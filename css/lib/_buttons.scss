@@ -1,3 +1,16 @@
+
+.btn {
+  display: inline-block;
+  background: $light-accent;
+  padding: 0.2em 0.75em;
+  border-radius: 0.1em;
+  &:hover, &.active {
+    background: $link-color;
+    text-decoration: none;
+    color: $light-accent;
+  }
+}
+
 .btn-circle {
   display:inline-block;
   background:$dark-accent;

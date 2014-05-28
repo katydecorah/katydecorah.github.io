@@ -6,7 +6,7 @@
   @extend .clearfix;
   .container {
     padding-bottom: 2em;
-    border-bottom: 1px dashed $light-accent;
+    border-bottom: 1px dashed darken($light-accent,5%);
   }
 }
 .logo {

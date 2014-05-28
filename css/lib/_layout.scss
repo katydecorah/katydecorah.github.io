@@ -16,16 +16,6 @@
   @include breakpoint(m) {margin-right:4%;}
 }
 
-.paginator {
-  max-width: 25em;
-  margin: 0 auto;
-}
-.paginator-number {
-  @extend .small;
-  @extend .text-center;
-  padding-top: 1.75em;
-}
-
 .columns {
   @include breakpoint(m) {
     columns: 2;

@@ -5,7 +5,7 @@
   .container {
     padding-top: 5em;
     padding-bottom: 5em;
-    border-top: 1px dashed $light-accent;
+    border-top: 1px dashed darken($light-accent,5%);
   }
   p {
   	color: lighten($dark-accent,15%);

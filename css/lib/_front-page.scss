@@ -22,17 +22,31 @@
   align-items: center;
   justify-content: left;
   margin-bottom: 2em;
+  background: linear-gradient( to right, $light-accent 50%, $body-bg 50%) no-repeat;
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: background-position .5s;
+  border-radius: 0.2em;
+  &:hover {
+    background-position: 0 0;
+    transition: background-position .25s;
+    //color: white;
+    text-decoration: none;
+  }
+
 }
 
 
 
 .post-img-container  {
   display: none;
+  background: $body-bg;
+  border-right: 1em solid $body-bg;
   @include breakpoint(m) {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 10em;
+    width: 11em;
     height: 10em;
     overflow: hidden;
     margin-right: 6%;
