@@ -24,12 +24,6 @@
   &:hover {
     text-decoration: none;
     color: $link-color;
-    transition: 2s;
-    .post-img {
-     transform: scale(1.2) translateX(1em);
-      transition: 6s linear;
-    }
-
   }
 
 }
@@ -47,11 +41,9 @@
     width: 11em;
     height: 10em;
     overflow: hidden;
-    margin-right: 6%;
     .post-img {
       display: block;
       margin: 0;
-      transition: 5s;
     }
   }
 }
