@@ -2,12 +2,8 @@
 .post-header {
   .container { z-index: 1; }
   .lt-ie9 & { height: 26em; }
-
   position: relative;
-  h1 {
-    z-index: 100;
-    @include breakpoint(m){ margin-top: 0.5em; }
-  }
+
 }
 .post-header-no-map {margin-bottom: 3em;}
 
@@ -21,6 +17,13 @@
   display: block;
   text-align: inherit;
   @extend .xs;
+}
+
+.post-page {
+  .post-meta {
+    color: lighten($text-color, 20%);
+    margin-bottom: 2em;
+  }
 }
 
 

@@ -18,9 +18,8 @@
   @extend .clearfix;
   color: $text-color;
   display: block;
-  display: flex;
-  align-items: center;
-  justify-content: left;
+  @extend %flex;
+  
   margin-bottom: 2em;
   background: linear-gradient( to right, $light-accent 50%, $body-bg 50%) no-repeat;
   background-position: 100% 0;
@@ -42,10 +41,8 @@
   display: none;
   background: $body-bg;
   border-right: 1em solid $body-bg;
+  @extend %flex;
   @include breakpoint(m) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 11em;
     height: 10em;
     overflow: hidden;

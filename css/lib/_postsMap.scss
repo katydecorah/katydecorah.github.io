@@ -1,21 +1,44 @@
-.post-map-header-google {
+.post-header-has-map {
 	margin-bottom: 1em;
-	@include breakpoint(m) { min-height: 17em;}
+	@include breakpoint(m) { 
+		min-height: 10em;
+		overflow: hidden;
+		border-radius: 0.25em;
+  	position: relative;
+  	display: flex;
+  align-items: center;
+  justify-content: center;
+	}
+	h1 { 
+		margin: 0;
+		align-self: flex-start;
+		@include breakpoint(m) { color: rgba($text-color,0.75); }
+	}
 }
-.post-map-header-mapbox {
-	@include breakpoint(m) { height: 20em;}
 
-	.post-map-header {height: 26em;}
+.post-map-header-mapbox {
+	h1 {
+		position: relative;
+		z-index: 100;
+	}
+	.leaflet-container {
+	min-height: 15em;
 }
+}
+
+
 
 .post-map-header {
-	width:100%;
+	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	overflow: hidden;
 	@include breakpoint(s) { display:none }
 }
+
+
+
 
 .post-location-image {
 	display: none;
