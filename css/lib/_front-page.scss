@@ -40,8 +40,10 @@
   display: none;
   background: $body-bg;
   border-right: 1em solid $body-bg;
-  @extend %flex;
   @include breakpoint(m) {
+    display: flex;
+    align-items: center;
+    justify-content: left;
     width: 11em;
     height: 10em;
     overflow: hidden;
