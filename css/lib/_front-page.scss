@@ -19,18 +19,17 @@
   color: $text-color;
   display: block;
   @extend %flex;
-  
   margin-bottom: 2em;
-  background: linear-gradient( to right, $light-accent 50%, $body-bg 50%) no-repeat;
-  background-position: 100% 0;
-  background-size: 200% 100%;
-  transition: background-position .5s;
-  border-radius: 0.2em;
+  transition: 3s;
   &:hover {
-    background-position: 0 0;
-    transition: background-position .25s;
-    //color: white;
     text-decoration: none;
+    color: $link-color;
+    transition: 2s;
+    .post-img {
+     transform: scale(1.2) translateX(1em);
+      transition: 6s linear;
+    }
+
   }
 
 }
@@ -50,6 +49,7 @@
     .post-img {
       display: block;
       margin: 0;
+      transition: 5s;
     }
   }
 }
