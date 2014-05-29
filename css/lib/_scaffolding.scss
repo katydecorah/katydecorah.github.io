@@ -16,7 +16,7 @@ a {
   color: $link-color;
   text-decoration: none;
   &:hover {
-    color: $link-hover,10%;
+    color: lighten($link-hover,10%);
     text-decoration: underline;
   }
 }
@@ -56,16 +56,29 @@ img {
 }
 
 
-.img-half {width:49.5%;}
-.img-thirds {width:33.33%}
-.img-fourths {width:25%}
-.img-split-wide, .img-wide {width:64%}
-.img-split-tall, .img-tall {width:36%}
+.img-half {
+  width: 49%;
+}
+.img-thirds {
+  width: 32.33%;
+}
+.img-fourths {
+  width: 24%;
+}
+.img-split-wide, .img-wide {
+  width: 62.75%;
+}
+.img-split-tall, .img-tall {
+  width: 35.25%;
+}
 .rotate-left {transform: rotate(-90deg);}
 
 .img-half, .img-thirds, .img-fourths, .img-split-wide, .img-wide, .img-split-tall, .img-tall {
-  display:inline-block;
-  margin:0;
+  display: block;
+  float: left;
+  margin: 0 0.5% 0.5em 0.5%;
 }
+
+
 
 .give-me-some-air {margin-left: 2%;}

@@ -1,4 +1,42 @@
+.post {
+  @include breakpoint(s) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 
+  h2, h3, h3, h4, p, ul, ol,figcaption, pre, blockquote, .playlist {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p, pre, ol, ul, blockquote, .playlist {
+    max-width: $container-width;
+  }
+  h2 {
+    max-width: ($container-width / $h2-size) * 1em;
+  }
+  h3 {
+    max-width: ($container-width / $h3-size) * 1em;
+  }
+  h4 {
+    max-width: ($container-width / $h4-size) * 1em;
+  }
+
+
+  .photos, .cp_embed_iframe, embed, .gist, iframe {
+    @include breakpoint(m) {
+    max-width: $media-max;
+  }
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    @extend .clearfix;
+    img {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+    }
+  }
+}
 .post-header {
   .container { z-index: 1; }
   .lt-ie9 & { height: 26em; }
@@ -87,53 +125,11 @@
   text-transform: uppercase;
 }
 
-.cp_embed_iframe, .pop-out {
-  display: block;
-  max-width: none;
-  position: relative;
-  z-index: 10001;
-  max-width: 100%;
-  @include breakpoint(xxl){
-    width: 120% !important;
-    margin: 1em -10% 2em;
-    max-width:none;
-  }
-}
 
-embed {max-width:100%;}
-.gist {
- max-width:100%;
- @include breakpoint(xxl){
-  width: 120% !important;
-  max-width:none;
-  margin: 1em -10%;
-}
-}
-
-
-
-
-figure {
-  margin:3em 0 2em;
-  position:relative;
-  iframe, .cp_embed_iframe,img { margin-bottom:0.5em;}
-}
 figcaption {
-  text-align: right;
-  color: lighten($text-color,10%);
-  @extend .xs;
-  @include breakpoint(xxxl) {
-    position: absolute;
-    left: 111%;
-    top: 1em;
-    text-align: left;
-    min-width: 10em;
-    display: block;
-  }
-}
-
-.meta-browser {
-  @extend .text-right;
-  @extend .xs;
-  margin-top: 5em;
+ text-align: right;
+ color: lighten($text-color,20%);
+ margin-top: 0.5em;
+ margin-bottom: 1em;
+ @extend .xs;
 }

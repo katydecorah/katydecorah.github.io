@@ -7,14 +7,16 @@
 </div>
 <div class="container" id="content">
 <div class="post-meta"><span class="post-type"> <a href="/categories/#{{ page.category | downcase }}">{{ page.category }}</a></span> &times; <span class="post-date">{{ page.date | date: "%B %d, %Y" }}{% if page.updated %}<a href="#updated_{{ page.updated | date: '%m%d%Y' }}" class="post-date-updated">Updated {{ page.updated | date: "%B %d, %Y" }}</a>{% endif %}</span></div>
+</div>
 <div class="post">
-{{ content }}{% if page.category == 'playlists' %}{% include single-playlist.html %}{% endif %}{% if page.credits %}
-<p class="xs text-right">{{ page.credits }}.</p>{% endif %}
+{{ content }}
+{% if page.category == 'playlists' %}{% include single-playlist.html %}{% endif %}{% if page.credits %}<p class="xs text-right">{{ page.credits }}.</p>{% endif %}
+</div>
+<div class="container">
 <div class="post-footer">
 {% include locations.html %}
 {% include tags.html %}
 {% include prev-next.html %}
-</div>
 </div>
 </div>
 {% include footer.html %}

@@ -31,11 +31,11 @@ h1 {
 
 h2, h3, h4 {  @extend .headings-type; }
 
-h2 {font-size: 1.424em;}
+h2 {font-size: $h2-size;}
 
-h3 {font-size: 1.266em;}
+h3 {font-size: $h3-size;}
 
-h4 {font-size: 1.125em;}
+h4 {font-size: $h4-size;}
 
 .xl {
   font-size: 1.5em;
