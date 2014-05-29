@@ -13,6 +13,9 @@
 		margin: 0;
 		align-self: flex-start;
 		@include breakpoint(m) { color: rgba($text-color,0.75); }
+		.no-flexbox & {
+			margin-top: 0.5em;
+		}
 	}
 }
 
