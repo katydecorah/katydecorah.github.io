@@ -1,7 +1,7 @@
 .post-header-has-map {
 	margin-bottom: 1em;
 	@include breakpoint(m) { 
-		min-height: 10em;
+		min-height: 300px;
 		overflow: hidden;
 		border-radius: 0.25em;
   	position: relative;

@@ -5,7 +5,13 @@
   position: relative;
 
 }
-.post-header-no-map {margin-bottom: 3em;}
+.post-header-no-map {
+  margin-bottom: 3em;
+  h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+  }
+}
 
 .post-locations,.tags {@extend .text-right;}
 .post-location, .tag {
