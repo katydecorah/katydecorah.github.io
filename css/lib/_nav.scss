@@ -18,13 +18,16 @@
       }
   .nav-link {
     display: block;
-    color: $dark-accent;
+    color: $link-color;
     margin: 0 0.25em;
     line-height: 1;
     padding: 0.35em 0.5em;
     @extend small;
     &:hover {
-      color: $link-hover;
+      background: $link-hover;
+  color: $body-bg;
+  border-radius: $border-radius;
+      text-decoration: none;
     }
     li {    
       @include breakpoint(s) { width: 100%; }
@@ -32,6 +35,7 @@
   }
 }
 .active .nav-link {
-  color: $link-hover;
-  text-decoration: underline;
+  background: $link-hover;
+  color: $body-bg;
+  border-radius: $border-radius;
 }
