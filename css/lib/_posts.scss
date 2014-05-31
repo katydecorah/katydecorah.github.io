@@ -87,7 +87,7 @@
   &:hover {
     transition: all .5s linear;
     color: lighten($dark-accent,15%);
-    .btn-circle { background: $link-hover;}
+   @include breakpoint(m) { .btn-circle { background: $link-hover;} }
   }
   .next, .previous {
     @include breakpoint(m){

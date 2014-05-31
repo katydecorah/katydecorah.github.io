@@ -3,13 +3,6 @@
   margin: 0;
   padding: 0;
   transition: .25s;
-  @include breakpoint(m) { float: right; }
-  @include breakpoint(s) { margin-top: 1em; }
-  .footer & {
-    margin-bottom: 1em;
-    margin-top: 0.5em;
-    line-height: 1;
-  }
 
   li {
     display: inline-block;
@@ -18,8 +11,12 @@
   }
 }
 .header {
+  .nav {
+    @include breakpoint(m) { float: right; }
+    @include breakpoint(s) { display: none;  }
+  
+      }
   .nav-link {
-    &:nth-child(1) {padding-left: 0;}
     display: block;
     color: $dark-accent;
     margin: 0 0.25em;

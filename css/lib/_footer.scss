@@ -1,9 +1,9 @@
 .footer {
 
-  @include breakpoint(m) {margin-top: 2em; }
+  margin-top: 2em;
 
   .container {
-    padding-top: 5em;
+    padding-top: 2em;
     padding-bottom: 5em;
     border-top: 1px dashed darken($light-accent,5%);
   }
@@ -12,11 +12,13 @@
   	@extend .xxs;
   	margin: 0;
   }
-  @include breakpoint(m) {
-    .nav { float: right; }
-  }
   .nav-link {
     padding-left: 0.5em;
     padding-right: 0.5em;
+  }
+  .nav {
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    line-height: 1;
   }
 }

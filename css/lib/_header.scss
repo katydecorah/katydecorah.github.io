@@ -12,7 +12,6 @@
 .logo {
   color: $dark-accent;
   display: block;
-  font-weight: bold;
   @include breakpoint(m) { float: left;}
   &:hover {
     color: $link-hover;
