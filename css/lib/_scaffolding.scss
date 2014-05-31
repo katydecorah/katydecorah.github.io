@@ -15,9 +15,11 @@ body {
 a {
   color: $link-color;
   text-decoration: none;
+  transition: $link-transition;
   &:hover {
-    color: lighten($link-hover,10%);
+    color: $link-hover;
     text-decoration: underline;
+    transition: $link-transition;
   }
 }
 

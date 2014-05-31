@@ -11,25 +11,7 @@
   }
 }
 
-.btn-circle {
-  @include breakpoint(m){
-  display: inline-block;
-  background: $dark-accent;
-  border-radius: 100%;
-  line-height: 2em;
-  height: 2em;
-  width: 2em;
-  vertical-align: middle;
-  color: #FFF;
-  margin: 1em 0.25em;
-  font-size: 1em;
-  text-align: center;
-  &:hover {
-    background: $link-hover;
-    color:white;
-  }
-  }
-}
+
 
 .btn-rect {
   background: $dark-accent;

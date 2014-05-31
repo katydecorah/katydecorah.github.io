@@ -52,7 +52,6 @@
 .post-title {
   font-size: 2.25em;
   line-height: 1.2;
-  font-style: italic;
   @extend .big-type;
   @include breakpoint(s) {
     font-size: 1.5em;
