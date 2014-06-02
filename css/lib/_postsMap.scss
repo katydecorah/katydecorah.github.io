@@ -7,16 +7,21 @@
 		position: relative;
 		display: flex;
 		align-items: center;
-    justify-content: flex-start;
-}
-h1 { 
-	margin: 0;
-	align-self: flex-start;
-	@include breakpoint(m) { color: rgba($text-color,0.75); }
-	.no-flexbox & {
-		margin-top: 0.5em;
+		justify-content: flex-start;
 	}
-}
+	.container {
+		width: 100%;
+
+	}
+	h1 { 
+		margin: 0;
+
+
+		@include breakpoint(m) { color: rgba($text-color,0.75); }
+		.no-flexbox & {
+			margin-top: 0.5em;
+		}
+	}
 }
 
 .post-map-header-mapbox {
