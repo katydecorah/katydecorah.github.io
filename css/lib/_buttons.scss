@@ -10,18 +10,3 @@
     color: $light-accent;
   }
 }
-
-
-
-.btn-rect {
-  background: $dark-accent;
-  color: #FFF;
-  padding: 0.25em 0.7em;
-  border-radius: 0.3em;
-  margin: 1em 0.5em;
-  display: inline-block;
-  &:hover {
-    background:$link-hover;
-    color:white;
-  }
-}

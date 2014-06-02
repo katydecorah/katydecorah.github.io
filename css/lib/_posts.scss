@@ -44,11 +44,9 @@
 
 }
 .post-header-no-map {
-  margin-bottom: 3em;
   h1 {
     margin-top: 0.5em;
     margin-bottom: 0.25em;
-    line-height: 1;
   }
 }
 
@@ -150,6 +148,7 @@
 }
 .post-prev-title, .post-next-title  {
   @extend .small;
+  @extend .big-type;
   @include breakpoint(m) {
     display: block;
   }
