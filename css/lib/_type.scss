@@ -1,7 +1,11 @@
 
 
 .body-type { font-family: $sans;}
-.big-type { font-family: $serif; font-style: italic; font-weight: 200;}
+.big-type { 
+  font-family: $serif; 
+  font-style: italic; 
+  font-weight: 100;
+}
 .headings-type {font-weight: 700;}
 .code-type {font-family: $mono;}
 
