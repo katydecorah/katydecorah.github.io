@@ -4,19 +4,19 @@
 		min-height: 300px;
 		overflow: hidden;
 		border-radius: 0.25em;
-  	position: relative;
-  	display: flex;
-  align-items: center;
-  justify-content: center;
+		position: relative;
+		display: flex;
+		align-items: center;
+    justify-content: flex-start;
+}
+h1 { 
+	margin: 0;
+	align-self: flex-start;
+	@include breakpoint(m) { color: rgba($text-color,0.75); }
+	.no-flexbox & {
+		margin-top: 0.5em;
 	}
-	h1 { 
-		margin: 0;
-		align-self: flex-start;
-		@include breakpoint(m) { color: rgba($text-color,0.75); }
-		.no-flexbox & {
-			margin-top: 0.5em;
-		}
-	}
+}
 }
 
 .post-map-header-mapbox {
@@ -25,8 +25,8 @@
 		z-index: 100;
 	}
 	.leaflet-container {
-	min-height: 300px;
-}
+		min-height: 300px;
+	}
 }
 
 
