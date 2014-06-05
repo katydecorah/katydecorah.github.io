@@ -13,8 +13,8 @@ title: Categories
 {% if category[1].size == i %}
 <h2 id="{{ category[0] | downcase | replace:' ','_' }}">{{ category[0] }}</h2>
 <div class="columns">
-<ul class="unstyled">
-{% for post in category.last %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+<ul class="fa-ul">
+{% for post in category.last %}<li><a href="{{ post.url }}"><i class="fa fa-angle-right fa-li"></i> {{ post.title }}</a></li>{% endfor %}
 </ul>
 </div>
 {% endif %}

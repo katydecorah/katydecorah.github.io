@@ -22,10 +22,18 @@
 }
 
 .columns {
+  @extend small;
   @include breakpoint(m) {
     columns: 2;
-    orphans: 0;
-    widows: 2;
+    column-gap: 5em;
+  }
+  .fa-ul { margin-top: 0;}
+  .fa-li { top: 0.3em; }
+  li {
+    display: block;
+    padding: 0.2em 0;
+    -webkit-column-break-inside: avoid;
+
   }
 }
 
