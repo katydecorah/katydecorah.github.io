@@ -22,21 +22,13 @@
     margin: 0 0.25em;
     line-height: 1;
     padding: 0.35em 0.5em;
-     border-radius: $border-radius;
+    border-radius: $border-radius;
     @extend small;
-    &:hover {
-      background: $link-hover;
-      color: $body-bg;
-
-      text-decoration: none;
-    }
     li {    
       @include breakpoint(s) { width: 100%; }
     }
   }
 }
 .active .nav-link {
-  background: $link-hover;
-  color: $body-bg;
-  border-radius: $border-radius;
+  text-decoration: underline;
 }
