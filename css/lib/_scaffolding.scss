@@ -64,6 +64,10 @@ img {
 .img-thirds {
   width: 32.33%;
 }
+.thirds {
+  margin-bottom: 1em;
+  @include breakpoint(m) { float: left; width: 32.33%;}
+}
 .img-fourths {
   width: 24%;
 }

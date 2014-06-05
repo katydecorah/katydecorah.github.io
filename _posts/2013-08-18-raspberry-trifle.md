@@ -4,7 +4,6 @@ title: Raspberry Trifle
 category: epicurean
 tags: 
   - treats
-  map
 image: http://farm8.staticflickr.com/7351/9568133232_db001536e7_c.jpg
 ---
 

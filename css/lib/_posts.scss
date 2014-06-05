@@ -22,7 +22,7 @@
   }
 
 
-  .photos, .cp_embed_iframe, embed, .gist, iframe {
+  .photos, .cp_embed_iframe, embed, .gist, iframe, .media {
     @include breakpoint(m) {
       max-width: $media-max;
     }
