@@ -56,7 +56,10 @@
 
 .post-locations, .post-tags {
   @extend .xs;
-  .fa { min-width: 1.25em;}
+  .fa { 
+    min-width: 1.25em;
+    @include breakpoint(s) { display: block; margin-bottom: 0.25em;}
+  }
 }
 
 .post-locations {
@@ -69,6 +72,7 @@
   padding: 0 0.5em;
   border-radius: 0.2em;
   border: 1px solid transparent;
+  margin-bottom: 0.25em;
   &:hover {
     text-decoration: none;
     border-left: 1px solid $link-color;
@@ -148,7 +152,6 @@
     width: 2em;
     vertical-align: middle;
     color: #FFF;
-    font-size: 1em;
     text-align: center;
     &:hover {
       background: $link-hover;
