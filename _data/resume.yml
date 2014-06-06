@@ -11,11 +11,13 @@
     contents:
     - title: UI Designer
       company: Fire Engine RED
+      company-link: "http://www.fire-engine-red.com/"
       from: June 2014
       to: present
-      show: false
+      show: true
     - title: Instructional Designer/Web Developer
       company: "Professional Development Program, Research Foundation at SUNY"
+      company-link: "http://www.pdp.albany.edu/"
       from: January 2011
       to: May 2014
       show: true
