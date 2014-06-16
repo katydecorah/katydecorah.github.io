@@ -49,6 +49,15 @@ Sunday we took the Blue Ridge Parkway to Craggy Gardens and to the Summit of Mou
 <img src="https://farm6.staticflickr.com/5235/14379383021_566f82cd22_b.jpg" class="img-wide" alt="Craggy Gardens">
 </div>
 
+## Mount Mitchell
+
+<div class="photos">
+<img src="https://farm3.staticflickr.com/2895/14245564347_0aae622b0b_b.jpg" alt="Mount Mitchell">
+
+<img src="https://farm4.staticflickr.com/3854/14245412348_688649865b_b.jpg" class="img-half" alt="Mount Mitchell">
+<img src="https://farm4.staticflickr.com/3865/14245409458_80639980e4_b.jpg" class="img-half" alt="Mount Mitchell">
+</div>
+
 We took a few strolls around Biltmore. We rewatched Richie Rich after finding out that the movie was filmed there. (Mind blown.)
 
 <div class="photos">
