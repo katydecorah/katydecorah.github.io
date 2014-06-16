@@ -15,7 +15,7 @@ paginate: 7
 paginate_path: ":num"
 
 name: Katy DeCorah
-description: "Front-end developer and instructional designer from Albany, NY."
+description: "Front-end developer and designer from Albany, NY."
 image: https://farm4.staticflickr.com/3786/14321547483_524b5cbce1_o.jpg
 
 timezone: America/New_York
