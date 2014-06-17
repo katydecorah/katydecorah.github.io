@@ -2,11 +2,12 @@
   position: relative;
   transition: 0.25s;
   margin-bottom: 1em;
-  padding-top: 2em;
+  border-bottom: 1px solid #F7F7F7;
   @extend .clearfix;
-  .container {
-    padding-bottom: 2em;
-    border-bottom: 1px dashed darken($light-accent,5%);
+  a {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid transparent;
   }
 }
 .logo {
@@ -15,5 +16,7 @@
   @include breakpoint(m) { float: left;}
   &:hover {
     color: $link-hover;
+    text-decoration: none;
+    border-bottom-color: $link-hover;
   }
 }

@@ -6,7 +6,7 @@ title: Katy DeCorah
 {% for post in paginator.posts %}
 <a href="{% if post.category != 'elsewhere' %}{{ post.url }}{% else %}{{ post.link }}{% endif %}" class="post-link">
 <div class="post-img-container">
-<img src="{% if post.image %}{{ post.image }}{%else%}http://placehold.it/400{%endif%}" class="post-img" alt="{{ post.title }}">
+<div style="background-image:url({% if post.image %}{{ post.image }}{%else%}http://placehold.it/400{%endif%})" class="post-img"></div>
 </div>
 <div class="post-meta">
 <div class="post-title">{{ post.title }}</div>

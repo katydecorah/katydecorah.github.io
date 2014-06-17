@@ -5,7 +5,7 @@ layouts: _layouts
 
 safe: true
 lsi: false
-pygments: true
+highlighter: true
 markdown: kramdown
 
 url: http://katydecorah.com
