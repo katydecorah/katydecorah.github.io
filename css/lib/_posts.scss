@@ -1,11 +1,10 @@
 .post {
 
   @media (max-width: $container-width) {
-  
+
     padding-left: 1em;
     padding-right: 1em;
   }
-
 
 
   h2, h3, h3, h4, p, ul, ol,figcaption, pre, blockquote, .playlist {
@@ -17,23 +16,20 @@
   }
 
   p, pre, blockquote, .playlist, figcaption, h2, h3, h4 {
-    max-width: $container-width;
+    max-width: $container-width - ($body-font-size * 2);
   }
-
 
 
   .photos, .cp_embed_iframe, embed, .gist, iframe, .media {
-      max-width: $media-max;
-  
-
-    @media (max-width: $media-max) and (min-width: $container-width) {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
+    max-width: $media-max;
     margin-left: auto;
     margin-right: auto;
     display: block;
     position: relative;
+    @media (max-width: $media-max) and (min-width: $container-width) {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
     @extend .clearfix;
     img {
       margin-top: 0;
