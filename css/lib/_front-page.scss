@@ -19,8 +19,11 @@
   color: $text-color;
   display: block;
   @extend %flex;
-  margin-bottom: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  //border-bottom: 1px solid #ddd;
   transition: 3s;
+  //&:last-child { border-bottom: none; };
   &:hover {
     text-decoration: none;
     color: $link-color;
@@ -32,13 +35,13 @@
 
 .post-img-container  {
   display: none;
-  background: $body-bg;
-  border-right: 1em solid $body-bg;
   @include breakpoint(m) {
+    margin-left: 1em;
     display: flex;
     align-items: center;
     justify-content: left;
-    width: 11em;
+    float: right;
+    width: 10em;
     height: 10em;
     overflow: hidden;
     .post-img {
@@ -46,6 +49,7 @@
       width: 100%;
       height: 100%;
       background-size: cover;
+      background-position: center;
     }
   }
 }
@@ -58,4 +62,8 @@
   @include breakpoint(s) {
     font-size: 1.5em;
   }
+}
+
+.paginator {
+  margin-top: 1em;
 }

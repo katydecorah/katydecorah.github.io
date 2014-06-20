@@ -1,12 +1,14 @@
 .post {
-  @include breakpoint(s) {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
+
+    //padding-left: 1em;
+    //padding-right: 1em;
+
 
   h2, h3, h3, h4, p, ul, ol,figcaption, pre, blockquote, .playlist {
     margin-left: auto;
     margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
   }
   p, pre, ol, ul, blockquote, .playlist, figcaption {
     max-width: $container-width;
@@ -185,13 +187,9 @@
 }
 
 
-
-
-
-
-
-
-
+figure {
+  margin: 0 auto;
+}
 
 figcaption {
  text-align: right;

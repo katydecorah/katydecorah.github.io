@@ -4,7 +4,7 @@ html,body {
   padding: 0;
 }
 body {
-  font-size: 23px;
+  font-size: 24px;
   line-height: 1.4;
   color: $text-color;
   font-weight: 300;
@@ -43,8 +43,9 @@ hr {
 }
 
 img {
-  margin: 2em auto 3em;
-  display:block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: block;
 }
 
 

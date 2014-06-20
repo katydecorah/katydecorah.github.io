@@ -4,12 +4,11 @@
   margin-left: auto;
   margin-right: auto;
 
+
   position: relative;
   @extend .clearfix;
-  @include breakpoint(s) {
   padding-left: 1em;
   padding-right: 1em;
-  }
 }
 .half-left,.half-right {
   @include breakpoint(m) {
