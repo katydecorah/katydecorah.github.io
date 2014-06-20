@@ -1,9 +1,6 @@
 
 
 .all-posts {
-  @include breakpoint(m) {
-    margin-top: 1em;
-  }
   .post-meta {
     @include breakpoint(m) {
       float: left;

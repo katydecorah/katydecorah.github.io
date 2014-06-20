@@ -10,7 +10,11 @@
     padding-left: 1em;
     padding-right: 1em;
   }
-  p, pre, ol, ul, blockquote, .playlist, figcaption {
+  ol,ul {
+    max-width: $container-width - 4;
+  }
+
+  p, pre, blockquote, .playlist, figcaption {
     max-width: $container-width;
   }
   h2 {
