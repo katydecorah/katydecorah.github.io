@@ -1,37 +1,35 @@
 .post {
 
-    //padding-left: 1em;
-    //padding-right: 1em;
+  @media (max-width: $container-width) {
+  
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
 
 
   h2, h3, h3, h4, p, ul, ol,figcaption, pre, blockquote, .playlist {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1em;
-    padding-right: 1em;
   }
   ol,ul {
     max-width: $container-width - 4;
   }
 
-  p, pre, blockquote, .playlist, figcaption {
+  p, pre, blockquote, .playlist, figcaption, h2, h3, h4 {
     max-width: $container-width;
   }
-  h2 {
-    max-width: ($container-width / $h2-size) * 1em;
-  }
-  h3 {
-    max-width: ($container-width / $h3-size) * 1em;
-  }
-  h4 {
-    max-width: ($container-width / $h4-size) * 1em;
-  }
+
 
 
   .photos, .cp_embed_iframe, embed, .gist, iframe, .media {
-    @include breakpoint(m) {
       max-width: $media-max;
-    }
+  
+
+    @media (max-width: $media-max) and (min-width: $container-width) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
     margin-left: auto;
     margin-right: auto;
     display: block;

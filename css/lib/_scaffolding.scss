@@ -4,7 +4,7 @@ html,body {
   padding: 0;
 }
 body {
-  font-size: 24px;
+  font-size: $body-font-size;
   line-height: 1.4;
   color: $text-color;
   font-weight: 300;
