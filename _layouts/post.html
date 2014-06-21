@@ -10,6 +10,7 @@
 </div>
 <div class="post">
 {{ content }}
+{% if page.recipe %}<p class="recipe-meta">Recipe: <a href="{{ page.recipe }}">{{ page.recipe-title }}</a></p>{% endif %}
 {% if page.category == 'playlists' %}{% include single-playlist.html %}{% endif %}{% if page.credits %}<p class="xs text-right">{{ page.credits }}.</p>{% endif %}
 </div>
 <div class="container">
