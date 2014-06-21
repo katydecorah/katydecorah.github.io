@@ -13,14 +13,15 @@
 	h2 {display: none;}
 }
 .playlist-track {
-	margin-bottom:1em;
-	line-height:1.2;
+	margin-bottom: 1em;
+	line-height: 1.2;
+	-webkit-column-break-inside: avoid;
 }
 .track-name {
 	display: block;
 }
 .track-artist, .track-album {
-	color:#999;
+	color: #999;
 	@extend .small;
 }
 
