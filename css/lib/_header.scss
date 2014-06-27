@@ -8,8 +8,6 @@
     background: rgba(white,0.925);
     z-index: 1000;
   }
-  
-  transition: 0.25s;
   margin-bottom: 2em;
   border-bottom: 1px solid $light-accent;
   @extend .clearfix;

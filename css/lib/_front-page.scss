@@ -18,14 +18,10 @@
   @extend %flex;
   padding-bottom: 1em;
   padding-top: 1em;
-  //border-bottom: 1px solid #ddd;
-  transition: 3s;
-  //&:last-child { border-bottom: none; };
   &:hover {
     text-decoration: none;
     color: $link-color;
   }
-
 }
 
 
