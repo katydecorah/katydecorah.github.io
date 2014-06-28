@@ -2,7 +2,6 @@ _site/
 .sass-cache
 _ignore/
 notes/
-photobooth/
 node_modules/
 img/source/
 img/

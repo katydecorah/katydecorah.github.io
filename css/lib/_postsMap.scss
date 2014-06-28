@@ -53,9 +53,14 @@
 	max-width: none;
 	@include breakpoint(m) {
 		display: block;
+		height: 300px;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		width: 1280px;
+		background-position: center $body-padding-top;
 		margin: 0 auto;
-		opacity: 0.25;
-		border-radius: 0.5em;
+		background-color: rgba(white,0.65);
+		background-blend-mode: overlay;
 	}
 }
 
