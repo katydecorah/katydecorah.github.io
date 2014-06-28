@@ -1,6 +1,13 @@
 .header {
   position: relative;
-  transition: 0.25s;
+  @include breakpoint(m) {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    background: rgba(white,0.925);
+    z-index: 1000;
+  }
   margin-bottom: 2em;
   border-bottom: 1px solid $light-accent;
   @extend .clearfix;
