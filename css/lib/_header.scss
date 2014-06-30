@@ -21,6 +21,7 @@
   color: $dark-accent;
   display: block;
   @include breakpoint(m) { float: left;}
+  @extend .big-type;
   &:hover {
     color: $link-hover;
     text-decoration: none;

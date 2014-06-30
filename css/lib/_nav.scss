@@ -20,10 +20,11 @@
   .nav-link {
     display: block;
     color: $link-color;
+    padding: 1em 0.5em;
     margin: 0 0.5em;
-    //line-height: 1;
-    //border-radius: $border-radius;
-    //@extend small;
+    line-height: 1;
+    font-size: 0.8em;
+    text-transform: uppercase;    
     li {    
       @include breakpoint(s) { width: 100%; }
     }
