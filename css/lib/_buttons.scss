@@ -4,6 +4,7 @@
   background: $light-accent;
   padding: 0.2em 0.75em;
   border-radius: $border-radius;
+  @extend .big-type;
   &:hover, &.active {
     background: $link-color;
     text-decoration: none;

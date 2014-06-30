@@ -33,9 +33,12 @@ h1 {
   @include breakpoint(s){ font-size: 2em;}
 }
 
-h2, h3, h4 {  @extend .headings-type; }
+h2 {
+  font-size: $h2-size;
+  @extend .big-type;
+}
 
-h2 {font-size: $h2-size;}
+h3, h4 {  @extend .headings-type; }
 
 h3 {font-size: $h3-size;}
 
