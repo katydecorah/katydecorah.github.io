@@ -4,12 +4,12 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background: white;
-    background: rgba(white,0.925);
     z-index: 1000;
   }
   margin-bottom: 2em;
-  border-bottom: 1px solid $light-accent;
+  //border-bottom: 1px solid $light-accent;
+  background-color: #f2f7f8;
+  background-color: $header-bg;
   @extend .clearfix;
   a {
     padding-top: 0.5em;

@@ -35,7 +35,7 @@ kramdown:
 exclude: [vendor, node_modules, Gemfile, Gruntfile.js, package.json]
 
 links:
-- text: Hello
+- text: Hello!
   url: /hello/
   position: top
 - text: Categories
