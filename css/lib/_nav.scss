@@ -24,7 +24,8 @@
     margin: 0 0.5em;
     line-height: 1;
     font-size: 0.8em;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    position: relative;    
     li {    
       @include breakpoint(s) { width: 100%; }
     }
@@ -32,5 +33,15 @@
 }
 .active .nav-link, .nav-link:hover {
   text-decoration: none;
-  border-bottom-color: $link-hover;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-style: solid;
+    border-width: 0 0.5775em 1em;
+    border-color: transparent transparent white;
+    @extend .small;
+  }
 }
