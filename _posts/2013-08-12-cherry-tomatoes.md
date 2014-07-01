@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Windowsill Cherry Tomatoes
-category: epicurean
+category: notes
 tags: 
 - green thumb
 image: http://farm4.staticflickr.com/3777/9496159841_8160d1b55b_z.jpg
-locations:
-- Albany,NY
 ---
 
 This past winter I decided that I wanted to grow food. More specifically, I wanted to wake up in my Albany studio apartment, reach my hand to my windowsill, and pick food off of my plants. 
