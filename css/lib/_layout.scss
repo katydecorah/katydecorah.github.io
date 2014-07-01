@@ -57,9 +57,14 @@
     align-items: center;
     justify-content: left;
     padding: 1em;
+    transition: .2s;
     &:hover {
       background: $header-bg;
-      h3:before {background-color: darken($header-bg,20%);}
+      transition: .25s;
+      h3:before {
+        background-color: darken($header-bg,20%);
+        transition: .25s;
+      }
     }
   }
 
@@ -79,6 +84,7 @@
        border-radius: 0.5em;
        left: -1.875em;
        top: 0.3em;
+       transition: .2s;
      }
    }
  }
