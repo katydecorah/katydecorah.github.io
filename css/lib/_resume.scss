@@ -9,19 +9,17 @@
 		@extend .text-left;
 	}
 	h2 {
-		border-bottom: 0.1em solid;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
 		font-size: 1em;
-		margin: 1em 0 2em;
+		margin: 1em 0;
 		text-transform: uppercase;
 		color: lighten($text-color,25%);
-		font-weight: bold;
-		@extend .text-right;
-		@extend .body-type;
 	}
 	h3 {
-		font-weight:700;
+		font-weight: 700;
 		@extend .body-type;
-		margin-bottom: 0.25em;
+		margin-bottom: 0;
 		margin-top: 0.5em;
 	}
 	h4 {
@@ -43,7 +41,7 @@
 	}
 
 	.skills {
-		columns: 1em 3;
+		columns: 250px;
 		list-style: none;
 		padding: 0;
 		margin-top: 1em;

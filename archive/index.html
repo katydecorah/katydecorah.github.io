@@ -8,7 +8,9 @@ title: Archive
 {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 {% if forloop.first %}
+<div class="archive-year year-{{this_year}}">
 <h2>{{this_year}}</h2>
+<div class="archive-months">
 <h3>{{ this_month }}</h3>
 <ul class="unstyled">
 {% endif %}
@@ -18,7 +20,11 @@ title: Archive
 {% else %}
 {% if this_year != next_year %}
 </ul>
+</div>
+</div>
+<div class="archive-year year-{{next_year}}">
 <h2>{{next_year}}</h2>
+<div class="archive-months">
 <h3>{{ next_month }}</h3>
 <ul class="unstyled">
 {% else %}

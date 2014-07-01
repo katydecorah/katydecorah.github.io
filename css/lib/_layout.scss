@@ -32,8 +32,21 @@
     display: block;
     padding: 0.2em 0;
     -webkit-column-break-inside: avoid;
-
   }
 }
 
 
+.archive-year {
+  margin-bottom: 1em;
+}
+.archive-months {
+    @include breakpoint(m) {
+    columns: 2;
+    column-gap: 5em;
+  }
+  ul { -webkit-column-break-inside: avoid; }
+}
+
+.archive-months h3:first-of-type {
+margin-top: 0;
+}
