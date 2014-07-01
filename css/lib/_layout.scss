@@ -39,14 +39,53 @@
 .archive-year {
   margin-bottom: 1em;
 }
+
 .archive-months {
-    @include breakpoint(m) {
-    columns: 2;
-    column-gap: 5em;
-  }
-  ul { -webkit-column-break-inside: avoid; }
+ @include breakpoint(m) {
+  margin-left: 1em;
+  border-left: 4px solid $header-bg;
+  padding-left: 1em;
+}
 }
 
-.archive-months h3:first-of-type {
-margin-top: 0;
+.archive-month { 
+  @extend .clearfix;
+  @include breakpoint(m) {
+    margin-bottom: 2em;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1em;
+    &:hover {
+      background: $header-bg;
+      h3:before {background-color: darken($header-bg,20%);}
+    }
+  }
+
+  h3 { 
+    position: relative;
+    min-width: 200px;
+    .no-flexbox & { float: left;} 
+    @include breakpoint(m) { margin: 0; }
+    @extend .big-type;
+    &:before {
+      @include breakpoint(m) {
+       content: "";
+       position: absolute;
+       width: 0.5em;
+       height: 0.5em;
+       background-color: darken($header-bg,5%);
+       border-radius: 0.5em;
+       left: -1.875em;
+       top: 0.3em;
+     }
+   }
+ }
+ ul { 
+  margin-top: 0; 
+  margin-bottom: 0;
+  .no-flexbox & { float: left; width: 500px;} 
+  
+}
 }

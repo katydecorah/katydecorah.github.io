@@ -41,8 +41,8 @@ links:
 - text: Categories
   url: /categories/
   position: top
-- text: Archive
-  url: /archive/
+- text: Time Capsule
+  url: /time-capsule/
   icon: archive
   position: top
 - text: Email
