@@ -85,7 +85,8 @@ hr {
 }
 
 blockquote {
- margin: 3em 2em;
+  margin: 2em auto;
+ position: relative;
  p {
    @extend .big-type;
    font-size: 1.25em;
@@ -96,4 +97,17 @@ blockquote {
    font-size: 0.5em;
    display: block;
  }
+ &:before {
+  content: "\201C";
+  display: block;
+  position: absolute;
+  color: darken($header-bg,10%);
+  font-size: 8em;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  z-index: -1;
+  top: -0.2em;
+  left: -0.1em;
+}
 }
