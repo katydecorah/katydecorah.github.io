@@ -7,9 +7,16 @@
     z-index: 1000;
   }
   margin-bottom: 2em;
-  //border-bottom: 1px solid $light-accent;
   background-color: #f2f7f8;
   background-color: $header-bg;
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-top: 1px dashed $header-bg;
+    top: 100%;
+    position: absolute;
+  }
   @extend .clearfix;
   a {
     padding-top: 0.5em;
