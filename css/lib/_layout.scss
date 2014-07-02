@@ -21,11 +21,9 @@
 }
 
 .columns {
-  @extend small;
-  @include breakpoint(m) {
-    columns: 2;
-    column-gap: 5em;
-  }
+  @extend .small;
+  columns: 2 400px;
+  column-gap: 3em;
   .fa-ul { margin-top: 0;}
   .fa-li { top: 0.3em; }
   li {
