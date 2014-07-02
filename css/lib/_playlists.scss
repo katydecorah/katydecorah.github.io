@@ -9,7 +9,8 @@
 
 
 .playlist {
-	@include breakpoint(m) { columns: 2 1em; }
+	columns: 2 300px;
+	column-gap: 4em;
 	h2 {display: none;}
 }
 .playlist-track {
