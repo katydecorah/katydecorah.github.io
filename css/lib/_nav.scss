@@ -26,20 +26,20 @@
     font-size: 0.75em;
     text-transform: uppercase;
     position: relative;
-    &:after {
+   /* &:after {
       content: "";
       position: absolute;
       top: 95%;
       left: 50%;
       transform: translate(-50%, 200%);
       @extend .small;
-      background: $body-bg;
+      background: transparent;
       width: 1em;
       height: 0.5em;
       border-radius: 1em 1em 0 0;
       display: block;
       transition: transform .25s;
-    }  
+    }  */
     li {    
       @include breakpoint(s) { width: 100%; }
     }
@@ -47,8 +47,9 @@
 }
 .active .nav-link, .nav-link:hover {
   text-decoration: none;
-  &:after {
+ /* &:after {
     transform: translate(-50%, -50%);
     transition: transform .25s;
-  }
+    background: $body-bg;
+  }*/
 }
