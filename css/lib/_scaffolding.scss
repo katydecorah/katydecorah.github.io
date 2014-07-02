@@ -25,7 +25,9 @@ a {
 }
 
 hr {
-  margin: 1em 0;
+  border: 1px solid $header-bg;
+  width: 70%;
+  margin: 1em auto 2em;
 }
 
 .img-center {
