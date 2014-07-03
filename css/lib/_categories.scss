@@ -4,10 +4,16 @@
 	@extend .clearfix;
 }
 .category-recent {
+	@include breakpoint(s) {
+		display: flex;
+		align-items: center;
+		justify-content: left;
+	}
 	@include breakpoint(m) {
 		width: 22%;
 		float: left;
 		margin-right: 4%;
+		display: block;
 		&:last-child {
 			margin-right: 0;
 		}
@@ -15,15 +21,7 @@
 	@include breakpoint(s) {
 		margin-bottom: 1em;
 	}
-	a {
-		display: block;
-		width: 100%;
-		@include breakpoint(s) {
-			display: flex;
-			align-items: center;
-			justify-content: left;
-		}
-	}
+
 	.category-title {
 		@extend .small;
 		@extend .big-type;

@@ -16,12 +16,10 @@ title: Card Catalog
 <div class="category-recents">
 {% for post in category.last %}
 {% if forloop.index <= 4 %}
-<div class="category-recent">
-<a href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}">
+<a class="category-recent" href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}">
 <div class="category-thumb" style="background-image:url({{ post.image }});"></div>
 <span class="category-title">{{ post.title }}</span>
 </a>
-</div>
 {% endif %}
 {% endfor %}
 </div>
