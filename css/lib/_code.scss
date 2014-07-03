@@ -1,6 +1,6 @@
 code, pre {
 	background: #EEE;
-	background: rgba(#eee,0.75);
+	background: rgba(248, 248, 248, 0.75);
 	border-radius: 0.2em;
 	@extend .code-type;
 	// prism.js
@@ -13,7 +13,7 @@ code, pre {
 }
 pre {
 	margin: 1em 0;
-	padding: 0.5em 1em;
+	padding: 2em;
 	code {
 		padding: 0;
 		background: none;
