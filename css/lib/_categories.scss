@@ -8,6 +8,7 @@
 	}
 	&:target {
 		padding-top: $body-padding-top;
+		transition: .5s;
 	}
 }
 .category-recents {
