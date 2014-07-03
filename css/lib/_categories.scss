@@ -1,0 +1,59 @@
+.category-recents {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	@extend .clearfix;
+}
+.category-recent {
+	@include breakpoint(m) {
+		width: 20%;
+		float: left;
+		margin: 0 2.5%;
+	}
+	@include breakpoint(s) {
+		margin-bottom: 1em;
+	}
+	a {
+		display: block;
+		width: 100%;
+		@include breakpoint(s) {
+			display: flex;
+			align-items: center;
+			justify-content: left;
+		}
+	}
+	.category-title {
+		@extend .xs;
+		@include breakpoint(m) {
+			display: block;
+			margin-top: 0.25em;
+		}
+		@include breakpoint(s) {
+			margin-left: 1em;
+		}
+	}
+}
+
+.category-thumb {
+	@include breakpoint(m) {
+		width: 100%;
+		padding-bottom: 100%;
+		display: block;
+	}
+	@include breakpoint(s) {
+		width: 20%;
+		padding-bottom: 20%;
+		display: inline-block;
+	}
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.category-clear {
+	clear: both;
+}
+
+.page-categories {
+	.columns {
+		clear: both;
+	}
+}

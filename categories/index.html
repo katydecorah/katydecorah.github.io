@@ -11,11 +11,31 @@ title: Categories
 {% for i in (1..categories_max) reversed %}
 {% for category in site.categories %}
 {% if category[1].size == i %}
+<div class="category">
 <h2 id="{{ category[0] | downcase | replace:' ','_' }}">{{ category[0] }}</h2>
+<div class="category-recents">
+{% for post in category.last %}
+{% if forloop.index <= 4 %}
+<div class="category-recent">
+<a href="{{ post.url }}">
+<div class="category-thumb" style="background-image:url({{ post.image }});"></div>
+<span class="category-title">{{ post.title }}</span>
+</a>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+<div class="category-older">
 <div class="columns">
 <ul class="fa-ul">
-{% for post in category.last %}<li><a href="{{ post.url }}"><i class="fa fa-angle-right fa-li"></i> {{ post.title }}</a></li>{% endfor %}
+{% for post in category.last %}
+{% if forloop.index > 4 %}
+<li><a href="{{ post.url }}"><i class="fa fa-angle-right fa-li"></i><span class="category-title">{{ post.title }}</span></a></li>
+{% endif %}
+{% endfor %}
 </ul>
+</div>
+</div>
 </div>
 {% endif %}
 {% endfor %}
