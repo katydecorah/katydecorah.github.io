@@ -10,20 +10,19 @@
 
 .playlist {
 	columns: 2 300px;
-	column-gap: 4em;
-	h2 {display: none;}
 }
 .playlist-track {
 	margin-bottom: 1em;
-	line-height: 1.2;
 	-webkit-column-break-inside: avoid;
 }
 .track-name {
-	display: block;
+	@extend .big-type;
 }
-.track-artist, .track-album {
+.track-artist { font-weight: bold; }
+.track-meta {
 	color: #999;
-	@extend .small;
+	line-height: 1;
+	@extend .xs;
 }
 
 .rdio-playlist-link {
