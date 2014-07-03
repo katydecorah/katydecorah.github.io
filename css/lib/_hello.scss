@@ -1,26 +1,22 @@
 
 .page-hello { 
   padding: 0;
-  .content {
-    columns: 2 400px;
-  }
-  h2,hr, .col-span {
-    column-span: all;
-  }
+
   .lead {
     margin: 0;
     line-height: 1.4;
     text-align: left;
   }
   p {
-   -webkit-column-break-inside: avoid;
- }
+    max-width: 30em;
+  }
 }
 
 .hello-header {
   @include breakpoint(m) {
   background-image: url(https://farm4.staticflickr.com/3840/14560703365_323582ec4f_o.jpg);
-  height: 400px;
+  height: 500px;
+  height: 65vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
