@@ -11,9 +11,9 @@ title: Card Catalog
 {% for i in (1..categories_max) reversed %}
 {% for category in site.categories %}
 {% if category[1].size == i %}
-<div class="category">
+<div class="category" id="{{ category[0] | downcase | replace:' ','_' }}">
 <div class="container">
-<h2 id="{{ category[0] | downcase | replace:' ','_' }}">{{ category[0] }} <span class="badge">{{ i }}</span></h2>
+<h2>{{ category[0] }} <span class="badge">{{ i }}</span></h2>
 <div class="category-recents">
 {% for post in category.last %}
 {% if forloop.index <= 4 %}
