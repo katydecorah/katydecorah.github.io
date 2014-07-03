@@ -1,0 +1,83 @@
+.category {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	&:nth-child(even) {
+		background: rgba(complement($header-bg), 0.4);
+		border-top: 1px dashed $body-bg;
+		border-bottom: 1px dashed $body-bg;
+	}
+	&:target {
+		padding-top: $body-padding-top;
+		transition: .5s;
+	}
+}
+.category-recents {
+	margin-top: 3em;
+	margin-bottom: 2em;
+	@extend .clearfix;
+}
+.category-recent {
+	@include breakpoint(s) {
+		display: flex;
+		align-items: center;
+		justify-content: left;
+	}
+	@include breakpoint(m) {
+		width: 22%;
+		float: left;
+		margin-right: 4%;
+		display: block;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	@include breakpoint(s) {
+		margin-bottom: 1em;
+	}
+
+	.category-title {
+		@extend .small;
+		@extend .big-type;
+		@include breakpoint(m) {
+			display: block;
+			margin-top: 0.75em;
+			padding: 0 0.25em;
+
+		}
+		@include breakpoint(s) {
+			margin-left: 1em;
+		}
+	}
+}
+
+.category-thumb {
+	@include breakpoint(m) {
+		width: 100%;
+		padding-bottom: 100%;
+		display: block;
+	}
+	@include breakpoint(s) {
+		width: 20%;
+		padding-bottom: 20%;
+		display: inline-block;
+	}
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.category-older {
+	clear: both;
+}
+
+.badge {
+	font-size: 0.5em;
+	background: $header-bg;
+	display: inline-block;
+	border-radius: 100%;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	vertical-align: middle;
+	width: 2em;
+	height: 2em;
+	text-align: center;
+}

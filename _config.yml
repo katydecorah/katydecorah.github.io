@@ -38,8 +38,8 @@ links:
 - text: Hello!
   url: /hello/
   position: top
-- text: Categories
-  url: /categories/
+- text: Card Catalog
+  url: /card-catalog/
   position: top
 - text: Time Capsule
   url: /time-capsule/

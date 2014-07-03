@@ -1,0 +1,42 @@
+---
+layout: no-container
+title: Card Catalog
+---
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+{% if category[1].size > categories_max %}
+{% assign categories_max = category[1].size %}
+{% endif %}
+{% endfor %}
+{% for i in (1..categories_max) reversed %}
+{% for category in site.categories %}
+{% if category[1].size == i %}
+<div class="category" id="{{ category[0] | downcase | replace:' ','_' }}">
+<div class="container">
+<h2>{{ category[0] }} <span class="badge">{{ i }}</span></h2>
+<div class="category-recents">
+{% for post in category.last %}
+{% if forloop.index <= 4 %}
+<a class="category-recent" href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}">
+<div class="category-thumb" style="background-image:url({{ post.image }});"></div>
+<span class="category-title">{{ post.title }}</span>
+</a>
+{% endif %}
+{% endfor %}
+</div>
+<div class="category-older">
+<div class="columns">
+<ul class="fa-ul">
+{% for post in category.last %}
+{% if forloop.index > 4 %}
+<li><a href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}"><i class="fa fa-angle-right fa-li"></i><span class="category-title">{{ post.title }}</span></a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</div>
+</div>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
