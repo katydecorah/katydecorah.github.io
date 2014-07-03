@@ -1,5 +1,5 @@
 ---
-layout: no-title
+layout: no-container
 title: Card Catalog
 ---
 {% assign categories_max = 0 %}
@@ -12,7 +12,8 @@ title: Card Catalog
 {% for category in site.categories %}
 {% if category[1].size == i %}
 <div class="category">
-<h2 id="{{ category[0] | downcase | replace:' ','_' }}">{{ category[0] }}</h2>
+<div class="container">
+<h2 id="{{ category[0] | downcase | replace:' ','_' }}">{{ category[0] }} <span class="badge">{{ i }}</span></h2>
 <div class="category-recents">
 {% for post in category.last %}
 {% if forloop.index <= 4 %}
@@ -32,6 +33,7 @@ title: Card Catalog
 {% endif %}
 {% endfor %}
 </ul>
+</div>
 </div>
 </div>
 </div>

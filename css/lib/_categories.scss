@@ -1,3 +1,12 @@
+.category {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	&:nth-child(even) {
+		background: rgba(complement($header-bg), 0.4);
+		border-top: 1px dashed $body-bg;
+		border-bottom: 1px dashed $body-bg;
+	}
+}
 .category-recents {
 	margin-top: 3em;
 	margin-bottom: 2em;
@@ -54,4 +63,17 @@
 }
 .category-older {
 	clear: both;
+}
+
+.badge {
+	font-size: 0.5em;
+	background: $header-bg;
+	display: inline-block;
+	border-radius: 100%;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	vertical-align: middle;
+	width: 2em;
+	height: 2em;
+	text-align: center;
 }
