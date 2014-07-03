@@ -1,13 +1,16 @@
 .category-recents {
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 3em;
+	margin-bottom: 2em;
 	@extend .clearfix;
 }
 .category-recent {
 	@include breakpoint(m) {
-		width: 20%;
+		width: 22%;
 		float: left;
-		margin: 0 2.5%;
+		margin-right: 4%;
+		&:last-child {
+			margin-right: 0;
+		}
 	}
 	@include breakpoint(s) {
 		margin-bottom: 1em;
@@ -22,10 +25,13 @@
 		}
 	}
 	.category-title {
-		@extend .xs;
+		@extend .small;
+		@extend .big-type;
 		@include breakpoint(m) {
 			display: block;
-			margin-top: 0.25em;
+			margin-top: 0.75em;
+			padding: 0 0.25em;
+
 		}
 		@include breakpoint(s) {
 			margin-left: 1em;
