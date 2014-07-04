@@ -81,7 +81,9 @@ ol { list-style:decimal; }
 }
 
 hr {
-  border:0.1em solid rgba(black,0.1);
+  border: 1px solid $header-bg;
+  margin: 2em auto;
+  max-width: 70%;
 }
 
 blockquote {
@@ -110,4 +112,8 @@ blockquote {
   top: -0.2em;
   left: -0.1em;
 }
+}
+
+::selection {
+  background: darken(complement(rgb(241, 247, 248)),10%);
 }

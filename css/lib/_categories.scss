@@ -1,7 +1,7 @@
 .category {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	&:nth-child(even) {
+	&:nth-child(odd) {
 		background: rgba(complement($header-bg), 0.4);
 		border-top: 1px dashed $body-bg;
 		border-bottom: 1px dashed $body-bg;
@@ -80,4 +80,27 @@
 	width: 2em;
 	height: 2em;
 	text-align: center;
+}
+
+
+.tag-container {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	&:nth-child(odd) {
+		background: rgba(complement($header-bg), 0.4);
+		border-top: 1px dashed $body-bg;
+		border-bottom: 1px dashed $body-bg;
+	}
+	&:target {
+		padding-top: $body-padding-top/2;
+		transition: .5s;
+	}
+}
+
+.tags-columns {
+	columns: 4 150px;
+	margin-bottom: 2em;
+	@extend .hide-small;
+	@extend .xs;
+	li { -webkit-column-break-inside: avoid;}
 }

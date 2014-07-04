@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: no-container
 title: Tags
 ---
+<div class="container" id="content">
+<div class="tags-columns">
+<ul class="fa-ul">
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
 {% if tag[1].size > tags_max %}
@@ -11,12 +14,33 @@ title: Tags
 {% for i in (1..tags_max) reversed %}
 {% for tag in site.tags %}
 {% if tag[1].size == i %}
-<h2 id="{{ tag[0] | downcase | replace:' ','_' }}">{{ tag[0] }}</h2>
+<li><a href="#{{ tag[0] | downcase | replace:' ','_' }}" title="{{ i }} posts"><i class="fa fa-tag fa-li"></i> {{ tag[0] }}</a></li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ul>
+</div>
+</div>
+
+{% assign tags_max = 0 %}
+{% for tag in site.tags %}
+{% if tag[1].size > tags_max %}
+{% assign tags_max = tag[1].size %}
+{% endif %}
+{% endfor %}
+{% for i in (1..tags_max) reversed %}
+{% for tag in site.tags %}
+{% if tag[1].size == i %}
+<div class="tag-container" id="{{ tag[0] | downcase | replace:' ','_' }}">
+<div class="container">
+<h2>{{ tag[0] }} <span class="badge">{{ i }}</span></h2>
 {% if tag[0] == 'time travel' %}<p>Posts that I wrote after the fact.</p>{% endif %}
 <div class="columns">
 <ul class="fa-ul">
 {% for post in tag.last %}<li><a href="{{ post.url }}"><i class="fa fa-angle-right fa-li"></i> {{ post.title }}</a></li>{% endfor %}
 </ul>
+</div>
+</div>
 </div>
 {% endif %}
 {% endfor %}

@@ -18,6 +18,12 @@ img {
   display:none;
 }
 
+.hide-small {
+  @include breakpoint(s) {
+    display: none;
+  }
+}
+
 %flex {
   display: flex;
   align-items: center;

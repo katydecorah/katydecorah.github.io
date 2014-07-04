@@ -2,6 +2,31 @@
 layout: no-container
 title: Card Catalog
 ---
+<div class="container" id="content">
+<h1>{{ page.title }}</h1>
+<p>Browse the genres or visit the <a href="/tags/">tags</a>.</p>
+
+
+
+<ul class="fa-ul">
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+{% if category[1].size > categories_max %}
+{% assign categories_max = category[1].size %}
+{% endif %}
+{% endfor %}
+{% for i in (1..categories_max) reversed %}
+{% for category in site.categories %}
+{% if category[1].size == i %}
+<li><a href="#{{ category[0] | downcase | replace:' ','_' }}" title="{{ i }} posts"><i class="fa fa-angle-right fa-li"></i> {{ category[0] }}</a></li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ul>
+
+
+<hr>
+</div>
 {% assign categories_max = 0 %}
 {% for category in site.categories %}
 {% if category[1].size > categories_max %}
