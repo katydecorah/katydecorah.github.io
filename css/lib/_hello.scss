@@ -1,0 +1,31 @@
+.page-hello { 
+  padding: 0;
+
+  .lead {
+    margin: 0;
+    line-height: 1.4;
+    text-align: left;
+  }
+  p {
+    max-width: 30em;
+  }
+}
+
+
+.hello-header {
+  @include breakpoint(m) {
+    background-image: url(https://farm4.staticflickr.com/3894/14580309682_baf1235e52_o.jpg);
+    height: 500px;
+    height: 65vh;
+    background-size: cover;
+    background-position: center -10em;
+    background-position: center -20vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 1em;
+  }
+
+}
