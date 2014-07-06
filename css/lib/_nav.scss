@@ -26,12 +26,8 @@
     font-size: 0.65em;
     text-transform: uppercase;
     position: relative;
-    li {    
-      @include breakpoint(s) { width: 100%; }
-    }
   }
 }
 .active .nav-link, .nav-link:hover {
   text-decoration: none;
-
 }
