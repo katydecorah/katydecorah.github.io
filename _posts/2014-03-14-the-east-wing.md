@@ -2,7 +2,8 @@
 layout: post
 title: The East Wing Episode 86
 category: code
-link: http://5by5.tv/eastwing/86
+elsewhere-link: http://5by5.tv/eastwing/86
+elsewhere-site: 5by5
 image: https://farm6.staticflickr.com/5272/14060621609_2ffa436f77_o.jpg
 tags:
  - elsewhere
