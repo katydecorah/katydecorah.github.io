@@ -1,10 +1,11 @@
 ---
 layout: post
 title: The East Wing Episode 86
-category: elsewhere
+category: code
 link: http://5by5.tv/eastwing/86
 image: https://farm6.staticflickr.com/5272/14060621609_2ffa436f77_o.jpg
 tags:
+ - elsewhere
  - time travel
 ---
 
