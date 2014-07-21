@@ -48,7 +48,7 @@
       height: 100%;
       background-size: cover;
       background-position: center;
-      background-color: rgba($link-color,0.25);
+      background-color: rgba(black,0.2);
       background-blend-mode: multiply;
       transition: $link-transition;
     }
@@ -67,4 +67,9 @@
 
 .paginator {
   margin-top: 1em;
+}
+
+.post-elsewhere-label .fa {
+color: $link-color;
+font-size: 0.8em;
 }
