@@ -21,6 +21,10 @@
   &:hover {
     text-decoration: none;
     color: $link-color;
+    .post-img { 
+      background-color: transparent; 
+      transition: $link-transition;
+    }
   }
 }
 
@@ -29,13 +33,14 @@
 .post-img-container  {
   display: none;
   @include breakpoint(m) {
-    margin-left: 2em;
+    border-radius: 100%;
+    margin-right: 2em;
     display: flex;
     align-items: center;
     justify-content: left;
-    float: right;
-    width: 10em;
-    height: 10em;
+    float: left;
+    width: 7em;
+    height: 7em;
     overflow: hidden;
     .post-img {
       margin: 0;
@@ -43,6 +48,9 @@
       height: 100%;
       background-size: cover;
       background-position: center;
+      background-color: rgba($link-color,0.25);
+      background-blend-mode: multiply;
+      transition: $link-transition;
     }
   }
 }
