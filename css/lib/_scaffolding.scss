@@ -56,28 +56,32 @@ img {
 
 
 .img-half {
-  width: 49%;
+ @include breakpoint(m) { width: 49%; }
 }
 .img-thirds {
-  width: 32.33%;
+  @include breakpoint(m) {
+    width: 32.33%;
+  }
 }
 .thirds {
   margin-bottom: 1em;
   @include breakpoint(m) { float: left; width: 32.33%;}
 }
 .img-fourths {
-  width: 24%;
+  @include breakpoint(m) { width: 24%; }
 }
 .img-split-wide, .img-wide {
-  width: 62.7%;
+  @include breakpoint(m) { width: 62.7%; }
 }
 .img-split-tall, .img-tall {
-  width: 35.25%;
+  @include breakpoint(m) { width: 35.25%; }
 }
 .rotate-left {transform: rotate(-90deg);}
 
 .img-half, .img-thirds, .img-fourths, .img-split-wide, .img-wide, .img-split-tall, .img-tall {
-  display: block;
-  float: left;
-  margin: 0 0.5% 0.5em 0.5%;
+  @include breakpoint(m) {
+    display: block;
+    float: left;
+    margin: 0 0.5% 0.5em 0.5%;
+  }
 }
