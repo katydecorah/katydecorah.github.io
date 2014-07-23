@@ -157,3 +157,10 @@
       - event: 4th Quarter Innovation Award
         title: Professional Development Program
         date: December 2012
+- section:
+  - heading: Projects
+    contents:
+      - project: Static Map Maker
+        link: http://staticmapmaker.com
+        desc: Helps people navigate the Google and Mapbox static map API.
+        tools: "Jekyll, AngularJS, Sass, and Grunt"

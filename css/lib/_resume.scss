@@ -13,7 +13,8 @@
 		border-bottom-style: solid;
 		font-size: 1em;
 		margin: 1em 0;
-		text-transform: uppercase;
+		@extend .body-type;
+		font-style: normal;
 		color: lighten($text-color,25%);
 	}
 	h3 {
