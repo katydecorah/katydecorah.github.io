@@ -5,6 +5,9 @@ category: adventures
 tags: 
   - music
   - treats
+map: static
+coordinates:
+ - -73.9531715,40.7115551
 locations: 
   - "Williamsburg,NYC"
 image: "http://farm8.staticflickr.com/7298/10953719465_eb873a018c_b.jpg"

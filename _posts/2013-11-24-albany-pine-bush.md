@@ -7,6 +7,9 @@ tags:
   - hiking
   - family
   - treats
+map: static
+coordinates: 
+ - -73.890848,42.737898
 locations: 
 - Albany Pine Bush
 - Fort Edward,NY

@@ -6,6 +6,9 @@ tags:
   - fresh air
   - family
   - hiking
+coordinates:
+  - -73.5356922,42.563398
+map: static
 locations: 
   - Ballston Spa
   - Oliva Vineyards
