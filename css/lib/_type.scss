@@ -118,5 +118,6 @@ blockquote {
 }
 
 ::selection {
-  background: darken(complement(rgb(241, 247, 248)),10%);
+  background: $fancy-accent;
+  color: white;
 }

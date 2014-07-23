@@ -22,7 +22,7 @@
 
 .columns {
   @extend .small;
-  columns: 2 400px;
+  columns: 2 325px;
   column-gap: 3em;
   .fa-ul { margin-top: 0;}
   .fa-li { top: 0.3em; }
@@ -41,7 +41,7 @@
 .archive-months {
  @include breakpoint(m) {
   margin-left: 1em;
-  border-left: 4px solid $accent;
+  border-left: 4px solid darken($accent,5%);
   padding-left: 1em;
 }
 }
