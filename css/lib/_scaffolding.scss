@@ -10,7 +10,9 @@ body {
   font-weight: 300;
   background-color: $body-bg;
   @extend .body-type;
-  @include breakpoint(m) { padding-top: $body-padding-top; }
+  @include breakpoint(m) { 
+    padding-top: $body-padding-top;
+  }
 }
 
 a {

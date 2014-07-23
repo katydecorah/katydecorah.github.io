@@ -33,7 +33,7 @@
 	margin-bottom: 1em;
 	padding-bottom: 1em;
 	&:nth-child(even) {
-		background: rgba(complement($header-bg), 0.4);
+		background: rgba(complement($accent), 0.4);
 		border-top: 1px dashed $body-bg;
 		border-bottom: 1px dashed $body-bg;
 	}

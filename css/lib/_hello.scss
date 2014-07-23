@@ -2,7 +2,7 @@
   padding: 0;
 
   .lead {
-    margin: 1em 0 0;
+    margin: 1em 0;
     line-height: 1.4;
     text-align: left;
   }
@@ -14,16 +14,13 @@
 
 .hello-header {
   @include breakpoint(m) {
-    background-image: url(https://farm4.staticflickr.com/3894/14580309682_baf1235e52_o.jpg);
+    background-image: url(https://farm3.staticflickr.com/2903/14534773530_7a1276b995_o.jpg);
     height: 500px;
-    height: 65vh;
-    background-size: cover;
-    background-position: center -10em;
-    background-attachment: fixed;
+    //height: 65vh;
+    background-size: 100%;
+    background-position: center bottom;
+    //background-attachment: fixed;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: left;
     margin-bottom: 1em;
   }
 

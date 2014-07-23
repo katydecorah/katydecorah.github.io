@@ -7,8 +7,8 @@
     z-index: 1000;
   }
   margin-bottom: 2em;
-  background-color: #f2f7f8;
   background-color: $header-bg;
+  background-color: rgba($header-bg,0.85);
   &:after {
     content: "";
     display: block;

@@ -6,8 +6,8 @@ $light-accent:		#ecf0f1;
 
 
 $link-color:        #2980b9;
-$link-hover:        #2c3e50;
-$link-transition:   .5s;
+$link-hover:        darken($link-color,10%);
+$link-transition:   .2s;
 
 $body-font-size: 	24px;
 
@@ -31,7 +31,8 @@ $border-radius:  	0.2em;
 
 $body-padding-top: 4em;
 
-$header-bg: rgba(241, 247, 248, 0.85);
+$header-bg: $body-bg;
+$accent: rgba(241, 247, 248, 0.85);
 
 
 /////////////// Code Highlighter

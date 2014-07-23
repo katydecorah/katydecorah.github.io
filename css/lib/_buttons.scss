@@ -1,13 +1,14 @@
 
 .btn {
   display: inline-block;
-  background: $light-accent;
+  background: $link-color;
   padding: 0.2em 0.75em;
   border-radius: $border-radius;
+  color: white;
   @extend .big-type;
   &:hover, &.active {
-    background: $link-color;
+    background: $link-hover;
     text-decoration: none;
-    color: $light-accent;
+    color: white;
   }
 }

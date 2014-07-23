@@ -1,12 +1,12 @@
 .footer {
   margin-top: 2em;
-  background: $header-bg;
+  background: $accent;
   position: relative;
   &:before {
     content: "";
     display: block;
     width: 100%;
-    border-top: 1px dashed $header-bg;
+    border-top: 1px dashed $accent;
     top: -1px;
     position: absolute;
   }

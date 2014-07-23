@@ -41,7 +41,7 @@
 .archive-months {
  @include breakpoint(m) {
   margin-left: 1em;
-  border-left: 4px solid $header-bg;
+  border-left: 4px solid $accent;
   padding-left: 1em;
 }
 }
@@ -57,10 +57,10 @@
     padding: 1em;
     transition: .2s;
     &:hover {
-      background: $header-bg;
+      background: $accent;
       transition: .25s;
       h3:before {
-        background-color: darken($header-bg,20%);
+        background-color: darken($accent,20%);
         transition: .25s;
       }
     }
@@ -78,7 +78,7 @@
        position: absolute;
        width: 0.5em;
        height: 0.5em;
-       background-color: darken($header-bg,5%);
+       background-color: darken($accent,5%);
        border-radius: 0.5em;
        left: -1.875em;
        top: 0.3em;

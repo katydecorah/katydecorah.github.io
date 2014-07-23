@@ -84,7 +84,7 @@ ol { list-style:decimal; }
 }
 
 hr {
-  border: 1px solid $header-bg;
+  border: 1px solid $accent;
   margin: 2em auto;
   max-width: 70%;
 }
@@ -106,7 +106,7 @@ blockquote {
   content: "\201C";
   display: block;
   position: absolute;
-  color: darken($header-bg,10%);
+  color: darken($accent,10%);
   font-size: 8em;
   width: 1em;
   height: 1em;
