@@ -10,6 +10,7 @@ body {
   font-weight: 300;
   background-color: $body-bg;
   @extend .body-type;
+  text-rendering: optimizeLegibility;
   @include breakpoint(m) { 
     padding-top: $body-padding-top;
   }
