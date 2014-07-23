@@ -1,9 +1,9 @@
 //////////////// primary
 
-$body-bg:           #fff;
+$body-bg:           lighten(#ecf0f1,4%);
 $dark-accent: 		#2c3e50;
 $light-accent:		#ecf0f1;
-
+$fancy-accent: 		#e74c3c;
 
 $link-color:        #2980b9;
 $link-hover:        darken($link-color,10%);
@@ -18,7 +18,7 @@ $mono: 		    "anonymous-pro", "Courier New", monospace;
 $serif:				"adelle", Georgia, serif;
 $sans:		    "proxima-nova",Arial, sans-serif;
 
-$container-width: 	960px;
+$container-width: 	800px;
 $media-max:			1280px;
 
 $h1-size:			3.204em;
@@ -31,8 +31,8 @@ $border-radius:  	0.2em;
 
 $body-padding-top: 4em;
 
-$header-bg: $body-bg;
-$accent: rgba(241, 247, 248, 0.85);
+$header-bg: #fff;
+$accent: rgba(241, 247, 248, 1);
 
 
 /////////////// Code Highlighter

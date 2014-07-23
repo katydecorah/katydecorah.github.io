@@ -28,7 +28,7 @@
   display: block;
 
   @include breakpoint(m) { float: left;}
-  @extend .big-type;
+  //@extend .big-type;
   &:hover {
     color: $link-hover;
     text-decoration: none;
