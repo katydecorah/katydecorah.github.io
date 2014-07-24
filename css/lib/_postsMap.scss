@@ -15,10 +15,10 @@
 	}
 	h1 { 
 		margin: 0;
-		font-size: $h1-size-map;
-
-
-		@include breakpoint(m) { color: rgba($text-color,0.75); }
+		@include breakpoint(m) {
+			font-size: $h1-size-map;
+			color: rgba($text-color,0.75); 
+		}
 		.no-flexbox & {
 			margin-top: 0.5em;
 		}

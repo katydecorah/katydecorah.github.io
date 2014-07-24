@@ -35,7 +35,8 @@ title: Tags
 <div class="tag-container" id="{{ tag[0] | downcase | replace:' ','_' }}">
 <div class="container">
 <h2>{{ tag[0] }} <span class="badge">{{ i }}</span></h2>
-{% if tag[0] == 'time travel' %}<p>Posts that I wrote after the fact.</p>{% endif %}
+{% if tag[0] == 'time travel' %}<p>Posts that I wrote and published after the fact.</p>{% endif %}
+{% if tag[0] == 'elsewhere' %}<p>Posts that link to content originally posted elsewhere.</p>{% endif %}
 <div class="columns">
 <ul class="fa-ul">
 {% for post in tag.last %}<li><a href="{{ post.url }}"><i class="fa fa-angle-right fa-li"></i> {{ post.title }}</a></li>{% endfor %}
