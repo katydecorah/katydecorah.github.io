@@ -5,6 +5,9 @@ category: adventures
 tags:
 - fresh air
 - crafts
+map: static
+coordinates:
+ - -73.0598826,43.1467218
 locations: Wilburton Inn, Manchester, VT
 image: http://farm4.staticflickr.com/3827/9808951525_5671dff954_c.jpg
 

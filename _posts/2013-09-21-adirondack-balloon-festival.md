@@ -7,7 +7,9 @@ locations:
 - "Glens Falls, NY"
 - "The Peppermill, Moreau, NY"
 - "Coldbrook Preserve Trailhead, Homestead Rd, NY 12866"
-zoom: 8
+map: static
+coordinates:
+ - -73.6011497,43.3416466
 tags: 
   - fresh air
   - family

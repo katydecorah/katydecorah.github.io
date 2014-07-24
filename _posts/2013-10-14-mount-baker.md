@@ -8,6 +8,9 @@ tags:
   - red shoes
   - friends
   - family
+map: static
+coordinates:
+ - -74.1183395,44.3291764
 locations: 
   - "Mount Baker, Saranac Lake"
   - "Lake Placid,NY"

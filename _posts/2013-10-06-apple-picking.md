@@ -5,6 +5,9 @@ category: adventures
 tags: 
   - fresh air
   - pie
+map: static
+coordinates:
+ - -73.6860833,42.4351899
 locations:
   - Golden Harvest Farms Inc, Valatie, NY
 image: http://farm6.staticflickr.com/5340/10102694436_83377f3c85_c.jpg

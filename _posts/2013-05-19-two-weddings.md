@@ -9,6 +9,9 @@ tags:
 locations:
 - Poughkeepsie,NY
 - Chatham,NJ
+map: static
+coordinates:
+ - -73.9210542,41.6939295
 image: http://farm3.staticflickr.com/2820/10848469853_f698588d08_b.jpg
 ---
 I had the distinct honor of being in two weddings this month. 

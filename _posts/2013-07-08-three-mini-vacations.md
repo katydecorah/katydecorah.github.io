@@ -6,13 +6,17 @@ tags:
 - family
 - friends
 - "road trip"
+- the ocean
 image: http://farm6.staticflickr.com/5471/9360368377_d47822c551_c.jpg
 locations:
 - Moreau,NY
 - Lake Placid,NY
 - Thousand Islands,NY
 - Portsmouth,NH
-zoom: 5
+map: static
+zoom: 12
+coordinates:
+ - -76.0000238,44.3085161
 ---
 
 ## Lake Placid

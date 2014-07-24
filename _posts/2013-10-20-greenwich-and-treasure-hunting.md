@@ -8,6 +8,9 @@ tags:
   - red shoes
   - family
   - treasures
+map: static
+coordinates:
+ - -73.598587,41.0163474
 locations: 
   - "Greenwich,CT"
   - "Arlington,VT"

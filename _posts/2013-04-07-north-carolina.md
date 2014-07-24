@@ -16,7 +16,9 @@ locations:
 - Pisgah Astronomical Research Institute
 - Pisgah National Forest
 - The North Carolina Arboretum
-zoom: 7
+map: static
+coordinates:
+ - -82.5531746,35.5922388
 image: http://farm8.staticflickr.com/7366/9702678259_877fa5dab4_c.jpg
 ---
 

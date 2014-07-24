@@ -3,6 +3,9 @@ layout: post
 title: Mount Greylock
 category: adventures
 locations: "Mount Greylock"
+map: static
+coordinates:
+ - -73.1662799,42.6392075
 tags: 
   - fresh air
 image: http://farm3.staticflickr.com/2876/9986357986_cba890f804_c.jpg

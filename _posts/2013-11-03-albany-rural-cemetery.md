@@ -5,6 +5,9 @@ category: adventures
 tags:
 - fresh air
 - family
+map: static
+coordinates:
+ - -73.731604,42.707184
 locations: Albany Rural Cemetery
 image: http://farm6.staticflickr.com/5494/10655548255_732b4fb554_c.jpg
 ---

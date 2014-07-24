@@ -8,6 +8,9 @@ tags:
 locations: 
 - Rensselaerville,NY
 - Granville,NY
+map: static
+coordinates:
+ - -73.261242,43.4071351
 image: http://farm8.staticflickr.com/7300/10848303914_d20201cda4_b.jpg
 ---
 

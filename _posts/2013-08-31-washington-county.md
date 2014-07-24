@@ -13,7 +13,10 @@ locations:
  - Shushan,NY
  - Rupert,VT
  - Pawlett,VT
-zoom: 8
+map: static
+coordinates:
+ - -73.3551201,43.4006769
+zoom: 11
 ---
 
 Mom and I went on a Washington County/Vermont adventure today.
