@@ -37,7 +37,7 @@
 
 	.category-title {
 		@extend .small;
-		@extend .big-type;
+		@extend .fancy-type;
 		@include breakpoint(m) {
 			display: block;
 			margin-top: 0.75em;
@@ -55,6 +55,7 @@
 		width: 100%;
 		padding-bottom: 100%;
 		display: block;
+		border-radius: $border-radius-img;
 	}
 	@include breakpoint(s) {
 		width: 20%;
@@ -71,15 +72,16 @@
 
 .badge {
 	font-size: 0.5em;
-	background: $accent;
+	background: white;
 	display: inline-block;
-	border-radius: 100%;
+	border-radius: $border-radius-img;
 	padding: 0.25em 0.5em;
 	line-height: 1.5;
 	vertical-align: middle;
 	width: 2em;
 	height: 2em;
 	text-align: center;
+	@extend .code-type;
 }
 
 

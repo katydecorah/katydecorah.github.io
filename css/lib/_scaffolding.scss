@@ -7,12 +7,14 @@ body {
   font-size: $body-font-size;
   line-height: 1.4;
   color: $text-color;
-  font-weight: 300;
   background-color: $body-bg;
   @extend .body-type;
   text-rendering: optimizeLegibility;
   @include breakpoint(m) { 
     padding-top: $body-padding-top;
+    &.post-page {
+      padding-top: $body-padding-top/1.7;
+    }
   }
 }
 

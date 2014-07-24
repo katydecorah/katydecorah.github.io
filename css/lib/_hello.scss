@@ -15,11 +15,9 @@
 .hello-header {
   @include breakpoint(m) {
     background-image: url(https://farm3.staticflickr.com/2903/14534773530_7a1276b995_o.jpg);
-    height: 500px;
-    //height: 65vh;
+    height: 400px;
     background-size: cover;
     background-position: center bottom;
-    //background-attachment: fixed;
     background-repeat: no-repeat;
     margin-bottom: 1em;
   }

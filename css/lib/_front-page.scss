@@ -8,7 +8,9 @@
     }
     .no-flexbox & { padding-top: 2em;}
   }
-
+  .post-date {
+    color: $text-color-light;
+  }
 }
 
 .post-link {
@@ -20,7 +22,6 @@
   padding-top: 1em;
   &:hover {
     text-decoration: none;
-    color: $link-color;
     .post-img { 
       background-color: transparent; 
       transition: $link-transition;
@@ -33,7 +34,7 @@
 .post-img-container  {
   display: none;
   @include breakpoint(m) {
-    border-radius: 100%;
+    border-radius: $border-radius-img;
     margin-right: 2em;
     display: flex;
     align-items: center;
@@ -59,7 +60,7 @@
 .post-title {
   font-size: 2.25em;
   line-height: 1.2;
-  @extend .big-type;
+  @extend .fancy-type;
   @include breakpoint(s) {
     font-size: 1.5em;
   }

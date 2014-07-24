@@ -26,11 +26,12 @@
 .logo {
   color: $dark-accent;
   display: block;
+  font-weight: $body-font-bold;
 
-  @include breakpoint(m) { float: left;}
-  //@extend .big-type;
+  @include breakpoint(m) { 
+    float: left;
+  }
   &:hover {
-    color: $link-hover;
     text-decoration: none;
   }
 }

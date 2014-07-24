@@ -16,11 +16,11 @@
 	-webkit-column-break-inside: avoid;
 }
 .track-name {
-	@extend .big-type;
+	@extend .fancy-type;
 }
 .track-artist { font-weight: bold; }
 .track-meta {
-	color: #999;
+	color: $text-color-light;
 	line-height: 1;
 	@extend .xs;
 }

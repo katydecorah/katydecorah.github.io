@@ -71,14 +71,15 @@
 
 .tag {
   display: inline-block;
-  background: rgba($link-color,0.1);
+  background: $fancy-accent-aa;
+  color: white;
   padding: 0 0.5em;
   border-radius: 0.2em;
   border: 1px solid transparent;
   margin-bottom: 0.25em;
   &:hover {
     text-decoration: none;
-    background: rgba($link-color,0.25);
+    background: rgba($fancy-accent-aa,0.25);
   }
 }
 
@@ -90,7 +91,7 @@
 
 .post-page {
   .post-meta {
-    color: lighten($text-color, 20%);
+    color: $text-color-light;
     margin-bottom: 1em;
   }
 }
@@ -174,7 +175,7 @@
 }
 .post-prev-title, .post-next-title  {
   @extend .small;
-  @extend .big-type;
+  @extend .fancy-type;
   @include breakpoint(m) {
     display: block;
   }

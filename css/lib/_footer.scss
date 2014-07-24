@@ -15,7 +15,6 @@
     padding-bottom: 5em;
   }
   p {
-  	color: lighten($dark-accent,15%);
   	@extend .xxs;
   }
   .nav-link {
@@ -26,4 +25,5 @@
     margin-top: 0.5em;
     line-height: 1;
   }
+  a:hover { color: $link-hover; }
 }

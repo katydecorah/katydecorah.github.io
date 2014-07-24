@@ -23,12 +23,13 @@
     padding: 1.275em 1em;
     line-height: 1;
     font-size: 0.65em;
-    text-transform: uppercase;
+    font-style: italic;
     position: relative;
+    margin-right: 0.1em;
     border-radius: 0 0 0.2em 0.2em;
-    background: linear-gradient(top, $accent 50%, transparent 50%) no-repeat 0 100% / 100% 200%;
+    background: linear-gradient(top, $fancy-accent 50%, transparent 50%) no-repeat 0 100% / 100% 200%;
 
-  &:hover { background-position: 0 0;}
+  &:hover { background-position: 0 0; color: white; }
 
 
   }
@@ -36,4 +37,5 @@
 .active .nav-link, .nav-link:hover {
   text-decoration: none;
   background-position: 0 0;
+  color: white;
 }

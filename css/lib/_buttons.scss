@@ -5,7 +5,7 @@
   padding: 0.2em 0.75em;
   border-radius: $border-radius;
   color: white;
-  @extend .big-type;
+  @extend .fancy-type;
   &:hover, &.active {
     background: $link-hover;
     text-decoration: none;

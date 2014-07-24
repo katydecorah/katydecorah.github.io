@@ -1,28 +1,38 @@
 //////////////// primary
 
-$body-bg:           lighten(#ecf0f1,4%);
+// flatuicolors.com inspo
+
+$body-bg:           lighten(#ecf0f1,2%);
 $dark-accent: 		#2c3e50;
 $light-accent:		#ecf0f1;
 $fancy-accent: 		#e74c3c;
+$fancy-accent-aa:   darken($fancy-accent,7%);
 
-$link-color:        #2980b9;
-$link-hover:        darken($link-color,10%);
-$link-transition:   .2s;
+$link-color: darken(#2980b9,4%);
+$link-hover: $fancy-accent;
+$link-transition: .2s;
 
 $body-font-size: 	24px;
 
 $text-color:        #333;
+$text-color-light: lighten($text-color,20%);
 
 
-$mono: 		    "anonymous-pro", "Courier New", monospace;
-$serif:				"adelle", Georgia, serif;
-$sans:		    "proxima-nova",Arial, sans-serif;
+$code-font-family: "anonymous-pro", "Courier New", monospace;
+$fancy-font-family: "adelle", Georgia, serif;
+$body-font-family: "adelle", Georgia, sans-serif;
+
+$body-font-weight: 400;
+$body-font-bold: 700;
+$fany-font-weight: 100;
 
 $container-width: 	800px;
 $media-max:			1280px;
 
-$h1-size:			3.204em;
-$h1-size-map: 		3.204em;
+$border-radius-img: 0.15em;
+
+$h1-size:			3.1em;
+$h1-size-map: 		3.1em;
 $h2-size: 			1.424em;
 $h3-size: 			1.266em;
 $h4-size: 			1.125em;

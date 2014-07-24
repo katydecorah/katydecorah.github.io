@@ -1,21 +1,25 @@
 
 
-.body-type { font-family: $sans;}
-.big-type { 
-  font-family: $serif; 
+.body-type { 
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+}
+
+.fancy-type { 
+  font-family: $fancy-font-family; 
   font-style: italic; 
-  font-weight: 100;
+  font-weight: $fany-font-weight;
 }
 .headings-type {font-weight: 700;}
-.code-type {font-family: $mono;}
+.code-type {font-family: $code-font-family;}
 
-strong {font-weight:bold;}
-em {font-style:italic;}
+strong { font-weight: $body-font-bold; }
+em { font-style:italic; }
 
 .lead {
   font-size: 1.3em;
   text-align: justify;
-  @extend .big-type;
+  @extend .fancy-type;
 }
 
 
@@ -32,13 +36,13 @@ h1, h2, h3, h4 {
 h1 {
   margin-top: 0;
   font-size: $h1-size;
-  @extend .big-type;
+  @extend .fancy-type;
   @include breakpoint(s){ font-size: 2em;}
 }
 
 h2 {
   font-size: $h2-size;
-  @extend .big-type;
+  @extend .fancy-type;
 }
 
 h3, h4 {  @extend .headings-type; }
@@ -93,7 +97,7 @@ blockquote {
   margin: 2em auto;
  position: relative;
  p {
-   @extend .big-type;
+   @extend .fancy-type;
    font-size: 1.25em;
  }
  cite {
