@@ -70,6 +70,7 @@ img {
 }
 .thirds {
   margin-bottom: 1em;
+  float: left;
   @include breakpoint(m) { width: 31.8%;}
 }
 .img-fourths {
