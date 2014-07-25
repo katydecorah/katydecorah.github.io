@@ -13,6 +13,7 @@
 }
 .header {
   .nav {
+    
     @include breakpoint(m) { float: right; }
     @include breakpoint(s) { display: none;  }
 
@@ -27,9 +28,13 @@
     position: relative;
     margin-right: 0.1em;
     border-radius: 0 0 0.2em 0.2em;
-    background: linear-gradient(top, $fancy-accent 50%, transparent 50%) no-repeat 0 100% / 100% 200%;
+    background: linear-gradient(to bottom, $fancy-accent 50%, transparent 50%) no-repeat 0 100% / 100% 200%;
+    min-height: 1em;
 
-  &:hover { background-position: 0 0; color: white; }
+  &:hover { 
+    background-position: 0 0; 
+    .cssgradients & { color: white; }
+  }
 
 
   }
@@ -37,5 +42,5 @@
 .active .nav-link, .nav-link:hover {
   text-decoration: none;
   background-position: 0 0;
-  color: white;
+.cssgradients & { color: white; }
 }
