@@ -10,7 +10,7 @@
   font-style: italic; 
   font-weight: $fancy-font-weight;
 }
-.headings-type {font-weight: 700;}
+.headings-type { font-weight: $body-font-bold; }
 .code-type {font-family: $code-font-family;}
 
 strong { font-weight: $body-font-bold; }
@@ -58,7 +58,7 @@ h4 {font-size: $h4-size;}
   font-size: 1.25em;
 }
 small, .small {
-  font-size:0.889em;
+  font-size: 0.889em;
   @include breakpoint(s) {
     font-size: 1em;
   }
