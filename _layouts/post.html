@@ -6,7 +6,7 @@
 <div class="container"><h1>{{ page.title }}</h1></div>
 </div>
 <div class="container" id="content">
-<div class="post-meta"><a href="/card-catalog/#{{ page.category | downcase }}" class="post-type">{{ page.category }}</a> &times; <span class="post-date">{{ page.date | date: "%B %d, %Y" }}{% if page.updated %}<a href="#updated_{{ page.updated | date: '%m%d%Y' }}" class="post-date-updated">Updated {{ page.updated | date: "%B %d, %Y" }}</a>{% endif %}</span></div>
+<div class="post-meta"><a href="/card-catalog/#{{ page.category | downcase }}" class="post-type">{{ page.category }}</a> &times; {{ page.date | date: "%B %d, %Y" }}{% if page.updated %}<a href="#updated_{{ page.updated | date: '%m%d%Y' }}" class="post-date-updated">Updated {{ page.updated | date: "%B %d, %Y" }}</a>{% endif %}{% if page.elsewhere-site %} &times; <a href="{{ page.elsewhere-link }}">{{ page.elsewhere-site }}</a>{% endif %}</div>
 </div>
 <div class="post">
 {{ content }}
