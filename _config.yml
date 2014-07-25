@@ -21,7 +21,6 @@ image: https://farm4.staticflickr.com/3786/14321547483_524b5cbce1_o.jpg
 timezone: America/New_York
 
 gems:
-- jekyll-mentions
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
