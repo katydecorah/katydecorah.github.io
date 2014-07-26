@@ -49,8 +49,8 @@
       height: 100%;
       background-size: cover;
       background-position: center;
-      background-color: rgba(black,0.2);
-      background-blend-mode: multiply;
+      background-color: rgba($body-bg,0.3);
+      background-blend-mode: overlay;
       transition: $link-transition;
     }
   }
