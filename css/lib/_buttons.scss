@@ -3,7 +3,7 @@
   display: inline-block;
   background: $link-color;
   padding: 0.2em 0.75em;
-  border-radius: $border-radius;
+  border-radius: $border-radius-img;
   color: white;
   @extend .fancy-type;
   &:hover, &.active {
