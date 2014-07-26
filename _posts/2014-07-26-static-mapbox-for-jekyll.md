@@ -10,6 +10,7 @@ tags:
  - Jekyll
  - Mapbox
  - API
+image: https://farm6.staticflickr.com/5571/14562967428_1bd555644c_o.png
 --- 
 
 I've done [Static Google Maps Image for Jekyll Posts](/code/2013/09/06/google-maps-images-api-for-jekyll/), [Mapbox for Jekyll Posts](/code/2014/01/26/mapbox-for-jekyll-posts/), but it's time to settle down. 
