@@ -4,9 +4,9 @@ title: Mapbox for Jekyll Posts
 category: code
 map: Mapbox
 coordinates:
-  - "-73.7629483,42.6539068"
-  - "-73.7254484,43.2440284"
-  - "-82.5525523,35.565"
+  - -73.7629483,42.6539068
+  - -73.7254484,43.2440284
+  - -82.5525523,35.565
 locations:
  - Albany, NY
  - South Glens Falls, NY
@@ -16,9 +16,12 @@ tags:
   - API
   - Jekyll
   - JavaScript
+  - Mapbox
 image: "http://a.tiles.mapbox.com/v3/katydecorah.h41bj3lj/5/9/11.png"
 published: true
 ---
+
+**As of 7/26/2014, this site has moved to the [Mapbox static API](/code/2014/07/26/static-mapbox-for-jekyll/).**
 
 A few months ago, I began playing around with the Google Static Maps API. I integrated it with my [Static Google Maps Image for Jekyll Posts](http://katydecorah.com/code/2013/09/06/google-maps-images-api-for-jekyll/) and created a [Static Map Maker](http://katydecorah.com/staticmapmaker/).
 

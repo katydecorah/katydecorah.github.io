@@ -1,7 +1,7 @@
 {% include top.html %}<body class="post-page default-page">
 {% include skip.html %}
 {% include header.html %}
-<div class="post-header{% if page.locations %} post-header-has-map{% else %} post-header-no-map{% endif %}{% if page.locations and (page.map == "" or page.map == nil) %} post-map-header-google{% endif %}{% if page.map %} post-map-header-mapbox{% if page.map == 'static' %}-static{% endif %}{% endif %}">
+<div class="post-header{% if page.locations %} post-header-has-map{% else %} post-header-no-map{% endif %}">
 {% include post-map-header.html %}
 <div class="container"><h1>{{ page.title }}</h1></div>
 </div>

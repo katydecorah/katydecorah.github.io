@@ -3,7 +3,6 @@
 	@include breakpoint(m) { 
 		min-height: 300px;
 		overflow: hidden;
-		border-radius: 0.25em;
 		position: relative;
 		display: flex;
 		align-items: center;
@@ -23,16 +22,6 @@
 		.no-flexbox & {
 			margin-top: 0.5em;
 		}
-	}
-}
-
-.post-map-header-mapbox {
-	h1 {
-		position: relative;
-		z-index: 100;
-	}
-	.leaflet-container {
-		min-height: 300px;
 	}
 }
 
@@ -60,28 +49,10 @@
 		background-repeat: no-repeat;
 		width: 1280px;
 		background-position: center $body-padding-top/1.7;
-		margin: 0 auto;
-		//background-color: rgba($body-bg,0.65);
-		//background-blend-mode: overlay;
+		background-blend-mode: overlay;
+		background-color: rgba(255, 255, 255, 0.2);
+		margin-right: auto;
+		margin-left: auto;
 	}
 
-}
-
-
-
-.leaflet-container,.leaflet-clickable {cursor: default !important;}
-.leaflet-tile-pane { opacity: 0.5;}
-
-
-.leaflet-marker-icon {
-	animation: drop .75s backwards linear;
-	@for $i from 1 through 5 {
-		&:nth-child(#{$i}){
-			animation-delay:($i * 0.1s) + 0.5;
-		}
-	}
-}
-
-@keyframes drop {
-	from {top:-50em;}
 }
