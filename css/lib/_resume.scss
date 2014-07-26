@@ -1,4 +1,5 @@
 .page-resume {
+	padding-top: 0;
 	h1 {
 		font-style: normal;
 		margin-top: 1em;
@@ -15,19 +16,12 @@
 		margin: 1em 0;
 		@extend .body-type;
 		font-style: normal;
-		color: lighten($text-color,25%);
 	}
 	h3 {
 		font-weight: 700;
 		@extend .body-type;
 		margin-bottom: 0;
 		margin-top: 0.5em;
-	}
-	h4 {
-		margin: 0;
-		@extend .small;
-		@extend .body-type;
-		font-weight: normal;
 	}
 
 	ul {

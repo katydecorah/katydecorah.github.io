@@ -164,3 +164,10 @@
         link: http://staticmapmaker.com
         desc: Helps people navigate the Google and Mapbox static map API.
         tools: "Jekyll, AngularJS, Sass, and Grunt"
+- section:
+  - heading: Writing
+    contents:
+      - title: Guide to Responive-Friendly CSS Columns
+        site: CSS-Tricks
+        date: July 25, 2014
+        link: http://css-tricks.com/guide-responsive-friendly-css-columns/

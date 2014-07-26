@@ -4,7 +4,7 @@
 {% if job.show %}
 {% else %}
 <h3>{{ job.title }}</h3>
-<h4>{{ job.company }}, {{ job.from }} &mdash; {{ job.to }}</h4>
+<p>{{ job.company }}, {{ job.from }} &mdash; {{ job.to }}</p>
 <ul>
 {% for role in job.roles %}
 <li>{{ role.text }}</li>
