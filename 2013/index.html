@@ -1,0 +1,18 @@
+---
+layout: default
+title: 2013
+---
+<p>In {{page.title}}, I had 
+{% for category in site.categories %}
+{{ category | last | size }} {{ category | first }}, 
+{% endfor %}
+</p>
+
+{% for post in site.posts reversed %}
+{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+{% if year == "2013" %}
+<a href="{{post.url}}" title="{{ post.title }}" class="year-thumb" style="background-image: url({{post.image}});">{{post.title}}</a>
+{% endif %}
+{% endfor %}
+
+<!--http://stackoverflow.com/a/9628474-->
