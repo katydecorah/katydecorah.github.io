@@ -3,7 +3,6 @@ destination: _site
 plugins: _plugins
 layouts: _layouts
 
-safe: true
 lsi: false
 highlighter: true
 markdown: kramdown
@@ -69,3 +68,11 @@ links:
 
 mapbox_token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoibGQtZjZINCJ9.qrZnVyO9TghqkQDZPFFnPw
 mapbox_mapid: katydecorah.h41bj3lj
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
