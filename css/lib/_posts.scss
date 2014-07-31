@@ -200,3 +200,13 @@ figcaption {
  margin-bottom: 1em;
  @extend .xs;
 }
+
+.everything-link {
+  display: block;
+  float: left;
+  width: 25%;
+  padding-bottom: 25%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
