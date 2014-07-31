@@ -1,0 +1,10 @@
+---
+layout: post
+title: Everything
+---
+
+<div class="photos">
+{% for post in site.posts %}
+<a href="{{ post.url }}" class="everything-link" style="{% if post.image %}background-image: url({{ post.image }}){%else%}background: #222{% endif %}"></a>
+{% endfor %}
+</div>
