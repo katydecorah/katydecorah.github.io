@@ -13,6 +13,7 @@ code, pre {
 pre {
 	margin: 1em 0;
 	padding: 2em;
+	@extend .small;
 	code {
 		padding: 0;
 		background: none;

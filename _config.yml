@@ -4,7 +4,7 @@ plugins: _plugins
 layouts: _layouts
 
 lsi: false
-highlighter: true
+highlighter: pygments
 markdown: kramdown
 
 url: http://katydecorah.com
