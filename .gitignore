@@ -6,3 +6,6 @@ node_modules/
 img/source/
 img/
 _drafts/
+*.sublime-project
+
+*.sublime-workspace
