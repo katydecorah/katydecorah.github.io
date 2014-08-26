@@ -15,7 +15,14 @@
       from: June 2014
       to: present
       show: true
-    - title: Instructional Designer/Web Developer
+    - title: Adjunct Instructor
+      company: "Informatics Department, University at Albany"
+      from: August 2014
+      to: present
+      show: true
+      roles:
+        - text: "Instruct I INF 362 Intermediate Interactive Design."
+    - title: Instructional Designer
       company: "Professional Development Program, Research Foundation at SUNY"
       company-link: "http://www.pdp.albany.edu/"
       from: January 2011
@@ -27,13 +34,13 @@
         - text: "Redesigned TrainingSpace by building a custom content management system."
         - text: "Developed data collection methods and a custom analytics dashboard used for report generation."
         - text: "Provide user support and troubleshoot technical issues for TrainingSpace."
-    - title: Adjunct Professor
+    - title: Adjunct Instructor
       company: "Informatics Department, University at Albany"
       from: September 2011
       to: May 2013
       show: true
       roles:
-        - text: "Instructed Web Development (IIST 361) and Intermediate Web Development (IINF 362)."
+        - text: "Instructed Web Development (I IST 361) and Intermediate Web Development (I INF 362)."
         - text: "Developed an adaptive curriculum based on changing best practices."
         - text: "Developed a course management tool as an alternative to Blackboard."
     - title: Web Design Intern
