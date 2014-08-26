@@ -22,3 +22,5 @@ I finished it.
 <p data-height="400" data-theme-id="97" data-slug-hash="nHsfw" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/nHsfw/'>dropbox!</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 After two years of getting better at CSS, learning Sass and Haml, and starting this site to write about my code, I'm so glad that I finished that little Dropbox pen.
+
+Thank you CodePen and thank you to anyone who has ever hearted or viewed one of my pens!
