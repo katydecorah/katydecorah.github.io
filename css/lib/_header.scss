@@ -26,7 +26,7 @@
 .logo {
   color: $dark-accent;
   display: block;
-  font-weight: $body-font-bold;
+  font-weight: $body-font-weight;
 
   @include breakpoint(m) { 
     float: left;
