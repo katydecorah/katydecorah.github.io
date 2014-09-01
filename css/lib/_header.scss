@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  @include breakpoint(m) {
+  @include breakpoint(gt-mobile) {
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,7 +28,7 @@
   display: block;
   font-weight: $body-font-weight;
 
-  @include breakpoint(m) { 
+  @include breakpoint(gt-mobile) { 
     float: left;
   }
   &:hover {

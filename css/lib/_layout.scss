@@ -11,13 +11,13 @@
   padding-right: 1em;
 }
 .half-left,.half-right {
-  @include breakpoint(m) {
+  @include breakpoint(gt-mobile) {
     width: 48%;
     float: left;
   }
 }
 .half-left {
-  @include breakpoint(m) {margin-right:4%;}
+  @include breakpoint(gt-mobile) {margin-right:4%;}
 }
 
 .columns {

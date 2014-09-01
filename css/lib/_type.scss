@@ -37,7 +37,7 @@ h1 {
   margin-top: 0;
   font-size: $h1-size;
   @extend .fancy-type;
-  @include breakpoint(s){ font-size: 2em;}
+  @include breakpoint(mobile){ font-size: 2em;}
 }
 
 h2 {
@@ -59,19 +59,19 @@ h4 {font-size: $h4-size;}
 }
 small, .small {
   font-size: 0.889em;
-  @include breakpoint(s) {
+  @include breakpoint(mobile) {
     font-size: 1em;
   }
 }
 .xs {
   font-size: 0.7em;
-  @include breakpoint(s) {
+  @include breakpoint(mobile) {
     font-size: 1em;
   }
 }
 .xxs {
   font-size: 0.6em;
-  @include breakpoint(s) {
+  @include breakpoint(mobile) {
     font-size: 1em;
   }
 }

@@ -8,20 +8,36 @@
   li {
     display: inline-block;
     margin: 0;
-
   }
 }
-.header {
-  .nav {
-    
-    @include breakpoint(m) { float: right; }
-    @include breakpoint(s) { display: none;  }
 
+.navbar {
+
+  .header & { 
+    @include breakpoint(mobile) { display: none;  } 
+    @include breakpoint(gt-mobile) { float: right; }
   }
+  .footer & {
+   @include breakpoint(gt-mobile) { display: none; }
+   .nav-link {
+    display: block;
+    padding: 0.5em 0;
+   }
+ }
+
+ li { @include breakpoint(mobile) { display: block;} }
+
+}
+
+
+
+
+.header {
+
   .nav-link {
     display: block;
     color: $link-color;
-    padding: 1.275em 1em;
+
     line-height: 1;
     @extend .xs;
     position: relative;
@@ -29,17 +45,19 @@
     border-radius: 0 0 0.2em 0.2em;
     background: linear-gradient(to bottom, $fancy-accent 50%, transparent 50%) no-repeat 0 100% / 100% 200%;
     min-height: 1em;
+    padding: 1.275em 1em;
 
-  &:hover { 
-    background-position: 0 0; 
+    &:hover { 
+      background-position: 0 0; 
+      .cssgradients & { color: white; }
+    }
+
+  }
+
+  .active .nav-link, .nav-link:hover {
+    text-decoration: none;
+    background-position: 0 0;
     .cssgradients & { color: white; }
   }
-
-
-  }
 }
-.active .nav-link, .nav-link:hover {
-  text-decoration: none;
-  background-position: 0 0;
-.cssgradients & { color: white; }
-}
+

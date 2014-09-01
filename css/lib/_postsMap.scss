@@ -1,6 +1,6 @@
 .post-header-has-map {
 	margin-bottom: 1em;
-	@include breakpoint(m) { 
+	@include breakpoint(gt-mobile) { 
 		min-height: 300px;
 		overflow: hidden;
 		position: relative;
@@ -15,7 +15,7 @@
 	}
 	h1 { 
 		margin: 0;
-		@include breakpoint(m) {
+		@include breakpoint(gt-mobile) {
 			font-size: $h1-size-map;
 			color: rgba($text-color,0.75); 
 		}
@@ -33,7 +33,7 @@
 	top: 0;
 	left: 0;
 	overflow: hidden;
-	@include breakpoint(s) { display:none }
+	@include breakpoint(mobile) { display:none }
 }
 
 
@@ -42,7 +42,7 @@
 .post-location-image {
 	display: none;
 	max-width: none;
-	@include breakpoint(m) {
+	@include breakpoint(gt-mobile) {
 		display: block;
 		height: 300px;
 		background-attachment: fixed;

@@ -2,7 +2,7 @@
 
 .all-posts {
   .post-meta {
-    @include breakpoint(m) {
+    @include breakpoint(gt-mobile) {
       float: left;
       width: 70%;
     }
@@ -33,7 +33,7 @@
 
 .post-img-container  {
   display: none;
-  @include breakpoint(m) {
+  @include breakpoint(gt-mobile) {
     border-radius: $border-radius-img;
     margin-right: 2em;
     display: flex;
@@ -61,7 +61,7 @@
   font-size: 2.25em;
   line-height: 1.2;
   @extend .fancy-type;
-  @include breakpoint(s) {
+  @include breakpoint(mobile) {
     font-size: 1.5em;
   }
 }

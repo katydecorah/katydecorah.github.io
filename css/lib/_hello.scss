@@ -13,7 +13,7 @@
 
 
 .hello-header {
-  @include breakpoint(m) {
+  @include breakpoint(gt-mobile) {
     background-image: url(https://farm3.staticflickr.com/2903/14534773530_7a1276b995_o.jpg);
     height: 400px;
     background-size: cover;

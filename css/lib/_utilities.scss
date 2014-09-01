@@ -19,7 +19,7 @@ img {
 }
 
 .hide-small {
-  @include breakpoint(s) {
+  @include breakpoint(mobile) {
     display: none;
   }
 }

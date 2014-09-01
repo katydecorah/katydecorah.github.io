@@ -1,27 +1,10 @@
 // From http://css-tricks.com/media-queries-sass-3-2-and-codekit/
 @mixin breakpoint($point) {
-
-  @if $point == xxxl {
-    @media (min-width: 84.5em) { @content; }
-  }
-
-  @else if $point == xxl {
-    @media (min-width: 78.125em) { @content; }
-  }
-  @else if $point == xl {
-    @media (min-width: 71.19em) { @content; }
-  }
-  @else if $point == l {
-    @media (min-width: 56.25em) { @content; }
-  }
-  @else if $point == m {
+  @if $point == gt-mobile {
     @media (min-width: 50em) { @content; }
   }
-  @else if $point == s {
+  @else if $point == mobile {
     @media (max-width: 50em) { @content; }
-  }
-  @else if $point == xs {
-    @media (max-width: 30em)  { @content; }
   }
 }
 

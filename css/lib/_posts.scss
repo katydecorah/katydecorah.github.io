@@ -111,7 +111,7 @@
   position: relative;
   display: block;
   margin-top: 1em;
-  @include breakpoint(m){ 
+  @include breakpoint(gt-mobile){ 
     min-height: 2em;
     width: 50%; 
     display: flex;
@@ -144,7 +144,7 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @include breakpoint(m){
+  @include breakpoint(gt-mobile){
     position: absolute;
     transition: $link-transition;
     top: 0;
@@ -176,16 +176,16 @@
 .post-prev-title, .post-next-title  {
   @extend .small;
   @extend .fancy-type;
-  @include breakpoint(m) {
+  @include breakpoint(gt-mobile) {
     display: block;
   }
 }
 .post-prev-title {
-  @include breakpoint(m) {padding-left: 3em; }
+  @include breakpoint(gt-mobile) {padding-left: 3em; }
 }
 
 .post-next-title {
-  @include breakpoint(m) {padding-right: 3em; }
+  @include breakpoint(gt-mobile) {padding-right: 3em; }
 }
 
 

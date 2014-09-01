@@ -1,0 +1,3 @@
+<ul class="navbar nav">
+{% for link in site.links %}{% if link.position == 'top' %}<li{% if link.text == page.title %} class="active"{% endif %}><a href="{{ link.url }}" class="nav-link">{{ link.text }}</a></li>{% endif %}{% endfor %}
+</ul>

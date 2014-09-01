@@ -17,12 +17,12 @@
 	@extend .clearfix;
 }
 .category-recent {
-	@include breakpoint(s) {
+	@include breakpoint(mobile) {
 		display: flex;
 		align-items: center;
 		justify-content: left;
 	}
-	@include breakpoint(m) {
+	@include breakpoint(gt-mobile) {
 		width: 22%;
 		float: left;
 		margin-right: 4%;
@@ -31,33 +31,33 @@
 			margin-right: 0;
 		}
 	}
-	@include breakpoint(s) {
+	@include breakpoint(mobile) {
 		margin-bottom: 1em;
 	}
 
 	.category-title {
 		@extend .small;
 		@extend .fancy-type;
-		@include breakpoint(m) {
+		@include breakpoint(gt-mobile) {
 			display: block;
 			margin-top: 0.75em;
 			padding: 0 0.25em;
 
 		}
-		@include breakpoint(s) {
+		@include breakpoint(mobile) {
 			margin-left: 1em;
 		}
 	}
 }
 
 .category-thumb {
-	@include breakpoint(m) {
+	@include breakpoint(gt-mobile) {
 		width: 100%;
 		padding-bottom: 100%;
 		display: block;
 		border-radius: $border-radius-img;
 	}
-	@include breakpoint(s) {
+	@include breakpoint(mobile) {
 		width: 20%;
 		padding-bottom: 20%;
 		display: inline-block;

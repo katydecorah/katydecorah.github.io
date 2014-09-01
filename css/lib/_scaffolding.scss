@@ -10,7 +10,7 @@ body {
   background-color: $body-bg;
   @extend .body-type;
   text-rendering: optimizeLegibility;
-  @include breakpoint(m) { 
+  @include breakpoint(gt-mobile) { 
     padding-top: $body-padding-top;
     &.post-page {
       padding-top: $body-padding-top/1.7;
@@ -61,31 +61,31 @@ img {
 
 
 .img-half {
- @include breakpoint(m) { width: 49.6%; }
+ @include breakpoint(gt-mobile) { width: 49.6%; }
 }
 .img-thirds {
-  @include breakpoint(m) {
+  @include breakpoint(gt-mobile) {
     width: 32.89%;
   }
 }
 .thirds {
   margin-bottom: 1em;
   float: left;
-  @include breakpoint(m) { width: 31.8%;}
+  @include breakpoint(gt-mobile) { width: 31.8%;}
 }
 .img-fourths {
-  @include breakpoint(m) { width: 24%; }
+  @include breakpoint(gt-mobile) { width: 24%; }
 }
 .img-split-wide, .img-wide {
-  @include breakpoint(m) { width: 62.7%; }
+  @include breakpoint(gt-mobile) { width: 62.7%; }
 }
 .img-split-tall, .img-tall {
-  @include breakpoint(m) { width: 35.25%; }
+  @include breakpoint(gt-mobile) { width: 35.25%; }
 }
 .rotate-left {transform: rotate(-90deg);}
 
 .img-half, .img-thirds, .img-fourths, .img-split-wide, .img-wide, .img-split-tall, .img-tall {
-  @include breakpoint(m) {
+  @include breakpoint(gt-mobile) {
     display: inline-block;
     //margin: 0 0.5% 0.5em 0.5%;
   }
