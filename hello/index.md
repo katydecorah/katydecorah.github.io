@@ -12,10 +12,6 @@ Sometimes I teach at the University at Albany. This semester I'm teaching Interm
 
 I just started writing for [CSS-Tricks](http://css-tricks.com/). Check out [some of the pieces that I've worked on](/humble-brags/#css-tricks).
 
-## Projects
-
-I built, and work to improve, [Static Map Maker](http://staticmapmaker.com) to help people navigate the Google and Mapbox static map API. It&rsquo;s my tinker-with-AngularJS project.
-
 ## Colophon
 
 This site is built with Jekyll, Sass, Grunt, and hosted on [Github](https://github.com/katydecorah/katydecorah.github.com). I also use [CodePen](http://codepen.io/) embeds, [Mapbox](https://www.mapbox.com/developers/api/static/) maps, [FontAwesome](http://fortawesome.github.io/Font-Awesome/icons/) icons, [Typekit](https://typekit.com/) fonts, and [Flat UI Colors](http://flatuicolors.com/). And my images are hosted [Flickr](flickr.com).
