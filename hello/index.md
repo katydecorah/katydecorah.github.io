@@ -10,7 +10,7 @@ I love [treats](/card-catalog/#epicurean), [being outdoors](/card-catalog/#adven
 
 Sometimes I teach at the University at Albany. This semester I'm teaching Intermediate Interactive Design.
 
-I just started writing for [CSS-Tricks](http://css-tricks.com/). Check out [some of pieces that I've worked on](/writing/).
+I just started writing for [CSS-Tricks](http://css-tricks.com/). Check out [some of the pieces that I've worked on](/humble-brags/#css-tricks).
 
 ## Projects
 
