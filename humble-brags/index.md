@@ -12,9 +12,10 @@ layout: default
 <div class="brag" id="{{ site.site  | rereplace:' ','-' | downcase }}">
 <h3>{{ site.site }}</h3>
 <ul>
-{% for item in site.contents %}<li><a href="{{item.link}}">{{ item.title }}</a>, {{item.date | date: "%B %d, %Y"}}</li>{% endfor %}
-{% endfor %}
+{% for item in site.contents %}<li><a href="{{item.link}}">{{ item.title }}</a>{% if item.with %} with {{ item.with }}{% endif %}, {{item.date | date: "%B %d, %Y"}}</li>{% endfor %}
 </ul>
 </div>
+{% endfor %}
+
 {% endfor %}
 {% endfor %}

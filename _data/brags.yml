@@ -2,36 +2,36 @@
   contents:
   - site: CSS-Tricks
     contents:
-    - title: Guide to Responive-Friendly CSS Columns
-      date: 2014-07-25
-      link: http://css-tricks.com/guide-responsive-friendly-css-columns/
-    - title: columns
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/columns/
-    - title: column-count
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-count/
-    - title: column-fill
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-fill/
-    - title: column-gap
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-gap/
-    - title: column-rule
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-rule/
-    - title: column-span
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-span/
-    - title: column-width
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-width/
-    - title: break-inside
-      date: 2014-08-21
-      link: http://css-tricks.com/almanac/properties/b/break-inside/
     - title: ::selection
       date: 2014-08-29
       link: http://css-tricks.com/almanac/selectors/s/selection/
+    - title: break-inside
+      date: 2014-08-21
+      link: http://css-tricks.com/almanac/properties/b/break-inside/
+    - title: column-width
+      date: 2014-08-15
+      link: http://css-tricks.com/almanac/properties/c/column-width/
+    - title: column-span
+      date: 2014-08-15
+      link: http://css-tricks.com/almanac/properties/c/column-span/
+    - title: column-rule
+      date: 2014-08-15
+      link: http://css-tricks.com/almanac/properties/c/column-rule/
+    - title: column-gap
+      date: 2014-08-15
+      link: http://css-tricks.com/almanac/properties/c/column-gap/
+    - title: column-fill
+      date: 2014-08-15
+      link: http://css-tricks.com/almanac/properties/c/column-fill/
+    - title: column-count
+      date: 2014-08-15
+      link: http://css-tricks.com/almanac/properties/c/column-count/
+    - title: columns
+      date: 2014-08-15
+      link: http://css-tricks.com/almanac/properties/c/columns/
+    - title: Guide to Responive-Friendly CSS Columns
+      date: 2014-07-25
+      link: http://css-tricks.com/guide-responsive-friendly-css-columns/
 - section: Speaking
   contents:
   - site: The East Wing
