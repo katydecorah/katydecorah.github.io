@@ -22,10 +22,10 @@
    .nav-link {
     display: block;
     padding: 0.5em 0;
-   }
- }
+  }
+}
 
- li { @include breakpoint(mobile) { display: block;} }
+li { @include breakpoint(mobile) { display: block;} }
 
 }
 
@@ -41,23 +41,22 @@
     line-height: 1;
     @extend .xs;
     position: relative;
+    margin-top: 0.8em;
     margin-right: 0.1em;
-    border-radius: 0 0 0.2em 0.2em;
-    background: linear-gradient(to bottom, $fancy-accent 50%, transparent 50%) no-repeat 0 100% / 100% 200%;
+    border-radius:  0.5em;
     min-height: 1em;
-    padding: 1.275em 1em;
+    padding:  0.5em 1em;
 
     &:hover { 
-      background-position: 0 0; 
-      .cssgradients & { color: white; }
+      background: $body-bg;
+
     }
 
   }
 
   .active .nav-link, .nav-link:hover {
     text-decoration: none;
-    background-position: 0 0;
-    .cssgradients & { color: white; }
+    background: $body-bg;
   }
 }
 
