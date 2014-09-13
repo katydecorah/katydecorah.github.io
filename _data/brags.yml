@@ -34,6 +34,12 @@
       link: http://css-tricks.com/guide-responsive-friendly-css-columns/
 - section: Speaking
   contents:
+  - site: MakerSquare
+    contents:
+    - title: Animating the DOM with CSS and JavaScript
+      with: Flip Stewart
+      date: 2014-09-14
+      link: https://www.youtube.com/watch?v=rAJgJRvAE98
   - site: The East Wing
     contents:
     - title: Episode 86
