@@ -9,3 +9,7 @@ _drafts/
 *.sublime-project
 
 *.sublime-workspace
+
+css/style.css.map
+
+npm-debug.log

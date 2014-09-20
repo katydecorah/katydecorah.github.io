@@ -22,7 +22,7 @@
 
 .columns {
   @extend .small;
-  columns: 2 325px;
+  columns: 2 290px;
   column-gap: 3em;
   .fa-ul { margin-top: 0;}
   .fa-li { top: 0.3em; }
@@ -32,5 +32,3 @@
     -webkit-column-break-inside: avoid;
   }
 }
-
-
