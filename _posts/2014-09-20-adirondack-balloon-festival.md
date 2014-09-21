@@ -35,4 +35,4 @@ coordinates: -73.604245,43.341432
 <img src="https://farm4.staticflickr.com/3881/15111212690_572bb34d6f_b.jpg"  alt="Pano - Adirondack Balloon Festival 2014">
 </div>
 
-That's our [Adirondack Balloon Festival](http://www.adirondackballoonfest.org/) ritual. It doen't seem to get old.
+That's our [Adirondack Balloon Festival](http://www.adirondackballoonfest.org/) ritual. It doesn't seem to get old.
