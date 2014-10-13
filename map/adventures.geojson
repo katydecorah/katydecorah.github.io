@@ -1,0 +1,26 @@
+---
+---
+{
+  "type": "FeatureCollection",
+  "features": [{% for post in site.posts %}{% if post.coordinates %}
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "{{ post.title }}",
+        "description": "<img src='{{ post.image }}' alt='{{ post.title }}' style='width: 200px'>",
+        "url": "{{post.url}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [{% for c in post.coordinates limit:1 %}{{c}}{% endfor %}],
+        "marker-size": "large",
+        "marker-color": "#BE9A6B"
+      }
+    },{% endif %}{% endfor %}
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {}
+    }
+  ]
+}
