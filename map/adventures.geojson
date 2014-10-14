@@ -2,21 +2,36 @@
 ---
 {
   "type": "FeatureCollection",
-  "features": [{% for post in site.posts %}{% if post.coordinates %}
-    {
+  "features": [{% for post in site.posts %}{% if post.coordinates %}{% if post.coordinates[1] %}
+  {
       "type": "Feature",
       "properties": {
         "title": "{{ post.title }}",
         "description": "<img src='{{ post.image }}' alt='{{ post.title }}' style='width: 200px'>",
-        "url": "{{post.url}}"
+        "url": "{{site.url}}{{post.url}}",
+        "fill":"blue",
+        "stroke-width":"0"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [{% for c in post.coordinates limit:1 %}{{c}}{% endfor %}],
-        "marker-size": "large",
-        "marker-color": "#BE9A6B"
+        "type": "LineString",
+        "coordinates": [{% for coord in post.coordinates %}
+          [{{coord}}]{% if forloop.last != true %},{% endif %}{% endfor %}
+        ]
       }
-    },{% endif %}{% endfor %}
+    },{% else %}
+  {
+    "type": "Feature",
+    "properties": {
+      "title": "{{ post.title }}",
+      "description": "<img src='{{ post.image }}' alt='{{ post.title }}' style='width: 200px'>",
+      "url": "{{site.url}}{{post.url}}",
+      "marker-color": "#e74c3c"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [{% for c in post.coordinates limit:1 %}{{c}}{% endfor %}]
+    }
+  },{% endif %}{% endif %}{% endfor %}
     {
       "type": "Feature",
       "properties": {},
