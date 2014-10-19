@@ -12,11 +12,24 @@ L.mapbox.accessToken = '{{site.mapbox_token}}';
 var map = L.mapbox.map('map', '{{site.mapbox_mapid}}');
 
 var featureLayer = L.mapbox.featureLayer()
-    .loadURL('/map/adventures.geojson')
-    .addTo(map);
+.loadURL('/map/adventures.geojson')
+.addTo(map);
 
 featureLayer.on('ready', function() {
   map.fitBounds(featureLayer.getBounds());
 });
 
+featureLayer.on('layeradd', function(e) {
+  var marker = e.layer,
+  feature = marker.feature;
+
+  // Create custom popup content
+  var popupContent =  '<h2>'+feature.properties.title+'</h2><a target="_blank" class="popup" href="' + feature.properties.url + '">' +
+  '<img alt="'+ feature.properties.title +'+" style="max-width: 150px" src="' + feature.properties.image + '" /></a>';
+
+  // http://leafletjs.com/reference.html#popup
+  marker.bindPopup(popupContent,{
+    minWidth: 200
+  });
+});
 </script>
