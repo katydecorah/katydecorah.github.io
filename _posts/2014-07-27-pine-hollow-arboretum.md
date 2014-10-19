@@ -5,7 +5,8 @@ category: adventures
 tags:
  - fresh air
 locations: Slingerlands, NY
-coordinates: -73.8553663,42.6328986
+coordinates:
+ - -73.8553663,42.6328986
 zoom: 16
 image: https://farm3.staticflickr.com/2918/14771854853_f283db09ba_b.jpg
 ---
@@ -33,4 +34,3 @@ Recipe for the perfect day date:
  1. Get lost inside the Pine Hollow Arboretum.
  2. Enjoy homemade ice cream at Toll Gate.
  3. *optional:* Buy two freshly steamed lobsters at ShopRite for an early dinner.
-
