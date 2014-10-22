@@ -6,11 +6,12 @@ tags:
  - yay
  - waterfall
 image: https://farm4.staticflickr.com/3875/14890721083_7f26e13599_b.jpg
-coordinates: -73.1352701,42.6919608
+coordinates:
+ - -73.1352701,42.6919608
 locations: North Adams, MA
 ---
 
-Yesterday morning we work up early and drove out to North Adams to explore [Cascade Falls once again](/adventures/2013/06/02/this-weekend/). 
+Yesterday morning we work up early and drove out to North Adams to explore [Cascade Falls once again](/adventures/2013/06/02/this-weekend/).
 
 On the drive there we saw a family of black bears crossing the road. I got a quick snap of one of the babies.
 
