@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    
+
     uglify: {
       files: {
         src: 'js/lib/*.js',
@@ -42,7 +42,8 @@ module.exports = function(grunt) {
     },
     autoprefixer: {
       options: {
-        browsers: ['last 2 version', 'ie 9']
+        browsers: ['last 2 version', 'ie 9'],
+        map: true
       },
       target: {
         src: 'css/style.css'
