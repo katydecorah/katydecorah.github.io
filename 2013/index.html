@@ -1,23 +1,4 @@
 ---
-layout: default
+layout: year-in-review
 title: Year in Review
 ---
-
-{% assign playlistsCounter = 0 %}
-{% assign adventuresCounter = 0 %}
-{% assign codeCounter = 0 %}
-{% assign notesCounter = 0 %}
-
-{% for post in site.posts reversed %}
-{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-{% capture pageYear %}{{ page.url | replace: '/','' }}{% endcapture %}
-{% if year == pageYear %}
-  {% if post.category == 'playlists' %}{% assign playlistsCounter = playlistsCounter | plus:1 %}{% endif %}
-  {% if post.category == 'adventures' %}{% assign adventuresCounter = adventuresCounter | plus:1 %}{% endif %}
-  {% if post.category == 'code' %}{% assign codeCounter = codeCounter | plus:1 %}{% endif %}
-  {% if post.category == 'notes' %}{% assign notesCounter = notesCounter | plus:1 %}{% endif %}
-{% endif %}
-
-{% endfor %}
-
-<p>In {{ pageYear }}, I made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 or playlistsCounter == 0 %}s{% endif %}, had {{ adventuresCounter }} adventure{% if adventuresCounter > 1 or adventuresCounter == 0 %}s{% endif %}, wrote about code {{ codeCounter }} time{% if codeCounter > 1 or codeCounter == 0 %}s{% endif %}, and wrote {{notesCounter}} note{% if notesCounter > 1 or notesCounter == 0 %}s{% endif %}.<p>

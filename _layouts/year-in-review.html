@@ -1,8 +1,10 @@
----
-layout: default
-title: Year in Review
----
-
+{% include top.html %}
+<body class="default-page page-{{ page.title | downcase | replace:' ','_' | replace: '!',''  }}">
+{% include skip.html %}
+{% include header.html %}
+<div class="container">
+<div class="content" id="content">
+<h1>{{ page.title }}</h1>
 {% assign playlistsCounter = 0 %}
 {% assign adventuresCounter = 0 %}
 {% assign codeCounter = 0 %}
@@ -21,3 +23,9 @@ title: Year in Review
 {% endfor %}
 
 <p>In {{ pageYear }}, I made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 or playlistsCounter == 0 %}s{% endif %}, had {{ adventuresCounter }} adventure{% if adventuresCounter > 1 or adventuresCounter == 0 %}s{% endif %}, wrote about code {{ codeCounter }} time{% if codeCounter > 1 or codeCounter == 0 %}s{% endif %}, and wrote {{notesCounter}} note{% if notesCounter > 1 or notesCounter == 0 %}s{% endif %}.<p>
+</div>
+</div>
+{% include footer.html %}
+{% include end.html %}
+</body>
+</html>
