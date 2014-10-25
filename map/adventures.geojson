@@ -12,7 +12,9 @@ thirteen: '#9b59b6'
         "image": "{{ place.image }}",
         "url": "{{site.url}}{{place.url}}",
         "year": "{{ year }}",
-        "marker-color": "{% case year %}{% when '2014' %}{{page.fourteen}}{% when '2013' %}{{page.thirteen}}{% endcase %}"
+        "marker-size": "medium",
+        {% case year %}{% when '2014' %}"marker-color": "{{page.fourteen}}"
+        {% when '2013' %}"marker-color": "{{page.thirteen}}"{% endcase %}
       },
       "geometry": { {% case type %}{% when 1 %}
         "type": "Point",

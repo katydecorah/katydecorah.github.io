@@ -24,12 +24,13 @@ featureLayer.on('layeradd', function(e) {
   feature = marker.feature;
 
   // Create custom popup content
-  var popupContent =  '<h2>'+feature.properties.title+'</h2><a target="_blank" class="popup" href="' + feature.properties.url + '">' +
-  '<img alt="'+ feature.properties.title +'+" style="max-width: 150px" src="' + feature.properties.image + '" /></a>';
+  var popupContent =  '<a target="_blank" class="popup" href="' + feature.properties.url + '">' +
+  '<img alt="'+ feature.properties.title +'+" style="max-width: 150px" src="' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
 
   // http://leafletjs.com/reference.html#popup
   marker.bindPopup(popupContent,{
-    minWidth: 200
+    minWidth: 200,
+    closeButton: false
   });
 });
 </script>
