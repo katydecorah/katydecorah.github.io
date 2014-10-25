@@ -1,41 +1,27 @@
 ---
+fourteen: '#1abc9c'
+thirteen: '#9b59b6'
 ---
 {
   "type": "FeatureCollection",
-  "features": [{% for post in site.posts %}{% if post.coordinates %}{% if post.coordinates[1] %}
-  {
-      "type": "Feature",
-      "properties": {
-        "title": "{{ post.title }}",
-        "image": "{{ post.image }}",
-        "url": "{{site.url}}{{post.url}}",
-        "fill":"blue",
-        "stroke-width":"0"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [{% for coord in post.coordinates %}
-          [{{coord}}]{% if forloop.last != true %},{% endif %}{% endfor %}
-        ]
-      }
-    },{% else %}
-  {
-    "type": "Feature",
-    "properties": {
-      "title": "{{ post.title }}",
-      "image": "{{ post.image }}",
-      "url": "{{site.url}}{{post.url}}",
-      "marker-color": "#e74c3c"
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [{% for c in post.coordinates limit:1 %}{{c}}{% endfor %}]
-    }
-  },{% endif %}{% endif %}{% endfor %}
+  "features": [{% assign places = (site.posts | where: "category", "adventures") %}{% for place in places %}{% assign type = place.coordinates | size %}{% capture year %}{{place.date | date: "%Y"}}{% endcapture %}
     {
       "type": "Feature",
-      "properties": {},
-      "geometry": {}
-    }
+      "properties": {
+        "title": "{{ place.title }}",
+        "image": "{{ place.image }}",
+        "url": "{{site.url}}{{place.url}}",
+        "year": "{{ year }}",
+        "marker-color": "{% case year %}{% when '2014' %}{{page.fourteen}}{% when '2013' %}{{page.thirteen}}{% endcase %}"
+      },
+      "geometry": { {% case type %}{% when 1 %}
+        "type": "Point",
+        "coordinates": [{{ place.coordinates }}]{% else %}
+        "type": "MultiPoint",
+        "coordinates": [ {% for coord in place.coordinates %}
+          [{{coord}}]{% if forloop.last != true %},{% endif %}{% endfor %}
+        ]{% endcase %}
+      }
+    }{% if forloop.rindex > 1 %},{% endif%}{% endfor %}
   ]
 }
