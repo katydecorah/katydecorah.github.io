@@ -6,8 +6,10 @@ tags:
  - hiking
  - time travel
 image: https://farm4.staticflickr.com/3848/14921822548_e64c69c350_b.jpg
-locations: Delmar, NY
-coordinates: -73.8894491,42.6086815
+locations:
+ - Delmar, NY
+coordinates:
+ - -73.8894491,42.6086815
 ---
 
 This weekend we explored [Five Rivers](http://www.dec.ny.gov/education/1835.html) in Delmar.

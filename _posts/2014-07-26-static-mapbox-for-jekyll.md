@@ -4,16 +4,17 @@ title: Static Mapbox API for Jekyll Posts
 category: code
 coordinates:
  - -73.7236504,43.2294791
-locations: Moreau Lake State Park
+locations:
+ - Moreau Lake State Park
 tags:
  - maps
  - Jekyll
  - Mapbox
  - API
 image: https://farm6.staticflickr.com/5571/14562967428_1bd555644c_o.png
---- 
+---
 
-I've done [Static Google Maps Image for Jekyll Posts](/code/2013/09/06/google-maps-images-api-for-jekyll/), [Mapbox for Jekyll Posts](/code/2014/01/26/mapbox-for-jekyll-posts/), but it's time to settle down. 
+I've done [Static Google Maps Image for Jekyll Posts](/code/2013/09/06/google-maps-images-api-for-jekyll/), [Mapbox for Jekyll Posts](/code/2014/01/26/mapbox-for-jekyll-posts/), but it's time to settle down.
 
 I'm going with the [static Mapbox API](https://www.mapbox.com/developers/api/static/).
 

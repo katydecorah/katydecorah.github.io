@@ -4,7 +4,8 @@ title: Pine Hollow Arboretum
 category: adventures
 tags:
  - fresh air
-locations: Slingerlands, NY
+locations:
+ - Slingerlands, NY
 coordinates:
  - -73.8553663,42.6328986
 zoom: 16

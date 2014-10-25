@@ -2,8 +2,10 @@
 title: Rhode Island
 category: adventures
 image: https://farm6.staticflickr.com/5597/15246045327_c2c1d9382f_b.jpg
-locations: Providence, Rhode Island
-coordinates: -71.2543871,41.6371604
+locations:
+ - Providence, RI
+coordinates:
+ - -71.2543871,41.6371604
 zoom: 9
 tags:
  - road trip

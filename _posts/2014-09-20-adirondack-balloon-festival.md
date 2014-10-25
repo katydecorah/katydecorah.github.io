@@ -5,8 +5,10 @@ tags:
   - family
   - fresh air
 image: https://farm4.staticflickr.com/3903/15297564342_643dc19a0e_b.jpg
-locations: Floyd Bennett Memorial Airport
-coordinates: -73.604245,43.341432
+locations:
+ - Floyd Bennett Memorial Airport
+coordinates:
+ - -73.604245,43.341432
 ---
 
 1. Wake up at 3:45 am.
