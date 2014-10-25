@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Years Eve Homemade Sushi
-category: adventures
+category: notes
 tags:
 - family
 - "time travel"
