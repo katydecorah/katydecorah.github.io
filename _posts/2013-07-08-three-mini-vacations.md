@@ -2,21 +2,22 @@
 layout: post
 title: Three Mini Vacations
 category: adventures
-tags: 
+tags:
 - family
 - friends
 - "road trip"
 - the ocean
 image: http://farm6.staticflickr.com/5471/9360368377_d47822c551_c.jpg
 locations:
-- Moreau,NY
 - Lake Placid,NY
 - Thousand Islands,NY
 - Portsmouth,NH
 map: static
 zoom: 12
 coordinates:
+ - -73.991, 44.239
  - -76.0000238,44.3085161
+ - -70.804, 43.07
 ---
 
 ## Lake Placid
@@ -30,7 +31,7 @@ On Monday, I drove up to Lake Placid to visit my college roommate. We went out t
 ## Thousand Islands
 
 On Wednesday, my family and I drove out to Thousands Islands. We checked out the area and took a boat to Rock Island. The next day we drove into Canada to go to the 1000 Islands Sky Deck.
- 
+
 <div class="photos">
 <a href="http://www.flickr.com/photos/91218249@N05/9363147042/" title="Thousand Islands by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5321/9363147042_918e2d5d8a_c.jpg"  alt="Thousand Islands" class="pop-out"></a><a href="http://www.flickr.com/photos/91218249@N05/9363154376/" title="Thousand Islands by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3825/9363154376_e2de0d8e81_c.jpg" class="img-thirds" alt="Thousand Islands"></a><a href="http://www.flickr.com/photos/91218249@N05/9360368377/" title="Thousand Islands by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5471/9360368377_d47822c551_c.jpg" class="img-thirds" alt="Thousand Islands"></a><a href="http://www.flickr.com/photos/91218249@N05/9363158028/" title="Thousand Islands by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3763/9363158028_f5d3d5fe5e_c.jpg" class="img-thirds" alt="Thousand Islands"></a>
 </div>
@@ -44,4 +45,3 @@ For the weekend, my sister and I stayed in Portsmouth, NH. We booked an awesome 
 </div>
 
 I don't take vacations very often, so I think I felt the need to cram everything into this one week. While it was all great, I definitely look forward to a vacation filled with less.
-
