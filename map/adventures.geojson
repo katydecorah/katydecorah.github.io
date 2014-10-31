@@ -13,6 +13,7 @@ thirteen: '#9b59b6'
         "url": "{{site.url}}{{place.url}}",
         "year": "{{ year }}",
         "marker-size": "medium",
+        {% if  place.tags contains 'yay' %}"marker-symbol": "star",{% elsif place.tags contains 'hiking' or place.tags contains 'fresh air' %}"marker-symbol":"park",{% elsif place.tags contains 'friends' or place.tags contains 'family' %}"marker-symbol": "heart",{% elsif place.tags contains 'music' %}"marker-symbol": "music",{% elsif place.tags contains 'road trip' %}"marker-symbol": "car",{% endif %}
         {% case year %}{% when '2014' %}"marker-color": "{{page.fourteen}}"
         {% when '2013' %}"marker-color": "{{page.thirteen}}"{% endcase %}
       },
