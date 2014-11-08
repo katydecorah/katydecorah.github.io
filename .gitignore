@@ -1,7 +1,6 @@
 _site/
 .sass-cache
 _ignore/
-notes/
 node_modules/
 img/source/
 img/

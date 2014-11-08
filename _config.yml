@@ -10,7 +10,7 @@ markdown: kramdown
 url: http://katydecorah.com
 permalink: pretty
 
-paginate: 7
+paginate: 5
 paginate_path: ":num"
 
 name: Katy DeCorah
