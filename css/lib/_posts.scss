@@ -49,7 +49,6 @@
 }
 .post-header-no-map {
   h1 {
-    margin-top: 1.5em;
     margin-bottom: 0.25em;
   }
 }
@@ -60,7 +59,7 @@
 
 .post-locations, .post-tags {
   @extend .xs;
-  .fa { 
+  .fa {
     min-width: 1.25em;
   }
 }
@@ -111,9 +110,9 @@
   position: relative;
   display: block;
   margin-top: 1em;
-  @include breakpoint(gt-mobile){ 
+  @include breakpoint(gt-mobile){
     min-height: 2em;
-    width: 50%; 
+    width: 50%;
     display: flex;
     align-items: center;
   }
@@ -121,8 +120,8 @@
   &:hover {
     transition: $link-transition;
     text-decoration: none;
-    &:before, &:after { 
-      background: $link-hover; 
+    &:before, &:after {
+      background: $link-hover;
       transition: $link-transition;
     }
   }

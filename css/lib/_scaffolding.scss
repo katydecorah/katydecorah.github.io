@@ -10,12 +10,6 @@ body {
   background-color: $body-bg;
   @extend .body-type;
   text-rendering: optimizeLegibility;
-  @include breakpoint(gt-mobile) { 
-    padding-top: $body-padding-top;
-    &.post-page {
-      padding-top: $body-padding-top/1.7;
-    }
-  }
 }
 
 a {

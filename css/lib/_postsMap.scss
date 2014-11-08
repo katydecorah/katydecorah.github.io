@@ -1,6 +1,7 @@
 .post-header-has-map {
 	margin-bottom: 1em;
-	@include breakpoint(gt-mobile) { 
+	@include breakpoint(gt-mobile) {
+		margin-top: -2em;
 		min-height: 300px;
 		overflow: hidden;
 		position: relative;
@@ -13,11 +14,11 @@
 		width: 100%;
 
 	}
-	h1 { 
+	h1 {
 		margin: 0;
 		@include breakpoint(gt-mobile) {
 			font-size: $h1-size-map;
-			color: rgba($text-color,0.75); 
+			color: rgba($text-color,0.75);
 		}
 		.no-flexbox & {
 			margin-top: 0.5em;
@@ -48,11 +49,9 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		width: 1280px;
-		background-position: center $body-padding-top/1.7;
-		background-blend-mode: overlay;
-		background-color: rgba(255, 255, 255, 0.2);
 		margin-right: auto;
 		margin-left: auto;
+		background-size: 100%;
 	}
 
 }

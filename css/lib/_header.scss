@@ -1,11 +1,5 @@
 .header {
   position: relative;
-  @include breakpoint(gt-mobile) {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
   margin-bottom: 2em;
   background-color: $header-bg;
   background-color: rgba($header-bg,0.85);
@@ -28,7 +22,7 @@
   display: block;
   font-weight: $body-font-weight;
 
-  @include breakpoint(gt-mobile) { 
+  @include breakpoint(gt-mobile) {
     float: left;
   }
   &:hover {
