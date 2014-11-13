@@ -68,6 +68,7 @@ links:
 
 mapbox_token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoibGQtZjZINCJ9.qrZnVyO9TghqkQDZPFFnPw
 mapbox_mapid: katydecorah.h41bj3lj
+mapboxjs: v2.1.4
 
 defaults:
   -
