@@ -1,9 +1,21 @@
-katydecorah.github.com
-======================
+```
+  ______                      
+ /      \                     
+/$$$$$$  | __    __   ______  
+$$ \__$$/ /  |  /  | /      \ 
+$$      \ $$ |  $$ |/$$$$$$  |
+ $$$$$$  |$$ |  $$ |$$ |  $$ |
+/  \__$$ |$$ \__$$ |$$ |__$$ |
+$$    $$/ $$    $$/ $$    $$/ 
+ $$$$$$/   $$$$$$/  $$$$$$$/  
+                    $$ |      
+                    $$ |      
+                    $$/       
+```
 
-My first try at Jekyll and a work in progress: [katydecorah.com](http://katydecorah.com/)
+This is my first try at Jekyll. Lovin it.
 
-## Resources
+Here are some resources that have helped me through it:
 
 * [RSS feed](https://github.com/snaptortoise/jekyll-rss-feeds)
 * [Next/Previous post in category](http://stackoverflow.com/a/16732290)
