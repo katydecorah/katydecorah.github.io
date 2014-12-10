@@ -9,19 +9,25 @@
 - section:
   - heading: Experience
     contents:
-    - title: UI Designer
-      company: Fire Engine RED
-      company-link: "http://www.fire-engine-red.com/"
-      from: June 2014
+    - title: Designer
+      company: Mapbox
+      company-link: https://www.mapbox.com/
+      from: September 2014
       to: present
       show: true
     - title: Adjunct Instructor
       company: "Informatics Department, University at Albany"
-      from: August 2014
+      from: September 2014
       to: present
       show: true
       roles:
         - text: "Instruct I INF 362 Intermediate Interactive Design."
+    - title: UI Designer
+      company: Fire Engine RED
+      company-link: "http://www.fire-engine-red.com/"
+      from: June 2014
+      to: September 2014
+      show: true
     - title: Instructional Designer
       company: "Professional Development Program, Research Foundation at SUNY"
       company-link: "http://www.pdp.albany.edu/"
