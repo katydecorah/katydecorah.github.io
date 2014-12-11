@@ -6,10 +6,25 @@ layout: no-container
 <script src='https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css' rel='stylesheet' />
 
-<div id="map" style="min-height: 350px; margin-top: -3.75em; margin-bottom: -4em;"></div>
+<style>
+
+</style>
+
+{% assign years = "2014|2013" | split: "|" %}
+<div id='filters' class='map-select'>
+{% for year in years %}<div><input type='checkbox' checked=checked class='filter'
+name='filter' id='{{year}}' value='{{year}}'/><label for='{{year}}'>{{year}}</label></div>
+{% endfor %}
+</div>
+
+
+<div id="map" class="map"></div>
 <script>
 L.mapbox.accessToken = '{{site.mapbox_token}}';
 var map = L.mapbox.map('map', '{{site.mapbox_mapid}}');
+var filters = document.getElementById('filters');
+var checkboxes = document.getElementsByClassName('filter');
+
 
 var featureLayer = L.mapbox.featureLayer()
 .loadURL('/map/adventures.geojson')
@@ -17,6 +32,8 @@ var featureLayer = L.mapbox.featureLayer()
 
 featureLayer.on('ready', function() {
   map.fitBounds(featureLayer.getBounds());
+
+  change();
 });
 
 map.scrollWheelZoom.disable();
@@ -35,4 +52,16 @@ featureLayer.on('layeradd', function(e) {
     closeButton: false
   });
 });
+
+function change() {
+  var on = [];
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].checked) on.push(checkboxes[i].value);
+  }
+  featureLayer.setFilter(function (f) {
+    return on.indexOf(f.properties['year']) !== -1;
+  });
+  return false;
+}
+filters.onchange = change;
 </script>
