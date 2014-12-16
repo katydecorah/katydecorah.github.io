@@ -2,16 +2,16 @@
 layout: post
 title: Washington DC
 category: adventures
-tags: 
+tags:
+ - Mapbox
  - travel
  - yay
- - maps
 image: "https://s3.yimg.com/so/7405/12667170644_fcf57be895_b.jpg"
 map: static
 pad: 0
 locations:
  - Washington, DC
-coordinates: 
+coordinates:
  - -77.05020904541016,38.889295860173895
 ---
 
