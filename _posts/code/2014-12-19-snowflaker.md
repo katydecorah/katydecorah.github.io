@@ -32,11 +32,11 @@ I added `box-shadow` to the `:after` to build the final pattern:
 
 ![after element](https://farm8.staticflickr.com/7473/15874038007_0ce9287beb.jpg)
 
-To really break it down. A single spindle looks like this:
+To really break it down, a single spindle looks like this:
 
 ![annotated single spindle](https://farm9.staticflickr.com/8619/15873786249_526deab8da.jpg)
 
-Now spin that at the center at (360/number of spindles) degrees and you’ll get the snowflake pattern.
+Now put your finger at the top of the spindle and turn the bottom at (360/number of spindles) degrees and you’ll get the snowflake pattern.
 
 
 ## Making it scale
@@ -49,6 +49,6 @@ If you update the number of spindles in the Haml and Sass, you'll get a differen
 
 ![scaling spindles](http://i.imgur.com/yNv3nmo.gif)
 
-You can also play with the width of the spindles and the width of the spindle patterns, too!
+You can play with the width of the spindles and patterns, too!
 
 That was fun.
