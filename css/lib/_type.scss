@@ -1,13 +1,13 @@
 
 
-.body-type { 
+.body-type {
   font-family: $body-font-family;
   font-weight: $body-font-weight;
 }
 
-.fancy-type { 
-  font-family: $fancy-font-family; 
-  font-style: italic; 
+.fancy-type {
+  font-family: $fancy-font-family;
+  font-style: italic;
   font-weight: $fancy-font-weight;
 }
 .headings-type { font-weight: $body-font-bold; }
@@ -119,6 +119,12 @@ blockquote {
   top: -0.2em;
   left: -0.1em;
 }
+}
+
+.big {
+  font-size: 9em;
+  line-height: 1;
+  margin-bottom: 0.25em;
 }
 
 ::selection {

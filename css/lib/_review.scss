@@ -1,0 +1,34 @@
+.review-thumbs {
+  margin-top: 1.3em;
+  @extend .clearfix;
+}
+.review-thumb {
+  width: 10%;
+  padding-bottom: 10%;
+  background-size: cover;
+  display: block;
+  margin: 0;
+  float: left;
+  position: relative;
+}
+
+.review-hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.03);
+  display: inline-block;
+  padding: 0 0.5em;
+  border-radius: 0.3em;
+  &:hover ~ .review-thumbs .review-thumb {
+    opacity: 0.2;
+  }
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.review-playlist:hover ~ .review-thumbs .review-category-playlists,
+.review-adventures:hover ~ .review-thumbs .review-category-adventures,
+.review-code:hover ~ .review-thumbs .review-category-code,
+.review-notes:hover ~ .review-thumbs .review-category-notes {
+    opacity: 1;
+}
