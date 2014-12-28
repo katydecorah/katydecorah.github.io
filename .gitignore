@@ -9,3 +9,4 @@ _drafts/
 *.sublime-workspace
 npm-debug.log
 projects
+*.lock
