@@ -18,7 +18,7 @@ title: Time Capsule
 
 {% if forloop.first %}
 <div class="archive-year year-{{this_year}}" id="{{this_year}}">
-<h2>{{this_year}}</h2>
+<h2><a href="/{{this_year}}">{{this_year}}</a></h2>
 <div class="archive-months">
 <div class="archive-month">
 <h3>{{ this_month }}</h3>
@@ -37,7 +37,7 @@ title: Time Capsule
 </div>
 </div>
 <div class="archive-year year-{{next_year}}" id="{{next_year}}">
-<h2>{{next_year}}</h2>
+{% if next_year > '2012' %}<h2><a href="/{{next_year}}">{{next_year}}</a></h2>{% else %}<h2>{{next_year}}</h2>{% endif %}
 <div class="archive-months">
 <div class="archive-month">
 <h3>{{ next_month }}</h3>
