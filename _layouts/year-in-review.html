@@ -4,12 +4,14 @@
 {% include header.html %}
 <div class="container">
 <div class="content" id="content">
-<h1 class="big">{{ page.url | replace: '/','' }}</h1>
+<h1 class="big">{{ page.title }}</h1>
 
 {% assign playlistsCounter = 0 %}
 {% assign adventuresCounter = 0 %}
 {% assign codeCounter = 0 %}
 {% assign notesCounter = 0 %}
+{% assign teachingCounter = 0 %}
+
 {% assign playlistThumbs = '' %}
 
 {% for post in site.posts reversed %}
@@ -20,10 +22,12 @@
   {% if post.category == 'adventures' %}{% assign adventuresCounter = adventuresCounter | plus:1 %}{% endif %}
   {% if post.category == 'code' %}{% assign codeCounter = codeCounter | plus:1 %}{% endif %}
   {% if post.category == 'notes' %}{% assign notesCounter = notesCounter | plus:1 %}{% endif %}
+  {% if post.category == 'teaching' %}{% assign teachingCounter = teachingCounter | plus:1 %}{% endif %}
 {% endif %}
 {% endfor %}
 
-<div>I made <span class="review-playlist review-hover">{{ playlistsCounter }} playlist{% if playlistsCounter > 1 or playlistsCounter == 0 %}s{% endif %}</span>, had <span class="review-adventures review-hover">{{ adventuresCounter }} adventure{% if adventuresCounter > 1 or adventuresCounter == 0 %}s{% endif %}</span>, wrote about <span class="review-code review-hover">code {{ codeCounter }} time{% if codeCounter > 1 or codeCounter == 0 %}s{% endif %}</span>, and wrote <span class="review-notes review-hover">{{notesCounter}} note{% if notesCounter > 1 or notesCounter == 0 %}s{% endif %}</span>.
+<div>I {% if adventuresCounter > 0 %} had <span class="review-adventures review-hover">{{ adventuresCounter }} adventure{% if adventuresCounter > 1 %}s{% endif %}</span>,{% endif %} {% if codeCounter > 0 %}wrote about <span class="review-code review-hover">code {{ codeCounter }} time{% if codeCounter > 1 %}s{% endif %}</span>,{% endif %} {% if teachingCounter > 0 %}<span class="review-teaching review-hover">taught {{ teachingCounter }} class{% if teachingCounter > 1 %}es{% endif %}</span>,{% endif %} {% if  notesCounter > 0 %} wrote <span class="review-notes review-hover">{{notesCounter}} note{% if notesCounter > 1 %}s{% endif %}</span>,{% endif %} {% if playlistsCounter > 0 %}and made <span class="review-playlist review-hover">{{ playlistsCounter }} playlist{% if playlistsCounter > 1 %}s{% endif %}</span>{% endif %}
+  .
 <div class="review-thumbs">
 {% for post in site.posts reversed %}
 {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
