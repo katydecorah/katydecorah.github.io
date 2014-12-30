@@ -4,8 +4,10 @@ title: Hello!
 hero: https://farm3.staticflickr.com/2903/14534773530_7a1276b995_o.jpg
 ---
 
-Hello! I&rsquo;m Katy DeCorah. This is me standing in a field. I&rsquo;m a front-end developer, designer, and sometimes teacher from Albany, New&nbsp;York. I work at [Mapbox](//www.mapbox.com).
+Hello! I&rsquo;m Katy DeCorah. I&rsquo;m a front-end developer, designer, and [sometimes teacher](/card-catalog/#teaching) living in Albany, New&nbsp;York. I&rsquo;m a designer at [Mapbox](//www.mapbox.com).
 
-I love [treats](/card-catalog/#epicurean), [being outdoors](/card-catalog/#adventures), [making seasonal playlists](/card-catalog/#playlists), and [tinkering on the web](/card-catalog/#code).
+I love [tinkering on the web](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [being outdoors](/card-catalog/#adventures), and [making seasonal playlists](/card-catalog/#playlists).
+
+I built [Static Map Maker](http://staticmapmaker.com/) and [CSS Ruler](http://katydecorah.com/css-ruler/).
 
 This site is built with Jekyll, Sass, Grunt, and hosted on [Github](https://github.com/katydecorah/katydecorah.github.com). I use [CodePen](http://codepen.io/) embeds, [Mapbox](https://www.mapbox.com/developers/api/static/) maps, [FontAwesome](http://fortawesome.github.io/Font-Awesome/icons/) icons,  [Typekit](https://typekit.com/) fonts and host my images on [Flickr](flickr.com).
