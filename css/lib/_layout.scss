@@ -32,3 +32,9 @@
     -webkit-column-break-inside: avoid;
   }
 }
+
+img.emoji {
+  max-width: none;
+  margin: 0;
+  display: inline-block;
+}
