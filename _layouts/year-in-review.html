@@ -43,7 +43,7 @@
 {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
 {% capture pageYear %}{{ page.url | replace: '/','' }}{% endcapture %}
 {% if year == pageYear %}
-<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb review-{{post.category}}" title="{{post.category}}" ng-show="{{post.category}}"></a>
+<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb review-{{post.category}}" title="{{post.title}}" ng-show="{{post.category}}"></a>
 {% endif %}
 {% endfor %}
 </div>
