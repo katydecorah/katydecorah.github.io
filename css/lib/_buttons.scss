@@ -1,13 +1,13 @@
 
 .btn {
   display: inline-block;
-  background: $link-color;
+  border: 0.1em solid $link-color;
   padding: 0.2em 0.75em;
   border-radius: $border-radius-img;
-  color: white;
+  color: $link-color;
   @extend .fancy-type;
   &:hover, &.active {
-    background: $link-hover;
+    background: $link-color;
     text-decoration: none;
     color: white;
   }
