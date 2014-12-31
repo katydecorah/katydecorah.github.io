@@ -3,7 +3,8 @@
   .review-hover {
     cursor: pointer;
     //background: $accent;
-    border: .1em solid rgba($link-color,.1);
+    border: .1em solid transparent;
+    background: rgba($link-color,.05);
     display: inline-block;
     padding: 0 0.2em;
     margin-bottom: .2em;
@@ -11,6 +12,7 @@
   }
   input:checked + .review-hover, .review-hover:hover {
     border: .1em solid;
+    background: none;
     //color: white;
   }
 }
