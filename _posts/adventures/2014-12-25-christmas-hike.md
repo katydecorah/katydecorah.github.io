@@ -13,6 +13,8 @@ image: https://farm8.staticflickr.com/7462/15591018173_429aed423d_c.jpg
 feed: nah
 ---
 
+A morning hike at the [Papscanee Island Nature Preserve](http://www.rensselaercounty.org/enviroment%20management%20council/Papscanee%20Preserve.htm).
+
 <div class="photos">
 <img src="https://farm9.staticflickr.com/8658/16023363428_f47ae5c318_b.jpg" class="img-half" alt="Christmas hike"> <img src="https://farm8.staticflickr.com/7560/16024765969_cae84277a4_b.jpg" class="img-half" alt="Christmas hike">
 
