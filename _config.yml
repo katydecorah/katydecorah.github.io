@@ -3,6 +3,9 @@ destination: _site
 plugins: _plugins
 layouts: _layouts
 
+port: 4000
+host: 127.0.0.1
+
 lsi: false
 highlighter: pygments
 markdown: kramdown
