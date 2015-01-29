@@ -70,15 +70,12 @@
 
 .tag {
   display: inline-block;
-  background: $fancy-accent-aa;
-  color: white;
-  padding: 0 0.5em;
-  border-radius: 0.2em;
-  border: 1px solid transparent;
+  color: $fancy-accent-aa;
+  margin-right: 0.25em;
   margin-bottom: 0.25em;
   &:hover {
     text-decoration: none;
-    background: rgba($fancy-accent-aa,0.25);
+    color: rgba($fancy-accent-aa,0.5);
   }
 }
 
@@ -118,10 +115,14 @@
   }
   transition: $link-transition;
   &:hover {
+
+    color: rgba($link-color,0.5);
+
     transition: $link-transition;
     text-decoration: none;
     &:before, &:after {
-      background: $link-hover;
+      color: rgba($link-color,0.5);
+      border-color: inherit;
       transition: $link-transition;
     }
   }
@@ -148,17 +149,15 @@
     transition: $link-transition;
     top: 0;
     display: block;
-    background: $link-color;
+    border: 1px solid;
     border-radius: $border-radius-img;
     line-height: 2em;
     height: 2em;
     width: 2em;
     vertical-align: middle;
-    color: #FFF;
     text-align: center;
     &:hover {
-      background: $link-hover;
-      color:white;
+      color: $link-hover;
     }
   }
 }

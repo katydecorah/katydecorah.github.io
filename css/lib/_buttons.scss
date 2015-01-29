@@ -1,14 +1,13 @@
 
 .btn {
   display: inline-block;
-  border: 0.1em solid $link-color;
+  border: 1px solid $link-color;
   padding: 0.2em 0.75em;
   border-radius: $border-radius-img;
   color: $link-color;
   @extend .fancy-type;
   &:hover, &.active {
-    background: $link-color;
+    color: rgba($link-color,0.5);
     text-decoration: none;
-    color: white;
   }
 }
