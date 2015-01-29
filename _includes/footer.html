@@ -4,6 +4,6 @@
 <ul class="nav">{% for link in site.links %}{% if link.position == 'bottom' %}
 <li><a href="{{ link.url }}" title="{{ link.text }}" class="nav-link"><i class="fa fa-{{ link.icon }}"></i></a></li>{% endif %}{% endfor %}
 </ul>
-<p>{{ site.description }}</p>{% if page.coordinates %}<p>Happily using <a href="https://www.mapbox.com/about/maps/">Mapbox static maps with data from OpenStreetMap</a>.</p>{% endif %}
+<p>{{ site.description }}</p>
 </div>
 </div>{% endif %}
