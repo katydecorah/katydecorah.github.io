@@ -82,8 +82,8 @@ The [map lives here](/map), but hey, I'll save you a trip:
 
 <div id="map" style="max-width: 900px; margin: 0 auto 1em; height: 300px"></div>
 <script>
-L.mapbox.accessToken = '{{site.mapbox_token}}';
-var map = L.mapbox.map('map', '{{site.mapbox_mapid}}');
+L.mapbox.accessToken = '{{site.mapbox-token}}';
+var map = L.mapbox.map('map', '{{site.mapid}}');
 
 var featureLayer = L.mapbox.featureLayer()
 .loadURL('/map/adventures.geojson')

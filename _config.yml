@@ -35,7 +35,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   use_coderay: false
 
-exclude: [vendor, node_modules, Gemfile, Gruntfile.js, package.json]
+exclude: [vendor, node_modules, Gemfile, Gruntfile.js, package.json,CNAME,README.md]
 
 links:
 - text: Hello!
@@ -65,9 +65,9 @@ links:
   icon: rss
   position: bottom
 
-mapbox_token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoibGQtZjZINCJ9.qrZnVyO9TghqkQDZPFFnPw
-mapbox_mapid: katydecorah.21d6ba77
-mapbox_mapid_winter: katydecorah.70f1a6d1
+mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoibGQtZjZINCJ9.qrZnVyO9TghqkQDZPFFnPw
+mapid: katydecorah.21d6ba77
+mapid-winter: katydecorah.70f1a6d1
 mapboxjs: v2.1.5
 
 defaults:

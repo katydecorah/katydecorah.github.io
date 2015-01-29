@@ -14,8 +14,8 @@ name='filter' id='{{year}}' value='{{year}}'/><label for='{{year}}'>{{year}}</la
 </div>
 <div id="map" class="map"></div>
 <script>
-L.mapbox.accessToken = '{{site.mapbox_token}}';
-var map = L.mapbox.map('map', '{{site.mapbox_mapid}}');
+L.mapbox.accessToken = '{{site.mapbox-token}}';
+var map = L.mapbox.map('map', '{{site.mapid}}');
 var filters = document.getElementById('filters');
 var checkboxes = document.getElementsByClassName('filter');
 var featureLayer = L.mapbox.featureLayer()
