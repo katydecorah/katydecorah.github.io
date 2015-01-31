@@ -11,7 +11,6 @@ locations:
 coordinates:
 - -73.7440735,42.5726903
 image: https://farm8.staticflickr.com/7379/16168820338_4326fe2492_h.jpg
-feed: nah
 ---
 
 The trail was a sheet of ice, but a pretty sheet of ice.
