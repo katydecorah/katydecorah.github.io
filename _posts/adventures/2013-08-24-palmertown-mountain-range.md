@@ -2,10 +2,11 @@
 layout: post
 title: Palmertown Mountain Range
 category: adventures
-tags: 
+tags:
  - hiking
  - fresh air
 map: static
+redirect_from: "weekends/2013/08/24/palmertown-mountain-range.html"
 coordinates:
  - -73.7236504,43.2294791
 locations: Moreau Lake State Park
