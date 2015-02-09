@@ -3,13 +3,13 @@ title: Adventure Map
 layout: no-container
 ---
 
-<script src='https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css' rel='stylesheet' />
+<script src="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js"></script>
+<link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />
 
-{% assign years = "2014|2013" | split: "|" %}
-<div id='filters' class='map-select'>
-{% for year in years %}<div><input type='checkbox' checked=checked class='filter'
-name='filter' id='{{year}}' value='{{year}}'/><label for='{{year}}'>{{year}}</label></div>
+{% assign years = "2015|2014|2013" | split: "|" %}
+<div id="filters" class="map-select">
+{% for year in years %}<div><input type="checkbox" checked="checked" class="filter"
+name="filter" id="{{year}}" value="{{year}}"/><label for="{{year}}" class="filter-label">{{year}}</label></div>
 {% endfor %}
 </div>
 <div id="map" class="map"></div>
@@ -22,7 +22,7 @@ var featureLayer = L.mapbox.featureLayer()
 .loadURL('/map/adventures.geojson')
 .addTo(map);
 featureLayer.on('ready', function() {
-  map.fitBounds(featureLayer.getBounds());
+  //map.fitBounds(featureLayer.getBounds());
   change();
 });
 //map.scrollWheelZoom.disable();
@@ -47,6 +47,7 @@ function change() {
   featureLayer.setFilter(function (f) {
     return on.indexOf(f.properties['year']) !== -1;
   });
+  map.fitBounds(featureLayer.getBounds());
   return false;
 }
 filters.onchange = change;

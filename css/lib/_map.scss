@@ -5,7 +5,10 @@
 
   .leaflet-popup-content,
   .leaflet-popup-content-wrapper { padding: 0; }
-  h2 { padding: .5em; }
+  h2 {
+    padding: .5em;
+    margin: 0 !important; //ugh, get this out of here
+  }
   img {
     border-radius: 3px 3px 0 0;
     margin: 0;
@@ -13,13 +16,25 @@
   }
 }
 .map-select {
-  background: #fff;
   position: absolute;
-  top: 3em;
+  bottom: 4em;
   right: 1em;
   z-index: 100;
-  padding: 1em;
+  @extend small;
+  //padding: .5em 1em;
+  .filter { display: none;}
+  .filter-label {
+    padding: .25em 1em;
+    background: rgba(white,0.5);
+    display: block;
+    cursor: pointer;
+    &:hover {
+      background: $accent;
+    }
+  }
+  .filter:checked + .filter-label { background: white;}
 }
+
 
 .map-attribution {
   position: absolute;
