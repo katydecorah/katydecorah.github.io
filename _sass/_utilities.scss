@@ -1,21 +1,25 @@
-.clearfix {
-  zoom:1;
-  &:before, &:after {
-      content: "\0020";
-      display: block;
-      height: 0;
-      overflow: hidden;
-    }
-    &:after {
-      clear: both;
-    }
+%clearfix {
+  zoom: 1;
+
+  &:before,
+  &:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+
+  &:after {
+    clear: both;
+  }
 }
 
 img {
-  max-width:100%;
+  max-width: 100%;
 }
+
 .hide {
-  display:none;
+  display: none;
 }
 
 .hide-small {
@@ -25,11 +29,14 @@ img {
 }
 
 %flex {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: left;
 }
 
-.text-right {text-align:right;}
-.text-left {text-align:left;}
-.text-center {text-align:center;}
+
+.text-right {text-align: right;}
+
+%text-left {text-align: left;}
+
+.text-center {text-align: center;}

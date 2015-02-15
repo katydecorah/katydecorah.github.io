@@ -1,100 +1,177 @@
-code, pre {
-	background: white;
-	border-radius: 0.2em;
-	@extend .code-type;
-	// prism.js
-	white-space: pre;
-	word-spacing: normal;
-	word-break: break-word;
-	tab-size: 4;
-	hyphens: none;
+code,
+pre {
+
+  @extend %code-type;
+
+  background: #fff;
+  border-radius: .2em;
+  hyphens: none;
+  tab-size: 4;
+  word-break: break-word;
+  word-spacing: normal;
+  white-space: pre;
+}
+
+pre {
+  font-size: $font-small;
+  margin: 1em 0;
+  padding: 2em;
+
+  code {
+    background: none;
+    padding: 0;
+  }
 
 }
-pre {
-	margin: 1em 0;
-	padding: 2em;
-	@extend .small;
-	code {
-		padding: 0;
-		background: none;
-	}
-}
+
 code {
-	padding: 0 0.25em;
+  padding: 0 .25em;
 }
 
 
 // Adapted from https://gist.github.com/edwardhotchkiss/2005058
 .highlight {
-	.c {color:$highlightComment;}
-	.err {color:$highlightError;}
-	.g {color:$highlightGeneric;}
-	.k {color:$highlightKeyword;}
-	.l {color:$highlightLiteral;}
-	.n {color:$highlightName;}
-	.o {color:$highlightOperator;}
-	.x {color:$highlightOther;}
-	.p {color:$highlightPunctuation;}
-	.cm {color:$highlightCommentMultiline;}
-	.cp {color:$highlightCommentPreproc;}
-	.c1 {color:$highlightCommentSingle;}
-	.cs {color:$highlightCommentSpecial;}
-	.gd {color:$highlightGenericDeleted;}
-	.ge {color:$highlightGenericEmph;}
-	.ge {color:$highlightGenericEmph; font-style: italic}
-	.gr {color:$highlightGenericError;}
-	.gh {color:$highlightGenericHeading;}
-	.gi {color:$highlightGenericInserted;}
-	.go {color:$highlightGenericOutput;}
-	.gp {color:$highlightGenericPrompt;}
-	.gs {color:$highlightGenericStrong; font-weight: bold}
-	.gu {color:$highlightGenericSubheading;}
-	.gt {color:$highlightGenericTraceback;}
-	.kc {color:$highlightKeywordConstant;}
-	.kd {color:$highlightKeywordDeclaration;}
-	.kn {color:$highlightKeywordNamespace;}
-	.kp {color:$highlightKeywordPseudo;}
-	.kr {color:$highlightKeywordReserved;}
-	.kt {color:$highlightKeywordType;}
-	.ld {color:$highlightLiteralDate;}
-	.m {color:$highlightLiteralNumber;}
-	.s {color:$highlightLiteralString;}
-	.na {color:$highlightNameAttribute;}
-	.nb {color:$highlightNameBuiltin;}
-	.nc {color:$highlightNameClass;}
-	.no {color:$highlightNameConstant;}
-	.nd {color:$highlightNameDecorator;}
-	.ni {color:$highlightNameEntity;}
-	.ne {color:$highlightNameException;}
-	.nf {color:$highlightNameFunction;}
-	.nl {color:$highlightNameLabel;}
-	.nl {color:$highlightNameLabel;}
-	.nn {color:$highlightNameNamespace;}
-	.nx {color:$highlightNameOther;}
-	.py {color:$highlightNameProperty;}
-	.nt {color:$highlightNameTag;}
-	.nv {color:$highlightNameVariable;}
-	.ow {color:$highlightOperatorWord;}
-	.w {color:$highlightTextWhitespace;}
-	.mf {color:$highlightLiteralNumberFloat;}
-	.mh {color:$highlightLiteralNumberHex;}
-	.mi {color:$highlightLiteralNumberInteger;}
-	.mo {color:$highlightLiteralNumberOct;}
-	.sb {color:$highlightLiteralStringBacktick;}
-	.sc {color:$highlightLiteralStringChar;}
-	.sd {color:$highlightLiteralStringDoc;}
-	.s2 {color:$highlightLiteralStringDouble;}
-	.se {color:$highlightLiteralStringEscape;}
-	.sh {color:$highlightLiteralStringHeredoc;}
-	.si {color:$highlightLiteralStringInterpol;}
-	.sx {color:$highlightLiteralStringOther;}
-	.sr {color:$highlightLiteralStringRegex;}
-	.s1 {color:$highlightLiteralStringSingle;}
-	.ss {color:$highlightLiteralStringSymbol;}
-	.bp {color:$highlightNameBuiltinPseudo;}
-	.vc {color:$highlightNameVariableClass;}
-	.vg {color:$highlightNameVariableGlobal;}
-	.vi {color:$highlightNameVariableInstance;}
-	.il {color:$highlightLiteralNumberIntegerLong;}
+
+  .c {color: $highlightcomment;}
+
+  .err {color: $highlighterror;}
+
+  .g {color: $highlightgeneric;}
+
+  .k {color: $highlightkeyword;}
+
+  .l {color: $highlightliteral;}
+
+  .n {color: $highlightname;}
+
+  .o {color: $highlightoperator;}
+
+  .x {color: $highlightother;}
+
+  .p {color: $highlightpunctuation;}
+
+  .cm {color: $highlightcommentmultiline;}
+
+  .cp {color: $highlightcommentpreproc;}
+
+  .c1 {color: $highlightcommentsingle;}
+
+  .cs {color: $highlightcommentspecial;}
+
+  .gd {color: $highlightgenericdeleted;}
+
+  .ge {
+    color: $highlightgenericemph;
+    font-style: italic;
+  }
+
+  .gr {color: $highlightgenericerror;}
+
+  .gh {color: $highlightgenericheading;}
+
+  .gi {color: $highlightgenericinserted;}
+
+  .go {color: $highlightgenericoutput;}
+
+  .gp {color: $highlightgenericprompt;}
+
+  .gs {
+    color: $highlightgenericstrong;
+    font-weight: bold;
+  }
+
+  .gu {color: $highlightgenericsubheading;}
+
+  .gt {color: $highlightgenerictraceback;}
+
+  .kc {color: $highlightkeywordconstant;}
+
+  .kd {color: $highlightkeyworddeclaration;}
+
+  .kn {color: $highlightkeywordnamespace;}
+
+  .kp {color: $highlightkeywordpseudo;}
+
+  .kr {color: $highlightkeywordreserved;}
+
+  .kt {color: $highlightkeywordtype;}
+
+  .ld {color: $highlightliteraldate;}
+
+  .m {color: $highlightliteralnumber;}
+
+  .s {color: $highlightliteralstring;}
+
+  .na {color: $highlightnameattribute;}
+
+  .nb {color: $highlightnamebuiltin;}
+
+  .nc {color: $highlightnameclass;}
+
+  .no {color: $highlightnameconstant;}
+
+  .nd {color: $highlightnamedecorator;}
+
+  .ni {color: $highlightnameentity;}
+
+  .ne {color: $highlightnameexception;}
+
+  .nf {color: $highlightnamefunction;}
+
+  .nl {color: $highlightnamelabel;}
+
+  .nn {color: $highlightnamenamespace;}
+
+  .nx {color: $highlightnameother;}
+
+  .py {color: $highlightnameproperty;}
+
+  .nt {color: $highlightnametag;}
+
+  .nv {color: $highlightnamevariable;}
+
+  .ow {color: $highlightoperatorword;}
+
+  .w {color: $highlighttextwhitespace;}
+
+  .mf {color: $highlightliteralnumberfloat;}
+
+  .mh {color: $highlightliteralnumberhex;}
+
+  .mi {color: $highlightliteralnumberinteger;}
+
+  .mo {color: $highlightliteralnumberoct;}
+
+  .sb {color: $highlightliteralstringbacktick;}
+
+  .sc {color: $highlightliteralstringchar;}
+
+  .sd {color: $highlightliteralstringdoc;}
+
+  .s2 {color: $highlightliteralstringdouble;}
+
+  .se {color: $highlightliteralstringescape;}
+
+  .sh {color: $highlightliteralstringheredoc;}
+
+  .si {color: $highlightliteralstringinterpol;}
+
+  .sx {color: $highlightliteralstringother;}
+
+  .sr {color: $highlightliteralstringregex;}
+
+  .s1 {color: $highlightliteralstringsingle;}
+
+  .ss {color: $highlightliteralstringsymbol;}
+
+  .bp {color: $highlightnamebuiltinpseudo;}
+
+  .vc {color: $highlightnamevariableclass;}
+
+  .vg {color: $highlightnamevariableglobal;}
+
+  .vi {color: $highlightnamevariableinstance;}
+
+  .il {color: $highlightliteralnumberintegerlong;}
 
 }

@@ -1,40 +1,51 @@
 .container {
-  max-width: $container-width;
-  min-height:1em;
+
+  @extend %clearfix;
+
   margin-left: auto;
   margin-right: auto;
-
-
-  position: relative;
-  @extend .clearfix;
+  min-height: 1em;
+  max-width: $container-width;
   padding-left: 1em;
   padding-right: 1em;
+  position: relative;
+
 }
-.half-left,.half-right {
+
+.half-left,
+.half-right {
+
   @include breakpoint(gt-mobile) {
-    width: 48%;
     float: left;
+    width: 48%;
   }
+
 }
+
 .half-left {
-  @include breakpoint(gt-mobile) {margin-right:4%;}
+  @include breakpoint(gt-mobile) { margin-right: 4%;}
 }
 
 .columns {
-  @extend .small;
   columns: 2 290px;
   column-gap: 3em;
+  font-size: $font-small;
+
+
   .fa-ul { margin-top: 0;}
-  .fa-li { top: 0.3em; }
+
+  .fa-li { top: .3em; }
+
   li {
-    display: block;
-    padding: 0.2em 0;
     -webkit-column-break-inside: avoid;
+    display: block;
+    padding: .2em 0;
   }
+
 }
 
-img.emoji {
+.emoji {
+  display: inline-block;
   max-width: none;
   margin: 0;
-  display: inline-block;
 }

@@ -1,114 +1,149 @@
 .brag:target {
-		padding-top: $body-padding-top / 2;
-		transition: .5s;
-	}
+  padding-top: $body-padding-top / 2;
+  transition: .5s;
+}
 
 .category {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	&:nth-child(odd) {
-		background: darken($body-bg,3%);
-		border-top: 1px dashed $body-bg;
-		border-bottom: 1px dashed $body-bg;
-	}
-	&:target {
-		padding-top: $body-padding-top / 2;
-		transition: .5s;
-	}
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+
+  &:nth-child(odd) {
+    background: darken($body-bg, 3%);
+    border-bottom: 1px dashed $body-bg;
+    border-top: 1px dashed $body-bg;
+  }
+
+  &:target {
+    padding-top: $body-padding-top / 2;
+    transition: .5s;
+  }
+
 }
+
 .category-recents {
-	margin-top: 3em;
-	margin-bottom: 2em;
-	@extend .clearfix;
+
+  @extend %clearfix;
+
+  margin-bottom: 2em;
+  margin-top: 3em;
+
 }
+
 .category-recent {
-	@include breakpoint(mobile) {
-		display: flex;
-		align-items: center;
-		justify-content: left;
-	}
-	@include breakpoint(gt-mobile) {
-		width: 22%;
-		float: left;
-		margin-right: 4%;
-		display: block;
-		&:last-child {
-			margin-right: 0;
-		}
-	}
-	@include breakpoint(mobile) {
-		margin-bottom: 1em;
-	}
 
-	.category-title {
-		@extend .small;
-		@extend .fancy-type;
-		@include breakpoint(gt-mobile) {
-			display: block;
-			margin-top: 0.75em;
-			padding: 0 0.25em;
+  @include breakpoint(mobile) {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+  }
 
-		}
-		@include breakpoint(mobile) {
-			margin-left: 1em;
-		}
-	}
+  @include breakpoint(gt-mobile) {
+    display: block;
+    float: left;
+    margin-right: 4%;
+    width: 22%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+  }
+
+  @include breakpoint(mobile) {
+    margin-bottom: 1em;
+  }
+
+  .category-title {
+
+    @extend %fancy-type;
+
+    font-size: $font-small;
+
+    @include breakpoint(gt-mobile) {
+      display: block;
+      margin-top: .75em;
+      padding: 0 .25em;
+    }
+
+    @include breakpoint(mobile) {
+      margin-left: 1em;
+    }
+
+  }
+
 }
 
 .category-thumb {
-	@include breakpoint(gt-mobile) {
-		width: 100%;
-		padding-bottom: 100%;
-		display: block;
-		border-radius: $border-radius-img;
-	}
-	@include breakpoint(mobile) {
-		width: 20%;
-		padding-bottom: 20%;
-		display: inline-block;
-	}
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include breakpoint(gt-mobile) {
+    border-radius: $border-radius-img;
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+  }
+
+  @include breakpoint(mobile) {
+    display: inline-block;
+    padding-bottom: 20%;
+    width: 20%;
+  }
+
 }
+
 .category-older {
-	clear: both;
+  clear: both;
 }
 
 .badge {
-	font-size: 0.5em;
-	background: white;
-	display: inline-block;
-	border-radius: $border-radius-img;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	vertical-align: middle;
-	width: 2em;
-	height: 2em;
-	text-align: center;
-	@extend .code-type;
+
+  @extend %code-type;
+
+  background: #fff;
+  border-radius: $border-radius-img;
+  display: inline-block;
+  font-size: .5em;
+  height: 2em;
+  line-height: 1.5;
+  padding: .25em .5em;
+  text-align: center;
+  vertical-align: middle;
+  width: 2em;
 }
 
 
 .tag-container {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	&:nth-child(odd) {
-		background: darken($body-bg,3%);
-		border-top: 1px dashed $body-bg;
-		border-bottom: 1px dashed $body-bg;
-	}
-	&:target {
-		padding-top: $body-padding-top/2;
-		transition: .5s;
-	}
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+
+  &:nth-child(odd) {
+    background: darken($body-bg, 3%);
+    border-bottom: 1px dashed $body-bg;
+    border-top: 1px dashed $body-bg;
+  }
+
+  &:target {
+    padding-top: $body-padding-top/2;
+    transition: .5s;
+  }
+
 }
 
+// scss-lint:disable PlaceholderInExtend
 .tags-columns {
-	columns: 4 150px;
-	margin-bottom: 2em;
-	@extend .hide-small;
-	@extend .xs;
-	ul { margin-top: 0; margin-bottom: 0;}
-	li { -webkit-column-break-inside: avoid;}
+
+  @extend .hide-small;
+  columns: 4 150px;
+  font-size: $font-xs;
+  margin-bottom: 2em;
+
+  ul {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  li { -webkit-column-break-inside: avoid;}
+
 }

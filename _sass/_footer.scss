@@ -1,29 +1,37 @@
 .footer {
-  margin-top: 2em;
   background: $header-bg;
+  margin-top: 2em;
   position: relative;
+
   &:before {
-    content: "";
-    display: block;
-    width: 100%;
     border-top: 1px dashed $accent;
-    top: -1px;
+    content: '';
+    display: block;
     position: absolute;
+    top: -1px;
+    width: 100%;
   }
+
   .container {
-    padding-top: 2em;
     padding-bottom: 5em;
+    padding-top: 2em;
   }
+
   p {
-  	@extend .xs;
+    font-size: $font-xs;
   }
+
   .nav-link {
     padding-right: 1em;
+
+    &.nav-link:hover { color: $link-hover; }
+
   }
+
   .nav {
-    margin-bottom: 1.5em;
-    margin-top: 0.5em;
     line-height: 1;
+    margin-bottom: 1.5em;
+    margin-top: .5em;
   }
-  .nav-link.nav-link:hover { color: $link-hover; }
+
 }

@@ -1,51 +1,65 @@
 
 
-.body-type {
+%body-type {
   font-family: $body-font-family;
   font-weight: $body-font-weight;
 }
 
-.fancy-type {
+%fancy-type {
   font-family: $fancy-font-family;
   font-style: italic;
   font-weight: $fancy-font-weight;
 }
-.headings-type { font-weight: $body-font-bold; }
-.code-type {font-family: $code-font-family;}
+
+%headings-type { font-weight: $body-font-bold; }
+
+%code-type {font-family: $code-font-family;}
 
 strong { font-weight: $body-font-bold; }
-em { font-style:italic; }
+
+em { font-style: italic; }
 
 .lead {
+
+  @extend %fancy-type;
+
   font-size: 1.3em;
   text-align: justify;
-  @extend .fancy-type;
 }
-
 
 p {
-  margin-top: 0;
   margin-bottom: 1.3em;
+  margin-top: 0;
 }
 
-h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.2;
+  margin: 1.414em 0 .5em;
 }
 
 h1 {
-  margin-top: 0;
+
+  @extend %fancy-type;
+
   font-size: $h1-size;
-  @extend .fancy-type;
-  @include breakpoint(mobile){ font-size: 2em;}
+  margin-top: 0;
+
+  @include breakpoint(mobile) { font-size: 2em;}
+
 }
 
 h2 {
+
+  @extend %fancy-type;
+
   font-size: $h2-size;
-  @extend .fancy-type;
 }
 
-h3, h4 {  @extend .headings-type; }
+h3,
+h4 {  @extend %headings-type; }
 
 h3 {font-size: $h3-size;}
 
@@ -54,37 +68,54 @@ h4 {font-size: $h4-size;}
 .xl {
   font-size: 1.5em;
 }
+
 .large {
   font-size: 1.25em;
 }
-small, .small {
-  font-size: 0.889em;
+
+small,
+.small {
+
+  font-size: $font-small;
+
   @include breakpoint(mobile) {
     font-size: 1em;
   }
+
 }
+
 .xs {
-  font-size: 0.7em;
+
+  font-size: $font-xs;
+
   @include breakpoint(mobile) {
     font-size: 1em;
   }
+
 }
+
 .xxs {
-  font-size: 0.6em;
+
+  font-size: .6em;
+
   @include breakpoint(mobile) {
     font-size: 1em;
   }
+
 }
 
 
-ul,ol { margin-bottom: 1em; }
+ul,
+ol {
+  margin-bottom: 1em;
+}
 
-ol { list-style:decimal; }
+ol { list-style: decimal; }
 
 .unstyled {
-  margin:0;
-  padding:0;
-  list-style:none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
@@ -95,39 +126,47 @@ hr {
 
 blockquote {
   margin: 2em auto;
- position: relative;
- p {
-   @extend .fancy-type;
-   font-size: 1.25em;
- }
- cite {
-   @extend .code-type;
-   font-style: normal;
-   font-size: 0.5em;
-   display: block;
- }
- &:before {
-  content: "\201C";
-  display: block;
-  position: absolute;
-  color: darken($accent,10%);
-  font-size: 8em;
-  width: 1em;
-  height: 1em;
-  line-height: 1;
-  z-index: -1;
-  top: -0.2em;
-  left: -0.1em;
-}
+  position: relative;
+
+  p {
+
+    @extend %fancy-type;
+
+    font-size: 1.25em;
+  }
+
+  cite {
+
+    @extend %code-type;
+
+    display: block;
+    font-size: .5em;
+    font-style: normal;
+
+  }
+
+  &:before {
+    color: darken($accent, 10%);
+    content: '\201C';
+    display: block;
+    font-size: 8em;
+    height: 1em;
+    left: -.1em;
+    line-height: 1;
+    position: absolute;
+    top: -.2em;
+    width: 1em;
+    z-index: -1;
+  }
 }
 
 .big {
   font-size: 7em;
   line-height: 1;
-  margin-bottom: 0.25em;
+  margin-bottom: .25em;
 }
 
 ::selection {
   background: $fancy-accent;
-  color: white;
+  color: #fff;
 }

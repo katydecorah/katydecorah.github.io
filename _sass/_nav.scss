@@ -1,31 +1,43 @@
 .nav {
-  position: relative;
+  list-style: none;
   margin: 0;
   padding: 0;
+  position: relative;
   transition: .25s;
-  list-style: none;
 
   li {
     display: inline-block;
     margin: 0;
   }
+
 }
 
 .navbar {
 
-  .header & { 
-    @include breakpoint(mobile) { display: none;  } 
-    @include breakpoint(gt-mobile) { float: right; }
-  }
-  .footer & {
-   @include breakpoint(gt-mobile) { display: none; }
-   .nav-link {
-    display: block;
-    padding: 0.5em 0;
-  }
-}
+  .header & {
 
-li { @include breakpoint(mobile) { display: block;} }
+    @include breakpoint(mobile) { display: none;  }
+
+    @include breakpoint(gt-mobile) { float: right; }
+
+  }
+
+  .footer & {
+
+    @include breakpoint(gt-mobile) { display: none; }
+
+    .nav-link {
+      display: block;
+      padding: .5em 0;
+    }
+
+  }
+
+  li {
+
+    @include breakpoint(mobile) { display: block;}
+
+  }
 
 }
 
@@ -35,28 +47,28 @@ li { @include breakpoint(mobile) { display: block;} }
 .header {
 
   .nav-link {
-    display: block;
+    border-radius: .5em;
     color: $link-color;
-
+    font-size: $font-xs;
+    display: block;
     line-height: 1;
-    @extend .xs;
-    position: relative;
-    margin-top: 0.8em;
-    margin-right: 0.1em;
-    border-radius:  0.5em;
+    margin-right: .1em;
+    margin-top: .8em;
     min-height: 1em;
-    padding:  0.5em 1em;
+    padding: .5em 1em;
+    position: relative;
 
-    &:hover { 
+    &:hover {
       background: $body-bg;
-
     }
 
   }
 
-  .active .nav-link, .nav-link:hover {
-    text-decoration: none;
+  .active .nav-link,
+  .nav-link:hover {
     background: $body-bg;
+    text-decoration: none;
   }
+
 }
 

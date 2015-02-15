@@ -1,72 +1,87 @@
 .page-review {
-  input { display: none; }
-  .review-hover {
-    cursor: pointer;
-    //background: $accent;
-    border: .1em solid transparent;
-    background: rgba($link-color,.05);
-    display: inline-block;
-    padding: 0 0.2em;
-    margin-bottom: .2em;
-    //border-radius: 0.3em;
-  }
-  input:checked + .review-hover, .review-hover:hover {
-    border: .1em solid;
-    background: none;
-    //color: white;
-  }
-}
-.review-thumbs {
-  margin-top: 1.3em;
-  @extend .clearfix;
-  width: 100%;
-  height: 100%;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  input { display: none; }
+
+  .review-hover {
+    background: rgba($link-color, .05);
+    border: .1em solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: .2em;
+    padding: 0 .2em;
+  }
+
+  input:checked + .review-hover,
+  .review-hover:hover {
+    background: none;
+    border: .1em solid;
+  }
+
 }
+
+.review-thumbs {
+
+  @extend %clearfix;
+
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  margin-top: 1.3em;
+  width: 100%;
+}
+
 .review-thumb {
-  width: 10%;
-  padding-bottom: 10%;
+
   background-size: cover;
   display: block;
-  //margin: 0;
-  //float: left;
+  padding-bottom: 10%;
   position: relative;
-  &:before, &:after {
-    content: "";
+  width: 10%;
+
+  &:before,
+  &:after {
+    content: '';
     position: absolute;
   }
+
   &:before {
     background: transparent;
     transition: background .2s;
   }
-  &:hover {
-    &:before {
-      background: rgba(black,0.65);
-      width: 100%;
-      height: 100%;
-      top: 0; left: 0; bottom: 0; right: 0;
-      transition: background .2s;
-    }
-    &:after {
-      content: attr(title);
-      color: white;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      word-wrap: break-word;
-      padding: 0 0.2em;
-      font-size: 0.6em;
-      @extend .fancy-type;
-      text-transform: uppercase;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-sizing: border-box;
-    }
-  }
 
+  &:hover {
+
+    &:before {
+      background: rgba(#000, .65);
+      bottom: 0;
+      height: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+      transition: background .2s;
+      width: 100%;
+    }
+
+    &:after {
+
+      @extend %fancy-type;
+
+      align-items: center;
+      box-sizing: border-box;
+      color: #fff;
+      content: attr(title);
+      display: flex;
+      font-size: .6em;
+      height: 100%;
+      justify-content: center;
+      padding: 0 .2em;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      word-wrap: break-word;
+    }
+
+  }
 }
