@@ -8,7 +8,7 @@
       "properties": {
         "title": "{{ place.title }}",
         "image": "{{ place.image }}",
-        "url": "{{site.url}}{{place.url}}",
+        "url": "{{place.url}}",
         "year": "{{ year }}",
         "marker-size": "medium",
         "marker-symbol":{% if place.tags contains 'Mapbox' %}"rocket"{% elsif place.tags contains 'yay' %}"star"{% elsif place.tags contains 'hiking' or place.tags contains 'fresh air' %}"park"{% elsif place.tags contains 'friends' or place.tags contains 'family' %} "heart"{% elsif place.tags contains 'music' %} "music"{% elsif place.tags contains 'road trip' %} "car"{% elsif place.tags contains 'college' %} "library"{% else %}""{% endif %},

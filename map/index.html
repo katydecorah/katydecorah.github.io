@@ -6,7 +6,7 @@ layout: no-container
 <script src="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js"></script>
 <link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />
 
-{% assign years = "2015|2014|2013|2010|2009|2008" | split: "|" %}
+{% assign years = "2015|2014|2013|2010|2009|2008|2005" | split: "|" %}
 <div id="filters" class="map-select">
 {% for year in years %}<div><input type="checkbox" checked="checked" class="filter"
 name="filter" id="{{year}}" value="{{year}}"/><label for="{{year}}" class="filter-label">{{year}}</label></div>
