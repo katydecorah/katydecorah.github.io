@@ -3,8 +3,8 @@
   @extend %clearfix;
 
   background-color: rgba($header-bg, .85);
-  position: relative;
   margin-bottom: 2em;
+  position: relative;
 
 
   &:after {
