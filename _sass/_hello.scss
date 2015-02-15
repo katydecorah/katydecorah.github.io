@@ -17,10 +17,10 @@
 
   @include breakpoint(gt-mobile) {
     background-image: url('https://farm3.staticflickr.com/2903/14534773530_7a1276b995_o.jpg');
-    height: 400px;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 400px;
     margin-bottom: 1em;
     margin-top: -2em;
   }
