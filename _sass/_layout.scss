@@ -26,14 +26,14 @@
   @include breakpoint(gt-mobile) { margin-right: 4%;}
 }
 
+// scss-lint:disable VendorPrefixes
 .columns {
-  -webkit-column-gap: 3em;
   -moz-column-gap: 3em;
+  -webkit-column-gap: 3em;
   column-gap: 3em;
-  -webkit-columns: 2 290px;
   -moz-columns: 2 290px;
+  -webkit-columns: 2 290px;
   columns: 2 290px;
-
   font-size: $font-small;
 
   .fa-ul { margin-top: 0;}

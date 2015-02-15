@@ -47,9 +47,10 @@
     margin-bottom: .5em;
   }
 
+  // scss-lint:disable VendorPrefixes
   .skills {
-    -webkit-columns: 2 200px;
     -moz-columns: 2 200px;
+    -webkit-columns: 2 200px;
     columns: 2 200px;
     font-size: $font-small;
     list-style: none;

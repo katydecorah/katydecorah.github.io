@@ -131,16 +131,16 @@
 
 }
 
-// scss-lint:disable PlaceholderInExtend
+// scss-lint:disable PlaceholderInExtend, VendorPrefixes
 .tags-columns {
 
   @extend .hide-small;
-  -webkit-columns: 4 150px;
   -moz-columns: 4 150px;
+  -webkit-columns: 4 150px;
   columns: 4 150px;
   font-size: $font-xs;
   margin-bottom: 2em;
-  
+
   ul {
     margin-bottom: 0;
     margin-top: 0;
