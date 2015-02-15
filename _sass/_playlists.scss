@@ -7,8 +7,10 @@
   font-style: italic;
 }
 
-.playlist {
-  columns: 2 300px;
+.playlist {  
+  -webkit-columns: 2 290px;
+  -moz-columns: 2 290px;
+  columns: 2 290px;
 }
 
 .playlist-track {
