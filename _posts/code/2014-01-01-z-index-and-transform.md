@@ -79,4 +79,4 @@ After adding these properties, my ribbon tails popped back into place behind the
 
 Below is a playground I created to test `translateZ`.
 
-<p data-height="375" data-theme-id="97" data-slug-hash="lKkAF" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/lKkAF'>z-index &amp; transform</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
+<p data-height="375" data-theme-id="97" data-slug-hash="lKkAF" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen z-index &amp; transform by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
