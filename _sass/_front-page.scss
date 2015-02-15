@@ -1,69 +1,88 @@
-
-
 .all-posts {
+
   .post-meta {
+
     @include breakpoint(gt-mobile) {
       float: left;
       width: 70%;
     }
+
     .no-flexbox & { padding-top: 2em;}
+
   }
+
   .post-date {
     color: $text-color-light;
   }
+
 }
 
 .post-link {
-  @extend .clearfix;
+
+  @extend %clearfix;
+
+  @extend %flex;
+
   color: $text-color;
   display: block;
-  @extend %flex;
   padding-bottom: 1em;
   padding-top: 1em;
+
   &:hover {
     text-decoration: none;
-    .post-img { 
-      background-color: transparent; 
+
+    .post-img {
+      background-color: transparent;
       transition: $link-transition;
     }
+
   }
+
 }
 
 
 
-.post-img-container  {
+.post-img-container {
   display: none;
+
   @include breakpoint(gt-mobile) {
-    border-radius: $border-radius-img;
-    margin-right: 2em;
-    display: flex;
     align-items: center;
-    justify-content: left;
+    border-radius: $border-radius-img;
+    display: flex;
     float: left;
-    width: 7em;
     height: 7em;
+    justify-content: left;
+    margin-right: 2em;
     overflow: hidden;
+    width: 7em;
+
     .post-img {
-      margin: 0;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-position: center;
-      background-color: rgba($body-bg,0.3);
       background-blend-mode: overlay;
+      background-color: rgba($body-bg, .3);
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+      margin: 0;
       transition: $link-transition;
+      width: 100%;
     }
+
   }
+
 }
 
 
 .post-title {
+
+  @extend %fancy-type;
+
   font-size: 2.25em;
   line-height: 1.2;
-  @extend .fancy-type;
+
   @include breakpoint(mobile) {
     font-size: 1.5em;
   }
+
 }
 
 .paginator {
@@ -71,6 +90,6 @@
 }
 
 .post-elsewhere-label .fa {
-color: $link-color;
-font-size: 0.8em;
+  color: $link-color;
+  font-size: .8em;
 }

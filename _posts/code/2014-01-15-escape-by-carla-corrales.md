@@ -3,7 +3,7 @@ layout: post
 title: Escape by Carla Corrales
 category: code
 pen: mJeba
-tags: 
+tags:
   - Dribbble
   - CodePen
   - Haml
@@ -13,7 +13,6 @@ tags:
   - transform
   - animation
 image: http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg
-updated: 2014/01/18
 published: true
 dribbble: http://drbl.in/jMcZ
 pen: mJeba
@@ -47,7 +46,7 @@ Below is a demonstration of the linear and radial gradients coming together.
 </figure>
 
 ## :after
-I used the `:after` element for the dial. First, I created a rectangle using `border`. I used border because the dial is four-toned and I can set each border side to a different color. Next, I skewed and rotated the element. I skewed it until I squashed the height and elongated the width. 
+I used the `:after` element for the dial. First, I created a rectangle using `border`. I used border because the dial is four-toned and I can set each border side to a different color. Next, I skewed and rotated the element. I skewed it until I squashed the height and elongated the width.
 
 The results were&hellip; dial-shaped!
 
@@ -74,14 +73,14 @@ If I'm watching a movie and press play then my action won't be productive.
 
 <h4><i class="fa fa-pause">&nbsp;</i> <code>animation-play-state: paused;</code></h4>
 
-Next, I tried the alternate value, `paused`. It kind of worked. The animation didn't play when I was hovering, but it played once I hovered off of the target. 
+Next, I tried the alternate value, `paused`. It kind of worked. The animation didn't play when I was hovering, but it played once I hovered off of the target.
 
 If I'm watching a movie and I press pause, the movie will pause. I'm guessing that the animation restarted because it triggered the original `animation` on `.marker:after` to run again. (I need to look into this.)
 
 <h4><i class="fa fa-pause">&nbsp;</i> <i class="fa fa-play">&nbsp;</i> <code>animation-play-state: paused, running;</code></h4>
 
-A little confused with my previous tries, I checked out [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state). I read that both values can be used, which led me to try `paused, running`. This value worked great! The dial spun on `:hover`. 
+A little confused with my previous tries, I checked out [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state). I read that both values can be used, which led me to try `paused, running`. This value worked great! The dial spun on `:hover`.
 
-I was watching a movie, I paused it and then played it again. 
+I was watching a movie, I paused it and then played it again.
 
 This example might be a little stilted; I definitely plan on exploring `animation-play-state` more!
