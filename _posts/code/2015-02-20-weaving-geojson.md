@@ -33,9 +33,9 @@ Imaging trying to traverse a GeoJSON file with all that ugh? No, thank you.
 
 So, I hacked Jekyll to make a better workflow.
 
-I found a [GeoJSON file with all the countries](https://github.com/johan/world.geo.json). I regex'd it into yml format and saved it to my `_data` folder ([in *this* repo](https://github.com/katydecorah/shapes-maker)) as [`countries.yml`](https://github.com/katydecorah/shapes-maker/blob/gh-pages/_data/countries.yml). That will serve as a reference file; I don't need to touch it. Actually, Atom will barf if I try to open it, so it stays sealed tight.
+I found a [GeoJSON file with all the countries](https://github.com/johan/world.geo.json). I regex'd it into yml format and saved it to my `_data` folder ([in *this* repo](https://github.com/katydecorah/geojson-weaver)) as [`countries.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/countries.yml). That will serve as a reference file; I don't need to touch it. Actually, Atom will barf if I try to open it, so it stays sealed tight.
 
-Next, I created another file ([`leave.yml`](https://github.com/katydecorah/shapes-maker/blob/gh-pages/_data/leave.yml)). This is the data that I want to weave in with the country data. For each data peice, I made sure to use the same country name because later I'll evaluate the country name in the `countries.yml` with `leave.yml`.
+Next, I created another file ([`leave.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/leave.yml)). This is the data that I want to weave in with the country data. For each data peice, I made sure to use the same country name because later I'll evaluate the country name in the `countries.yml` with `leave.yml`.
 
 {% highlight yaml %}
 - country: United States of America
@@ -44,7 +44,7 @@ Next, I created another file ([`leave.yml`](https://github.com/katydecorah/shape
   leave: 12
 {% endhighlight %}
 
-I created a [Jekyll-ized JS file](https://github.com/katydecorah/shapes-maker/blob/gh-pages/country-data.js) to output the GeoJSON as a variable. Here's how I did it:
+I created a [Jekyll-ized JS file](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/country-data.js) to output the GeoJSON as a variable. Here's how I did it:
 
 1. First, I looped through the countries data.
 2. Inside that loop, I looped through my data file.
@@ -75,10 +75,10 @@ var countryData = {
 };
 {% endraw %}{% endhighlight %}
 
-And [here's what it looks like](http://katydecorah.com/shapes-maker/country-data.js) once Jekyll gobbles it up and spits it out. Now I can [load that GeoJSON on a map](http://katydecorah.com/shapes-maker/)!
+And [here's what it looks like](http://katydecorah.com/geojson-weaver/country-data.js) once Jekyll gobbles it up and spits it out. Now I can [load that GeoJSON on a map](http://katydecorah.com/geojson-weaver/)!
 
 The workflow ends up being painless. I can make update to my data file and once Jekyll runs, my map updates.
 
 I followed the same process with state data that I got from Mapbox, so I can do some state shape and data matchmaking.
 
-[Check out repo with all the files, data, and fun.](https://github.com/katydecorah/shapes-maker)
+[Check out repo with all the files, data, and fun.](https://github.com/katydecorah/geojson-weaver)
