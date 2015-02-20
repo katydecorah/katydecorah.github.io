@@ -5,7 +5,7 @@ image:
 tags:
  - Jekyll
  - Mapbox
- - maps
+ - GeoJSON
 image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
 ---
 
