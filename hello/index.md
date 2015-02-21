@@ -10,4 +10,4 @@ I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/
 
 I built [Static Map Maker](http://staticmapmaker.com/), [CSS Ruler](http://katydecorah.com/css-ruler/), and [Google Font Explorer](http://katydecorah.com/google-font-explorer/). (For funsies!)
 
-This site is built with Jekyll, Sass, Grunt, and hosted on [Github](https://github.com/katydecorah/katydecorah.github.com). I use [CodePen](http://codepen.io/) embeds, [Mapbox](https://www.mapbox.com/developers/api/static/) maps, [FontAwesome](http://fortawesome.github.io/Font-Awesome/icons/) icons,  [Typekit](https://typekit.com/) fonts and host my images on [Flickr](https://www.flickr.com/).
+This site is built with Jekyll and Sass, and hosted on [Github](https://github.com/katydecorah/katydecorah.github.com). I use [CodePen](http://codepen.io/) embeds, [Mapbox](https://www.mapbox.com/developers/api/static/) maps, [FontAwesome](http://fortawesome.github.io/Font-Awesome/icons/) icons,  [Typekit](https://typekit.com/) fonts and host my images on [Flickr](https://www.flickr.com/).
