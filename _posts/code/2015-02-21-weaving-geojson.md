@@ -1,5 +1,5 @@
 ---
-title: Weaving GeoJSON with Jekyll
+title: Weaving data into GeoJSON with Jekyll
 category: code
 image:
 tags:
@@ -9,11 +9,17 @@ tags:
 image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
 ---
 
-Say you have a dataset for a handful of countries or all of the countries. Or maybe a handful of states or all of the states. You want to assign your data to a polygon for each state or country so you can do fun colors or popups and just make a darn cool map.
+Say you have a dataset for a handful of countries or all the countries, or maybe a handful of states or all the states. You want to assign your data to each state or country as a polygon of that area, not a point, so you can do fun colors or popups and make a darn cool map.
 
-So you're like, "Ok, where do I start?" and then you think, "Do I do it by hand?"
+Something like this:
 
-But have you seen what a single GeoJSON polygon coordinates for a state looks like?
+<div class="photos">
+<iframe src="http://katydecorah.com/geojson-weaver/" width="100%" height='400px'></iframe>
+</div>
+
+So at this point your thought process might be you're like, "Ok, where do I start?" and then you think, "Ok, maybe I'll do it by hand!"
+
+But have you seen what the coordinates for a single GeoJSON polygon of a state looks like?
 
 {% highlight json %}
 [[[-87.359296,35.00118],[-85.606675,34.984749],[-85.431413,34.124869],[-85.184951,32.859696],[-85.069935,32.580372],[-84.960397,32.421541],[-85.004212,32.322956],[-84.889196,32.262709],[-85.058981,32.13674],[-85.053504,32.01077],[-85.141136,31.840985],[-85.042551,31.539753],[-85.113751,31.27686],[-85.004212,31.003013],[-85.497137,30.997536],[-87.600282,30.997536],[-87.633143,30.86609],[-87.408589,30.674397],[-87.446927,30.510088],[-87.37025,30.427934],[-87.518128,30.280057],[-87.655051,30.247195],[-87.90699,30.411504],[-87.934375,30.657966],[-88.011052,30.685351],[-88.10416,30.499135],[-88.137022,30.318396],[-88.394438,30.367688],[-88.471115,31.895754],[-88.241084,33.796253],[-88.098683,34.891641],[-88.202745,34.995703],[-87.359296,35.00118]]]
@@ -29,11 +35,13 @@ And what about a country?
 
 Double ugh.
 
-Imaging trying to traverse a GeoJSON file with all that ugh? No, thank you.
+Imaging trying to traverse a GeoJSON file *filled* with all that ugh? No, thank you.
 
-So, I hacked Jekyll to make a better workflow.
+## Jekyll to the rescue
 
-I found a [GeoJSON file with all the countries](https://github.com/johan/world.geo.json). I regex'd it into yml format and saved it to my `_data` folder ([in *this* repo](https://github.com/katydecorah/geojson-weaver)) as [`countries.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/countries.yml). That will serve as a reference file; I don't need to touch it. Actually, Atom will barf if I try to open it, so it stays sealed tight.
+I found a better workflow with Jekyll.
+
+After a quick search I found a [GeoJSON file with all the countries](https://github.com/johan/world.geo.json). I regex'd it into yml format and saved it to my `_data` folder ([in *this* repo](https://github.com/katydecorah/geojson-weaver)) as [`countries.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/countries.yml). That will serve as a reference file; I don't need to touch it. Actually, Atom will barf if I try to open it, so it stays sealed tight.
 
 Next, I created another file ([`leave.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/leave.yml)). This is the data that I want to weave in with the country data. For each data peice, I made sure to use the same country name because later I'll evaluate the country name in the `countries.yml` with `leave.yml`.
 
@@ -77,8 +85,6 @@ var countryData = {
 
 And [here's what it looks like](http://katydecorah.com/geojson-weaver/country-data.js) once Jekyll gobbles it up and spits it out. Now I can [load that GeoJSON on a map](http://katydecorah.com/geojson-weaver/)!
 
-The workflow ends up being painless. I can make update to my data file and once Jekyll runs, my map updates.
+The workflow ends up being painless. I can make updates to my data file and once Jekyll runs, my map updates. Also, I followed the same process with state data that I got from Mapbox, so I can do some state shape and data matchmaking.
 
-I followed the same process with state data that I got from Mapbox, so I can do some state shape and data matchmaking.
-
-[Check out repo with all the files, data, and fun.](https://github.com/katydecorah/geojson-weaver)
+[Check out repo with all the files, data, and fun.](https://github.com/katydecorah/geojson-weaver) And, hey, guess what! I wrote about building a GeoJSON file with Jekyll before &mdash; [Jekyll and GeoJSON](/code/2014/11/03/jekyll-geojson/).
