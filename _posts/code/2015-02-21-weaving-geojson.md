@@ -6,7 +6,7 @@ tags:
 - GeoJSON
 - Mapbox
 - Jekyll
-image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
+image: https://farm9.staticflickr.com/8594/15981508984_a398d1fa77_b.jpg
 ---
 
 Say you have a dataset for a handful of countries or all the countries, or maybe a handful of states or all the states. You want to assign your data to each state or country as a polygon of that area, not a point, so you can do fun colors or popups and make a darn cool map.
