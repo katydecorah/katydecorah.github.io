@@ -43,7 +43,7 @@ I found a better workflow with Jekyll.
 
 After a quick search I found a [GeoJSON file with all the countries](https://github.com/johan/world.geo.json). I regex'd it into yml format and saved it to my `_data` folder ([in *this* repo](https://github.com/katydecorah/geojson-weaver)) as [`countries.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/countries.yml). That will serve as a reference file; I don't need to touch it. Actually, Atom will barf if I try to open it, so it stays sealed tight.
 
-Next, I created another file ([`leave.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/leave.yml)). This is the data that I want to weave in with the country data. For each data peice, I made sure to use the same country name because later I'll evaluate the country name in the `countries.yml` with `leave.yml`.
+Next, I created another file ([`leave.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/leave.yml)). This is the data that I want to weave in with the country data. For each country, I made sure to use the same exact country name found in `countries.yml` because later I'll evaluate the name to match the data up.
 
 {% highlight yaml %}
 - country: United States of America
