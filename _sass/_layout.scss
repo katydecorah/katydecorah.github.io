@@ -1,0 +1,55 @@
+.container {
+
+  @extend %clearfix;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $container-width;
+  min-height: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  position: relative;
+
+}
+
+.half-left,
+.half-right {
+
+  @include breakpoint(gt-mobile) {
+    float: left;
+    width: 48%;
+  }
+
+}
+
+.half-left {
+  @include breakpoint(gt-mobile) { margin-right: 4%;}
+}
+
+// scss-lint:disable VendorPrefixes
+.columns {
+  -moz-column-gap: 3em;
+  -webkit-column-gap: 3em;
+  column-gap: 3em;
+  -moz-columns: 2 290px;
+  -webkit-columns: 2 290px;
+  columns: 2 290px;
+  font-size: $font-small;
+
+  .fa-ul { margin-top: 0;}
+
+  .fa-li { top: .3em; }
+
+  li {
+    -webkit-column-break-inside: avoid;
+    display: block;
+    padding: .2em 0;
+  }
+
+}
+
+.emoji {
+  display: inline-block;
+  margin: 0;
+  max-width: none;
+}

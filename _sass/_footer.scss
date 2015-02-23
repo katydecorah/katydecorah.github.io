@@ -1,0 +1,37 @@
+.footer {
+  background: $header-bg;
+  margin-top: 2em;
+  position: relative;
+
+  &:before {
+    border-top: 1px dashed $accent;
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1px;
+    width: 100%;
+  }
+
+  .container {
+    padding-bottom: 5em;
+    padding-top: 2em;
+  }
+
+  p {
+    font-size: $font-xs;
+  }
+
+  .nav-link {
+    padding-right: 1em;
+
+    &.nav-link:hover { color: $link-hover; }
+
+  }
+
+  .nav {
+    line-height: 1;
+    margin-bottom: 1.5em;
+    margin-top: .5em;
+  }
+
+}

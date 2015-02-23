@@ -1,0 +1,40 @@
+.header {
+
+  @extend %clearfix;
+
+  background-color: rgba($header-bg, .85);
+  margin-bottom: 2em;
+  position: relative;
+
+
+  &:after {
+    border-top: 1px dashed $header-bg;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+
+
+  a {
+    padding-bottom: .5em;
+    padding-top: .5em;
+  }
+
+}
+
+.logo {
+  color: $dark-accent;
+  display: block;
+  font-weight: $body-font-weight;
+
+  @include breakpoint(gt-mobile) {
+    float: left;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}

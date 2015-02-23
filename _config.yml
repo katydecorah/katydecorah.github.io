@@ -20,6 +20,10 @@ name: Katy DeCorah
 description: "Front-end developer, designer, and sometimes teacher from Albany, NY."
 image: https://farm4.staticflickr.com/3786/14321547483_524b5cbce1_o.jpg
 
+
+sass:
+  style: :compressed
+
 timezone: America/New_York
 
 gems:
@@ -35,7 +39,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   use_coderay: false
 
-exclude: [vendor, node_modules, Gemfile, Gruntfile.js, package.json,CNAME,README.md]
+exclude: [vendor,CNAME,README.md]
 
 links:
 - text: Hello!

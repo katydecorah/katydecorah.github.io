@@ -1,0 +1,133 @@
+//////////////// primary
+
+// flatuicolors.com inspo
+
+$body-bg: #f6f6f6;
+$dark-accent: #2c3e50;
+$light-accent: #ecf0f1;
+$fancy-accent: #e74c3c;
+$fancy-accent-aa: darken($fancy-accent, 7%);
+
+$link-color: darken(#2980b9, 4%);
+$link-hover: $fancy-accent;
+$link-transition: .1s;
+
+$body-font-size: 22px;
+$font-small: .889em;
+$font-xs: .7em;
+
+$text-color: #333;
+$text-color-light: lighten($text-color, 20%);
+
+
+$code-font-family: 'anonymous-pro', 'Courier New', monospace;
+$fancy-font-family: 'adelle', Georgia, serif;
+$body-font-family: 'adelle-sans', Arial, sans-serif;
+
+$body-font-weight: 300;
+$body-font-bold: 700;
+$fancy-font-weight: 100;
+
+$container-width: 700px;
+$media-max: 1000px;
+
+$border-radius-img: .15em;
+
+$h1-size: 2.25em;
+$h1-size-map: 3em;
+$h2-size: 1.424em;
+$h3-size: 1.266em;
+$h4-size: 1.125em;
+
+$border-radius: .2em;
+
+$body-padding-top: 4em;
+
+$header-bg: #fff;
+$accent: rgba(241, 247, 248, 1);
+
+
+/////////////// Code Highlighter
+// Adapted from https://gist.github.com/edwardhotchkiss/2005058
+
+
+$highlightone: #586e75;
+$highlighttwo: #93a1a1;
+$highlightthree: #859900;
+$highlightfour: #cb4b16;
+$highlightfive: #2aa198;
+$highlightsix: #dc322f;
+$highlightseven: #268bd2;
+$highlighteight: #b58900;
+$highlightnine: #555;
+
+$highlightcomment: $highlightone;
+$highlighterror: $highlighttwo;
+$highlightgeneric: $highlighttwo;
+$highlightkeyword: $highlightthree;
+$highlightliteral: $highlighttwo;
+$highlightname: $highlighttwo;
+$highlightoperator: $highlightthree;
+$highlightother: $highlightfour;
+$highlightpunctuation: $highlighttwo;
+$highlightcommentmultiline: $highlightone;
+$highlightcommentpreproc: $highlightthree;
+$highlightcommentsingle: $highlightone;
+$highlightcommentspecial: $highlightthree;
+$highlightgenericdeleted: $highlightfive;
+$highlightgenericemph: $highlighttwo;
+$highlightgenericemph: $highlighttwo;
+$highlightgenericerror: $highlightsix;
+$highlightgenericheading: $highlightfour;
+$highlightgenericinserted: $highlightthree;
+$highlightgenericoutput: $highlighttwo;
+$highlightgenericprompt: $highlighttwo;
+$highlightgenericstrong: $highlighttwo;
+$highlightgenericsubheading: $highlightfour;
+$highlightgenerictraceback: $highlighttwo;
+$highlightkeywordconstant: $highlightfour;
+$highlightkeyworddeclaration: $highlightseven;
+$highlightkeywordnamespace: $highlightthree;
+$highlightkeywordpseudo: $highlightthree;
+$highlightkeywordreserved: $highlightseven;
+$highlightkeywordtype: $highlightsix;
+$highlightliteraldate: $highlighttwo;
+$highlightliteralnumber: $highlightfive;
+$highlightliteralstring: $highlightfive;
+$highlightnameattribute: $highlighttwo;
+$highlightnamebuiltin: $highlighteight;
+$highlightnameclass: $highlightseven;
+$highlightnameconstant: $highlightfour;
+$highlightnamedecorator: $highlightseven;
+$highlightnameentity: $highlightfour;
+$highlightnameexception: $highlightfour;
+$highlightnamefunction: $highlightseven;
+$highlightnamelabel: $highlighttwo;
+$highlightnamelabel: $highlighttwo;
+$highlightnamenamespace: $highlighttwo;
+$highlightnameother: $highlightnine;
+$highlightnameproperty: $highlighttwo;
+$highlightnametag: $highlightseven;
+$highlightnamevariable: $highlightseven;
+$highlightoperatorword: $highlightthree;
+$highlighttextwhitespace: $highlighttwo;
+$highlightliteralnumberfloat: $highlightfive;
+$highlightliteralnumberhex: $highlightfive;
+$highlightliteralnumberinteger: $highlightfive;
+$highlightliteralnumberoct: $highlightfive;
+$highlightliteralstringbacktick: $highlightone;
+$highlightliteralstringchar: $highlightfive;
+$highlightliteralstringdoc: $highlighttwo;
+$highlightliteralstringdouble: $highlightfive;
+$highlightliteralstringescape: $highlightfour;
+$highlightliteralstringheredoc: $highlighttwo;
+$highlightliteralstringinterpol: $highlightfive;
+$highlightliteralstringother: $highlightfive;
+$highlightliteralstringregex: $highlightsix;
+$highlightliteralstringsingle: $highlightfive;
+$highlightliteralstringsymbol: $highlightfive;
+$highlightnamebuiltinpseudo: $highlightseven;
+$highlightnamevariableclass: $highlightseven;
+$highlightnamevariableglobal: $highlightseven;
+$highlightnamevariableinstance: $highlightseven;
+$highlightliteralnumberintegerlong: $highlightfive;

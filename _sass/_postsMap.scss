@@ -1,0 +1,71 @@
+// scss-lint:disable VendorPrefixes, PropertySortOrder
+.post-header-has-map {
+  margin-bottom: 1em;
+
+  @include breakpoint(gt-mobile) {
+
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+    -webkit-justify-content: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+
+    margin-top: -2em;
+    min-height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    margin: 0;
+
+    @include breakpoint(gt-mobile) {
+      color: rgba($text-color, .75);
+      font-size: $h1-size-map;
+    }
+
+    .no-flexbox & {
+      margin-top: .5em;
+    }
+
+  }
+}
+
+.post-map-header {
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  @include breakpoint(mobile) { display: none; }
+
+}
+
+.post-location-image {
+  display: none;
+  max-width: none;
+
+  @include breakpoint(gt-mobile) {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+  }
+
+}

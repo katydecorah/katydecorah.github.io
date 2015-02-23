@@ -1,0 +1,44 @@
+@media print {
+
+
+  .navbar,
+  .footer,
+  .no-print,
+  .print-hide {
+    display: none;
+  }
+
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+
+  .page-resume {
+    font-family: 'Georgia', sans-serif;
+    font-size: 13px;
+
+    p { margin-bottom: .25em;}
+
+    ul {
+      margin-bottom: .5em;
+      margin-top: 0;
+    }
+
+    li { margin-bottom: 0;}
+
+    .skills {
+      margin: 1em 0 0;
+
+      li { display: inline-block; }
+
+      li:after { content: ','; }
+      
+      li:last-child:after { content: ''; }
+
+    }
+
+    a { color: $text-color !important; }
+
+  }
+
+}

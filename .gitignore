@@ -10,3 +10,4 @@ _drafts/
 npm-debug.log
 projects
 *.lock
+style/
