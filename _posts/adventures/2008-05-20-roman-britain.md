@@ -160,4 +160,6 @@ coordinates:
 <img src="https://farm6.staticflickr.com/5349/10006360724_bb1aef402f_b.jpg" class="img-half" alt="London">
 <img src="https://farm4.staticflickr.com/3805/10006570763_a82c053f46_b.jpg" class="img-wide" alt="London">
 <img src="https://farm8.staticflickr.com/7401/10006450444_560f9d8a08_b.jpg" class="img-tall" alt="London">
+<img src="https://farm9.staticflickr.com/8572/15997246314_a786d6c14b_z.jpg" alt="London">
+<img src="https://farm9.staticflickr.com/8624/16618300851_52f1516997_c.jpg" alt="London">
 </div>

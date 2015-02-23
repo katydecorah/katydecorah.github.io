@@ -27,6 +27,7 @@ coordinates:
 <div class="photos">
 <img src="https://farm9.staticflickr.com/8625/15910474384_ee6485ef68_b.jpg" class="img-tall" alt="Kilmainham Gaol">
 <img src="https://farm8.staticflickr.com/7369/16345362078_4eba23262b_b.jpg" class="img-wide" alt="Kilmainham Gaol">
+<img src="https://farm9.staticflickr.com/8581/16412157857_bfebcd9644_b.jpg" alt="006">
 </div>
 
 ## Madrid
@@ -40,6 +41,11 @@ coordinates:
 <img src="https://farm8.staticflickr.com/7384/16347182647_38c81e4172_b.jpg" class="img-tall" alt="Madrid">
 <img src="https://farm9.staticflickr.com/8564/16531375131_0ef05fed64_b.jpg" class="img-tall" alt="Madrid">
 <img src="https://farm8.staticflickr.com/7313/16345410148_fe6e268596_b.jpg" class="img-wide" alt="Madrid">
+
+<img src="https://farm9.staticflickr.com/8683/16593515746_ae0def09b0_o.jpg"  alt="007">
+<img src="https://farm9.staticflickr.com/8633/15999727673_167c9b0dda_o.jpg"  alt="006">
+<img src="https://farm9.staticflickr.com/8683/16432297718_4250670dbd_o.jpg"  alt="004">
+<img src="https://farm9.staticflickr.com/8683/16412192147_73bbf269aa_o.jpg"  alt="002">
 </div>
 
 ## Barcelona
@@ -47,6 +53,8 @@ coordinates:
 ### La Sagrada Familia
 
 <div class="photos">
+<img src="https://farm9.staticflickr.com/8675/15999727613_94309f09dc_o.jpg" alt="010">
+
 <img src="https://farm8.staticflickr.com/7447/16346838129_ee21aabf5a_b.jpg" class="img-tall" alt="Barcelona">
 <img src="https://farm8.staticflickr.com/7371/16507143086_31fb5123ce_b.jpg" class="img-wide" alt="Barcelona">
 <img src="https://farm8.staticflickr.com/7459/16531394991_6000a562cd_b.jpg" class="img-half" alt="Barcelona">
@@ -68,6 +76,11 @@ coordinates:
 <img src="https://farm8.staticflickr.com/7377/16532087662_22ef9d0b84_b.jpg" class="img-wide" alt="Barcelona">
 <img src="https://farm9.staticflickr.com/8634/15910568204_ba9a00bbbf_b.jpg" class="img-tall" alt="Barcelona">
 <img src="https://farm9.staticflickr.com/8641/16507136736_7584d6fe3a_b.jpg" alt="Barcelona">
+
+<img src="https://farm9.staticflickr.com/8572/16618841072_b51aec1bc8_o.jpg" alt="017">
+<img src="https://farm9.staticflickr.com/8606/16432297548_f3d0e3beae_o.jpg"  alt="015">
+<img src="https://farm9.staticflickr.com/8650/16433680369_fbd6f0f100_o.jpg" alt="013">
+
 </div>
 
 ### Park Güell
@@ -87,6 +100,8 @@ coordinates:
 <div class="photos">
 <img src="https://farm8.staticflickr.com/7315/16532117292_a914973cc3_b.jpg" class="img-half" alt="Dublin">
 <img src="https://farm9.staticflickr.com/8582/16345479558_2c9d87831e_b.jpg" class="img-half" alt="Dublin">
+<img src="https://farm9.staticflickr.com/8678/16593480556_f1498f85cd_b.jpg"  alt="009">
+<img src="https://farm9.staticflickr.com/8603/16432262458_81f9ce34b1_b.jpg" alt="011">
 </div>
 
 
