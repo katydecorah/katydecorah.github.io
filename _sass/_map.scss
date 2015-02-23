@@ -20,10 +20,10 @@
 }
 
 .map-select {
-  bottom: 4em;
   font-size: $font-small;
   position: absolute;
   right: 1em;
+  top: 4em;
   z-index: 100;
 
   .filter { display: none;}
