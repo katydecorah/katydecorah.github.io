@@ -32,11 +32,12 @@
       li { display: inline-block; }
 
       li:after { content: ','; }
-      
+
       li:last-child:after { content: ''; }
 
     }
 
+    // scss-lint:disable ImportantRule
     a { color: $text-color !important; }
 
   }
