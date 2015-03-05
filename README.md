@@ -1,4 +1,4 @@
-# katydecorah.com ![](https://travis-ci.org/katydecorah/katydecorah.github.io.svg?branch=master)
+# katydecorah.com [![](https://travis-ci.org/katydecorah/katydecorah.github.io.svg?branch=master)](https://travis-ci.org/katydecorah/katydecorah.github.io)
 
 ```
   ______
