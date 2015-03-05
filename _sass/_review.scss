@@ -54,7 +54,7 @@
   &:hover {
 
     &:before {
-      background: rgba(#000, .65);
+      background: rgba($black, .65);
       bottom: 0;
       height: 100%;
       left: 0;
@@ -70,7 +70,7 @@
 
       align-items: center;
       box-sizing: border-box;
-      color: #fff;
+      color: $white;
       content: attr(title);
       display: flex;
       font-size: .6em;
