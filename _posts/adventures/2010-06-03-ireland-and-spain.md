@@ -20,6 +20,8 @@ coordinates:
  - -3.6795367,40.4378271
 ---
 
+My friend was wrapping up her Masters in Dublin, so I visited, along with another friend for two weeks. We hopped over to Spain for some quick sightseeing.
+
 ## Dublin
 
 ### Kilmainham Gaol

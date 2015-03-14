@@ -41,6 +41,8 @@ coordinates:
 - -0.1015987,51.5286416 #london
 ---
 
+At Siena, I took a course called *Romain Britain*, where we studied the Romanization of Britain. At the end of the semester we visited the sites.
+
 ## Hadrian's Wall
 
 <div class="photos">
