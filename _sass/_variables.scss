@@ -7,8 +7,12 @@ $dark-accent: #2c3e50;
 $light-accent: #ecf0f1;
 $fancy-accent: #e74c3c;
 $fancy-accent-aa: darken($fancy-accent, 7%);
+$white: #fff;
+$black: #000;
 
-$link-color: darken(#2980b9, 4%);
+$link: #2980b9;
+
+$link-color: darken($link, 4%);
 $link-hover: $fancy-accent;
 $link-transition: .1s;
 
@@ -43,7 +47,7 @@ $border-radius: .2em;
 
 $body-padding-top: 4em;
 
-$header-bg: #fff;
+$header-bg: $white;
 $accent: rgba(241, 247, 248, 1);
 
 

@@ -6,6 +6,7 @@
   .leaflet-popup-content,
   .leaflet-popup-content-wrapper { padding: 0; }
 
+  // scss-lint:disable ImportantRule
   h2 {
     margin: 0 !important; //ugh, get this out of here
     padding: .5em;
@@ -29,7 +30,7 @@
   .filter { display: none;}
 
   .filter-label {
-    background: rgba(#fff, .5);
+    background: rgba($white, .5);
     cursor: pointer;
     display: block;
     padding: .25em 1em;
@@ -40,7 +41,7 @@
 
   }
 
-  .filter:checked + .filter-label { background: #fff;}
+  .filter:checked + .filter-label { background: $white;}
 
 }
 
