@@ -50,11 +50,11 @@
     border-radius: $border-radius-img;
     display: flex;
     float: left;
-    height: 7em;
+    height: 7.5em;
     justify-content: left;
     margin-right: 2em;
     overflow: hidden;
-    width: 7em;
+    width: 10em;
 
     .post-img {
       background-blend-mode: overlay;
@@ -76,8 +76,8 @@
 
   @extend %fancy-type;
 
-  font-size: 2em;
-  line-height: 1.2;
+  font-size: 1.5em;
+  line-height: 1.3;
 
   @include breakpoint(mobile) {
     font-size: 1.5em;
