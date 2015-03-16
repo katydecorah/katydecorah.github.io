@@ -1,0 +1,18 @@
+
+.btn {
+
+  @extend %fancy-type;
+
+  border: 1px solid $link-color;
+  border-radius: $border-radius-img;
+  color: $link-color;
+  display: inline-block;
+  padding: .2em .75em;
+
+  &:hover,
+  &.active {
+    color: rgba($link-color, .5);
+    text-decoration: none;
+  }
+  
+}

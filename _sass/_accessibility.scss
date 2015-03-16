@@ -1,0 +1,29 @@
+.skip a {
+  border: 0;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-image-slice: initial;
+  border-image-source: initial;
+  border-image-width: initial;
+  clip: rect(1px 1px 1px 1px);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.skip a:active,
+.skip a:focus {
+  background: $link-color;
+  clip: auto;
+  color: $white;
+  display: block;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  padding: 1%;
+  position: static;
+  text-align: center;
+  width: 100%;
+}

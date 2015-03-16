@@ -1,0 +1,56 @@
+.map {
+  margin-bottom: -4em;
+  margin-top: -3.75em;
+  min-height: 450px;
+
+  .leaflet-popup-content,
+  .leaflet-popup-content-wrapper { padding: 0; }
+
+  // scss-lint:disable ImportantRule
+  h2 {
+    margin: 0 !important; //ugh, get this out of here
+    padding: .5em;
+  }
+
+  img {
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+}
+
+.map-select {
+  font-size: $font-small;
+  position: absolute;
+  right: 1em;
+  top: 4em;
+  z-index: 100;
+
+  .filter { display: none;}
+
+  .filter-label {
+    background: rgba($white, .5);
+    cursor: pointer;
+    display: block;
+    padding: .25em 1em;
+
+    &:hover {
+      background: $accent;
+    }
+
+  }
+
+  .filter:checked + .filter-label { background: $white;}
+
+}
+
+
+.map-attribution {
+  bottom: 1em;
+  color: rgba($text-color, .7);
+  display: block;
+  font-size: 13px;
+  position: absolute;
+  right: 1em;
+}

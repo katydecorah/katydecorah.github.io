@@ -1,0 +1,8 @@
+scss_files: '_sass/*.scss'
+
+exclude: 'css/style.scss'
+
+linters:
+
+  UrlFormat:
+    enabled: false

@@ -1,16 +1,18 @@
+# katydecorah.com [![](https://travis-ci.org/katydecorah/katydecorah.github.io.svg?branch=master)](https://travis-ci.org/katydecorah/katydecorah.github.io)
+
 ```
-  ______                      
- /      \                     
+  ______
+ /      \
 /$$$$$$  | __    __   ______  
-$$ \__$$/ /  |  /  | /      \ 
+$$ \__$$/ /  |  /  | /      \
 $$      \ $$ |  $$ |/$$$$$$  |
  $$$$$$  |$$ |  $$ |$$ |  $$ |
 /  \__$$ |$$ \__$$ |$$ |__$$ |
-$$    $$/ $$    $$/ $$    $$/ 
+$$    $$/ $$    $$/ $$    $$/
  $$$$$$/   $$$$$$/  $$$$$$$/  
-                    $$ |      
-                    $$ |      
-                    $$/       
+                    $$ |
+                    $$ |
+                    $$/
 ```
 
 This is my first try at Jekyll. Lovin it.

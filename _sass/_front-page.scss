@@ -1,0 +1,95 @@
+.all-posts {
+
+  .post-meta {
+
+    @include breakpoint(gt-mobile) {
+      float: left;
+      width: 70%;
+    }
+
+    .no-flexbox & { padding-top: 2em;}
+
+  }
+
+  .post-date {
+    color: $text-color-light;
+  }
+
+}
+
+.post-link {
+
+  @extend %clearfix;
+
+  @extend %flex;
+
+  color: $text-color;
+  display: block;
+  padding-bottom: 1em;
+  padding-top: 1em;
+
+  &:hover {
+    text-decoration: none;
+
+    .post-img {
+      background-color: transparent;
+      transition: $link-transition;
+    }
+
+  }
+
+}
+
+
+
+.post-img-container {
+  display: none;
+
+  @include breakpoint(gt-mobile) {
+    align-items: center;
+    border-radius: $border-radius-img;
+    display: flex;
+    float: left;
+    height: 7.5em;
+    justify-content: left;
+    margin-right: 2em;
+    overflow: hidden;
+    width: 10em;
+
+    .post-img {
+      background-blend-mode: overlay;
+      background-color: rgba($body-bg, .3);
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+      margin: 0;
+      transition: $link-transition;
+      width: 100%;
+    }
+
+  }
+
+}
+
+
+.post-title {
+
+  @extend %fancy-type;
+
+  font-size: 1.5em;
+  line-height: 1.3;
+
+  @include breakpoint(mobile) {
+    font-size: 1.5em;
+  }
+
+}
+
+.paginator {
+  margin-top: 1em;
+}
+
+.post-elsewhere-label .fa {
+  color: $link-color;
+  font-size: .8em;
+}

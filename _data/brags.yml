@@ -54,6 +54,16 @@
       link: http://css-tricks.com/guide-responsive-friendly-css-columns/
 - section: Speaking
   contents:
+  - site: FOSS4G NA
+    contents:
+      - title: Writing for everyone
+        date: 2015-03-12
+        link: http://katydecorah.com/writing-for-everyone/
+  - site: The East Wing
+    contents:
+    - title: "#12: Sleep Pajamas and Work Pajamas - Katy DeCorah"
+      date: 2015-03-04
+      link: http://goodstuff.fm/theeastwing/12
   - site: MakerSquare
     contents:
     - title: Animating the DOM with CSS and JavaScript

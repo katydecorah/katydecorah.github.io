@@ -1,0 +1,55 @@
+.playlist-meta {
+  margin-bottom: 1em;
+}
+
+.playlist-nostalgia {
+  display: block;
+  font-style: italic;
+}
+
+// scss-lint:disable VendorPrefixes
+.playlist {
+  -moz-columns: 2 290px; 
+  -webkit-columns: 2 290px;
+  columns: 2 290px;
+}
+
+.playlist-track {
+  -webkit-column-break-inside: avoid;
+  margin-bottom: 1em;
+}
+
+.track-name {
+
+  @extend %fancy-type;
+
+}
+
+.track-artist { font-weight: bold; }
+
+.track-meta {
+  color: $text-color-light;
+  font-size: $font-xs;
+  line-height: 1;
+}
+
+.rdio-playlist-link {
+  margin-bottom: 2em;
+}
+
+.playlist-container {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+
+  &:nth-child(even) {
+    background: rgba(complement($accent), .4);
+    border-bottom: 1px dashed $body-bg;
+    border-top: 1px dashed $body-bg;
+  }
+
+  &:target {
+    padding-top: $body-padding-top /2;
+    transition: .5s;
+  }
+
+}

@@ -1,0 +1,34 @@
+.header {
+
+  @extend %clearfix;
+
+  background-color: rgba($header-bg, .85);
+  margin-bottom: 2em;
+  position: relative;
+
+  a {
+    padding-bottom: .75em;
+    padding-top: .75em;
+  }
+
+}
+
+.logo {
+
+  @extend %fancy-type;
+
+  color: $dark-accent;
+
+
+  @include breakpoint(gt-mobile) {
+    float: left;
+    font-size: 1.25em;
+    left: -.25em;
+    position: relative;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}
