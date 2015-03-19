@@ -30,18 +30,18 @@
 {% endfor %}
 
 <p class="review-text">
-  I {% if adventuresCounter > 0 %} <input type="checkbox" ng-model="adventures" id="adventures"><label class="review-hover" for="adventures">had {{ adventuresCounter }} adventure{% if adventuresCounter > 1 %}s{% endif %}</label>,{% endif %}
-  {% if codeCounter > 0 %}<input type="checkbox" ng-model="code" id="code"><label class="review-hover" for="code">wrote about code {{ codeCounter }} time{% if codeCounter > 1 %}s{% endif %}</label>,{% endif %}
-  {% if teachingCounter > 0 %}<input type="checkbox" ng-model="teaching" id="teaching"><label class="review-hover" for="teaching">taught {{ teachingCounter }} class{% if teachingCounter > 1 %}es{% endif %}</label>,{% endif %}
-  {% if notesCounter > 0 %}<input type="checkbox" ng-model="notes" id="notes"><label class="review-hover" for="notes">wrote {{notesCounter}} note{% if notesCounter > 1 %}s{% endif %}</label>,{% endif %}
-  {% if epicureanCounter > 0 %}<input type="checkbox" ng-model="epicurean" id="epicurean"><label class="review-hover" for="epicurean">baked {{epicureanCounter}} new treat{% if epicureanCounter > 1 %}s{% endif %}</label>,{% endif %}
-  {% if playlistsCounter > 0 %}and <input type="checkbox" ng-model="playlists" id="playlists"><label class="review-hover" for="playlists">made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 %}s{% endif %}</label>{% endif %}.</p>
+  {% if adventuresCounter > 0 %}<input type="checkbox" ng-model="adventures" id="adventures"><label class="review-hover" for="adventures">I had {{ adventuresCounter }} adventure{% if adventuresCounter > 1 %}s{% endif %}</label>.{% endif %}
+  {% if codeCounter > 0 %}<input type="checkbox" ng-model="code" id="code"><label class="review-hover" for="code">I wrote about code {{ codeCounter }} time{% if codeCounter > 1 %}s{% endif %}</label>.{% endif %}
+  {% if teachingCounter > 0 %}<input type="checkbox" ng-model="teaching" id="teaching"><label class="review-hover" for="teaching">I taught {{ teachingCounter }} class{% if teachingCounter > 1 %}es{% endif %}</label>,{% endif %}
+  {% if notesCounter > 0 %}<input type="checkbox" ng-model="notes" id="notes"><label class="review-hover" for="notes">I wrote {{notesCounter}} note{% if notesCounter > 1 %}s{% endif %}</label>.{% endif %}
+  {% if epicureanCounter > 0 %}I <input type="checkbox" ng-model="epicurean" id="epicurean"><label class="review-hover" for="epicurean">baked {{epicureanCounter}} new treat{% if epicureanCounter > 1 %}s{% endif %}</label>.{% endif %}
+  {% if playlistsCounter > 0 %}I <input type="checkbox" ng-model="playlists" id="playlists"><label class="review-hover" for="playlists">made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 %}s{% endif %}</label>.{% endif %}</p>
 </div>
 
 <div class="review-thumbs">
 {% for post in site.posts reversed %}
-{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-{% capture pageYear %}{{ page.url | replace: '/','' }}{% endcapture %}
+{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% capture pageYear %}{{ page.title }}{% endcapture %}
 {% if year == pageYear %}
 <a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb review-{{post.category}}" title="{{post.title}}" ng-show="{{post.category}}"></a>
 {% endif %}
