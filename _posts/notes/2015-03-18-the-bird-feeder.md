@@ -22,8 +22,6 @@ All morning.
 <img src="https://farm8.staticflickr.com/7374/16244711198_e910100cb4_b.jpg" alt="bird feeder">
 </div>
 
-A pair of cardinals and a bluejay frequent the feeder, but they're camera shy.
+A pair of cardinals and a bluejay also frequent the feeder, but they're camera shy.
 
 <iframe src="https://player.vimeo.com/video/118554722" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-p.s. the feeder is from [Red Earth Naturals](http://redearthnaturals.com/window-bird-feeder/) and they have amazing customer service.
