@@ -166,14 +166,14 @@
   }
 
   &:hover {
-    color: rgba($link-color, .5);
+    color: $text-color;
     text-decoration: none;
     transition: $link-transition;
 
     &:before,
     &:after {
       border-color: inherit;
-      color: rgba($link-color, .5);
+      color: $text-color;
       transition: $link-transition;
     }
 
@@ -209,8 +209,7 @@
   position: relative;
 
   @include breakpoint(gt-mobile) {
-    border: 1px solid;
-    border-radius: $border-radius-img;
+    border: 2px solid transparent;
     display: block;
     height: 2em;
     line-height: 2em;
@@ -222,7 +221,8 @@
     width: 2em;
 
     &:hover {
-      color: $link-hover;
+      border: 2px solid;
+      color: $text-color;
     }
 
   }
