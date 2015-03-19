@@ -3,16 +3,16 @@
 
   @extend %fancy-type;
 
-  border: 1px solid $link-color;
-  border-radius: $border-radius-img;
+  border: 2px solid transparent;
   color: $link-color;
   display: inline-block;
-  padding: .2em .75em;
+  padding: .25em .5em;
 
   &:hover,
   &.active {
-    color: rgba($link-color, .5);
+    border: 2px solid;
+    color: $text-color;
     text-decoration: none;
   }
-  
+
 }
