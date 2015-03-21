@@ -29,8 +29,11 @@ The water was cold, but it was a real treat.
 <div class="photos">
 <img src="https://farm4.staticflickr.com/3889/14684318097_0518d83447_b.jpg" alt="Cascade Falls">
 <img src="https://farm4.staticflickr.com/3910/14870501702_4b7396f95a_b.jpg" alt="Cascade Falls">
-<img src="https://farm4.staticflickr.com/3906/14890716173_0022fde150_b.jpg" class="img-thirds" alt="Cascade Falls"><img src="https://farm4.staticflickr.com/3906/14867778481_e3a5699f06_b.jpg" class="img-thirds" alt="Cascade Falls"><img src="https://farm4.staticflickr.com/3867/14684233128_6dcc41988d_b.jpg" class="img-thirds" alt="Cascade Falls">
-<img src="https://farm6.staticflickr.com/5593/14868370954_aecd506bee_b.jpg" class="img-half" alt="Cascade Falls"><img src="https://farm6.staticflickr.com/5566/14847833746_f4c02626cd_b.jpg" class="img-half" alt="Cascade Falls">
+<img src="https://farm4.staticflickr.com/3906/14890716173_0022fde150_b.jpg" class="img-thirds" alt="Cascade Falls">
+<img src="https://farm4.staticflickr.com/3906/14867778481_e3a5699f06_b.jpg" class="img-thirds" alt="Cascade Falls">
+<img src="https://farm4.staticflickr.com/3867/14684233128_6dcc41988d_b.jpg" class="img-thirds" alt="Cascade Falls">
+<img src="https://farm6.staticflickr.com/5593/14868370954_aecd506bee_b.jpg" class="img-half" alt="Cascade Falls">
+<img src="https://farm6.staticflickr.com/5566/14847833746_f4c02626cd_b.jpg" class="img-half" alt="Cascade Falls">
 <img src="https://farm4.staticflickr.com/3875/14890721083_7f26e13599_b.jpg" alt="Cascade Falls">
 </div>
 
