@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decorating a Wedding
+title: Decorating a wedding
 category: adventures
 tags:
 - fresh air
@@ -10,8 +10,9 @@ coordinates:
  - -73.0598826,43.1467218
 locations: Wilburton Inn, Manchester, VT
 image: http://farm4.staticflickr.com/3827/9808951525_5671dff954_c.jpg
-
+redirect_from: /adventures/2013/09/14/decorating-a-wedding/
 ---
+
 
 This weekend I had the privilege of decorating a friend's wedding at the Wilburton Inn in Manchester, Vermont. As payment, my boyfriend and I got to stay all weekend at the Inn. It was an excellent trade!
 

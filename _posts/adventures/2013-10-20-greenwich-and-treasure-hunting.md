@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Greenwich &amp; Treasure Hunting"
+title: "Greenwich &amp; treasure hunting"
 category: adventures
-tags: 
+tags:
   - fresh air
   - the ocean
   - red shoes
@@ -11,14 +11,15 @@ tags:
 map: static
 coordinates:
  - -73.598587,41.0163474
-locations: 
+locations:
   - "Greenwich,CT"
   - "Arlington,VT"
   - "Manchester,VT"
   - "Bennington,VT"
-image: "http://farm4.staticflickr.com/3710/10390926954_1d0b25911d_c.jpg"
-published: true
+image: http://farm4.staticflickr.com/3710/10390926954_1d0b25911d_c.jpg
+redirect_from: /adventures/2013/10/20/greenwich-and-treasure-hunting/
 ---
+
 
 On Saturday, I woke up early and drove down to Greenwich, CT. A very good friend of mine moved down there earlier this year with her husband. She showed me their new place and around town. We ordered sushi to-go and enjoyed it on the beach. It was a really great day.
 

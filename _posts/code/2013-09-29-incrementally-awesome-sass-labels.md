@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Incrementally Awesome Sass Labels
+title: Incrementally awesome Sass labels
 category: code
-tags: 
+tags:
   - Sass
 image: http://farm8.staticflickr.com/7340/12730825944_d47ef70a77_o.png
 project: true
-published: true
 css: ".label {
   vertical-align: middle;
   background: rgba(0, 125, 147, 0.5);
@@ -77,7 +76,9 @@ css: ".label {
   background: rgba(71, 5, 0, 0.5);
 }
 "
+redirect_from: /code/2013/09/29/incrementally-awesome-sass-labels/
 ---
+
 
 For this site I wanted my categories to be color coded, but I didn't want to put a lot of effort into managing it. Instead I spent a little effort into making sure I didn't have to manage it.
 
@@ -105,15 +106,15 @@ For each category I created its own supplemental class. Each class incrementally
 
 A miraculous rainbow of categories.
 
-<span class="label">label</span> 
-<span class="label label-edibles">edibles</span> 
-<span class="label label-adventures">adventures</span> 
-<span class="label label-code">code</span> 
-<span class="label label-playlists">playlists</span> 
-<span class="label label-freelance">freelance</span> 
+<span class="label">label</span>
+<span class="label label-edibles">edibles</span>
+<span class="label label-adventures">adventures</span>
+<span class="label label-code">code</span>
+<span class="label label-playlists">playlists</span>
+<span class="label label-freelance">freelance</span>
 
 ## Things to consider
 
-I can easily add categories, woo! 
+I can easily add categories, woo!
 
 ...but if I end up with more than 9 categories (hopefully not), then my color spectrum is going to get a bit cozy.

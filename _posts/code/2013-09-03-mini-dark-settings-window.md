@@ -1,15 +1,17 @@
 ---
 layout: post
-title: Mini Dark Settings Window
+title: Mini dark settings window
 category: code
-tags: 
+tags:
   - Haml
   - Sass
   - CodePen
   - Dribbble
 image: http://codepen.io/katydecorah/pen/LpsGB/image/small.png
-"show": "no"
+redirect_from: /code/2013/09/03/mini-dark-settings-window/
+
 ---
+
 
 Original design by [Ben Bate](http://dribbble.com/shots/779059).
 

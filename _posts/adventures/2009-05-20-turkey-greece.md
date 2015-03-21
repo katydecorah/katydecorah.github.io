@@ -24,7 +24,9 @@ coordinates:
 - 24.9131999,35.2483132 #crete
 - 23.7383394,37.9908372 #athens
 - 22.50097,38.482387 #delphi
+redirect_from: /adventures/2009/05/20/turkey-greece/
 ---
+
 
 At Siena, I took a business and ancient Greece course. At the end of the semester we visited Turkey and Greece.
 

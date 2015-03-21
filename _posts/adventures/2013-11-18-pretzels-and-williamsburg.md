@@ -2,21 +2,23 @@
 layout: post
 title: "Pretzels &amp; Williamsburg"
 category: adventures
-tags: 
+tags:
   - music
   - treats
 map: static
 coordinates:
  - -73.9531715,40.7115551
-locations: 
+locations:
   - "Williamsburg,NYC"
-image: "http://farm8.staticflickr.com/7298/10953719465_eb873a018c_b.jpg"
+image: http://farm8.staticflickr.com/7298/10953719465_eb873a018c_b.jpg
 published: true
+redirect_from: /adventures/2013/11/18/pretzels-and-williamsburg/
 ---
+
 
 Saturday night I had an all out snack attack. Right before heading to the store to pick-up rice krispies treat supplies, my boyfriend asked for pretzels. So I added yeast to my list.
 
-I was kind of grumpy as I was making the pretzels, because I thought I was doing a bad job. As soon as the dough warmed up, it was much easier to manipulate. 
+I was kind of grumpy as I was making the pretzels, because I thought I was doing a bad job. As soon as the dough warmed up, it was much easier to manipulate.
 
 And oh my, they tasted *amazing* fresh out of the oven.
 

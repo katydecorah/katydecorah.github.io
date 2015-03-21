@@ -12,6 +12,8 @@ tags:
 image: http://farm8.staticflickr.com/7083/13157662535_270504e7a3_o.png
 pen: htBka
 dribbble: http://drbl.in/ktXg
+redirect_from: /code/2014/03/14/leadership-letters/
+
 ---
 <figure>
 <p data-height="350" data-theme-id="97" data-slug-hash="htBka" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/htBka'>Leadership Letters #2. by Jeroen van Eerden</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -35,7 +37,7 @@ Two cheers for simple code.
 
 ## Circling
 
-Next, I needed to get each `.item` on a circle and rotated about 45 degrees to achieve the cascading effect. I tweaked the *items on a circle* mixin until each element fell into place. I've used the mixin before, but I must not have examined the code. I didn't realize that you can assign more than one `rotate` values in one `transform` rule. (I learned something new today */air guitar/*). 
+Next, I needed to get each `.item` on a circle and rotated about 45 degrees to achieve the cascading effect. I tweaked the *items on a circle* mixin until each element fell into place. I've used the mixin before, but I must not have examined the code. I didn't realize that you can assign more than one `rotate` values in one `transform` rule. (I learned something new today */air guitar/*).
 
 {% highlight css %}
 transform: rotate(0deg) translate(0.875em) rotate(45deg);
@@ -61,7 +63,7 @@ The above will then compute as:
 
 (I think that this makes sense to me. Hi, I'm insecure about `:nth`.)
 
-The first and fifth elements take the initial style from `.item`. 
+The first and fifth elements take the initial style from `.item`.
 
 ## Border animation
 

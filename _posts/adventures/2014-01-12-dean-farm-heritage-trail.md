@@ -2,17 +2,19 @@
 layout: post
 title: Dean Farm Heritage Trail
 category: adventures
-tags: 
+tags:
   - family
   - hiking
   - fresh air
-locations: 
+locations:
  - Stony Creek,NY
-coordinates: 
+coordinates:
  - -73.9162408,43.4276521
 map: static
 image: http://farm4.staticflickr.com/3762/11916446806_0ff8626e19_b.jpg
+redirect_from: /adventures/2014/01/12/dean-farm-heritage-trail/
 ---
+
 
 Today my folks and I explored the [Dean Farm Heritage Trail](http://www.adirondackjournal.com/news/2013/jul/01/work-continues-dean-farm-trail-stony-creek/) in Stony Creek. The trail was fairly easy to navigate as it was marked with wooden poles. We were impressed by all of the beautiful bridges, benches, and overlook points.
 

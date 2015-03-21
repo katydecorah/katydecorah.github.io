@@ -2,7 +2,7 @@
 layout: post
 title: Western Mass Adventures
 category: adventures
-tags: 
+tags:
 - waterfall
 - hiking
 - fresh air
@@ -14,9 +14,12 @@ locations:
 map: static
 coordinates:
  - -73.1107281,42.700456
+redirect_from: /adventures/2013/06/02/this-weekend/
+
 ---
 
-This weekend we woke up early and drove out to North Adams, Massachusetts. We took a 20-minute muddy hike through the woods and ended up at a waterfall. 
+
+This weekend we woke up early and drove out to North Adams, Massachusetts. We took a 20-minute muddy hike through the woods and ended up at a waterfall.
 
 <div class="photos">
 <a href="http://www.flickr.com/photos/91218249@N05/8916060200/" title="Waterfall by katydecorah, on Flickr">

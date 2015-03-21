@@ -9,7 +9,9 @@ image: https://farm9.staticflickr.com/8620/16560634908_0b0f932b48_h.jpg
 locations: Rensselaerville,NY
 coordinates:
  - -74.1365088,42.5172082
+redirect_from: /adventures/2015/03/07/showshoeing/ 
 ---
+
 
 The best way down the hill is on your belly, like a penguin.
 

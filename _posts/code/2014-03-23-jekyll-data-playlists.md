@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll Data Playlists
+title: Jekyll data playlists
 category: code
 tags:
  - Jekyll
@@ -8,7 +8,10 @@ tags:
  - Rdio
  - PHP
 image: https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png
+redirect_from: /code/2014/03/23/jekyll-data-playlists/
+
 ---
+
 
 In 2008, I started creating a playlist for every season. I kept my playlists in iTunes, but have migrated to Rdio. These playlists are my audio diaries. I can listen to one and remember where I was, where I was going, who I was with, and how I felt. I love these playlists.
 

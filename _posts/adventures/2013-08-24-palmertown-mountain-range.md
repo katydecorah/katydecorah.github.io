@@ -11,7 +11,9 @@ coordinates:
  - -73.7236504,43.2294791
 locations: Moreau Lake State Park
 image: http://farm8.staticflickr.com/7347/9583833497_0171fe8688_c.jpg
+redirect_from: /adventures/2013/08/24/palmertown-mountain-range/
 ---
+
 
 
 We woke up early and drove up to Moreau Lake State Park for a hike.

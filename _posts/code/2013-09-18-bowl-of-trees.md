@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bowl of Trees
+title: Bowl of trees
 category: code
 tags:
 - CodePen
@@ -9,8 +9,9 @@ tags:
 - Sass
 - random
 image: http://codepen.io/katydecorah/pen/oEiCf/image/large.png
-
+redirect_from: /code/2013/09/18/bowl-of-trees/
 ---
+
 
 <p data-height="500" data-theme-id="97" data-slug-hash="oEiCf" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/oEiCf'>Bowl of Trees</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

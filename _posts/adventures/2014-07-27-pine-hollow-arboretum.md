@@ -10,7 +10,9 @@ coordinates:
  - -73.8553663,42.6328986
 zoom: 16
 image: https://farm3.staticflickr.com/2918/14771854853_f283db09ba_b.jpg
+redirect_from: /adventures/2014/07/27/pine-hollow-arboretum/
 ---
+
 
 Yesterday we visited the [Pine Hollow Arboretum](http://www.pinehollowarboretum.org/) in Slingerlands. We saw the sign for the arboretum during one of our drives out to Rensselaerville.
 

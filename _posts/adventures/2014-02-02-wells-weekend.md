@@ -6,17 +6,19 @@ map: static
 locations:
  - Wells, NY
 pad: 0
-coordinates: 
+coordinates:
  - -74.289580,43.395900
-tags: 
+tags:
 - yay
 - fresh air
 - birthdays
 - treats
-image: "http://farm4.staticflickr.com/3683/12272509994_ee4ccc1a24_b.jpg"
+image: http://farm4.staticflickr.com/3683/12272509994_ee4ccc1a24_b.jpg
+redirect_from: /adventures/2014/02/02/wells-weekend/
 ---
 
-This weekend we celebrated my birthday in a cabin in Wells, NY. 
+
+This weekend we celebrated my birthday in a cabin in Wells, NY.
 
 I read a book, we watched movies, we cooked, and we hiked.
 

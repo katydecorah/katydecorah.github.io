@@ -11,7 +11,9 @@ locations:
 coordinates:
 - -73.7440735,42.5726903
 image: https://farm8.staticflickr.com/7379/16168820338_4326fe2492_h.jpg
+redirect_from: /adventures/2015/01/24/frozen-papscanee-preserve/ 
 ---
+
 
 The trail was a sheet of ice, but a pretty sheet of ice.
 

@@ -10,7 +10,10 @@ tags:
 - AngularJS
 image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
 
+redirect_from: /code/2014/12/30/from-haml-to-yaml/
+
 ---
+
 
 Way back in May, I built a pen based on [MDN's article](https://developer.mozilla.org/en-US/docs/Web/CSS/length) to visualize and compare all CSS lengths. Here's the original pen:
 

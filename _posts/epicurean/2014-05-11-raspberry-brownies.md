@@ -10,7 +10,9 @@ tags:
 image: https://farm3.staticflickr.com/2939/14289010659_37f7efa467_b.jpg
 recipe: http://theheritagecook.com/remembering-mom-raspberry-chocolate-brownies-src/
 recipe-title: Raspberry-Chocolate Brownies
+redirect_from: /epicurean/2014/05/11/raspberry-brownies/
 ---
+
 <div class="photos">
 
 <img src="https://farm3.staticflickr.com/2939/14289010659_37f7efa467_b.jpg" alt="Raspberry Chocolate Brownies">

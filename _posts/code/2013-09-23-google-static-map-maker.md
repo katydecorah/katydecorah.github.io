@@ -11,8 +11,11 @@ tags:
   - responsive
 image: http://codepen.io/katydecorah/pen/Klieu/image/large.png
 project: true
-redirect_from: "/code/2013/09/23/google-static-map-maker.html"
+redirect_from:
+- /code/2013/09/23/google-static-map-maker.html
+- /code/2013/09/23/google-static-map-maker/
 ---
+
 
 [The Google Static Map Marker is also served on its own page.](http://staticmapmaker.com)
 

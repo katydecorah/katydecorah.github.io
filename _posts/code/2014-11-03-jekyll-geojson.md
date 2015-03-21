@@ -7,7 +7,10 @@ tags:
  - Mapbox
  - GeoJSON
 image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
+redirect_from: /code/2014/11/03/jekyll-geojson/
+
 ---
+
 
 Add this post to my love-affair-with-[Jekyll](http://katydecorah.com/code/2014/01/26/mapbox-for-jekyll-posts/)-and-[Mapbox](http://katydecorah.com/code/2014/07/26/static-mapbox-for-jekyll/) series.
 

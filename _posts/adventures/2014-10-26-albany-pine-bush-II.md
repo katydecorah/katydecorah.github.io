@@ -12,7 +12,9 @@ tags:
  - pie
  - time travel
 feed: nah
+redirect_from: /adventures/2014/10/26/pine-bush/
 ---
+
 
 A very Fall hike with an old friend on trailhead 8 (Great Dune).
 

@@ -7,7 +7,9 @@ tags:
 - "time travel"
 - recipe
 image: http://farm8.staticflickr.com/7341/10848177206_5f518d74ef_b.jpg
+redirect_from: /epicurean/2013/01/13/candy-sushi/
 ---
+
 <div class="photos">
 <a href="http://www.flickr.com/photos/katydecorah/10848177206/" title="2013-01-13 Candy Sushi by katydecorah, on Flickr">
 <img src="http://farm8.staticflickr.com/7341/10848177206_5f518d74ef_b.jpg" class="pop-out" alt="2013-01-13 Candy Sushi"></a>

@@ -10,12 +10,14 @@ tags:
   - single element
 image: http://farm4.staticflickr.com/3708/12730299513_58bce11c10_o.png
 pen: ipEka
-published: true
+redirect_from: /code/2014/01/03/flat-icon-by-bosco/
+
 ---
+
 
 <p data-height="500" data-theme-id="97" data-slug-hash="ipEka" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/ipEka'>Flat icon by _Bosco</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-I recreated the Dribbble shot Flat icon by Bosco. 
+I recreated the Dribbble shot Flat icon by Bosco.
 
 Each award is a single element (`.award`) that uses additional classes to decide the color (`.gold`, `.silver`, or `.bronze`) and the type (`.badge` or `.ribbon`). These additional classes allow for mix and matching of the colors and award types. The award is scalable based on `font-size`. Try changing the `$fontSize` in the Sass to see the scaling powers. Please note that the awards are so adorable when the value is small.
 

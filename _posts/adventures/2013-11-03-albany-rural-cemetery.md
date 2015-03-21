@@ -10,7 +10,9 @@ coordinates:
  - -73.731604,42.707184
 locations: Albany Rural Cemetery
 image: http://farm6.staticflickr.com/5494/10655548255_732b4fb554_c.jpg
+redirect_from: /adventures/2013/11/03/albany-rural-cemetery/
 ---
+
 
 On Sunday, mom drove down for part of the day. We grabbed lunch at the Pump Station and then explored the Albany Rural Cemetery. I got the idea to check out the cemetery from [All Over Albany](http://alloveralbany.com/archive/2008/10/17/great-local-autumn-walks).
 

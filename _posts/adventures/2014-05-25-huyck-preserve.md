@@ -12,7 +12,9 @@ coordinates:
 tags:
  - fresh air
 image: https://farm4.staticflickr.com/3820/14082114487_15152934af_b.jpg
+redirect_from: /adventures/2014/05/25/huyck-preserve/
 ---
+
 
 We took a ride out to Rensselaerville and explored the Huyck Preserve again. We took the trail around Lake Myosotis.
 

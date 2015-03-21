@@ -13,8 +13,9 @@ map: static
 coordinates:
  - -73.9210542,41.6939295
 image: http://farm3.staticflickr.com/2820/10848469853_f698588d08_b.jpg
+redirect_from: /adventures/2013/05/19/two-weddings/
 ---
-I had the distinct honor of being in two weddings this month. 
+I had the distinct honor of being in two weddings this month.
 
 <div class="photos">
 <a href="http://www.flickr.com/photos/katydecorah/10848222696/" title="2013-05-18 12.53.08-2 by katydecorah, on Flickr">

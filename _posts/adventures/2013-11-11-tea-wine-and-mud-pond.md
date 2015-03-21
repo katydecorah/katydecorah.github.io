@@ -13,9 +13,10 @@ locations:
   - Ballston Spa
   - Oliva Vineyards
   - Nassau Mud Pond Preserve
-image: "http://farm6.staticflickr.com/5547/10789496434_0f2b245c5c_c.jpg"
-published: true
+image: http://farm6.staticflickr.com/5547/10789496434_0f2b245c5c_c.jpg
+redirect_from: /adventures/2013/11/11/tea-wine-and-mud-pond/
 ---
+
 
 ## Tea
 

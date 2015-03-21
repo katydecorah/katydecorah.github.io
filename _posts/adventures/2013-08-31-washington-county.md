@@ -2,10 +2,10 @@
 layout: post
 title: Washington County
 category: adventures
-tags: 
+tags:
   - fresh air
 image: http://farm3.staticflickr.com/2883/9640995748_1ef8807155_c.jpg
-locations: 
+locations:
  - Hebron,NY
  - Salem,NY
  - Argyle,NY
@@ -17,7 +17,9 @@ map: static
 coordinates:
  - -73.3551201,43.4006769
 zoom: 11
+redirect_from: /adventures/2013/08/31/washington-county/
 ---
+
 
 Mom and I went on a Washington County/Vermont adventure today.
 

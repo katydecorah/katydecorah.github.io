@@ -2,9 +2,10 @@
 layout: post
 title: Baking in the New Year
 category: epicurean
-tags: 
+tags:
   - treats
 image: http://farm6.staticflickr.com/5542/11698901103_36b11493b2_b.jpg
+redirect_from: /epicurean/2014/01/01/baking-in-the-new-year/
 ---
 
 <div class="photos">
