@@ -2,11 +2,11 @@
 layout: post
 title: North Carolina
 category: adventures
-tags: 
+tags:
 - family
 - road trip
 - "time travel"
-locations: 
+locations:
 - Asheville, NC
 - Sliding Rock, Brevard, NC
 - Lake Lure, NC
@@ -20,9 +20,11 @@ map: static
 coordinates:
  - -82.5531746,35.5922388
 image: http://farm8.staticflickr.com/7366/9702678259_877fa5dab4_c.jpg
+redirect_from: /adventures/2013/04/07/north-carolina/
 ---
 
-My sister moved to North Carolina a few years ago. Since then my folks and I make an annual trip down to visit. 
+
+My sister moved to North Carolina a few years ago. Since then my folks and I make an annual trip down to visit.
 
 This week is ceremoniously dedicated to eating a lot of food in between mom geocaching and then my sister and I binging on a tv series on Netflix. This year it was Bones.
 
@@ -34,7 +36,7 @@ My sister's cat terrifies me.
 <a href="http://www.flickr.com/photos/91218249@N05/9702682509/" title="North Carolina 2013 by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5517/9702682509_af19f42c88_c.jpg" alt="North Carolina 2013"></a>
 </div>
 
-## Pisgah Astronomical Research Institute 
+## Pisgah Astronomical Research Institute
 
 <div class="photos">
 <a href="http://www.flickr.com/photos/91218249@N05/9705915802/" title="North Carolina 2013 by katydecorah, on Flickr"><img src="http://farm6.staticflickr.com/5460/9705915802_81d945ab2b_c.jpg" class="pop-out" alt="North Carolina 2013"></a>

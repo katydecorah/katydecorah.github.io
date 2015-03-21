@@ -8,7 +8,9 @@ tags:
 - animation
 image: http://codepen.io/katydecorah/pen/dLgqG/image/large.png
 "show": "no"
+redirect_from: 
 ---
+
 
 <p data-height="300" data-theme-id="97" data-slug-hash="dLgqG" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/dLgqG'>VSCO CAM logo</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

@@ -19,7 +19,9 @@ tags:
   - Mapbox
 image: "http://a.tiles.mapbox.com/v3/katydecorah.h41bj3lj/5/9/11.png"
 published: true
+redirect_from: 
 ---
+
 
 **As of 7/26/2014, this site has moved to the [Mapbox static API](/code/2014/07/26/static-mapbox-for-jekyll/).**
 

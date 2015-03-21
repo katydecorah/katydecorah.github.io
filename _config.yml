@@ -11,6 +11,7 @@ highlighter: pygments
 markdown: kramdown
 
 url: http://katydecorah.com
+#permalink: /:categories/:title
 permalink: pretty
 
 paginate: 5

@@ -11,7 +11,9 @@ tags:
 image: "http://codepen.io/katydecorah/pen/vrzmH/image/large.png"
 published: true
 pen: vrzmH
+redirect_from: 
 ---
+
 
 <p data-height="350" data-theme-id="97" data-slug-hash="vrzmH" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/vrzmH'>Simple Box</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

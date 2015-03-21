@@ -2,7 +2,7 @@
 layout: post
 title: The Snow Hole
 category: adventures
-tags: 
+tags:
 - hiking
 - fresh air
 image: http://farm4.staticflickr.com/3809/9110227939_78d3fcd71f_n.jpg
@@ -10,9 +10,11 @@ locations: The Snow Hole,Petersburgh, NY
 map: static
 coordinates:
  - -73.2685215,42.7412473
+redirect_from: /adventures/2013/06/22/the-snow-hole/
 ---
 
-Awesome 2.7 mile hike to the [Snow Hole](http://www.taconichiking.com/snow-hole.php) in the Taconic Mountains. No snow in the hole, but we had a good time exploring inside and enjoying the temperature difference. 
+
+Awesome 2.7 mile hike to the [Snow Hole](http://www.taconichiking.com/snow-hole.php) in the Taconic Mountains. No snow in the hole, but we had a good time exploring inside and enjoying the temperature difference.
 
 I would definitely do this hike again!
 

@@ -10,16 +10,18 @@ locations:
 map: static
 coordinates:
  - -73.6011497,43.3416466
-tags: 
+tags:
   - fresh air
   - family
   - hiking
 image: http://farm3.staticflickr.com/2893/9874639174_9a41feb163_b.jpg
+redirect_from: /adventures/2013/09/21/adirondack-balloon-festival/
 ---
+
 
 ## Balloon Festival
 
-Friday night I drove to my folks house. The next morning, Mom and I woke up at 4 am. We drove to Glens Falls to take the 5:10 bus to the Adirondack Balloon Festival for the 100 balloon launch. We walked around the still dark airport runway while people began accumulating. We purchased a duo of coffee and bagels and stood around until launch time at 6:30. It was a pleasant morning, 55 degrees. 
+Friday night I drove to my folks house. The next morning, Mom and I woke up at 4 am. We drove to Glens Falls to take the 5:10 bus to the Adirondack Balloon Festival for the 100 balloon launch. We walked around the still dark airport runway while people began accumulating. We purchased a duo of coffee and bagels and stood around until launch time at 6:30. It was a pleasant morning, 55 degrees.
 
 Once the sun came up, the wind picked up. Crews unfolded balloons and brought them to life, but the wind won. The wind tossed the balloons around like rag dolls making the crowd gasp. That was it. No balloons to launch. Everyone was so tired and so disappointed.
 

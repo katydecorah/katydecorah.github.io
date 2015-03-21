@@ -2,7 +2,7 @@
 layout: post
 title: "Mount Baker &amp; Aunt Pauline’s .22"
 category: adventures
-tags: 
+tags:
   - fresh air
   - hiking
   - red shoes
@@ -11,13 +11,14 @@ tags:
 map: static
 coordinates:
  - -74.1183395,44.3291764
-locations: 
+locations:
   - "Mount Baker, Saranac Lake"
   - "Lake Placid,NY"
   - "Moreau,NY"
-image: "http://farm3.staticflickr.com/2823/10229168105_2131a10c49_c.jpg"
-published: true
+image: http://farm3.staticflickr.com/2823/10229168105_2131a10c49_c.jpg
+redirect_from: /adventures/2013/10/14/mount-baker/
 ---
+
 
 ## Mount Baker
 

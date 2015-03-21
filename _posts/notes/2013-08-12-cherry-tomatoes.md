@@ -6,9 +6,11 @@ tags:
 - green thumb
 image: http://farm4.staticflickr.com/3777/9496159841_8160d1b55b_z.jpg
 redirect_from:
-- "/epicurean/2013/08/12/cherry-tomatoes/"
-- "/growing/2013/08/12/cherry-tomatoes.html"
+- /epicurean/2013/08/12/cherry-tomatoes/
+- /growing/2013/08/12/cherry-tomatoes.html
+- /notes/2013/08/12/cherry-tomatoes/
 ---
+
 
 This past winter I decided that I wanted to grow food. More specifically, I wanted to wake up in my Albany studio apartment, reach my hand to my windowsill, and pick food off of my plants.
 

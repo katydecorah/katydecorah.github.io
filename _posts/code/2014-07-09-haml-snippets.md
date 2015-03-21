@@ -9,7 +9,9 @@ tags:
  - Haml
  - CodePen
 image: https://farm6.staticflickr.com/5588/14429683600_f7f828069a_o.png
+redirect_from: 
 ---
+
 
 I love writing my pens in Haml, but I still have a hard time remembering the syntax. I created a post on my CodePen blog as a running reference guide of all the fun Haml snippets that I have used to date. 
 

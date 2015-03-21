@@ -16,7 +16,9 @@ image: http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg
 published: true
 dribbble: http://drbl.in/jMcZ
 pen: mJeba
+redirect_from: 
 ---
+
 
 <p data-height="450" data-theme-id="97" data-slug-hash="mJeba" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/mJeba'>Escape by Carla Corrales</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 

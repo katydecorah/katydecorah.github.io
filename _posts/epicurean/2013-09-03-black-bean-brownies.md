@@ -2,12 +2,10 @@
 layout: post
 title: The Black Bean Brownie
 category: epicurean
-tags: 
+tags:
   - brownies
 image: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg
-image-small: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_n.jpg
-image-large: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_o.jpg
-published: true
+redirect_from: /epicurean/2013/09/03/black-bean-brownies/
 ---
 
 Surprisingly amazing! The brownies didn't taste or have the texture of black beans.

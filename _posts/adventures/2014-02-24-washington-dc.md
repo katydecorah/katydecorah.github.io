@@ -13,7 +13,9 @@ locations:
  - Washington, DC
 coordinates:
  - -77.05020904541016,38.889295860173895
+redirect_from: /adventures/2014/02/24/washington-dc/
 ---
+
 
 I spent an awesome week in DC.
 

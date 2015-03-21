@@ -2,10 +2,12 @@
 layout: post
 title: The Cheers Sweatshirt
 category: notes
-tags: 
+tags:
   - family
-image: "http://farm4.staticflickr.com/3690/11890656616_c2f1b49dba_b.jpg"
+image: http://farm4.staticflickr.com/3690/11890656616_c2f1b49dba_b.jpg
+redirect_from: /notes/2014/01/11/the-cheers-sweatshirt/
 ---
+
 
 <div class="photos">
 <a href="http://www.flickr.com/photos/katydecorah/11890656616/" title="Cheers by katydecorah, on Flickr"><img src="http://farm4.staticflickr.com/3690/11890656616_c2f1b49dba_b.jpg" class="pop-out" alt="Cheers sweatshirt"></a>

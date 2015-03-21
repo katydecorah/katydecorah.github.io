@@ -2,7 +2,7 @@
 layout: post
 title: Simple Icons
 category: code
-tags: 
+tags:
   - Haml
   - Sass
   - CodePen
@@ -10,6 +10,7 @@ tags:
 image: http://codepen.io/katydecorah/pen/KhfCn/image/small.png
 published: true
 "show": "no"
+redirect_from:
 ---
 Original design by [Rovane Durso](http://dribbble.com/shots/1220920-Simple-Icons).
 

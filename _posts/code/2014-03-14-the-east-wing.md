@@ -9,7 +9,9 @@ tags:
  - elsewhere
  - time travel
  - podcasts
+redirect_from: 
 ---
+
 
 I had a nice time chatting with Chris Enns on the East Wing!
 

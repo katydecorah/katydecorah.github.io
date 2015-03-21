@@ -77,7 +77,9 @@ css: ".label {
   background: rgba(71, 5, 0, 0.5);
 }
 "
+redirect_from: 
 ---
+
 
 For this site I wanted my categories to be color coded, but I didn't want to put a lot of effort into managing it. Instead I spent a little effort into making sure I didn't have to manage it.
 

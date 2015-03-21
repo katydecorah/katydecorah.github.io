@@ -9,7 +9,9 @@ coordinates:
 zoom: 9
 tags:
  - road trip
+redirect_from: /adventures/2014/10/03/rhode-island/
 ---
+
 
 We spent last weekend in Newport and the start of the week in Providence, Rhode Island.
 

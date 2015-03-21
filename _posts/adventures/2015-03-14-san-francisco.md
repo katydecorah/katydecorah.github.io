@@ -9,7 +9,9 @@ locations:
 - San Francisco
 coordinates:
 - -122.4333534,37.7777447
+redirect_from: /adventures/2015/03/14/san-francisco/
 ---
+
 
 I was in Burlingame and San Francisco this past week for [FOSS4G NA](https://2015.foss4g-na.org/). Slides and video to come, but for now:
 

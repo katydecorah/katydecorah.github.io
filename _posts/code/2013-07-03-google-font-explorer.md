@@ -9,7 +9,9 @@ tags:
 pen: vetCA
 image: http://farm8.staticflickr.com/7313/12730828734_c2dd990974_o.png
 project: true
+redirect_from: 
 ---
+
 <p data-height="400" data-theme-id="97" data-slug-hash="vetCA" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/vetCA'>Google Font Explorer</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 *Update 9/12/2013* I received many requests on CodePen to make this pen its own page. So [here is the Google Font Explorer](http://katydecorah.com/google-font-explorer/)!

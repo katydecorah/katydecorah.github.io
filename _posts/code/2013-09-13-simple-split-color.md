@@ -7,7 +7,9 @@ tags:
 - "single element"
 image: http://codepen.io/katydecorah/pen/ElaeD/image/large.png
 "show": "no"
+redirect_from: 
 ---
+
 
 <p data-height="450" data-theme-id="97" data-slug-hash="ElaeD" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/ElaeD'>Simple Split Color Element</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

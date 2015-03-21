@@ -10,7 +10,9 @@ tags:
 pen: xADtE
 image: http://farm3.staticflickr.com/2813/12730353565_9761bd9128_o.png
 project: true
+redirect_from: 
 ---
+
 
 <p data-height="400" data-theme-id="97" data-slug-hash="xADtE" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/xADtE'>Haml Clock</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

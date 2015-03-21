@@ -8,7 +8,9 @@ tags:
  - Rdio
  - PHP
 image: https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png
+redirect_from: 
 ---
+
 
 In 2008, I started creating a playlist for every season. I kept my playlists in iTunes, but have migrated to Rdio. These playlists are my audio diaries. I can listen to one and remember where I was, where I was going, who I was with, and how I felt. I love these playlists.
 

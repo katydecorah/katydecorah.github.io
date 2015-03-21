@@ -5,6 +5,7 @@ category: epicurean
 tags:
 - treats
 image: http://farm4.staticflickr.com/3761/9363184178_cac8e71d0a_c.jpg
+redirect_from: /epicurean/2013/07/20/homemade-vanilla-marshmallows/
 ---
 
 I love marshmallows. I officially love homemade marshmallows even more.

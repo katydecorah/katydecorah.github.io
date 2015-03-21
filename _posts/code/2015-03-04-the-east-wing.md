@@ -8,7 +8,9 @@ image: https://farm9.staticflickr.com/8615/16536671800_8a0a3d88bd_b.jpg
 tags:
  - elsewhere
  - podcasts
+redirect_from: 
 ---
+
 
 [A year later](/code/2014/03/14/the-east-wing/), I'm back chatting with Tim:
 

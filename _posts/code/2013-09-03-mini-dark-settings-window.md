@@ -9,7 +9,9 @@ tags:
   - Dribbble
 image: http://codepen.io/katydecorah/pen/LpsGB/image/small.png
 "show": "no"
+redirect_from: 
 ---
+
 
 Original design by [Ben Bate](http://dribbble.com/shots/779059).
 

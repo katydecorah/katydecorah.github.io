@@ -2,7 +2,7 @@
 layout: post
 title: Lake Placid &amp; Potter's Point
 category: adventures
-tags: 
+tags:
 - fresh air
 - friends
 - family
@@ -13,7 +13,9 @@ locations:
 map: static
 coordinates:
  - -73.9835766,44.2805657
+redirect_from: /adventures/2013/08/04/this-weekend/
 ---
+
 
 This weekend I visited my college roommate in Lake Placid. We walked around Mirror Lake once a day, ate delicious food, and people watched. It was refreshing!
 

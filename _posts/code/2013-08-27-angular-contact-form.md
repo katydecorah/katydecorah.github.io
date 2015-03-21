@@ -9,7 +9,9 @@ tags:
   - AngularJS
 image: http://codepen.io/katydecorah/pen/IiDKe/image/small.png
 project: true
+redirect_from: 
 ---
+
 
 My first try Angular form validation.
 

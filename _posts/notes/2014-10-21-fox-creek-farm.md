@@ -2,7 +2,9 @@
 title: Half Share
 category: notes
 image: https://farm4.staticflickr.com/3849/15007874310_df37d39893_z.jpg
+redirect_from: /notes/2014/10/21/fox-creek-farm/
 ---
+
 
 We enjoyed 20 weeks of the [Fox Creek Farm CSA](http://www.foxcreekfarmcsa.com/).
 

@@ -11,7 +11,9 @@ tags:
 image: http://farm4.staticflickr.com/3708/12730299513_58bce11c10_o.png
 pen: ipEka
 published: true
+redirect_from: 
 ---
+
 
 <p data-height="500" data-theme-id="97" data-slug-hash="ipEka" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/ipEka'>Flat icon by _Bosco</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

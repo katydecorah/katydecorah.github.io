@@ -9,7 +9,9 @@ tags:
  - Sass
  - yay
 image: http://farm4.staticflickr.com/3772/12730355005_2434189c5b_o.png
+redirect_from: 
 ---
+
 
 <p data-height="560" data-theme-id="97" data-slug-hash="EGAmb" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/EGAmb'>calc(you + me)</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 

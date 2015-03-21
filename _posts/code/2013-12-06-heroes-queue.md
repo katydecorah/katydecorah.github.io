@@ -12,7 +12,9 @@ tags:
 image: http://codepen.io/katydecorah/pen/cJfhC/image/large.png
 pen: cJfhC
 dribbble: http://drbl.in/jzgO
+redirect_from: 
 ---
+
 <p data-height="350" data-theme-id="97" data-slug-hash="cJfhC" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cJfhC'>Heroes Queue by Antonas Deduchovas</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I love trying to find different ways to get a job done. Especially when it means using a certain piece of technology in an unexpected way. Maybe the job is silly, but it's the problem solving that I really, truly dig.

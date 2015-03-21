@@ -10,7 +10,9 @@ locations:
  - Delmar, NY
 coordinates:
  - -73.8894491,42.6086815
+redirect_from: /adventures/2014/08/24/five-rivers/
 ---
+
 
 This weekend we explored [Five Rivers](http://www.dec.ny.gov/education/1835.html) in Delmar.
 
