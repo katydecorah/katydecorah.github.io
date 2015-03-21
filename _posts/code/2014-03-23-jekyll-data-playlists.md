@@ -38,7 +38,7 @@ I ditched the database and moved the playlists into a single YAML file. Using PH
 
 ![playlists.xml](https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png)
 
-Using liquid, I could now spin through the data. To test, I created a [playlist master](http://katydecorah.com/playlist-master) page that pulls all the data from `playlists.yml` into a beautiful list.
+Using liquid, I could now spin through the data. To test, I created a [playlist master](http://katydecorah.com/playlists) page that pulls all the data from `playlists.yml` into a beautiful list.
 
 Things were looking tighter, but I still had duplicated data on my site. I had the playlists stored in the YAML file and I had the markup I copied and pasted into individual posts.
 
