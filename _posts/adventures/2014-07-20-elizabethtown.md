@@ -18,9 +18,13 @@ This weekend we stayed with friends in Lewis.  On Saturday we woke up early to c
 In the afternoon we took a little excursion out to Lake Champlain and Ausable Chasm.
 
 <div class="photos">
+
 <img src="https://farm3.staticflickr.com/2902/14514334360_9a9449c24a_b.jpg" alt="Lake Champlain">
+
 <img src="https://farm6.staticflickr.com/5578/14514360819_7a64f38074_b.jpg" alt="Ausable Chasm" class="img-thirds">
+
 <img src="https://farm4.staticflickr.com/3870/14678011926_0e7da9fdd7_b.jpg" alt="Ausable Chasm" class="img-thirds">
+
 <img src="https://farm4.staticflickr.com/3907/14514367399_b410ce770a_b.jpg" alt="Ausable Chasm" class="img-thirds">
 </div>
 

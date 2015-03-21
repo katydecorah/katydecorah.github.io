@@ -12,6 +12,7 @@ recipe: http://theheritagecook.com/remembering-mom-raspberry-chocolate-brownies-
 recipe-title: Raspberry-Chocolate Brownies
 ---
 <div class="photos">
+
 <img src="https://farm3.staticflickr.com/2939/14289010659_37f7efa467_b.jpg" alt="Raspberry Chocolate Brownies">
 </div>
 
