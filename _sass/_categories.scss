@@ -24,8 +24,34 @@
 
   @extend %clearfix;
 
-  margin-bottom: 2em;
-  margin-top: 3em;
+  @include breakpoint(gt-mobile) {
+    margin-bottom: 2em;
+    margin-top: 3em;
+  }
+
+  .fa-ul {
+
+    @include breakpoint(gt-mobile) {
+      margin: 0;
+    }
+
+  }
+
+  li:last-child a {
+
+    @include breakpoint(gt-mobile) {
+      margin-right: 0;
+    }
+
+  }
+
+  .fa-li {
+
+    @include breakpoint(gt-mobile) {
+      display: none;
+    }
+
+  }
 
 }
 
@@ -35,6 +61,7 @@
     align-items: center;
     display: flex;
     justify-content: left;
+    padding: .2em 0;
   }
 
   @include breakpoint(gt-mobile) {
@@ -42,33 +69,29 @@
     float: left;
     margin-right: 4%;
     width: 22%;
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-  }
-
-  @include breakpoint(mobile) {
-    margin-bottom: 1em;
   }
 
   .category-title {
 
-    @extend %fancy-type;
-
-    font-size: $font-small;
-
     @include breakpoint(gt-mobile) {
       display: block;
+      font-size: $font-xs;
       margin-top: .75em;
       padding: 0 .25em;
     }
 
-    @include breakpoint(mobile) {
-      margin-left: 1em;
-    }
+  }
 
+}
+
+.category-recents,
+.category-olders {
+
+  .fa-ul {
+
+    @extend %clearfix;
+
+    margin-bottom: 0;
   }
 
 }
@@ -86,15 +109,18 @@
   }
 
   @include breakpoint(mobile) {
-    display: inline-block;
-    padding-bottom: 20%;
-    width: 20%;
+    display: none;
   }
 
 }
 
-.category-older {
+.category-olders {
   clear: both;
+
+  .category-older {
+    position: relative;
+  }
+
 }
 
 .badge {
