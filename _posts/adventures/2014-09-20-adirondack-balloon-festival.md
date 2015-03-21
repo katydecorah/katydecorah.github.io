@@ -24,15 +24,22 @@ coordinates:
 11. Eat breakfast at the Peppermill.
 
 <div class="photos">
+
 <img src="https://farm4.staticflickr.com/3835/15274884896_293d43f7e2_b.jpg" class="img-wide" alt="Adirondack Balloon Festival 2014">
+
 <img src="https://farm4.staticflickr.com/3902/15294774571_e762bfc036_b.jpg" class="img-tall" alt="Adirondack Balloon Festival 2014">
 
+
 <img src="https://farm6.staticflickr.com/5594/15111373587_5acdf6d653_b.jpg" class="img-wide" alt="Adirondack Balloon Festival 2014">
+
 <img src="https://farm4.staticflickr.com/3874/15274892546_69b178163c_b.jpg" class="img-tall" alt="Elephant - Adirondack Balloon Festival 2014">
+
 
 <img src="https://farm4.staticflickr.com/3903/15297564342_643dc19a0e_b.jpg" alt="Fire - Adirondack Balloon Festival 2014">
 
+
 <img src="https://farm6.staticflickr.com/5566/15294784241_c3e2b8d4c0_b.jpg"  alt="Pano - Adirondack Balloon Festival 2014">
+
 
 <img src="https://farm4.staticflickr.com/3881/15111212690_572bb34d6f_b.jpg"  alt="Pano - Adirondack Balloon Festival 2014">
 </div>
