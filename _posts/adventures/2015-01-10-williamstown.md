@@ -16,8 +16,11 @@ redirect_from: /adventures/2015/01/10/williamstown/
 Or, how we beat cabin fever by fleeing cold New York for cold Massachusetts for one night.
 
 <div class="photos">
+
 <img src="https://farm8.staticflickr.com/7552/16224361696_0295ce29c6_h.jpg" class="img-thirds" alt="Williamstown">
+
 <img src="https://farm8.staticflickr.com/7549/16224361846_92a6a41e47_h.jpg" class="img-thirds" alt="Williamstown">
+
 <img src="https://farm8.staticflickr.com/7545/16250268435_ae1b1647df_h.jpg" class="img-thirds" alt="Williamstown">
 </div>
 
