@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Simple Split Color
+title: Simple split color
 category: code
 tags:
 - Sass
 - "single element"
 image: http://codepen.io/katydecorah/pen/ElaeD/image/large.png
-"show": "no"
-redirect_from: 
+redirect_from: /code/2013/09/13/simple-split-color/
 ---
 
 

@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Random() Bubbly
+title: Random() bubbly
 category: code
-tags: 
+tags:
   - CodePen
   - Sass
   - Haml
   - no JS
   - random
 image: http://codepen.io/katydecorah/pen/xbtch/image/small.png
-"show": "no"
-redirect_from: 
+redirect_from: /code/2013/08/27/random-bubbly/
+
 ---
 
 

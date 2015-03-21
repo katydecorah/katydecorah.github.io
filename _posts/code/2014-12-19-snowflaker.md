@@ -8,7 +8,8 @@ tags:
 - box-shadow
 image: http://i.imgur.com/yNv3nmo.gif
 codepen: zxBRKv
-redirect_from: 
+redirect_from: /code/2014/12/19/snowflaker/
+
 ---
 
 

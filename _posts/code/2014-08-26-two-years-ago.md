@@ -1,11 +1,12 @@
 ---
 title: Two years ago on CodePen
 category: code
-tags: 
+tags:
  - CodePen
  - yay
 image: https://farm6.staticflickr.com/5559/14938075432_af54665e34_o.png
-redirect_from: 
+redirect_from: /code/2014/08/26/two-years-ago/
+
 ---
 
 

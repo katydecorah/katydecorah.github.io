@@ -9,11 +9,11 @@ tags:
   - Dribbble
   - "box-shadow"
   - animation
-image: "http://i.cdpn.io.s3.amazonaws.com/6362.uIEFy.bc2d5743-393d-4569-9887-20a32aed7fd0.png"
-published: true
+image: http://i.cdpn.io.s3.amazonaws.com/6362.uIEFy.bc2d5743-393d-4569-9887-20a32aed7fd0.png
 pen: uIEFy
 dribbble: http://dribbble.com/shots/1316513
-redirect_from: 
+redirect_from: /code/2013/11/20/rabbit-by-beard-chicken/
+
 ---
 
 

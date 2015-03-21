@@ -11,7 +11,7 @@ tags:
 pen: BfuGF
 image: https://farm3.staticflickr.com/2860/12730278733_e045273427_o.png
 browser: Chrome 32.0.1700.102
-redirect_from: 
+redirect_from: /code/2014/01/30/power-up-preloader/
 ---
 
 

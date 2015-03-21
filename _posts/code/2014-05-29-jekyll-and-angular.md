@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Jekyll and Angular
+title: Jekyll and AngularJS
 category: code
 tags:
  - CodePen
  - AngularJS
 pen: LqbjG
 image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
-redirect_from: 
+redirect_from: /code/2014/05/29/jekyll-and-angular/
+
 ---
 
 

@@ -9,7 +9,8 @@ tags:
   - CodePen
   - yay
 image: http://farm4.staticflickr.com/3778/12730510863_605ccbbc36_o.png
-redirect_from: 
+redirect_from: /code/2013/10/10/navigation-bar/
+
 ---
 
 

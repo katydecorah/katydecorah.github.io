@@ -2,14 +2,14 @@
 layout: post
 title: Forebruary
 category: code
-tags: 
+tags:
 - Sass
 - CodePen
 - jQuery
 - Haml
 pen: Chmws
 image: http://farm6.staticflickr.com/5492/12730828934_f9915c2509_o.png
-redirect_from: 
+redirect_from: /code/2013/08/07/forebruary/
 ---
 
 
@@ -19,8 +19,8 @@ A few days ago I saw [Forebruary](http://ilyabirman.net/projects/forebruary/) by
 
 I wrote the HTML in Haml. My main goal was to generate the numbers on the calendar efficiently. It took a some research, but I figured out how to use case statements. I have a feeling there is a better way to increment the numbers in each row, but I haven't arrived at it yet.
 
-Once I had everything styled, I tackled the position of the frame. The frame slides to indicate the entire month. The last two columns, highlighted in red, are the weekends. I knew I needed to find out today's date (to understand the current month) and which day of the week the first day of the month starts. I found [JavaScript to find the first day of the month](http://stackoverflow.com/questions/13571700/get-first-and-last-date-of-current-month-with-javascript-or-jquery) for any given month or the current month. 
+Once I had everything styled, I tackled the position of the frame. The frame slides to indicate the entire month. The last two columns, highlighted in red, are the weekends. I knew I needed to find out today's date (to understand the current month) and which day of the week the first day of the month starts. I found [JavaScript to find the first day of the month](http://stackoverflow.com/questions/13571700/get-first-and-last-date-of-current-month-with-javascript-or-jquery) for any given month or the current month.
 
-Once I had the value for the first day of the month, I was set. August starts on a Thursday, or day of the week number 4 (remember the week starts on Monday). Now I know that, for any month that begins on a Thursday it will have the same starting position. I just needed to absolutely position the frame for each day of the week. I found the position by manually adjusting the numbers. I created if statements to compare the values to move the frame accordingly. 
+Once I had the value for the first day of the month, I was set. August starts on a Thursday, or day of the week number 4 (remember the week starts on Monday). Now I know that, for any month that begins on a Thursday it will have the same starting position. I just needed to absolutely position the frame for each day of the week. I found the position by manually adjusting the numbers. I created if statements to compare the values to move the frame accordingly.
 
 Next month the frame should automatically slide to capture September.

@@ -12,8 +12,8 @@ tags:
 image: http://farm8.staticflickr.com/7409/12730119235_c26ceaf678_o.png
 pen: lqBtz
 dribbble: http://drbl.in/jJIr
-published: true
-redirect_from: 
+redirect_from: /code/2014/01/01/z-index-and-transform/
+
 ---
 
 

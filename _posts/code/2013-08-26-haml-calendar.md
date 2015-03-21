@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Haml Calendar
+title: Haml calendar
 category: code
 tags:
   - CodePen
@@ -9,7 +9,8 @@ tags:
 pen: aDAoG
 image: http://farm8.staticflickr.com/7446/12730512683_90cba24840_o.png
 project: true
-redirect_from: 
+redirect_from: /code/2013/08/26/haml-calendar/
+
 ---
 
 

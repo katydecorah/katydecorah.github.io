@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Optical Illusions
+title: Optical illusions
 category: code
-tags: 
+tags:
   - CodePen
   - Sass
   - Haml
   - no JS
 pen: gwAmk
 image: http://farm8.staticflickr.com/7324/12730510673_c1866394ba_o.png
-redirect_from: 
+redirect_from: /code/2013/08/19/optical-illusion/
 ---
 
 

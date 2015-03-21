@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Simple Chart
+title: Simple chart
 category: code
-tags: 
+tags:
   - Sass
   - CodePen
   - jQuery
 image: http://codepen.io/katydecorah/pen/hungF/image/small.png
-"show": "no"
-redirect_from: 
+redirect_from: /code/2013/07/25/simple-chart/
+
 ---
 
 

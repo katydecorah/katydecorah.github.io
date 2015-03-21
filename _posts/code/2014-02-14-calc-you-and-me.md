@@ -9,7 +9,8 @@ tags:
  - Sass
  - yay
 image: http://farm4.staticflickr.com/3772/12730355005_2434189c5b_o.png
-redirect_from: 
+redirect_from: /code/2014/02/14/calc-you-and-me/
+
 ---
 
 

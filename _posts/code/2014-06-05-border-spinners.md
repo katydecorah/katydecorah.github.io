@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Border Spinners
+title: Border spinners
 category: code
 tags:
  - CodePen
  - border
  - animation
- - single element 
+ - single element
  - Sass
 image: http://i.imgur.com/axSxlAN.gif
 codepen: tbjqx
-redirect_from: 
+redirect_from: /code/2014/06/05/border-spinners/
+
 ---
 
 

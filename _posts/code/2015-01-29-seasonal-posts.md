@@ -6,8 +6,9 @@ tags:
 - Jekyll
 - static map
 image: https://farm9.staticflickr.com/8679/16397459852_eff661fed3_o.png
-redirect_from: "/code/2015/01/29/season-posts/"
-redirect_from: 
+redirect_from:
+- /code/2015/01/29/season-posts/
+- /code/2015/01/29/seasonal-posts/
 ---
 
 

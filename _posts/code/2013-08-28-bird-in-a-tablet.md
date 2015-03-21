@@ -2,15 +2,15 @@
 layout: post
 title: Bird in a tablet
 category: code
-tags: 
+tags:
   - CodePen
   - Sass
   - Haml
   - no JS
   - Font Awesome
 image: http://codepen.io/katydecorah/pen/DHCJg/image/small.png
-"show": "no"
-redirect_from: 
+redirect_from: /code/2013/08/28/bird-in-a-tablet/
+
 ---
 
 

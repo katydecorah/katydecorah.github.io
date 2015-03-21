@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scalable Balloons
+title: Scalable balloons
 category: code
 tags:
   - CodePen
@@ -8,10 +8,10 @@ tags:
   - Haml
   - random
   - animation
-image: "http://codepen.io/katydecorah/pen/cdkHn/image/large.png"
-published: true
+image: http://codepen.io/katydecorah/pen/cdkHn/image/large.png
 pen: cdkHn
-redirect_from: 
+redirect_from: /code/2013/11/05/scalable-balloons/
+
 ---
 
 

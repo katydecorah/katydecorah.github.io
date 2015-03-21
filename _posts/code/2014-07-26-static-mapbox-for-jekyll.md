@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Static Mapbox API for Jekyll Posts
+title: Static Mapbox API for Jekyll posts
 category: code
 coordinates:
  - -73.7236504,43.2294791
@@ -12,7 +12,8 @@ tags:
  - Mapbox
  - API
 image: https://farm6.staticflickr.com/5571/14562967428_1bd555644c_o.png
-redirect_from: 
+redirect_from: /code/2014/07/26/static-mapbox-for-jekyll/
+
 ---
 
 

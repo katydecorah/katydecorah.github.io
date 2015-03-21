@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Line Length-icator
+title: Line length-icator
 category: code
 tags:
 - CodePen
@@ -13,7 +13,8 @@ tags:
 pen: cufzB
 image: http://farm4.staticflickr.com/3830/12730512263_517fe233f6_o.png
 project: true
-redirect_from:
+redirect_from: /code/2013/05/28/line-lengthicator/
+
 ---
 
 <p data-height="600" data-theme-id="97" data-slug-hash="cufzB" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cufzB'>Line Length-icator</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

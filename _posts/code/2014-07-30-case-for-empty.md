@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Case for :empty
+title: A case for :empty
 elsewhere-link: http://codepen.io/katydecorah/blog/a-case-for-empty
 elsewhere-site: CodePen Blog
 category: code
@@ -9,7 +9,8 @@ tags:
  - CSS
  - CodePen
 image: https://farm6.staticflickr.com/5588/14429683600_f7f828069a_o.png
-redirect_from: 
+redirect_from: /code/2014/07/30/case-for-empty/
+
 ---
 
 

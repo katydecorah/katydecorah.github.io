@@ -12,7 +12,8 @@ tags:
 image: http://farm8.staticflickr.com/7083/13157662535_270504e7a3_o.png
 pen: htBka
 dribbble: http://drbl.in/ktXg
-redirect_from:
+redirect_from: /code/2014/03/14/leadership-letters/
+
 ---
 <figure>
 <p data-height="350" data-theme-id="97" data-slug-hash="htBka" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/htBka'>Leadership Letters #2. by Jeroen van Eerden</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

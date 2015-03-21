@@ -2,7 +2,7 @@
 layout: post
 title: "Food by nos"
 category: code
-tags: 
+tags:
 - Sass
 - Haml
 - Font Awesome
@@ -11,7 +11,7 @@ tags:
 image: http://farm4.staticflickr.com/3685/12730139965_505cccb115_o.png
 dribbble: http://dribbble.com/shots/1355254-Food
 pen: Kyabd
-redirect_from: 
+redirect_from: /code/2013/12/23/food-by-nos/
 ---
 
 

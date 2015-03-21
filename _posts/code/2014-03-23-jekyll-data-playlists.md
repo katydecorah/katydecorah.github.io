@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll Data Playlists
+title: Jekyll data playlists
 category: code
 tags:
  - Jekyll
@@ -8,7 +8,8 @@ tags:
  - Rdio
  - PHP
 image: https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png
-redirect_from: 
+redirect_from: /code/2014/03/23/jekyll-data-playlists/
+
 ---
 
 

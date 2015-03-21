@@ -2,7 +2,7 @@
 layout: post
 title: Heroes Queue by Antonas Deduchovas
 category: code
-tags: 
+tags:
   - CodePen
   - Dribbble
   - Sass
@@ -12,7 +12,8 @@ tags:
 image: http://codepen.io/katydecorah/pen/cJfhC/image/large.png
 pen: cJfhC
 dribbble: http://drbl.in/jzgO
-redirect_from: 
+redirect_from: /code/2013/12/06/heroes-queue/
+
 ---
 
 <p data-height="350" data-theme-id="97" data-slug-hash="cJfhC" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cJfhC'>Heroes Queue by Antonas Deduchovas</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
@@ -32,7 +33,7 @@ Before this project, I had known about a cool feature in Google Spreadsheets, *c
 ## Variables as conditions
 I set up my color variables as conditional formatting. For example, in any cell that had `$bg`, the condition called for that cell to be the background color I selected. I added more rules for other variables such as `$red`, `$face`, and `$shirt`. This step isn’t necessary, but it improves the experience.
 
-## Writing out the characters 
+## Writing out the characters
 With one eye in Photoshop and another in Google Drive, I started typing my variables into the spreadsheet. As I entered a variable that matched a condition, the background instantly changed. It only took a few minutes to assign a color variable to each cell. Plus, spreadsheets allow for mass select and paste, it was a snap.
 
 I ended up creating each character on  a 26&times;26 grid or in spreadsheet terms A1:Z26. This grid size came in handy later when concocting the formula.
@@ -49,10 +50,10 @@ Once I had the character ready, it was time for formula magic to output my `box-
 I entered this formula in the first cell after the last column, AA:1. This formula went through A1:Z26 and transposed all of the cell data, but I carefully defined the output so that each cell declares its own `box-shadow` value.
 
 The formula does the following:
-* If any cell within A1:Z26 doesn't equal “`$bg`”, then reformat the cell, but if it does then do “” (create a blank cell — so yes, the variable is superfluous as previously stated). 
+* If any cell within A1:Z26 doesn't equal “`$bg`”, then reformat the cell, but if it does then do “” (create a blank cell — so yes, the variable is superfluous as previously stated).
 * To reformat the cell, as seen in the second set of double quotes, each permitted cell generates the following `box-shadow` values `<offset-x> <offset-y> <blur-radius> <color>,`. Each cell dynamically adjusts the `offset-x` and `offset-y` values of the shadow according to its position in the spreadsheet. I set the `blur-radius` to 0 and used the existing cell data for the `color` of the shadow.
 
-Initially, I had used static values, for example: `9em 0em 0 $red,`, but that meant I couldn't scale the character because this was based on 1em. Instead, I made the values relative: `(9 * $width) (0 * $width) 0 $red,`. Now whenever I adjust the `$width` the character will stay in perfect proportion. 
+Initially, I had used static values, for example: `9em 0em 0 $red,`, but that meant I couldn't scale the character because this was based on 1em. Instead, I made the values relative: `(9 * $width) (0 * $width) 0 $red,`. Now whenever I adjust the `$width` the character will stay in perfect proportion.
 
 ## Gimme all the box-shadows
 Once I entered the formula into cell AA:1, the character was automatically transposed into `box-shadow` values. From there I selected all AA1:AZ26 cells, copied, and pasted as the value of `box-shadow:` into my CSS. And done!

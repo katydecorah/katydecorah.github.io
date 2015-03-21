@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Haml Clock
+title: Haml clock
 category: code
 tags:
 - CodePen
@@ -9,8 +9,7 @@ tags:
 - responsive
 pen: xADtE
 image: http://farm3.staticflickr.com/2813/12730353565_9761bd9128_o.png
-project: true
-redirect_from: 
+redirect_from: /code/2013/09/05/haml-clock/
 ---
 
 

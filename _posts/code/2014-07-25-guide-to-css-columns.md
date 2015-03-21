@@ -10,7 +10,8 @@ tags:
  - CSS
  - yay
 image: https://farm6.staticflickr.com/5592/14543209080_9ee6952be0_o.jpg
-redirect_from: 
+redirect_from: /code/2014/07/25/guide-to-css-columns/
+
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simple Icons
+title: Simple icons
 category: code
 tags:
   - Haml
@@ -8,9 +8,8 @@ tags:
   - CodePen
   - Font Awesome
 image: http://codepen.io/katydecorah/pen/KhfCn/image/small.png
-published: true
-"show": "no"
-redirect_from:
+redirect_from: /code/2013/09/04/simple-icons/
+
 ---
 Original design by [Rovane Durso](http://dribbble.com/shots/1220920-Simple-Icons).
 

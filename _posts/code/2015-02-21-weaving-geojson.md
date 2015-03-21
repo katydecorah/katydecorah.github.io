@@ -7,7 +7,8 @@ tags:
 - Mapbox
 - Jekyll
 image: https://farm9.staticflickr.com/8594/15981508984_a398d1fa77_b.jpg
-redirect_from: 
+redirect_from: /code/2015/02/21/weaving-geojson/
+
 ---
 
 

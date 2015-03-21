@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Holiday Tree(s)
+title: Holiday tree(s)
 category: code
 tags:
   - Haml
   - Sass
   - CodePen
   - holiday cheer
-image: "http://codepen.io/katydecorah/pen/xcDHf/image/large.png"
-published: true
+image: http://codepen.io/katydecorah/pen/xcDHf/image/large.png
 pen: xcDHf
-redirect_from: 
+redirect_from: /code/2013/12/19/holiday-trees/
+
 ---
 
 

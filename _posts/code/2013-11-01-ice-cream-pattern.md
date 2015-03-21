@@ -2,17 +2,17 @@
 layout: post
 title: Ice Cream Pattern by Dorottya Porkolab
 category: code
-tags: 
+tags:
   - CodePen
   - Sass
   - Dribbble
   - Haml
   - treats
 pen: Bjoui
-image: "http://codepen.io/katydecorah/pen/Bjoui/image/large.png"
-published: true
+image: http://codepen.io/katydecorah/pen/Bjoui/image/large.png
 dribbble: http://dribbble.com/shots/1294320-Ice-Cream-Pattern
-redirect_from: 
+redirect_from: /code/2013/11/01/ice-cream-pattern/
+
 ---
 
 

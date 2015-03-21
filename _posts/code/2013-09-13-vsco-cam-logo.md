@@ -7,8 +7,7 @@ tags:
 - Haml
 - animation
 image: http://codepen.io/katydecorah/pen/dLgqG/image/large.png
-"show": "no"
-redirect_from: 
+redirect_from: /code/2013/09/13/vsco-cam-logo/
 ---
 
 

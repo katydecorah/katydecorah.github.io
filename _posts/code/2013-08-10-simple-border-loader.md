@@ -2,13 +2,13 @@
 layout: post
 title: Simple border-width loader
 category: code
-tags: 
+tags:
   - Sass
   - CodePen
   - no JS
 image: http://codepen.io/katydecorah/pen/hdsLI/image/small.png
-"show": "no"
-redirect_from: 
+redirect_from: /code/2013/08/10/simple-border-loader/
+
 ---
 
 

@@ -2,12 +2,13 @@
 layout: post
 title: THREES App Store Button
 category: code
-tags: 
+tags:
  - CodePen
  - box-shadow
  - Sass
 image: http://farm4.staticflickr.com/3696/12857308175_d80c0ac743_o.png
-redirect_from: 
+redirect_from: /code/2014/02/11/threes-app-store-button/
+
 ---
 
 

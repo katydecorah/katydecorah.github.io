@@ -9,7 +9,8 @@ tags:
  - elsewhere
  - time travel
  - podcasts
-redirect_from: 
+redirect_from: /code/2014/03/14/the-east-wing/
+
 ---
 
 

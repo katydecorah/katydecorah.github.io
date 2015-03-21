@@ -13,10 +13,10 @@ tags:
   - transform
   - animation
 image: http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg
-published: true
 dribbble: http://drbl.in/jMcZ
 pen: mJeba
-redirect_from: 
+redirect_from: /code/2014/01/15/escape-by-carla-corrales/
+
 ---
 
 

@@ -10,7 +10,8 @@ tags:
  - responsive
 image: https://farm8.staticflickr.com/7170/13455308735_d336443366_o.png
 pen: ywmBE
-redirect_from: 
+redirect_from: /code/2014/03/27/word-break-word-wrap/
+
 ---
 
 

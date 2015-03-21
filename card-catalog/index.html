@@ -44,7 +44,6 @@ title: Card Catalog
 {% if forloop.index <= 4 %}
 <a class="category-recent" href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}">
 <div class="category-thumb" style="background-image:url({{ post.image }});"></div><span class="category-title">{{ post.title }}</span></a>
-<br>{{post.url}}
 {% endif %}
 {% endfor %}
 </div>
@@ -53,7 +52,7 @@ title: Card Catalog
 <ul class="fa-ul">
 {% for post in category.last %}
 {% if forloop.index > 4 %}
-<li><a href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}"><i class="fa fa-angle-right fa-li"></i><span class="category-title">{{ post.title }}</span></a><br>{{post.url}}</li>
+<li><a href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}"><i class="fa fa-angle-right fa-li"></i><span class="category-title">{{ post.title }}</span></a></li>
 {% endif %}
 {% endfor %}
 </ul>

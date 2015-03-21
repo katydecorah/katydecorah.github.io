@@ -1,14 +1,15 @@
 ---
 layout: post
-title: CSS Bicycle Wheel
+title: CSS bicycle wheel
 category: code
-tags: 
+tags:
 - Sass
 - Haml
 - CodePen
 pen: lJjIH
 image: http://farm8.staticflickr.com/7304/12730514073_72e52afa5d_o.png
-redirect_from: 
+redirect_from: /code/2013/08/01/bicycle-wheel/
+
 ---
 
 

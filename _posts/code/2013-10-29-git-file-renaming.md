@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Git File Renaming
+title: Git file renaming
 category: code
 tags:
   - Git
 image: http://farm8.staticflickr.com/7455/12730119245_3d8d6ec41a_o.jpg
-published: true
-redirect_from: 
+redirect_from: /code/2013/10/29/git-file-renaming/
 ---
 
 

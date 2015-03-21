@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bowl of Trees
+title: Bowl of trees
 category: code
 tags:
 - CodePen
@@ -9,8 +9,7 @@ tags:
 - Sass
 - random
 image: http://codepen.io/katydecorah/pen/oEiCf/image/large.png
-
-redirect_from: 
+redirect_from: /code/2013/09/18/bowl-of-trees/
 ---
 
 
