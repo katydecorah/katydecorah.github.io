@@ -187,6 +187,11 @@
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+
+  @include breakpoint(gt-mobile) {
+    left: -2.75em;
+  }
+
 }
 
 // scss-lint:disable VendorPrefixes,PropertySortOrder
@@ -195,6 +200,11 @@
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+
+  @include breakpoint(gt-mobile) {
+    right: -2.75em;
+  }
+
 }
 
 .post-prev:before,
