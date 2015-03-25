@@ -1,15 +1,18 @@
 ---
 layout: post
-title: Angular Contact Form
+title: AngularJS contact form
 category: code
-tags: 
+tags:
   - CodePen
   - Sass
   - Haml
   - AngularJS
 image: http://codepen.io/katydecorah/pen/IiDKe/image/small.png
 project: true
+redirect_from: /code/2013/08/27/angular-contact-form/
+
 ---
+
 
 My first try Angular form validation.
 

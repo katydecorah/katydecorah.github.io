@@ -166,14 +166,14 @@
   }
 
   &:hover {
-    color: rgba($link-color, .5);
+    color: $text-color;
     text-decoration: none;
     transition: $link-transition;
 
     &:before,
     &:after {
       border-color: inherit;
-      color: rgba($link-color, .5);
+      color: $text-color;
       transition: $link-transition;
     }
 
@@ -187,6 +187,11 @@
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+
+  @include breakpoint(gt-mobile) {
+    left: -2.75em;
+  }
+
 }
 
 // scss-lint:disable VendorPrefixes,PropertySortOrder
@@ -195,6 +200,11 @@
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+
+  @include breakpoint(gt-mobile) {
+    right: -2.75em;
+  }
+
 }
 
 .post-prev:before,
@@ -209,8 +219,7 @@
   position: relative;
 
   @include breakpoint(gt-mobile) {
-    border: 1px solid;
-    border-radius: $border-radius-img;
+    border: 2px solid transparent;
     display: block;
     height: 2em;
     line-height: 2em;
@@ -222,7 +231,8 @@
     width: 2em;
 
     &:hover {
-      color: $link-hover;
+      border: 2px solid;
+      color: $text-color;
     }
 
   }

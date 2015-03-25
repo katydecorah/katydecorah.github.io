@@ -6,3 +6,5 @@ linters:
 
   UrlFormat:
     enabled: false
+  VendorPrefix:
+    enabled: false

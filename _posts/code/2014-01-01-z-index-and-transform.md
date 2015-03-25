@@ -12,8 +12,10 @@ tags:
 image: http://farm8.staticflickr.com/7409/12730119235_c26ceaf678_o.png
 pen: lqBtz
 dribbble: http://drbl.in/jJIr
-published: true
+redirect_from: /code/2014/01/01/z-index-and-transform/
+
 ---
+
 
 <p data-height="400" data-theme-id="97" data-slug-hash="lqBtz" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/lqBtz'>END by Catt</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

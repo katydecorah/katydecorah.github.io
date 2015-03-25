@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll Data Playlists
+title: Jekyll data playlists
 category: code
 tags:
  - Jekyll
@@ -8,7 +8,10 @@ tags:
  - Rdio
  - PHP
 image: https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png
+redirect_from: /code/2014/03/23/jekyll-data-playlists/
+
 ---
+
 
 In 2008, I started creating a playlist for every season. I kept my playlists in iTunes, but have migrated to Rdio. These playlists are my audio diaries. I can listen to one and remember where I was, where I was going, who I was with, and how I felt. I love these playlists.
 
@@ -36,7 +39,7 @@ I ditched the database and moved the playlists into a single YAML file. Using PH
 
 ![playlists.xml](https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png)
 
-Using liquid, I could now spin through the data. To test, I created a [playlist master](http://katydecorah.com/playlist-master) page that pulls all the data from `playlists.yml` into a beautiful list.
+Using liquid, I could now spin through the data. To test, I created a [playlist master](http://katydecorah.com/playlists) page that pulls all the data from `playlists.yml` into a beautiful list.
 
 Things were looking tighter, but I still had duplicated data on my site. I had the playlists stored in the YAML file and I had the markup I copied and pasted into individual posts.
 

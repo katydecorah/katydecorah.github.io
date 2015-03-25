@@ -6,31 +6,25 @@
   margin-bottom: 2em;
   position: relative;
 
-
-  &:after {
-    border-top: 1px dashed $header-bg;
-    content: '';
-    display: block;
-    position: absolute;
-    top: 100%;
-    width: 100%;
-  }
-
-
   a {
-    padding-bottom: .5em;
-    padding-top: .5em;
+    padding-bottom: .75em;
+    padding-top: .75em;
   }
 
 }
 
 .logo {
+
+  @extend %fancy-type;
+
   color: $dark-accent;
-  display: block;
-  font-weight: $body-font-weight;
+
 
   @include breakpoint(gt-mobile) {
     float: left;
+    font-size: 1.25em;
+    left: -.25em;
+    position: relative;
   }
 
   &:hover {

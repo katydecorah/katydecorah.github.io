@@ -10,7 +10,10 @@ tags:
  - responsive
 image: https://farm8.staticflickr.com/7170/13455308735_d336443366_o.png
 pen: ywmBE
+redirect_from: /code/2014/03/27/word-break-word-wrap/
+
 ---
+
 
 <p data-height="450" data-theme-id="97" data-slug-hash="ywmBE" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/ywmBE/'>word-break or word-wrap?</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 

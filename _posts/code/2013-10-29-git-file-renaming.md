@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Git File Renaming
+title: Git file renaming
 category: code
 tags:
   - Git
 image: http://farm8.staticflickr.com/7455/12730119245_3d8d6ec41a_o.jpg
-published: true
+redirect_from: /code/2013/10/29/git-file-renaming/
 ---
+
 
 Today at work I needed to move and rename a ton of files, but I also needed to make sure that the Git history followed. When I tried to move the files manually, SourceTree thought I deleted the files and then created new files elsewhere. When I commit files like this, SourceTree is usually smart enough to catch on, but it wasn't happening. No good.
 

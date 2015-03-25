@@ -5,7 +5,9 @@ category: notes
 tags:
  - yay
 image: https://farm6.staticflickr.com/5477/14174930269_b388e7da02_b.jpg
+redirect_from: /notes/2014/06/06/happy-birthday/
 ---
+
 
 <div class="photos">
 <img src="https://farm6.staticflickr.com/5477/14174930269_b388e7da02_b.jpg" alt="Happy birthday blog!">
