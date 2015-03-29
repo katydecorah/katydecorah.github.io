@@ -16,3 +16,18 @@
   }
 
 }
+
+
+.btn-o {
+  border: 1px solid;
+  color: $text-color;
+  display: inline-block;
+  font-size: $font-small;
+  margin-bottom: .5em;
+  padding: .25em .5em;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}
