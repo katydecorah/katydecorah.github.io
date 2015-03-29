@@ -1,5 +1,10 @@
 - section: Writing
   contents:
+  - site: The Pastry Box Project
+    contents:
+    - title: Breathe with your stomach
+      date: 2015-03-29
+      link: https://the-pastry-box-project.net/katy-decorah/2015-march-29
   - site: Mapbox
     contents:
     - title: Make a snowfall map
@@ -8,12 +13,6 @@
     - title: From fast styles to advanced cartography
       date: 2015-01-26
       link: https://www.mapbox.com/blog/choosing-the-right-tool/
-    - title: Beautiful map styles for Editor
-      date: 2015-01-14
-      link: https://www.mapbox.com/blog/map-styles-for-editor/
-    - title: Space Station style ready for lift-off
-      date: 2014-12-23
-      link: https://www.mapbox.com/blog/space-station-open-source/
     - title: Using Github for your map design workflow
       date: 2014-12-18
       link: https://www.mapbox.com/blog/github-for-map-design-workflow/
@@ -61,17 +60,15 @@
         link: http://katydecorah.com/writing-for-everyone/
   - site: The East Wing
     contents:
-    - title: "#12: Sleep Pajamas and Work Pajamas - Katy DeCorah"
+    - title: "Sleep Pajamas and Work Pajamas"
       date: 2015-03-04
       link: http://goodstuff.fm/theeastwing/12
+    - title: Episode 86
+      date: 2014-03-14
+      link: http://5by5.tv/eastwing/86
   - site: MakerSquare
     contents:
     - title: Animating the DOM with CSS and JavaScript
       with: Flip Stewart
       date: 2014-09-14
       link: https://www.youtube.com/watch?v=rAJgJRvAE98
-  - site: The East Wing
-    contents:
-    - title: Episode 86
-      date: 2014-03-14
-      link: http://5by5.tv/eastwing/86

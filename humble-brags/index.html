@@ -1,0 +1,21 @@
+---
+title: Humble brags
+layout: no-title
+---
+
+{% for brag in site.data.brags %}
+{% for section in brag.section %}
+
+<h2 class="brag-heading">{{ section }}</h2>
+{% for site in brag.contents %}
+
+<div class="brags" id="{{ site.site  | rereplace:' ','-' | downcase }}">
+<p class="brag-site">{{ site.site }}</p>
+<ul class="brag-ul fa-ul small">
+{% for item in site.contents %}<li class="brag-li"><i class="fa fa-angle-right fa-li"></i><a href="{{item.link}}" class="brag">{{ item.title }}</a>{% if item.with %} with {{ item.with }}{% endif %}, {{item.date | date: "%B %-d, %Y"}}</li>{% endfor %}
+</ul>
+</div>
+{% endfor %}
+
+{% endfor %}
+{% endfor %}
