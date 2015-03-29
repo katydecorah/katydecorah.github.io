@@ -1,0 +1,26 @@
+.brag-heading {
+  border-bottom: 1px solid;
+  margin-top: 1em;
+}
+
+.brag-heading,
+.brag {
+  margin-bottom: 1em;
+}
+
+.brag-site {
+  margin-bottom: .5em;
+}
+
+.brags {
+
+  &:target {
+    padding-top: $body-padding-top / 2;
+    transition: .5s;
+  }
+
+}
+
+.brag-ul {
+  margin-top: 0;
+}
