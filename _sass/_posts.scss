@@ -82,7 +82,7 @@
 .post-header-no-map {
 
   h1 {
-    margin-bottom: .25em;
+    margin-bottom: .5em;
   }
 
 }
@@ -109,7 +109,6 @@
   color: $fancy-accent-aa;
   display: inline-block;
   margin-bottom: .25em;
-  margin-right: .25em;
 
   &:hover {
     color: rgba($fancy-accent-aa, .5);
@@ -128,7 +127,7 @@
 
   .post-meta {
     color: $text-color-light;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
 
 }
