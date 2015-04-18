@@ -9,8 +9,9 @@ tags:
 - Font Awesome
 pen: Bjhdw
 image: http://farm4.staticflickr.com/3731/12730354485_3d3356068b_o.png
-redirect_from: /code/2013/08/05/font-awesome-buttons/
-
+redirect_from:
+- /code/2013/08/05/font-awesome-buttons/
+- /code/2013/08/05/font-awesome-buttons.html
 ---
 
 <p data-height="268" data-theme-id="97" data-slug-hash="Bjhdw" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Bjhdw'>Font Awesome Buttons</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
