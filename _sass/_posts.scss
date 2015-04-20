@@ -77,39 +77,40 @@
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
-  }
 
-  table caption {
-    color: $text-color;
-    font: italic 85%/1 arial,sans-serif;
-    padding: 1em 0;
-    text-align: center;
-  }
+    caption {
+      color: $text-color;
+      font: italic 85%/1 arial,sans-serif;
+      padding: 1em 0;
+      text-align: center;
+    }
+    
+    td {
+      background-color: $white;
+    }
 
-  table td,
-  table th {
-    border-left: 1px solid darken($light-accent, 10%);
-    border-width: 0 0 0 1px;
-    font-size: inherit;
-    margin: 0;
-    overflow: visible;
-    padding: .5em 1em;
-  }
+    td,
+    th {
+      border-left: 1px solid darken($light-accent, 10%);
+      border-width: 0 0 0 1px;
+      font-size: inherit;
+      margin: 0;
+      overflow: visible;
+      padding: .5em 1em;
+    }
 
-  table td:first-child,
-  table th:first-child {
-    border-left-width: 0;
-  }
+    td:first-child,
+    th:first-child {
+      border-left-width: 0;
+    }
 
-  table thead {
-    background-color: $light-accent;
-    color: $text-color;
-    text-align: left;
-    vertical-align: bottom;
-  }
+    thead {
+      background-color: $light-accent;
+      color: $text-color;
+      text-align: left;
+      vertical-align: bottom;
+    }
 
-  table td {
-    background-color: $white;
   }
 
   .note {
