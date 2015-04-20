@@ -53,9 +53,14 @@ links:
   url: /time-capsule/
   icon: archive
   position: top
+
 - text: CodePen
   url: http://codepen.io/katydecorah/
   icon: codepen
+  position: bottom
+- text: Github
+  url: https://github.com/katydecorah
+  icon: github-alt
   position: bottom
 - text: Twitter
   url: https://twitter.com/katydecorah
@@ -74,6 +79,7 @@ mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoibGQtZjZINCJ9.qrZnVyO9TghqkQDZPF
 mapid: katydecorah.21d6ba77
 mapid-winter: katydecorah.70f1a6d1
 mapboxjs: v2.1.5
+font-awesome: 4.3.0
 
 defaults:
   -

@@ -47,21 +47,21 @@
 .header {
 
   .nav-link {
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     color: $link-color;
     display: block;
     font-size: $font-xs;
     line-height: 1;
     margin-right: .25em;
-    margin-top: 1.75em;
+    margin-top: 1.5em;
     min-height: 1em;
-    padding: .5em;
+    padding: .5em 1em;
     position: relative;
   }
 
   .active .nav-link,
   .nav-link:hover {
-    border: 2px solid;
+    border: 1px solid;
     color: $text-color;
     text-decoration: none;
   }
