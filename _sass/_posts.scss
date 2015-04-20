@@ -16,7 +16,8 @@
   figcaption,
   pre,
   blockquote,
-  .playlist {
+  .playlist,
+  table {
     margin-left: auto;
     margin-right: auto;
   }
@@ -46,7 +47,8 @@
   embed,
   .gist,
   iframe,
-  .media {
+  .media,
+  table {
 
     @extend %clearfix;
 
@@ -69,6 +71,53 @@
     }
 
   }
+
+  table {
+    border: 1px solid darken($light-accent, 10%);
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+  }
+
+  table caption {
+    color: $text-color;
+    font: italic 85%/1 arial,sans-serif;
+    padding: 1em 0;
+    text-align: center;
+  }
+
+  table td,
+  table th {
+    border-left: 1px solid darken($light-accent, 10%);
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+  }
+
+  table td:first-child,
+  table th:first-child {
+    border-left-width: 0;
+  }
+
+  table thead {
+    background-color: $light-accent;
+    color: $text-color;
+    text-align: left;
+    vertical-align: bottom;
+  }
+
+  table td {
+    background-color: $white;
+  }
+
+  .note {
+    background: $light-accent;
+    border-left: .25em solid darken($light-accent, 10%);
+    padding: 1em;
+  }
+
 }
 
 .post-header {
