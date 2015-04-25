@@ -51,19 +51,17 @@ h1 {
 
 }
 
-h2 {
+h2,
+h3 {  @extend %headings-type; }
 
-  @extend %fancy-type;
-
-  font-size: $h2-size;
-}
-
-h3,
-h4 {  @extend %headings-type; }
+h2 {font-size: $h2-size;}
 
 h3 {font-size: $h3-size;}
 
-h4 {font-size: $h4-size;}
+h4 {
+  font-size: $h4-size;
+  font-weight: normal;
+}
 
 .xl {
   font-size: 1.5em;
@@ -119,7 +117,7 @@ ol { list-style: decimal; }
 }
 
 hr {
-  border: 1px solid $accent;
+  border: 1px solid $white;
   margin: 2em auto;
   max-width: 70%;
 }

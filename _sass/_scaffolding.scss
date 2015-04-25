@@ -86,7 +86,7 @@ img {
 
 .img-fourths {
 
-  @include breakpoint(gt-mobile) { width: 24%; }
+  @include breakpoint(gt-mobile) { width: 24.5%; }
 
 }
 
