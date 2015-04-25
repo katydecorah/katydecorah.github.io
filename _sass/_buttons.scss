@@ -1,24 +1,5 @@
 
 .btn {
-
-  @extend %fancy-type;
-
-  border: 2px solid transparent;
-  color: $link-color;
-  display: inline-block;
-  padding: .25em .5em;
-
-  &:hover,
-  &.active {
-    border: 2px solid;
-    color: $text-color;
-    text-decoration: none;
-  }
-
-}
-
-
-.btn-o {
   border: 1px solid;
   color: $text-color;
   display: inline-block;

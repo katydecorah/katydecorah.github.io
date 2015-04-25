@@ -26,10 +26,6 @@ Excepteur [sint occaecat cupidatat](#) non proident, sunt in culpa qui officia d
 
 ---
 
-`.btn-o`
-
-<a href="" class="btn-o">Button</a>
-
 `.btn`
 
 <a href="" class="btn">Button</a>
