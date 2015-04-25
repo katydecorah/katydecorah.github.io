@@ -18,4 +18,4 @@ redirect_from: /code/2013/12/19/holiday-trees/
 
 I whipped up a little animation in honor of the holidays.
 
-I got the idea from a [card I saw on Pinterest made by cut&amp;make](http://www.cutandmake.co.uk). The card is two-toned, white on the outside and green inside. Each triangle is cut out, except for the bottom which folds out.
+I got the idea from a card I saw on Pinterest made by cut&amp;make. The card is two-toned, white on the outside and green inside. Each triangle is cut out, except for the bottom which folds out.

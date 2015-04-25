@@ -6,6 +6,7 @@
     padding-right: 1em;
   }
 
+  h1,
   h2,
   h3,
   h3,
@@ -35,6 +36,7 @@
   pre,
   .playlist,
   figcaption,
+  h1,
   h2,
   h3,
   h4 {
@@ -300,8 +302,6 @@
 
 .post-prev-title,
 .post-next-title {
-
-  @extend %fancy-type;
 
   font-size: $font-small;
 

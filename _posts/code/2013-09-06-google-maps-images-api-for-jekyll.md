@@ -44,7 +44,7 @@ Your location can be a place, a city, an address, or even coordinates. Really an
 ## Live Example
 
 {% if page.locations %}
-<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&amp;markers=color:blue%7C{{location}}{% else %}&amp;markers=color:blue%7C{{location}}{% endif %}{% endfor %}&amp;zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&amp;size=300x200&amp;scale=2&amp;sensor=false&amp;visual_refresh=true" alt=" ">
+<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&amp;markers=color:blue%7C{{location}}{% else %}&amp;markers=color:blue%7C{{location}}{% endif %}{% endfor %}&amp;zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&amp;size=300x200&amp;scale=2&amp;sensor=false&amp;visual_refresh=true" alt="untitled">
 {% endif %}
 
 ## Zoom for Multiple Locations

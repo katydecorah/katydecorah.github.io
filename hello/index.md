@@ -10,11 +10,11 @@ I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/
 
 ## Record keeping
 
-<a href="/map" class="btn-o">Adventure map</a> <a href="/humble-brags" class="btn-o">Humble brags</a>
+<a href="/map" class="btn">Adventure map</a> <a href="/humble-brags" class="btn">Humble brags</a>
 
 ## Side projects
 
-<a href="http://staticmapmaker.com/" class="btn-o">Static Map Maker</a> <a href="http://katydecorah.com/css-ruler/" class="btn-o">CSS Ruler</a> <a href="http://katydecorah.com/google-font-explorer/" class="btn-o">Google Font Explorer</a>
+<a href="http://staticmapmaker.com/" class="btn">Static Map Maker</a> <a href="http://katydecorah.com/css-ruler/" class="btn">CSS Ruler</a> <a href="http://katydecorah.com/google-font-explorer/" class="btn">Google Font Explorer</a>
 
 ## Colophon
 
