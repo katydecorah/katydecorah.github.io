@@ -28,7 +28,7 @@ Excepteur [sint occaecat cupidatat](../) non proident, sunt in culpa qui officia
 
 `.btn`
 
-<a href="" class="btn">Button</a>
+<a href="../" class="btn">Button</a>
 
 
 ---
