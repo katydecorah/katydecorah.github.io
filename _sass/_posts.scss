@@ -303,8 +303,6 @@
 .post-prev-title,
 .post-next-title {
 
-  @extend %fancy-type;
-
   font-size: $font-small;
 
   @include breakpoint(gt-mobile) {

@@ -47,7 +47,7 @@
 .header {
 
   .nav-link {
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     color: $link-color;
     display: block;
     font-size: $font-xs;
@@ -61,7 +61,7 @@
 
   .active .nav-link,
   .nav-link:hover {
-    border: 1px solid;
+    border: 2px solid;
     color: $text-color;
     text-decoration: none;
   }

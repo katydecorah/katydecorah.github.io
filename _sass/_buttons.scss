@@ -1,6 +1,6 @@
 
 .btn {
-  border: 1px solid;
+  border: 2px solid;
   color: $text-color;
   display: inline-block;
   font-size: $font-small;
@@ -9,6 +9,14 @@
 
   &:hover {
     text-decoration: none;
+  }
+
+  .fa-angle-right {
+    margin-left: .5em;
+  }
+
+  .fa-angle-left {
+    margin-right: .5em;
   }
 
 }
