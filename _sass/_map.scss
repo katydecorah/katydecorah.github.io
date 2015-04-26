@@ -1,4 +1,4 @@
-.map {
+.map.map {
   margin-bottom: -4em;
   margin-top: -3.75em;
   min-height: 450px;
@@ -6,10 +6,22 @@
   .leaflet-popup-content,
   .leaflet-popup-content-wrapper { padding: 0; }
 
-  // scss-lint:disable ImportantRule
   h2 {
-    margin: 0 !important; //ugh, get this out of here
+
+    @extend %fancy-type;
+
+    margin: 0;
     padding: .5em;
+  }
+
+  .external-true h2:after {
+    content: "\f14c";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: $font-xs;
+    margin-left: 3px;
+    text-rendering: auto;
+    transform: translate(0, 0);
   }
 
   img {
