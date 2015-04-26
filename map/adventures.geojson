@@ -22,6 +22,24 @@
           [{{coord}}]{% if forloop.last != true %},{% endif %}{% endfor %}
         ]{% endcase %}
       }
-    }{% if forloop.rindex > 1 %},{% endif%}{% endfor %}
+    },{% endfor %}
+      {% for place in site.data.other-places %}
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "{{ place.title }}",
+          "external": true,
+          "image": "{{ place.image }}",
+          "year": "{{ place.date | date: "%Y" }}",
+          "url": "{{place.url}}",
+          "marker-size": "medium",
+          "marker-symbol": "{{place.marker}}",
+          "marker-color": "#9b59b6"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [{{ place.coordinates }}]
+        }
+      }{% if forloop.rindex > 1 %},{% endif%}{% endfor %}
   ]
 }
