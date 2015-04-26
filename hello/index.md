@@ -19,7 +19,3 @@ I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/
 ## Colophon
 
 This site is built with Jekyll and Sass, and hosted on [Github](https://github.com/katydecorah/katydecorah.github.com). I use [CodePen](http://codepen.io/) embeds, [Mapbox](https://www.mapbox.com/developers/api/static/) maps, [FontAwesome](http://fortawesome.github.io/Font-Awesome/icons/) icons,  [Typekit](https://typekit.com/) fonts and host my images on [Flickr](https://www.flickr.com/).
-
-## Say hey
-
-Need tips on how to create the perfect smores in the microwave? Or want to gab about anything else? You can email me ([katydecorah@gmail.com](mailto:katydecorah@gmail.com)) or following me (I have a slew of links in the footer).
