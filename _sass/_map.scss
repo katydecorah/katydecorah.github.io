@@ -33,16 +33,19 @@
 }
 
 .map-select {
+  background: rgba($white, .5);
+  bottom: 0;
   font-size: $font-small;
   position: absolute;
-  right: 1em;
-  top: 4em;
+  right: 0;
+  top: 3.9em;
   z-index: 100;
 
   .filter { display: none;}
 
+  .filter:checked + .filter-label { background: $white;}
+
   .filter-label {
-    background: rgba($white, .5);
     cursor: pointer;
     display: block;
     padding: .25em 1em;
@@ -50,10 +53,7 @@
     &:hover {
       background: $accent;
     }
-
   }
-
-  .filter:checked + .filter-label { background: $white;}
 
 }
 
