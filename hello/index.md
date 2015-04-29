@@ -15,6 +15,7 @@ I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/
 ## Side projects
 
 <a href="http://staticmapmaker.com/" class="btn">Static Map Maker</a> <a href="http://katydecorah.com/css-ruler/" class="btn">CSS Ruler</a> <a href="http://katydecorah.com/google-font-explorer/" class="btn">Google Font Explorer</a>
+<a href="http://katydecorah.com/font-library/" class="btn">Font Library</a>
 
 ## Colophon
 
