@@ -2,8 +2,6 @@ _site/
 .sass-cache
 _ignore/
 node_modules/
-img/source/
-img/
 _drafts/
 *.sublime-project
 *.sublime-workspace
