@@ -1,6 +1,18 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>{% if page.category == "code" %}
-<script async src="http://codepen.io/assets/embed/ei.js"> </script>{% endif %}
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+{% if page.category == "code" %}
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
+{% endif %}
+{% if page.lazy %}
+<script src="/js/jquery.unveil.js"></script>
+<script>
+$("img[data-src]").unveil(200, function() {
+  $(this).load(function() {
+    this.style.opacity = 1;
+  });
+});
+</script>
+{% endif %}
 <script type="text/javascript">
 var _gaq = _gaq || [];
 var pluginUrl =

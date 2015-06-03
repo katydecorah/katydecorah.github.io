@@ -45,6 +45,13 @@
     max-width: $container-width - ($body-font-size * 2);
   }
 
+
+  .photos {
+    @extend %flex;
+
+    flex-wrap: wrap;
+  }
+
   // scss-lint:disable SelectorFormat
   .photos,
   .cp_embed_iframe,
@@ -72,6 +79,11 @@
     img {
       margin-bottom: .5em;
       margin-top: 0;
+    }
+
+    [data-src] {
+      opacity: 0;
+      transition: opacity .3s ease-in;
     }
 
   }

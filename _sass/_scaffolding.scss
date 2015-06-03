@@ -115,7 +115,7 @@ img {
 .img-tall {
 
   @include breakpoint(gt-mobile) {
-    display: inline-block;
+    //display: inline-block;
   }
 
 }
