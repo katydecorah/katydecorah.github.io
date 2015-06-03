@@ -81,7 +81,7 @@
 
   }
 
-  // scss-lint:disable PropertySortOrder
+  // scss-lint:disable PropertySortOrder, DeclarationOrder
   .photos {
 
     @include breakpoint(gt-mobile) {
