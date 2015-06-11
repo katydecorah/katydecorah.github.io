@@ -33,29 +33,29 @@ This week is ceremoniously dedicated to eating a lot of food in between mom geoc
 My sister's cat terrifies me.
 
 <div class="photos">
-<a href="http://www.flickr.com/photos/91218249@N05/9702682509/" title="North Carolina 2013 by katydecorah, on Flickr">
-<img src="http://farm6.staticflickr.com/5517/9702682509_af19f42c88_c.jpg" alt="North Carolina 2013"></a>
+
+<img src="http://farm6.staticflickr.com/5517/9702682509_af19f42c88_c.jpg" alt="North Carolina 2013">
 </div>
 
 ## Pisgah Astronomical Research Institute
 
 <div class="photos">
-<a href="http://www.flickr.com/photos/91218249@N05/9705915802/" title="North Carolina 2013 by katydecorah, on Flickr">
-<img src="http://farm6.staticflickr.com/5460/9705915802_81d945ab2b_c.jpg" class="pop-out" alt="North Carolina 2013"></a>
+
+<img src="http://farm6.staticflickr.com/5460/9705915802_81d945ab2b_c.jpg" class="pop-out" alt="North Carolina 2013">
 </div>
 
 ## The North Carolina Arboretum
 
 <div class="photos">
-<a href="http://www.flickr.com/photos/91218249@N05/9705916416/" title="North Carolina 2013 by katydecorah, on Flickr">
-<img src="http://farm4.staticflickr.com/3703/9705916416_93822a562a_c.jpg" alt="North Carolina 2013"></a>
+
+<img src="http://farm4.staticflickr.com/3703/9705916416_93822a562a_c.jpg" alt="North Carolina 2013">
 </div>
 
 ## Blowing Rock, NC
 
 <div class="photos">
-<a href="http://www.flickr.com/photos/91218249@N05/9702678259/" title="North Carolina 2013 by katydecorah, on Flickr">
-<img src="http://farm8.staticflickr.com/7366/9702678259_877fa5dab4_c.jpg" alt="North Carolina 2013"></a>
+
+<img src="http://farm8.staticflickr.com/7366/9702678259_877fa5dab4_c.jpg" alt="North Carolina 2013">
 </div>
 
 ## Pisgah National Forest
@@ -63,29 +63,29 @@ My sister's cat terrifies me.
 We fed the trout!
 
 <div class="photos">
-<a href="http://www.flickr.com/photos/91218249@N05/9705919694/" title="North Carolina 2013 by katydecorah, on Flickr">
-<img src="http://farm4.staticflickr.com/3687/9705919694_b8ff3b4938_c.jpg" alt="North Carolina 2013"></a>
+
+<img src="http://farm4.staticflickr.com/3687/9705919694_b8ff3b4938_c.jpg" alt="North Carolina 2013">
 </div>
 
 ## Falls Park on the Reedy Greenville, SC
 
 <div class="photos">
-<a href="http://www.flickr.com/photos/91218249@N05/9702682095/" title="North Carolina 2013 by katydecorah, on Flickr">
-<img src="http://farm6.staticflickr.com/5487/9702682095_744d46e8b0_c.jpg" alt="North Carolina 2013"></a>
+
+<img src="http://farm6.staticflickr.com/5487/9702682095_744d46e8b0_c.jpg" alt="North Carolina 2013">
 </div>
 
 ## BBQ
 
 <div class="photos">
-<a href="http://www.flickr.com/photos/91218249@N05/9702691619/" title="North Carolina 2013 by katydecorah, on Flickr">
-<img src="http://farm4.staticflickr.com/3797/9702691619_1d6bb88b4a_c.jpg"  alt="North Carolina 2013"></a>
+
+<img src="http://farm4.staticflickr.com/3797/9702691619_1d6bb88b4a_c.jpg"  alt="North Carolina 2013">
 </div>
 
 ## Lake Lure
 
 <div class="photos">
-<a href="http://www.flickr.com/photos/91218249@N05/9702673293/" title="North Carolina 2013 by katydecorah, on Flickr">
-<img src="http://farm6.staticflickr.com/5533/9702673293_413051a6b3_c.jpg"  alt="North Carolina 2013"></a>
+
+<img src="http://farm6.staticflickr.com/5533/9702673293_413051a6b3_c.jpg"  alt="North Carolina 2013">
 </div>
 
 ## Appalachian State University
@@ -93,6 +93,6 @@ We fed the trout!
 My sister is a middle school science teacher, so we picked up these hissing Madagascar cockroaches&hellip; on purpose.
 
 <div class="photos">
-<a href="http://www.flickr.com/photos/91218249@N05/9705918980/" title="North Carolina 2013 by katydecorah, on Flickr">
-<img src="http://farm8.staticflickr.com/7362/9705918980_decc5e4e6a_c.jpg" alt="North Carolina 2013"></a>
+
+<img src="http://farm8.staticflickr.com/7362/9705918980_decc5e4e6a_c.jpg" alt="North Carolina 2013">
 </div>
