@@ -3,19 +3,32 @@ layout: hello
 title: Hello!
 ---
 
+<img src="https://c1.staticflickr.com/9/8881/18361278301_9018c69470_b.jpg" class="hello-header" alt=" ">
+
 <p class="lead">Hello! I'm Katy DeCorah. I live in Albany, NY. I'm a explainer, helper, and tinkerer at <a href="//www.mapbox.com">Mapbox</a>.</p>
 
-I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/card-catalog/#playlists). Sometimes [I teach](/card-catalog/#teaching) at the University at Albany. I'm also co-organizer of [Maptime Albany](http://maptime.io/albany/).
+I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/card-catalog/#playlists). Sometimes [I teach](/card-catalog/#teaching) at the University at Albany.
 
 
 ## Record keeping
 
-<a href="/map" class="btn">Adventure map</a> <a href="/humble-brags" class="btn">Humble brags</a>
+* [Adventure map](/map) &mdash; a map to complement my <em>adventures</em>.
+* [Humble brags](/humble-brags) &mdash; tooting my own horn.
 
 ## Side projects
 
-<a href="http://staticmapmaker.com/" class="btn">Static Map Maker</a> <a href="http://katydecorah.com/css-ruler/" class="btn">CSS Ruler</a> <a href="http://katydecorah.com/google-font-explorer/" class="btn">Google Font Explorer</a>
-<a href="http://katydecorah.com/font-library/" class="btn">Font Library</a>
+* [Static Map Maker](http://staticmapmaker.com/) &mdash; a static map API helper.
+* [Font Library](http://katydecorah.com/font-library/) &mdash; an open source project to tag and organize Google Fonts.
+* [CSS Ruler](http://katydecorah.com/css-ruler/) &mdash; visualize the different CSS lengths.
+* [Hey guys](http://katydecorah.com/hey-guys/) &mdash; a generator to help you find alternative words for <em>guys</em>.
+* [Google Font Explorer](http://katydecorah.com/google-font-explorer/) &mdash; test out Google Fonts and explore different ones.
+
+<div class="post">
+<div class="photos">
+<img src="https://c1.staticflickr.com/1/448/18664258796_988f31b102_c.jpg" class="img-half" alt="at home">
+<img src="https://c1.staticflickr.com/1/530/18664287626_4c32e59e7e_c.jpg" class="img-half" alt="treats">
+</div>
+</div>
 
 ## Colophon
 
