@@ -27,8 +27,6 @@
     transition: .2s;
 
     &:hover {
-      background: $white;
-      transition: .25s;
 
       h3:before {
         background-color: darken($body-bg, 20%);
