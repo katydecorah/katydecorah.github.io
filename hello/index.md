@@ -3,7 +3,7 @@ layout: hello
 title: Hello!
 ---
 
-<img src="https://c1.staticflickr.com/9/8881/18361278301_9018c69470_b.jpg" class="hello-header" alt=" ">
+<img src="https://c1.staticflickr.com/9/8881/18361278301_9018c69470_b.jpg" class="hello-header" alt="Katy DeCorah">
 
 <p class="lead">Hello! I'm Katy DeCorah. I live in Albany, NY. I'm a explainer, helper, and tinkerer at <a href="//www.mapbox.com">Mapbox</a>.</p>
 
