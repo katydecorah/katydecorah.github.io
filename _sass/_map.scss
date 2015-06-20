@@ -36,19 +36,23 @@
   background: rgba($white, .5);
   bottom: 0;
   height: 450px;
-  width: 200px;
-  overflow: scroll;
   font-size: $font-xs;
+  overflow: scroll;
   position: absolute;
   right: 0;
   top: 4.9em;
+  width: 200px;
   z-index: 100;
 
   .filter,
   .year-group { display: none; }
 
-  .filter:checked + .filter-label { font-weight: bold; }
-  .filter:checked + .filter-label + .year-group { display: block;}
+  .filter:checked + .filter-label {
+    font-weight: bold;
+
+    & + .year-group { display: block;}
+    
+  }
 
   .filter-label {
     background: $white;
