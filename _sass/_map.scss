@@ -35,8 +35,8 @@
 .map-select {
   background: rgba($white, .5);
   bottom: 0;
-  height: 450px;
   font-size: $font-xs;
+  height: 450px;
   overflow: scroll;
   position: absolute;
   right: 0;
@@ -50,8 +50,8 @@
   .filter:checked + .filter-label {
     font-weight: bold;
 
-    & + .year-group { display: block;}
-    
+    + .year-group { display: block;}
+
   }
 
   .filter-label {
