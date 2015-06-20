@@ -51,10 +51,10 @@ featureLayer.on('ready', function(e) {
         var title = layer.toGeoJSON().properties.title.length;
         var length = 23;
 
-        if (title >= ( length + 3) ) {
+        if (title > length ) {
           item.innerHTML = layer.toGeoJSON().properties.title.substring(0,length) + "&hellip;";
         } else {
-          item.innerHTML = layer.toGeoJSON().properties.title.substring(0,length);
+          item.innerHTML = layer.toGeoJSON().properties.title.substring(0,length) + " ";
         }
 
         item.className = "year-child year-"+year;
