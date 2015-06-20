@@ -29,6 +29,10 @@
     max-width: $container-width - ($body-font-size * 2);
   }
 
+  li {
+    margin-bottom: .7em;
+  }
+
   blockquote {
     max-width: $container-width - ($body-font-size * 10);
   }
