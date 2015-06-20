@@ -7,37 +7,83 @@ layout: no-container
 <link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />
 
 {% assign years = "2015|2014|2013|2012|2010|2009|2008|2005" | split: "|" %}
-<div id="filters" class="map-select">
-{% for year in years %}<div><input type="checkbox" checked="checked" class="filter"
-name="filter" id="{{year}}" value="{{year}}"/><label for="{{year}}" class="filter-label">{{year}}</label></div>
-{% endfor %}
-</div>
+
 <div id="map" class="map"></div>
+<div class="map-select" id="marker-list"></div>
 <script>
 L.mapbox.accessToken = '{{site.mapbox-token}}';
 var map = L.mapbox.map('map', '{{site.mapid}}');
 var filters = document.getElementById('filters');
 var checkboxes = document.getElementsByClassName('filter');
+var markerList = document.getElementById('marker-list');
+var years = [{% for year in years %}"{{year}}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
 var featureLayer = L.mapbox.featureLayer()
 .loadURL('/map/adventures.geojson')
 .addTo(map);
-featureLayer.on('ready', function() {
-  //map.fitBounds(featureLayer.getBounds());
+featureLayer.on('ready', function(e) {
+
+  for (var i = 0; i < years.length; i++) {
+    var year = years[i];
+
+    var item = markerList.appendChild(document.createElement('input'));
+
+    item.type = "checkbox";
+    item.className = "filter";
+    item.name = "filter";
+    item.id = year;
+    item.value = year;
+    item.setAttribute("checked","checked");
+
+    var label = markerList.appendChild(document.createElement('label'));
+    label.htmlFor = year;
+    label.innerHTML = year;
+    label.className = "filter-label";
+
+    var group = markerList.appendChild(document.createElement('div'));
+    group.className = "year-group";
+
+    featureLayer.eachLayer(function(layer) {
+
+      if( year == layer.toGeoJSON().properties.year) {
+        var item = group.appendChild(document.createElement('div'));
+
+        var title = layer.toGeoJSON().properties.title.length;
+        var length = 23;
+
+        if (title > length ) {
+          item.innerHTML = layer.toGeoJSON().properties.title.substring(0,length) + "&hellip;";
+        } else {
+          item.innerHTML = layer.toGeoJSON().properties.title.substring(0,length) + " ";
+        }
+
+        item.className = "year-child year-"+year;
+        item.onclick = function() {
+          map.setView(layer.getLatLng(), 14);
+          layer.openPopup();
+        };
+      }
+
+    });
+  }
+
   change();
 });
-//map.scrollWheelZoom.disable();
+
 featureLayer.on('layeradd', function(e) {
   var marker = e.layer,
   feature = marker.feature;
   // Create custom popup content
   var popupContent =  '<a target="_blank" class="popup external-'+feature.properties.external+'" href="' + feature.properties.url + '">' +
   '<img alt="'+ feature.properties.title +'+" src="' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
+
   // http://leafletjs.com/reference.html#popup
   marker.bindPopup(popupContent,{
     minWidth: 150,
     closeButton: false
   });
 });
+
 
 function change() {
   var on = [];
@@ -48,7 +94,11 @@ function change() {
     return on.indexOf(f.properties['year']) !== -1;
   });
   map.fitBounds(featureLayer.getBounds());
+
   return false;
+
 }
-filters.onchange = change;
+markerList.onchange = change;
+
+
 </script>

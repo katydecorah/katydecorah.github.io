@@ -35,24 +35,44 @@
 .map-select {
   background: rgba($white, .5);
   bottom: 0;
-  font-size: $font-small;
+  font-size: $font-xs;
+  height: 450px;
+  overflow: scroll;
   position: absolute;
   right: 0;
-  top: 3.9em;
+  top: 4.9em;
+  width: 200px;
   z-index: 100;
 
-  .filter { display: none;}
+  .filter,
+  .year-group { display: none; }
 
-  .filter:checked + .filter-label { background: $white;}
+  .filter:checked + .filter-label {
+    font-weight: bold;
+
+    + .year-group { display: block;}
+
+  }
 
   .filter-label {
+    background: $white;
     cursor: pointer;
     display: block;
     padding: .25em 1em;
 
     &:hover {
-      background: $accent;
+      background: darken($accent, 10%);
     }
+  }
+
+  .year-child {
+    cursor: pointer;
+    padding: .2em 1em;
+
+    &:hover {
+      background: darken($accent, 10%);
+    }
+
   }
 
 }
