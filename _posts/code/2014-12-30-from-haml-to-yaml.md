@@ -33,7 +33,7 @@ At first I copied and pasted the compiled HTML, but I knew it was going to be a 
   description: This unit represents the calculated font-size of the element. If used on the font-size property itself, it represents the inherited font-size of the element.
 {% endhighlight %}
 
-I [saved the file](https://github.com/katydecorah/css-ruler/blob/gh-pages/_data/lengths.yml) into the Jekyll `_data` folder. Using a loop, I ran through each item and rebuilt markup output. [My code](https://github.com/katydecorah/css-ruler/blob/gh-pages/index.html#L34) looks something like this:
+I saved the file into the Jekyll `_data` folder. Using a loop, I ran through each item and rebuilt markup output. [My code](https://github.com/katydecorah/css-ruler/blob/gh-pages/index.html) looks something like this:
 
 {% highlight html %}{% raw %}
 {% for item in site.data.lengths %}
