@@ -68,7 +68,7 @@
   marker: park
   coordinates: -73.1172752,43.165373
 
-- title: Sprint in DC
+- title: Winter sprint in DC
   image: https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/10979692_765737503534228_946616994_n.jpg
   url: https://instagram.com/p/zDmycqCI--/
   date: 2015-02-13
@@ -88,3 +88,17 @@
   date: 2015-04-25
   marker: heart
   coordinates: -73.779744,40.887112
+
+- title: Summer sprint in DC
+  image: https://scontent-lga1-1.cdninstagram.com/hphotos-xaf1/t51.2885-15/11357755_973061556088142_85984296_n.jpg
+  url: https://instagram.com/p/4MhYf0CIx5/
+  date: 2015-06-20
+  marker: rocket
+  coordinates: -77.0145,38.89
+
+- title: Camping in Lake George
+  image: https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11357983_499691040193496_173211122_n.jpg
+  url: https://instagram.com/p/4ctTOLCIzp/
+  date: 2015-06-26
+  marker: campsite
+  coordinates: -73.5685997,43.6274318
