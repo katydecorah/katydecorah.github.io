@@ -17,7 +17,7 @@ In 2008, I started creating a playlist for every season. I kept my playlists in 
 
 ## Jail breaking the playlists
 
-When I got a new computer in 2012, I didn't save my playlists in iTunes properly. In short, my files got disconnected from my library. It was a hot mess, but thankfully I had the original `iTunes Music Library.xml`. I found [a great tutorial](https://youtu.be/MIOUirsX0LM) that taught me how to import the data in the XML into an Access database. Now I had a table containing all my playlists with track title, artist, and album.
+When I got a new computer in 2012, I didn't save my playlists in iTunes properly. In short, my files got disconnected from my library. It was a hot mess, but thankfully I had the original `iTunes Music Library.xml`. I found <a href="https://youtu.be/MIOUirsX0LM" data-proofer-ignore>a great tutorial</a> that taught me how to import the data in the XML into an Access database. Now I had a table containing all my playlists with track title, artist, and album.
 
 Next, I migrated the database to PHPmyadmin. Using PHP I spun out each playlist into markup and pasted the contents into its own post on this site. It worked great, a little time consuming, but it worked.
 
