@@ -2,11 +2,11 @@
 layout: post
 title: "Sleep Pajamas and Work Pajamas"
 category: code
-elsewhere-link: http://goodstuff.fm/theeastwing/12
-elsewhere-site: GoodStuff.fm
+#elsewhere-link: http://goodstuff.fm/theeastwing/12
+#elsewhere-site: GoodStuff.fm
 image: https://farm9.staticflickr.com/8615/16536671800_8a0a3d88bd_b.jpg
 tags:
- - elsewhere
+# - elsewhere
  - podcasts
 redirect_from: /code/2015/03/04/the-east-wing/
 
@@ -19,4 +19,4 @@ redirect_from: /code/2015/03/04/the-east-wing/
 
 Thanks for having me again, Tim!
 
-[Check out the episode](http://goodstuff.fm/theeastwing/12)
+(Unfortunately, this podcast was removed from [GoodStuff FM](http://goodstuff.fm/).)
