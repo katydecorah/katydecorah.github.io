@@ -78,8 +78,8 @@ links:
 mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoibGQtZjZINCJ9.qrZnVyO9TghqkQDZPFFnPw
 mapid: katydecorah.21d6ba77
 mapid-winter: katydecorah.70f1a6d1
-mapboxjs: v2.1.5
-font-awesome: 4.3.0
+mapboxjs: v2.2.1
+font-awesome: 4.4.0
 
 defaults:
   -
