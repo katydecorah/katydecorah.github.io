@@ -6,6 +6,10 @@ body {
   padding: 0;
 }
 
+html {
+  background: $header-bg;
+}
+
 body {
 
   @extend %body-type;
