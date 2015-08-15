@@ -3,15 +3,9 @@
 {% if page.category == "code" %}
 <script async src="http://codepen.io/assets/embed/ei.js"></script>
 {% endif %}
-{% if page.lazy %}
-<script src="/js/jquery.unveil.js"></script>
-<script>
-$("img[data-src]").unveil(200, function() {
-  $(this).load(function() {
-    this.style.opacity = 1;
-  });
-});
-</script>
+{% if page.title == "Search" %}
+<script src="/js/lunr.min.js"></script>
+<script src="/js/lunr-feed.js"></script>
 {% endif %}
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
