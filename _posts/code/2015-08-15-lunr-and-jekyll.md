@@ -88,7 +88,7 @@ $(document).ready(function() {
 
 ## Now search
 
-And that's how I brought lunr.js to Jekyll. You can add some fun stuff, like the number of search results or even play around with the lunr's options to really customized the search. 
+And that's how I brought lunr.js to Jekyll. You can add some fun stuff, like the number of search results or even play around with lunr's options to really customize the search. 
 
 * Documentation: [lunr.js](http://lunrjs.com/)
 * Demo: [{{site.url}}/search](/search/)
