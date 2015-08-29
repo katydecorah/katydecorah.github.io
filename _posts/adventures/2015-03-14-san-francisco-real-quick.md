@@ -13,7 +13,7 @@ redirect_from: /adventures/2015/03/14/san-francisco/
 ---
 
 
-I was in Burlingame and San Francisco this past week for [FOSS4G NA](https://2015.foss4g-na.org/). Slides and video to come, but for now:
+I was in Burlingame and San Francisco this past week for FOSS4G NA. Slides and video to come, but for now:
 
 <div class="photos">
 
