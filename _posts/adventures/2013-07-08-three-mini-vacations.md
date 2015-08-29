@@ -35,7 +35,7 @@ On Monday, I drove up to Lake Placid to visit my college roommate. We went out t
 On Wednesday, my family and I drove out to Thousands Islands. We checked out the area and took a boat to Rock Island. The next day we drove into Canada to go to the 1000 Islands Sky Deck.
 
 <div class="photos">
-<img src="http://farm6.staticflickr.com/5321/9363147042_918e2d5d8a_c.jpg"  alt="Thousand Islands" class="pop-out">
+<img src="http://farm6.staticflickr.com/5321/9363147042_918e2d5d8a_b.jpg"  alt="Thousand Islands" class="pop-out">
 <img src="http://farm4.staticflickr.com/3825/9363154376_e2de0d8e81_c.jpg" class="img-thirds" alt="Thousand Islands">
 <img src="http://farm6.staticflickr.com/5471/9360368377_d47822c551_c.jpg" class="img-thirds" alt="Thousand Islands">
 <img src="http://farm4.staticflickr.com/3763/9363158028_f5d3d5fe5e_c.jpg" class="img-thirds" alt="Thousand Islands">

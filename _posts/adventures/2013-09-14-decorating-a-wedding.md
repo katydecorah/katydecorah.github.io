@@ -24,7 +24,7 @@ Unfortunately I did not take enough pictures, but here are a few.
 
 <img src="http://farm4.staticflickr.com/3738/9808956545_140e91efbb_c.jpg"  class="img-half" alt="Annie &amp; David's Wedding">
 <img src="http://farm4.staticflickr.com/3827/9808951525_5671dff954_c.jpg" class="img-half" alt="Annie &amp; David's Wedding">
-<img src="http://farm6.staticflickr.com/5337/9808963074_917cbc6a1f_c.jpg" class="pop-out" alt="Annie &amp; David's Wedding">
+<img src="http://farm6.staticflickr.com/5337/9808963074_917cbc6a1f_b.jpg" class="pop-out" alt="Annie &amp; David's Wedding">
 <img src="http://farm4.staticflickr.com/3679/9808910204_effe185860_c.jpg"  alt="Annie &amp; David's Wedding">
 <img src="http://farm6.staticflickr.com/5336/9808949895_027bf3224c_c.jpg"  alt="Annie &amp; David's Wedding">
 </div>
@@ -35,7 +35,7 @@ A few from the Inn.
 
 <img src="http://farm8.staticflickr.com/7372/9808948475_7649d6c9b4_c.jpg" class="img-half" alt="Annie &amp; David's Wedding">
 <img src="http://farm3.staticflickr.com/2860/9808952964_8c1c8d0c1e_c.jpg"  class="img-half" alt="Annie &amp; David's Wedding">
-<img src="http://farm8.staticflickr.com/7331/9809014943_7bd4883f4e_c.jpg"   class="pop-out" alt="Annie &amp; David's Wedding">
+<img src="http://farm8.staticflickr.com/7331/9809014943_7bd4883f4e_b.jpg" class="pop-out" alt="Annie &amp; David's Wedding">
 <img src="http://farm6.staticflickr.com/5342/9808938745_99d85f4fe2_c.jpg" class="img-half" alt="Annie &amp; David's Wedding">
 <img src="http://farm4.staticflickr.com/3692/9808935005_15c92884fc_c.jpg"  class="img-half" alt="Annie &amp; David's Wedding">
 </div>

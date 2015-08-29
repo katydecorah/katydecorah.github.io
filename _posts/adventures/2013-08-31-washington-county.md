@@ -27,7 +27,7 @@ Mom and I went on a Washington County/Vermont adventure today.
 
 <div class="photos">
 
-<img src="http://farm3.staticflickr.com/2878/9637740279_a6f70ebedd_c.jpg"  alt="Washington County">
+<img src="http://farm3.staticflickr.com/2878/9637740279_a6f70ebedd_b.jpg"  alt="Washington County">
 </div>
 
 ## Cossayuna Lake
@@ -36,7 +36,7 @@ Mom and I went on a Washington County/Vermont adventure today.
 
 <img src="http://farm6.staticflickr.com/5470/9637747745_b5989c4710_c.jpg" class="img-half" alt="Washington County">
 <img src="http://farm3.staticflickr.com/2878/9640986104_1a6274ee92_c.jpg" class="img-half" alt="Washington County">
-<img src="http://farm6.staticflickr.com/5498/9640987334_81452d79e3_c.jpg"  alt="Washington County" class="pop-out">
+<img src="http://farm6.staticflickr.com/5498/9640987334_81452d79e3_b.jpg" alt="Washington County" class="pop-out">
 </div>
 
 ## Hebron, NY
@@ -53,8 +53,8 @@ Mom and I went on a Washington County/Vermont adventure today.
 
 <div class="photos">
 
-<img src="http://farm3.staticflickr.com/2883/9640995748_1ef8807155_c.jpg" width="512" class="img-split-wide" alt="Washington County">
-<img src="http://farm6.staticflickr.com/5508/9640997512_4d46d93e11_c.jpg" width="288"  class="img-split-tall" alt="Washington County">
+<img src="http://farm3.staticflickr.com/2883/9640995748_1ef8807155_c.jpg"  class="img-split-wide" alt="Washington County">
+<img src="http://farm6.staticflickr.com/5508/9640997512_4d46d93e11_c.jpg"  class="img-split-tall" alt="Washington County">
 </div>
 
 ## Rupert, VT/Salem, NY
