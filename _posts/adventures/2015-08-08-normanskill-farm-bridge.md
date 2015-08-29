@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Whipple cast and wrought iron bowstring truss bridge
+title: Normanskill Farm Bridge
 category: adventures
 image: https://farm1.staticflickr.com/385/20223211818_4905e6a077_b.jpg
 tags:
@@ -11,7 +11,7 @@ coordinates:
 - -73.7984284,42.6343699
 ---
 
-We visited the [Whipple Cast and Wrought Iron Bowstring Truss Bridge](https://en.wikipedia.org/wiki/Whipple_Cast_and_Wrought_Iron_Bowstring_Truss_Bridge) and took the yellow brick road.
+We visited the Normanskill Farm Bridge, also known as the [Whipple Cast and Wrought Iron Bowstring Truss Bridge](https://en.wikipedia.org/wiki/Whipple_Cast_and_Wrought_Iron_Bowstring_Truss_Bridge) and took the yellow brick road.
 
 <div class="photos">
 <img src="https://farm1.staticflickr.com/385/20223211818_4905e6a077_b.jpg" class="img-tall" alt="Normanskill" class="img-tall">
