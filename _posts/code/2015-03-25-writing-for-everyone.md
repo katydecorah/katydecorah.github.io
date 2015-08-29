@@ -8,7 +8,7 @@ tags:
  - conference
 ---
 
-A couple weeks ago I gave my talk [Writing for everyone](http://katydecorah.com/writing-for-everyone/) at [FOSS4G NA](https://2015.foss4g-na.org/). I had a great time! You can click through my slides below, follow along with [my notes](http://katydecorah.com/writing-for-everyone/notes/), or <a href="https://youtu.be/bXd6aRRvJG4?list=PLWW0CjV-TafaJlkE6Zq4OgXgb04TQfNiR" data-proofer-ignore>watch the video</a>.
+A couple weeks ago I gave my talk [Writing for everyone](http://katydecorah.com/writing-for-everyone/) at FOSS4G NA. I had a great time! You can click through my slides below, follow along with [my notes](http://katydecorah.com/writing-for-everyone/notes/), or <a href="https://youtu.be/bXd6aRRvJG4?list=PLWW0CjV-TafaJlkE6Zq4OgXgb04TQfNiR" data-proofer-ignore>watch the video</a>.
 
 <iframe src="http://katydecorah.com/writing-for-everyone/" width="100%" height="500px"></iframe>
 

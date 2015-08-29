@@ -22,7 +22,7 @@ redirect_from: /adventures/2013/11/11/tea-wine-and-mud-pond/
 
 On Sunday, mom and I went to lunch at the [Whistling Tea Kettle](http://www.thewhistlingkettle.com/) in Ballston Spa. She had the Connie's baked apple pie tea and I had the vanilla chai.
 
-After lunch, we walked around town and stopped in [Wheats & Sweets](http://www.wheatsandsweets.com/) for a giant cookie.
+After lunch, we walked around town and stopped in Wheats & Sweets for a giant cookie.
 
 <div class="photos">
 
@@ -49,7 +49,7 @@ Mom got this great shot of me just as I was giggling, "My hand went in his mouth
 
 ## Nassau Mud Pond Preserve
 
-On Monday, my boyfriend and I drove out to Nassau to explore the new [Mud Pond Preserve](http://townofnassau.org/content/Parks/View/1). It was a 1.2 mile round trip through the woods, ending at an overlook of Mud Pond. We were in and out in under 40 minutes.
+On Monday, my boyfriend and I drove out to Nassau to explore the new Mud Pond Preserve. It was a 1.2 mile round trip through the woods, ending at an overlook of Mud Pond. We were in and out in under 40 minutes.
 
 The view of the pond wasn't very clear, but the trail was decent. The trailhead was well marked and included a large parking area. The trail is located at 591 Central Nassau Road next door to the town dump.
 
