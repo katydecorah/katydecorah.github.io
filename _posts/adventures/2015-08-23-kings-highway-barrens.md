@@ -12,7 +12,7 @@ coordinates:
 - -73.9045582,42.7519784
 ---
 
-We crossed [trail #9](http://www.albanypinebush.org/recreation-center/trails-maps-and-conditions) of the Albany Pine Bush preserve off the list :ok_hand:.
+We crossed [trail #9](http://www.albanypinebush.org/recreation-center/trails-maps-and-conditions) of the Albany Pine Bush Preserve off the list :ok_hand:.
 
 <div class="photos">
 <img src="https://farm1.staticflickr.com/734/20636671878_ca5c87bcc4_b.jpg" alt="Albany Pine Bush trail #9">
