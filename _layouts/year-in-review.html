@@ -1,6 +1,9 @@
 {% include top.html %}
-<body ng-app class="default-page page-review page-{{ page.title | downcase | replace:' ','_' | replace: '!',''  }}">
-<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular.min.js"></script>
+<body class="default-page page-review page-{{ page.title | downcase | replace:' ','_' | replace: '!',''  }}">
+
+<script src="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js"></script>
+<link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />  
+
 {% include header.html %}
 <div class="content" id="content">
 <div class="container">
@@ -28,12 +31,13 @@
 {% endfor %}
 
 <p class="review-text">
-  {% if adventuresCounter > 0 %}<input type="checkbox" ng-model="adventures" id="adventures"><label class="review-hover" for="adventures">I had {{ adventuresCounter }} adventure{% if adventuresCounter > 1 %}s{% endif %}.</label>{% endif %}
-  {% if codeCounter > 0 %}<input type="checkbox" ng-model="code" id="code"><label class="review-hover" for="code">I wrote about code {{ codeCounter }} time{% if codeCounter > 1 %}s{% endif %}.</label>{% endif %}
-  {% if teachingCounter > 0 %}<input type="checkbox" ng-model="teaching" id="teaching"><label class="review-hover" for="teaching">I taught {{ teachingCounter }} class{% if teachingCounter > 1 %}es{% endif %}.</label>{% endif %}
-  {% if notesCounter > 0 %}<input type="checkbox" ng-model="notes" id="notes"><label class="review-hover" for="notes">I wrote {{notesCounter}} note{% if notesCounter > 1 %}s{% endif %}.</label>{% endif %}
-  {% if epicureanCounter > 0 %}<input type="checkbox" ng-model="epicurean" id="epicurean"><label class="review-hover" for="epicurean">I baked {{epicureanCounter}} new treat{% if epicureanCounter > 1 %}s{% endif %}.</label>{% endif %}
-  {% if playlistsCounter > 0 %}<input type="checkbox" ng-model="playlists" id="playlists"><label class="review-hover" for="playlists">I made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 %}s{% endif %}.</label>{% endif %}</p>
+  {% if adventuresCounter > 0 %}I had {{ adventuresCounter }} adventure{% if adventuresCounter > 1 %}s{% endif %}.{% endif %}
+  {% if codeCounter > 0 %}I wrote about code {{ codeCounter }} time{% if codeCounter > 1 %}s{% endif %}.{% endif %}
+  {% if teachingCounter > 0 %}I taught {{ teachingCounter }} class{% if teachingCounter > 1 %}es{% endif %}.{% endif %}
+  {% if notesCounter > 0 %}I wrote {{notesCounter}} note{% if notesCounter > 1 %}s{% endif %}.{% endif %}
+  {% if epicureanCounter > 0 %}I baked {{epicureanCounter}} new treat{% if epicureanCounter > 1 %}s{% endif %}.{% endif %}
+  {% if playlistsCounter > 0 %}I made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 %}s{% endif %}.{% endif %}
+</p>
 </div>
 
 <div class="review-thumbs">
@@ -41,14 +45,54 @@
 {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% capture pageYear %}{{ page.title }}{% endcapture %}
 {% if year == pageYear %}
-<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb review-{{post.category}}" title="{{post.title}}" ng-show="{{post.category}}"></a>
+<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb review-{{post.category}}" title="{{post.title}}"></a>
 {% endif %}
 {% endfor %}
 </div>
 
+
+<div id="map" class="map"></div>
+
+<script>
+L.mapbox.accessToken = '{{site.mapbox-token}}';
+var map = L.mapbox.map('map', '{{site.mapid}}', {
+  zoomControl: false
+});
+map.scrollWheelZoom.disable();
+
+var featureLayer = L.mapbox.featureLayer()
+.loadURL('/map/adventures.geojson')
+.addTo(map);
+featureLayer.on('ready', function(e) {
+  change();
+});
+
+featureLayer.on('layeradd', function(e) {
+  var marker = e.layer,
+  feature = marker.feature;
+  // Create custom popup content
+  var popupContent =  '<a target="_blank" class="popup external-'+feature.properties.external+'" href="' + feature.properties.url + '">' +
+  '<img alt="'+ feature.properties.title +'+" src="' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
+
+  // http://leafletjs.com/reference.html#popup
+  marker.bindPopup(popupContent,{
+    minWidth: 150,
+    closeButton: false
+  });
+});
+
+function change() {
+  var on = ["{{pageYear}}"];
+  featureLayer.setFilter(function (f) {
+    return on.indexOf(f.properties['year']) !== -1;
+  });
+  map.fitBounds(featureLayer.getBounds());
+  return false;
+}
+</script>
+
 </div>
 {% include footer.html %}
 {% include end.html %}
-
 </body>
 </html>
