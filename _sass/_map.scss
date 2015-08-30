@@ -1,8 +1,8 @@
-.page-adventure_map .map {
+.page-adventure-map .map {
   margin-top: -3.75em;
 }
 
-.page-adventure_map .map,
+.page-adventure-map .map,
 .page-review .map {
   margin-bottom: -3.5em;
   min-height: 450px;
@@ -18,22 +18,22 @@
     padding: .5em;
   }
 
-  .external-true h2:after {
-    content: '\f14c';
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: $font-xs;
-    margin-left: 3px;
-    text-rendering: auto;
-    transform: translate(0, 0);
-  }
-
   img {
     border-radius: 3px 3px 0 0;
     margin: 0;
     max-width: 100%;
   }
 
+}
+
+.external-true h2:after {
+  content: '\f14c';
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: $font-xs;
+  margin-left: 3px;
+  text-rendering: auto;
+  transform: translate(0, 0);
 }
 
 .map-select {
