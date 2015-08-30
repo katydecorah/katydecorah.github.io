@@ -1,6 +1,10 @@
-.map.map {
-  margin-bottom: -4em;
+.page-adventure_map .map {
   margin-top: -3.75em;
+}
+
+.page-adventure_map .map,
+.page-review .map {
+  margin-bottom: -3.5em;
   min-height: 450px;
 
   .leaflet-popup-content,
