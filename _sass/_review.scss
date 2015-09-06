@@ -16,6 +16,8 @@
     background: none;
     border: .1em solid;
   }
+  
+  .footer { margin-top: 0;}
 
 }
 
@@ -23,13 +25,8 @@
 .everything-thumbs {
 
   @extend %clearfix;
-
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
+  
   height: 100%;
-  justify-content: center;
-  margin-top: 1.3em;
   width: 100%;
 }
 
@@ -38,9 +35,9 @@
 
   background-size: cover;
   display: block;
-  padding-bottom: 10%;
+  padding-bottom: (100/7) * 1%;
   position: relative;
-  width: 10%;
+  width: (100/7) * 1%;
 
   &:before,
   &:after {
@@ -86,4 +83,30 @@
     }
 
   }
+}
+
+// scss-lint:disable PropertySortOrder, DeclarationOrder
+.review-container,
+.review-thumbs,
+.everything-thumbs {
+  -webkit-box-align: top;
+  -webkit-align-items: top;
+  -ms-flex-align: top;
+  align-items: top;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.review-thumbs,
+.review-map {
+  @include breakpoint(gt-mobile) { width: 50%; }
 }
