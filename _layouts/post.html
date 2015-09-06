@@ -1,9 +1,9 @@
 {% include top.html %}<body class="post-page default-page">
 {% include header.html %}
-<div class="post-header{% if page.locations %} post-header-has-map{% else %} post-header-no-map{% endif %}">
+{% if page.title %}<div class="post-header{% if page.locations %} post-header-has-map{% else %} post-header-no-map{% endif %}">
 {% include post-map-header.html %}
 <div class="container"><h1>{{ page.title }}</h1></div>
-</div>
+</div>{% endif %}
 <div class="container" id="content">{% if page.category %}
 <div class="post-meta small"><a href="/card-catalog/#{{ page.category | downcase }}" class="post-type">{{ page.category }}</a> &times; <a href="{{page.url}}">{{ page.date | date: "%B %-d, %Y" }}</a>{% if page.elsewhere-site %} &times; <a href="{{ page.elsewhere-link }}">{{ page.elsewhere-site }}</a>{% endif %}</div>{% endif %}</div>
 <div class="post">
