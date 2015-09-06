@@ -14,7 +14,7 @@ redirect_from: /adventures/2014/08/24/five-rivers/
 ---
 
 
-This weekend we explored [Five Rivers](http://www.dec.ny.gov/education/1835.html) in Delmar.
+This weekend we explored [Five Rivers](http://www.friendsoffiverivers.org/) in Delmar.
 
 <div class="photos">
 
