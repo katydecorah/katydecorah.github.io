@@ -1,12 +1,6 @@
-source: .
-destination: _site
-plugins: _plugins
-layouts: _layouts
-
 port: 4000
 host: 127.0.0.1
 
-lsi: false
 highlighter: pygments
 markdown: kramdown
 
@@ -75,10 +69,10 @@ links:
   icon: rss
   position: bottom
 
-mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoibGQtZjZINCJ9.qrZnVyO9TghqkQDZPFFnPw
+mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiNTNmZDUwOGRhMWU1MWI5Njg0MWVmYmFjZWRmNTgwZDMifQ.LcCTqgT1JdMpsVapPwPpmQ
 mapid: katydecorah.21d6ba77
 mapid-winter: katydecorah.70f1a6d1
-mapboxjs: v2.2.1
+mapboxjs: v2.2.2
 font-awesome: 4.4.0
 
 defaults:
