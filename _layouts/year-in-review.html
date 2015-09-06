@@ -40,6 +40,7 @@
 </p>
 </div>
 
+<div class="review-container">
 <div class="review-thumbs">
 {% for post in site.posts reversed %}
 {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -49,10 +50,8 @@
 {% endif %}
 {% endfor %}
 </div>
-
-
-<div id="map" class="map"></div>
-
+<div id="map" class="map review-map"></div>
+</div>
 <script>
 L.mapbox.accessToken = '{{site.mapbox-token}}';
 var map = L.mapbox.map('map', '{{site.mapid}}', {
