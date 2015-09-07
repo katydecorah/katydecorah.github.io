@@ -46,9 +46,18 @@
 {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% capture pageYear %}{{ page.title }}{% endcapture %}
 {% if year == pageYear %}
-<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb review-{{post.category}}" title="{{post.title}}"></a>
+<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"></a>
 {% endif %}
 {% endfor %}
+
+{% for post in site.data.other-places %}
+{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% capture pageYear %}{{ page.title }}{% endcapture %}
+{% if year == pageYear %}
+<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"><span class="fa fa-instagram"></span></a>
+{% endif %}
+{% endfor %}
+
 </div>
 <div id="map" class="map review-map"></div>
 </div>
@@ -93,5 +102,9 @@ function change() {
 </div>
 {% include footer.html %}
 {% include end.html %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.2/tinysort.min.js"></script>
+<script>
+tinysort('.review-thumbs>a',{data:'date'});
+</script>
 </body>
 </html>

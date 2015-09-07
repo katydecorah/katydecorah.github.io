@@ -83,6 +83,14 @@
     }
 
   }
+  
+  .fa {
+    bottom: 3px;
+    color: rgba($white, .7);
+    position: absolute;
+    right: 3px;
+  }
+
 }
 
 // scss-lint:disable PropertySortOrder, DeclarationOrder
