@@ -25,6 +25,7 @@ gems:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
+- jekyll-feed
 
 kramdown:
   auto_ids: true
