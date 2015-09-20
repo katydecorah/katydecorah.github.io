@@ -1,9 +1,10 @@
 ---
-title: Adirondack Balloon Festival
+title: Adirondack Balloon Festival 2014
 category: adventures
 tags:
   - family
   - fresh air
+  - ADK Balloon Festival
 image: https://farm4.staticflickr.com/3903/15297564342_643dc19a0e_b.jpg
 locations:
  - Floyd Bennett Memorial Airport
