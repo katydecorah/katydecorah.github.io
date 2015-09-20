@@ -4,7 +4,7 @@ category: adventures
 tags:
   - family
   - fresh air
-image:
+image: https://farm6.staticflickr.com/5690/21354685839_d98746f6f1_b.jpg
 locations:
  - Floyd Bennett Memorial Airport
 coordinates:
