@@ -94,6 +94,12 @@ img {
 
 }
 
+.post {
+  video + video {
+      @include breakpoint(gt-mobile) { margin-left: .65%; }
+  }
+}
+
 .img-split-wide,
 .img-wide {
 
