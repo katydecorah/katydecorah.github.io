@@ -11,7 +11,7 @@ coordinates:
  - -73.604245,43.341432
 ---
 
-Yesterday morning, mom and I woke up at 4:45 to catch the morning launch.
+Yesterday morning mom and I woke up at 4:45 to catch the morning launch.
 
 <div class="photos">
 <img src="https://farm1.staticflickr.com/634/21550343211_d15c515f86_b.jpg" class="img-wide" alt="Adirondack Balloon Festival">
