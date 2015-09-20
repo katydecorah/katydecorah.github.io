@@ -14,6 +14,7 @@ tags:
   - fresh air
   - family
   - hiking
+  - ADK Balloon Festival
 image: http://farm3.staticflickr.com/2893/9874639174_9a41feb163_b.jpg
 redirect_from: /adventures/2013/09/21/adirondack-balloon-festival/
 ---
