@@ -6,7 +6,10 @@ markdown: kramdown
 
 url: http://katydecorah.com
 permalink: /:categories/:title
-#permalink: pretty
+author: 
+  name: Katy DeCorah
+  email: katydecorah@gmail.com
+  uri: http://katydecorah.com
 
 paginate: 5
 paginate_path: ":num"
