@@ -96,7 +96,7 @@ img {
 
 .post {
   video + video {
-      @include breakpoint(gt-mobile) { margin-left: .65%; }
+    @include breakpoint(gt-mobile) { margin-left: .65%; }
   }
 }
 
