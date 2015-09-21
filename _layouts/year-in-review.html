@@ -72,8 +72,18 @@
 
 </div>
 <div id="map" class="map review-map"></div>
-
 </div>
+
+<div class="container">
+
+    <div class="post-prev-next">
+    {% assign lastYear = pageYear | minus: 1 %}
+    {% assign nextYear = pageYear | plus: 1  %}
+    {% if site.years contains lastYear %}<a href="/{{ lastYear }}" class="post-prev pull-left"><span class="post-prev-title"> {{ lastYear }}</span></a>{% endif %}
+    {% if site.years contains nextYear %}<a href="/{{ nextYear }}" class="post-next pull-right text-right"> <span class="post-next-title">{{ nextYear }}</span></a>{% endif %}
+  </div>
+</div>
+
 <script>
 L.mapbox.accessToken = '{{site.mapbox-token}}';
 var map = L.mapbox.map('map', '{{site.mapid}}', {

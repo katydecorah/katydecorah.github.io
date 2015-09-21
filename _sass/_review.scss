@@ -16,8 +16,6 @@
     background: none;
     border: .1em solid;
   }
-  
-  .footer { margin-top: 0;}
 
 }
 
@@ -118,3 +116,8 @@
 .review-map {
   @include breakpoint(gt-mobile) { width: 50%; }
 }
+
+.review-container + .container {
+  margin-top: 1em;
+}
+
