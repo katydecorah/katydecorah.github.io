@@ -37,6 +37,8 @@
   {% if notesCounter > 0 %}I wrote {{notesCounter}} note{% if notesCounter > 1 %}s{% endif %}.{% endif %}
   {% if epicureanCounter > 0 %}I baked {{epicureanCounter}} new treat{% if epicureanCounter > 1 %}s{% endif %}.{% endif %}
   {% if playlistsCounter > 0 %}I made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 %}s{% endif %}.{% endif %}
+  <!-- note about any life events -->
+  {% for post in site.data.life %}{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}{% capture pageYear %}{{ page.title }}{% endcapture %}{% if year == pageYear %}{{post.note}}{% endif %}{% endfor %}
 </p>
 </div>
 
@@ -50,6 +52,7 @@
 {% endif %}
 {% endfor %}
 
+<!-- loop through other places images -->
 {% for post in site.data.other-places %}
 {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% capture pageYear %}{{ page.title }}{% endcapture %}
@@ -58,8 +61,18 @@
 {% endif %}
 {% endfor %}
 
+<!-- loop through life events -->
+{% for post in site.data.life %}
+{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% capture pageYear %}{{ page.title }}{% endcapture %}
+{% if year == pageYear %}
+<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"><span class="fa fa-{{post.icon}}"></span></a>
+{% endif %}
+{% endfor %}
+
 </div>
 <div id="map" class="map review-map"></div>
+
 </div>
 <script>
 L.mapbox.accessToken = '{{site.mapbox-token}}';
