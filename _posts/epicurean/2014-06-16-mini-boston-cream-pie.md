@@ -13,7 +13,6 @@ redirect_from: /epicurean/2014/06/16/mini-boston-cream-pie/
 ---
 
 <div class="photos">
-
 <img src="https://farm6.staticflickr.com/5593/14475647445_b6a140e9e7_b.jpg" alt="Boston Creme Pie">
 </div>
 

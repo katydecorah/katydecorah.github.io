@@ -14,7 +14,6 @@ redirect_from: /epicurean/2014/05/11/raspberry-brownies/
 ---
 
 <div class="photos">
-
 <img src="https://farm3.staticflickr.com/2939/14289010659_37f7efa467_b.jpg" alt="Raspberry Chocolate Brownies">
 </div>
 
