@@ -6,7 +6,7 @@ layout: no-container
 <script src="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js"></script>
 <link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />
 
-{% assign years = "2015|2014|2013|2012|2010|2009|2008|2005" | split: "|" %}
+{% assign years = site.years %}
 
 <div id="map" class="map"></div>
 <div class="map-select" id="marker-list"></div>
