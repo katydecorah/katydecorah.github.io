@@ -5,7 +5,7 @@ category: notes
 tags:
  - yay
  - time travel
-image: http://distilleryimage6.ak.instagram.com/01f8839c849f11e3b8a7123c58805256_8.jpg
+image: https://instagram.com/p/jiOsiVCI_O/media/?size=l
 redirect_from: /notes/2014/01/25/hair-today/
 ---
 
