@@ -9,6 +9,7 @@ title: Hello!
 
 I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/card-catalog/#playlists). Sometimes [I teach](/card-catalog/#teaching) at the University at Albany.
 
+I'm also an organizer for [ELA Conf](http://elaconf.com/) coming this November!
 
 ## Record keeping
 
@@ -25,8 +26,9 @@ I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/
 
 <div class="post">
 <div class="photos">
-<img src="https://c1.staticflickr.com/1/448/18664258796_988f31b102_c.jpg" class="img-half" alt="at home">
-<img src="https://c1.staticflickr.com/1/530/18664287626_4c32e59e7e_c.jpg" class="img-half" alt="treats">
+<img src="https://c1.staticflickr.com/1/448/18664258796_988f31b102_c.jpg" class="img-thirds" alt="at home">
+<img src="https://c1.staticflickr.com/1/530/18664287626_4c32e59e7e_c.jpg" class="img-thirds" alt="treats">
+<img src="https://farm1.staticflickr.com/588/21917162186_67041fbcf4_c.jpg" class="img-thirds" alt="an outdoors woman">
 </div>
 </div>
 
