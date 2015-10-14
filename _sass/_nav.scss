@@ -47,23 +47,24 @@
 .header {
 
   .nav-link {
-    border: 2px solid transparent;
+    border-bottom: 2px solid transparent;
     color: $link-color;
     display: block;
     font-size: $font-xs;
     line-height: 1;
-    margin-right: .25em;
+    margin-left: 1.5em;
     margin-top: 1.5em;
     min-height: 1em;
-    padding: .5em 1em;
+    padding: .5em 0;
     position: relative;
   }
 
   .active .nav-link,
   .nav-link:hover {
-    border: 2px solid;
-    color: $text-color;
+    border-bottom-color: $link-hover;
+    color: $link-hover;
     text-decoration: none;
+    transition: $link-transition;
   }
 
 }
