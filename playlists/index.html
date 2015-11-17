@@ -17,6 +17,7 @@ redirect_from: "/playlist-master/index.html"
 {% for playlist in item.playlists reversed %}
 <div class="playlist-container" id="{{ playlist.playlist | replace: ' ', '_' | downcase }}">
 <div class="container">
+<img width="600" src="/img/playlists/{{ playlist.playlist | slugify }}.png" alt="Album art {{ playlist.playlist }}" />
 <h2>{{ playlist.playlist }}</h2>
 <div class="playlist-meta">
 {% if playlist.rdio %}<i class="fa fa-music"></i> <a href="{{ playlist.rdio }}" class="playlist-rdio">Listen on Rdio</a>{% endif %}
