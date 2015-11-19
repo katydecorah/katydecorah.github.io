@@ -1,5 +1,6 @@
 - playlists:
   - playlist: Raps by Jason Morris
+    hidden: true
     rdio: http://rd.io/x/QXaYuDN8N8o/
     tracks:
     - track: "The Gangsta, The Killa And The Dope Dealer"
@@ -99,6 +100,7 @@
       album: "The Game"
       album: "R.E.D. II"
   - playlist: 2004-2005
+    hidden: true
     nostalgia: high school favorites
     rdio: http://rd.io/x/QXaYuDMoxkU/
     tracks:
@@ -2144,6 +2146,7 @@
       artist: "Tops"
       album: "Tender Opposites"
   - playlist: JAAAMS
+    hidden: true
     rdio: http://rd.io/x/QXaYuDNLvgM/
     tracks:
     - track: "Pop That"
@@ -2832,6 +2835,7 @@
       album: "Mia Doi Todd"
       album: "Cosmic Ocean Ship"
   - playlist: Classics
+    hidden: true
     rdio: http://rd.io/x/QXaYuDMvyf0/
     tracks:
     - track: "I Can't Stand the Rain"
@@ -3129,6 +3133,7 @@
       album: "alt-J"
       album: "Hunger Of The Pine"
   - playlist: Bookmarked
+    hidden: true
     rdio: http://rd.io/x/QXaYuDPRYgA/
     tracks:
     - track: "Ill Mind of Hopsin 5"
@@ -3436,6 +3441,7 @@
       album: "A$AP Rocky"
       album: "AT.LONG.LAST.A$AP"
   - playlist: Yaaaaas
+    hidden: true
     rdio: http://rd.io/x/QXaYuDOTCYs/
     tracks:
     - track: "Feeling Myself"
@@ -3566,6 +3572,7 @@
       album: "Frankie Rose"
       album: "Interstellar"
   - playlist: Wedding bells
+    hidden: true
     rdio: http://rd.io/x/QXaYuDOFocU/
     tracks:
     - track: "Svefn-g-englar"
@@ -3589,6 +3596,7 @@
       album: "Spoon"
       album: "Kill the Moonlight"
   - playlist: All time favorites
+    hidden: true
     rdio: http://rd.io/x/QXaYuDOBIy8/
     tracks:
     - track: "Your Ex-Lover Is Dead"
