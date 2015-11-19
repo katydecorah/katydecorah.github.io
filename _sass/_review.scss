@@ -51,7 +51,7 @@
   &:hover {
 
     &:before {
-      background: rgba($black, .65);
+      background: rgba($black, .75);
       bottom: 0;
       height: 100%;
       left: 0;
@@ -119,5 +119,9 @@
 
 .review-container + .container {
   margin-top: 1em;
+}
+
+.page-playlists .everything-thumb:hover:after {
+  font-size: 1em;
 }
 

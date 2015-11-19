@@ -7,7 +7,7 @@ title: Hello!
 
 <p class="lead">Hello! I'm Katy DeCorah. I live in Albany, NY. I'm a explainer, helper, and tinkerer at <a href="//www.mapbox.com">Mapbox</a>.</p>
 
-I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/card-catalog/#playlists). Sometimes [I teach](/card-catalog/#teaching) at the University at Albany.
+I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/playlists/). Sometimes [I teach](/card-catalog/#teaching) at the University at Albany.
 
 I'm also an organizer for [ELA Conf](http://elaconf.com/) coming this November!
 

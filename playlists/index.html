@@ -4,16 +4,13 @@ title: Playlists
 redirect_from: "/playlist-master/index.html"
 ---
 
-<div class="container" id="content">
-<div class="columns">
 {% for item in site.data.playlists %}
-<ul class="fa-ul">
+<div class="photos everything-thumbs">
 {% for playlist in item.playlists reversed %}{% unless playlist.hidden %}
-<li><a href="#{{ playlist.playlist | replace: ' ', '_' | downcase }}"><i class="fa fa-angle-right fa-li"></i> {{ playlist.playlist }}</a></li>
+<a href="#{{ playlist.playlist | replace: ' ', '_' | downcase }}" title="{{playlist.playlist}}" class="everything-thumb" style="background-image: url(/img/playlists/{{ playlist.playlist | slugify }}.png)"></a>
 {% endunless %}{% endfor %}
-</ul>
 </div>
-</div>
+
 {% for playlist in item.playlists reversed %}{% unless playlist.hidden %}
 <div class="playlist-container" id="{{ playlist.playlist | replace: ' ', '_' | downcase }}">
 <div class="container">
