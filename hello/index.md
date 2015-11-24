@@ -9,7 +9,7 @@ title: Hello!
 
 I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/playlists/). Sometimes [I teach](/card-catalog/#teaching) at the University at Albany.
 
-I'm also an organizer for [ELA Conf](http://elaconf.com/) coming this November!
+I'm also an organizer for [ELA Conf](http://elaconf.com/).
 
 ## Record keeping
 
