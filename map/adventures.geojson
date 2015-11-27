@@ -2,7 +2,7 @@
 ---
 {
   "type": "FeatureCollection",
-  "features": [{% assign places = (site.posts | where: "category", "adventures") %}{% for place in places %}{% assign type = place.coordinates | size %}{% capture year %}{{place.date | date: "%Y"}}{% endcapture %}
+  "features": [{% assign places = (site.posts) %}{% for place in places %}{% if place.coordinates %}{% assign type = place.coordinates | size %}{% capture year %}{{place.date | date: "%Y"}}{% endcapture %}
     {
       "type": "Feature",
       "properties": {
@@ -22,7 +22,7 @@
           [{{coord}}]{% if forloop.last != true %},{% endif %}{% endfor %}
         ]{% endcase %}
       }
-    },{% endfor %}
+    },{% endif %}{% endfor %}
       {% for place in site.data.other-places %}
       {
         "type": "Feature",
