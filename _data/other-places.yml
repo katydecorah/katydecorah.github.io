@@ -117,10 +117,24 @@
   marker: campsite
   coordinates: -74.0979879,43.1909244
 
+- title: Corning Tower Observation Deck
+  image: https://www.instagram.com/p/9MXfv3iI9t/media/?size=m
+  url: https://www.instagram.com/p/9MXfv3iI9t/
+  date: 2015-10-23
+  marker: star
+  coordinates: -73.7617097,42.6490881
+
 - title: Fall sprint in DC
   image: https://www.instagram.com/p/9v1kvJCI7E/media/?size=m
   url: https://www.instagram.com/p/9v1kvJCI7E/
   date: 2015-11-02
   marker: rocket
   coordinates: -77.0145,38.89
+
+- title: Saratoga Siege Trail
+  image: https://www.instagram.com/p/-Hn1P1CIxA/media/?size=m
+  url: https://www.instagram.com/p/-Hn1P1CIxA/
+  date: 2015-11-08
+  marker: park
+  coordinates: -73.583457,43.094299
   
