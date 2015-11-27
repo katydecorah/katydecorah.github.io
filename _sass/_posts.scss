@@ -179,17 +179,15 @@
 }
 
 .post-locations,
-.post-tags {
+.post-tags,
+.post-twitter {
   font-size: $font-xs;
+  margin-bottom: .5em;
 
   .fa {
     min-width: 1.25em;
   }
 
-}
-
-.post-locations {
-  margin-bottom: 1em;
 }
 
 .tag {
