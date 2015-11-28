@@ -3,8 +3,11 @@ title: Adventure Map
 layout: no-container
 ---
 
+<link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />  
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/MarkerCluster.css' rel='stylesheet' />
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/MarkerCluster.Default.css' rel='stylesheet' />
 <script src="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js"></script>
-<link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/leaflet.markercluster.js'></script>
 
 {% assign years = site.years %}
 
@@ -18,9 +21,12 @@ var checkboxes = document.getElementsByClassName('filter');
 var markerList = document.getElementById('marker-list');
 var years = [{% for year in years %}"{{year}}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
+var overlays = L.layerGroup().addTo(map);
+
+
 var featureLayer = L.mapbox.featureLayer()
 .loadURL('/map/adventures.geojson')
-.addTo(map);
+
 featureLayer.on('ready', function(e) {
 
   for (var i = 0; i < years.length; i++) {
@@ -68,6 +74,8 @@ featureLayer.on('ready', function(e) {
   }
 
   change();
+  layers = e.target;
+  cluster()
 });
 
 featureLayer.on('layeradd', function(e) {
@@ -100,5 +108,11 @@ function change() {
 }
 markerList.onchange = change;
 
+function cluster() {
+  var clusterGroup = new L.MarkerClusterGroup().addTo(overlays);
+  layers.eachLayer(function(layer) {
+    clusterGroup.addLayer(layer);
+  });
+}
 
 </script>

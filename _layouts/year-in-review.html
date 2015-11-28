@@ -1,133 +1,150 @@
 {% include top.html %}
 <body class="default-page page-review page-{{ page.title | downcase | replace:' ','_' | replace: '!',''  }}">
-
-<script src="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js"></script>
-<link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />  
-
-{% include header.html %}
-<div class="content" id="content">
-<div class="container">
-<h1 class="big">{{ page.title }}</h1>
-{% assign playlistsCounter = 0 %}
-{% assign adventuresCounter = 0 %}
-{% assign codeCounter = 0 %}
-{% assign notesCounter = 0 %}
-{% assign teachingCounter = 0 %}
-{% assign epicurean = 0 %}
-
-{% assign playlistThumbs = '' %}
-
-{% for post in site.posts reversed %}
-{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-{% capture pageYear %}{{ page.title }}{% endcapture %}
-{% if year == pageYear %}
-  {% if post.category == 'playlists' %}{% assign playlistsCounter = playlistsCounter | plus:1 %}{% endif %}
-  {% if post.category == 'adventures' %}{% assign adventuresCounter = adventuresCounter | plus:1 %}{% endif %}
-  {% if post.category == 'code' %}{% assign codeCounter = codeCounter | plus:1 %}{% endif %}
-  {% if post.category == 'notes' %}{% assign notesCounter = notesCounter | plus:1 %}{% endif %}
-  {% if post.category == 'epicurean' %}{% assign epicureanCounter = epicureanCounter | plus:1 %}{% endif %}
-  {% if post.category == 'teaching' %}{% assign teachingCounter = teachingCounter | plus:1 %}{% endif %}
-{% endif %}
-{% endfor %}
-
-<p class="review-text">
-  {% if adventuresCounter > 0 %}I had {{ adventuresCounter }} adventure{% if adventuresCounter > 1 %}s{% endif %}.{% endif %}
-  {% if codeCounter > 0 %}I wrote about code {{ codeCounter }} time{% if codeCounter > 1 %}s{% endif %}.{% endif %}
-  {% if teachingCounter > 0 %}I taught {{ teachingCounter }} class{% if teachingCounter > 1 %}es{% endif %}.{% endif %}
-  {% if notesCounter > 0 %}I wrote {{notesCounter}} note{% if notesCounter > 1 %}s{% endif %}.{% endif %}
-  {% if epicureanCounter > 0 %}I baked {{epicureanCounter}} new treat{% if epicureanCounter > 1 %}s{% endif %}.{% endif %}
-  {% if playlistsCounter > 0 %}I made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 %}s{% endif %}.{% endif %}
-  <!-- note about any life events -->
-  {% for post in site.data.life %}{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}{% capture pageYear %}{{ page.title }}{% endcapture %}{% if year == pageYear %}{{post.note}}{% endif %}{% endfor %}
-</p>
-</div>
-
-<div class="review-container">
-<div class="review-thumbs">
-{% for post in site.posts reversed %}
-{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% capture pageYear %}{{ page.title }}{% endcapture %}
-{% if year == pageYear %}
-<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"></a>
-{% endif %}
-{% endfor %}
-
-<!-- loop through other places images -->
-{% for post in site.data.other-places %}
-{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% capture pageYear %}{{ page.title }}{% endcapture %}
-{% if year == pageYear %}
-<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"><span class="fa fa-instagram"></span></a>
-{% endif %}
-{% endfor %}
-
-<!-- loop through life events -->
-{% for post in site.data.life %}
-{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% capture pageYear %}{{ page.title }}{% endcapture %}
-{% if year == pageYear %}
-<a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"><span class="fa fa-{{post.icon}}"></span></a>
-{% endif %}
-{% endfor %}
-
-</div>
-<div id="map" class="map review-map"></div>
-</div>
-
-<div class="container">
-
-    <div class="post-prev-next">
-    {% assign lastYear = pageYear | minus: 1 %}
-    {% assign nextYear = pageYear | plus: 1  %}
-    {% if site.years contains lastYear %}<a href="/{{ lastYear }}" class="post-prev pull-left"><span class="post-prev-title"> {{ lastYear }}</span></a>{% endif %}
-    {% if site.years contains nextYear %}<a href="/{{ nextYear }}" class="post-next pull-right text-right"> <span class="post-next-title">{{ nextYear }}</span></a>{% endif %}
+  
+  <link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />  
+  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/MarkerCluster.css' rel='stylesheet' />
+  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/MarkerCluster.Default.css' rel='stylesheet' />
+  <script src="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js"></script>
+  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/leaflet.markercluster.js'></script>
+  
+  
+  {% include header.html %}
+  <div class="content" id="content">
+    <div class="container">
+      <h1 class="big">{{ page.title }}</h1>
+      {% assign playlistsCounter = 0 %}
+      {% assign adventuresCounter = 0 %}
+      {% assign codeCounter = 0 %}
+      {% assign notesCounter = 0 %}
+      {% assign teachingCounter = 0 %}
+      {% assign epicurean = 0 %}
+      
+      {% assign playlistThumbs = '' %}
+      
+      {% for post in site.posts reversed %}
+      {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+      {% capture pageYear %}{{ page.title }}{% endcapture %}
+      {% if year == pageYear %}
+      {% if post.category == 'playlists' %}{% assign playlistsCounter = playlistsCounter | plus:1 %}{% endif %}
+      {% if post.category == 'adventures' %}{% assign adventuresCounter = adventuresCounter | plus:1 %}{% endif %}
+      {% if post.category == 'code' %}{% assign codeCounter = codeCounter | plus:1 %}{% endif %}
+      {% if post.category == 'notes' %}{% assign notesCounter = notesCounter | plus:1 %}{% endif %}
+      {% if post.category == 'epicurean' %}{% assign epicureanCounter = epicureanCounter | plus:1 %}{% endif %}
+      {% if post.category == 'teaching' %}{% assign teachingCounter = teachingCounter | plus:1 %}{% endif %}
+      {% endif %}
+      {% endfor %}
+      
+      <p class="review-text">
+        {% if adventuresCounter > 0 %}I had {{ adventuresCounter }} adventure{% if adventuresCounter > 1 %}s{% endif %}.{% endif %}
+        {% if codeCounter > 0 %}I wrote about code {{ codeCounter }} time{% if codeCounter > 1 %}s{% endif %}.{% endif %}
+        {% if teachingCounter > 0 %}I taught {{ teachingCounter }} class{% if teachingCounter > 1 %}es{% endif %}.{% endif %}
+        {% if notesCounter > 0 %}I wrote {{notesCounter}} note{% if notesCounter > 1 %}s{% endif %}.{% endif %}
+        {% if epicureanCounter > 0 %}I baked {{epicureanCounter}} new treat{% if epicureanCounter > 1 %}s{% endif %}.{% endif %}
+        {% if playlistsCounter > 0 %}I made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 %}s{% endif %}.{% endif %}
+        <!-- note about any life events -->
+        {% for post in site.data.life %}{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}{% capture pageYear %}{{ page.title }}{% endcapture %}{% if year == pageYear %}{{post.note}}{% endif %}{% endfor %}
+      </p>
+    </div>
+    
+    <div class="review-container">
+      <div class="review-thumbs">
+        {% for post in site.posts reversed %}
+        {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture pageYear %}{{ page.title }}{% endcapture %}
+        {% if year == pageYear %}
+        <a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"></a>
+        {% endif %}
+        {% endfor %}
+        
+        <!-- loop through other places images -->
+        {% for post in site.data.other-places %}
+        {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture pageYear %}{{ page.title }}{% endcapture %}
+        {% if year == pageYear %}
+        <a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"><span class="fa fa-instagram"></span></a>
+        {% endif %}
+        {% endfor %}
+        
+        <!-- loop through life events -->
+        {% for post in site.data.life %}
+        {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture pageYear %}{{ page.title }}{% endcapture %}
+        {% if year == pageYear %}
+        <a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"><span class="fa fa-{{post.icon}}"></span></a>
+        {% endif %}
+        {% endfor %}
+        
+      </div>
+      <div id="map" class="map review-map"></div>
+    </div>
+    
+    <div class="container">
+      
+      <div class="post-prev-next">
+        {% assign lastYear = pageYear | minus: 1 %}
+        {% assign nextYear = pageYear | plus: 1  %}
+        {% if site.years contains lastYear %}<a href="/{{ lastYear }}" class="post-prev pull-left"><span class="post-prev-title"> {{ lastYear }}</span></a>{% endif %}
+        {% if site.years contains nextYear %}<a href="/{{ nextYear }}" class="post-next pull-right text-right"> <span class="post-next-title">{{ nextYear }}</span></a>{% endif %}
+      </div>
+    </div>
+    
+    <script>
+    L.mapbox.accessToken = '{{site.mapbox-token}}';
+    var map = L.mapbox.map('map', '{{site.mapid}}', {
+      zoomControl: false
+    });
+    
+    map.scrollWheelZoom.disable();
+    
+    var overlays = L.layerGroup().addTo(map);
+    
+    var featureLayer = L.mapbox.featureLayer()
+    .loadURL('/map/adventures.geojson');
+    
+    featureLayer.on('ready', function(e) {
+      change();
+      layers = e.target;
+      cluster()
+    });
+    
+    featureLayer.on('layeradd', function(e) {
+      var marker = e.layer,
+      feature = marker.feature;
+      // Create custom popup content
+      var popupContent =  '<a target="_blank" class="popup external-'+feature.properties.external+'" href="' + feature.properties.url + '">' +
+      '<img alt="'+ feature.properties.title +'+" src="' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
+      
+      // http://leafletjs.com/reference.html#popup
+      marker.bindPopup(popupContent,{
+        minWidth: 150,
+        closeButton: false
+      });
+      
+    });
+    
+    function change() {
+      var on = ["{{pageYear}}"];
+      featureLayer.setFilter(function (f) {
+        return on.indexOf(f.properties['year']) !== -1;
+      });
+      map.fitBounds(featureLayer.getBounds());
+      return false;
+    }
+    
+    function cluster() {
+      var clusterGroup = new L.MarkerClusterGroup().addTo(overlays);
+      layers.eachLayer(function(layer) {
+        clusterGroup.addLayer(layer);
+      });
+    }
+    </script>
+    
   </div>
-</div>
-
-<script>
-L.mapbox.accessToken = '{{site.mapbox-token}}';
-var map = L.mapbox.map('map', '{{site.mapid}}', {
-  zoomControl: false
-});
-map.scrollWheelZoom.disable();
-
-var featureLayer = L.mapbox.featureLayer()
-.loadURL('/map/adventures.geojson')
-.addTo(map);
-featureLayer.on('ready', function(e) {
-  change();
-});
-
-featureLayer.on('layeradd', function(e) {
-  var marker = e.layer,
-  feature = marker.feature;
-  // Create custom popup content
-  var popupContent =  '<a target="_blank" class="popup external-'+feature.properties.external+'" href="' + feature.properties.url + '">' +
-  '<img alt="'+ feature.properties.title +'+" src="' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
-
-  // http://leafletjs.com/reference.html#popup
-  marker.bindPopup(popupContent,{
-    minWidth: 150,
-    closeButton: false
-  });
-});
-
-function change() {
-  var on = ["{{pageYear}}"];
-  featureLayer.setFilter(function (f) {
-    return on.indexOf(f.properties['year']) !== -1;
-  });
-  map.fitBounds(featureLayer.getBounds());
-  return false;
-}
-</script>
-
-</div>
-{% include footer.html %}
-{% include end.html %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.2/tinysort.min.js"></script>
-<script>
-tinysort('.review-thumbs>a',{data:'date'});
-</script>
+  {% include footer.html %}
+  {% include end.html %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.2/tinysort.min.js"></script>
+  <script>
+  tinysort('.review-thumbs>a',{data:'date'});
+  </script>
 </body>
 </html>
