@@ -1,7 +1,8 @@
 language: node_js
 node_js: "stable"
 before_install: 
-  - bundle exec jekyll build
+  - gem install bundler
+  - bundle install
   - gem install scss-lint
   - gem install html-proofer
 scripts: bundle exec jekyll build
