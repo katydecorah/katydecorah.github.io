@@ -1,11 +1,9 @@
 <!-- for templating -->
-{% for item in site.data.playlists %}
-{% for playlist in item.playlists %}
+{% for playlist in site.data.playlists %}
 {% if page.title == playlist.playlist %}
 {% if playlist.rdio %}[Listen on Rdio]({{ playlist.rdio }}){% endif %}<br><br>
 {% for tracks in playlist.tracks %}
 * {{ tracks.track }}, {{ tracks.artist }}<br>
 {% endfor %}
 {% endif %}
-{% endfor %}
 {% endfor %}

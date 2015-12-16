@@ -4,14 +4,13 @@ title: Playlists
 redirect_from: "/playlist-master/index.html"
 ---
 
-{% for item in site.data.playlists %}
 <div class="photos everything-thumbs">
-{% for playlist in item.playlists reversed %}{% unless playlist.hidden %}
+{% for playlist in site.data.playlists reversed %}{% unless playlist.hidden %}
 <a href="#{{ playlist.playlist | replace: ' ', '_' | downcase }}" title="{{playlist.playlist}}" class="everything-thumb" style="background-image: url(/img/playlists/{{ playlist.playlist | slugify }}.png)"></a>
 {% endunless %}{% endfor %}
 </div>
 
-{% for playlist in item.playlists reversed %}{% unless playlist.hidden %}
+{% for playlist in site.data.playlists reversed %}{% unless playlist.hidden %}
 <div class="playlist-container" id="{{ playlist.playlist | replace: ' ', '_' | downcase }}">
 <div class="container">
 <img width="600" src="/img/playlists/{{ playlist.playlist | slugify }}.png" alt="Album art {{ playlist.playlist }}" />
@@ -32,4 +31,3 @@ redirect_from: "/playlist-master/index.html"
 </div>
 </div>
 </div>{% endunless %}{% endfor %}
-{% endfor %}
