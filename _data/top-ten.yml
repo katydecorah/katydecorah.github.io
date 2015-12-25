@@ -1,4 +1,10 @@
 - year: 2015
+  tripit:
+  - trips: 10
+    days: 69
+    distance: 23,886
+    cities: 18
+    countries: 2
   tracks:
   - Cosmicide — Talos Corpse
   - Lower Dens — Rosie

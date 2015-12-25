@@ -78,10 +78,17 @@
     
     <div class="container">
       {% for data in site.data.top-ten %}{% if data.year == page.title %}
-      <h2>Top ten</h2>
-      <h3>Most listened albums</h3>
+            
+      {% if data.tripit %}
+      <h2>Travel</h2>
+      {% for tripit in data.tripit %}
+      <p>I went on {{tripit.trips}} trips over {{tripit.days}} days that spanned {{tripit.cities}} cities and {{tripit.countries}} countries. In total, I traveled {{tripit.distance}} miles.</p>
+      {% endfor %}
+      {% endif %}
+
+      <h2>Most listened albums</h2>
       <ol>{% for album in data.albums %}<li>{{album}}</li>{% endfor %}</ol>
-      <h3>Most listened tracks</h3>
+      <h2>Most listened tracks</h2>
       <ol>{% for track in data.tracks %}<li>{{track}}</li>{% endfor %}</ol>
       {% endif %}{% endfor %}
       
