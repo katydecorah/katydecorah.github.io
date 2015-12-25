@@ -45,8 +45,6 @@
         {% for post in site.data.life %}{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}{% capture pageYear %}{{ page.title }}{% endcapture %}{% if year == pageYear %}{{post.note}}{% endif %}{% endfor %}
       </p>
     </div>
-    
-    <div class="review-container">
       <div class="review-thumbs">
         {% for post in site.posts reversed %}
         {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -75,10 +73,17 @@
         {% endfor %}
         
       </div>
-      <div id="map" class="map review-map"></div>
+      <div id="map" class="map"></div>
     </div>
     
     <div class="container">
+      {% for data in site.data.top-ten %}{% if data.year == page.title %}
+      <h2>Top ten</h2>
+      <h3>Most listened albums</h3>
+      <ol>{% for album in data.albums %}<li>{{album}}</li>{% endfor %}</ol>
+      <h3>Most listened tracks</h3>
+      <ol>{% for track in data.tracks %}<li>{{track}}</li>{% endfor %}</ol>
+      {% endif %}{% endfor %}
       
       <div class="post-prev-next">
         {% assign lastYear = pageYear | minus: 1 %}
