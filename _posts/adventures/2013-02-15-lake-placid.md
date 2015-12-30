@@ -17,7 +17,7 @@ redirect_from: /adventures/2013/02/15/lake-placid/
 ---
 
 
-Travelled up to Lake Placid for the weekend with a college roommate, to visit our other college roommate. She had a nice birthday suprise waiting for me!
+Traveled up to Lake Placid for the weekend with a college roommate, to visit our other college roommate. She had a nice birthday surprise waiting for me!
 
 <div class="photos">
 

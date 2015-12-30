@@ -43,7 +43,7 @@ redirect_from: /adventures/2008/05/20/roman-britain/
 ---
 
 
-At Siena, I took a course called *Romain Britain*, where we studied the Romanization of Britain. At the end of the semester we visited the sites.
+At Siena, I took a course called *Roman Britain*, where we studied the Romanization of Britain. At the end of the semester we visited the sites.
 
 ## Hadrian's Wall
 
@@ -150,7 +150,7 @@ At Siena, I took a course called *Romain Britain*, where we studied the Romaniza
 
 <img src="https://farm8.staticflickr.com/7375/10006108003_04b148a993_b.jpg" class="img-half" alt="Bath">
 
-<img src="https://farm3.staticflickr.com/2883/10006009575_f355f8e6db_b.jpg" class="img-tal" alt="Roman Bath">
+<img src="https://farm3.staticflickr.com/2883/10006009575_f355f8e6db_b.jpg" class="img-tall" alt="Roman Bath">
 
 <img src="https://farm6.staticflickr.com/5332/10006062226_613e97695c_b.jpg" class="img-wide" alt="Roman Bath">
 
