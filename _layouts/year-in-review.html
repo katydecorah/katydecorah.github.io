@@ -85,6 +85,11 @@
       <p>I went on {{tripit.trips}} trips over {{tripit.days}} days that spanned {{tripit.cities}} cities and {{tripit.countries}} countries. In total, I traveled {{tripit.distance}} miles.</p>
       {% endfor %}
       {% endif %}
+      
+      {% if data.favorites %}
+      <h2>Favorites</h2>
+      <ul>{% for fav in data.favorites %}<li>{% for f in fav %}<a href="{{f[1]}}">{{f[0]}}</a>{% endfor %}</li>{% endfor %}</ul>
+      {% endif %}
 
       <h2>Most listened albums</h2>
       <ol>{% for album in data.albums %}<li>{{album}}</li>{% endfor %}</ol>

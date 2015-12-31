@@ -1,4 +1,12 @@
 - year: 2015
+  favorites:
+  - Trip: /adventures/iceland/
+  - Photoset: /adventures/frozen-papscanee-preserve/
+  - Project: /notes/ela-conf/
+  - Show: https://www.instagram.com/p/1hTk-oCI3R/
+  - Hack: /code/symlinking-jekyll-data/
+  - Instagram: https://www.instagram.com/p/6KgG3ciIxU/
+  - Hike: /adventures/south-yokun-ridge/
   tripit:
   - trips: 10
     days: 69
