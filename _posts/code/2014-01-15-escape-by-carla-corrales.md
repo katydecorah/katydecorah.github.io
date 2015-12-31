@@ -4,14 +4,11 @@ title: Escape by Carla Corrales
 category: code
 pen: mJeba
 tags:
-  - Dribbble
-  - CodePen
-  - Haml
-  - Sass
-  - single element
-  - gradient
-  - transform
-  - animation
+- Dribbble
+- CodePen
+- Sass
+- single element
+- animation
 image: http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg
 dribbble: http://drbl.in/jMcZ
 pen: mJeba

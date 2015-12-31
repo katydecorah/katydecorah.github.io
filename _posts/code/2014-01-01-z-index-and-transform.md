@@ -3,12 +3,11 @@ layout: post
 title: "z-index and transform"
 category: code
 tags:
-  - Dribbble
-  - CodePen
-  - Haml
-  - Sass
-  - transform
-  - "single element"
+- Dribbble
+- CodePen
+- Haml
+- Sass
+- single element
 image: http://farm8.staticflickr.com/7409/12730119235_c26ceaf678_o.png
 pen: lqBtz
 dribbble: http://drbl.in/jJIr

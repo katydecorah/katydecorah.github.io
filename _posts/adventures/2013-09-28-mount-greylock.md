@@ -2,7 +2,8 @@
 layout: post
 title: Mount Greylock
 category: adventures
-locations: "Mount Greylock"
+locations: 
+- Mount Greylock
 map: static
 coordinates:
  - -73.1662799,42.6392075

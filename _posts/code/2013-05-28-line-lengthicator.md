@@ -7,8 +7,6 @@ tags:
 - Sass
 - jQuery
 - Haml
-- readability
-- typography
 - "time travel"
 pen: cufzB
 image: http://farm4.staticflickr.com/3830/12730512263_517fe233f6_o.png
