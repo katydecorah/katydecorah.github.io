@@ -1,18 +1,22 @@
 - year: 2015
-  favorites:
-  - Trip: /adventures/iceland/
-  - Photoset: /adventures/frozen-papscanee-preserve/
-  - Project: /notes/ela-conf/
-  - Show: https://www.instagram.com/p/1hTk-oCI3R/
-  - Hack: /code/symlinking-jekyll-data/
-  - Instagram: https://www.instagram.com/p/6sOKr1iI_k/
-  - Hike: /adventures/south-yokun-ridge/
+  topnine:
+    - https://www.instagram.com/p/3RWZHwCI46/
+    - https://www.instagram.com/p/6KgG3ciIxU/
+    - https://www.instagram.com/p/4vOO3oCI0p/
+    - https://www.instagram.com/p/8b4g_gCI9B/
+    - https://www.instagram.com/p/-iHtLHiI46/
+    - https://www.instagram.com/p/7z8OwMiI2i/
+    - https://www.instagram.com/p/3MdDaqCI0V/
+    - https://www.instagram.com/p/3B3C2LCI2q/
+    - https://www.instagram.com/p/29aoB6iI1X/
   tripit:
   - trips: 10
     days: 69
     distance: 23,886
     cities: 18
     countries: 2
+  spotify: https://open.spotify.com/user/katydecorah/playlist/7IAKk5ruE7Rdk0Ocvzp3RX
+  playlist_image: https://mosaic.scdn.co/640/b2d457528f295f95a75cc4daad9dadcb948287f0b072b56e269d588e82ac9e5e454938e7c253e49df37c8d76e4389b899250a8d10728b56fccb61d946021c046cf06a9ac9a0e2af270450bf81071b104
   tracks:
   - Cosmicide — Talos Corpse
   - Lower Dens — Rosie

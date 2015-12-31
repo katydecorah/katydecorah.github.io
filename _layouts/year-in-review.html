@@ -86,6 +86,13 @@
       {% endfor %}
       {% endif %}
       
+      {% if data.topnine %}
+      <h2>Instagram top 9</h2>
+      <div class="topnine-thumbs">
+      {% for img in data.topnine %}<a href="{{img}}" style="background-image:url({{img}}media/?size=l)" class="topnine-thumb"><span class="fa fa-instagram"></span></a>{% endfor %}
+      </div>
+      {% endif %}
+      
       {% if data.favorites %}
       <h2>Favorites</h2>
       <ul>{% for fav in data.favorites %}<li>{% for f in fav %}<a href="{{f[1]}}">{{f[0]}}</a>{% endfor %}</li>{% endfor %}</ul>
@@ -94,6 +101,8 @@
       <h2>Most listened albums</h2>
       <ol>{% for album in data.albums %}<li>{{album}}</li>{% endfor %}</ol>
       <h2>Most listened tracks</h2>
+      <img src="{{data.playlist_image}}" alt="" />
+      {% if data.spotify %} <i class="fa fa-music btn-circle"></i> <a href="{{ data.spotify }}" class="playlist-rdio">Listen on Spotify</a>{% endif %}
       <ol>{% for track in data.tracks %}<li>{{track}}</li>{% endfor %}</ol>
       {% endif %}{% endfor %}
       
