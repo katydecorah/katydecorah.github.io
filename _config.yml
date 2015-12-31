@@ -48,7 +48,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   use_coderay: false
 
-exclude: [vendor,CNAME,README.md]
+exclude: [vendor,CNAME,README.md,node_modules,.sass-cache]
 
 links:
 - text: Hello!
