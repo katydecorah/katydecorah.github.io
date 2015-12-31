@@ -101,7 +101,7 @@
       <h2>Most listened albums</h2>
       <ol>{% for album in data.albums %}<li>{{album}}</li>{% endfor %}</ol>
       <h2>Most listened tracks</h2>
-      <img src="{{data.playlist_image}}" alt="" />
+      {% if data.playlist_image %}<img src="{{data.playlist_image}}" alt="most listened tracks album art" />{% endif %}
       {% if data.spotify %} <i class="fa fa-music btn-circle"></i> <a href="{{ data.spotify }}" class="playlist-rdio">Listen on Spotify</a>{% endif %}
       <ol>{% for track in data.tracks %}<li>{{track}}</li>{% endfor %}</ol>
       {% endif %}{% endfor %}
