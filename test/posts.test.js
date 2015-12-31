@@ -16,6 +16,27 @@ subDir.forEach(function(dir) {
   });
 });
 
+// build array of permalinks
+var permalinks = posts.reduce(function(prev, post, index, list) {
+  var permalink;
+  
+  if (post) {
+    
+    var file = readPost(post);
+    var metadata = file.metadata;
+    if (metadata.permalink) {
+      permalink = metadata.permalink;
+    } else {
+      permalink = post.replace('_posts','').replace('.md','/').replace(/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-/,'');
+    }
+    
+    if (!prev[permalink]) { prev[permalink] = []; }
+    prev[permalink].push(permalink);
+  }
+  
+  return prev;
+}, {});
+
 function getDir(srcpath) {
   return fs.readdirSync(srcpath).filter(function(file) {
     return fs.statSync(path.join(srcpath, file)).isDirectory();
@@ -60,6 +81,15 @@ posts.forEach(function(post) {
     if (subDir.indexOf(metadata.category) == -1) {
       t.fail("'" + metadata.category + "' is not a valid category")
     }
+    
+    
+    // check permalinks
+    if (metadata.permalink) {
+      peramlink = metadata.permalink;
+    } else {
+      permalink = post.replace('_posts','').replace('.md','/').replace(/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-/,'');
+    }
+    t.equal(permalinks[permalink].length, 1, 'permalink must not already exist ' + permalink);
     
     if (metadata.category == "playlists") {
       t.ok(metadata.permalink, "playlist must have a permalink")
