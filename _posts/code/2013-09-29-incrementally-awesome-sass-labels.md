@@ -6,76 +6,76 @@ tags:
   - Sass
 image: http://farm8.staticflickr.com/7340/12730825944_d47ef70a77_o.png
 project: true
-css: ".label {
-  vertical-align: middle;
-  background: rgba(0, 125, 147, 0.5);
-  border-color: rgba(0, 125, 147, 0.5);
-  padding: 0.25em 0.75em;
-  color: #fff;
-  display: inline-block;
-  margin: 0.3em;
-  border-radius: 0.25em;
-}
-.label:hover {
-  background: rgba(0, 60, 71, 0.5);
-  color: #fff;
-}
+css: |
+  .label {
+    vertical-align: middle;
+    background: rgba(0, 125, 147, 0.5);
+    border-color: rgba(0, 125, 147, 0.5);
+    padding: 0.25em 0.75em;
+    color: #fff;
+    display: inline-block;
+    margin: 0.3em;
+    border-radius: 0.25em;
+  }
+  .label:hover {
+    background: rgba(0, 60, 71, 0.5);
+    color: #fff;
+  }
 
-.label-edibles {
-  background: #002793;
-  background: rgba(0, 39, 147, 0.5);
-  border-color: #002793;
-  border-color: rgba(0, 39, 147, 0.5);
-}
-.label-edibles:hover {
-  background: #001347;
-  background: rgba(0, 19, 71, 0.5);
-}
+  .label-edibles {
+    background: #002793;
+    background: rgba(0, 39, 147, 0.5);
+    border-color: #002793;
+    border-color: rgba(0, 39, 147, 0.5);
+  }
+  .label-edibles:hover {
+    background: #001347;
+    background: rgba(0, 19, 71, 0.5);
+  }
 
-.label-adventures {
-  background: #2f0093;
-  background: rgba(47, 0, 147, 0.5);
-  border-color: #2f0093;
-  border-color: rgba(47, 0, 147, 0.5);
-}
-.label-adventures:hover {
-  background: #170047;
-  background: rgba(23, 0, 71, 0.5);
-}
+  .label-adventures {
+    background: #2f0093;
+    background: rgba(47, 0, 147, 0.5);
+    border-color: #2f0093;
+    border-color: rgba(47, 0, 147, 0.5);
+  }
+  .label-adventures:hover {
+    background: #170047;
+    background: rgba(23, 0, 71, 0.5);
+  }
 
-.label-code {
-  background: #850093;
-  background: rgba(133, 0, 147, 0.5);
-  border-color: #850093;
-  border-color: rgba(133, 0, 147, 0.5);
-}
-.label-code:hover {
-  background: #400047;
-  background: rgba(64, 0, 71, 0.5);
-}
+  .label-code {
+    background: #850093;
+    background: rgba(133, 0, 147, 0.5);
+    border-color: #850093;
+    border-color: rgba(133, 0, 147, 0.5);
+  }
+  .label-code:hover {
+    background: #400047;
+    background: rgba(64, 0, 71, 0.5);
+  }
 
-.label-playlists {
-  background: #93004c;
-  background: rgba(147, 0, 76, 0.5);
-  border-color: #93004c;
-  border-color: rgba(147, 0, 76, 0.5);
-}
-.label-playlists:hover {
-  background: #470025;
-  background: rgba(71, 0, 37, 0.5);
-}
+  .label-playlists {
+    background: #93004c;
+    background: rgba(147, 0, 76, 0.5);
+    border-color: #93004c;
+    border-color: rgba(147, 0, 76, 0.5);
+  }
+  .label-playlists:hover {
+    background: #470025;
+    background: rgba(71, 0, 37, 0.5);
+  }
 
-.label-freelance {
-  background: #930a00;
-  background: rgba(147, 10, 0, 0.5);
-  border-color: #930a00;
-  border-color: rgba(147, 10, 0, 0.5);
-}
-.label-freelance:hover {
-  background: #470500;
-  background: rgba(71, 5, 0, 0.5);
-}
-"
+  .label-freelance {
+    background: #930a00;
+    background: rgba(147, 10, 0, 0.5);
+    border-color: #930a00;
+    border-color: rgba(147, 10, 0, 0.5);
+  }
+  .label-freelance:hover {
+    background: #470500;
+    background: rgba(71, 5, 0, 0.5);
+  }
 redirect_from: /code/2013/09/29/incrementally-awesome-sass-labels/
 ---
 
