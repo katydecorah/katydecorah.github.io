@@ -116,9 +116,7 @@
     
     <script>
     L.mapbox.accessToken = '{{site.mapbox-token}}';
-    var map = L.mapbox.map('map', '{{site.mapid}}', {
-      zoomControl: false
-    });
+    var map = L.mapbox.map('map', '{{site.mapid}}');
     
     map.scrollWheelZoom.disable();
     
