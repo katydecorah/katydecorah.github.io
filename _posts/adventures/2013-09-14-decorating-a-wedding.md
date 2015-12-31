@@ -8,7 +8,8 @@ tags:
 map: static
 coordinates:
  - -73.0598826,43.1467218
-locations: Wilburton Inn, Manchester, VT
+locations: 
+- Manchester, VT
 image: http://farm4.staticflickr.com/3827/9808951525_5671dff954_c.jpg
 redirect_from: /adventures/2013/09/14/decorating-a-wedding/
 ---

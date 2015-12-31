@@ -3,12 +3,10 @@ layout: post
 title: Google Static Map Maker
 category: code
 tags:
-  - Google Maps
-  - API
-  - AngularJS
-  - CodePen
-  - Sass
-  - responsive
+- Google Maps
+- AngularJS
+- CodePen
+- Sass
 image: http://codepen.io/katydecorah/pen/Klieu/image/large.png
 project: true
 redirect_from:
