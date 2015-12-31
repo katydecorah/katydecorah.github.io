@@ -1,7 +1,7 @@
 {% for playlist in site.data.playlists %}
 {% if page.title == playlist.playlist %}
 <p class="playlist-meta">
-<i class="fa fa-music btn-circle"></i> Listen on {% if playlist.rdio %}<a href="{{ playlist.rdio }}" class="playlist-rdio">Rdio</a>{% endif %} {% if playlist.rdio and playlist.spotify %} or {% endif %} {% if playlist.spotify %} <a href="{{ playlist.spotify }}" class="playlist-rdio">Spotify</a>{% endif %}
+{% if playlist.spotify %}<i class="fa fa-music"></i> <a href="{{ playlist.spotify }}" class="playlist-rdio">Listen on Spotify</a>{% endif %}
 </p>
 <div class="playlist">
 {% for tracks in playlist.tracks %}
