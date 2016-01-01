@@ -85,10 +85,24 @@
       <p>I went on {{tripit.trips}} trips over {{tripit.days}} days that spanned {{tripit.cities}} cities and {{tripit.countries}} countries. In total, I traveled {{tripit.distance}} miles.</p>
       {% endfor %}
       {% endif %}
+      
+      {% if data.topnine %}
+      <h2>Instagram top 9</h2>
+      <div class="topnine-thumbs">
+      {% for img in data.topnine %}<a href="{{img}}" style="background-image:url({{img}}media/?size=l)" class="topnine-thumb"><span class="fa fa-instagram"></span></a>{% endfor %}
+      </div>
+      {% endif %}
+      
+      {% if data.favorites %}
+      <h2>Favorites</h2>
+      <ul>{% for fav in data.favorites %}<li>{% for f in fav %}<a href="{{f[1]}}">{{f[0]}}</a>{% endfor %}</li>{% endfor %}</ul>
+      {% endif %}
 
       <h2>Most listened albums</h2>
       <ol>{% for album in data.albums %}<li>{{album}}</li>{% endfor %}</ol>
       <h2>Most listened tracks</h2>
+      {% if data.playlist_image %}<img src="{{data.playlist_image}}" alt="most listened tracks album art" />{% endif %}
+      {% if data.spotify %} <i class="fa fa-music btn-circle"></i> <a href="{{ data.spotify }}" class="playlist-rdio">Listen on Spotify</a>{% endif %}
       <ol>{% for track in data.tracks %}<li>{{track}}</li>{% endfor %}</ol>
       {% endif %}{% endfor %}
       
@@ -102,9 +116,7 @@
     
     <script>
     L.mapbox.accessToken = '{{site.mapbox-token}}';
-    var map = L.mapbox.map('map', '{{site.mapid}}', {
-      zoomControl: false
-    });
+    var map = L.mapbox.map('map', '{{site.mapid}}');
     
     map.scrollWheelZoom.disable();
     

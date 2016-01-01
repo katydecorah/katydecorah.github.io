@@ -3,15 +3,12 @@ title: From Haml to Yaml
 category: code
 tags:
 - CodePen
-- CSS
 - Yaml
 - Haml
 - Jekyll
 - AngularJS
 image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
-
 redirect_from: /code/2014/12/30/from-haml-to-yaml/
-
 ---
 
 

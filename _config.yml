@@ -16,7 +16,8 @@ paginate_path: ":num"
 
 name: Katy DeCorah
 description: "Explainer, helper, and tinkerer from Albany, NY."
-image: https://farm4.staticflickr.com/3786/14321547483_524b5cbce1_o.jpg
+image: https://c1.staticflickr.com/9/8881/18361278301_9018c69470_b.jpg
+twitter: "@katydecorah"
 
 # for adventures.geojson + year review pages
 years: 
@@ -24,6 +25,7 @@ years:
 - 2014
 - 2013
 - 2012
+- 2011
 - 2010
 - 2009
 - 2008
@@ -48,7 +50,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   use_coderay: false
 
-exclude: [vendor,CNAME,README.md]
+exclude: [vendor,CNAME,README.md,node_modules,.sass-cache]
 
 links:
 - text: Hello!

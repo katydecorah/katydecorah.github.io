@@ -8,7 +8,8 @@ tags:
 map: static
 coordinates:
  - -73.731604,42.707184
-locations: Albany Rural Cemetery
+locations: 
+- Albany Rural Cemetery
 image: http://farm6.staticflickr.com/5494/10655548255_732b4fb554_c.jpg
 redirect_from: /adventures/2013/11/03/albany-rural-cemetery/
 ---

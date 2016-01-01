@@ -20,7 +20,8 @@
 }
 
 .review-thumbs,
-.everything-thumbs {
+.everything-thumbs,
+.topnine-thumbs {
 
   @extend %clearfix;
   
@@ -29,7 +30,8 @@
 }
 
 .review-thumb,
-.everything-thumb {
+.everything-thumb,
+.topnine-thumb {
 
   background-size: cover;
   display: block;
@@ -91,10 +93,16 @@
 
 }
 
+.topnine-thumb {
+  padding-bottom: (100/3) * 1%;
+  width: (100/3) * 1%;
+}
+
 // scss-lint:disable PropertySortOrder, DeclarationOrder
 .review-container,
 .review-thumbs,
-.everything-thumbs {
+.everything-thumbs,
+.topnine-thumbs {
   -webkit-box-align: top;
   -webkit-align-items: top;
   -ms-flex-align: top;
