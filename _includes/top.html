@@ -7,13 +7,12 @@
 <title>{% if page.title %}{{ page.title }} {% endif %}{% if page.layout == "front-page" %}&times; {{ site.description }}{% else %}&times; Katy DeCorah{% endif %}</title>
 <meta name="google-site-verification" content="F5aWLWH-V1jAhith3Ybjt5dDtL4S8Yc5Z53yTvPFhaM" />
 <meta name="description" content="{% if page.layout != 'front-page' %}{{page.title}} &times; Katy DeCorah &times; {% endif %}{{ site.description }}">
-<meta name="viewport" content="width=device-width, initial-scale=1">{% if page.layout == 'post'%}
+<meta name="viewport" content="width=device-width, initial-scale=1">{% if page.image %}
 <meta name="twitter:card" content="summary">
 <meta property="og:type" content="website" />
 <meta name="twitter:site" content="{{site.twitter}}">
 <meta property="og:site_name" content="{{page.title}}" />
 <meta name="twitter:creator" content="{{site.twitter}}">
-
 <meta name="twitter:title" content="{{page.title}}">
 <meta property="og:title" content="{{page.title}}" />
 <meta name="twitter:description" content="{{page.excerpt | strip_html}}">
