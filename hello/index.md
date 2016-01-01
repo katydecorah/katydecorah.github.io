@@ -5,9 +5,9 @@ title: Hello!
 
 <img src="{{site.image}}" class="hello-header" alt="Katy DeCorah">
 
-<p class="lead">Hello! I'm Katy DeCorah. I live in Albany, NY. I'm a explainer, helper, and tinkerer at <a href="//www.mapbox.com">Mapbox</a>.</p>
+<p class="lead">Hello! I'm Katy DeCorah. I live in Albany, NY. I'm an explainer, helper, and tinkerer at <a href="//www.mapbox.com">Mapbox</a>.</p>
 
-I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/playlists/). Sometimes [I teach](/card-catalog/#teaching) at the University at Albany.
+I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/card-catalog/#playlists). Sometimes [I teach](/card-catalog/#teaching) at the University at Albany.
 
 I'm also an organizer for [ELA Conf](http://elaconf.com/).
 
@@ -15,6 +15,7 @@ I'm also an organizer for [ELA Conf](http://elaconf.com/).
 
 * [Adventure map](/map) &mdash; a map to complement my <em>adventures</em>.
 * [Humble brags](/humble-brags) &mdash; tooting my own horn.
+* [Playlists](/playlists) &mdash; for every season and some road trips.
 
 ## Side projects
 
@@ -23,6 +24,8 @@ I'm also an organizer for [ELA Conf](http://elaconf.com/).
 * [CSS Ruler](http://katydecorah.com/css-ruler/) &mdash; visualize the different CSS lengths.
 * [Hey guys](http://katydecorah.com/hey-guys/) &mdash; a generator to help you find alternative words for <em>guys</em>.
 * [Google Font Explorer](http://katydecorah.com/google-font-explorer/) &mdash; test out Google Fonts and explore different ones.
+* [Line Length-icator](http://katydecorah.com/linelengthicator/) &mdash; a tool to find the best line length for your text.
+* [Copy cop](http://katydecorah.com/copy-cop/) &mdash; a writing tool to encourage you to use plain language.
 
 <div class="post">
 <div class="photos">
