@@ -10,7 +10,6 @@ author:
   name: Katy DeCorah
   email: katydecorah@gmail.com
   uri: http://katydecorah.com
-twitter: @katydecorah
 
 paginate: 5
 paginate_path: ":num"
@@ -18,6 +17,7 @@ paginate_path: ":num"
 name: Katy DeCorah
 description: "Explainer, helper, and tinkerer from Albany, NY."
 image: https://c1.staticflickr.com/9/8881/18361278301_9018c69470_b.jpg
+twitter: "@katydecorah"
 
 # for adventures.geojson + year review pages
 years: 
