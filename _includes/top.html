@@ -7,7 +7,8 @@
 <title>{% if page.title %}{{ page.title }} {% endif %}{% if page.layout == "front-page" %}&times; {{ site.description }}{% else %}&times; Katy DeCorah{% endif %}</title>
 <meta name="google-site-verification" content="F5aWLWH-V1jAhith3Ybjt5dDtL4S8Yc5Z53yTvPFhaM" />
 <meta name="description" content="{% if page.layout != 'front-page' %}{{page.title}} &times; Katy DeCorah &times; {% endif %}{{ site.description }}">
-<meta name="viewport" content="width=device-width, initial-scale=1">{% if page.image %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.image %}
 <meta name="twitter:card" content="summary">
 <meta property="og:type" content="website" />
 <meta name="twitter:site" content="{{site.twitter}}">
@@ -18,7 +19,8 @@
 <meta name="twitter:description" content="{{page.excerpt | strip_html}}">
 <meta property="og:description" content="{{page.excerpt | strip_html}}" />
 <meta name="twitter:image:src" content="{{page.image}}">
-<meta property="og:image" content="{{page.image}}" />{% else %}
+<meta property="og:image" content="{{page.image}}" />
+<meta property="og:url" content="{{site.url}}{{page.url}}" />{% else %}
 <meta name="twitter:card" content="summary">
 <meta property="og:type" content="website" />
 <meta name="twitter:site" content="{{site.name}}">
@@ -28,7 +30,8 @@
 <meta name="twitter:description" content="{{site.description}}">
 <meta property="og:description" content="{{site.description}}" />
 <meta name="twitter:image:src" content="{{site.image}}">
-<meta name="twitter:image:src" content="{{site.image}}">
+<meta property="og:image" content="{{site.image}}" />
+<meta property="og:url" content="{{site.url}}{{page.url}}" />
 {% endif %}
 {% feed_meta %}
 <link href="http://netdna.bootstrapcdn.com/font-awesome/{{site.font-awesome}}/css/font-awesome.min.css" rel="stylesheet">
