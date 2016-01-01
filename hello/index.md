@@ -16,6 +16,7 @@ I'm also an organizer for [ELA Conf](http://elaconf.com/).
 * [Adventure map](/map) &mdash; a map to complement my <em>adventures</em>.
 * [Humble brags](/humble-brags) &mdash; tooting my own horn.
 * [Playlists](/playlists) &mdash; for every season and some road trips.
+* [Everything](/everything) &mdash; every post.
 
 ## Side projects
 
