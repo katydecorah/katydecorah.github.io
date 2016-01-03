@@ -7,6 +7,7 @@ tags:
 - hiking
 - treats
 - red shoes
+- recommended
 map: static
 coordinates:
  - -74.0125265,42.6512778
@@ -14,7 +15,7 @@ image: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_c.jpg
 image-small: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_n.jpg
 image-large: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_o.jpg
 locations:
-- Thacher State Park
+- Voorheesville, NY
 - Crispy Cannoli, East Greenbush, NY
 redirect_from:
 - /weekends/2013/09/05/thacher-park-in-the-morning.html

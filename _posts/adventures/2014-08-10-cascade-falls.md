@@ -5,6 +5,7 @@ tags:
  - fresh air
  - yay
  - waterfall
+ - recommended
 image: https://farm4.staticflickr.com/3875/14890721083_7f26e13599_b.jpg
 coordinates:
  - -73.1352701,42.6919608

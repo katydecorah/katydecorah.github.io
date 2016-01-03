@@ -5,11 +5,12 @@ category: adventures
 tags:
 - hiking
 - fresh air
+- recommended
 image: http://farm4.staticflickr.com/3809/9110227939_78d3fcd71f_n.jpg
 locations: 
-- The Snow Hole
 - Petersburgh, NY
 map: static
+miles: 5.4
 coordinates:
  - -73.2685215,42.7412473
 redirect_from: /adventures/2013/06/22/the-snow-hole/

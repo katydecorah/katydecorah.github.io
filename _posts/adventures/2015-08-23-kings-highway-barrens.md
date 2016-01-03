@@ -6,8 +6,10 @@ image: https://farm6.staticflickr.com/5638/20798363136_83ccf40d39_b.jpg
 tags:
 - hiking
 - time travel
+- recommended
 locations:
-- Albany Pine Bush
+ - Guilderland, NY
+miles: 1.2
 coordinates:
 - -73.9045582,42.7519784
 ---
