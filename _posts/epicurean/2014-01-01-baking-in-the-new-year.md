@@ -17,4 +17,4 @@ redirect_from:
 
 It took several hours, but my oh my&hellip; worth it.
 
-[cinnamon swirl buns recipe by smitten kitchen](http://smittenkitchen.com/blog/2009/04/cinnamon-swirl-buns-so-much-news/)
+Cinnamon swirl buns recipe by Smitten Kitchen
