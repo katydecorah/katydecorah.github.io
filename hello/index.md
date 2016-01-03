@@ -13,10 +13,11 @@ I'm also an organizer for [ELA Conf](http://elaconf.com/).
 
 ## Record keeping
 
-* [Adventure map](/map) &mdash; a map to complement my <em>adventures</em>.
+* [Adventure map](/map) &mdash; a map to complement my adventures.
+* [Adventure guide](/adventure-guide) &mdash; my favorite hiking trails in Upstate New York and beyond.
 * [Humble brags](/humble-brags) &mdash; tooting my own horn.
 * [Playlists](/playlists) &mdash; for every season and some road trips.
-* [Everything](/everything) &mdash; every post.
+* [Everything](/everything) &mdash; every post. All of em.
 
 ## Side projects
 
