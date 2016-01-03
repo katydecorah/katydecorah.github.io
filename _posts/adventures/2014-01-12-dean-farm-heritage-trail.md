@@ -6,11 +6,13 @@ tags:
   - family
   - hiking
   - fresh air
+  - recommended
 locations:
- - Stony Creek,NY
+ - Stony Creek, NY
 coordinates:
  - -73.9162408,43.4276521
 map: static
+miles: 1.3
 image: http://farm4.staticflickr.com/3762/11916446806_0ff8626e19_b.jpg
 redirect_from: /adventures/2014/01/12/dean-farm-heritage-trail/
 ---

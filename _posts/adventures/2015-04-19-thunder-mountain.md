@@ -5,7 +5,9 @@ category: adventures
 image: https://farm6.staticflickr.com/5450/16583180214_ff0339c6a6_b.jpg
 tags:
 - hiking
+- recommended
 - family
+miles: 1.3
 locations:
 - Greenwich, NY
 coordinates:

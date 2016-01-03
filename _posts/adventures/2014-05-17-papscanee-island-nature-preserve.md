@@ -4,6 +4,7 @@ title: Papscanee Island Nature Preserve
 category: adventures
 tags:
  - fresh air
+ - recommended
 locations:
  - Rensselaer, NY
 coordinates:

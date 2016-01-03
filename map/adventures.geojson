@@ -10,7 +10,8 @@
         "image": "{{ place.image }}",
         "url": "{{place.url}}",
         "year": "{{ year }}",
-        "marker-size": "medium",
+        "marker-size": "medium",{% if place.tags contains 'recommended' %}
+        "recommended": true,{% endif %}
         "marker-symbol":{% if place.tags contains 'Mapbox' %}"rocket"{% elsif place.tags contains 'yay' %}"star"{% elsif place.tags contains 'hiking' or place.tags contains 'fresh air' %}"park"{% elsif place.tags contains 'friends' or place.tags contains 'family' %} "heart"{% elsif place.tags contains 'music' %} "music"{% elsif place.tags contains 'road trip' %} "car"{% elsif place.tags contains 'college' %} "library"{% else %}""{% endif %},
         "marker-color": {% case type %}{% when 1 %}"#9b59b6"{% else %}"#4F518C"{% endcase %}
       },

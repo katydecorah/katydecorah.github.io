@@ -9,6 +9,7 @@ locations:
 tags:
 - hiking
 - recommended
+miles: 1
 ---
 
 Today we hiked [Bozen Kill Preserve](http://mohawkhudson.org/our-preserves/bozen-kill-protected-area/) in Altamont. It was muddy, icy, and even muddy-icy combo, but it's a lovely trail.
