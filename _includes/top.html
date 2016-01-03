@@ -14,8 +14,8 @@
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
 <meta name="twitter:title" content="{{page.title}}" />
 <meta property="og:title" content="{{page.title}}" />
-<meta name="twitter:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% else %}{{content | strip_html | truncatewords: 30 }}{% endif %}" />
-<meta property="og:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% else %}{{content | strip_html | truncatewords: 30 }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% else %}{{ site.description }}{% endif %}" />
 <meta name="twitter:image" content="{% if page.image %}{{page.image}}{% else %}{{site.image}}{% endif %}" />
 <meta name="st:image" content="{% if page.image %}{{page.image}}{% else %}{{site.image}}{% endif %}" />
 <meta property="og:image" content="{% if page.image %}{{page.image}}{% else %}{{site.image}}{% endif %}" />
