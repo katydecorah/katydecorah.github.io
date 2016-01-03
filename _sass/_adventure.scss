@@ -27,6 +27,8 @@
 .adventure-image,
 .adventure-map {
   width: 25%;
+  
+  @include breakpoint(mobile) { display: none;}
 }
 
 .adventure-image {
@@ -39,8 +41,11 @@
 }
 
 .adventure-group {
-  margin-left: 1em;
-  width: 50%;
+  
+  @include breakpoint(gt-mobile) { 
+    margin-left: 1em;
+    width: 50%; 
+  }
   
   h2 { margin-top: 0;}
   
