@@ -17,6 +17,7 @@
 .adventure {
   @extend %flex;
   
+  background: $white;
   display: block;
   margin-bottom: 1em;
   
