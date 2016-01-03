@@ -21,6 +21,8 @@
   display: block;
   margin-bottom: 1em;
   
+  @include breakpoint(mobile) { padding: 1em; }
+  
   &:hover { text-decoration: none;}
   
 }
@@ -44,7 +46,7 @@
 .adventure-group {
   
   @include breakpoint(gt-mobile) { 
-    margin-left: 1em;
+    padding-left: 2.5em;
     width: 50%; 
   }
   
