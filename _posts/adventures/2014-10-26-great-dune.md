@@ -1,5 +1,5 @@
 ---
-title: Albany Pine Bush Great Dune
+title: Great Dune
 category: adventures
 coordinates:
  - -73.894,42.707
@@ -11,12 +11,15 @@ tags:
  - friends
  - pie
  - time travel
+ - recommended
 feed: nah
-redirect_from: /adventures/2014/10/26/pine-bush/
+redirect_from: 
+- /adventures/2014/10/26/pine-bush/
+- /adventures/albany-pine-bush-II/
+miles: 2
 ---
 
-
-A very Fall hike with an old friend on trailhead 8 (Great Dune).
+A very fall hike with an old friend on trailhead 8 (Great Dune) of the Albany Pine Bush.
 
 <div class="photos">
 

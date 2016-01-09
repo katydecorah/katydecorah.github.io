@@ -5,6 +5,7 @@ tags:
  - fresh air
  - hiking
  - time travel
+ - recommended
 image: https://farm4.staticflickr.com/3848/14921822548_e64c69c350_b.jpg
 locations:
  - Delmar, NY

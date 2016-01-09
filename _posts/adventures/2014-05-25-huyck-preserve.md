@@ -11,6 +11,7 @@ coordinates:
  - -74.15,42.52
 tags:
  - fresh air
+ - recommended
 image: https://farm4.staticflickr.com/3820/14082114487_15152934af_b.jpg
 redirect_from: /adventures/2014/05/25/huyck-preserve/
 ---

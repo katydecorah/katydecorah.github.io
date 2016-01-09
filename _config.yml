@@ -91,6 +91,8 @@ mapid-winter: katydecorah.70f1a6d1
 mapboxjs: v2.2.3
 font-awesome: 4.5.0
 leafletjs: v0.4.0
+jquery: 2.1.4
+modernizr: 2.8.3
 
 defaults:
   -

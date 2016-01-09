@@ -4,6 +4,7 @@ title: Pine Hollow Arboretum
 category: adventures
 tags:
  - fresh air
+ - recommended
 locations:
  - Slingerlands, NY
 coordinates:

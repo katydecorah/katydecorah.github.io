@@ -5,10 +5,12 @@ category: adventures
 image: https://farm1.staticflickr.com/567/20552818663_bd6e380450_b.jpg
 tags:
 - hiking
+- recommended
 locations:
-- South Yokun Ridge
+- Stockbridge, MA
 coordinates:
 - -73.3376854,42.3518065
+miles: 1.6
 ---
 
 Today we visited Olivia's Overlook and then hiked the [South Yokun Ridge](http://www.bnrc.net/item/south-yokun-ridge/) in Stockbridge, Massachusetts.

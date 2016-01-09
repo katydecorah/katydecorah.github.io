@@ -5,12 +5,13 @@ category: adventures
 tags:
  - hiking
  - fresh air
+ - recommended
 map: static
 redirect_from: "weekends/2013/08/24/palmertown-mountain-range.html"
 coordinates:
  - -73.7236504,43.2294791
 locations: 
-- Moreau Lake State Park
+- Moreau, NY
 image: http://farm8.staticflickr.com/7347/9583833497_0171fe8688_c.jpg
 redirect_from: /adventures/2013/08/24/palmertown-mountain-range/
 ---

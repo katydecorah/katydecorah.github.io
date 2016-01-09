@@ -10,6 +10,8 @@ tags:
  - hiking
  - fresh air
  - donuts
+ - recommended
+miles: 1.5
 redirect_from: /adventures/2014/10/25/vromans-nose/
 ---
 

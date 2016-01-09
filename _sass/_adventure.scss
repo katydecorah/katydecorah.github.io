@@ -1,0 +1,86 @@
+.adventure-map-container,
+.adventures {
+  display: none;
+  
+  &.show { 
+    display: block;
+    margin-top: 2em;
+  }
+  
+}
+
+.adventure-full-map {
+  height: 400px;
+  width: 100%;
+}
+
+.adventure {
+  @extend %flex;
+  
+  background: $white;
+  display: block;
+  margin-bottom: 1em;
+  
+  @include breakpoint(mobile) { padding: 1em; }
+  
+  &:hover { text-decoration: none;}
+  
+}
+
+.adventure-image,
+.adventure-map {
+  width: 25%;
+  
+  @include breakpoint(mobile) { display: none;}
+}
+
+.adventure-image {
+  background-size: cover;
+  padding-bottom: 25%;
+}
+
+.adventure-map {
+  margin: 0;
+}
+
+.adventure-group {
+  
+  @include breakpoint(gt-mobile) { 
+    padding-left: 2.5em;
+    width: 50%; 
+  }
+  
+  h2 { margin-top: 0;}
+  
+  .fa { width: 1em; }
+  
+  .adventure-meta {
+    color: $text-color;
+    font-size: $font-small;
+    margin-bottom: .5em;
+  }
+  
+}
+
+.toggle,
+.toggle-item {
+  border-radius: .25em;
+  display: inline-block;
+  font-size: $font-small;
+  padding: .25em .5em;
+}
+
+.toggle {
+  background: $dark-accent;
+}
+
+.toggle-item {
+  color: $white;
+  cursor: pointer;
+  
+  &.active {
+    background: $white;
+    color: $dark-accent;
+  }
+  
+}

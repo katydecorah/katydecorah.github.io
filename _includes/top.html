@@ -8,35 +8,26 @@
 <meta name="google-site-verification" content="F5aWLWH-V1jAhith3Ybjt5dDtL4S8Yc5Z53yTvPFhaM" />
 <meta name="description" content="{% if page.layout != 'front-page' %}{{page.title}} &times; Katy DeCorah &times; {% endif %}{{ site.description }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{% if page.image %}
-<meta name="twitter:card" content="summary">
-<meta property="og:type" content="website" />
-<meta name="twitter:site" content="{{site.twitter}}">
-<meta property="og:site_name" content="{{page.title}}" />
-<meta name="twitter:creator" content="{{site.twitter}}">
-<meta name="twitter:title" content="{{page.title}}">
-<meta property="og:title" content="{{page.title}}" />
-<meta name="twitter:description" content="{{page.excerpt | strip_html}}">
-<meta property="og:description" content="{{page.excerpt | strip_html}}" />
-<meta name="twitter:image:src" content="{{page.image}}">
-<meta property="og:image" content="{{page.image}}" />
-<meta property="og:url" content="{{site.url}}{{page.url}}" />{% else %}
-<meta name="twitter:card" content="summary">
-<meta property="og:type" content="website" />
-<meta name="twitter:site" content="{{site.name}}">
+<meta name="twitter:site" content="{{site.twitter}}" />
 <meta property="og:site_name" content="{{site.name}}" />
-<meta name="twitter:title" content="{{page.title}}">
-<meta property="og:title" content="{{page.title}}" />
-<meta name="twitter:description" content="{{site.description}}">
-<meta property="og:description" content="{{site.description}}" />
-<meta name="twitter:image:src" content="{{site.image}}">
-<meta property="og:image" content="{{site.image}}" />
+<meta name="twitter:url" content="{{site.url}}{{page.url}}" />
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
-{% endif %}
+<meta name="twitter:title" content="{{page.title}}" />
+<meta property="og:title" content="{{page.title}}" />
+<meta name="twitter:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% elsif page.excerpt %}{{page.excerpt | strip_html | strip_newlines | truncatewords: 30}}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% elsif page.excerpt %}{{page.excerpt | strip_html | strip_newlines |  truncatewords: 30}}{% else %}{{ site.description }}{% endif %}" />
+<meta name="twitter:image" content="{% if page.image %}{{page.image}}{% else %}{{site.image}}{% endif %}" />
+<meta name="st:image" content="{% if page.image %}{{page.image}}{% else %}{{site.image}}{% endif %}" />
+<meta property="og:image" content="{% if page.image %}{{page.image}}{% else %}{{site.image}}{% endif %}" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:type" content="website" />
 {% feed_meta %}
 <link href="http://netdna.bootstrapcdn.com/font-awesome/{{site.font-awesome}}/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/style.css" rel="stylesheet" type="text/css">{% if page.css %}
 <style>{{ page.css }}</style>
 {% endif %}<script src="//use.typekit.net/aec6dko.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/{{site.jquery}}/jquery.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/{{site.modernizr}}/modernizr.min.js
+"></script>
 </head>
