@@ -56,10 +56,10 @@ links:
 - text: Hello!
   url: /hello/
   position: top
-- text: Card Catalog
+- text: Card catalog
   url: /card-catalog/
   position: top
-- text: Time Capsule
+- text: Time capsule
   url: /time-capsule/
   icon: archive
   position: top
