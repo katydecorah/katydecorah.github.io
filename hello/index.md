@@ -23,6 +23,7 @@ I'm also an organizer for [ELA Conf](http://elaconf.com/).
 
 * [Static Map Maker](http://staticmapmaker.com/) &mdash; a static map API helper.
 * [Font Library](http://katydecorah.com/font-library/) &mdash; an open source project to tag and organize Google Fonts.
+* [Explore the X-Files](https://www.mapbox.com/x-files/) &mdash; an interactive map of every X-File location.
 * [CSS Ruler](http://katydecorah.com/css-ruler/) &mdash; visualize the different CSS lengths.
 * [Hey guys](http://katydecorah.com/hey-guys/) &mdash; a generator to help you find alternative words for <em>guys</em>.
 * [Google Font Explorer](http://katydecorah.com/google-font-explorer/) &mdash; test out Google Fonts and explore different ones.
@@ -31,11 +32,13 @@ I'm also an organizer for [ELA Conf](http://elaconf.com/).
 
 <div class="post">
 <div class="photos">
-<img src="https://c1.staticflickr.com/1/448/18664258796_988f31b102_c.jpg" class="img-thirds" alt="at home">
-<img src="https://c1.staticflickr.com/1/530/18664287626_4c32e59e7e_c.jpg" class="img-thirds" alt="treats">
-<img src="https://farm1.staticflickr.com/588/21917162186_67041fbcf4_c.jpg" class="img-thirds" alt="an outdoors woman">
+<img src="https://c1.staticflickr.com/1/448/18664258796_988f31b102_c.jpg" class="img-fourths" alt="at home">
+<img src="https://c1.staticflickr.com/1/530/18664287626_4c32e59e7e_c.jpg" class="img-fourths" alt="treats">
+<img src="https://farm1.staticflickr.com/588/21917162186_67041fbcf4_c.jpg" class="img-fourths" alt="an outdoors woman">
+<img src="https://farm2.staticflickr.com/1638/24488621791_efba4eeaea_c.jpg" class="img-fourths" alt="crumb catcher">
 </div>
 </div>
+
 
 ## Colophon
 

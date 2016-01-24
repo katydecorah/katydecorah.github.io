@@ -1,3 +1,10 @@
+- section: Mentions
+  contents:
+  - site: Wired
+    contents:
+    - title: Interactive Map Transports You to Every X-Files Location
+      date: 2016-01-20
+      link: http://www.wired.com/2016/01/x-files-interactive-map/
 - section: Organizing
   contents:
   - site: ELA Conf
@@ -14,6 +21,9 @@
       link: https://the-pastry-box-project.net/katy-decorah/2015-march-29
   - site: Mapbox
     contents:
+    - title: Explore the X-Files
+      date: 2016-01-20
+      link: https://www.mapbox.com/blog/x-files/
     - title: Make a snowfall map
       date: 2015-01-28
       link: https://www.mapbox.com/blog/make-a-snowfall-map/
