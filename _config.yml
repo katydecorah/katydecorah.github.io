@@ -41,6 +41,7 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
+- jekyll-paginate
 
 kramdown:
   auto_ids: true
@@ -48,7 +49,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+  enable_coderay: false
 
 exclude: [vendor,CNAME,README.md,node_modules,.sass-cache]
 
