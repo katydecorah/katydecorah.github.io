@@ -7,6 +7,7 @@ before_install:
   - bundle install
   - gem install scss-lint
   - gem install html-proofer
+  - gem install jekyll-paginate
   - bundle exec jekyll build
 sudo: false
 env:
