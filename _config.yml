@@ -5,7 +5,7 @@ highlighter: pygments
 markdown: kramdown
 
 url: http://katydecorah.com
-permalink: /:categories/:title
+permalink: /:categories/:title/
 author: 
   name: Katy DeCorah
   email: katydecorah@gmail.com
