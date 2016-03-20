@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "test": "scss-lint _sass/*.scss && htmlproof ./_site && tape test/*.js | tap-spec"
+    "test": "scss-lint _sass/*.scss && htmlproofer ./_site && tape test/*.js | tap-spec"
   },
   "dependencies": {
     "scsslint": "0.0.3"
