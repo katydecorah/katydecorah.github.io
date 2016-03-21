@@ -38,7 +38,7 @@ data.playlists.metadata.forEach(function(post) {
     
     t.equal( typeof post, 'object', "playlist must be formatted correctly");
     t.ok(post.playlist, "playlist must have a name");
-    t.ok(post.rdio, "playlist must have an rdio link");
+    //t.ok(post.rdio, "playlist must have an rdio link");
     t.ok(post.spotify, "playlist must have an spotify link");
     t.equal( typeof post.tracks, 'object', "playlist must have tracks");
     
