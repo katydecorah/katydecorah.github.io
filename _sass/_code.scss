@@ -7,13 +7,12 @@ pre {
   border-radius: .2em;
   hyphens: none;
   tab-size: 4;
-  white-space: pre;
+  white-space: pre-wrap;
   word-break: break-word;
   word-spacing: normal;
 }
 
 pre {
-  font-size: $font-small;
   margin: 1em 0;
   padding: 2em;
 
