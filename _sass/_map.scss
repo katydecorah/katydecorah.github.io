@@ -6,6 +6,7 @@
 .page-adventure-map .map,
 .page-review .map {
   min-height: 429px;
+  width: 100%;
 
   .leaflet-popup-content,
   .leaflet-popup-content-wrapper { padding: 0; }
