@@ -70,6 +70,11 @@
       link: http://css-tricks.com/guide-responsive-friendly-css-columns/
 - section: Speaking
   contents:
+  - site: JekyllConf
+    contents:
+      - title: Unconventional use cases for Jekyll
+        date: 2016-05-07
+        link: http://katydecorah.com/unconventional
   - site: FOSS4G NA
     contents:
       - title: Writing for everyone
