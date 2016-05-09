@@ -6,7 +6,7 @@ markdown: kramdown
 
 url: http://katydecorah.com
 permalink: /:categories/:title/
-author: 
+author:
   name: Katy DeCorah
   email: katydecorah@gmail.com
   uri: http://katydecorah.com
@@ -20,7 +20,7 @@ image: https://c1.staticflickr.com/9/8881/18361278301_9018c69470_b.jpg
 twitter: "@katydecorah"
 
 # for adventures.geojson + year review pages
-years: 
+years:
 - 2016
 - 2015
 - 2014
@@ -52,7 +52,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-exclude: [vendor,CNAME,README.md,node_modules,.sass-cache]
+exclude:
+  - vendor
+  - CNAME
+  - README.md
+  - node_modules
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - test
 
 links:
 - text: Hello!
