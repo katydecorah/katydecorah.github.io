@@ -142,7 +142,7 @@ blockquote {
 
   }
 
-  &:before {
+  &::before {
     color: darken($accent, 10%);
     content: '\201C';
     display: block;

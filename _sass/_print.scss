@@ -31,9 +31,9 @@
 
       li { display: inline-block; }
 
-      li:after { content: ','; }
+      li::after { content: ','; }
 
-      li:last-child:after { content: ''; }
+      li:last-child::after { content: ''; }
 
     }
 
