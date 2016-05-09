@@ -63,8 +63,8 @@ img {
 
 .img-polaroid {
   background-color: $white;
-  border: 1px solid rgba(0, 0, 0, .2);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+  border: 1px solid $dark-transparent02;
+  box-shadow: 0 1px 3px $dark-transparent01;
   margin: 1em .25em 2em;
   padding: .25em;
 }

@@ -11,13 +11,13 @@
 
 .result {
   margin-bottom: 2em;
-  
+
   @include breakpoint(gt-mobile) {
     align-items: center;
     display: flex;
     justify-content: left;
   }
-  
+
   p { margin-bottom: 0; }
 }
 
@@ -26,7 +26,7 @@
   margin: 0 2em 0 0;
   object-fit: cover;
   width: 150px;
-  
+
   @include breakpoint(mobile) {
     display: none;
   }

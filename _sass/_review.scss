@@ -24,7 +24,7 @@
 .topnine-thumbs {
 
   @extend %clearfix;
-  
+
   height: 100%;
   width: 100%;
 }
@@ -35,24 +35,24 @@
 
   background-size: cover;
   display: block;
-  padding-bottom: (100/6) * 1%;
+  padding-bottom: (100 / 6) * 1%;
   position: relative;
-  width: (100/6) * 1%;
+  width: (100 / 6) * 1%;
 
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     content: '';
     position: absolute;
   }
 
-  &:before {
+  &::before {
     background: transparent;
     transition: background .2s;
   }
 
   &:hover {
 
-    &:before {
+    &::before {
       background: rgba($black, .75);
       bottom: 0;
       height: 100%;
@@ -63,7 +63,7 @@
       width: 100%;
     }
 
-    &:after {
+    &::after {
 
       @extend %fancy-type;
 
@@ -83,7 +83,7 @@
     }
 
   }
-  
+
   .fa {
     bottom: 3px;
     color: rgba($white, .7);
@@ -94,8 +94,8 @@
 }
 
 .topnine-thumb {
-  padding-bottom: (100/3) * 1%;
-  width: (100/3) * 1%;
+  padding-bottom: (100 / 3) * 1%;
+  width: (100 / 3) * 1%;
 }
 
 // scss-lint:disable PropertySortOrder, DeclarationOrder
@@ -124,7 +124,7 @@
   margin-top: 1em;
 }
 
-.page-playlists .everything-thumb:hover:after {
+.page-playlists .everything-thumb:hover::after {
   font-size: 1em;
 }
 

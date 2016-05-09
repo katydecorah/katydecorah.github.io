@@ -1,4 +1,3 @@
-
 .archive-year {
   margin-bottom: 1em;
 }
@@ -28,7 +27,7 @@
 
     &:hover {
 
-      h3:before {
+      h3::before {
         background-color: darken($body-bg, 20%);
         transition: .25s;
       }
@@ -48,7 +47,7 @@
 
     .no-flexbox & { float: left;}
 
-    &:before {
+    &::before {
 
       @include breakpoint(gt-mobile) {
         background-color: darken($body-bg, 15%);

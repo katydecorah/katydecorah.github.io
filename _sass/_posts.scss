@@ -254,8 +254,8 @@
     text-decoration: none;
     transition: $link-transition;
 
-    &:before,
-    &:after {
+    &::before,
+    &::after {
       border-color: inherit;
       color: $text-color;
       transition: $link-transition;
@@ -291,8 +291,8 @@
 
 }
 
-.post-prev:before,
-.post-next:after {
+.post-prev::before,
+.post-next::after {
 
   font-family: FontAwesome;
   -moz-osx-font-smoothing: grayscale;
@@ -323,12 +323,12 @@
 
 }
 
-.post-prev:before {
+.post-prev::before {
   content: '\f104';
   left: 0;
 }
 
-.post-next:after {
+.post-next::after {
   content: '\f105';
   right: 0;
 }
