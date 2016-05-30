@@ -156,6 +156,17 @@
     padding: 1em;
   }
 
+  .instagram-media {
+    margin: 1em auto;
+    width: 100%;
+
+    @include breakpoint(gt-mobile) {
+
+      width: 65%;
+    }
+
+  }
+
 }
 
 .post-header {
