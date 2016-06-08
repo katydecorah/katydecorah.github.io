@@ -1,9 +1,6 @@
 port: 4000
 host: 127.0.0.1
 
-highlighter: rouge
-markdown: kramdown
-
 url: http://katydecorah.com
 permalink: /:categories/:title/
 author:
