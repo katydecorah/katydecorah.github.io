@@ -18,7 +18,8 @@ tags:
 * Build a tabletop for the treadmill and walk 5 miles every morning[^1]:
 
 <div class="photos">
-<img src="https://c1.staticflickr.com/1/497/18504173480_fbb625a911_b.jpg" alt="Treadmill desk">
+<img src="https://c1.staticflickr.com/1/448/18664258796_988f31b102_c.jpg" alt="office" class="img-tall">
+<img src="https://c1.staticflickr.com/1/497/18504173480_fbb625a911_b.jpg" alt="Treadmill desk" class="img-wide">
 </div>
 
 [^1]: This is how I survived winter.
