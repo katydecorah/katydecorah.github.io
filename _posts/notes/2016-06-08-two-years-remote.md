@@ -1,7 +1,7 @@
 ---
 title: What I learned after working remotely for 2 years
 category: notes
-image: 
+image: https://c2.staticflickr.com/8/7425/26934340133_47aef85887.jpg
 tags:
 - life
 - lists
