@@ -7,7 +7,7 @@ tags:
 - lists
 ---
 
-I have entered my ~~terrible~~ terrific twos of working remotely. Working from yoga pants. Working from couch. Working from over the sink as I eat leftovers. The glamor. The rolling out of bed. The "I'm going to wake up early and walk, lol jk."
+I have entered my ~~terrible~~ terrific twos of working remotely. Working from yoga pants. Working from couch. Working from over the sink as I eat leftovers. The glamour. The rolling out of bed. The "I'm going to wake up early and walk, lol jk."
 
 Last year, I talked about [lessons learned](/notes/one-year-remote/) and this year I'd like to focus on communication. Here's how I've made working miles away from my team feel like inches:
 
