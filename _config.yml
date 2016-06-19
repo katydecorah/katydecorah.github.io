@@ -10,6 +10,7 @@ author:
 
 paginate: 5
 paginate_path: ":num"
+future: true
 
 name: Katy DeCorah
 description: "Explainer, helper, and tinkerer from Albany, NY."

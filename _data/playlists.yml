@@ -3728,27 +3728,87 @@
   tracks:
   - track: Nightcall
     artist: Kavinsky + Lovefoxxx
-  - track: Fitzpleasure 
+  - track: Fitzpleasure
     artist: alt-J
-  - track: Ch-Ching 
+  - track: Ch-Ching
     artist: Chairlift
-  - track: Easy Easy 
+  - track: Easy Easy
     artist: King Krule
-  - track: Levitation 
+  - track: Levitation
     artist: Beach House
-  - track: Dopamine 
+  - track: Dopamine
     artist: DIIV
-  - track: The Night Air 
+  - track: The Night Air
     artist: Shady Elders
-  - track: Twice 
+  - track: Twice
     artist: Little Dragon
-  - track: Into the Black 
+  - track: Into the Black
     artist: Chromatics
   - track: Never Be Like You
-    artist: Flume (feat. Kai) 
-  - track: Gosh 
+    artist: Flume (feat. Kai)
+  - track: Gosh
     artist: Jamie xx
-  - track: We Were Meant to Be Together 
+  - track: We Were Meant to Be Together
     artist: Tom Brosseau
-  - track: Cavity 
+  - track: Cavity
     artist: Hundred Waters
+- playlist: 2016 Spring
+  spotify: https://open.spotify.com/user/katydecorah/playlist/7jNNYGF2FleS7k0y5dbaJA
+  tracks:
+  - track: "Cavity"
+    artist: "Hundred Waters"
+    album: "The Moon Rang Like a Bell"
+  - track: "Never Be Like You (feat. Kai)"
+    artist: "Flume Kai"
+    album: "Never Be Like You (feat. Kai)"
+  - track: "Smalltalk - Four Tet Remix"
+    artist: "Ultraísta Four Tet"
+    album: "Ultraísta Remixes"
+  - track: "Funn"
+    artist: "Cash+David"
+    album: "Triptych"
+  - track: "River"
+    artist: "The Belle Game"
+    album: "Ritual Tradition Habit"
+  - track: "Float (feat. Kenzie May)"
+    artist: "FTSE Kenzie May"
+    album: "FTSE I"
+  - track: "I Heard"
+    artist: "Young Fathers"
+    album: "Tape Two"
+  - track: "Blacks"
+    artist: "Dawn Golden Rosy Cross"
+    album: "Blow - EP"
+  - track: "Brokeup"
+    artist: "Arca"
+    album: "Stretch 2"
+  - track: "Rhythm of Devotion"
+    artist: "Sisyphus"
+    album: "Sisyphus"
+  - track: "Advanced Falconry"
+    artist: "Mutual Benefit"
+    album: "Love's Crushing Diamond"
+  - track: "With Me"
+    artist: "dvsn"
+    album: "SEPT 5TH"
+  - track: "Flatlands"
+    artist: "Chelsea Wolfe"
+    album: "Unknown Rooms: A Collection of Acoustic Songs"
+  - track: "No Below"
+    artist: "Speedy Ortiz"
+    album: "Major Arcana"
+  - track: "'Cause I'm A Man - HAIM Remix"
+    artist: "Tame Impala"
+    album: "'Cause I'm A Man (HAIM Remix)"
+  - track: "Special Affair"
+    artist: "The Internet"
+    album: "Ego Death"
+  - track: "Pulsing"
+    artist: "Tomas Barfod Nina K"
+    album: "Pulsing"
+  - track: "I Am the Antichrist to You"
+    artist: "Kishi Bashi"
+    album: "151a"
+  - track: "Strange - Single Version"
+    artist: "Patsy Cline"
+    album: "Greatest Hits"
