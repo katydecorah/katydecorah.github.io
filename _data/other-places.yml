@@ -102,7 +102,7 @@
   date: 2015-06-26
   marker: campsite
   coordinates: -73.5685997,43.6274318
-  
+
 - title: Summer sprint in SF
   image: https://instagram.com/p/6sOKr1iI_k/media/?size=m
   url: https://instagram.com/p/6sOKr1iI_k/
@@ -144,4 +144,38 @@
   date: 2015-12-04
   marker: rocket
   coordinates: -77.0145,38.89
-  
+
+- title: Birthday weekend in Saugerties
+  image: https://www.instagram.com/p/BBLanOQCI9n/media/?size=m
+  url: https://www.instagram.com/p/BBLanOQCI9n/
+  date: 2016-01-31
+  marker: heart
+  coordinates: -73.9548204,42.0780863
+
+- title: Girls night in NYC
+  image: https://www.instagram.com/p/BBcnjQIiIyo/media/?size=m
+  url: https://www.instagram.com/p/BBcnjQIiIyo/
+  date: 2016-02-06
+  marker: heart
+  coordinates: -73.9772709,40.7647156
+
+- title: Winter sprint in SF
+  image: https://www.instagram.com/p/BBtYW91iIyz/media/?size=m
+  url: https://www.instagram.com/p/BBtYW91iIyz/
+  date: 2016-02-12
+  marker: rocket
+  coordinates: -122.4333534,37.7777447
+
+- title: Spring sprint in DC
+  image: https://www.instagram.com/p/BGCUprcCI1p/media/?size=m
+  url: https://www.instagram.com/p/BGCUprcCI1p/
+  date: 2016-05-28
+  marker: rocket
+  coordinates: -77.0145,38.89
+
+- title: Married
+  image: https://www.instagram.com/p/BG0OTqhiIzC/media/?size=m
+  url: https://www.instagram.com/p/BG0OTqhiIzC/
+  date: 2016-06-18
+  marker: heart
+  coordinates: -72.8818789,43.1319911
