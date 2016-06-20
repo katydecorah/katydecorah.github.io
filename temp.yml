@@ -1,0 +1,9 @@
+---
+---
+
+- playlist: 2016 Spring
+  spotify: https://open.spotify.com/user/katydecorah/playlist/7jNNYGF2FleS7k0y5dbaJA
+  tracks:{% for track in site.data.temp %}
+  - track: {{track.Track | jsonify}}
+    artist: {{track.Artist | jsonify}}
+    album: {{track.Album | jsonify}}{% endfor %}
