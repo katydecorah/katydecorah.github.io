@@ -33,6 +33,6 @@ Saturday morning we visited the Albany Pine Bush at [Karner Barrens East &amp; W
 <img src="http://farm6.staticflickr.com/5484/11014591986_910ff3031d_b.jpg" class="img-half" alt="Albany Pine Bush">
 </div>
 
-On Sunday, I met up with my mom for lunch at [Abuelo's](https://www.facebook.com/pages/Abuelos-Cuban-Restaurant/563265377040082), a new Cuban restaurant in Fort Edward. I had the chorizo over rice and it was fantastic.
+On Sunday, I met up with my mom for lunch at Abuelo's, a new Cuban restaurant in Fort Edward. I had the chorizo over rice and it was fantastic.
 
 After lunch we checked out the [Spa City Farmers' Market](http://spacitymarket.com/test/) in Saratoga. I picked up a pair of butternut squash, kale, and baklava.
