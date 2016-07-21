@@ -5,7 +5,7 @@ title: Hello!
 
 <img src="{{site.image}}" class="hello-header" alt="Katy DeCorah">
 
-<p class="lead">Hello! I'm Katy DeCorah. I live in Saratoga Springs, NY. I'm an writer, supporter, and tinkerer at <a href="//www.mapbox.com">Mapbox</a>.</p>
+<p class="lead">Hello! I'm Katy DeCorah. I live in Saratoga Springs, NY. I'm a tinkerer at <a href="//www.mapbox.com">Mapbox</a>.</p>
 
 I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/card-catalog/#playlists). Sometimes [I teach](/card-catalog/#teaching) at the University at Albany. I'm also an organizer for [Ela Conf](http://elaconf.com/).
 
