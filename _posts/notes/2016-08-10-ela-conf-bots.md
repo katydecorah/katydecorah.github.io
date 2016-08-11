@@ -18,7 +18,7 @@ Every time someone submits a volunteer application or an abstract, a new GitHub 
 ![volunteerbot](https://cloud.githubusercontent.com/assets/2180540/17576748/3b4f1bd8-5f44-11e6-946d-2cc2c0290260.png)
 
 
-:raising_hand: **Under the hood:** First, I created a GitHub account @elaconfbot (so as to not inflate my GitHub graph, make it clear that I'm not creating new issues, and because bots are cute). I created a zap in Zapier that will create a new GitHub issue by @elaconfbot once a new row in the form's spreadsheet is added (aka someone fills out the form). We also have a Slack integration that watches the repo for new issues.
+:raising_hand: **Under the hood:** First, I created a GitHub account @elaconfbot (so as to not inflate my GitHub graph, make it clear that I'm not creating new issues, and because bots are cute). I made a zap in Zapier that will submit a new GitHub issue by @elaconfbot once a new row in the form's spreadsheet is added (aka someone fills out the form). We also have a Slack integration that watches the repo for new issues.
 
 With Zapier, you can also assign labels and even add issues to milestones as someone submits a form. Now instead of reading a spreadsheet, we'll be able to comment on each abstract and use all of GitHub's organizational features. I absolutely adore this workflow.
 
