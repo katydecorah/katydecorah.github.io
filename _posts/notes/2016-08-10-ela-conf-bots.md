@@ -59,7 +59,7 @@ It's also going to be fun watching @elaconfbot's contribution graph:
 
 ![contributions](https://cloud.githubusercontent.com/assets/2180540/17576770/84f44ea2-5f44-11e6-8be1-3b62e5a81bca.png)
 
-Can you tell when we opened our [call for proposals](http://elaconf.com/propsals/)?
+Can you tell when we opened our [call for proposals](http://elaconf.com/proposals/)?
 
 My next challenge will be building an anonymous feedback system for our speakers. I have a suspicion that it will involve some type of form, GitHub, and then some type of delivery service. Can't wait to get started!
 
