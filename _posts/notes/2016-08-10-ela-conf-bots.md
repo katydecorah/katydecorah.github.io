@@ -53,7 +53,7 @@ I think this is our favorite bot!
 
 ## Bots, bots, and more bots
 
-Every time we get a ping from our :raising_hand: :wave: :ok_woman: bots, we all get excited. Seeing women wanting to participate with and at Ela Conf in real-time is much more magical than I think we all anticipated.
+Every time we get a ping from our :raising_hand: :wave: :ok_woman: bots, we all get excited. Seeing women wanting to participate with and at Ela Conf in real-time is much more magical and meaningful than I think we all anticipated.
 
 It's also going to be fun watching @elaconfbot's contribution graph:
 
