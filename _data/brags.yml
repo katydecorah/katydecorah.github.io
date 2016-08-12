@@ -1,10 +1,3 @@
-- section: Mentions
-  contents:
-  - site: Wired
-    contents:
-    - title: Interactive Map Transports You to Every X-Files Location
-      date: 2016-01-20
-      link: http://www.wired.com/2016/01/x-files-interactive-map/
 - section: Organizing
   contents:
   - site: ELA Conf
@@ -98,3 +91,10 @@
       date: 2014-09-14
       link: https://youtu.be/rAJgJRvAE98
       ignoreProofer: true
+- section: Mentions
+  contents:
+  - site: Wired
+    contents:
+    - title: Interactive Map Transports You to Every X-Files Location
+      date: 2016-01-20
+      link: http://www.wired.com/2016/01/x-files-interactive-map/
