@@ -18,7 +18,7 @@ redirect_from: /code/2014/01/01/z-index-and-transform/
 
 <p data-height="400" data-theme-id="97" data-slug-hash="lqBtz" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/lqBtz'>END by Catt</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-I knew that I wanted to code out the Dribbble shot [END by Catt](http://drbl.in/jJIr) as a single element. I planned on using the main element for the text and pseudo elements to create the tails of the ribbon.
+I knew that I wanted to code out the Dribbble shot END by Catt as a single element. I planned on using the main element for the text and pseudo elements to create the tails of the ribbon.
 
 ![Ribbon diagram](http://farm8.staticflickr.com/7409/12730119235_c26ceaf678_o.png)
 
