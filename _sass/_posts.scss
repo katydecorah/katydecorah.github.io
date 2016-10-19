@@ -41,6 +41,7 @@
   pre,
   .playlist,
   figcaption,
+  .caption,
   h1,
   h2,
   h3,
@@ -378,6 +379,11 @@ figcaption {
   margin-bottom: 1em;
   margin-top: .5em;
   text-align: right;
+}
+
+.caption {
+  color: lighten($text-color, 20%);
+  font-size: $font-xs;
 }
 
 .footnotes {
