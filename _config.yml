@@ -13,7 +13,7 @@ paginate_path: ":num"
 future: true
 
 name: Katy DeCorah
-description: "Tinkerer from Saratoga, NY."
+description: "Front-end developer and tinkerer from Saratoga Springs, NY."
 image: https://c2.staticflickr.com/8/7296/27792809811_aa02bbf5da_h.jpg
 twitter: "@katydecorah"
 
@@ -97,10 +97,10 @@ links:
 mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2l0YzVhY2l6MGE0eDJ6czZ2NDRpZGtubyJ9.njBRjO2lRXdT0Mut9Vryqg
 mapid: katydecorah.21d6ba77
 mapid-winter: katydecorah.70f1a6d1
-mapboxjs: v2.3.0
-font-awesome: 4.5.0
+mapboxjs: v2.4.0
+font-awesome: 4.6.3
 leafletjs: v0.4.0
-jquery: 2.2.2
+jquery: 3.1.1
 modernizr: 2.8.3
 
 defaults:

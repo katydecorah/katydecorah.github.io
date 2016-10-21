@@ -19,13 +19,12 @@ $link-color: darken($link, 4%);
 $link-hover: $fancy-accent;
 $link-transition: .1s;
 
-$body-font-size: 20px;
+$body-font-size: 24px;
 $font-small: .889em;
 $font-xs: .7em;
 
 $text-color: #333;
 $text-color-light: lighten($text-color, 20%);
-
 
 $code-font-family: 'anonymous-pro', 'Courier New', monospace;
 $fancy-font-family: 'adelle-sans', Georgia, serif;
@@ -35,7 +34,7 @@ $body-font-weight: 300;
 $body-font-bold: 600;
 $fancy-font-weight: 300;
 
-$container-width: 750px;
+$container-width: 900px;
 $media-max: 1000px;
 
 $border-radius-img: .15em;
