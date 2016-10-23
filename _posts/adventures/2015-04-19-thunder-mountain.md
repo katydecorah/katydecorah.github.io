@@ -14,7 +14,7 @@ coordinates:
 - -73.4503526,43.1395872
 ---
 
-Mom and I did the 1.3 mile hike around [Thunder Mountain](http://villageofgreenwich.org/vision-plan/2-uncategorised/188-thunder-mountain.html) today.
+Mom and I did the 1.3 mile hike around Thunder Mountain in Greenwich today.
 
 <div class="photos">
 <img src="https://farm8.staticflickr.com/7590/16585431573_d7a0d6bae5_b.jpg" class="img-half" alt="Thunder Mountain">

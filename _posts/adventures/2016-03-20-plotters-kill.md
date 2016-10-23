@@ -17,4 +17,4 @@ miles: .5
 <img src="https://farm2.staticflickr.com/1621/25310376734_e27c639fc7_b.jpg"  alt="Plotters Kill">
 </div>
 
-We hiked around [Plotters Kill Preserve](https://www.schenectadycounty.com/FullStory.aspx?m=194&amid=769) by starting on the blue trail. The blue trail is nice, but has limited views of the falls. We hopped on the red trail for a bit and were able to get a better view.
+We hiked around Plotters Kill Preserve](http://www.alltrails.com/trail/us/new-york/plotter-kill-preserve) by starting on the blue trail. The blue trail is nice, but has limited views of the falls. We hopped on the red trail for a bit and were able to get a better view.

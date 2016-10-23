@@ -16,11 +16,11 @@ redirect_from: /adventures/2014/10/25/vromans-nose/
 ---
 
 
-Today we hiked up to [Vroman’s Nose](http://www.localhikes.com/hikes/vromans_nose_0160.asp).
+Today we hiked up to [Vroman’s Nose](https://en.wikipedia.org/wiki/Vroman%27s_Nose).
 
 <div class="photos">
 
-<img src="https://farm6.staticflickr.com/5602/15601783906_a0a7c27671_b.jpg" class="img-half" alt="Vroman&#x27;s Nose"> 
+<img src="https://farm6.staticflickr.com/5602/15601783906_a0a7c27671_b.jpg" class="img-half" alt="Vroman&#x27;s Nose">
 <img src="https://farm4.staticflickr.com/3944/15439366798_0e5ff236fa_b.jpg" class="img-half" alt="Vroman&#x27;s Nose">
 
 
