@@ -1,1 +1,1 @@
-{% if page.locations %}<div class="post-locations"><i class="fa fa-map-marker post-location"></i> {% for location in page.locations %}<span class="post-location">{{ location | replace:',',', '}}</span>{% if forloop.last == false %}, {%endif%}{% endfor %}</div>{% endif %}
+{% if page.locations %}<div class="post-locations"><span class="post-location">{% include icons/marker.svg %}</span> {% for location in page.locations %}<span class="post-location">{{ location | replace:',',', '}}</span>{% if forloop.last == false %}, {%endif%}{% endfor %}</div>{% endif %}

@@ -11,8 +11,8 @@ layout: no-title
 
 <div class="brags" id="{{ site.site  | rereplace:' ','-' | downcase }}">
 <p class="brag-site">{{ site.site }}</p>
-<ul class="brag-ul fa-ul small">
-{% for item in site.contents %}<li class="brag-li"><i class="fa fa-angle-right fa-li"></i><a href="{{item.link}}" class="brag"{% if item.ignoreProofer == true %} data-proofer-ignore{% endif %}>{{ item.title }}</a>{% if item.with %} with {{ item.with }}{% endif %}, {{item.date | date: "%B %-d, %Y"}}</li>{% endfor %}
+<ul class="brag-ul icon-ul small">
+{% for item in site.contents %}<li class="brag-li"><span class="icon-li">{% include icons/angle-right.svg %}</span><a href="{{item.link}}" class="brag"{% if item.ignoreProofer == true %} data-proofer-ignore{% endif %}>{{ item.title }}</a>{% if item.with %} with {{ item.with }}{% endif %}, {{item.date | date: "%B %-d, %Y"}}</li>{% endfor %}
 </ul>
 </div>
 {% endfor %}

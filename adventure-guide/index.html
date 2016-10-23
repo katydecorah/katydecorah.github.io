@@ -5,7 +5,7 @@ description: My favorite hiking trails in Upstate New York and beyond.
 image: https://farm1.staticflickr.com/567/20552818663_bd6e380450_b.jpg
 ---
 
-<link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />  
+<link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />
 <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/MarkerCluster.css' rel='stylesheet' />
 <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/MarkerCluster.Default.css' rel='stylesheet' />
 <script src="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js"></script>
@@ -16,8 +16,8 @@ image: https://farm1.staticflickr.com/567/20552818663_bd6e380450_b.jpg
 <p>My favorite hiking trails in Upstate New York and beyond.</p>
 
 <div class="toggle">
-  <div class="toggle-item active fa fa-align-justify" data-toggle="list"></div>
-  <div class="toggle-item fa fa-map" data-toggle="map"></div>
+  <div class="toggle-item active" data-toggle="list">{% include icons/menu.svg %}</div>
+  <div class="toggle-item" data-toggle="map">{% include icons/map.svg %}</div>
 </div>
 
 </div>
@@ -31,8 +31,8 @@ image: https://farm1.staticflickr.com/567/20552818663_bd6e380450_b.jpg
     <img class="adventure-map" src="http://api.tiles.mapbox.com/v4/{{ site.mapid }}/{% if coord_size >= 2 %}geojson%28%7B%22type%22%3A%22Feature%22%2C%22properties%22%3A%7B%22stroke-opacity%22%3A0%7D%2C%22geometry%22%3A%7B%22type%22%3A%22MultiLineString%22%2C%22coordinates%22%3A%5B%5B{% for coordinate in post.coordinates %}%5B{{coordinate | replace: ' ','' | replace: ',','%2C'}}%5D{% if forloop.last %}{% else %}%2C{% endif %}{% endfor %}%5D%0A%5D%0A%7D%0A%7D%29/auto{% else %}{% for coordinate in post.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if post.zoom %}{{ post.zoom }}{% else %}15{% endif %}{% endif %}/250x250@2x.png?access_token={{ site.mapbox-token }}" alt="map of {{post.title}}" />
     <div class="adventure-group">
       <h2>{{post.title}}</h2>
-      <div class="adventure-location adventure-meta"><i class="fa fa-map-marker"></i> {{post.locations | first }}</div>
-      {% if post.miles %}<div class="adventure-distance adventure-meta"><i class="fa fa-map-signs"></i> {{post.miles}} mile{% if post.miles > 1 %}s{% endif %}</div>{% endif %}
+      <div class="adventure-location adventure-meta">{% include icons/marker.svg %} {{post.locations | first }}</div>
+      {% if post.miles %}<div class="adventure-distance adventure-meta">{% include icons/map-signs.svg %} {{post.miles}} mile{% if post.miles > 1 %}s{% endif %}</div>{% endif %}
     </div>
   </a>
   {% endif %}{% endfor %}
@@ -63,7 +63,7 @@ featureLayer.on('layeradd', function(e) {
   // Create custom popup content
   var popupContent =  '<a target="_blank" class="popup external-'+feature.properties.external+'" href="' + feature.properties.url + '">' +
   '<img alt="'+ feature.properties.title +'+" src="' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
-  
+
   marker.bindPopup(popupContent,{
     minWidth: 150,
     closeButton: false
@@ -92,7 +92,7 @@ $(".toggle-item").click(function() {
   var type = $(this).attr("data-toggle");
   $("#list,#map").removeClass("show");
   $("#"+type).addClass("show");
-  
+
   if (type == 'map') {
     map.invalidateSize(true);
     change();

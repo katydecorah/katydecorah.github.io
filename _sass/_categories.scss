@@ -28,7 +28,7 @@
     margin-top: 3em;
   }
 
-  .fa-ul {
+  .icon-ul {
 
     @include breakpoint(gt-mobile) {
       margin: 0;
@@ -44,7 +44,7 @@
 
   }
 
-  .fa-li {
+  .icon-li {
 
     @include breakpoint(gt-mobile) {
       display: none;
@@ -86,7 +86,7 @@
 .category-recents,
 .category-olders {
 
-  .fa-ul {
+  .icon-ul {
 
     @extend %clearfix;
 

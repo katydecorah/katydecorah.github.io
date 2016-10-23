@@ -8,7 +8,7 @@ title: Card catalog
 
 
 
-<ul class="fa-ul">
+<ul class="icon-ul">
 {% assign categories_max = 0 %}
 {% for category in site.categories %}
 {% if category[1].size > categories_max %}
@@ -18,7 +18,7 @@ title: Card catalog
 {% for i in (1..categories_max) reversed %}
 {% for category in site.categories %}
 {% if category[1].size == i %}
-<li><a href="#{{ category[0] | downcase | replace:' ','_' }}" title="{{ i }} posts"><i class="fa fa-bookmark-o fa-li"></i> {{ category[0] }}</a></li>
+<li><a href="#{{ category[0] | downcase | replace:' ','_' }}" title="{{ i }} posts"><span class="icon-li">{% include icons/bookmark.svg %}</span> {{ category[0] }}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}
@@ -40,22 +40,22 @@ title: Card catalog
 <div class="container">
 <h2>{{ category[0] }} <span class="badge">{{ i }}</span></h2>
 <div class="category-recents">
-<ul class="fa-ul">
+<ul class="icon-ul">
 {% for post in category.last %}
 {% if forloop.index <= 4 %}
 <li><a class="category-recent" href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}">
 <div class="category-thumb" style="background-image:url({{ post.image }});"></div>
-<i class="fa fa-angle-right fa-li"></i><span class="category-title">{{ post.title }}</span></a></li>
+<span class="icon-li">{% include icons/angle-right.svg %}</span><span class="category-title">{{ post.title }}</span></a></li>
 {% endif %}
 {% endfor %}
 </ul>
 </div>
 <div class="category-olders">
 <div class="columns">
-<ul class="fa-ul">
+<ul class="icon-ul">
 {% for post in category.last %}
 {% if forloop.index > 4 %}
-<li><a href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}" class="category-older"><i class="fa fa-angle-right fa-li"></i><span class="category-title">{{ post.title }}</span></a></li>
+<li><a href="{{ post.url }}" title="posted on {{ post.date | date: "%B %d, %Y" }}" class="category-older"><span class="icon-li">{% include icons/angle-right.svg %}</span><span class="category-title">{{ post.title }}</span></a></li>
 {% endif %}
 {% endfor %}
 </ul>

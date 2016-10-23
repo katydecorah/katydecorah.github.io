@@ -4,7 +4,7 @@ title: Tags
 ---
 <div class="container" id="content">
 <div class="tags-columns">
-<ul class="fa-ul">
+<ul class="icon-ul">
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
 {% if tag[1].size > tags_max %}
@@ -14,7 +14,7 @@ title: Tags
 {% for i in (1..tags_max) reversed %}
 {% for tag in site.tags %}
 {% if tag[1].size == i %}
-<li><a href="#{{ tag[0] | downcase | replace:' ','_' }}" title="{{ i }} posts"><i class="fa fa-tag fa-li"></i> {{ tag[0] }}</a></li>
+<li><a href="#{{ tag[0] | downcase | replace:' ','_' }}" title="{{ i }} posts"><span class="icon-li">{% include icons/tag.svg %}</span> {{ tag[0] }}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}
@@ -38,8 +38,8 @@ title: Tags
 {% if tag[0] == 'time travel' %}<p>Posts that I wrote and published after the fact.</p>{% endif %}
 {% if tag[0] == 'elsewhere' %}<p>Posts that link to content originally posted elsewhere.</p>{% endif %}
 <div class="columns">
-<ul class="fa-ul">
-{% for post in tag.last %}<li><a href="{{ post.url }}"><i class="fa fa-angle-right fa-li"></i> {{ post.title }}</a></li>{% endfor %}
+<ul class="icon-ul">
+{% for post in tag.last %}<li><a href="{{ post.url }}"><span class="icon-li">{% include icons/tag.svg %}</span> {{ post.title }}</a></li>{% endfor %}
 </ul>
 </div>
 </div>

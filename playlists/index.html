@@ -16,8 +16,8 @@ redirect_from: "/playlist-master/index.html"
 <img width="600" src="/img/playlists/{{ playlist.playlist | slugify }}.png" alt="Album art {{ playlist.playlist }}" />
 <h2>{{ playlist.playlist }}</h2>
 <div class="playlist-meta">
-<!--{% if playlist.rdio %}<i class="fa fa-music"></i> <a href="{{ playlist.rdio }}" class="playlist-rdio">Listen on Rdio</a>{% endif %}-->
-{% if playlist.spotify %}<i class="fa fa-music"></i> <a href="{{ playlist.spotify }}" class="playlist-rdio">Listen on Spotify</a>{% endif %}
+<!--{% if playlist.rdio %}{% include icons/music.svg %} <a href="{{ playlist.rdio }}" class="playlist-rdio">Listen on Rdio</a>{% endif %}-->
+{% if playlist.spotify %}{% include icons/music.svg %} <a href="{{ playlist.spotify }}" class="playlist-rdio">Listen on Spotify</a>{% endif %}
 </div>
 <div class="playlist">
 {% for tracks in playlist.tracks %}

@@ -22,9 +22,9 @@ title: Time capsule
 <div class="archive-months">
 <div class="archive-month">
 <h3>{{ this_month }}</h3>
-<ul class="fa-ul">
+<ul class="icon-ul">
 {% endif %}
-<li><a href="{{ post.url }}"><i class="fa fa-angle-right fa-li"></i> {{ post.title }}</a></li>
+<li><a href="{{ post.url }}"><span class="icon-li">{% include icons/angle-right.svg %}</span> {{ post.title }}</a></li>
 {% if forloop.last %}
 </ul>
 </div>
@@ -41,14 +41,14 @@ title: Time capsule
 <div class="archive-months">
 <div class="archive-month">
 <h3>{{ next_month }}</h3>
-<ul class="fa-ul">
+<ul class="icon-ul">
 {% else %}
 {% if this_month != next_month %}
 </ul>
 </div>
 <div class="archive-month">
 <h3>{{ next_month }}</h3>
-<ul class="fa-ul">
+<ul class="icon-ul">
 {% endif %}
 {% endif %}
 {% endif %}
