@@ -1,2 +1,2 @@
-{% if page.tags.size > 0 %}<div class="post-tags"><i class="fa fa-tag"></i> {% for tag in page.tags %}<a href="/tags/#{{ tag | downcase | replace:' ','_'}}" class="tag">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</div>{% endif %}
+{% if page.tags.size > 0 %}<div class="post-tags">{% include icons/tag.svg %} {% for tag in page.tags %}<a href="/tags/#{{ tag | downcase | replace:' ','_'}}" class="tag">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</div>{% endif %}
 

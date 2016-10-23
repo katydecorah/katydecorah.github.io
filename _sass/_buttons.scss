@@ -11,12 +11,18 @@
     text-decoration: none;
   }
 
-  .fa-angle-right {
+  .icon-angle-right {
     margin-left: .5em;
   }
 
-  .fa-angle-left {
+  .icon-angle-left {
     margin-right: .5em;
+  }
+
+  .icon {
+    height: 24px;
+    position: relative;
+    top: 5px;
   }
 
 }

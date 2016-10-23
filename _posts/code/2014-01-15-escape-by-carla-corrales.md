@@ -64,19 +64,19 @@ I wanted to give this Pen a little more pizazz by making the dial spin immediate
 
 Starting out, I added the `animation` to `.marker:after` and I added `animation-play-state` to `.marker:hover:after`. I wanted the animation to play and then play again on `:hover`. After trying out all of the values and combinations of values, I finally began to understand this property. I like to think about `animation-play-state` like watching a movie and the remote is my `:hover` target.
 
-<h4><i class="fa fa-play">&nbsp;</i> <code>animation-play-state: running;</code></h4>
+<h4>{% include icons/play.svg %} <code>animation-play-state: running;</code></h4>
 
 For my first try, I used the value `running`. Nothing happened. The animation was already running and then on `:hover`, I asked it to run again.
 
 If I'm watching a movie and press play then my action won't be productive.
 
-<h4><i class="fa fa-pause">&nbsp;</i> <code>animation-play-state: paused;</code></h4>
+<h4>{% include icons/pause.svg %} <code>animation-play-state: paused;</code></h4>
 
 Next, I tried the alternate value, `paused`. It kind of worked. The animation didn't play when I was hovering, but it played once I hovered off of the target.
 
 If I'm watching a movie and I press pause, the movie will pause. I'm guessing that the animation restarted because it triggered the original `animation` on `.marker:after` to run again. (I need to look into this.)
 
-<h4><i class="fa fa-pause">&nbsp;</i> <i class="fa fa-play">&nbsp;</i> <code>animation-play-state: paused, running;</code></h4>
+<h4>{% include icons/pause.svg %} {% include icons/play.svg %} <code>animation-play-state: paused, running;</code></h4>
 
 A little confused with my previous tries, I checked out [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state). I read that both values can be used, which led me to try `paused, running`. This value worked great! The dial spun on `:hover`.
 

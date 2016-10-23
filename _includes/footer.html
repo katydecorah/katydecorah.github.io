@@ -1,8 +1,8 @@
 {% if page.title != 'Resume' %}<div class="footer">
 <div class="container">
 {% include nav.html %}
-<ul class="nav">{% for link in site.links %}{% if link.position == 'bottom' %}
-<li><a href="{{ link.url }}" title="{{ link.text }}" class="nav-link"><i class="fa fa-{{ link.icon }}"></i></a></li>{% endif %}{% endfor %}
+<ul class="nav">{% for link in site.links %}{% if link.position == 'bottom' %}{% assign icon = link.icon | prepend: 'icons/' | append: '.svg' %}
+<li><a href="{{ link.url }}" title="{{ link.text }}" class="nav-link">{% include {{icon}} %}</a></li>{% endif %}{% endfor %}
 </ul>
 <p>{{ site.description }}</p>
 </div>

@@ -196,8 +196,8 @@
   font-size: $font-xs;
   margin-bottom: .5em;
 
-  .fa {
-    min-width: 1.25em;
+  .icon {
+    margin-right: .5em;
   }
 
 }
@@ -303,48 +303,6 @@
 
 }
 
-.post-prev::before,
-.post-next::after {
-
-  font-family: FontAwesome;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  position: relative;
-
-  @include breakpoint(gt-mobile) {
-    border: 2px solid transparent;
-    display: block;
-    height: 2em;
-    line-height: 2em;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    transition: $link-transition;
-    vertical-align: middle;
-    width: 2em;
-
-    &:hover {
-      border: 2px solid;
-      color: $text-color;
-    }
-
-  }
-
-}
-
-.post-prev::before {
-  content: '\f104';
-  left: 0;
-}
-
-.post-next::after {
-  content: '\f105';
-  right: 0;
-}
-
 .post-prev-title,
 .post-next-title {
 
@@ -358,13 +316,13 @@
 
 .post-prev-title {
 
-  @include breakpoint(gt-mobile) {padding-left: 3em; }
+  @include breakpoint(gt-mobile) {padding-left: 1em; }
 
 }
 
 .post-next-title {
 
-  @include breakpoint(gt-mobile) {padding-right: 3em; }
+  @include breakpoint(gt-mobile) {padding-right: 1em; }
 
 }
 

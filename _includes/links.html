@@ -1,5 +1,5 @@
 <ul class="nav">
-{% for link in site.links %}<li>
-<a href="{{ link.url }}" title="{{ link.text }}" class="nav-link"><i class="fa fa-{{ link.icon }}"></i></a>
+{% for link in site.links %}<li>{% assign icon = link.icon | prepend: 'icons/' | append: '.svg' %}
+<a href="{{ link.url }}" title="{{ link.text }}" class="nav-link">{% include {{icon}} %}</a>
 </li>{% endfor %}
 </ul>
