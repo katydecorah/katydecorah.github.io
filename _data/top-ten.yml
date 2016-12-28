@@ -1,3 +1,43 @@
+- year: 2016
+  topnine:
+    - https://www.instagram.com/p/BLrReAyD0dr/
+    - https://www.instagram.com/p/BIfEK-uDYmE/
+    - https://www.instagram.com/p/BHAl28zCI3x/
+    - https://www.instagram.com/p/BM2pod4DrY_/
+    - https://www.instagram.com/p/BLYjXyljV-4/
+    - https://www.instagram.com/p/BG0OTqhiIzC/
+    - https://www.instagram.com/p/BMbTJW_D2Ex/
+    - https://www.instagram.com/p/BCy9hIlCI59/
+    - https://www.instagram.com/p/BLmT0WfjRh5/
+  tripit:
+    - trips: 8
+      days: 51
+      distance: 13,620
+      cities: 6
+      countries: 1
+  spotify: https://open.spotify.com/user/katydecorah/playlist/7yC7yx3jMt4pQi90vA9Mff
+  tracks:
+    - FKA twigs, Two Weeks
+    - Arca, Brokeup
+    - Flume, Never Be Like You
+    - DVSN, With Me
+    - Rainbow Kitten Surprise, Devil Like Me
+    - The Echo-Friendly, Same Mistakes
+    - The Internet, Special Affair
+    - Chairlift, Ch-Ching
+    - Hundred Waters, Cavity
+    - Conduits, Top Of The Hill
+  albums:
+    - Solange, A Seat at the Table
+    - Angel Olsen, My Woman
+    - DVSN, Sept 5th
+    - FKA twigs, LP1
+    - Broken Social Scene, You Forgot It In People
+    - Glasser, Interiors
+    - Land Lines, The Natural World
+    - Beach House, Depression Cherry
+    - No Joy, More Faithful
+    - Flume, Never Be Like You
 - year: 2015
   topnine:
     - https://www.instagram.com/p/3RWZHwCI46/
@@ -16,7 +56,6 @@
     cities: 18
     countries: 2
   spotify: https://open.spotify.com/user/katydecorah/playlist/7IAKk5ruE7Rdk0Ocvzp3RX
-  playlist_image: https://mosaic.scdn.co/640/b2d457528f295f95a75cc4daad9dadcb948287f0b072b56e269d588e82ac9e5e454938e7c253e49df37c8d76e4389b899250a8d10728b56fccb61d946021c046cf06a9ac9a0e2af270450bf81071b104
   tracks:
   - Cosmicide, Talos Corpse
   - Lower Dens, Rosie
@@ -41,7 +80,6 @@
   - No Joy, Wait To Pleasure
 - year: 2014
   spotify: https://open.spotify.com/user/katydecorah/playlist/3ho2jq4I8pE4vEUZulHg3Z
-  playlist_image: https://mosaic.scdn.co/640/6829ba23d38d0cfd985ba06277e5ef8edfc00fb3ccaf28ad81e8ce304cb9d5713c83ca35a56fe724b590be07a46a6fdc96f2cba536dceefc2f9fcc1dfd3cac76a8f1f3cab516f06873eeec16977efdf0
   tracks:
   - Active Child, Johnny Belinda
   - Chip tha Ripper,Bun B, BoomShakalaka (feat. Bun B)
@@ -66,7 +104,6 @@
   - "MF DOOM, Metalfingers Presents: Special Herbs, The Box Set Vol. 0-9"
 - year: 2013
   spotify: https://open.spotify.com/user/katydecorah/playlist/0If5NGtOyHK9RMbp4MKn5h
-  playlist_image: https://mosaic.scdn.co/640/5390969d233d1ffa0b28909b2fd0feedaf31047066d82e95ccb12a1ccd87ca9c4dee86b141b1c1e224ab06ced713c1a56f34a6636bb4ef59e913816f7d7afd4c285c07b804b621d2fa4830d453c90692
   tracks:
   - Warpaint, Undertow
   - Danny Brown, Side A (Old)
@@ -91,7 +128,6 @@
   - Danny Brown, Old
 - year: 2012
   spotify: https://open.spotify.com/user/katydecorah/playlist/3wvf4rmL5ZMZdwsop4orR4
-  playlist_image: https://mosaic.scdn.co/640/37b3e33b2d66f5bb84f52655cc8f2932e323cbcf5bc5be4c41fbd99bc2e1ef2ad665a6536801241d36b1afb3e03ab6bdd879af3b0724b1ec675e27fe7c5ef14a69a384dd24b6d3966271eb9559ff809a
   tracks:
   - ScHoolboy Q, There He Go
   - A$AP Rocky, Bass [Prod. By Clams Casino]
@@ -116,7 +152,6 @@
   - Kendrick Lamar, good kid, m.A.A.d city (Deluxe)
 - year: 2011
   spotify: https://open.spotify.com/user/katydecorah/playlist/1DVLCxaqgjiA8HUyPoNQeq
-  playlist_image: https://cloud.githubusercontent.com/assets/2180540/15102545/d371b8fa-156e-11e6-91bc-5702cfd88e71.png
   albums:
   - The Weeknd, House of Balloons
   - A$AP Rocky, ASAP Rocky - LiveLoveA$AP
