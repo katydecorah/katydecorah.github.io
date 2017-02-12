@@ -78,7 +78,7 @@ We stayed at [El Tovar](http://www.grandcanyonlodges.com/lodging/el-tovar/), con
 <img src="https://c1.staticflickr.com/1/597/32289731300_fbb5a3a8cc_h.jpg"  alt="Grand Canyon">
 
 <img src="https://c1.staticflickr.com/1/646/32668858465_77469728b8_b.jpg"  alt="Grand Canyon">
-<div class="caption">Taken from my iPhone propped up by my wallet in a snow bank. (Ok, you got us. We weren't really prepared for this trip.)</div>
+<div class="caption">Taken by my iPhone propped up by my wallet in a snow bank. (Ok, you got us. We weren't really prepared for this trip.)</div>
 </div>
 
 We spent the last night in Las Vegas on my birthday. Even though we're not into gambling, we turned a $100 bill from our wedding into $300 on the Roulette table. We blew it all on dinner.
