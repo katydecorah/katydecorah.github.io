@@ -7,7 +7,7 @@ tags:
 - fresh air
 - recommended
 image: http://farm4.staticflickr.com/3809/9110227939_78d3fcd71f_n.jpg
-locations: 
+locations:
 - Petersburgh, NY
 map: static
 miles: 5.4
@@ -22,7 +22,7 @@ Awesome 2.7 mile hike to the [Snow Hole](http://www.taconichiking.com/snow-hole.
 I would definitely do this hike again!
 
 <div class="photos">
-<img src="http://farm3.staticflickr.com/2847/9112439356_2b17f4c175_n.jpg" class="img-thirds" alt="The Snow Hole, Taconic Mountains">
+<img src="http://farm3.staticflickr.com/2847/9112439356_2b17f4c175_b.jpg" class="img-thirds" alt="The Snow Hole, Taconic Mountains">
 <img src="http://farm4.staticflickr.com/3784/9123297196_d576487aff_n.jpg" class="img-thirds" alt="The Snow Hole, Taconic Mountains">
 <img src="http://farm4.staticflickr.com/3809/9110227939_78d3fcd71f_n.jpg" class="img-thirds" alt="The Snow Hole, Taconic Mountains">
 <img src="http://farm8.staticflickr.com/7318/9112447606_ee95631a58_n.jpg" class="img-thirds" alt="The Snow Hole, Taconic Mountains">

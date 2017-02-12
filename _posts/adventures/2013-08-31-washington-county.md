@@ -34,7 +34,7 @@ Mom and I went on a Washington County/Vermont adventure today.
 
 <div class="photos">
 
-<img src="http://farm6.staticflickr.com/5470/9637747745_b5989c4710_c.jpg" class="img-half" alt="Washington County">
+<img src="http://farm6.staticflickr.com/5470/9637747745_b5989c4710_b.jpg" class="img-half" alt="Washington County">
 <img src="http://farm3.staticflickr.com/2878/9640986104_1a6274ee92_c.jpg" class="img-half" alt="Washington County">
 <img src="http://farm6.staticflickr.com/5498/9640987334_81452d79e3_b.jpg" alt="Washington County" class="pop-out">
 </div>

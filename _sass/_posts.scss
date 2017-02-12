@@ -80,6 +80,10 @@
       margin-top: 0;
     }
 
+    .caption ~ img {
+      margin-top: 1em;
+    }
+
     [data-src] {
       opacity: 0;
       transition: opacity .3s ease-in;

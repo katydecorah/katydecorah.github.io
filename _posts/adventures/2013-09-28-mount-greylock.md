@@ -2,7 +2,7 @@
 layout: post
 title: Mount Greylock
 category: adventures
-locations: 
+locations:
 - Mount Greylock
 map: static
 coordinates:
@@ -22,7 +22,7 @@ We woke up early and drove out to Mount Greylock in Mass. It was a gorgeous morn
 <img src="http://farm3.staticflickr.com/2865/9986278224_581c9d4da5_c.jpg" class="img-half" alt="Mount Greylock">
 <img src="http://farm8.staticflickr.com/7343/9986262155_f7361b37dd_c.jpg" class="img-half" alt="Mount Greylock">
 <img src="http://farm8.staticflickr.com/7310/9986286374_29dcc5f9e0_c.jpg" class="img-half" alt="Mount Greylock">
-<img src="http://farm8.staticflickr.com/7439/9986289224_1fd8a552e2_c.jpg" class="img-half" alt="Mount Greylock">
+<img src="http://farm8.staticflickr.com/7439/9986289224_1fd8a552e2_b.jpg" class="img-half" alt="Mount Greylock">
 <img src="http://farm4.staticflickr.com/3812/9986339946_9f055c9206_c.jpg" class="img-half" alt="Mount Greylock">
 <img src="http://farm3.staticflickr.com/2876/9986357986_cba890f804_c.jpg" class="pop-out" alt="Mount Greylock">
 <img src="http://farm4.staticflickr.com/3751/9986342406_5f2f1d8f0a_c.jpg" class="img-split-wide" alt="Mount Greylock">

@@ -41,7 +41,7 @@ Beautiful morning.
 <img alt="Thacher Park in the morning" class="img-half" src="http://farm3.staticflickr.com/2866/9696152094_60b0dd1e9a_c.jpg">
 <img alt="Thacher Park in the morning"  src="http://farm3.staticflickr.com/2819/9696148238_4cbaaaa0f4_b.jpg">
 <img alt="Thacher Park in the morning" class="pop-out" src="http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_b.jpg">
-<img alt="Thacher Park in the morning" class="img-split-tall" src="http://farm6.staticflickr.com/5443/9692924343_aa3cf2200d_c.jpg">
+<img alt="Thacher Park in the morning" class="img-split-tall" src="http://farm6.staticflickr.com/5443/9692924343_aa3cf2200d_b.jpg">
 <img alt="Thacher Park in the morning" src="http://farm4.staticflickr.com/3784/9696156208_5ebb1cfa9a_c.jpg" class="img-split-wide">
 </div>
 
