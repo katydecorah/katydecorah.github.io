@@ -43,7 +43,7 @@ I put those apples to work.
 <div class="photos">
 
 <img src="http://farm8.staticflickr.com/7416/10120984453_253b5eb02c_c.jpg" class="img-split-tall" alt="Apple pie!">
-<img src="http://farm4.staticflickr.com/3755/10120832675_84a12004cb_c.jpg" class="img-split-wide" alt="Apple pie!">
+<img src="https://c1.staticflickr.com/4/3755/10120832675_84a12004cb_b.jpg" class="img-split-wide" alt="Apple pie!">
 <img src="http://farm6.staticflickr.com/5466/10120826985_38924b6bbd_c.jpg" class="img-half" alt="Apple pie!">
 <img src="http://farm3.staticflickr.com/2891/10120967183_dfae2114dd_c.jpg" class="img-half" alt="Apple pie!">
 <img src="http://farm8.staticflickr.com/7398/10120822025_27d975af0d_c.jpg" class="img-half" alt="Apple pie!">

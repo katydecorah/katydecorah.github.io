@@ -71,7 +71,7 @@ We fed the trout!
 
 <div class="photos">
 
-<img src="http://farm6.staticflickr.com/5487/9702682095_744d46e8b0_c.jpg" alt="North Carolina 2013">
+<img src="http://farm6.staticflickr.com/5487/9702682095_744d46e8b0_b.jpg" alt="North Carolina 2013">
 </div>
 
 ## BBQ
