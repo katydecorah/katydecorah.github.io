@@ -1,7 +1,7 @@
 ---
 title: Building a WeatherBot
 category: code
-image: https://c1.staticflickr.com/3/2570/32905767062_9d091304fd_b.jpg
+image: https://c1.staticflickr.com/3/2719/32935597221_eef6641328_b.jpg
 tags:
 - bots
 ---
