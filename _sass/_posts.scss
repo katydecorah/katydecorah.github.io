@@ -80,6 +80,10 @@
       margin-top: 0;
     }
 
+    img ~ .caption {
+      margin: 0;
+    }
+
     .caption ~ img {
       margin-top: 1em;
     }
@@ -207,7 +211,6 @@
 }
 
 .tag {
-  color: $fancy-accent-aa;
   display: inline-block;
   margin-bottom: .25em;
 
@@ -330,7 +333,6 @@
 
 }
 
-
 figure {
   margin: 0 auto;
 }
@@ -346,6 +348,7 @@ figcaption {
 .caption {
   color: lighten($text-color, 20%);
   font-size: $font-xs;
+  margin: -2.5em auto 0;
 }
 
 .footnotes {

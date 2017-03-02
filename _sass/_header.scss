@@ -23,7 +23,6 @@
 
   @include breakpoint(gt-mobile) {
     float: left;
-    font-size: 1.25em;
     left: -.25em;
     position: relative;
   }
