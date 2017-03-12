@@ -21,6 +21,8 @@ I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/
 
 * [Static Map Maker](http://staticmapmaker.com/) &ndash; a static map API helper.
 * [Font Library](http://katydecorah.com/font-library/) &ndash; an open source project to tag and organize Google Fonts.
+* [WeatherBot](https://github.com/katydecorah/weatherbot) &ndash; a Slack bot that gives you a heads up about snow, nice weather, and severe weather alerts
+* [Femoji](http://femoji.club) &ndash; a fun collection of emoji
 * [Explore the X-Files](https://www.mapbox.com/x-files/) &ndash; an interactive map of every X-File location.
 * [CSS Ruler](http://katydecorah.com/css-ruler/) &ndash; visualize the different CSS lengths.
 * [Emoji frame](http://katydecorah.com/emoji-frame/) &ndash; put emoji around your words, because.
