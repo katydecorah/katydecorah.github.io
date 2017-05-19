@@ -3,7 +3,7 @@ layout: hello
 title: Hello!
 ---
 
-<p class="lead">Hello! I'm Katy DeCorah. I live in Saratoga Springs, NY. I'm a tinkerer at <a href="//www.mapbox.com">Mapbox</a>.</p>
+<p class="lead">Hello! I'm Katy DeCorah. I live in Saratoga Springs, NY. I build internal tools at <a href="//www.mapbox.com">Mapbox</a>.</p>
 
 <img src="{{site.image}}" class="hello-header" alt="Katy DeCorah">
 
