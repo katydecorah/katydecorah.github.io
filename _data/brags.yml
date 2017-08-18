@@ -1,15 +1,28 @@
 - section: Organizing
   contents:
-  - site: ELA Conf
+  - site: Ela Conf
     contents:
-    - title: Organizer
-      date: 2016-11-04
+    - title: Co-Organizer/Co-Founder
+      date: 2017-10-27
       link: http://elaconf.com/
-    - title: Organizer
+    - title: Co-Organizer/Co-Founder
+      date: 2016-11-04
+      link: http://elaconf.com/2016/
+    - title: Co-Organizer/Co-Founder
       date: 2015-11-21
       link: http://elaconf.com/2015/
+  - site: Create Upstate
+    contents:
+    - title: Registration/Volunteer Coordinator
+      date: 2017-05-04
+      link: http://createupstate.com/
 - section: Writing
   contents:
+  - site: SUPERYESMORE
+    contents:
+    - title: Keep your streak in the work week
+      date: 2017-05-09
+      link: https://superyesmore.com/keep-your-streak-in-the-work-week-42f56e22f050b235c0639d8790385151
   - site: The Pastry Box Project
     contents:
     - title: Breathe with your stomach
@@ -93,6 +106,11 @@
       ignoreProofer: true
 - section: Mentions
   contents:
+  - site: PBS
+    contents:
+    - title: Warby Parker’s CEO on how to thrive in retail as big-box stores are dying
+      date: 2017-08-17
+      link: http://www.pbs.org/newshour/making-sense/warby-parkers-ceo-thrive-retail-big-box-stores-dying/
   - site: Wired
     contents:
     - title: Interactive Map Transports You to Every X-Files Location
