@@ -35,7 +35,7 @@ sass:
 
 timezone: America/New_York
 
-gems:
+plugins:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
