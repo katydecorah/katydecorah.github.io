@@ -7,11 +7,9 @@
     "proofer": "htmlproofer ./_site"
   },
   "dependencies": {
-    "scsslint": "0.0.3"
-  },
-  "devDependencies": {
-    "js-yaml": "^2.1.3",
-    "tap-spec": "~4.1.1",
+    "js-yaml": "^3.10.0",
+    "scsslint": "0.0.3",
+    "tap-spec": "^4.1.1",
     "tape": "^4.8.0"
   }
 }

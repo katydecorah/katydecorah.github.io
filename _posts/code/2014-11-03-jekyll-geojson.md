@@ -1,14 +1,12 @@
 ---
 title: Jekyll and GeoJSON
 category: code
-image:
 tags:
  - Jekyll
  - Mapbox
  - GeoJSON
 image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
 redirect_from: /code/2014/11/03/jekyll-geojson/
-
 ---
 
 

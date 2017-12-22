@@ -1,7 +1,6 @@
 ---
 title: Weaving data into GeoJSON with Jekyll
 category: code
-image:
 tags:
 - GeoJSON
 - Mapbox
