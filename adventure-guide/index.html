@@ -24,7 +24,7 @@ image: https://farm1.staticflickr.com/567/20552818663_bd6e380450_b.jpg
 
 <div class="container container-large">
 <div id="list" class="adventures show">
-  {% assign posts = (site.posts | where: "category","adventures") %}
+  {% assign posts = site.posts | where: "category", "adventures" %}
   {% for post in posts %}{% if post.tags contains "recommended" %}
   <a href="{{post.url}}" class="adventure">
     <div class="adventure-image" style="background-image:url({{post.image}})"></div>
