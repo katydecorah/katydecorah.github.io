@@ -1,7 +1,7 @@
 ---
 title: Create emails from a Google spreadsheet
 category: code
-image: https://c1.staticflickr.com/5/4688/39508327982_b42c885889_b.jpg
+image: https://c1.staticflickr.com/5/4768/39734525941_5bb0529aa6_o.png
 tags:
 - API
 - workflow
