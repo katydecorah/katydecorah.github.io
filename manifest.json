@@ -1,0 +1,37 @@
+---
+---
+{
+  "short_name": "{{site.name}}",
+  "name": "{{site.name}}",
+  "icons": [
+    {
+      "src": "img/touch/icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "img/touch/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "img/touch/ms-touch-icon-144x144-precomposed.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "img/touch/chrome-touch-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/touch/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#f6f6f6",
+  "theme_color": "#fff",
+  "start_url": "/",
+  "display": "minimal-ui"
+}

@@ -1,12 +1,12 @@
 port: 4000
 host: 127.0.0.1
 
-url: http://katydecorah.com
+url: https://katydecorah.com
 permalink: /:categories/:title/
 author:
   name: Katy DeCorah
   email: katydecorah@gmail.com
-  uri: http://katydecorah.com
+  uri: https://katydecorah.com
 
 paginate: 5
 paginate_path: ":num"
@@ -76,7 +76,7 @@ links:
   position: top
 
 - text: CodePen
-  url: http://codepen.io/katydecorah/
+  url: https://codepen.io/katydecorah/
   icon: codepen
   position: bottom
 - text: Github
@@ -88,7 +88,7 @@ links:
   icon: twitter
   position: bottom
 - text: Instagram
-  url: http://instagram.com/katydecorah
+  url: https://instagram.com/katydecorah
   icon: instagram
   position: bottom
 - text: Feed
