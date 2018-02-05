@@ -8,7 +8,7 @@ tags:
 - Ela Conf
 ---
 
-For [Ela Conf](http://elaconf.com) 2015, 2016, and 2017, we turned a private GitHub repository into a system for talk speaker proposals.
+For [Ela Conf](http://elaconf.com) 2015, 2016, and 2017, we turned a private GitHub repository into a system for reviewing talk proposals.
 
 Here's how we set it up:
 
@@ -25,10 +25,10 @@ To help automate the process, I [wrote a script](https://github.com/katydecorah/
   + If all of us gave :+1: then [the bot added the label "favorite" to the proposal](https://github.com/katydecorah/proposal-reviewer/blob/86733ce18db717f69916e430a5e65fb887e30b60/utils.js#L159-L168).
   + If someone still needs to give their emoji vote then [the bot assigned them to the proposal](https://github.com/katydecorah/proposal-reviewer/blob/86733ce18db717f69916e430a5e65fb887e30b60/utils.js#L138-L146) or removed them if they had since left their emoji review.
 
+Below is a (highly) redacted example of a talk proposal with a 5 :+1: rating and a "favorite" label adhered by the bot!
+
 ![screenshot of GitHub issue](https://c1.staticflickr.com/5/4616/39189820595_7e39651f00_h.jpg)
 
-Above is a highly redacted example of a talk proposal (aka issue) with a 5 :+1: rating and a "favorite" label adhered by the bot!
-
-The system and script worked very well for a small-scale conference (receiving around 200 proposals) that needed an asynchronous review period. We used labels to help organize the different types of proposals we received and left comments based on what we thought about the talk.
+The system and script worked very well for a small-scale (receiving around 200 proposals) conference that needed an asynchronous review period. We used labels to help organize the different types of proposals we received and left comments based on what we thought about the talk.
 
 You can [check out the code on GitHub](https://github.com/katydecorah/proposal-reviewer).
