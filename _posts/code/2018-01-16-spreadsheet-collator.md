@@ -1,7 +1,7 @@
 ---
 title: Collate Google Form responses into Google Docs
 category: code
-image: https://c1.staticflickr.com/5/4607/27955743299_c8ae637d85_o.png
+image: https://c1.staticflickr.com/5/4607/27955743299_e5aa8d82ba_o.png
 tags:
 - API
 - workflow
