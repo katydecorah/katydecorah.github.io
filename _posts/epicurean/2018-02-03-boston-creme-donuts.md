@@ -17,6 +17,8 @@ As a lover of donuts, I've always feared making them (mostly because I'm a bit o
 
 Also, I didn't have a great idea of how much filling was too much filling. The real test was to see if filling sputtered back out. Some of the donuts were real (filling) bombs, but nobody seemed to complain. Filling donuts is an art form.
 
+This concludes my [baking bucket list](/tags/#baking_bucket_list) seried (for now).
+
 <div class="photos">
 <img src="https://c1.staticflickr.com/5/4666/26204187308_8ffa368cc2_k.jpg" alt="donut">
 </div>
