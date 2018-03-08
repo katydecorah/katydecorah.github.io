@@ -1,54 +1,45 @@
 - header:
   - name: Katy DeCorah
     contents:
-    - text: Albany, NY
-    - text: katydecorah@gmail.com
-      link: mailto:katydecorah@gmail.com
-    - text: katydecorah.com
-      link: http://katydecorah.com
+    - text: GitHub
+      link: https://github.com/katydecorah
+    - text: Twitter
+      link: https://twitter.com/katydecorah
+
 - section:
-  - heading: Experience
+  - heading: Work
     contents:
-    - title: Designer
+    - title: Engineer
       company: Mapbox
       company-link: https://www.mapbox.com/
       from: September 2014
       to: present
       show: true
-    - title: Adjunct Instructor
-      company: "Informatics Department, University at Albany"
-      from: September 2014
-      to: January 2014
-      show: true
-      roles:
-        - text: "Instruct I INF 362 Intermediate Interactive Design."
+      role: Automate processes by building bots, dashboards, and integrations with APIs using Node.js, AWS, and React. Contributor to Assembly, Mapbox’s open source CSS framework.
+
     - title: UI Designer
       company: Fire Engine RED
       company-link: "http://www.fire-engine-red.com/"
       from: June 2014
       to: September 2014
       show: true
+      role: Designed print, email search campaigns, and web applications for colleges and universities.
+
     - title: Instructional Designer
       company: "Professional Development Program, Research Foundation at SUNY"
       company-link: "http://www.albany.edu/"
       from: January 2011
       to: May 2014
       show: true
-      roles:
-        - text: "Design and develop responsive and accessible trainings using HTML, CSS, jQuery, and ColdFusion."
-        - text: "Maintain TrainingSpace with accessibility, performance, and cross browser/device testing."
-        - text: "Redesigned TrainingSpace by building a custom content management system."
-        - text: "Developed data collection methods and a custom analytics dashboard used for report generation."
-        - text: "Provide user support and troubleshoot technical issues for TrainingSpace."
+      role: Designed and developed responsive and accessible (Section 508) trainings using HTML, CSS, jQuery, and ColdFusion.
+
     - title: Adjunct Instructor
       company: "Informatics Department, University at Albany"
-      from: September 2011
-      to: May 2013
+      from: 2011
+      to: 2014
       show: true
-      roles:
-        - text: "Instructed Web Development (I IST 361) and Intermediate Web Development (I INF 362)."
-        - text: "Developed an adaptive curriculum based on changing best practices."
-        - text: "Developed a course management tool as an alternative to Blackboard."
+      role: Instructed Web Development, Intermediate Web Development, and Intermediate Interactive Design with an adaptive curriculum based on changing best practices.
+
     - title: Web Design Intern
       company: IntelliSites
       from: January 2011
@@ -57,6 +48,7 @@
       roles:
         - text: "Designed interfaces and built websites for clients using HTML, CSS, and jQuery."
         - text: Performed content and design updates to existing websites.
+
     - title: Workshop Leader
       company: Social Robotics Workshop
       from: Summer 2010
@@ -66,6 +58,7 @@
         - text: Contributed to a robotics workshop to encourage children to pursue careers in computing.
         - text: Present workshop to groups, conferences, and camps throughout the northeast.
         - text: Designed website and printed materials.
+
     - title: Assistant Director
       company: College of Computing &amp; Information, University at Albany
       from: September 2011
@@ -74,10 +67,11 @@
       roles:
         - text: Organized events and programs by applying for grants, creating surveys, and writing reports.
         - text: Administered the College's social media presence.
+
 - section:
   - heading: Education
     contents:
-    - school: "University at Albany, State University of New York"
+    - school: "University at Albany"
       degree: "Master of Science, Information Science"
       date: May 2011
       gpa: 3.75
@@ -93,46 +87,22 @@
         - text: "Pi Gamma Mu, International Honor Society in Social Sciences"
         - text: "Dean's List: Fall 2006, Spring 2007, Fall 2007, Spring 2008"
         - text: "President's List: Fall 2008, Spring 2009"
+
 - section:
   - heading: Skills
-    show: false
     contents:
-    - text: HTML
-      level: +
-    - text: Haml
-      tag: haml
-    - text: CSS
-      level: +
-    - text: Sass
-      tag: sass
-      level: +
-    - text: jQuery
-      tag: jquery
-    - text: AngularJS
-      tag: angularjs
-    - text: Ajax
-    - text: ColdFusion
-    - text: SQL
-      level: +
-    - text: PHP
-    - text: API
-      tag: api
-    - text: Git
-      tag: git
-    - text: Jekyll/Liquid Markup
-      tag: jekyll
-      level: +
-    - text: WordPress
-    - text: responsive web design
-      level: +
-    - text: Section 508
-      level: +
-    - text: web performance
-    - text: cross-browser testing
-    - text: Twitter Bootstrap
-      level: +
+    - HTML
+    - CSS/SCSS
+    - JavaScript
+    - Node.js
+    - React
+    - AWS
+    - Git/GitHub
+    - Jekyll
+
 - section:
   - heading: Speaking
+    show: false
     contents:
       - title: Web Development in eLearning
         event: New York Celebration of Women in Computing Conference
@@ -143,8 +113,10 @@
         date: October 6, 2012
         presenters: Jennifer Goodall (University at Albany), Nick Webb (Union College), Katy DeCorah (University at Albany)
         abstract: "Social Robotics Workshop outreach meets grades 5-12 students where they are with the technology and ideas behind social robots and introductory programming. Learn how we convey core concepts of robotics and programming, enabling students to see the link between form and function, and allow students to program interactive social behaviors. Data indicating workshop effectiveness and practical ideas regarding replicating this workshop are provided. We will also demonstrate some workshop exercises."
+
 - section:
   - heading: Volunteer
+    show: false
     contents:
       - event: FIRST Tech Challenge
         venue: The Albany Academies
@@ -155,6 +127,7 @@
         role: Reviewer
         venue: University at Albany
         date: December 7, 2013
+
 - section:
   - heading: Notables
     show: false

@@ -1,0 +1,3 @@
+{% if section.heading == 'Work' %}{% for job in section.contents %}{% if job.show %}
+<p><strong>{{ job.title }}, {% if job.company-link %}<a href="{{ job.company-link }}">{% endif %}{{ job.company }}{% if job.company-link %}</a>{% endif %}, {{ job.from }} - {{ job.to }}</strong><br>{{ job.role }}</p>
+{% endif %}{% endfor %}{% endif %}

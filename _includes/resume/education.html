@@ -1,6 +1,3 @@
-{% if section.heading == 'Education' %}
-{% for school in section.contents %}
-<h3>{{ school.school }}</h3>
-<p>{{ school.degree }}, {{ school.date }}</p>
-{% endfor %}
-{% endif %}
+{% if section.heading == 'Education' %}{% for school in section.contents %}
+<p><strong>{{ school.school }}</strong> {{ school.date }}, {{ school.degree }}</p>
+{% endfor %}{% endif %}
