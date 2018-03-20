@@ -7,9 +7,15 @@
     "proofer": "htmlproofer ./_site"
   },
   "dependencies": {
-    "js-yaml": "^3.10.0",
+    "js-yaml": "^3.11.0",
     "scsslint": "0.0.3",
     "tap-spec": "^4.1.1",
-    "tape": "^4.8.0"
+    "tape": "^4.9.0"
+  },
+  "devDependencies": {
+    "minimist": "^1.2.0",
+    "moment": "^2.21.0",
+    "request": "^2.85.0",
+    "underscore": "^1.8.3"
   }
 }

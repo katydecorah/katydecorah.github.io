@@ -26,7 +26,8 @@ Here are some resources that have helped me through it:
 * [Favicon Generator](http://realfavicongenerator.net/)
 * [Sort Posts by Month/Year](http://stackoverflow.com/a/19104574)
 
-## Misc resources
+## Generate playlist post from Spotify
 
-* [Spotify](https://developer.spotify.com/web-api/console/get-playlist/)
-* [Ivy](http://www.ivyishere.org/)
+```
+node bin/playlist.js --playlist=<spotify-playlist-id>
+```
