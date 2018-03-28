@@ -12,7 +12,7 @@ paginate: 5
 paginate_path: ":num"
 future: true
 
-name: Katy DeCorah
+title: Katy DeCorah
 description: "Front-end developer and tinkerer from Saratoga Springs, NY."
 image: https://c1.staticflickr.com/9/8881/18361278301_f8ac7d25d4_h.jpg
 twitter: "@katydecorah"

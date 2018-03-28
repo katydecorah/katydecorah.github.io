@@ -1,8 +1,8 @@
 ---
 ---
 {
-  "short_name": "{{site.name}}",
-  "name": "{{site.name}}",
+  "short_name": "{{site.title}}",
+  "name": "{{site.title}}",
   "icons": [
     {
       "src": "img/touch/icon-128x128.png",
