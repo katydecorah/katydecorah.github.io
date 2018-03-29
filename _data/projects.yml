@@ -1,0 +1,97 @@
+bots:
+  - emoji: ❄️
+    name: weatherbot
+    link: https://github.com/katydecorah/weatherbot
+    github: https://github.com/katydecorah/weatherbot
+    blog: https://katydecorah.com/code/weatherbot/
+    about: a Slack bot that gives you a heads up about snow, nice weather, and severe weather alerts
+    skills:
+      - node.js
+      - AWS
+  - emoji: 💡
+    name: Lifx
+    link: https://github.com/katydecorah/lifx
+    about: control your LIFX bulbs from the command line or AWS Iot Button
+    skills:
+      - node.js
+      - AWS
+  - emoji: 🌊
+    name: awaybot
+    link: https://github.com/katydecorah/awaybot
+    about: a command line tool to run when you'll be out of the office for a while
+    skills:
+      - node.js
+      - AWS
+  - emoji: 🗳
+    name: proposal reveiwer
+    link: https://github.com/katydecorah/proposal-reviewer
+    about: review proposals using GitHub issues and emoji reactions
+    skills:
+      - node.js
+      - AWS
+  - emoji: 📂
+    name: spreadsheet collator
+    link: https://github.com/katydecorah/spreadsheet-collator
+    about: collate Google Form data into Google Docs
+    skills:
+      - node.js
+      - AWS
+  - emoji: 💆
+    name: chillbot
+    link: https://github.com/katydecorah/chillbot
+    about: a Slack bot that will help you break your GitHub contribution streak
+    skills:
+      - node.js
+      - AWS
+
+apps:
+- emoji: 🌏
+  name: Static Map Maker
+  link: http://staticmapmaker.com/
+  about: a static map API helper.
+  skills:
+    - Angular
+    - Sass
+- emoji: 📇
+  name: Font Library
+  link: http://katydecorah.com/font-library/
+  about: an open source project to tag and organize Google Fonts.
+  skills:
+    - Angular
+    - Sass
+- emoji: 💅
+  name: Femoji
+  link: http://femoji.club
+  about: a fun collection of emoji
+  skills:
+    - Jekyll
+- emoji: 👽
+  name: Explore the X-Files
+  link: https://www.mapbox.com/x-files/
+  about: an interactive map of every X-File location.
+  skills:
+    - JavaScript
+- emoji: 📏
+  name: CSS Ruler
+  link: http://katydecorah.com/css-ruler/
+  about: visualize the different CSS lengths.
+- emoji: 🔲
+  name: Emoji frame
+  link: http://katydecorah.com/emoji-frame/
+  about: put emoji around your words, because.
+- emoji: 💁
+  name: Hey guys
+  link: http://katydecorah.com/hey-guys/
+  about: find alternative words for <em>guys</em>.
+- emoji: 🔠
+  name: Google Font Explorer
+  link: http://katydecorah.com/google-font-explorer/
+  about: test out Google Fonts and explore different ones.
+- emoji: ↔️
+  name: Line Length-icator
+  link: http://katydecorah.com/linelengthicator/
+  about: find the best line length for your text.
+- emoji: 👮
+  name: Copy cop
+  link: http://katydecorah.com/copy-cop/
+  about: a writing tool to encourage you to use plain language.
