@@ -83,12 +83,12 @@
     contents:
       - title: Unconventional use cases for Jekyll
         date: 2016-05-07
-        link: http://katydecorah.com/unconventional
+        link: https://katydecorah.com/unconventional
   - site: FOSS4G NA
     contents:
       - title: Writing for everyone
         date: 2015-03-12
-        link: http://katydecorah.com/writing-for-everyone/
+        link: https://katydecorah.com/writing-for-everyone/
   - site: The East Wing
     contents:
     - title: "Sleep Pajamas and Work Pajamas"

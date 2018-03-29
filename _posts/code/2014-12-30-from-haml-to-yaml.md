@@ -44,6 +44,6 @@ To make content changes, I'll update the Yaml. To make layout changes, I'll upda
 
 ## The CSS Ruler
 
-Feast your eyes on the live [CSS Ruler](http://katydecorah.com/css-ruler/) or [jump into the code](https://github.com/katydecorah/css-ruler).
+Feast your eyes on the live [CSS Ruler]({{site.url}}/css-ruler/) or [jump into the code](https://github.com/katydecorah/css-ruler).
 
 p.s. Uncheck *all* the length types to unlock an Easter egg.

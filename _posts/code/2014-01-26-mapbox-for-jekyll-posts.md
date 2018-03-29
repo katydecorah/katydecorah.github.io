@@ -25,7 +25,7 @@ redirect_from: /code/2014/01/26/mapbox-for-jekyll-posts/
 
 **As of 7/26/2014, this site has moved to the [Mapbox static API](/code/2014/07/26/static-mapbox-for-jekyll/).**
 
-A few months ago, I began playing around with the Google Static Maps API. I integrated it with my [Static Google Maps Image for Jekyll Posts](http://katydecorah.com/code/2013/09/06/google-maps-images-api-for-jekyll/) and created a [Static Map Maker](http://staticmapmaker.com).
+A few months ago, I began playing around with the Google Static Maps API. I integrated it with my [Static Google Maps Image for Jekyll Posts]({{site.url}}/code/2013/09/06/google-maps-images-api-for-jekyll/) and created a [Static Map Maker](http://staticmapmaker.com).
 
 Since then, the Google maps have worked great with my posts. All I need to do is add `locations` to my front-matter and Jekyll logic handles the rest. It was sometimes annoying having to fiddle with the `zoom` to make all of the map markers fit on the map, but other than that Google maps worked.
 

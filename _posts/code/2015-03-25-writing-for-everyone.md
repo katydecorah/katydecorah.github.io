@@ -8,9 +8,7 @@ tags:
  - conference
 ---
 
-A couple weeks ago I gave my talk [Writing for everyone](http://katydecorah.com/writing-for-everyone/) at FOSS4G NA. I had a great time! You can click through my slides below, follow along with [my notes](http://katydecorah.com/writing-for-everyone/notes/), or <a href="https://youtu.be/bXd6aRRvJG4?list=PLWW0CjV-TafaJlkE6Zq4OgXgb04TQfNiR" data-proofer-ignore>watch the video</a>.
-
-<iframe src="http://katydecorah.com/writing-for-everyone/" width="100%" height="500px"></iframe>
+A couple weeks ago I gave my talk [Writing for everyone]({{site.url}}/writing-for-everyone/) at FOSS4G NA. I had a great time! You can [click through my slides]({{site.url}}/writing-for-everyone/), follow along with [my notes]({{site.url}}/writing-for-everyone/notes/), or <a href="https://youtu.be/bXd6aRRvJG4?list=PLWW0CjV-TafaJlkE6Zq4OgXgb04TQfNiR" data-proofer-ignore>watch the video</a>.
 
 The slides are built with [Big](http://www.macwright.org/big/) and Jekyll. At first I was just going to work in a flat HTML file, but then I got the itch.
 

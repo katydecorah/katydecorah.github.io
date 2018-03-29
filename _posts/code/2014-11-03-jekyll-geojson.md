@@ -10,7 +10,7 @@ redirect_from: /code/2014/11/03/jekyll-geojson/
 ---
 
 
-Add this post to my love-affair-with-[Jekyll](http://katydecorah.com/code/2014/01/26/mapbox-for-jekyll-posts/)-and-[Mapbox](http://katydecorah.com/code/2014/07/26/static-mapbox-for-jekyll/) series.
+Add this post to my love-affair-with-[Jekyll]({{site.url}}/code/2014/01/26/mapbox-for-jekyll-posts/)-and-[Mapbox]({{site.url}}/code/2014/07/26/static-mapbox-for-jekyll/) series.
 
 ## A cool thing happens
 
@@ -33,7 +33,7 @@ Put variables inside or don't. Either way Jekyll will gobble it up and make some
 
 A [GeoJSON](http://geojson.org/) file has a lot of repetition -- swap out different coordinates *here* and maybe a style change *there*. The pattern lends itself to building a template and adding variables.
 
-All my [adventure](/card-catalog/#adventures) posts have coordinates that I use to build a [static map header](http://katydecorah.com/code/2014/07/26/static-mapbox-for-jekyll/). I decided that I wanted to grab all those coordinates, weave them into a GeoJSON file, and then load it on a single adventure map.
+All my [adventure](/card-catalog/#adventures) posts have coordinates that I use to build a [static map header]({{site.url}}/code/2014/07/26/static-mapbox-for-jekyll/). I decided that I wanted to grab all those coordinates, weave them into a GeoJSON file, and then load it on a single adventure map.
 
 To start, I worked on my loop and found that this was the best route:
 
