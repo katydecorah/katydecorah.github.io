@@ -6,6 +6,5 @@ _drafts/
 *.sublime-project
 *.sublime-workspace
 npm-debug.log
-projects
 style/
 tmp

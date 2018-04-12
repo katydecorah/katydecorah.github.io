@@ -5,9 +5,9 @@ layout: compress
 {% include top.html %}
 <body class="default-page page-{{ page.title | downcase | replace:' ','-' | replace: '!',''  }}">
 {% include header.html %}
-<div class="content" id="content">
+<main class="content" id="content">
 {{ content }}
-</div>
+</main>
 </div>
 {% include footer.html %}
 {% include end.html %}

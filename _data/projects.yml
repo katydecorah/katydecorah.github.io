@@ -1,48 +1,76 @@
 bots:
+  - emoji: 🌊
+    name: awaybot
+    link: https://github.com/katydecorah/awaybot
+    github: https://github.com/katydecorah/awaybot
+    blog: /code/awaybot/
+    about: A script to run when you'll be out of the office for a while
+    skills:
+      - JavaScript
+    image: https://c1.staticflickr.com/5/4600/38668795444_322a0e9ba2_o.png
+
+  - emoji: 🗳
+    name: proposal reveiwer
+    link: https://github.com/katydecorah/proposal-reviewer
+    github: https://github.com/katydecorah/proposal-reviewer
+    blog: /code/proposal-reviewer/
+    about: Review proposals using GitHub issues and emoji reactions
+    skills:
+      - JavaScript
+    image: https://c1.staticflickr.com/5/4672/40055436132_cf2a8a81fb_o.png
+
+  - emoji: 📂
+    name: spreadsheet collator
+    link: https://github.com/katydecorah/spreadsheet-collator
+    github: https://github.com/katydecorah/spreadsheet-collator
+    blog: /code/spreadsheet-collator/
+    about: Collate Google Form data into Google Docs
+    skills:
+      - JavaScript
+    image: https://c1.staticflickr.com/5/4751/39734272401_73e655c530_o.png
+
+  - emoji: 📨
+    name: Google Sheets to Gmail
+    link: https://gist.github.com/katydecorah/e956c783965e65f1e53b2b2b1f3a22e0
+    github: https://gist.github.com/katydecorah/e956c783965e65f1e53b2b2b1f3a22e0
+    blog: /code/google-sheets-to-gmail/
+    about: Draft emails in Gmail from a Google spreadsheet
+    skills:
+      - JavaScript
+    image: https://c1.staticflickr.com/5/4768/39734525941_2f6f5dc8c7_o.png
+
+  - emoji: 💡
+    name: Lifx
+    link: https://github.com/katydecorah/lifx
+    github: https://github.com/katydecorah/lifx
+    blog: /code/lifx/
+    about: Control your LIFX bulbs from the command line or AWS Iot Button
+    skills:
+      - JavaScript
+      - AWS
+    image: https://c1.staticflickr.com/5/4642/39116460051_8a539ec2a4.jpg
+
+  - emoji: 💆
+    name: chillbot
+    link: https://github.com/katydecorah/chillbot
+    github: https://github.com/katydecorah/chillbot
+    blog: /code/chillbot/
+    about: A Slack bot that will help you break your GitHub contribution streak
+    skills:
+      - JavaScript
+      - AWS
+    image: https://c1.staticflickr.com/3/2868/33888774410_b8f238795f_o.png
+
   - emoji: ❄️
     name: weatherbot
     link: https://github.com/katydecorah/weatherbot
     github: https://github.com/katydecorah/weatherbot
-    blog: https://katydecorah.com/code/weatherbot/
-    about: a Slack bot that gives you a heads up about snow, nice weather, and severe weather alerts
+    blog: /code/weatherbot/
+    about: A Slack bot that gives you a heads up about snow, nice weather, and severe weather alerts
     skills:
-      - node.js
+      - JavaScript
       - AWS
-  - emoji: 💡
-    name: Lifx
-    link: https://github.com/katydecorah/lifx
-    about: control your LIFX bulbs from the command line or AWS Iot Button
-    skills:
-      - node.js
-      - AWS
-  - emoji: 🌊
-    name: awaybot
-    link: https://github.com/katydecorah/awaybot
-    about: a command line tool to run when you'll be out of the office for a while
-    skills:
-      - node.js
-      - AWS
-  - emoji: 🗳
-    name: proposal reveiwer
-    link: https://github.com/katydecorah/proposal-reviewer
-    about: review proposals using GitHub issues and emoji reactions
-    skills:
-      - node.js
-      - AWS
-  - emoji: 📂
-    name: spreadsheet collator
-    link: https://github.com/katydecorah/spreadsheet-collator
-    about: collate Google Form data into Google Docs
-    skills:
-      - node.js
-      - AWS
-  - emoji: 💆
-    name: chillbot
-    link: https://github.com/katydecorah/chillbot
-    about: a Slack bot that will help you break your GitHub contribution streak
-    skills:
-      - node.js
-      - AWS
+    image: https://c1.staticflickr.com/3/2719/32935597221_eef6641328_b.jpg
 
 apps:
 - emoji: 🌏
@@ -54,7 +82,7 @@ apps:
     - Sass
 - emoji: 📇
   name: Font Library
-  link: https://katydecorah.com/font-library/
+  link: /font-library/
   about: an open source project to tag and organize Google Fonts.
   skills:
     - Angular
@@ -73,25 +101,25 @@ apps:
     - JavaScript
 - emoji: 📏
   name: CSS Ruler
-  link: https://katydecorah.com/css-ruler/
+  link: /css-ruler/
   about: visualize the different CSS lengths.
 - emoji: 🔲
   name: Emoji frame
-  link: https://katydecorah.com/emoji-frame/
+  link: /emoji-frame/
   about: put emoji around your words, because.
 - emoji: 💁
   name: Hey guys
-  link: https://katydecorah.com/hey-guys/
+  link: /hey-guys/
   about: find alternative words for <em>guys</em>.
 - emoji: 🔠
   name: Google Font Explorer
-  link: https://katydecorah.com/google-font-explorer/
+  link: /google-font-explorer/
   about: test out Google Fonts and explore different ones.
 - emoji: ↔️
   name: Line Length-icator
-  link: https://katydecorah.com/linelengthicator/
+  link: /linelengthicator/
   about: find the best line length for your text.
 - emoji: 👮
   name: Copy cop
-  link: https://katydecorah.com/copy-cop/
+  link: /copy-cop/
   about: a writing tool to encourage you to use plain language.

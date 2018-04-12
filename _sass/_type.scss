@@ -66,10 +66,12 @@ h4 {
   font-size: 1.5em;
 }
 
+%large,
 .large {
   font-size: 1.25em;
 }
 
+%small,
 small,
 .small {
 
@@ -81,6 +83,7 @@ small,
 
 }
 
+%xs,
 .xs {
 
   font-size: $font-xs;
@@ -91,6 +94,7 @@ small,
 
 }
 
+%xxs,
 .xxs {
 
   font-size: .6em;
@@ -167,4 +171,3 @@ blockquote {
   background: $fancy-accent;
   color: $white;
 }
-

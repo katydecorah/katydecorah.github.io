@@ -34,7 +34,24 @@ img {
   justify-content: left;
 }
 
+%flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
+%flex-child {
+  display: block;
+  max-width: 100%;
+}
+
+%flex-space-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+%text-right,
 .text-right {text-align: right;}
 
 %text-left {text-align: left;}

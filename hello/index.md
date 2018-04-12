@@ -7,28 +7,11 @@ title: Hello!
 
 <img src="{{site.image}}" class="hello-header" alt="Katy DeCorah">
 
-I love [writing about code](/card-catalog/#code), [baking treats](/card-catalog/#epicurean), [going on adventures](/card-catalog/#adventures), and [making seasonal playlists](/card-catalog/#playlists). I'm a co-organizer for [Ela Conf](http://elaconf.com/).
-
-## Side projects
-
-#### Bots and scripts
-
-{% for project in site.data.projects.bots %}
-* [{{project.emoji}} {{project.name}}]({{project.link}}) &ndash; {{project.about}} {% endfor %}
-
-#### Apps and sites
-
-{% for project in site.data.projects.apps %}
-* [{{project.emoji}} {{project.name}}]({{project.link}}) &ndash; {{project.about}} {% endfor %}
-
-## Record keeping
-
-* [:world_map: Adventure map](/map) &ndash; a map to complement my adventures.
-* [:mountain: Adventure guide](/adventure-guide) &ndash; my favorite hiking trails in Upstate New York and beyond.
-* [:mega: Humble brags](/humble-brags) &ndash; tooting my own horn.
-* [:headphones: Playlists](/playlists) &ndash; for every season and some road trips.
-* [:8ball: Everything](/everything) &ndash; every post. All of em.
-
+* :zap: [Projects](/projects) &ndash; what I've been working on lately.
+* :purple_heart: [Ela Conf](http://elaconf.com/) &ndash; I'm a co-organizer and co-founder.
+* :mountain: [Adventure guide](/adventure-guide) &ndash; favorite hiking trails in Upstate New York and beyond.
+* :mega: [Humble brags](/humble-brags) &ndash; tooting my own horn.
+* :headphones: [Playlists](/playlists) &ndash; for every season and some road trips.
 
 <div class="post">
 <div class="photos">

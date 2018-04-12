@@ -26,13 +26,13 @@ $font-xs: .7em;
 $text-color: #333;
 $text-color-light: lighten($text-color, 20%);
 
-$code-font-family: 'anonymous-pro', 'Courier New', monospace;
-$fancy-font-family: 'adelle-sans', Georgia, serif;
-$body-font-family: 'adelle-sans', Arial, sans-serif;
+$code-font-family: 'IBM Plex Mono', 'Courier New', monospace;
+$fancy-font-family: 'IBM Plex Serif', Georgia, serif;
+$body-font-family: 'IBM Plex Sans', Arial, sans-serif;
 
 $body-font-weight: 300;
-$body-font-bold: 600;
-$fancy-font-weight: 300;
+$body-font-bold: 400;
+$fancy-font-weight: 400;
 
 $container-width: 900px;
 $media-max: 1000px;
