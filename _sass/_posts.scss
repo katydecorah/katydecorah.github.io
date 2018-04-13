@@ -214,12 +214,15 @@
 
 }
 
+.post-footer-meta {
+  margin-bottom: 2em;
+}
+
 .tag {
   display: inline-block;
   margin-bottom: .25em;
 
   &:hover {
-    color: rgba($fancy-accent-aa, .5);
     text-decoration: none;
   }
 
@@ -243,98 +246,62 @@
 .post-location { min-height: 1px; }
 
 .post-prev-next {
+  @extend %flex-container;
+  @extend %flex-space-between;
 
-  @extend %clearfix;
+  margin-top: 1em;
 
-  clear: both;
-  margin-top: 3em;
+  @include breakpoint(mobile) {
+    // scss-lint:disable ImportantRule
+    display: block !important;
+  }
 }
 
-// scss-lint:disable VendorPrefixes, PropertySortOrder
+
 .post-prev,
 .post-next {
-  display: block;
-  margin-top: 1em;
+
+  @extend %flex-center;
+
   position: relative;
   transition: $link-transition;
+  width: 100%;
 
   @include breakpoint(gt-mobile) {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-
     min-height: 2em;
     width: 50%;
   }
 
   &:hover {
-    color: $text-color;
     text-decoration: none;
     transition: $link-transition;
-
-    &::before,
-    &::after {
-      border-color: inherit;
-      color: $text-color;
-      transition: $link-transition;
-    }
-
   }
 
 }
 
-// scss-lint:disable VendorPrefixes,PropertySortOrder
-.post-prev {
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-
-  @include breakpoint(gt-mobile) {
-    left: -2.75em;
-  }
-
-}
-
-// scss-lint:disable VendorPrefixes,PropertySortOrder
 .post-next {
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-
+  @include breakpoint(mobile) { margin-top: 1em; }
   @include breakpoint(gt-mobile) {
-    right: -2.75em;
+    text-align: right;
   }
-
 }
 
 .post-prev-title,
 .post-next-title {
-
-  font-size: $font-small;
+  display: block;
+  font-size: $font-xs;
 
   @include breakpoint(gt-mobile) {
-    display: block;
+    width: 100%;
   }
-
 }
 
 .post-prev-title {
-
-  @include breakpoint(gt-mobile) {padding-left: 1em; }
-
+  padding-left: 1em;
 }
 
 .post-next-title {
-
-  @include breakpoint(gt-mobile) {padding-right: 1em; }
-
+  padding-right: 1em;
 }
 
 figure {
@@ -377,8 +344,8 @@ figcaption {
   border-radius: .1em;
   color: $text-color;
   display: inline-block;
-  padding: .2em;
   margin-left: .5em;
+  padding: .2em;
 
   &:hover {
     text-decoration: none;

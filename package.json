@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "minimist": "^1.2.0",
-    "moment": "^2.21.0",
+    "moment": "^2.22.0",
     "request": "^2.85.0",
     "underscore": "^1.8.3"
   }

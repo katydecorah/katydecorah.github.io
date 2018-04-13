@@ -1,24 +1,10 @@
 .footer {
   background: $header-bg;
   margin-top: 2em;
-  position: relative;
-
-  &::before {
-    border-top: 1px dashed $accent;
-    content: '';
-    display: block;
-    position: absolute;
-    top: -1px;
-    width: 100%;
-  }
 
   .container {
-    padding-bottom: 5em;
+    padding-bottom: 2em;
     padding-top: 2em;
-  }
-
-  p {
-    font-size: $font-xs;
   }
 
   .nav-link {
@@ -29,9 +15,11 @@
   }
 
   .nav {
-    line-height: 1;
-    margin-bottom: 1.5em;
-    margin-top: .5em;
+    margin-bottom: 1em;
+  }
+
+  .navbar {
+    margin-bottom: 2em;
   }
 
 }

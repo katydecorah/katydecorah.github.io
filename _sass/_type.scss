@@ -20,8 +20,6 @@ em { font-style: italic; }
 
 .lead {
 
-  @extend %fancy-type;
-
   font-size: 1.5em;
   text-align: justify;
 }

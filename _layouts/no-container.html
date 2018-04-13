@@ -4,11 +4,10 @@ layout: compress
 
 {% include top.html %}
 <body class="default-page page-{{ page.title | downcase | replace:' ','-' | replace: '!',''  }}">
-{% include header.html %}
-<main class="content" id="content">
-{{ content }}
-</main>
-</div>
-{% include footer.html %}
-{% include end.html %}
+  {% include header.html %}
+  <main class="content" id="content">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  {% include end.html %}
 </html>
