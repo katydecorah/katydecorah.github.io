@@ -35,10 +35,9 @@
   }
 
   svg {
-    height: .9em;
     margin-right: .5em;
-
-    @include breakpoint(gt-mobile) { margin-right: .25em; }
+    position: relative;
+    top: 2px;
   }
 }
 
