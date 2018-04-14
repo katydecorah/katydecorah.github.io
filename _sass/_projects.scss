@@ -1,6 +1,6 @@
 
 .project {
-  margin: 1em auto 2em;
+  margin: 1em auto 3em;
   max-width: $container-width;
 
   @include breakpoint(gt-mobile) {
@@ -36,7 +36,9 @@
 
   svg {
     height: .9em;
-    margin-right: .25em;
+    margin-right: .5em;
+
+    @include breakpoint(gt-mobile) { margin-right: .25em; }
   }
 }
 
@@ -52,6 +54,10 @@
 
 .project-link {
   margin-right: 1em;
+
+  @include breakpoint(mobile) {
+    display: block;
+  }
 }
 
 .project-skills {
