@@ -5,7 +5,7 @@
   blog: /code/awaybot/
   about: A script to run when you'll be out of the office for a while
   skills:
-    - JavaScript
+    - node.js
   image: https://c1.staticflickr.com/5/4600/38668795444_322a0e9ba2_o.png
 
 - emoji: 🗳
@@ -15,7 +15,7 @@
   blog: /code/proposal-reviewer/
   about: Review proposals using GitHub issues and emoji reactions
   skills:
-    - JavaScript
+    - node.js
   image: https://c1.staticflickr.com/5/4672/40055436132_cf2a8a81fb_o.png
 
 - emoji: 📂
@@ -25,7 +25,7 @@
   blog: /code/spreadsheet-collator/
   about: Collate Google Form data into Google Docs
   skills:
-    - JavaScript
+    - node.js
   image: https://c1.staticflickr.com/5/4751/39734272401_73e655c530_o.png
 
 - emoji: 📨
@@ -35,7 +35,7 @@
   blog: /code/google-sheets-to-gmail/
   about: Draft emails in Gmail from a Google spreadsheet
   skills:
-    - JavaScript
+    - node.js
   image: https://c1.staticflickr.com/5/4768/39734525941_2f6f5dc8c7_o.png
 
 - emoji: 💡
@@ -45,7 +45,7 @@
   blog: /code/lifx/
   about: Control your LIFX bulbs from the command line or AWS Iot Button
   skills:
-    - JavaScript
+    - node.js
     - AWS
   image: https://c1.staticflickr.com/5/4642/39116460051_8a539ec2a4.jpg
 
@@ -56,7 +56,7 @@
   blog: /code/chillbot/
   about: A Slack bot that will help you break your GitHub contribution streak
   skills:
-    - JavaScript
+    - node.js
     - AWS
   image: https://c1.staticflickr.com/3/2868/33888774410_b8f238795f_o.png
 
@@ -67,29 +67,38 @@
   blog: /code/weatherbot/
   about: A Slack bot that gives you a heads up about snow, nice weather, and severe weather alerts
   skills:
-    - JavaScript
+    - node.js
     - AWS
   image: https://c1.staticflickr.com/3/2719/32935597221_eef6641328_b.jpg
 
-#- emoji: 🌏
-#  name: Static Map Maker
-#  link: http://staticmapmaker.com/
-#  github: https://github.com/katydecorah/staticmapmaker
-#  about: A static map API helper
-#  skills:
-#    - Angular
-#    - SCSS
-#  image: ''
+- emoji: 💁
+  name: Hey guys
+  link: /hey-guys/
+  github: https://github.com/katydecorah/hey-guys
+  about: Find alternative words for <em>guys</em>
+  skills:
+    - JavaScript
+  image: https://c1.staticflickr.com/1/869/41498287822_180a51091f_o.png
 
-#- emoji: 📇
-#  name: Font Library
-#  link: /font-library/
-#  github: https://github.com/katydecorah/font-library
-#  about: An open source project to tag and organize Google Fonts
-#  skills:
-#    - Angular
-#    - SCSS
-#  image: ''
+- emoji: 📇
+  name: Font Library
+  link: /font-library/
+  github: https://github.com/katydecorah/font-library
+  about: An open source project to tag and organize Google Fonts
+  skills:
+    - Angular
+    - Sass
+  image: https://c1.staticflickr.com/1/826/40645819595_6211cd96e6_o.png
+
+- emoji: 🌏
+  name: Static Map Maker
+  link: http://staticmapmaker.com/
+  github: https://github.com/katydecorah/staticmapmaker
+  about: A static map API helper
+  skills:
+    - Angular
+    - Sass
+  image: https://c1.staticflickr.com/1/922/41498119182_b13d8a4baa_o.png
 
 #- emoji: 💅
 #  name: Femoji
@@ -111,10 +120,6 @@
 #  name: Emoji frame
 #  link: /emoji-frame/
 #  about: put emoji around your words, because.
-#- emoji: 💁
-#  name: Hey guys
-#  link: /hey-guys/
-#  about: find alternative words for <em>guys</em>.
 #- emoji: 🔠
 #  name: Google Font Explorer
 #  link: /google-font-explorer/

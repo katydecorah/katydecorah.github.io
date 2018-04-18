@@ -67,12 +67,12 @@ links:
 - text: Hello!
   url: /hello/
   position: top
+- text: Projects
+  url: /projects/
+  icon: archive
+  position: top
 - text: Card catalog
   url: /card-catalog/
-  position: top
-- text: Time capsule
-  url: /time-capsule/
-  icon: archive
   position: top
 
 - text: CodePen

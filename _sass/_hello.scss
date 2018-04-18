@@ -1,31 +1,12 @@
 .page-hello {
   padding: 0;
 
+  img {
+    margin: 0;
+  }
+
   .lead {
     margin-bottom: 1em;
     text-align: left;
   }
-
-  .emoji {
-    margin-right: .25em;
-  }
-
-  .content {
-    ul {
-      list-style: none;
-      margin-bottom: 2em;
-      padding-left: 0;
-    }
-
-    li {
-      margin-bottom: .25em;
-    }
-  }
-
-}
-
-.hello-header {
-
-  margin-top: 0;
-
 }

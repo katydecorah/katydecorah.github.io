@@ -8,6 +8,10 @@
   }
 }
 
+.project-container {
+  @extend %flex;
+}
+
 .project-title {
   @extend %large;
   @extend %fancy-type;
@@ -18,6 +22,11 @@
 .project-image {
   background-position: center;
   background-size: cover;
+  min-width: 250px;
+}
+
+.project-content {
+  width: 100%;
 }
 
 .project-about {
