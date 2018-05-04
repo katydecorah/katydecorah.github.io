@@ -1,30 +1,21 @@
-var test = require('tape');
-var fs = require('fs');
-var path =  require('path');
-var jsyaml = require('js-yaml');
+const test = require('tape');
+const fs = require('fs');
+const jsyaml = require('js-yaml');
 
-var data = {
-  playlists: readData('_data/', 'playlists.yml')
+const readData = (dir, filename) => {
+  var buffer = fs.readFileSync(dir + filename),
+    file = buffer.toString('utf8');
+
+  return {
+    name: filename,
+    file: file,
+    metadata: jsyaml.load(file)
+  };
 };
 
-// build array of playlists
-var playlists = data.playlists.metadata.map(function(post) {
-  return post.playlist;
-});
-
-function readData(dir, filename) {
-  var buffer = fs.readFileSync(dir + filename),
-  file = buffer.toString('utf8');
-  
-  try {
-    
-    return {
-      name: filename,
-      file: file,
-      metadata: jsyaml.load(file)
-    };
-  } catch(err) {}
-}
+const data = {
+  playlists: readData('_data/', 'playlists.yml')
+};
 
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
@@ -32,16 +23,14 @@ function readData(dir, filename) {
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
 
-data.playlists.metadata.forEach(function(post) {
-  
-  test(post.playlist, function(t) {
-    
-    t.equal( typeof post, 'object', "playlist must be formatted correctly");
-    t.ok(post.playlist, "playlist must have a name");
-    //t.ok(post.rdio, "playlist must have an rdio link");
-    t.ok(post.spotify, "playlist must have an spotify link");
-    t.equal( typeof post.tracks, 'object', "playlist must have tracks");
-    
+data.playlists.metadata.forEach(post => {
+  test(post.playlist, t => {
+    t.equal(typeof post, 'object', 'playlist must be formatted correctly');
+    t.ok(post.playlist, 'playlist must have a name');
+    //t.ok(post.rdio, 'playlist must have an rdio link');
+    t.ok(post.spotify, 'playlist must have an spotify link');
+    t.equal(typeof post.tracks, 'object', 'playlist must have tracks');
+
     t.end();
   });
 });
