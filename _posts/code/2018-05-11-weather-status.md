@@ -10,13 +10,13 @@ tags:
 
 Filed under: things we probably don't need, but idk I want it.
 
-A bit ago, I made a [weatherbot](https://katydecorah.com/code/weatherbot/) for our household Slack to remind us of nice weather so we can go for walks and let us know of inclement weather so we can do stuff like move the cars or hunker down. Since I spend a fair amount of time in Slack, I considered what it would be like to create a weather widget using a user's status.
+A bit ago, I made a [weatherbot](https://katydecorah.com/code/weatherbot/) for our household Slack to remind us of nice weather so we can go for walks and of inclement weather so we can move the cars and hunker down. Since I spend a fair amount of time in Slack, I considered what it would be like to create a weather widget using a user's status.
 
 So I did:
 
 ![screenshot of Slack where the user's status is a sun emoji with the forecast: Clear for the hour. 59℉](https://c1.staticflickr.com/1/967/41319959304_ebc93367cc_o.png)
 
-The status emoji provides an idea as to what's going on outside our window and then we can hover to get full details. I've set it up so that if the *feels like* temperature differs from the actual temperature, it'll also let us know in the status.
+The emoji provides an idea as to what's going on outside our window and then we can hover to get full details. I've set it up so that if the *feels like* temperature differs from the actual temperature, it'll also let us know in the status.
 
 It's fun.
 
