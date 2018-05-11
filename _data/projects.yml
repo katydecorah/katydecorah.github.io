@@ -1,3 +1,14 @@
+- emoji: 🌞
+  name: weather status
+  link: https://github.com/katydecorah/weather-status
+  github: https://github.com/katydecorah/weather-status
+  blog: /code/weather-status/
+  about: Make your Slack status the weather forecast
+  skills:
+    - node.js
+    - AWS
+  image: https://c1.staticflickr.com/1/967/41319959304_ebc93367cc_o.png
+
 - emoji: 🌊
   name: awaybot
   link: https://github.com/katydecorah/awaybot
