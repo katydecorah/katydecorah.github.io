@@ -16,11 +16,11 @@ For the past ten years, I've created a playlist for each season. I wrote about t
 
 ## Under the hood
 
-1. The script [gets the playlist](https://github.com/katydecorah/spotify-to-jekyll/blob/77cbfb4365b4bce0d19e0be0598f46cbbcfbe6fe/index.js#L22-L39) from Spotify.
-2. Next, it [formats the tracks](https://github.com/katydecorah/spotify-to-jekyll/blob/77cbfb4365b4bce0d19e0be0598f46cbbcfbe6fe/index.js#L41-L65) with exactly the data I'll need for later.
-3. With the new dataset, it [creates a post](https://github.com/katydecorah/spotify-to-jekyll/blob/77cbfb4365b4bce0d19e0be0598f46cbbcfbe6fe/index.js#L67-L80) and [formats it](https://github.com/katydecorah/spotify-to-jekyll/blob/77cbfb4365b4bce0d19e0be0598f46cbbcfbe6fe/index.js#L82-L94) to my liking.
-4. Then [updates the master playlist](https://github.com/katydecorah/spotify-to-jekyll/blob/77cbfb4365b4bce0d19e0be0598f46cbbcfbe6fe/index.js#L96-L118) by [reading the file, appending the new data](https://github.com/katydecorah/spotify-to-jekyll/blob/77cbfb4365b4bce0d19e0be0598f46cbbcfbe6fe/index.js#L109-L118), and then [saving it](https://github.com/katydecorah/spotify-to-jekyll/blob/77cbfb4365b4bce0d19e0be0598f46cbbcfbe6fe/index.js#L98-L105).
-5. Finally, the script [downloads the playlist image](https://github.com/katydecorah/spotify-to-jekyll/blob/77cbfb4365b4bce0d19e0be0598f46cbbcfbe6fe/index.js#L120-L128).
+1. The script [gets the playlist](https://github.com/katydecorah/spotify-to-jekyll/blob/fc88b4eff599074ebae58fa3dd8e574761edb050/index.js#L21-L38) from Spotify.
+2. Next, it [formats the tracks](https://github.com/katydecorah/spotify-to-jekyll/blob/fc88b4eff599074ebae58fa3dd8e574761edb050/index.js#L40-L64) with exactly the data I'll need for later.
+3. With the new dataset, it [creates a post](https://github.com/katydecorah/spotify-to-jekyll/blob/fc88b4eff599074ebae58fa3dd8e574761edb050/index.js#L66-L79) and [formats it](https://github.com/katydecorah/spotify-to-jekyll/blob/fc88b4eff599074ebae58fa3dd8e574761edb050/index.js#L81-L93) to my liking.
+4. Then [updates the master playlist](https://github.com/katydecorah/spotify-to-jekyll/blob/fc88b4eff599074ebae58fa3dd8e574761edb050/index.js#L95-L117) by [reading the file, appending the new data](https://github.com/katydecorah/spotify-to-jekyll/blob/fc88b4eff599074ebae58fa3dd8e574761edb050/index.js#L108-L117), and then [saving it](https://github.com/katydecorah/spotify-to-jekyll/blob/fc88b4eff599074ebae58fa3dd8e574761edb050/index.js#L97-L104).
+5. Finally, the script [downloads the playlist image](https://github.com/katydecorah/spotify-to-jekyll/blob/fc88b4eff599074ebae58fa3dd8e574761edb050/index.js#L119-L127).
 
 When I'm ready to turn a Spotify playlist into a post, I run from terminal:
 
