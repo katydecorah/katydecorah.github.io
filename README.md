@@ -25,9 +25,3 @@ Here are some resources that have helped me through it:
 * [Frequency Tag Sort](http://blog.jupo.org/2013/05/05/sandboxed-jekyll-hacks/)
 * [Favicon Generator](http://realfavicongenerator.net/)
 * [Sort Posts by Month/Year](http://stackoverflow.com/a/19104574)
-
-## Generate playlist post from Spotify
-
-```
-node bin/playlist.js --playlist=<spotify-playlist-id>
-```
