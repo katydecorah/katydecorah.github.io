@@ -45,10 +45,10 @@ I borrowed bits from two recipes: [Toasted almond recipe](https://cooking.nytime
 
 I recommend not mixing the caramelized toasted almonds into the batter and instead using it as a topping. (And use sea salt on those caramelized almonds, you won't regret it!) I didn't bother with the almond extract as I thought the batter had the right amount of flavor.
 
-## Vanilla blueberry and lemon curd ripple
+## Blueberry vanilla and lemon curd ripple
 
 <div class="photos">
-<img src="https://c2.staticflickr.com/2/1809/41625141750_6f8621dde2_b.jpg" alt="Strawberry basil">
+<img src="https://c2.staticflickr.com/2/1809/41625141750_6f8621dde2_b.jpg" alt="Blueberry vanilla and lemon curd ripple">
 </div>
 
 Again, I borrowed from two recipes: [Blueberry recipe](https://cooking.nytimes.com/recipes/4730-blueberry-ice-cream) and [lemon curd recipe](http://thepioneerwoman.com/food-and-friends/lemon-curd-ripple-ice-cream/)
