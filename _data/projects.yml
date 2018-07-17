@@ -1,3 +1,14 @@
+- emoji: 🎧
+  name: spotify to jekyll
+  link: https://github.com/katydecorah/spotify-to-jekyll
+  github: https://github.com/katydecorah/spotify-to-jekyll
+  blog: /code/spotify-to-jekyll/
+  about: Turn a Spotify playlist into a Jekyll post
+  skills:
+    - node.js
+    - API
+  image: https://c2.staticflickr.com/2/1780/41148768130_78baa7c1f4_o.png
+
 - emoji: 🌞
   name: weather status
   link: https://github.com/katydecorah/weather-status
