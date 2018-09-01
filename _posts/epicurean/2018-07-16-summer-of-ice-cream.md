@@ -3,6 +3,7 @@ layout: post
 title: Summer of ice cream
 category: epicurean
 image: https://c2.staticflickr.com/2/1825/28417835647_c9de5b71b1_b.jpg
+emoji: 🍨
 ---
 
 For the past month, I've tried a new ice cream recipe with ingredients from the farmers market.
