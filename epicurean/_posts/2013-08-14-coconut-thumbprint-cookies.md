@@ -3,6 +3,7 @@ title: Coconut Thumbprint Cookies with Salted Caramel
 
 image: http://farm6.staticflickr.com/5336/9510513917_12c4bc3152_z.jpg
 redirect_from: /epicurean/2013/08/14/coconut-thumbprint-cookies/
+emoji: 🍪
 ---
 
 I found this recipe on a late night Pinterest binge. I'm convinced people only post delicious treats at night time to induce stomach howling.

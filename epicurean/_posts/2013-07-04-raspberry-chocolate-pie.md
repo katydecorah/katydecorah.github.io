@@ -3,6 +3,7 @@ title: Raspberry Chocolate Pie
 
 image: http://farm3.staticflickr.com/2820/9363187784_6237192a90_c.jpg
 redirect_from: /epicurean/2013/07/04/raspberry-chocolate-pie/
+emoji: 🥧
 ---
 
 In honor of our nation's birth I accidentally made a semi-French dessert. Hmm... well. It was good. I mean real good.
