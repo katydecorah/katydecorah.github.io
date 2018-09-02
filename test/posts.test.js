@@ -1,14 +1,12 @@
 const test = require('tape');
 const fs = require('fs');
-const path = require('path');
 const jsyaml = require('js-yaml');
-const paths = '_posts/';
-
-// get directories in a given path
-const getDir = src =>
-  fs
-    .readdirSync(src)
-    .filter(file => fs.statSync(path.join(src, file)).isDirectory());
+const paths = [
+  'adventures/_posts/',
+  'epicurean/_posts/',
+  'code/_posts/',
+  'playlists/_posts/'
+];
 
 const readPost = filename => {
   const buffer = fs.readFileSync(filename),
@@ -31,14 +29,12 @@ const readPost = filename => {
   }
 };
 
-let posts = [];
-const subDir = getDir(paths);
-subDir.forEach(dir => {
-  let file = fs.readdirSync(paths + dir + '/');
-  file.forEach(i => {
-    posts.push(paths + dir + '/' + i);
+const posts = paths.reduce((arr, path) => {
+  fs.readdirSync(`${path}/`).forEach(file => {
+    arr.push(`${path}${file}`);
   });
-});
+  return arr;
+}, []);
 
 // build array of permalinks
 const permalinks = posts.reduce((prev, post) => {
@@ -81,9 +77,6 @@ posts.forEach(post => {
     t.ok(metadata.category, 'post must have a category');
     if (metadata.layout) {
       t.equal(metadata.layout, 'post', 'layout must equal `post`');
-    }
-    if (subDir.indexOf(metadata.category) == -1) {
-      t.fail('`' + metadata.category + '` is not a valid category');
     }
 
     // check permalinks

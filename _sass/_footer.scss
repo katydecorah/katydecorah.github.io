@@ -46,12 +46,13 @@
       margin-right: 2em;
     }
   }
+
   .bio-img-container {
-    background-size: 100%;
-    width: 8em;
-    padding-bottom: 100%;
     background-repeat: no-repeat;
+    background-size: 100%;
     border-radius: 100%;
+    padding-bottom: 100%;
+    width: 8em;
   }
 
   .bio-details {

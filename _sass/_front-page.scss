@@ -116,7 +116,7 @@
 
     &.active,
     &:hover {
-      background: white;
+      background: $white;
       text-decoration: none;
     }
   }
@@ -133,10 +133,10 @@
   .post-tag-item {
     @extend %xs;
 
+    background: $light-accent;
+    border-radius: 1em;
     display: inline-block;
     margin-right: 1em;
-    background: $light-accent;
     padding: 0 .75em;
-    border-radius: 1em;
   }
 }
