@@ -13,7 +13,9 @@
 
   .post-emoji {
     display: inline-block;
+    position: relative;
     text-indent: -1.5em;
+    top: 2px;
 
     @include breakpoint(gt-mobile) {
       text-indent: -2em;
