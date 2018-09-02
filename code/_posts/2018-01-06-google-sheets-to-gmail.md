@@ -4,6 +4,8 @@ category: code
 image: https://c1.staticflickr.com/5/4768/39734525941_2f6f5dc8c7_o.png
 tags:
 - JavaScript
+- API
+emoji: 📨
 ---
 
 For this past [Ela Conf](https://elaconf.com), we had a record number of proposals submitted, which also (unfortunately) meant a record number of rejection emails to be sent. In the past, we sent these individually, but the sheer volume was going to take hours. We didn't want to send a mass email because it was important to us to address the proposal submitter by their name and reference their submitted talk title(s).

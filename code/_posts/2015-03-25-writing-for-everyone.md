@@ -5,6 +5,7 @@ image: https://farm8.staticflickr.com/7612/16606351737_721e54516d_c.jpg
 tags:
 - Jekyll
 - speaking
+emoji: 👩🏼‍🏫
 ---
 
 A couple weeks ago I gave my talk [Writing for everyone]({{site.url}}/writing-for-everyone/) at FOSS4G NA. I had a great time! You can [click through my slides]({{site.url}}/writing-for-everyone/), follow along with [my notes]({{site.url}}/writing-for-everyone/notes/), or <a href="https://youtu.be/bXd6aRRvJG4?list=PLWW0CjV-TafaJlkE6Zq4OgXgb04TQfNiR" data-proofer-ignore>watch the video</a>.

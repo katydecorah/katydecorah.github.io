@@ -5,6 +5,7 @@ image: https://c2.staticflickr.com/8/7139/26297512494_2481e215ba_z.jpg
 tags:
 - Jekyll
 - speaking
+emoji: 👩🏼‍🏫
 ---
 
 Yesterday, I had the pleasure of speaking at [JekyllConf](http://jekyllconf.com/). My talk, Unconventional use cases for Jekyll, is a love story about Jekyll, and ok, some of the experiments and projects I've made with it.

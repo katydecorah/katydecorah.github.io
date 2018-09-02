@@ -4,6 +4,8 @@ category: code
 image: https://c1.staticflickr.com/5/4672/40055436132_cf2a8a81fb_o.png
 tags:
 - Node.js
+- API
+emoji: 🗳
 ---
 
 For [Ela Conf](http://elaconf.com) 2015, 2016, and 2017, we turned a private GitHub repository into a system for reviewing talk proposals.

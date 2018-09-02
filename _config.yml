@@ -8,7 +8,7 @@ author:
   email: katydecorah@gmail.com
   uri: https://katydecorah.com
 
-paginate: 10
+paginate: 5
 paginate_path: ":num"
 future: true
 

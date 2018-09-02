@@ -5,6 +5,8 @@ image: https://c2.staticflickr.com/4/3955/32422791034_428c7775ee_o.png
 tags:
 - Node.js
 - AWS
+- API
+emoji: ❄️
 ---
 
 I didn't expect [WeatherBot](/code/weatherbot/) to become [a series](/code/weatherbot-goes-outside/) of posts, but the weather has been ~~fluctuating so much~~ scary.

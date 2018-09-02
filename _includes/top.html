@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>{% if page.title %}{{ page.title }} {% endif %}{% unless page.layout == "front-page" %}&times; Katy DeCorah{% endunless %}</title>
+<title>{% if page.title != 'Katy DeCorah' %}{{ page.title }} &times; Katy DeCorah{% else %}Katy DeCorah{% endif %}</title>
 <meta name="google-site-verification" content="F5aWLWH-V1jAhith3Ybjt5dDtL4S8Yc5Z53yTvPFhaM" />
 <meta name="description" content="{% if page.layout != 'front-page' %}{{page.title}} &times; Katy DeCorah &times; {% endif %}{{ site.description }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">

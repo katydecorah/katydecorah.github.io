@@ -5,6 +5,8 @@ image: https://c1.staticflickr.com/1/584/33134069845_e0d27177f0_z.jpg
 tags:
 - Node.js
 - AWS
+- API
+emoji: ❄️
 ---
 
 Last week I talked about how I built a [WeatherBot](/code/weatherbot/) that gives us a heads up if there will be snow over the next several hours. The recent warm weather inspired me to add warm weather alerts:

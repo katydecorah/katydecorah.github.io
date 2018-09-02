@@ -9,7 +9,6 @@ tags:
 # - elsewhere
  - podcasts
 redirect_from: /code/2015/03/04/the-east-wing/
-
 ---
 
 
