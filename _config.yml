@@ -14,7 +14,7 @@ future: true
 
 title: Katy DeCorah
 description: "Front-end developer and tinkerer from Saratoga Springs, NY."
-image: https://c1.staticflickr.com/9/8881/18361278301_f8ac7d25d4_h.jpg
+image: https://c2.staticflickr.com/8/7798/18359743065_ef178ded42_b.jpg
 twitter: "@katydecorah"
 
 # for adventures.geojson + year review pages
@@ -64,17 +64,6 @@ exclude:
   - test
 
 links:
-- text: Hello!
-  url: /hello/
-  position: top
-- text: Projects
-  url: /projects/
-  icon: archive
-  position: top
-- text: Card catalog
-  url: /card-catalog/
-  position: top
-
 - text: CodePen
   url: https://codepen.io/katydecorah/
   icon: codepen

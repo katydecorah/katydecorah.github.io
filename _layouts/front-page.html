@@ -2,6 +2,15 @@
 <body class="front-page">
   {% include header.html %}
   <main class="container content" id="content">
+    <div class="categories">
+      {% for category in site.categories %}
+        {% assign name = category[0] %}
+        {% assign title = page.title | downcase %}
+        <a href="/{{name}}" class="category{% if title == name %} active{% endif %}">
+          {{site.data.emoji[name]}} {{name}}
+        </a>
+      {% endfor %}
+    </div>
   {{ content }}
   </main>
   {% include footer.html %}

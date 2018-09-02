@@ -23,3 +23,38 @@
   }
 
 }
+
+
+.bio {
+  @extend %flex;
+  @extend %flex-space-between;
+
+  margin-bottom: 3em;
+
+  .bio-img,
+  .bio-details {
+    @extend %flex-child;
+  }
+
+  .bio-img.bio-img {
+    @extend %flex-child-no-shrink;
+
+    display: none;
+
+    @include breakpoint(gt-mobile) {
+      display: block;
+      margin-right: 2em;
+    }
+  }
+  .bio-img-container {
+    background-size: 100%;
+    width: 8em;
+    padding-bottom: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+  }
+
+  .bio-details {
+    @extend %xs;
+  }
+}

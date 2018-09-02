@@ -1,12 +1,5 @@
-.all-posts,
-.front-page .post-prev-next {
-  //margin: 0 auto;
-  //width: $container-width * .65;
-}
-
-
 .all-posts {
-  padding-left: 1.5em;
+  padding-left: 2em;
 
   .post-meta {
 
@@ -16,7 +9,7 @@
 
   .post-emoji {
     display: inline-block;
-    text-indent: -1.5em;
+    text-indent: -2em;
   }
 
   .post-date {
@@ -27,14 +20,12 @@
 
 .post-link {
 
-  @extend %clearfix;
-
   @extend %flex;
 
   color: $text-color;
   display: block;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-bottom: .5em;
+  padding-top: .5em;
 
   &:hover {
     text-decoration: none;
@@ -99,4 +90,38 @@
 .post-elsewhere-label .icon {
   color: $link-color;
   font-size: .8em;
+}
+
+
+.categories {
+  @extend %xs;
+
+  margin-bottom: 2em;
+
+  .category {
+    padding: .25em 1em;
+    border-radius: 1em;
+    margin-right: .5em;
+
+    &.active,
+    &:hover {
+          background: white;
+          text-decoration: none;
+    }
+  }
+}
+
+.post-tag-container {
+    display: inline-block;
+    margin-left: .5em;
+
+    .post-tag-item {
+      @extend %xs;
+
+    display: inline-block;
+    margin-left: 1em;
+    background: $light-accent;
+    padding: 0 .75em;
+    border-radius: 1em;
+  }
 }

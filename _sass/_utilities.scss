@@ -57,6 +57,11 @@ img {
   max-width: 100%;
 }
 
+%flex-child-no-shrink {
+  -ms-flex-negative: 0!important;
+  flex-shrink: 0!important;
+}
+
 %flex-space-between {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
