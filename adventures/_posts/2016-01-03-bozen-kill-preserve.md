@@ -1,11 +1,11 @@
 ---
 title: Bozen Kill Preserve
-category: adventures
+
 image: https://farm6.staticflickr.com/5749/23857257910_33919392ec_b.jpg
 coordinates:
-- -74.046213,42.7148751
+  - -74.046213,42.7148751
 locations:
-- Altamont, NY
+  - Altamont, NY
 recommended: true
 miles: 1
 ---

@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Williamstown
-category: adventures
+
 locations:
-- Williamstown, MA
+  - Williamstown, MA
 coordinates:
-- -73.1967002,42.7123864
+  - -73.1967002,42.7123864
 image: https://farm8.staticflickr.com/7549/16224361846_cb3c370661_c.jpg
 redirect_from: /adventures/2015/01/10/williamstown/
 ---
-
 
 Or, how we beat cabin fever by fleeing cold New York for cold Massachusetts for one night.
 

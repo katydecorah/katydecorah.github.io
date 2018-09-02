@@ -1,11 +1,11 @@
 ---
 title: Make your Slack status the weather forecast
-category: code
+
 image: https://c1.staticflickr.com/1/967/41319959304_ebc93367cc_o.png
 tags:
-- Node.js
-- AWS
-- API
+  - Node.js
+  - AWS
+  - API
 emoji: ☀️
 ---
 
@@ -17,7 +17,7 @@ So I did:
 
 ![screenshot of Slack where the user's status is a sun emoji with the forecast: Clear for the hour. 59℉](https://c1.staticflickr.com/1/967/41319959304_ebc93367cc_o.png)
 
-The emoji provides an idea as to what's going on outside our window and then we can hover to get full details. I've set it up so that if the *feels like* temperature differs from the actual temperature, it'll also let us know in the status.
+The emoji provides an idea as to what's going on outside our window and then we can hover to get full details. I've set it up so that if the _feels like_ temperature differs from the actual temperature, it'll also let us know in the status.
 
 It's fun.
 

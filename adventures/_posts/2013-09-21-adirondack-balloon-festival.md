@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Adirondack Balloon Festival &amp; Coldbrook Preserve
-category: adventures
+
 locations:
-- "Floyd Bennett Memorial Airport"
-- "Glens Falls, NY"
-- "The Peppermill, Moreau, NY"
-- "Coldbrook Preserve Trailhead, Homestead Rd, NY 12866"
+  - "Floyd Bennett Memorial Airport"
+  - "Glens Falls, NY"
+  - "The Peppermill, Moreau, NY"
+  - "Coldbrook Preserve Trailhead, Homestead Rd, NY 12866"
 map: static
 coordinates:
- - -73.6011497,43.3416466
+  - -73.6011497,43.3416466
 image: http://farm3.staticflickr.com/2893/9874639174_9a41feb163_b.jpg
 redirect_from: /adventures/2013/09/21/adirondack-balloon-festival/
 ---
-
 
 ## Balloon Festival
 

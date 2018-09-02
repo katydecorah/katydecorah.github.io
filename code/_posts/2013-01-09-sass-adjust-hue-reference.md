@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Sass adjust-hue reference
-category: code
+
 tags:
-- Sass
-- Haml
+  - Sass
+  - Haml
 pen: FgmJI
 image: http://farm6.staticflickr.com/5476/12730510033_3b98c3c1de_o.png
 project: true
 redirect_from: /code/2013/01/09/sass-adjust-hue-reference/
-
 ---
 
 <p data-height="500" data-theme-id="300" data-slug-hash="FgmJI" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/FgmJI'>Sass adjust-hue reference</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

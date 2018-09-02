@@ -1,14 +1,12 @@
 ---
-layout: post
 title: Slidey background
-category: code
+
 tags:
-- Haml
-- Sass
+  - Haml
+  - Sass
 image: http://farm4.staticflickr.com/3326/13012960323_1ca9571922.jpg
 pen: whobi
 redirect_from: /code/2014/03/07/slidey-background/
-
 ---
 
 <p data-height="300" data-theme-id="97" data-slug-hash="whobi" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/whobi'>Slidey Background</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -39,4 +37,5 @@ On hover, I set the `background-position` to move 100% on the same axis that I d
 Did you notice the lip of the darker gradient peaking in? The lip is adjustable on `$start`. Try changing the value. If the variable is 0, then the lip of the second half of the gradient disappears.
 
 ## Thoughts
+
 I love the sliding between the left (&larr;) and right (&rarr;) links. It appears that they are both tugging at the same rectangle. I'll have to hold onto this idea.

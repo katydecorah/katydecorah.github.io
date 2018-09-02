@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Incrementally awesome Sass labels
-category: code
+
 tags:
   - Sass
 image: http://farm8.staticflickr.com/7340/12730825944_d47ef70a77_o.png
@@ -78,7 +77,6 @@ css: |
   }
 redirect_from: /code/2013/09/29/incrementally-awesome-sass-labels/
 ---
-
 
 For this site I wanted my categories to be color coded, but I didn't want to put a lot of effort into managing it. Instead I spent a little effort into making sure I didn't have to manage it.
 

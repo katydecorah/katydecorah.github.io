@@ -1,15 +1,13 @@
 ---
-layout: post
 title: San Francisco real quick
-category: adventures
+
 image: https://farm8.staticflickr.com/7653/16601605307_844e26a063_h.jpg
 locations:
-- San Francisco
+  - San Francisco
 coordinates:
-- -122.4333534,37.7777447
+  - -122.4333534,37.7777447
 redirect_from: /adventures/2015/03/14/san-francisco/
 ---
-
 
 I was in Burlingame and San Francisco this past week for FOSS4G NA. Slides and video to come, but for now:
 

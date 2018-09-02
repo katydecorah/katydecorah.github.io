@@ -1,6 +1,6 @@
 ---
 title: How I write
-category: notes
+
 image: https://cloud.githubusercontent.com/assets/2180540/4868004/fed98df4-613a-11e4-9950-f67d1bad8999.gif
 ---
 
@@ -18,9 +18,9 @@ I recommend checking out Chris Coyier's [Words To Avoid in Educational Writing](
 
 It all depends on context, but here's a quick hit list of words you might want to avoid:
 
-* just
-* easy or simple
-* of course
+- just
+- easy or simple
+- of course
 
 ## Jargon meet Acronym. Acronym meet Jargon.
 
@@ -30,14 +30,13 @@ I like to introduce jargon or acronyms like I would introduce two people. Start 
 
 ![clue](https://cloud.githubusercontent.com/assets/2180540/4868008/05c9b3e6-613b-11e4-9a98-ad0c3fd2d44f.gif)
 
-
 > After the file is saved...
 
 Hold up. Do I save the file? Does the file save automatically?
 
 > After you save the file...
 
-Got it, *I* save the file.
+Got it, _I_ save the file.
 
 If the user needs to do something, tell them!
 
@@ -47,8 +46,8 @@ I'm an offender of scrolling on a page just to get to the **good** parts. I like
 
 Here are a few tips:
 
-* Use headings to chunk up content into sections.
-* Write each section so that it's strong enough to stand independently.
+- Use headings to chunk up content into sections.
+- Write each section so that it's strong enough to stand independently.
 
 ## Reorganize
 

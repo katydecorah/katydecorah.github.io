@@ -1,20 +1,18 @@
 ---
 title: Cascade Falls
-category: adventures
+
 recommended: true
 image: https://farm4.staticflickr.com/3875/14890721083_7f26e13599_b.jpg
 coordinates:
- - -73.1352701,42.6919608
+  - -73.1352701,42.6919608
 locations:
- - North Adams, MA
+  - North Adams, MA
 redirect_from: /adventures/2014/08/10/cascade-falls/
 ---
-
 
 Yesterday morning we work up early and drove out to North Adams to explore [Cascade Falls once again](/adventures/2013/06/02/this-weekend/).
 
 On the drive there we saw a family of black bears crossing the road. I got a quick snap of one of the babies.
-
 
 <img src="https://farm6.staticflickr.com/5551/14878717335_2f354ef4d4_o.jpg" alt="Baby bear">
 

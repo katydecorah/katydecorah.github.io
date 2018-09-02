@@ -1,16 +1,14 @@
 ---
-layout: post
 title: Mount Greylock
-category: adventures
+
 locations:
-- Mount Greylock
+  - Mount Greylock
 map: static
 coordinates:
- - -73.1662799,42.6392075
+  - -73.1662799,42.6392075
 image: http://farm3.staticflickr.com/2876/9986357986_cba890f804_c.jpg
 redirect_from: /adventures/2013/09/28/mount-greylock/
 ---
-
 
 We woke up early and drove out to Mount Greylock in Mass. It was a gorgeous morning!
 

@@ -1,13 +1,12 @@
 ---
 title: From Haml to Yaml
-category: code
+
 tags:
-- Jekyll
-- AngularJS
+  - Jekyll
+  - AngularJS
 image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
 redirect_from: /code/2014/12/30/from-haml-to-yaml/
 ---
-
 
 Way back in May, I built a pen based on [MDN's article](https://developer.mozilla.org/en-US/docs/Web/CSS/length) to visualize and compare all CSS lengths. Here's the original pen:
 
@@ -22,15 +21,17 @@ I decided to create a Jekyll gh-pages repo and open up the tool there. I exporte
 At first I copied and pasted the compiled HTML, but I knew it was going to be a pain to make any markup changes. I ended up reformatting the Haml array to Yaml (via regex find and replace):
 
 {% highlight yaml %}
+
 - length: em
   type: font-relative
   description: This unit represents the calculated font-size of the element. If used on the font-size property itself, it represents the inherited font-size of the element.
-{% endhighlight %}
+  {% endhighlight %}
 
 I saved the file into the Jekyll `_data` folder. Using a loop, I ran through each item and rebuilt markup output. [My code](https://github.com/katydecorah/css-ruler/blob/gh-pages/index.html) looks something like this:
 
 {% highlight html %}{% raw %}
 {% for item in site.data.lengths %}
+
 <div class="example-container" data-toggle="popover" data-content="{{item.description}}" title="{{ item.length }}, {{item.type}}">
 <div class="example" style="width: [[ unit ]]{{ item.length }}; height: [[ unit ]]{{ item.length }}" title="[[unit]]{{item.length}}"></div>
 </div>
@@ -43,4 +44,4 @@ To make content changes, I'll update the Yaml. To make layout changes, I'll upda
 
 Feast your eyes on the live [CSS Ruler]({{site.url}}/css-ruler/) or [jump into the code](https://github.com/katydecorah/css-ruler).
 
-p.s. Uncheck *all* the length types to unlock an Easter egg.
+p.s. Uncheck _all_ the length types to unlock an Easter egg.

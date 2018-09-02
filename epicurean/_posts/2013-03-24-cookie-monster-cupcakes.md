@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Cookie Monster Cupcakes
-category: epicurean
+
 image: http://farm8.staticflickr.com/7401/9705857322_b7723a269e_c.jpg
 redirect_from: /epicurean/2013/03/24/cookie-monster-cupcakes/
 ---

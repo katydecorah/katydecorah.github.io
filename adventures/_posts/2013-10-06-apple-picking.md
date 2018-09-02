@@ -1,16 +1,14 @@
 ---
-layout: post
 title: Apple Pickin &amp; Apple Pie Makin
-category: adventures
+
 map: static
 coordinates:
- - -73.6860833,42.4351899
+  - -73.6860833,42.4351899
 locations:
   - Golden Harvest Farms Inc, Valatie, NY
 image: http://farm6.staticflickr.com/5340/10102694436_83377f3c85_c.jpg
 redirect_from: /adventures/2013/10/06/apple-picking/
 ---
-
 
 ## Saturday
 

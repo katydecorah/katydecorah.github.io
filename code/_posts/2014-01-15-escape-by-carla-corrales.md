@@ -1,22 +1,21 @@
 ---
-layout: post
 title: Escape by Carla Corrales
-category: code
+
 pen: mJeba
 tags:
-- Sass
-- animation
+  - Sass
+  - animation
 image: http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg
 dribbble: http://drbl.in/jMcZ
 redirect_from: /code/2014/01/15/escape-by-carla-corrales/
 ---
-
 
 <p data-height="450" data-theme-id="97" data-slug-hash="mJeba" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/mJeba'>Escape by Carla Corrales</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 I have another single element project! I explored the Dribbble shot [Escape by Carla Corrales](http://drbl.in/jMcZ).
 
 ## .marker
+
 The main element, `.marker`, is the map marker shape. The `:before` is the inner circles and the `:after` is the dial.
 
 ![element diagram](http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg)
@@ -40,6 +39,7 @@ Below is a demonstration of the linear and radial gradients coming together.
 </figure>
 
 ## :after
+
 I used the `:after` element for the dial. First, I created a rectangle using `border`. I used border because the dial is four-toned and I can set each border side to a different color. Next, I skewed and rotated the element. I skewed it until I squashed the height and elongated the width.
 
 The results were&hellip; dial-shaped!

@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Static Google maps for Jekyll
-category: code
+
 tags:
   - Jekyll
   - API
@@ -9,9 +8,7 @@ image: http://farm6.staticflickr.com/5502/12730513003_185231255d_o.png
 locations: "Albany,NY"
 project: true
 redirect_from: /code/2013/09/06/google-maps-images-api-for-jekyll/
-
 ---
-
 
 **As of 7/26/2014, this site has moved to the [Mapbox static API](/code/2014/07/26/static-mapbox-for-jekyll/).**
 
@@ -27,11 +24,12 @@ For any post with a location, I add a "locations" variable in the post header.
 
 {% highlight yaml %}
 locations:
- - University at Albany
- - Siena College
-{% endhighlight %}
 
-I'm using *locations* to support multiple places, but you can have just one.
+- University at Albany
+- Siena College
+  {% endhighlight %}
+
+I'm using _locations_ to support multiple places, but you can have just one.
 
 {% highlight yaml %}
 locations: Albany,NY
@@ -51,12 +49,13 @@ When using multiple locations, the map will center around the first location. So
 
 {% highlight yaml %}
 locations:
-  - University at Albany
-  - Siena College
-zoom: 10
-{% endhighlight %}
 
-The lower the zoom, the farther out the map will reach. The zoom is automatically set at *13*, which is ideal for 1 location (but you can adjust that in the code).
+- University at Albany
+- Siena College
+  zoom: 10
+  {% endhighlight %}
+
+The lower the zoom, the farther out the map will reach. The zoom is automatically set at _13_, which is ideal for 1 location (but you can adjust that in the code).
 
 ## More Information
 

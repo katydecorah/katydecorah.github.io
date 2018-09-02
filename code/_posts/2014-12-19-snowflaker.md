@@ -1,18 +1,16 @@
 ---
 title: Snowflaker
-category: code
+
 tags:
-- Sass
+  - Sass
 image: http://i.imgur.com/yNv3nmo.gif
 codepen: zxBRKv
 redirect_from: /code/2014/12/19/snowflaker/
-
 ---
-
 
 <p data-height="350" data-theme-id="97" data-slug-hash="zxBRKv" data-default-tab="result" data-user="katydecorah" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/zxBRKv/'>Snowflaker</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-I really wanted to build something last night, heck, something *seasonal*. Something to celebrate the fact that I'm done teaching and my free-time is katy-time.
+I really wanted to build something last night, heck, something _seasonal_. Something to celebrate the fact that I'm done teaching and my free-time is katy-time.
 
 I decided to try a snowflake.
 
@@ -37,7 +35,6 @@ To really break it down, a single spindle looks like this:
 ![annotated single spindle](https://farm9.staticflickr.com/8619/15873786249_526deab8da.jpg)
 
 Now put your finger at the top of the spindle and turn the bottom at (360/number of spindles) degrees and you’ll get the snowflake pattern.
-
 
 ## Making it scale
 

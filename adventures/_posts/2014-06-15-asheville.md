@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Asheville
-category: adventures
+
 coordinates:
- - -82.5669504,35.5896214
+  - -82.5669504,35.5896214
 markers: none
 zoom: 13
 locations:
- - Asheville, NC
+  - Asheville, NC
 map: static
 image: https://farm6.staticflickr.com/5235/14379383021_566f82cd22_b.jpg
 redirect_from: /adventures/2014/06/15/asheville/
 ---
-
 
 I spent the past week visiting my sister in Asheville. That place never gets old.
 
@@ -67,7 +65,6 @@ Sunday we took the Blue Ridge Parkway to Craggy Gardens and to the Summit of Mou
 <div class="photos">
 
 <img src="https://farm3.staticflickr.com/2895/14245564347_0aae622b0b_b.jpg" alt="Mount Mitchell">
-
 
 <img src="https://farm4.staticflickr.com/3854/14245412348_688649865b_b.jpg" class="img-half" alt="Mount Mitchell">
 

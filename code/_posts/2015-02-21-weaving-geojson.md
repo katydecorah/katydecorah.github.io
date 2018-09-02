@@ -1,13 +1,11 @@
 ---
 title: Weaving data into GeoJSON with Jekyll
-category: code
+
 tags:
-- Jekyll
+  - Jekyll
 image: https://farm9.staticflickr.com/8594/15981508984_a398d1fa77_b.jpg
 redirect_from: /code/2015/02/21/weaving-geojson/
-
 ---
-
 
 Say you have a dataset for a handful of countries or all the countries, or maybe a handful of states or all the states. You want to assign your data to each state or country as a polygon of that area, not a point, so you can do fun colors or popups and make a darn cool map.
 
@@ -35,51 +33,52 @@ And what about a country?
 
 Double ugh.
 
-Imaging trying to traverse a GeoJSON file *filled* with all that ugh? No, thank you.
+Imaging trying to traverse a GeoJSON file _filled_ with all that ugh? No, thank you.
 
 ## Jekyll to the rescue
 
 I found a better workflow with Jekyll.
 
-After a quick search I found a [GeoJSON file with all the countries](https://github.com/johan/world.geo.json). I regex'd it into yml format and saved it to my `_data` folder ([in *this* repo](https://github.com/katydecorah/geojson-weaver)) as [`countries.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/countries.yml). That will serve as a reference file; I don't need to touch it. Actually, Atom will barf if I try to open it, so it stays sealed tight.
+After a quick search I found a [GeoJSON file with all the countries](https://github.com/johan/world.geo.json). I regex'd it into yml format and saved it to my `_data` folder ([in _this_ repo](https://github.com/katydecorah/geojson-weaver)) as [`countries.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/countries.yml). That will serve as a reference file; I don't need to touch it. Actually, Atom will barf if I try to open it, so it stays sealed tight.
 
 Next, I created another file ([`leave.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/leave.yml)). This is the data that I want to weave in with the country data. For each country, I made sure to use the same exact country name found in `countries.yml` because later I'll evaluate the name to match the data up.
 
 {% highlight yaml %}
+
 - country: United States of America
   leave: 0
 - country: Mexico
   leave: 12
-{% endhighlight %}
+  {% endhighlight %}
 
 I created a [Jekyll-ized JS file](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/country-data.js) to output the GeoJSON as a variable. Here's how I did it:
 
 1. First, I looped through the countries data.
 2. Inside that loop, I looped through my data file.
-3. Inside that loop, I told Jekyll that I *only* want results when the country name matches the country names in my data file.
+3. Inside that loop, I told Jekyll that I _only_ want results when the country name matches the country names in my data file.
 4. I customized the feature properties based on my data and how they should look.
 
 The code looks like this:
 
 {% highlight js %}{% raw %}
 var countryData = {
-  "type": "FeatureCollection",
-  "features": [{% for s in site.data.countries %}{% for x in site.data.leave %}{% if s.country == x.country %}
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "{{s.country}}",
-        "leave": {{x.leave}},
-        "title": "{{s.country}}",
-        "description": "Mothers receive {{x.leave}} weeks paid leave in {{s.country}}",
-        "fill": "{% if x.leave == 0 %}#fff{% elsif x.leave <= 26 %}#aad8f1{% elsif x.leave <= 52 %}#4bc6df{% elsif x.leave >= 52.1 %}#197caa{% endif %}"
-      },
-      "geometry": {
-        "type": "{{s.type}}",
-        "coordinates": {{s.coordinates}}
-      }
-    },{% endif %}{% endfor %}{% endfor %}
-  ]
+"type": "FeatureCollection",
+"features": [{% for s in site.data.countries %}{% for x in site.data.leave %}{% if s.country == x.country %}
+{
+"type": "Feature",
+"properties": {
+"name": "{{s.country}}",
+"leave": {{x.leave}},
+"title": "{{s.country}}",
+"description": "Mothers receive {{x.leave}} weeks paid leave in {{s.country}}",
+"fill": "{% if x.leave == 0 %}#fff{% elsif x.leave <= 26 %}#aad8f1{% elsif x.leave <= 52 %}#4bc6df{% elsif x.leave >= 52.1 %}#197caa{% endif %}"
+},
+"geometry": {
+"type": "{{s.type}}",
+"coordinates": {{s.coordinates}}
+}
+},{% endif %}{% endfor %}{% endfor %}
+]
 };
 {% endraw %}{% endhighlight %}
 

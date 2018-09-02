@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Schodack Island State Park
-category: adventures
+
 image: https://farm9.staticflickr.com/8854/18001503574_3cbe35ecd9_b.jpg
 locations:
-- Schodack Island State Park
+  - Schodack Island State Park
 coordinates:
-- -73.7752234,42.484635
+  - -73.7752234,42.484635
 ---
 
 <div class="photos">

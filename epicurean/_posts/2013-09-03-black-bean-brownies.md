@@ -1,7 +1,6 @@
 ---
-layout: post
 title: The Black Bean Brownie
-category: epicurean
+
 image: http://farm4.staticflickr.com/3725/9665840645_26b937ed79_c.jpg
 redirect_from: /epicurean/2013/09/03/black-bean-brownies/
 ---

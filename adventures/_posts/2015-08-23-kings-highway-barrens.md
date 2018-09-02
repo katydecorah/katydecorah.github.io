@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Kings Highway Barrens
-category: adventures
+
 image: https://farm6.staticflickr.com/5638/20798363136_83ccf40d39_b.jpg
 recommended: true
 locations:
- - Guilderland, NY
+  - Guilderland, NY
 miles: 1.2
 coordinates:
-- -73.9045582,42.7519784
+  - -73.9045582,42.7519784
 ---
 
 We crossed [trail #9](http://www.albanypinebush.org/recreation-center/trails-maps-and-conditions) of the Albany Pine Bush Preserve off the list :ok_hand:.

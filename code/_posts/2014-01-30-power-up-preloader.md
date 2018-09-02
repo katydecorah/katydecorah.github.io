@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Power Up Preloader by Mantas Ba&#269;iu&#353;ka
-category: code
+
 tags:
- - Sass
+  - Sass
 pen: BfuGF
 image: https://farm3.staticflickr.com/2860/12730278733_e045273427_o.png
 browser: Chrome 32.0.1700.102
 redirect_from: /code/2014/01/30/power-up-preloader/
 ---
-
 
 <p data-height="300" data-theme-id="97" data-slug-hash="bcc619ac0a04ac70e948a41d26e49a24" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/bcc619ac0a04ac70e948a41d26e49a24'>Power Up Preloader (GIF) by Mantas Bačiuška</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
@@ -26,7 +24,6 @@ The main element, `.battery`, is the outline of the battery. The `:before` is th
 <figcaption>Demonstration of elements.</figcaption>
 </figure>
 
-
 ## You best customize
 
 Like my previous Pens, I also made this one scalable. Try changing `$size` in the Sass. I added a few conditions for when `$size` is less than 4em, because when $size is teeny the positioning gets thrown off. To help it along, I added a `background-color` to `.battery` to hide the pixel off-ness.
@@ -37,7 +34,7 @@ The color of the battery and background will adjust according to `$accent`. Dark
 
 The magic of this whole thing is the animated gradient. The first step was creating a gradient that was a pattern. The beginning and end must match seamlessly. I carefully crafted (jk, I guessed until I got it right) the `repeating-linear-gradient` into a pattern.
 
-	background: repeating-linear-gradient(-45deg, $bg, $bg 3%, $accent 3%, $accent 25%);
+    background: repeating-linear-gradient(-45deg, $bg, $bg 3%, $accent 3%, $accent 25%);
 
 <figure>
 <p data-height="283" data-theme-id="97" data-slug-hash="7398c4a1664923574f6af529db07d019" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/7398c4a1664923574f6af529db07d019'>Power Up Preloader -- swatch</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

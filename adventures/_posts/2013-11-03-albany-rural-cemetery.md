@@ -1,16 +1,14 @@
 ---
-layout: post
 title: Albany Rural Cemetery
-category: adventures
+
 map: static
 coordinates:
- - -73.731604,42.707184
+  - -73.731604,42.707184
 locations:
-- Albany Rural Cemetery
+  - Albany Rural Cemetery
 image: http://farm6.staticflickr.com/5494/10655548255_732b4fb554_c.jpg
 redirect_from: /adventures/2013/11/03/albany-rural-cemetery/
 ---
-
 
 On Sunday, mom drove down for part of the day. We grabbed lunch at the Pump Station and then explored the Albany Rural Cemetery. I got the idea to check out the cemetery from [All Over Albany](http://alloveralbany.com/archive/2008/10/17/great-local-autumn-walks).
 
@@ -81,4 +79,4 @@ I found information about the Burden tomb from [Henry Burden By Mrs. Margaret E.
 
 It's amazing to see this rendering after seeing it first hand. The area surrounding the Burden tomb is much more congested now with other stones, tombs, and trees. It makes me want to go back and take a picture from the same angle to catch the differences. I remember seeing the book sculpture out front, but I couldn't read the inscription because the pages were too weathered. The digitized book linked above provides an inscription.
 
- I look forward to visiting the Albany Rural Cemetery again.
+I look forward to visiting the Albany Rural Cemetery again.

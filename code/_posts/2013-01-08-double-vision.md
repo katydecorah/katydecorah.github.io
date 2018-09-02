@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Double vision
-category: code
+
 tags:
-- Sass
+  - Sass
 pen: vaoKs
 image: http://farm8.staticflickr.com/7349/12730829314_298d4ea023_o.png
 redirect_from: /code/2013/01/08/double-vision/

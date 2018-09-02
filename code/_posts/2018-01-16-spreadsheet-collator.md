@@ -1,19 +1,19 @@
 ---
 title: Collate Google Form responses into Google Docs
-category: code
+
 image: https://c1.staticflickr.com/5/4607/27955743299_e5aa8d82ba_o.png
 tags:
-- Node.js
-- API
+  - Node.js
+  - API
 emoji: 📁
 ---
 
 For [Ela Conf](http://elaconf.com) 2016 and 2017, we created a Google Form to collect speaker feedback. The form had the following fields:
 
-+ For which session are you leaving feedback? (A select box with all the possible talks)
-+ What did you learn?
-+ What did you find confusing?
-+ What's one thing the speaker(s) can improve their talk for next time?
+- For which session are you leaving feedback? (A select box with all the possible talks)
+- What did you learn?
+- What did you find confusing?
+- What's one thing the speaker(s) can improve their talk for next time?
 
 We then read through the responses, summarized them into a personal report for each speaker, and then sent the feedback to each speaker after the conference.
 
@@ -37,11 +37,11 @@ Once you create the form, click the "Responses" tab and then the Google Sheets i
 While you have your spreadsheet open, you'll want to jot down a few credentials:
 
 1. The spreadsheet ID, which is that string of characters in the URL:
-![Screenshot of Google spreadsheet ID](https://c1.staticflickr.com/5/4707/39702871512_674448cc63_o.png)
+   ![Screenshot of Google spreadsheet ID](https://c1.staticflickr.com/5/4707/39702871512_674448cc63_o.png)
 2. The spreadsheet range, which is the tab name and cell ranges you want to read. For this example we want `Vegetable Feedback!B:D`:
-![Screenshot of Google spreadsheet range](https://c1.staticflickr.com/5/4631/39702871792_ee4d2daf2c_o.png)
+   ![Screenshot of Google spreadsheet range](https://c1.staticflickr.com/5/4631/39702871792_ee4d2daf2c_o.png)
 3. The name of the column header that holds the rows that will be the titles of your Google docs:
-![Screenshot of Google spreadsheet header row](https://c1.staticflickr.com/5/4662/39734272281_47ce959bb8_o.png)
+   ![Screenshot of Google spreadsheet header row](https://c1.staticflickr.com/5/4662/39734272281_47ce959bb8_o.png)
 
 ## Create a Google Drive folder
 

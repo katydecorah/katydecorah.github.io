@@ -1,14 +1,13 @@
 ---
 title: Adirondack Balloon Festival 2014
-category: adventures
+
 image: https://farm4.staticflickr.com/3903/15297564342_643dc19a0e_b.jpg
 locations:
- - Floyd Bennett Memorial Airport
+  - Floyd Bennett Memorial Airport
 coordinates:
- - -73.604245,43.341432
+  - -73.604245,43.341432
 redirect_from: /adventures/2014/09/20/adirondack-balloon-festival/
 ---
-
 
 1. Wake up at 3:45 am.
 2. Drive to Glens Falls.
@@ -28,17 +27,13 @@ redirect_from: /adventures/2014/09/20/adirondack-balloon-festival/
 
 <img src="https://farm4.staticflickr.com/3902/15294774571_e762bfc036_b.jpg" class="img-tall" alt="Adirondack Balloon Festival 2014">
 
-
 <img src="https://farm6.staticflickr.com/5594/15111373587_5acdf6d653_b.jpg" class="img-wide" alt="Adirondack Balloon Festival 2014">
 
 <img src="https://farm4.staticflickr.com/3874/15274892546_69b178163c_b.jpg" class="img-tall" alt="Elephant - Adirondack Balloon Festival 2014">
 
-
 <img src="https://farm4.staticflickr.com/3903/15297564342_643dc19a0e_b.jpg" alt="Fire - Adirondack Balloon Festival 2014">
 
-
 <img src="https://farm6.staticflickr.com/5566/15294784241_c3e2b8d4c0_b.jpg"  alt="Pano - Adirondack Balloon Festival 2014">
-
 
 <img src="https://farm4.staticflickr.com/3881/15111212690_572bb34d6f_b.jpg"  alt="Pano - Adirondack Balloon Festival 2014">
 </div>

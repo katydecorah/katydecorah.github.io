@@ -1,18 +1,16 @@
 ---
-layout: post
 title: Elizabethtown
-category: adventures
+
 locations:
- - Elizabethtown, NY
+  - Elizabethtown, NY
 coordinates:
- - -73.5914674,44.216574
+  - -73.5914674,44.216574
 map: static
 image: https://farm4.staticflickr.com/3907/14514367399_b410ce770a_b.jpg
 redirect_from: /adventures/2014/07/20/elizabethtown/
 ---
 
-
-This weekend we stayed with friends in Lewis.  On Saturday we woke up early to catch the town-wide garage sales in Elizabethtown in the spirit of E-town Day. Our haul included: 1 over-sized sweater, 2 books, and 3 hats.
+This weekend we stayed with friends in Lewis. On Saturday we woke up early to catch the town-wide garage sales in Elizabethtown in the spirit of E-town Day. Our haul included: 1 over-sized sweater, 2 books, and 3 hats.
 
 In the afternoon we took a little excursion out to Lake Champlain and Ausable Chasm.
 

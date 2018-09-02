@@ -1,23 +1,23 @@
 ---
 title: VT to NH to ME
-category: adventures
+
 image: https://farm6.staticflickr.com/5796/21821887349_032d9c2f1f_b.jpg
 coordinates:
-- -73.2968605,44.4926914
-- -72.8459604,44.6418721
-- -72.7846185,44.5195254
-- -72.6415568,44.4820269
-- -71.3208248,44.2706142
-- -70.3084914,43.5862495
-- -70.5117881,43.39658
+  - -73.2968605,44.4926914
+  - -72.8459604,44.6418721
+  - -72.7846185,44.5195254
+  - -72.6415568,44.4820269
+  - -71.3208248,44.2706142
+  - -70.3084914,43.5862495
+  - -70.5117881,43.39658
 locations:
-- Burlington
-- Jeffersonville
-- Bingham Falls
-- Moss Glen Falls
-- Mount Washington
-- Cape Elizabeth
-- Kennebunkport
+  - Burlington
+  - Jeffersonville
+  - Bingham Falls
+  - Moss Glen Falls
+  - Mount Washington
+  - Cape Elizabeth
+  - Kennebunkport
 ---
 
 We took a three-night drive through New England with help from [Hotel Tonight](https://www.hoteltonight.com/).

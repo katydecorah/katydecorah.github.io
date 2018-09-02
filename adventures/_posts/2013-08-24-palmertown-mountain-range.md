@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Palmertown Mountain Range
-category: adventures
+
 recommended: true
 map: static
 coordinates:
- - -73.7236504,43.2294791
+  - -73.7236504,43.2294791
 locations:
-- Moreau, NY
+  - Moreau, NY
 image: http://farm8.staticflickr.com/7347/9583833497_0171fe8688_c.jpg
 redirect_from: /adventures/2013/08/24/palmertown-mountain-range/
 ---
 
 We woke up early and drove up to Moreau Lake State Park for a hike.
-
 
 <img alt="Moreau Lake State Park Map" src="http://farm8.staticflickr.com/7303/13013176105_99e4295620_o.png">
 

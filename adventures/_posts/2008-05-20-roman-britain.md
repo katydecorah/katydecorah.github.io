@@ -1,46 +1,45 @@
 ---
 title: Roman Britain
-category: adventures
+
 locations:
-- Hadrian's Wall
-- Cawfield Milecastle
-- Vindolanda
-- Chesters Roman Fort
-- Arbeia
-- Newcastle
-- Angel of the North
-- Shrewsbury
-- Wroxeter
-- Caerleon
-- Caerwent
-- Bath
-- Chedworth
-- Stonehenge
-- Fishbourne
-- London
+  - Hadrian's Wall
+  - Cawfield Milecastle
+  - Vindolanda
+  - Chesters Roman Fort
+  - Arbeia
+  - Newcastle
+  - Angel of the North
+  - Shrewsbury
+  - Wroxeter
+  - Caerleon
+  - Caerwent
+  - Bath
+  - Chedworth
+  - Stonehenge
+  - Fishbourne
+  - London
 image: https://farm8.staticflickr.com/7375/10002145625_b0a6415859_b.jpg
 coordinates:
-- -2.601696,54.989898   #hadrians
-- -2.397806,55.00438    #cawfield
-- -2.360568,54.991146   #vindo
-- -2.140252,55.027838   #chesters
-- -1.431977,55.00405    #arbeia
-- -1.6568434,55.0023721 #newcastle
-- -1.589494,54.914122   #angel
-- -2.7496869,52.7147023 #shrew
-- -2.645571,52.670247   #wrox
-- -2.9524271,51.6121887 #caer
-- -2.76501,51.61024     #caerwent
-- -2.36453,51.3801264   #bath
-- -1.9247098,51.8054898 #ched
-- -1.826216,51.178882   #stone
-- -0.820257,50.8364284  #fish
-- -0.1015987,51.5286416 #london
+  - -2.601696,54.989898 #hadrians
+  - -2.397806,55.00438 #cawfield
+  - -2.360568,54.991146 #vindo
+  - -2.140252,55.027838 #chesters
+  - -1.431977,55.00405 #arbeia
+  - -1.6568434,55.0023721 #newcastle
+  - -1.589494,54.914122 #angel
+  - -2.7496869,52.7147023 #shrew
+  - -2.645571,52.670247 #wrox
+  - -2.9524271,51.6121887 #caer
+  - -2.76501,51.61024 #caerwent
+  - -2.36453,51.3801264 #bath
+  - -1.9247098,51.8054898 #ched
+  - -1.826216,51.178882 #stone
+  - -0.820257,50.8364284 #fish
+  - -0.1015987,51.5286416 #london
 redirect_from: /adventures/2008/05/20/roman-britain/
 ---
 
-
-At Siena, I took a course called *Roman Britain*, where we studied the Romanization of Britain. At the end of the semester we visited the sites.
+At Siena, I took a course called _Roman Britain_, where we studied the Romanization of Britain. At the end of the semester we visited the sites.
 
 ## Hadrian's Wall
 
@@ -70,7 +69,6 @@ At Siena, I took a course called *Roman Britain*, where we studied the Romanizat
 ## Chesters Roman Fort
 
 <div class="photos">
-
 
 <img src="https://farm8.staticflickr.com/7446/10002559963_a4b0166f13_b.jpg" class="img-half" alt="Chesters Roman Fort">
 

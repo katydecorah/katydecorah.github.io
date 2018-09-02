@@ -1,21 +1,19 @@
 ---
-layout: post
 title: Three Mini Vacations
-category: adventures
+
 image: http://farm6.staticflickr.com/5471/9360368377_d47822c551_c.jpg
 locations:
-- Lake Placid,NY
-- Thousand Islands,NY
-- Portsmouth,NH
+  - Lake Placid,NY
+  - Thousand Islands,NY
+  - Portsmouth,NH
 map: static
 zoom: 12
 coordinates:
- - -73.991,44.239
- - -76.0000238,44.3085161
- - -70.804,43.07
+  - -73.991,44.239
+  - -76.0000238,44.3085161
+  - -70.804,43.07
 redirect_from: /adventures/2013/07/08/three-mini-vacations/
 ---
-
 
 ## Lake Placid
 

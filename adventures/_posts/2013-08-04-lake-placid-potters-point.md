@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Lake Placid &amp; Potter's Point
-category: adventures
+
 image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
 locations:
-- Lake Placid,NY
-- Moreau,NY
+  - Lake Placid,NY
+  - Moreau,NY
 map: static
 coordinates:
- - -73.9835766,44.2805657
+  - -73.9835766,44.2805657
 redirect_from: /adventures/2013/08/04/this-weekend/
 ---
-
 
 This weekend I visited my college roommate in Lake Placid. We walked around Mirror Lake once a day, ate delicious food, and people watched. It was refreshing!
 

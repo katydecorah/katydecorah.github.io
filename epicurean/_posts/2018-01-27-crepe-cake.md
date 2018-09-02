@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Chocolate Hazelnut Crepe Cake
-category: epicurean
+
 image: https://c1.staticflickr.com/5/4740/39221869344_f95e772a50_k.jpg
 recipe: https://cooking.nytimes.com/recipes/1018338-chocolate-hazelnut-crepe-cake
 recipe-title: Chocolate Hazelnut Crepe Cake

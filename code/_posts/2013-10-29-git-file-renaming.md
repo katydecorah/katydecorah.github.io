@@ -1,13 +1,11 @@
 ---
-layout: post
 title: Git file renaming
-category: code
+
 tags:
   - Git
 image: http://farm8.staticflickr.com/7455/12730119245_3d8d6ec41a_o.jpg
 redirect_from: /code/2013/10/29/git-file-renaming/
 ---
-
 
 Today at work I needed to move and rename a ton of files, but I also needed to make sure that the Git history followed. When I tried to move the files manually, SourceTree thought I deleted the files and then created new files elsewhere. When I commit files like this, SourceTree is usually smart enough to catch on, but it wasn't happening. No good.
 
@@ -22,23 +20,23 @@ So I had to `git mv` these files myself; a new-to-me command.
 First, I moved batches of files belonging to the same topic to their respective topic folders by hitting this command:
 
 {% highlight ruby %}
-git mv L1T1* lessons/01*/01*
+git mv L1T1* lessons/01*/01\*
 {% endhighlight %}
 
-(Can I get a *hell yeah* for that asterisk?)
+(Can I get a _hell yeah_ for that asterisk?)
 
 After I moved the files I realized I wanted to shorten the filenames from `L1T1-page01.cfm` to `01.cfm`.
 
 Within each topic folder, I hit the following command:
 
 {% highlight ruby %}
-for f in *.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’);done
+for f in \*.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’);done
 {% endhighlight %}
 
-*Update 1/7/2014:* I revisited this post, I'm so glad I had save these commands! I found that instead of going into individual folders, I can run the commands from the `lessons/` folder and let it ride:
+_Update 1/7/2014:_ I revisited this post, I'm so glad I had save these commands! I found that instead of going into individual folders, I can run the commands from the `lessons/` folder and let it ride:
 
 {% highlight ruby %}
-for f in */*/*.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’);done
+for f in _/_/\*.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’);done
 {% endhighlight %}
 
 It worked. Just by looking at the last command, I know there's a smarter way to write it. Nevertheless, it worked and I'm kind of proud of myself.

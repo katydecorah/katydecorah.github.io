@@ -1,24 +1,22 @@
 ---
-layout: post
 title: North Carolina
-category: adventures
+
 locations:
-- Asheville, NC
-- Sliding Rock, Brevard, NC
-- Lake Lure, NC
-- Blowing Rock, NC
-- Appalachian State University
-- Falls Park on the Reedy, South Main Street, Greenville, SC
-- Pisgah Astronomical Research Institute
-- Pisgah National Forest
-- The North Carolina Arboretum
+  - Asheville, NC
+  - Sliding Rock, Brevard, NC
+  - Lake Lure, NC
+  - Blowing Rock, NC
+  - Appalachian State University
+  - Falls Park on the Reedy, South Main Street, Greenville, SC
+  - Pisgah Astronomical Research Institute
+  - Pisgah National Forest
+  - The North Carolina Arboretum
 map: static
 coordinates:
- - -82.5531746,35.5922388
+  - -82.5531746,35.5922388
 image: http://farm8.staticflickr.com/7366/9702678259_877fa5dab4_c.jpg
 redirect_from: /adventures/2013/04/07/north-carolina/
 ---
-
 
 My sister moved to North Carolina a few years ago. Since then my folks and I make an annual trip down to visit.
 

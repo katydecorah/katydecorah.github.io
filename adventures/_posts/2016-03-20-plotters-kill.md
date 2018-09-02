@@ -1,11 +1,11 @@
 ---
 title: Plotters Kill Preserve
-category: adventures
+
 image: https://farm2.staticflickr.com/1539/25642502930_f86da88069_b.jpg
 coordinates:
-- -74.0521084,42.8284966
+  - -74.0521084,42.8284966
 locations:
-- Rotterdam, NY
+  - Rotterdam, NY
 recommended: true
 miles: .5
 ---

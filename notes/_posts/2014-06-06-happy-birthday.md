@@ -1,11 +1,9 @@
 ---
-layout: post
 title: Happy Birthday Blog
-category: notes
+
 image: https://farm6.staticflickr.com/5477/14174930269_b388e7da02_b.jpg
 redirect_from: /notes/2014/06/06/happy-birthday/
 ---
-
 
 <div class="photos">
 <img src="https://farm6.staticflickr.com/5477/14174930269_b388e7da02_b.jpg" alt="Happy birthday blog!">
@@ -21,11 +19,11 @@ This site has given me a place and a reason to participate. It's hard to partici
 
 A few of my favorite posts from the past year:
 
-* [Jekyll Data Playlists]({{site.url}}/code/2014/03/23/jekyll-data-playlists/)
-* [Heroes Queue](/code/2013/12/06/heroes-queue/)
-* [Simple Box](/code/2013/12/04/simple-box/)
-* [z-index and transform](/code/2014/01/01/z-index-and-transform/)
-* [Static Google Maps Image for Jekyll Posts](/code/2013/09/06/google-maps-images-api-for-jekyll/)
+- [Jekyll Data Playlists]({{site.url}}/code/2014/03/23/jekyll-data-playlists/)
+- [Heroes Queue](/code/2013/12/06/heroes-queue/)
+- [Simple Box](/code/2013/12/04/simple-box/)
+- [z-index and transform](/code/2014/01/01/z-index-and-transform/)
+- [Static Google Maps Image for Jekyll Posts](/code/2013/09/06/google-maps-images-api-for-jekyll/)
 
 And in case you need to bake your own site a cake, I highly recommend [the Brown Betty Bakery Coconut Cake](http://leitesculinaria.com/83362/recipes-brown-betty-bakery-coconut-cake.html).
 

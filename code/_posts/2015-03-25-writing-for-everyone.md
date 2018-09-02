@@ -1,10 +1,10 @@
 ---
 title: Writing for everyone
-category: code
+
 image: https://farm8.staticflickr.com/7612/16606351737_721e54516d_c.jpg
 tags:
-- Jekyll
-- speaking
+  - Jekyll
+  - speaking
 emoji: 👩🏼‍🏫
 ---
 

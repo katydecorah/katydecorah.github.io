@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Haml calendar
-category: code
+
 tags:
   - Haml
   - Sass
@@ -9,9 +8,7 @@ pen: aDAoG
 image: http://farm8.staticflickr.com/7446/12730512683_90cba24840_o.png
 project: true
 redirect_from: /code/2013/08/26/haml-calendar/
-
 ---
-
 
 <p data-height="400" data-theme-id="97" data-slug-hash="aDAoG" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/aDAoG'>Haml Calendar</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
@@ -30,21 +27,23 @@ The first step: print out today's date. Once I got that, I created variables for
 I looped through `@days` to create the headers for the calendar, but I decided to only display the first letter of each day. I used a list because I find that they are easier to style and they help keep my code organized.
 
 {% highlight haml %}
+
 - @days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
-%ul.weekdays
+  %ul.weekdays
   - @days.each do |i|
     %li.weekday
-      = i[0]
-{% endhighlight %}
+    = i[0]
+    {% endhighlight %}
 
 Next I created a new list for the ordinal days of the calendar using a new loop:
 
 {% highlight haml %}
 %ul.week
-  - (1...32).each do |i|
-    %li.day
-      = i
-{% endhighlight %}
+
+- (1...32).each do |i|
+  %li.day
+  = i
+  {% endhighlight %}
 
 I started by printing 31 days (with the start of the month at Sunday for now). I styled the list items so that only 7 can fit in each row. The list items naturally fell into calendar order.
 
@@ -52,11 +51,11 @@ At this point I had a calendar, but it wasn't accurate. August begins on Thursda
 
 {% highlight haml %}
 %ul.week
-  - (-3...32).each do |i|
-    %li.day
-      - if i > 0
-        = i
-{% endhighlight %}
+
+- (-3...32).each do |i|
+  %li.day - if i > 0
+  = i
+  {% endhighlight %}
 
 The items that are `i <= 0` still exist, but they don't print a number. Instead they create blank space allowing August to begin on Thursday.
 
@@ -67,22 +66,23 @@ The calendar works, but it's not dynamic.
 I wrote a new variable called `monthStart`. Using the date function along with my variables for month and year, I could get the day each month starts on. I wrote another variable to find the position of the first of the month in my `@days` array. So in `@days` Thursday's position is 4, but my loop needs to start at -3 for the month to start on that day. I wrote down every day, its position in the array, and what number the loop needs to start on in order for the month to start on that day. From these findings, I created a formula. I take the negative of the hash and add 1.
 
 {% highlight haml %}
+
 - monthStart = Date.new(year, month, 1).strftime("%a")
 - @days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
 - hashDays = Hash[@days.map.with_index.to_a]
 - monthStartNum = hashDays[monthStart]
 - adjustMonthStartNum = -monthStartNum + 1
-{% endhighlight %}
+  {% endhighlight %}
 
 So I updated my loop:
 
 {% highlight haml %}
 %ul.week
-  - (adjustMonthStartNum...32).each do |i|
-    %li.day
-      - if i > 0
-        = i
-{% endhighlight %}
+
+- (adjustMonthStartNum...32).each do |i|
+  %li.day - if i > 0
+  = i
+  {% endhighlight %}
 
 To make sure my loop worked, I changed my `month` variable to 9 to display September. It worked!
 
@@ -91,18 +91,19 @@ However, September only has 30 days and I'm still printing out 31.
 I wrote another variable called `monthEnd`. This new variable was slightly easier than monthStart as I automatically receive an integer.
 
 {% highlight haml %}
+
 - monthEnd = Integer(Date.new(year, month, -1).strftime("%d"))
-{% endhighlight %}
+  {% endhighlight %}
 
 I updated my loop once more (Here I add 1 to monthEnd to make sure it gets the last day and not up until the last day of the month):
 
 {% highlight haml %}
 %ul.week
-  - (adjustMonthStartNum...monthEnd + 1).each do |i|
-    %li.day
-      - if i > 0
-        = i
-{% endhighlight %}
+
+- (adjustMonthStartNum...monthEnd + 1).each do |i|
+  %li.day - if i > 0
+  = i
+  {% endhighlight %}
 
 Yay! Dynamic!
 

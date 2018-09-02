@@ -1,11 +1,11 @@
 ---
 title: Grand Canyon
-category: adventures
+
 image: https://c1.staticflickr.com/1/775/32546630091_c35182c236_h.jpg
 locations:
- - Grand Canyon Village
+  - Grand Canyon Village
 coordinates:
- - -112.1375328,36.0581037
+  - -112.1375328,36.0581037
 ---
 
 To celebrate my birthday (and to mitigate cabin fever), J and I headed to the Grand Canyon.
@@ -22,7 +22,6 @@ We landed in Las Vegas on Friday, picked up the rental car, and drove about 40 m
 
 <img src="https://c1.staticflickr.com/1/709/32289770840_966e4d2e8f_h.jpg" alt="Hoover Dam">
 </div>
-
 
 ## Las Vegas
 

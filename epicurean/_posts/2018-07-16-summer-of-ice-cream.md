@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Summer of ice cream
-category: epicurean
+
 image: https://c2.staticflickr.com/2/1825/28417835647_c9de5b71b1_b.jpg
 emoji: 🍨
 ---
@@ -10,9 +9,9 @@ For the past month, I've tried a new ice cream recipe with ingredients from the 
 
 A few tips and notes:
 
-* I have this bad (well, delicious) habit of replacing all the dairy in ice cream recipes with heavy cream only. It's more calories, but I find it keeps the ice cream from getting an icy/frozen taste and gives you a smooth taste.
-* Use a rubber spatula on the pan once you mix the egg yolks with the cream. If you don't scrape well, you risk making an omelette on the bottom of your pan.
-* Use fresh eggs. It makes a huge difference.
+- I have this bad (well, delicious) habit of replacing all the dairy in ice cream recipes with heavy cream only. It's more calories, but I find it keeps the ice cream from getting an icy/frozen taste and gives you a smooth taste.
+- Use a rubber spatula on the pan once you mix the egg yolks with the cream. If you don't scrape well, you risk making an omelette on the bottom of your pan.
+- Use fresh eggs. It makes a huge difference.
 
 Here's what I made:
 

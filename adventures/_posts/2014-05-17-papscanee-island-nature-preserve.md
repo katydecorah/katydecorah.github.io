@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Papscanee Island Nature Preserve
-category: adventures
+
 recommended: true
 locations:
- - Rensselaer, NY
+  - Rensselaer, NY
 coordinates:
- - -73.7440735,42.5726903
+  - -73.7440735,42.5726903
 map: static
 image: https://farm3.staticflickr.com/2897/14226916873_111fb655b5_z.jpg
 redirect_from: /adventures/2014/05/17/papscanee-island-nature-preserve/
 ---
-
 
 This morning we went to the Papscanee Island Nature Preserve in Rensselaer. We started at the north entrance of the preserve, giving us a driving tour of the Port of Rensselaer's oil yard. We didn't think we were in the right place, until we noticed a trail head at the end of a dead end road.
 
@@ -31,9 +29,7 @@ This is one of my favorite trails to date. The preserve has four trails, all rel
 <img src="https://farm6.staticflickr.com/5522/14206785745_a27b53f807_c.jpg" class="img-half" alt="Papscanee Island Nature Preserve">
 <img src="https://farm3.staticflickr.com/2897/14226916873_111fb655b5_c.jpg" class="img-half" alt="Papscanee Island Nature Preserve">
 
-
 <img src="https://farm3.staticflickr.com/2907/14206767285_dd13aa02e0_c.jpg" alt="Papscanee Island Nature Preserve">
-
 
 <img src="https://farm6.staticflickr.com/5515/14183626136_779273e8ad_h.jpg" class="pop-out" alt="Papscanee Island Nature Preserve">
 </div>

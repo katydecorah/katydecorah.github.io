@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Mini Boston Cream Pies
-category: epicurean
+
 image: https://farm6.staticflickr.com/5593/14475647445_b6a140e9e7_b.jpg
 recipe: http://www.foodnetwork.com/recipes/boston-cream-pie-recipe0.html
 recipe-title: Boston Cream Pie

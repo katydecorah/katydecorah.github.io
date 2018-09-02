@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Pine Hollow Arboretum
-category: adventures
+
 recommended: true
 locations:
- - Slingerlands, NY
+  - Slingerlands, NY
 coordinates:
- - -73.8553663,42.6328986
+  - -73.8553663,42.6328986
 zoom: 16
 image: https://farm3.staticflickr.com/2918/14771854853_f283db09ba_b.jpg
 redirect_from: /adventures/2014/07/27/pine-hollow-arboretum/
 ---
-
 
 Yesterday we visited the [Pine Hollow Arboretum](http://www.pinehollowarboretum.org/) in Slingerlands. We saw the sign for the arboretum during one of our drives out to Rensselaerville.
 
@@ -46,6 +44,6 @@ This might be the best place to satisfy the urge to (safely) get lost in the woo
 
 Recipe for the perfect day date:
 
- 1. Get lost inside the Pine Hollow Arboretum.
- 2. Enjoy homemade ice cream at Toll Gate.
- 3. *optional:* Buy two freshly steamed lobsters at ShopRite for an early dinner.
+1.  Get lost inside the Pine Hollow Arboretum.
+2.  Enjoy homemade ice cream at Toll Gate.
+3.  _optional:_ Buy two freshly steamed lobsters at ShopRite for an early dinner.

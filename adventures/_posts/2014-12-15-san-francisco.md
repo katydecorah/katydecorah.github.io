@@ -1,15 +1,13 @@
 ---
-layout: post
 title: San Francisco
-category: adventures
+
 locations:
-- San Francisco
+  - San Francisco
 image: https://farm8.staticflickr.com/7568/15400931074_51ac98e1c8_c.jpg
 coordinates:
-- -122.4160994,37.7785974
+  - -122.4160994,37.7785974
 redirect_from: /adventures/2014/12/15/san-francisco/
 ---
-
 
 I spent last week working out of the Mapbox San Francisco office.
 

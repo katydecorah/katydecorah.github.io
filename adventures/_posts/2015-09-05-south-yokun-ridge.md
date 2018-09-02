@@ -1,13 +1,12 @@
 ---
-layout: post
 title: South Yokun Ridge
-category: adventures
+
 image: https://farm1.staticflickr.com/567/20552818663_bd6e380450_b.jpg
 recommended: true
 locations:
-- Stockbridge, MA
+  - Stockbridge, MA
 coordinates:
-- -73.3376854,42.3518065
+  - -73.3376854,42.3518065
 miles: 1.6
 ---
 

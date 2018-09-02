@@ -1,10 +1,9 @@
 ---
-layout: post
 title: "Mount Baker &amp; Aunt Pauline’s .22"
-category: adventures
+
 map: static
 coordinates:
- - -74.1183395,44.3291764
+  - -74.1183395,44.3291764
 locations:
   - "Mount Baker, Saranac Lake"
   - "Lake Placid,NY"
@@ -12,7 +11,6 @@ locations:
 image: http://farm3.staticflickr.com/2823/10229168105_2131a10c49_c.jpg
 redirect_from: /adventures/2013/10/14/mount-baker/
 ---
-
 
 ## Mount Baker
 

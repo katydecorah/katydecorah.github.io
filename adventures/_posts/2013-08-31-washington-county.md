@@ -1,23 +1,21 @@
 ---
-layout: post
 title: Washington County
-category: adventures
+
 image: http://farm3.staticflickr.com/2883/9640995748_1ef8807155_c.jpg
 locations:
- - Hebron,NY
- - Salem,NY
- - Argyle,NY
- - Cossayuna lake
- - Shushan,NY
- - Rupert,VT
- - Pawlett,VT
+  - Hebron,NY
+  - Salem,NY
+  - Argyle,NY
+  - Cossayuna lake
+  - Shushan,NY
+  - Rupert,VT
+  - Pawlett,VT
 map: static
 coordinates:
- - -73.3551201,43.4006769
+  - -73.3551201,43.4006769
 zoom: 11
 redirect_from: /adventures/2013/08/31/washington-county/
 ---
-
 
 Mom and I went on a Washington County/Vermont adventure today.
 

@@ -1,10 +1,10 @@
 ---
 title: Create emails from a Google spreadsheet
-category: code
+
 image: https://c1.staticflickr.com/5/4768/39734525941_2f6f5dc8c7_o.png
 tags:
-- JavaScript
-- API
+  - JavaScript
+  - API
 emoji: 📨
 ---
 
@@ -45,15 +45,15 @@ Open up the tab of a Google spreadsheet that has your data.
 
 Make the script your own by specifying which columns have which data, assigning variables, and using those variables to weave together your message.
 
-Check out the [createDraft documentation](https://developers.google.com/apps-script/reference/gmail/gmail-app#createDraft(String,String,String)) to learn about more options. For example, you can cc or bcc others on the emails or add a reply-to address.
+Check out the [createDraft documentation](<https://developers.google.com/apps-script/reference/gmail/gmail-app#createDraft(String,String,String)>) to learn about more options. For example, you can cc or bcc others on the emails or add a reply-to address.
 
 The current script is set up to create drafts. If you'd prefer the script to send emails instead, swap out the `GmailApp.createDraft()` function with:
 
 ```js
 MailApp.sendEmail(
-  'hello@email.com', // recipient
-  'To my subscribers', // subject
-  'Dear subscriber,\nI love you.\nYours,\nKaty' // body
+  "hello@email.com", // recipient
+  "To my subscribers", // subject
+  "Dear subscriber,\nI love you.\nYours,\nKaty" // body
 );
 ```
 
@@ -66,9 +66,11 @@ The first time you run the script you'll need to grant permission for it to read
 1. Click the play icon or click `Run > Run function > draftMyEmails` from the toolbar.
 2. A window should appear. Click "Review Permissions."
 3. Select the account you want to authenticate.
-  + You may get a warning since this isn't an official script.
-  + Review the code to get an idea of how it works and how it will interact with your account.
-  + Once you feel comfortable, from the warning screen, click "Advanced" then "Go to Draft emails (unsafe)" (or whatever you named your script). This will get you through to the next screen.
+
+- You may get a warning since this isn't an official script.
+- Review the code to get an idea of how it works and how it will interact with your account.
+- Once you feel comfortable, from the warning screen, click "Advanced" then "Go to Draft emails (unsafe)" (or whatever you named your script). This will get you through to the next screen.
+
 4. Click "Allow" to grant the script access to the stated parts of your account.
 
 ## Run the script

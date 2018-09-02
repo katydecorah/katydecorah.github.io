@@ -1,6 +1,6 @@
 ---
 title: Organizing a conference with bots
-category: notes
+
 image: https://cloud.githubusercontent.com/assets/2180540/17576600/6ad2076e-5f42-11e6-8b3a-d2ca29823192.png
 ---
 
@@ -12,9 +12,7 @@ Every time someone submits a volunteer application or an abstract, a new GitHub 
 
 ![abstract](https://cloud.githubusercontent.com/assets/2180540/17576762/664883c4-5f44-11e6-8a1b-f8c644526672.png)
 
-
 ![volunteerbot](https://cloud.githubusercontent.com/assets/2180540/17576748/3b4f1bd8-5f44-11e6-946d-2cc2c0290260.png)
-
 
 :raising_hand: **Under the hood:** First, I created a GitHub account @elaconfbot (so as to not inflate my GitHub graph, make it clear that I'm not creating new issues, and because bots are cute). I made a zap in Zapier that will submit a new GitHub issue by @elaconfbot once a new row in the form's spreadsheet is added (aka someone fills out the form). We also have a Slack integration that watches the repo for new issues.
 
@@ -23,7 +21,6 @@ With Zapier, you can also assign labels and even add issues to milestones as som
 We have this workflow set up for all of our forms:
 
 ![image](https://cloud.githubusercontent.com/assets/2180540/17576807/d451df46-5f44-11e6-8736-f3c6d60ff112.png)
-
 
 ## Welcomebot
 
@@ -35,7 +32,6 @@ Every time a someone requests to join our Slack channel, we get pinged in our or
 
 ![image](https://cloud.githubusercontent.com/assets/2180540/17576797/bc0f2f92-5f44-11e6-9bfe-addc4bd3547c.png)
 
-
 ## Ticketbot
 
 Every time someone buys a ticket, we get pinged in our organizer channel:
@@ -45,7 +41,6 @@ Every time someone buys a ticket, we get pinged in our organizer channel:
 :ok_woman: **Under the hood:** I created a catch hook in Zapier and entered it in [nvite](https://nvite.com)'s RSVP webhook setting (thanks for being a sponsor, nvite!) as the trigger. I think this is our favorite bot!
 
 ![image](https://cloud.githubusercontent.com/assets/2180540/17576784/9cc48722-5f44-11e6-91ce-82e893ffbf30.png)
-
 
 ## Bots, bots, and more bots
 

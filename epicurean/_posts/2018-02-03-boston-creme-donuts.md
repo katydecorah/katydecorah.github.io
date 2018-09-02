@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Boston Cream Doughnuts
-category: epicurean
+
 image: https://c1.staticflickr.com/5/4741/40044860912_1cbae510b5_k.jpg
 recipe: https://cooking.nytimes.com/recipes/1017066-boston-cream-doughnuts
 recipe-title: Boston Cream Doughnuts

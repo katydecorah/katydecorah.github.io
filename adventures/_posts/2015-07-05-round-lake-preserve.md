@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Round Lake Preserve
-category: adventures
+
 image: https://farm1.staticflickr.com/525/18832607123_9f6df1a44a_b.jpg
 locations:
-- Round lake
+  - Round lake
 coordinates:
-- -73.7808698,42.9348016
+  - -73.7808698,42.9348016
 ---
 
 <div class="photos">

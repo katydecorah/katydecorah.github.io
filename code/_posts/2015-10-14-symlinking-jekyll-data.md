@@ -1,9 +1,9 @@
 ---
 title: Symlinking Jekyll data files
-category: code
+
 image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
 tags:
-- Jekyll
+  - Jekyll
 ---
 
 [Font Library]({{site.url}}/font-library/) has delicious data packed into a [JSON file]({{site.url}}/font-library/families.json). I've had an urge to see how else I can hack the file with Jekyll and tonight I was up for the challenge.
@@ -13,18 +13,19 @@ To start, the JSON file is in the root of the Jekyll site, making it a simple fi
 I also thought about duplicating the file so that I'd have the best of both worlds, but that's hard to maintain. And then I thought about creating a [symlink](https://en.wikipedia.org/wiki/Symbolic_link). I had never created one before, but [thanks to the Internet](http://apple.stackexchange.com/a/115647) I opened Terminal and entered:
 
 {% highlight sh %}
-$ ln -s ../families.json _data/families.json
+$ ln -s ../families.json \_data/families.json
 {% endhighlight %}
 
-And :boom: symlink! (Ok, it wasn't that smooth. It took me a bit to figure out how to write the path. And then after I pushed, I got a build error because I originally didn't use a *relative* path.)
+And :boom: symlink! (Ok, it wasn't that smooth. It took me a bit to figure out how to write the path. And then after I pushed, I got a build error because I originally didn't use a _relative_ path.)
 
 But will it loop?
 
 I created a file in the root `families.csv` and wrote:
 
-{% highlight liquid %}{% raw %}
+## {% highlight liquid %}{% raw %}
+
 ---
----
+
 {% for item in site.data.families %}
 {{item.family}}
 {% endfor %}

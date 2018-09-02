@@ -1,6 +1,6 @@
 ---
 title: Breathe with your stomach
-category: notes
+
 elsewhere-site: The Pastry Box Project
 elsewhere-link: https://the-pastry-box-project.net/katy-decorah/2015-march-29
 image: https://farm9.staticflickr.com/8715/16783493748_4db30df288_o.png

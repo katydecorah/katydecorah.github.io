@@ -1,19 +1,16 @@
 ---
-layout: post
 title: Western Mass Adventures
-category: adventures
+
 image: http://farm6.staticflickr.com/5336/8916078180_7f0dbe0411.jpg
 locations:
-- North Adams,MA
-- Grafton,NY
-- Wilton,NY
+  - North Adams,MA
+  - Grafton,NY
+  - Wilton,NY
 map: static
 coordinates:
- - -73.1107281,42.700456
+  - -73.1107281,42.700456
 redirect_from: /adventures/2013/06/02/this-weekend/
-
 ---
-
 
 This weekend we woke up early and drove out to North Adams, Massachusetts. We took a 20-minute muddy hike through the woods and ended up at a waterfall.
 

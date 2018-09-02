@@ -1,17 +1,15 @@
 ---
-layout: post
 title: Lake Placid
-category: adventures
+
 locations:
-- Lake Placid,NY
-- Saranac Lake,NY
+  - Lake Placid,NY
+  - Saranac Lake,NY
 image: http://farm4.staticflickr.com/3673/10848191516_7844876141_b.jpg
 map: static
 coordinates:
- - -73.9835766,44.2805657
+  - -73.9835766,44.2805657
 redirect_from: /adventures/2013/02/15/lake-placid/
 ---
-
 
 Traveled up to Lake Placid for the weekend with a college roommate, to visit our other college roommate. She had a nice birthday surprise waiting for me!
 

@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Raspberry Chocolate Pie
-category: epicurean
+
 image: http://farm3.staticflickr.com/2820/9363187784_6237192a90_c.jpg
 redirect_from: /epicurean/2013/07/04/raspberry-chocolate-pie/
 ---

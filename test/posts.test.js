@@ -5,7 +5,8 @@ const paths = [
   'adventures/_posts/',
   'epicurean/_posts/',
   'code/_posts/',
-  'playlists/_posts/'
+  'playlists/_posts/',
+  'notes/_posts/'
 ];
 
 const readPost = filename => {
@@ -74,10 +75,6 @@ posts.forEach(post => {
 
     t.ok(metadata.title, 'post must have a title');
     t.ok(metadata.image, 'post must have an image');
-    t.ok(metadata.category, 'post must have a category');
-    if (metadata.layout) {
-      t.equal(metadata.layout, 'post', 'layout must equal `post`');
-    }
 
     // check permalinks
     let permalink;

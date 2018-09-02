@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Tea, Wine, &amp; Mud Pond
-category: adventures
+
 coordinates:
   - -73.5356922,42.563398
 map: static
@@ -12,7 +11,6 @@ locations:
 image: http://farm6.staticflickr.com/5547/10789496434_0f2b245c5c_c.jpg
 redirect_from: /adventures/2013/11/11/tea-wine-and-mud-pond/
 ---
-
 
 ## Tea
 
@@ -27,7 +25,7 @@ After lunch, we walked around town and stopped in Wheats & Sweets for a giant co
 
 ## Wine
 
-My cousin Kaylee works at [Oliva Vineyards](http://olivavineyards.com/) in Fort Edward. We stopped in for a wine tasting after exploring Ballston Spa. We enjoyed six different wines and both bought a bottle of the *Pretty Filly Ros&#233;* (the bottle included a little kit to make mulled wine).
+My cousin Kaylee works at [Oliva Vineyards](http://olivavineyards.com/) in Fort Edward. We stopped in for a wine tasting after exploring Ballston Spa. We enjoyed six different wines and both bought a bottle of the _Pretty Filly Ros&#233;_ (the bottle included a little kit to make mulled wine).
 
 The vineyard is also home to thoroughbred horses.
 

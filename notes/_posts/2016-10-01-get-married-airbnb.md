@@ -1,6 +1,6 @@
 ---
 title: How to get married at an Airbnb
-category: notes
+
 image: https://c2.staticflickr.com/6/5697/30011820675_1afe36b9f6_b.jpg
 ---
 
@@ -18,12 +18,12 @@ After hitting dead ends with typical wedding venues, we took to Airbnb. I knew a
 
 Here are some features to look for when choosing your Airbnb venue:
 
-* a bedroom for everyone
-* a large dining table
-* space for a ceremony outside (and inside in case of rain)
-* flexible check-in and out times
-* space for the everyone to get ready
-* fun amenities (hot tub, sauna, hiking trails)
+- a bedroom for everyone
+- a large dining table
+- space for a ceremony outside (and inside in case of rain)
+- flexible check-in and out times
+- space for the everyone to get ready
+- fun amenities (hot tub, sauna, hiking trails)
 
 <div class="photos">
 <img src="https://c1.staticflickr.com/9/8445/29977477686_2353970075_b.jpg" class="img-half" alt="house">
@@ -50,7 +50,7 @@ We found that traditional wedding caterers had a minimum fee for their services 
 
 ## 5. Plan out all meals
 
-Since we were all there for the weekend, each family ended up covering a meal which worked well. I think the hardest part was that we had *so* many leftovers to divvy up on Sunday.
+Since we were all there for the weekend, each family ended up covering a meal which worked well. I think the hardest part was that we had _so_ many leftovers to divvy up on Sunday.
 
 ## 6. Have a back-up plan
 
@@ -84,12 +84,12 @@ We weren't sure what the Airbnb would have stocked in the kitchen, so we picked 
 
 Ok, I bought a ton of other stuff, too:
 
-* [Ensidig](http://www.ikea.com/us/en/catalog/products/10239888/) [vases](http://www.ikea.com/us/en/catalog/products/40233149/) from Ikea
-* [Glasig tealight holders](http://www.ikea.com/us/en/catalog/products/00259141/) from Ikea
-* White candlesticks and tealights from Target
-* [Marble tile](http://amzn.to/2cEPXjb) (that I turned into coasters by sanding them down and adding felt backing)
-* Wood blocks from the craft store that Jason drilled holes to fit candlesticks
-* Copper [mugs](http://amzn.to/2dq4vyZ), [pitcher](http://www.potterybarn.com/products/copper-cocktail-pitcher/), [bar spoon](http://amzn.to/2daXach), and [jigger](http://amzn.to/2daXach)
+- [Ensidig](http://www.ikea.com/us/en/catalog/products/10239888/) [vases](http://www.ikea.com/us/en/catalog/products/40233149/) from Ikea
+- [Glasig tealight holders](http://www.ikea.com/us/en/catalog/products/00259141/) from Ikea
+- White candlesticks and tealights from Target
+- [Marble tile](http://amzn.to/2cEPXjb) (that I turned into coasters by sanding them down and adding felt backing)
+- Wood blocks from the craft store that Jason drilled holes to fit candlesticks
+- Copper [mugs](http://amzn.to/2dq4vyZ), [pitcher](http://www.potterybarn.com/products/copper-cocktail-pitcher/), [bar spoon](http://amzn.to/2daXach), and [jigger](http://amzn.to/2daXach)
 
 <div class="photos">
 <img src="https://c2.staticflickr.com/6/5814/29384992913_bd0b4d812e_b.jpg" alt="yay">

@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Scalable balloons
-category: code
+
 tags:
   - Sass
   - Haml
@@ -9,9 +8,7 @@ tags:
 image: http://codepen.io/katydecorah/pen/cdkHn/image/large.png
 pen: cdkHn
 redirect_from: /code/2013/11/05/scalable-balloons/
-
 ---
-
 
 <p data-height="550" data-theme-id="97" data-slug-hash="cdkHn" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cdkHn'>Random Customizable Balloons</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
@@ -46,13 +43,13 @@ Next, I adjusted my `:before`, or the rubber tie part of the balloon, to be in p
 {% highlight css %}
 width: $balloonWidth / 8;
 height: $balloonWidth / 14;
-bottom: ($balloonWidth / 14) * -0.75;
+bottom: ($balloonWidth / 14) \* -0.75;
 left: ($balloonWidth / 2) - ($balloonWidth / 14);
 {% endhighlight %}
 
 I went back and forth between setting the `$balloonWidth` from a low number and then to a high number and decided that those equations suited my rubber tie part of the balloon best.
 
-For the balloon string, I did a similar guess and check. I only needed to control the left position of the `:after` element, to center the string on the balloon, and found  `left:($balloonWidth / 2.1);` to be the sweet spot.
+For the balloon string, I did a similar guess and check. I only needed to control the left position of the `:after` element, to center the string on the balloon, and found `left:($balloonWidth / 2.1);` to be the sweet spot.
 
 I also adjusted the `$balloonLeft` variable to take into account the balloon width. By doing so I added a new variable, `$balloonProx` to tweak the proximity of the balloons: `$balloonLeft: $balloonLeft + ($balloonWidth/$balloonProx);`
 

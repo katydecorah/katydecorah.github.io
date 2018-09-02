@@ -1,16 +1,15 @@
 ---
-layout: post
 title: San Francisco all weekend
-category: adventures
+
 image: https://farm8.staticflickr.com/7589/17107363276_e9950eff4c_b.jpg
 locations:
-- San Francisco
-- Año Nuevo State Park
-- Santa Cruz
+  - San Francisco
+  - Año Nuevo State Park
+  - Santa Cruz
 coordinates:
-- -122.4333534,37.7777447
-- -122.340045,37.143
-- -122.0316793,36.9794772
+  - -122.4333534,37.7777447
+  - -122.340045,37.143
+  - -122.0316793,36.9794772
 ---
 
 I worked out of the SF Mapbox office last week and then hung around for the weekend. Adventure was had (along with cocktails, sunburns, and getting 10,000 steps).
@@ -41,7 +40,6 @@ I worked out of the SF Mapbox office last week and then hung around for the week
 <img src="https://farm8.staticflickr.com/7615/16945773840_1014380746_b.jpg" class="img-half" alt="untitled">
 <img src="https://farm9.staticflickr.com/8734/16945783540_47cf0f3e29_b.jpg" class="img-half" alt="untitled">
 </div>
-
 
 ## Año Nuevo State Park
 

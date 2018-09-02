@@ -1,11 +1,11 @@
 ---
 title: Building a WeatherBot
-category: code
+
 image: https://c1.staticflickr.com/3/2719/32935597221_eef6641328_b.jpg
 tags:
-- Node.js
-- AWS
-- API
+  - Node.js
+  - AWS
+  - API
 emoji: ❄️
 ---
 
@@ -16,7 +16,7 @@ We live in Upstate New York so there's snow and it's kind of pain for J to plow 
 ## How it works
 
 1. Using the [Dark Sky API](https://darksky.net/dev/), I [run through the hourly data](https://github.com/katydecorah/weatherbot/blob/bfef0af2650e42c7fcee960ac615de680b6987c2/index.js#L29) for the next 12 hours.
-2. During each hour, if there's precipitation and it's snow, *and* there is accumulation then [start adding up the accumulation](https://github.com/katydecorah/weatherbot/blob/bfef0af2650e42c7fcee960ac615de680b6987c2/index.js#L32-L34).
+2. During each hour, if there's precipitation and it's snow, _and_ there is accumulation then [start adding up the accumulation](https://github.com/katydecorah/weatherbot/blob/bfef0af2650e42c7fcee960ac615de680b6987c2/index.js#L32-L34).
 3. If there's more than 1 inch of snow during the next 12 hours, then [post to Slack](https://github.com/katydecorah/weatherbot/blob/bfef0af2650e42c7fcee960ac615de680b6987c2/index.js#L41-L47).
 
 ## How it runs

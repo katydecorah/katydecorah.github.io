@@ -1,26 +1,24 @@
 ---
-layout: post
 title: Thacher Park in the morning
-category: adventures
+
 recommended: true
 map: static
 coordinates:
- - -74.0125265,42.6512778
+  - -74.0125265,42.6512778
 image: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_c.jpg
 image-small: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_n.jpg
 image-large: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_o.jpg
 locations:
-- Voorheesville, NY
-- Crispy Cannoli, East Greenbush, NY
+  - Voorheesville, NY
+  - Crispy Cannoli, East Greenbush, NY
 redirect_from:
-- /weekends/2013/09/05/thacher-park-in-the-morning.html
-- /adventures/2013/09/05/thacher-park-in-the-morning/
+  - /weekends/2013/09/05/thacher-park-in-the-morning.html
+  - /adventures/2013/09/05/thacher-park-in-the-morning/
 ---
-
 
 Beautiful morning.
 
-(Confession: before today I was spelling *Thacher* with two *t*s.)
+(Confession: before today I was spelling _Thacher_ with two *t*s.)
 
 <div class="photos">
 <img alt="Thacher Park in the morning" class="pop-out" src="http://farm6.staticflickr.com/5529/9692900569_1cdc926e2b_b.jpg">

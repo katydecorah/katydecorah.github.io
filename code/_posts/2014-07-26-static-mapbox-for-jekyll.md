@@ -1,19 +1,16 @@
 ---
-layout: post
 title: Static Mapbox API for Jekyll posts
-category: code
+
 coordinates:
- - -73.7236504,43.2294791
+  - -73.7236504,43.2294791
 locations:
- - Moreau Lake State Park
+  - Moreau Lake State Park
 tags:
- - Jekyll
- - API
+  - Jekyll
+  - API
 image: https://farm6.staticflickr.com/5571/14562967428_1bd555644c_o.png
 redirect_from: /code/2014/07/26/static-mapbox-for-jekyll/
-
 ---
-
 
 I've done [Static Google Maps Image for Jekyll Posts](/code/2013/09/06/google-maps-images-api-for-jekyll/), [Mapbox for Jekyll Posts](/code/2014/01/26/mapbox-for-jekyll-posts/), but it's time to settle down.
 
@@ -25,9 +22,10 @@ The front matter of this post, supplies `locations` and `coordinates`.
 
 {% highlight yaml %}
 coordinates:
- - -73.7236504,43.2294791
-locations: Moreau Lake State Park
-{% endhighlight %}
+
+- -73.7236504,43.2294791
+  locations: Moreau Lake State Park
+  {% endhighlight %}
 
 As it stands, the `locations` variable doesn't help generate the static map. The Mapbox API accepts coordinates, but I want to keep the locations as a label and for future flexibility.
 
@@ -40,6 +38,7 @@ I updated my map include to generate the static map:
 {% highlight html %}
 {% raw %}
 {% if page.coordinates %}
+
   <div class="post-map-header">
   	<div style="background-image:url(http://api.tiles.mapbox.com/v4/{{ site.mapid }}/{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if page.zoom %}{{ page.zoom }}{% else %}15{% endif %}/1280x300.png?access_token={{ site.mapbox-token }})" class="post-location-image"></div>
   </div>
@@ -57,4 +56,4 @@ To style the map, I opened it up on the Mapbox site. I started with one the pres
 
 Some of the maps have a very cool effect, such as the map I used for this post (as see in my [Palmertown Mountain Range](/adventures/2013/08/24/palmertown-mountain-range/) post). I'm really digging it.
 
-I updated the front matter on *all* my map-having posts with coordinates. Now this entire site runs on the static Mapbox API. Also, I upgraded to Mapbox v4 and the quality is amazing!
+I updated the front matter on _all_ my map-having posts with coordinates. Now this entire site runs on the static Mapbox API. Also, I upgraded to Mapbox v4 and the quality is amazing!

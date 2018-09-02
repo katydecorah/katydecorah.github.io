@@ -1,17 +1,14 @@
 ---
-layout: post
 title: "z-index and transform"
-category: code
+
 tags:
-- Haml
-- Sass
+  - Haml
+  - Sass
 image: http://farm8.staticflickr.com/7409/12730119235_c26ceaf678_o.png
 pen: lqBtz
 dribbble: http://drbl.in/jJIr
 redirect_from: /code/2014/01/01/z-index-and-transform/
-
 ---
-
 
 <p data-height="400" data-theme-id="97" data-slug-hash="lqBtz" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/lqBtz'>END by Catt</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
@@ -55,8 +52,8 @@ To allow the children to exist on their own, I needed to pepper in a couple more
 
 {% highlight css %}
 .ribbon {
-	...
-	transform-style: preserve-3d;
+...
+transform-style: preserve-3d;
 }
 {% endhighlight %}
 
@@ -64,12 +61,12 @@ Next, I controlled the stacking order of the pseudo elements through `translateZ
 
 {% highlight css %}
 .ribbon {
-	...
-	transform-style: preserve-3d;
+...
+transform-style: preserve-3d;
 }
 .ribbon:before, .ribbon:after {
-	...
-	transform: translateZ(-1em);
+...
+transform: translateZ(-1em);
 }
 {% endhighlight %}
 

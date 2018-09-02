@@ -1,17 +1,14 @@
 ---
-layout: post
 title: Rabbit by Beard Chicken
-category: code
+
 tags:
-- Sass
-- animation
+  - Sass
+  - animation
 image: http://i.cdpn.io.s3.amazonaws.com/6362.uIEFy.bc2d5743-393d-4569-9887-20a32aed7fd0.png
 pen: uIEFy
 dribbble: http://dribbble.com/shots/1316513
 redirect_from: /code/2013/11/20/rabbit-by-beard-chicken/
-
 ---
-
 
 <p data-height="500" data-theme-id="97" data-slug-hash="uIEFy" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/uIEFy'>Rabbit by Beard Chicken</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
@@ -41,8 +38,8 @@ So in the case of `.clouds`:
 
 {% highlight css %}
 .clouds {
-	...
-	box-shadow: 5em 2em 0 -0.3em white, -2em 2em 0 white;
+...
+box-shadow: 5em 2em 0 -0.3em white, -2em 2em 0 white;
 }
 {% endhighlight %}
 

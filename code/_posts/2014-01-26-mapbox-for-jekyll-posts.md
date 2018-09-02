@@ -1,25 +1,22 @@
 ---
-layout: post
 title: Mapbox for Jekyll posts
-category: code
+
 map: Mapbox
 coordinates:
   - -73.7629483,42.6539068
   - -73.7254484,43.2440284
   - -82.5525523,35.565
 locations:
- - Albany, NY
- - South Glens Falls, NY
- - Asheville, NC
+  - Albany, NY
+  - South Glens Falls, NY
+  - Asheville, NC
 tags:
   - API
   - Jekyll
   - JavaScript
 image: http://a.tiles.mapbox.com/v3/katydecorah.h41bj3lj/5/9/11.png
 redirect_from: /code/2014/01/26/mapbox-for-jekyll-posts/
-
 ---
-
 
 **As of 7/26/2014, this site has moved to the [Mapbox static API](/code/2014/07/26/static-mapbox-for-jekyll/).**
 
@@ -29,9 +26,9 @@ Since then, the Google maps have worked great with my posts. All I need to do is
 
 I started playing with the [Mapbox](https://www.mapbox.com) API this weekend. The API has so many features that I started a wish list for my posts with maps:
 
-* full width map
-* automatically fit markers to map
-* customize the overall look and feel
+- full width map
+- automatically fit markers to map
+- customize the overall look and feel
 
 I decided to roll Mapbox into my site, much like I did with Google maps.
 
@@ -45,28 +42,28 @@ My next step was to marry the two examples:
 
 {% highlight javascript %}
 var map = L.mapbox.map('map', 'katydecorah.h41bj3lj'),
-   geoJson = [
-      {
-        "type":"FeatureCollection",
-        "features":[
-          {
-            "type":"Feature",
-            "properties":{
-              "title":"DC",
-              "marker-color":"#2A2B26"
-            },
-            "geometry":{
-              "type":"Point",
-              "coordinates":[
-                -77.03887939453125,
-                38.89530825492018
-              ]
-            }
-          }
-        ]
-      }
-    ],
-   markerLayer = L.mapbox.markerLayer().setGeoJSON(geoJson).addTo(map);
+geoJson = [
+{
+"type":"FeatureCollection",
+"features":[
+{
+"type":"Feature",
+"properties":{
+"title":"DC",
+"marker-color":"#2A2B26"
+},
+"geometry":{
+"type":"Point",
+"coordinates":[
+-77.03887939453125,
+38.89530825492018
+]
+}
+}
+]
+}
+],
+markerLayer = L.mapbox.markerLayer().setGeoJSON(geoJson).addTo(map);
 map.fitBounds(markerLayer.getBounds());
 {% endhighlight %}
 
@@ -78,6 +75,7 @@ It worked!
 </figure>
 
 ## Jekyll and Mapbox
+
 Now that I had the map working, I was confident that I could integrate Mapbox into my Jekyll posts.
 
 In the front-matter of this post, I added `locations`, just like I have done in previous posts to generate a Google map (I'm using coordinates until I have time to crack [geocoding](#geocoding)). I added a new flag to this post, `mapType: Mapbox`, which will let Jekyll know that I want to use Mapbox and not Google maps.
@@ -87,10 +85,11 @@ The following is currently in this page's front-matter to generate the map:
 {% highlight yaml %}
 mapType: Mapbox
 locations:
- - "-73.7629483,42.6539068"
- - "-73.7254484,43.2440284"
- - "-82.5525523,35.5908429"
-{% endhighlight %}
+
+- "-73.7629483,42.6539068"
+- "-73.7254484,43.2440284"
+- "-82.5525523,35.5908429"
+  {% endhighlight %}
 
 Since I'm still exploring and learning the Mapbox API, I'm not 100% ready to break up with Google maps on my posts. For now I will allow Google maps on previous posts, but I will use the flag to let Jekyll know when to use Mapbox.
 
@@ -100,9 +99,10 @@ I altered my Google map code to consider the new Mapbox flag:
 {% raw %}
 {% if page.locations %}
 <div{% if page.mapType %} id="map"{% endif %} class="post-map-header">
-	{% if page.mapType %}{% else %}
-	<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location | replace:' ','+' }}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% else %}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% endif %}{% endfor %}&amp;zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&amp;size=1280x180&amp;scale=2&amp;sensor=false&amp;visual_refresh=true" class="post-location-image" alt="untitled">
-	{% endif %}
+{% if page.mapType %}{% else %}
+<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location | replace:' ','+' }}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% else %}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% endif %}{% endfor %}&amp;zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&amp;size=1280x180&amp;scale=2&amp;sensor=false&amp;visual_refresh=true" class="post-location-image" alt="untitled">
+{% endif %}
+
 </div>
 {% endif %}
 {% endraw %}
@@ -111,6 +111,7 @@ I altered my Google map code to consider the new Mapbox flag:
 If the post has `mapType`, then Jekyll will add `id="map"` and it will not load the Google map. For this page, which has `mapeType`, the logic above will output:
 
 {% highlight html %}
+
 <div id="map" class="post-map-header"></div>
 {% endhighlight %}
 
@@ -119,6 +120,7 @@ In my `end.html` include, that wraps up every post and page, I added a new inclu
 {% highlight erb %}
 {% raw %}
 {% if page.mapType %}
+
 <link href='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
 <script src='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
 <script>
@@ -140,7 +142,7 @@ If the page has `mapType`, then it will load Mapbox and create the `geoJson` var
 
 ## Finalizing
 
-I decided to disable dragging and zooming because for posts, the map is more supplemental and for context. I didn't want my visitors to get lost in a scroll. I also overrode the `cursor: move`  on `.leaflet-container,.leaflet-clickable` to `default` to not confuse visitors since the dragging and zooming is disabled.
+I decided to disable dragging and zooming because for posts, the map is more supplemental and for context. I didn't want my visitors to get lost in a scroll. I also overrode the `cursor: move` on `.leaflet-container,.leaflet-clickable` to `default` to not confuse visitors since the dragging and zooming is disabled.
 
 I added `opacity` to `.leaflet-tile-pane` to allow the map to slightly recede.
 
