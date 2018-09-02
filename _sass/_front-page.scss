@@ -1,5 +1,9 @@
 .all-posts {
-  padding-left: 2em;
+  padding-left: 1.5em;
+
+  @include breakpoint(gt-mobile) {
+    padding-left: 2em;
+  }
 
   .post-meta {
 
@@ -9,7 +13,11 @@
 
   .post-emoji {
     display: inline-block;
-    text-indent: -2em;
+    text-indent: -1.5em;
+
+    @include breakpoint(gt-mobile) {
+      text-indent: -2em;
+    }
   }
 
   .post-date {
@@ -77,10 +85,6 @@
 
   font-size: 1em;
 
-  @include breakpoint(mobile) {
-    font-size: 1.5em;
-  }
-
 }
 
 .paginator {
@@ -99,27 +103,38 @@
   margin-bottom: 2em;
 
   .category {
-    padding: .25em 1em;
     border-radius: 1em;
-    margin-right: .5em;
+    display: block;
+    margin-bottom: .5em;
+    padding: .25em 1em;
+
+    @include breakpoint(gt-mobile) {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: .5em;
+    }
 
     &.active,
     &:hover {
-          background: white;
-          text-decoration: none;
+      background: white;
+      text-decoration: none;
     }
   }
 }
 
 .post-tag-container {
+  display: block;
+
+  @include breakpoint(gt-mobile) {
     display: inline-block;
     margin-left: .5em;
+  }
 
-    .post-tag-item {
-      @extend %xs;
+  .post-tag-item {
+    @extend %xs;
 
     display: inline-block;
-    margin-left: 1em;
+    margin-right: 1em;
     background: $light-accent;
     padding: 0 .75em;
     border-radius: 1em;
