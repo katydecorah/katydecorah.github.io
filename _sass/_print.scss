@@ -1,6 +1,4 @@
 @media print {
-
-
   .navbar,
   .footer,
   .no-print,
@@ -14,32 +12,41 @@
   }
 
   .page-resume {
-    font-family: 'Georgia', sans-serif;
+    font-family: "Georgia", sans-serif;
     font-size: 13px;
 
-    p { margin-bottom: .25em;}
+    p {
+      margin-bottom: 0.25em;
+    }
 
     ul {
-      margin-bottom: .5em;
+      margin-bottom: 0.5em;
       margin-top: 0;
     }
 
-    li { margin-bottom: 0;}
+    li {
+      margin-bottom: 0;
+    }
 
     .skills {
       margin: 1em 0 0;
 
-      li { display: inline-block; }
+      li {
+        display: inline-block;
+      }
 
-      li::after { content: ','; }
+      li::after {
+        content: ",";
+      }
 
-      li:last-child::after { content: ''; }
-
+      li:last-child::after {
+        content: "";
+      }
     }
 
     // scss-lint:disable ImportantRule
-    a { color: $text-color !important; }
-
+    a {
+      color: $text-color !important;
+    }
   }
-
 }

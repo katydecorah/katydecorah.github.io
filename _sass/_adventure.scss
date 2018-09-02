@@ -6,7 +6,6 @@
     display: block;
     margin-top: 2em;
   }
-
 }
 
 .adventure-full-map {
@@ -21,17 +20,22 @@
   display: block;
   margin-bottom: 1em;
 
-  @include breakpoint(mobile) { padding: 1em; }
+  @include breakpoint(mobile) {
+    padding: 1em;
+  }
 
-  &:hover { text-decoration: none;}
-
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .adventure-image,
 .adventure-map {
   width: 25%;
 
-  @include breakpoint(mobile) { display: none;}
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .adventure-image {
@@ -44,30 +48,32 @@
 }
 
 .adventure-group {
-
   @include breakpoint(gt-mobile) {
     padding-left: 2.5em;
     width: 50%;
   }
 
-  h2 { margin-top: 0;}
+  h2 {
+    margin-top: 0;
+  }
 
-  .icon { width: 1em; }
+  .icon {
+    width: 1em;
+  }
 
   .adventure-meta {
     color: $text-color;
     font-size: $font-small;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
-
 }
 
 .toggle,
 .toggle-item {
-  border-radius: .25em;
+  border-radius: 0.25em;
   display: inline-block;
   font-size: $font-small;
-  padding: .25em .5em;
+  padding: 0.25em 0.5em;
 }
 
 .toggle {
@@ -82,5 +88,4 @@
     background: $white;
     color: $dark-accent;
   }
-
 }

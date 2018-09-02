@@ -3,7 +3,6 @@
   margin-bottom: 1em;
 
   @include breakpoint(gt-mobile) {
-
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -31,14 +30,13 @@
     margin: 0;
 
     @include breakpoint(gt-mobile) {
-      color: rgba($text-color, .75);
+      color: rgba($text-color, 0.75);
       font-size: $h1-size-map;
     }
 
     .no-flexbox & {
-      margin-top: .5em;
+      margin-top: 0.5em;
     }
-
   }
 }
 
@@ -49,8 +47,9 @@
   top: 0;
   width: 100%;
 
-  @include breakpoint(mobile) { display: none; }
-
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .post-location-image {
@@ -67,5 +66,4 @@
     margin-right: auto;
     width: 1280px;
   }
-
 }

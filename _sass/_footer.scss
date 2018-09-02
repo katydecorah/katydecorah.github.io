@@ -10,8 +10,9 @@
   .nav-link {
     padding-right: 1em;
 
-    &.nav-link:hover { color: $link-hover; }
-
+    &.nav-link:hover {
+      color: $link-hover;
+    }
   }
 
   .nav {
@@ -21,9 +22,7 @@
   .navbar {
     margin-bottom: 2em;
   }
-
 }
-
 
 .bio {
   @extend %flex;
