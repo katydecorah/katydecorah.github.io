@@ -90,7 +90,14 @@
 .categories {
   @extend %xs;
 
-  margin-bottom: 2em;
+  display: none;
+
+  margin-bottom: 3em;
+  margin-top: 3em;
+
+  @include breakpoint(gt-mobile) {
+    display: block;
+  }
 
   .category {
     border-radius: 1em;
@@ -101,7 +108,8 @@
     @include breakpoint(gt-mobile) {
       display: inline-block;
       margin-bottom: 0;
-      margin-right: 0.5em;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
     }
 
     &.active,
@@ -113,7 +121,7 @@
 }
 
 .post-tag-container {
-  display: block;
+  display: none;
 
   @include breakpoint(gt-mobile) {
     display: inline-block;

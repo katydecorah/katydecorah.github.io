@@ -2,17 +2,20 @@
 <body class="front-page">
   {% include header.html %}
   <main class="container content" id="content">
-    <div class="categories">
-      {% assign categories = site.categories | sort %}
-      {% for category in categories %}
-        {% assign name = category[0] %}
-        {% assign title = page.title | downcase %}
-        <a href="/{{name}}" class="category{% if title == name %} active{% endif %}">
-          {{name}}
-        </a>
-      {% endfor %}
-    </div>
   {{ content }}
+
+  <div class="categories">
+    Filter by:
+    {% assign categories = site.categories | sort %}
+    {% for category in categories %}
+      {% assign name = category[0] %}
+      {% assign title = page.title | downcase %}
+      <a href="/{{name}}" class="category{% if title == name %} active{% endif %}">
+        {{name}}
+      </a>
+    {% endfor %}
+  </div>
+  {% if page.title == 'Katy DeCorah' %}{% include paginator.html %}{% endif %}
   </main>
   {% include footer.html %}
   {% include end.html %}
