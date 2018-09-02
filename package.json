@@ -33,6 +33,10 @@
     "**/*.md": [
       "prettier --write",
       "git add"
+    ],
+    "**/*.yml": [
+      "prettier --write",
+      "git add"
     ]
   }
 }
