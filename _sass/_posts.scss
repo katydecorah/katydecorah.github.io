@@ -335,3 +335,11 @@ figcaption {
     text-decoration: none;
   }
 }
+
+.badge {
+  @extend %xs;
+
+  background: $white;
+  border-radius: 1em;
+  padding: 0 0.5em;
+}
