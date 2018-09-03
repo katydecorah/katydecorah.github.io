@@ -1,7 +1,8 @@
 ---
 title: How I write
-
 image: https://cloud.githubusercontent.com/assets/2180540/4868004/fed98df4-613a-11e4-9950-f67d1bad8999.gif
+tags:
+  - writing
 ---
 
 <p class="note">This is a devlog I wrote at Mapbox that inspired my talk <a href="{{site.url}}/writing-for-everyone/">Writing for everyone</a>.</p>

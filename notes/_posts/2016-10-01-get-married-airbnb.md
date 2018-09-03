@@ -1,7 +1,7 @@
 ---
 title: How to get married at an Airbnb
-
 image: https://c2.staticflickr.com/6/5697/30011820675_1afe36b9f6_b.jpg
+emoji: 👰
 ---
 
 On Saturday, June 18, Jason and I were married at an [Airbnb](https://www.airbnb.com/) on the side of a mountain near Manchester, Vermont. It ended up being more beautiful than both of us imagined.

@@ -1,8 +1,8 @@
 ---
 title: The bird feeder
-
 image: https://farm8.staticflickr.com/7454/15809852324_a5e4233b62_b.jpg
 redirect_from: /notes/2015/03/18/the-bird-feeder/
+emoji: 🐦
 ---
 
 Swoosh.
