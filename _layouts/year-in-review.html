@@ -11,7 +11,7 @@
   {% include header.html %}
   <div class="content" id="content">
     <div class="container">
-      <h1 class="big">{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
       {% assign playlistsCounter = 0 %}
       {% assign adventuresCounter = 0 %}
       {% assign codeCounter = 0 %}
@@ -25,12 +25,12 @@
       {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
       {% capture pageYear %}{{ page.title }}{% endcapture %}
       {% if year == pageYear %}
-      {% if post.category == 'playlists' %}{% assign playlistsCounter = playlistsCounter | plus:1 %}{% endif %}
-      {% if post.category == 'adventures' %}{% assign adventuresCounter = adventuresCounter | plus:1 %}{% endif %}
-      {% if post.category == 'code' %}{% assign codeCounter = codeCounter | plus:1 %}{% endif %}
-      {% if post.category == 'notes' %}{% assign notesCounter = notesCounter | plus:1 %}{% endif %}
-      {% if post.category == 'epicurean' %}{% assign epicureanCounter = epicureanCounter | plus:1 %}{% endif %}
-      {% if post.category == 'teaching' %}{% assign teachingCounter = teachingCounter | plus:1 %}{% endif %}
+      {% if post.categories[0] == 'playlists' %}{% assign playlistsCounter = playlistsCounter | plus:1 %}{% endif %}
+      {% if post.categories[0] == 'adventures' %}{% assign adventuresCounter = adventuresCounter | plus:1 %}{% endif %}
+      {% if post.categories[0] == 'code' %}{% assign codeCounter = codeCounter | plus:1 %}{% endif %}
+      {% if post.categories[0] == 'notes' %}{% assign notesCounter = notesCounter | plus:1 %}{% endif %}
+      {% if post.categories[0] == 'epicurean' %}{% assign epicureanCounter = epicureanCounter | plus:1 %}{% endif %}
+      {% if post.categories[0] == 'teaching' %}{% assign teachingCounter = teachingCounter | plus:1 %}{% endif %}
       {% endif %}
       {% endfor %}
 
@@ -39,7 +39,7 @@
         {% if codeCounter > 0 %}I wrote about code {{ codeCounter }} time{% if codeCounter > 1 %}s{% endif %}.{% endif %}
         {% if teachingCounter > 0 %}I taught {{ teachingCounter }} class{% if teachingCounter > 1 %}es{% endif %}.{% endif %}
         {% if notesCounter > 0 %}I wrote {{notesCounter}} note{% if notesCounter > 1 %}s{% endif %}.{% endif %}
-        {% if epicureanCounter > 0 %}I baked {{epicureanCounter}} new treat{% if epicureanCounter > 1 %}s{% endif %}.{% endif %}
+        {% if epicureanCounter > 0 %}I made {{epicureanCounter}} new treat{% if epicureanCounter > 1 %}s{% endif %}.{% endif %}
         {% if playlistsCounter > 0 %}I made {{ playlistsCounter }} playlist{% if playlistsCounter > 1 %}s{% endif %}.{% endif %}
         <!-- note about any life events -->
         {% for post in site.data.life %}{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}{% capture pageYear %}{{ page.title }}{% endcapture %}{% if year == pageYear %}{{post.note}}{% endif %}{% endfor %}
