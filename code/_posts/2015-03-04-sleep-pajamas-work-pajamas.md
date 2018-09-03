@@ -7,6 +7,7 @@ image: https://farm9.staticflickr.com/8615/16536671800_8a0a3d88bd_b.jpg
 tags:
   # - elsewhere
   - podcasts
+emoji: 🎙
 redirect_from: /code/2015/03/04/the-east-wing/
 ---
 

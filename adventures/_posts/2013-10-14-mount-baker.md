@@ -1,6 +1,5 @@
 ---
-title: "Mount Baker &amp; Aunt Pauline’s .22"
-
+title: "Mount Baker"
 map: static
 coordinates:
   - -74.1183395,44.3291764
@@ -58,24 +57,4 @@ Sunday morning Becky and I did a lap of Mirror Lake.
 <img src="http://farm4.staticflickr.com/3733/10281533086_e2510124a4_c.jpg" class="pop-out" alt="Untitled">
 </div>
 
-Thanks for having me, Becky!
-
-## Aunt Pauline&rsquo;s .22
-
-On Sunday I visited my folks. Dad taught me to shoot Aunt Pauline&rsquo;s .22. A few people asked why all of the sudden I wanted to learn to shoot. Lately, I&rsquo;ve been worried about getting too comfortable with life. This definitely tested my comfort level.
-
-While I missed the actual targets, I hit the paper every time. Thanks, Dad!
-
-<div class="photos">
-
-<img src="http://farm6.staticflickr.com/5443/10281536256_38b72ee1b5_c.jpg" class="img-half" alt="Untitled">
-<img src="http://farm6.staticflickr.com/5462/10281540056_49d001cedc_c.jpg" class="img-half" alt="Untitled">
-<img src="http://farm6.staticflickr.com/5445/10281446704_08034dab80_c.jpg" alt="Untitled">
-</div>
-
 Unfortunately, the pumpkin I carved over the weekend did not make it home in one piece.
-
-<div class="photos">
-
-<img src="http://farm4.staticflickr.com/3694/10281529596_16eee5041c_c.jpg" alt="Untitled">
-</div>

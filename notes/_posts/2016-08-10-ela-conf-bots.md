@@ -2,6 +2,8 @@
 title: Organizing a conference with bots
 image: https://cloud.githubusercontent.com/assets/2180540/17576600/6ad2076e-5f42-11e6-8b3a-d2ca29823192.png
 emoji: 🤖
+tags:
+  - Ela Conf
 ---
 
 Last year, [Ela Conf](http://elaconf.com) organizers and I relied on Google Forms for women to submit anything from talks to volunteer applications. Forms worked well for us, but reviewing abstracts in a spreadsheet wasn't exactly a fun thing to do. With the help of [Zapier](https://zapier.com/), I created some efficient little bots that keep us organized and motivated.
