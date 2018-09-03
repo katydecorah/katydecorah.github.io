@@ -3,7 +3,7 @@
 }
 
 .archive-months {
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     border-left: 4px solid darken($body-bg, 15%);
     margin-left: 1em;
     padding-left: 1em;
@@ -13,7 +13,7 @@
 .archive-month {
   @extend %clearfix;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     align-items: center;
     display: flex;
     justify-content: left;
@@ -36,7 +36,7 @@
     min-width: 200px;
     position: relative;
 
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       margin: 0;
     }
 
@@ -45,7 +45,7 @@
     }
 
     &::before {
-      @include breakpoint(gt-mobile) {
+      @include breakpoint(medium) {
         background-color: darken($body-bg, 15%);
         border-radius: 0.5em;
         content: "";

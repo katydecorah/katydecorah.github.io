@@ -2,7 +2,7 @@
   margin: 1em auto 3em;
   max-width: $container-width;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     margin-bottom: 6em;
   }
 }
@@ -37,7 +37,7 @@
   @extend %flex-space-between;
   @extend %xxs;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     // scss-lint:disable ImportantRule
     display: block !important;
   }
@@ -54,7 +54,7 @@
   @extend %flex-child;
   @extend %flex-space-between;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 50%;
   }
 }
@@ -62,7 +62,7 @@
 .project-link {
   margin-right: 1em;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     display: block;
   }
 }
@@ -72,7 +72,7 @@
 
   color: $text-color-light;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     margin-bottom: 0.5em;
     // scss-lint:disable ImportantRule
     text-align: left !important;

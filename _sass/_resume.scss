@@ -4,7 +4,7 @@
   section {
     margin: 1em 0;
 
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       // scss-lint:disable PropertySortOrder
       -webkit-box-align: start;
       -ms-flex-align: start;
@@ -19,7 +19,7 @@
   .resume-heading {
     color: lighten($dark-accent, 15%);
 
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       -ms-flex-negative: 0;
       flex-shrink: 0;
       width: 175px;

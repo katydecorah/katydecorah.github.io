@@ -97,7 +97,7 @@
 
   // scss-lint:disable PropertySortOrder, DeclarationOrder
   .photos {
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       -webkit-box-align: center;
       -webkit-align-items: center;
       -ms-flex-align: center;
@@ -166,7 +166,7 @@
     margin: 1em auto;
     width: 100%;
 
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       width: 65%;
     }
   }
@@ -236,7 +236,7 @@
 
   margin-top: 1em;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     // scss-lint:disable ImportantRule
     display: block !important;
   }
@@ -250,7 +250,7 @@
   transition: $link-transition;
   width: 100%;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     min-height: 2em;
     width: 50%;
   }
@@ -262,10 +262,10 @@
 }
 
 .post-next {
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     margin-top: 1em;
   }
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     text-align: right;
   }
 }
@@ -275,7 +275,7 @@
   display: block;
   font-size: $font-xs;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 100%;
   }
 }

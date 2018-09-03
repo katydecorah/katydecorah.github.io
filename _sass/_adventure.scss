@@ -20,7 +20,7 @@
   display: block;
   margin-bottom: 1em;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     padding: 1em;
   }
 
@@ -33,7 +33,7 @@
 .adventure-map {
   width: 25%;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     display: none;
   }
 }
@@ -48,7 +48,7 @@
 }
 
 .adventure-group {
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     padding-left: 2.5em;
     width: 50%;
   }

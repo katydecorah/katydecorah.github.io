@@ -13,17 +13,17 @@
 
 .navbar {
   .header & {
-    @include breakpoint(mobile) {
+    @include breakpoint(small) {
       display: none;
     }
 
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       float: right;
     }
   }
 
   .footer & {
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       display: none;
     }
 
@@ -34,7 +34,7 @@
   }
 
   li {
-    @include breakpoint(mobile) {
+    @include breakpoint(small) {
       display: block;
     }
   }

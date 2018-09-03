@@ -48,7 +48,7 @@ h1 {
   font-size: $h1-size;
   margin-top: 0;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     font-size: 2em;
   }
 }
@@ -85,7 +85,7 @@ small,
 .small {
   font-size: $font-small;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     font-size: 1em;
   }
 }
@@ -94,7 +94,7 @@ small,
 .xs {
   font-size: $font-xs;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     font-size: 1em;
   }
 }
@@ -103,7 +103,7 @@ small,
 .xxs {
   font-size: 0.6em;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     font-size: 1em;
   }
 }

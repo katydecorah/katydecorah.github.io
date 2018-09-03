@@ -12,7 +12,7 @@
 .result {
   margin-bottom: 2em;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     align-items: center;
     display: flex;
     justify-content: left;
@@ -29,7 +29,7 @@
   object-fit: cover;
   width: 150px;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     display: none;
   }
 }

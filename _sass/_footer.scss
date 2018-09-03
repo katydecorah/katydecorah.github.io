@@ -1,6 +1,8 @@
 .footer {
   background: $header-bg;
   margin-top: 2em;
+  z-index: 100;
+  position: relative;
 
   .container {
     padding-bottom: 2em;
@@ -40,7 +42,7 @@
 
     display: none;
 
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       display: block;
       margin-right: 2em;
     }

@@ -72,13 +72,13 @@ img {
 }
 
 .img-half {
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 49.6%;
   }
 }
 
 .img-thirds {
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 32.89%;
   }
 }
@@ -87,20 +87,20 @@ img {
   float: left;
   margin-bottom: 1em;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 31.8%;
   }
 }
 
 .img-fourths {
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 24.5%;
   }
 }
 
 .post {
   video + video {
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       margin-left: 0.65%;
     }
   }
@@ -108,14 +108,14 @@ img {
 
 .img-split-wide,
 .img-wide {
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 62.7%;
   }
 }
 
 .img-split-tall,
 .img-tall {
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 35.25%;
   }
 }
@@ -131,7 +131,7 @@ img {
 .img-wide,
 .img-split-tall,
 .img-tall {
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     //display: inline-block;
   }
 }

@@ -3,16 +3,15 @@
   {% include header.html %}
   <main class="container content">
     <div class="categories">
-      Filter by:
       <a href="/" class="category{% if page.title == 'Katy DeCorah' %} active{% endif %}">
-        all
+        👌 all
       </a>
       {% assign categories = site.categories | sort %}
       {% for category in categories %}
         {% assign name = category[0] %}
         {% assign title = page.title | downcase %}
         <a href="/{{name}}" class="category{% if title == name %} active{% endif %}">
-          {{name}}
+          {{site.data.emoji[name]}} {{name}}
         </a>
       {% endfor %}
     </div>
