@@ -120,7 +120,7 @@
   }
 }
 
-.post-tag-container {
+.post-tags {
   display: none;
 
   @include breakpoint(gt-mobile) {
@@ -128,13 +128,15 @@
     margin-left: 0.5em;
   }
 
-  .post-tag-item {
-    @extend %xs;
+  .post-tag {
+    .front-page & {
+      @extend %xs;
+    }
 
     background: $light-accent;
     border-radius: 1em;
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 0.5em;
     padding: 0 0.75em;
   }
 }
