@@ -12,16 +12,6 @@
 }
 
 .navbar {
-  .header & {
-    @include breakpoint(small) {
-      display: none;
-    }
-
-    @include breakpoint(medium) {
-      float: right;
-    }
-  }
-
   .footer & {
     @include breakpoint(medium) {
       display: none;
