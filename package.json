@@ -1,7 +1,7 @@
 {
   "name": "katy-decorah",
   "version": "0.0.0",
-  "description": "",
+  "description": "Katy DeCorah's personal webiste",
   "scripts": {
     "test": "tape test/*.js | tap-spec",
     "proofer": "htmlproofer ./_site",
