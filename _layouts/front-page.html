@@ -4,7 +4,7 @@
   <main class="container content">
     <div class="categories">
       <a href="/" class="category{% if page.title == 'Katy DeCorah' %} active{% endif %}">
-        👌 all
+        {{site.data.emoji['all']}} all
       </a>
       {% assign categories = site.categories | sort %}
       {% for category in categories %}

@@ -1,8 +1,12 @@
 .all-posts {
-  padding-left: 1.5em;
+  .front-page & {
+    padding-left: 1.5em;
+  }
 
   @include breakpoint(medium) {
-    padding-left: 2em;
+    .front-page & {
+      padding-left: 2em;
+    }
   }
 
   .post-meta {
@@ -97,12 +101,16 @@
     display: block;
   }
 
+  /*
+
   @include breakpoint(big) {
     position: fixed;
     left: 2em;
     margin-top: 1.5em;
     width: 12em;
   }
+
+  */
 
   .category {
     border-radius: 1em;

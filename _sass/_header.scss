@@ -5,25 +5,17 @@
   margin-bottom: 2em;
   position: relative;
 
-  a {
+  .logo {
+    @extend %small;
+    @extend %fancy-type;
+
+    color: $dark-accent;
     display: block;
-    padding-bottom: 0.75em;
-    padding-top: 0.75em;
-  }
-}
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 
-.logo {
-  @extend %fancy-type;
-
-  color: $dark-accent;
-
-  @include breakpoint(medium) {
-    float: left;
-    left: -0.25em;
-    position: relative;
-  }
-
-  &:hover {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }

@@ -23,13 +23,7 @@
   }
 }
 
-.result-img {
-  height: 150px;
-  margin: 0 2em 0 0;
-  object-fit: cover;
-  width: 150px;
-
-  @include breakpoint(small) {
-    display: none;
-  }
+.result-emoji {
+  width: 3em;
+  align-self: baseline;
 }
