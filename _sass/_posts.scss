@@ -1,6 +1,4 @@
-
 .post {
-
   @media (max-width: $container-width) {
     padding-left: 1em;
     padding-right: 1em;
@@ -30,10 +28,10 @@
   }
 
   li {
-    margin-bottom: .7em;
+    margin-bottom: 0.7em;
 
     ul {
-      margin-top: .7em;
+      margin-top: 0.7em;
     }
   }
 
@@ -62,7 +60,6 @@
   iframe,
   .media,
   table {
-
     @extend %clearfix;
 
     border: 0;
@@ -80,7 +77,7 @@
 
     img,
     video {
-      margin-bottom: .5em;
+      margin-bottom: 0.5em;
       margin-top: 0;
     }
 
@@ -94,15 +91,13 @@
 
     [data-src] {
       opacity: 0;
-      transition: opacity .3s ease-in;
+      transition: opacity 0.3s ease-in;
     }
-
   }
 
   // scss-lint:disable PropertySortOrder, DeclarationOrder
   .photos {
-
-    @include breakpoint(gt-mobile) {
+    @include breakpoint(medium) {
       -webkit-box-align: center;
       -webkit-align-items: center;
       -ms-flex-align: center;
@@ -119,7 +114,6 @@
       -ms-flex-pack: left;
       justify-content: left;
     }
-
   }
 
   table {
@@ -130,7 +124,7 @@
 
     caption {
       color: $text-color;
-      font: italic 85%/1 arial,sans-serif;
+      font: italic 85%/1 arial, sans-serif;
       padding: 1em 0;
       text-align: center;
     }
@@ -146,7 +140,7 @@
       font-size: inherit;
       margin: 0;
       overflow: visible;
-      padding: .5em 1em;
+      padding: 0.5em 1em;
     }
 
     td:first-child,
@@ -160,12 +154,11 @@
       text-align: left;
       vertical-align: bottom;
     }
-
   }
 
   .note {
     background: $light-accent;
-    border-left: .25em solid darken($light-accent, 10%);
+    border-left: 0.25em solid darken($light-accent, 10%);
     padding: 1em;
   }
 
@@ -173,29 +166,24 @@
     margin: 1em auto;
     width: 100%;
 
-    @include breakpoint(gt-mobile) {
-
+    @include breakpoint(medium) {
       width: 65%;
     }
-
   }
-
 }
 
 .post-header {
-
   position: relative;
 
-  .container { z-index: 1; }
-
+  .container {
+    z-index: 1;
+  }
 }
 
 .post-header-no-map {
-
   h1 {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
-
 }
 
 .post-footer {
@@ -203,15 +191,13 @@
 }
 
 .post-locations,
-.post-tags,
 .post-twitter {
   font-size: $font-xs;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 
   .icon {
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
-
 }
 
 .post-footer-meta {
@@ -220,12 +206,11 @@
 
 .tag {
   display: inline-block;
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
 
   &:hover {
     text-decoration: none;
   }
-
 }
 
 .post-date-updated {
@@ -235,15 +220,15 @@
 }
 
 .post-page {
-
   .post-meta {
     color: $text-color-light;
     margin-bottom: 2em;
   }
-
 }
 
-.post-location { min-height: 1px; }
+.post-location {
+  min-height: 1px;
+}
 
 .post-prev-next {
   @extend %flex-container;
@@ -251,23 +236,21 @@
 
   margin-top: 1em;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     // scss-lint:disable ImportantRule
     display: block !important;
   }
 }
 
-
 .post-prev,
 .post-next {
-
   @extend %flex-center;
 
   position: relative;
   transition: $link-transition;
   width: 100%;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     min-height: 2em;
     width: 50%;
   }
@@ -276,12 +259,13 @@
     text-decoration: none;
     transition: $link-transition;
   }
-
 }
 
 .post-next {
-  @include breakpoint(mobile) { margin-top: 1em; }
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(small) {
+    margin-top: 1em;
+  }
+  @include breakpoint(medium) {
     text-align: right;
   }
 }
@@ -291,7 +275,7 @@
   display: block;
   font-size: $font-xs;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 100%;
   }
 }
@@ -312,7 +296,7 @@ figcaption {
   color: lighten($text-color, 20%);
   font-size: $font-xs;
   margin-bottom: 1em;
-  margin-top: .5em;
+  margin-top: 0.5em;
   text-align: right;
 }
 
@@ -323,10 +307,11 @@ figcaption {
 }
 
 .footnotes {
-
   margin-top: 4em;
 
-  ol { padding-left: 1em; }
+  ol {
+    padding-left: 1em;
+  }
 
   li {
     font-size: $font-xs;
@@ -334,21 +319,26 @@ figcaption {
     &:target {
       color: $fancy-accent;
     }
-
   }
-
 }
 
 .reversefootnote {
   background: $white;
-  border-radius: .1em;
+  border-radius: 0.1em;
   color: $text-color;
   display: inline-block;
-  margin-left: .5em;
-  padding: .2em;
+  margin-left: 0.5em;
+  padding: 0.2em;
 
   &:hover {
     text-decoration: none;
   }
+}
 
+.badge {
+  @extend %xs;
+
+  background: $white;
+  border-radius: 1em;
+  padding: 0 0.5em;
 }

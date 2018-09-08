@@ -1,17 +1,24 @@
 // From http://css-tricks.com/media-queries-sass-3-2-and-codekit/
 @mixin breakpoint($point) {
-  @if $point == gt-mobile {
-    @media (min-width: 50em) { @content; }
-  } @else if $point == mobile {
-    @media (max-width: 50em) { @content; }
+  @if $point == medium {
+    @media (min-width: 50em) {
+      @content;
+    }
+  } @else if $point == small {
+    @media (max-width: 50em) {
+      @content;
+    }
+  } @else if $point == big {
+    @media (min-width: 70em) {
+      @content;
+    }
   }
 }
 
 @mixin clearfix() {
-
   &::before,
   &::after {
-    content: ' ';
+    content: " ";
     display: table;
   }
 

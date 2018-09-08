@@ -1,33 +1,49 @@
 {
   "name": "katy-decorah",
   "version": "0.0.0",
-  "description": "",
+  "description": "Katy DeCorah's personal webiste",
   "scripts": {
-    "test": "scss-lint _sass/*.scss && tape test/*.js | tap-spec",
+    "test": "tape test/*.js | tap-spec",
     "proofer": "htmlproofer ./_site",
-    "precommit": "lint-staged"
-  },
-  "dependencies": {
-    "js-yaml": "^3.12.0",
-    "scsslint": "0.0.3",
-    "tap-spec": "^4.1.2",
-    "tape": "^4.9.1"
+    "precommit": "lint-staged",
+    "scsslint": "stylelint _sass/*.scss"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
     "husky": "^0.14.3",
-    "lint-staged": "^7.2.0",
+    "js-yaml": "^3.12.0",
+    "lint-staged": "^7.2.2",
     "minimist": "^1.2.0",
     "moment": "^2.22.2",
-    "prettier": "^1.13.7",
-    "request": "^2.87.0",
+    "prettier": "^1.14.2",
+    "request": "^2.88.0",
+    "stylelint": "^9.5.0",
+    "stylelint-scss": "^3.3.0",
+    "tap-spec": "^4.1.2",
+    "tape": "^4.9.1",
     "underscore": "^1.9.1"
   },
   "lint-staged": {
     "**/*.js": [
       "eslint",
       "prettier --single-quote --write",
+      "git add"
+    ],
+    "**/*.md": [
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.yml": [
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.scss": [
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.json": [
+      "prettier --write",
       "git add"
     ]
   }

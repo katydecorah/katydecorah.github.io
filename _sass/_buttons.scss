@@ -1,22 +1,21 @@
-
 .btn {
   border: 2px solid;
   color: $text-color;
   display: inline-block;
   font-size: $font-small;
-  margin-bottom: .5em;
-  padding: .3em 1em;
+  margin-bottom: 0.5em;
+  padding: 0.3em 1em;
 
   &:hover {
     text-decoration: none;
   }
 
   .icon-angle-right {
-    margin-left: .5em;
+    margin-left: 0.5em;
   }
 
   .icon-angle-left {
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
 
   .icon {
@@ -24,5 +23,4 @@
     position: relative;
     top: 5px;
   }
-
 }

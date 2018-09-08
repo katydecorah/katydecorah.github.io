@@ -1,118 +1,118 @@
 - section: Organizing
   contents:
-  - site: Ela Conf
-    contents:
-    - title: Co-Organizer/Co-Founder
-      date: 2017-10-27
-      link: http://elaconf.com/
-    - title: Co-Organizer/Co-Founder
-      date: 2016-11-04
-      link: http://elaconf.com/2016/
-    - title: Co-Organizer/Co-Founder
-      date: 2015-11-21
-      link: http://elaconf.com/2015/
-  - site: Create Upstate
-    contents:
-    - title: Registration/Volunteer Coordinator
-      date: 2017-05-04
-      link: http://createupstate.com/
+    - site: Ela Conf
+      contents:
+        - title: Co-Organizer/Co-Founder
+          date: 2017-10-27
+          link: http://elaconf.com/
+        - title: Co-Organizer/Co-Founder
+          date: 2016-11-04
+          link: http://elaconf.com/2016/
+        - title: Co-Organizer/Co-Founder
+          date: 2015-11-21
+          link: http://elaconf.com/2015/
+    - site: Create Upstate
+      contents:
+        - title: Registration/Volunteer Coordinator
+          date: 2017-05-04
+          link: http://createupstate.com/
 - section: Writing
   contents:
-  - site: SUPERYESMORE
-    contents:
-    - title: Keep your streak in the work week
-      date: 2017-05-09
-      link: https://superyesmore.com/keep-your-streak-in-the-work-week-42f56e22f050b235c0639d8790385151
-  - site: The Pastry Box Project
-    contents:
-    - title: Breathe with your stomach
-      date: 2015-03-29
-      link: https://the-pastry-box-project.net/katy-decorah/2015-march-29
-  - site: Mapbox
-    contents:
-    - title: Explore the X-Files
-      date: 2016-01-20
-      link: https://www.mapbox.com/blog/x-files/
-    - title: Make a snowfall map
-      date: 2015-01-28
-      link: https://www.mapbox.com/blog/make-a-snowfall-map/
-    - title: From fast styles to advanced cartography
-      date: 2015-01-26
-      link: https://www.mapbox.com/blog/choosing-the-right-tool/
-    - title: Using Github for your map design workflow
-      date: 2014-12-18
-      link: https://www.mapbox.com/blog/github-for-map-design-workflow/
-    - title: Emoji map markers
-      date: 2014-09-29
-      link: https://www.mapbox.com/blog/emoji-map-markers/
-  - site: CSS-Tricks
-    contents:
-    - title: ::selection
-      date: 2014-08-29
-      link: http://css-tricks.com/almanac/selectors/s/selection/
-    - title: break-inside
-      date: 2014-08-21
-      link: http://css-tricks.com/almanac/properties/b/break-inside/
-    - title: column-width
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-width/
-    - title: column-span
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-span/
-    - title: column-rule
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-rule/
-    - title: column-gap
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-gap/
-    - title: column-fill
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-fill/
-    - title: column-count
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/column-count/
-    - title: columns
-      date: 2014-08-15
-      link: http://css-tricks.com/almanac/properties/c/columns/
-    - title: Guide to Responive-Friendly CSS Columns
-      date: 2014-07-25
-      link: http://css-tricks.com/guide-responsive-friendly-css-columns/
+    - site: SUPERYESMORE
+      contents:
+        - title: Keep your streak in the work week
+          date: 2017-05-09
+          link: https://superyesmore.com/keep-your-streak-in-the-work-week-42f56e22f050b235c0639d8790385151
+    - site: The Pastry Box Project
+      contents:
+        - title: Breathe with your stomach
+          date: 2015-03-29
+          link: https://the-pastry-box-project.net/katy-decorah/2015-march-29
+    - site: Mapbox
+      contents:
+        - title: Explore the X-Files
+          date: 2016-01-20
+          link: https://www.mapbox.com/blog/x-files/
+        - title: Make a snowfall map
+          date: 2015-01-28
+          link: https://www.mapbox.com/blog/make-a-snowfall-map/
+        - title: From fast styles to advanced cartography
+          date: 2015-01-26
+          link: https://www.mapbox.com/blog/choosing-the-right-tool/
+        - title: Using Github for your map design workflow
+          date: 2014-12-18
+          link: https://www.mapbox.com/blog/github-for-map-design-workflow/
+        - title: Emoji map markers
+          date: 2014-09-29
+          link: https://www.mapbox.com/blog/emoji-map-markers/
+    - site: CSS-Tricks
+      contents:
+        - title: ::selection
+          date: 2014-08-29
+          link: http://css-tricks.com/almanac/selectors/s/selection/
+        - title: break-inside
+          date: 2014-08-21
+          link: http://css-tricks.com/almanac/properties/b/break-inside/
+        - title: column-width
+          date: 2014-08-15
+          link: http://css-tricks.com/almanac/properties/c/column-width/
+        - title: column-span
+          date: 2014-08-15
+          link: http://css-tricks.com/almanac/properties/c/column-span/
+        - title: column-rule
+          date: 2014-08-15
+          link: http://css-tricks.com/almanac/properties/c/column-rule/
+        - title: column-gap
+          date: 2014-08-15
+          link: http://css-tricks.com/almanac/properties/c/column-gap/
+        - title: column-fill
+          date: 2014-08-15
+          link: http://css-tricks.com/almanac/properties/c/column-fill/
+        - title: column-count
+          date: 2014-08-15
+          link: http://css-tricks.com/almanac/properties/c/column-count/
+        - title: columns
+          date: 2014-08-15
+          link: http://css-tricks.com/almanac/properties/c/columns/
+        - title: Guide to Responive-Friendly CSS Columns
+          date: 2014-07-25
+          link: http://css-tricks.com/guide-responsive-friendly-css-columns/
 - section: Speaking
   contents:
-  - site: JekyllConf
-    contents:
-      - title: Unconventional use cases for Jekyll
-        date: 2016-05-07
-        link: https://katydecorah.com/unconventional
-  - site: FOSS4G NA
-    contents:
-      - title: Writing for everyone
-        date: 2015-03-12
-        link: https://katydecorah.com/writing-for-everyone/
-  - site: The East Wing
-    contents:
-    - title: "Sleep Pajamas and Work Pajamas"
-      date: 2015-03-04
-      link: http://goodstuff.fm
-    - title: Episode 86
-      date: 2014-03-14
-      link: http://5by5.tv/
-  - site: MakerSquare
-    contents:
-    - title: Animating the DOM with CSS and JavaScript
-      with: Flip Stewart
-      date: 2014-09-14
-      link: https://youtu.be/rAJgJRvAE98
-      ignoreProofer: true
+    - site: JekyllConf
+      contents:
+        - title: Unconventional use cases for Jekyll
+          date: 2016-05-07
+          link: https://katydecorah.com/unconventional
+    - site: FOSS4G NA
+      contents:
+        - title: Writing for everyone
+          date: 2015-03-12
+          link: https://katydecorah.com/writing-for-everyone/
+    - site: The East Wing
+      contents:
+        - title: "Sleep Pajamas and Work Pajamas"
+          date: 2015-03-04
+          link: http://goodstuff.fm
+        - title: Episode 86
+          date: 2014-03-14
+          link: http://5by5.tv/
+    - site: MakerSquare
+      contents:
+        - title: Animating the DOM with CSS and JavaScript
+          with: Flip Stewart
+          date: 2014-09-14
+          link: https://youtu.be/rAJgJRvAE98
+          ignoreProofer: true
 - section: Mentions
   contents:
-  - site: PBS
-    contents:
-    - title: Warby Parker’s CEO on how to thrive in retail as big-box stores are dying
-      date: 2017-08-17
-      link: http://www.pbs.org/newshour/making-sense/warby-parkers-ceo-thrive-retail-big-box-stores-dying/
-  - site: Wired
-    contents:
-    - title: Interactive Map Transports You to Every X-Files Location
-      date: 2016-01-20
-      link: http://www.wired.com/2016/01/x-files-interactive-map/
+    - site: PBS
+      contents:
+        - title: Warby Parker’s CEO on how to thrive in retail as big-box stores are dying
+          date: 2017-08-17
+          link: http://www.pbs.org/newshour/making-sense/warby-parkers-ceo-thrive-retail-big-box-stores-dying/
+    - site: Wired
+      contents:
+        - title: Interactive Map Transports You to Every X-Files Location
+          date: 2016-01-20
+          link: http://www.wired.com/2016/01/x-files-interactive-map/

@@ -2,8 +2,7 @@
 .post-header-has-map {
   margin-bottom: 1em;
 
-  @include breakpoint(gt-mobile) {
-
+  @include breakpoint(medium) {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -30,15 +29,14 @@
   h1 {
     margin: 0;
 
-    @include breakpoint(gt-mobile) {
-      color: rgba($text-color, .75);
+    @include breakpoint(medium) {
+      color: rgba($text-color, 0.75);
       font-size: $h1-size-map;
     }
 
     .no-flexbox & {
-      margin-top: .5em;
+      margin-top: 0.5em;
     }
-
   }
 }
 
@@ -49,15 +47,16 @@
   top: 0;
   width: 100%;
 
-  @include breakpoint(mobile) { display: none; }
-
+  @include breakpoint(small) {
+    display: none;
+  }
 }
 
 .post-location-image {
   display: none;
   max-width: none;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -67,5 +66,4 @@
     margin-right: auto;
     width: 1280px;
   }
-
 }

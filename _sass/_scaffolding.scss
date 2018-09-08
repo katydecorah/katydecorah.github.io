@@ -1,4 +1,6 @@
-* {  box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
@@ -11,7 +13,6 @@ html {
 }
 
 body {
-
   @extend %body-type;
   background-color: $body-bg;
   color: $text-color;
@@ -30,7 +31,6 @@ a {
     text-decoration: underline;
     transition: $link-transition;
   }
-
 }
 
 .img-center {
@@ -38,10 +38,13 @@ a {
   margin: 0 auto;
 }
 
-%text-left { text-align: left;}
+%text-left {
+  text-align: left;
+}
 
-.text-right { text-align: right;}
-
+.text-right {
+  text-align: right;
+}
 
 .pull-right {
   float: right;
@@ -60,65 +63,66 @@ img {
   margin: 2em auto;
 }
 
-
 .img-polaroid {
   background-color: $white;
   border: 1px solid $dark-transparent02;
   box-shadow: 0 1px 3px $dark-transparent01;
-  margin: 1em .25em 2em;
-  padding: .25em;
+  margin: 1em 0.25em 2em;
+  padding: 0.25em;
 }
 
-
 .img-half {
-
-  @include breakpoint(gt-mobile) { width: 49.6%; }
-
+  @include breakpoint(medium) {
+    width: 49.6%;
+  }
 }
 
 .img-thirds {
-
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     width: 32.89%;
   }
-
 }
 
 .thirds {
   float: left;
   margin-bottom: 1em;
 
-  @include breakpoint(gt-mobile) { width: 31.8%;}
-
+  @include breakpoint(medium) {
+    width: 31.8%;
+  }
 }
 
 .img-fourths {
-
-  @include breakpoint(gt-mobile) { width: 24.5%; }
-
+  @include breakpoint(medium) {
+    width: 24.5%;
+  }
 }
 
 .post {
   video + video {
-    @include breakpoint(gt-mobile) { margin-left: .65%; }
+    @include breakpoint(medium) {
+      margin-left: 0.65%;
+    }
   }
 }
 
 .img-split-wide,
 .img-wide {
-
-  @include breakpoint(gt-mobile) { width: 62.7%; }
-
+  @include breakpoint(medium) {
+    width: 62.7%;
+  }
 }
 
 .img-split-tall,
 .img-tall {
-
-  @include breakpoint(gt-mobile) { width: 35.25%; }
-
+  @include breakpoint(medium) {
+    width: 35.25%;
+  }
 }
 
-.rotate-left { transform: rotate(-90deg);}
+.rotate-left {
+  transform: rotate(-90deg);
+}
 
 .img-half,
 .img-thirds,
@@ -127,9 +131,7 @@ img {
 .img-wide,
 .img-split-tall,
 .img-tall {
-
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     //display: inline-block;
   }
-
 }

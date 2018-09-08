@@ -1,17 +1,20 @@
 .footer {
   background: $header-bg;
   margin-top: 2em;
+  z-index: 100;
+  position: relative;
 
   .container {
     padding-bottom: 2em;
-    padding-top: 2em;
+    padding-top: 3em;
   }
 
   .nav-link {
     padding-right: 1em;
 
-    &.nav-link:hover { color: $link-hover; }
-
+    &.nav-link:hover {
+      color: $link-hover;
+    }
   }
 
   .nav {
@@ -21,5 +24,35 @@
   .navbar {
     margin-bottom: 2em;
   }
+}
 
+.bio {
+  @extend %flex;
+  @extend %flex-space-between;
+
+  margin-bottom: 3em;
+
+  .bio-img,
+  .bio-details {
+    @extend %flex-child;
+  }
+
+  .bio-img.bio-img {
+    @extend %flex-child-no-shrink;
+
+    display: none;
+
+    @include breakpoint(medium) {
+      display: block;
+      margin-right: 2em;
+    }
+  }
+
+  .bio-img-container {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 100%;
+    padding-bottom: 100%;
+    width: 8em;
+  }
 }

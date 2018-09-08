@@ -1,32 +1,43 @@
 .all-posts {
+  .front-page & {
+    padding-left: 1.5em;
+  }
+
+  @include breakpoint(medium) {
+    .front-page & {
+      padding-left: 2em;
+    }
+  }
 
   .post-meta {
-
-    @include breakpoint(gt-mobile) {
-      float: left;
-      width: 70%;
+    .no-flexbox & {
+      padding-top: 2em;
     }
+  }
 
-    .no-flexbox & { padding-top: 2em;}
+  .post-emoji {
+    display: inline-block;
+    position: relative;
+    text-indent: -1.5em;
+    top: 2px;
 
+    @include breakpoint(medium) {
+      text-indent: -2em;
+    }
   }
 
   .post-date {
     color: $text-color-light;
   }
-
 }
 
 .post-link {
-
-  @extend %clearfix;
-
   @extend %flex;
 
   color: $text-color;
   display: block;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
 
   &:hover {
     text-decoration: none;
@@ -35,18 +46,14 @@
       background-color: transparent;
       transition: $link-transition;
     }
-
   }
-
 }
-
-
 
 .project-image,
 .post-img-container {
   display: none;
 
-  @include breakpoint(gt-mobile) {
+  @include breakpoint(medium) {
     align-items: center;
     border-radius: $border-radius-img;
     display: flex;
@@ -66,23 +73,13 @@
       transition: $link-transition;
       width: 100%;
     }
-
   }
-
 }
 
-
 .post-title {
-
   @extend %fancy-type;
 
-  font-size: 1.5em;
-  line-height: 1.3;
-
-  @include breakpoint(mobile) {
-    font-size: 1.5em;
-  }
-
+  font-size: 1em;
 }
 
 .paginator {
@@ -91,5 +88,72 @@
 
 .post-elsewhere-label .icon {
   color: $link-color;
-  font-size: .8em;
+  font-size: 0.8em;
+}
+
+.categories {
+  @extend %xxs;
+
+  display: none;
+  margin-bottom: 2em;
+
+  @include breakpoint(medium) {
+    display: block;
+  }
+
+  /*
+
+  @include breakpoint(big) {
+    position: fixed;
+    left: 2em;
+    margin-top: 1.5em;
+    width: 12em;
+  }
+
+  */
+
+  .category {
+    border-radius: 1em;
+    display: block;
+    margin-bottom: 0.5em;
+    padding: 0.25em 1em;
+
+    @include breakpoint(medium) {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
+    }
+
+    @include breakpoint(big) {
+      margin-bottom: 0.25em;
+    }
+
+    &.active,
+    &:hover {
+      background: $white;
+      text-decoration: none;
+    }
+  }
+}
+
+.post-tags {
+  display: none;
+
+  @include breakpoint(medium) {
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+
+  .post-tag {
+    .front-page & {
+      @extend %xs;
+    }
+
+    background: $light-accent;
+    border-radius: 1em;
+    display: inline-block;
+    margin-right: 0.5em;
+    padding: 0 0.75em;
+  }
 }

@@ -2,15 +2,8 @@
 layout: front-page
 title: Katy DeCorah
 ---
-<main class="all-posts" id="adventures">
-{% for post in paginator.posts %}<a href="{{ post.url }}" class="post-link">
-<div class="post-img-container">
-<div style="background-image:url({% if post.image %}{{ post.image }}{%else%}http://placehold.it/400{%endif%})" class="post-img"></div>
-</div>
-<div class="post-meta">
-<div class="post-title">{{ post.title }}</div>
-<div class="post-date small">{{post.category}} &times; {{ post.date | date: "%B %-d, %Y" }}{% if post.updated %}<span class="post-date-updated small">Updated {{ post.updated | date: "%B %d, %Y" }}</span>{% endif %}{% if post.elsewhere-site %}<span class="post-elsewhere-label"> &times; {{ post.elsewhere-site }} </span>{% endif %}</div>
-</div>
-</a>{% endfor %}
+<main class="all-posts">
+  {% for post in paginator.posts %}
+    {% include post-list.html post=post %}
+  {% endfor %}
 </main>
-{% include paginator.html %}

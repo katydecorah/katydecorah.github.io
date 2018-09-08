@@ -3,49 +3,34 @@
   margin: 0;
   padding: 0;
   position: relative;
-  transition: .25s;
+  transition: 0.25s;
 
   li {
     display: inline-block;
     margin: 0;
   }
-
 }
 
 .navbar {
-
-  .header & {
-
-    @include breakpoint(mobile) { display: none;  }
-
-    @include breakpoint(gt-mobile) { float: right; }
-
-  }
-
   .footer & {
-
-    @include breakpoint(gt-mobile) { display: none; }
+    @include breakpoint(medium) {
+      display: none;
+    }
 
     .nav-link {
       display: block;
-      margin-bottom: .25em;
+      margin-bottom: 0.25em;
     }
-
   }
 
   li {
-
-    @include breakpoint(mobile) { display: block;}
-
+    @include breakpoint(small) {
+      display: block;
+    }
   }
-
 }
 
-
-
-
 .header {
-
   .nav-link {
     border-bottom: 2px solid transparent;
     color: $link-color;
@@ -55,7 +40,7 @@
     margin-left: 1.5em;
     margin-top: 1em;
     min-height: 1em;
-    padding: .5em 0;
+    padding: 0.5em 0;
     position: relative;
   }
 
@@ -66,5 +51,4 @@
     text-decoration: none;
     transition: $link-transition;
   }
-
 }
