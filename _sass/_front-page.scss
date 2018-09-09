@@ -156,4 +156,14 @@
     margin-right: 0.5em;
     padding: 0 0.75em;
   }
+
+  a {
+    color: darken($link-color, 15%);
+
+    &:hover {
+      background-color: darken($link-color, 15%);
+      color: $white;
+      text-decoration: none;
+    }
+  }
 }
