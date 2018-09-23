@@ -1,7 +1,7 @@
 ---
 title: Happy Birthday Blog
 image: https://farm6.staticflickr.com/5477/14174930269_b388e7da02_b.jpg
-redirect_from: /notes/2014/06/06/happy-birthday/
+
 emoji: 🍰
 ---
 

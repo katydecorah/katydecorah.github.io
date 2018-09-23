@@ -5,7 +5,6 @@ tags:
   - Sass
   - Haml
 image: http://codepen.io/katydecorah/pen/DHCJg/image/small.png
-redirect_from: /code/2013/08/28/bird-in-a-tablet/
 ---
 
 As a kid, I remember drawing a picture of a bird on one side of paper and a cage on the other. When you spin it back and forth quickly, it appears that the bird is in the cage. Here's a take on that.

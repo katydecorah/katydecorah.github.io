@@ -8,7 +8,6 @@ locations:
 image: https://farm6.staticflickr.com/5615/15625478445_3bc127d476_h.jpg
 recommended: true
 miles: 1.5
-redirect_from: /adventures/2014/10/25/vromans-nose/
 ---
 
 Today we hiked up to [Vroman’s Nose](https://en.wikipedia.org/wiki/Vroman%27s_Nose).

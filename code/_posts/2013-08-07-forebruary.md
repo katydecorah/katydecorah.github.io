@@ -7,7 +7,6 @@ tags:
   - Haml
 pen: Chmws
 image: http://farm6.staticflickr.com/5492/12730828934_f9915c2509_o.png
-redirect_from: /code/2013/08/07/forebruary/
 ---
 
 <p data-height="500" data-theme-id="97" data-slug-hash="Chmws" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Chmws'>Forebruary</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

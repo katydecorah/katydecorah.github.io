@@ -10,7 +10,6 @@ map: static
 coordinates:
   - -73.6011497,43.3416466
 image: http://farm3.staticflickr.com/2893/9874639174_9a41feb163_b.jpg
-redirect_from: /adventures/2013/09/21/adirondack-balloon-festival/
 ---
 
 ## Balloon Festival

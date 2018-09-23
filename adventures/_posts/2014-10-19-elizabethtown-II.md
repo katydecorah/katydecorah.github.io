@@ -6,7 +6,6 @@ locations:
 coordinates:
   - -73.5914674,44.216574
 image: https://farm6.staticflickr.com/5614/14958042803_896839aac9_b.jpg
-redirect_from: /adventures/2014/10/19/elizabethtown/
 ---
 
 A college roommates weekend in Elizabethtown. A weekend way over due.

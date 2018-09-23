@@ -7,7 +7,6 @@ coordinates:
   - -73.1352701,42.6919608
 locations:
   - North Adams, MA
-redirect_from: /adventures/2014/08/10/cascade-falls/
 ---
 
 Yesterday morning we work up early and drove out to North Adams to explore [Cascade Falls once again](/adventures/2013/06/02/this-weekend/).

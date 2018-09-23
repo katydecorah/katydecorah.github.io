@@ -1,9 +1,6 @@
 ---
 title: New Years Eve Homemade Sushi
 image: http://farm8.staticflickr.com/7453/10848166266_a342068c2e_b.jpg
-redirect_from:
-  - /adventures/2013/01/01/new-years-eve/
-  - /notes/2013/01/01/new-years-eve/
 emoji: 🍣
 ---
 

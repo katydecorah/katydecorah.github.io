@@ -2,7 +2,6 @@
 title: Two years ago on CodePen
 
 image: https://farm6.staticflickr.com/5559/14938075432_af54665e34_o.png
-redirect_from: /code/2014/08/26/two-years-ago/
 ---
 
 Two years ago on CodePen I was picked for the first time ever.

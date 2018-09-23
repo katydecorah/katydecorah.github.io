@@ -2,7 +2,7 @@
 title: Candy Sushi
 
 image: http://farm8.staticflickr.com/7341/10848177206_5f518d74ef_b.jpg
-redirect_from: /epicurean/2013/01/13/candy-sushi/
+
 emoji: 🍣
 ---
 

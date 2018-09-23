@@ -7,7 +7,6 @@ tags:
   - AngularJS
 image: http://codepen.io/katydecorah/pen/IiDKe/image/small.png
 project: true
-redirect_from: /code/2013/08/27/angular-contact-form/
 ---
 
 My first try Angular form validation.

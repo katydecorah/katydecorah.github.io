@@ -6,7 +6,6 @@ locations:
   - Floyd Bennett Memorial Airport
 coordinates:
   - -73.604245,43.341432
-redirect_from: /adventures/2014/09/20/adirondack-balloon-festival/
 ---
 
 1. Wake up at 3:45 am.

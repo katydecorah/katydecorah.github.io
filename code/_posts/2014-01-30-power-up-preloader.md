@@ -6,7 +6,6 @@ tags:
 pen: BfuGF
 image: https://farm3.staticflickr.com/2860/12730278733_e045273427_o.png
 browser: Chrome 32.0.1700.102
-redirect_from: /code/2014/01/30/power-up-preloader/
 ---
 
 <p data-height="300" data-theme-id="97" data-slug-hash="bcc619ac0a04ac70e948a41d26e49a24" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/bcc619ac0a04ac70e948a41d26e49a24'>Power Up Preloader (GIF) by Mantas Bačiuška</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

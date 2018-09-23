@@ -7,7 +7,6 @@ tags:
 image: http://farm6.staticflickr.com/5502/12730513003_185231255d_o.png
 locations: "Albany,NY"
 project: true
-redirect_from: /code/2013/09/06/google-maps-images-api-for-jekyll/
 ---
 
 **As of 7/26/2014, this site has moved to the [Mapbox static API](/code/2014/07/26/static-mapbox-for-jekyll/).**

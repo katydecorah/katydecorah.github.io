@@ -5,7 +5,7 @@ tags:
   - Sass
 pen: Bjhdw
 image: http://farm4.staticflickr.com/3731/12730354485_3d3356068b_o.png
-redirect_from:
+
   - /code/2013/08/05/font-awesome-buttons/
   - /code/2013/08/05/font-awesome-buttons.html
 ---

@@ -9,7 +9,6 @@ locations:
   - Asheville, NC
 map: static
 image: https://farm6.staticflickr.com/5235/14379383021_566f82cd22_b.jpg
-redirect_from: /adventures/2014/06/15/asheville/
 ---
 
 I spent the past week visiting my sister in Asheville. That place never gets old.

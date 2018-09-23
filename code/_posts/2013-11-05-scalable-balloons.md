@@ -7,7 +7,6 @@ tags:
   - animation
 image: http://codepen.io/katydecorah/pen/cdkHn/image/large.png
 pen: cdkHn
-redirect_from: /code/2013/11/05/scalable-balloons/
 ---
 
 <p data-height="550" data-theme-id="97" data-slug-hash="cdkHn" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cdkHn'>Random Customizable Balloons</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

@@ -11,9 +11,6 @@ image-large: http://farm3.staticflickr.com/2820/9696150324_6c007a3a42_o.jpg
 locations:
   - Voorheesville, NY
   - Crispy Cannoli, East Greenbush, NY
-redirect_from:
-  - /weekends/2013/09/05/thacher-park-in-the-morning.html
-  - /adventures/2013/09/05/thacher-park-in-the-morning/
 ---
 
 Beautiful morning.

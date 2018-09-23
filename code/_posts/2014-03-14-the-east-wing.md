@@ -7,7 +7,6 @@ image: https://farm6.staticflickr.com/5272/14060621609_2ffa436f77_o.jpg
 tags:
   - podcasts
 emoji: 🎙
-redirect_from: /code/2014/03/14/the-east-wing/
 ---
 
 I had a nice time chatting with Chris Enns on the East Wing!

@@ -15,7 +15,6 @@ tags:
   - Jekyll
   - JavaScript
 image: http://a.tiles.mapbox.com/v3/katydecorah.h41bj3lj/5/9/11.png
-redirect_from: /code/2014/01/26/mapbox-for-jekyll-posts/
 ---
 
 **As of 7/26/2014, this site has moved to the [Mapbox static API](/code/2014/07/26/static-mapbox-for-jekyll/).**

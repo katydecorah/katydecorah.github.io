@@ -7,7 +7,6 @@ locations:
 coordinates:
   - -71.2543871,41.6371604
 zoom: 9
-redirect_from: /adventures/2014/10/03/rhode-island/
 ---
 
 We spent last weekend in Newport and the start of the week in Providence, Rhode Island.

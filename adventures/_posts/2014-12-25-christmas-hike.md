@@ -7,7 +7,6 @@ coordinates:
   - -73.7440735,42.5726903
 image: https://farm8.staticflickr.com/7462/15591018173_429aed423d_c.jpg
 feed: nah
-redirect_from: /adventures/2014/12/25/christmas-hike/
 ---
 
 A morning hike at the [Papscanee Island Nature Preserve](http://www.rensselaercounty.org/enviroment%20management%20council/Papscanee%20Preserve.htm).

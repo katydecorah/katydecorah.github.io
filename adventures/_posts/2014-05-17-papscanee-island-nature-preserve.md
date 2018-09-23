@@ -8,7 +8,6 @@ coordinates:
   - -73.7440735,42.5726903
 map: static
 image: https://farm3.staticflickr.com/2897/14226916873_111fb655b5_z.jpg
-redirect_from: /adventures/2014/05/17/papscanee-island-nature-preserve/
 ---
 
 This morning we went to the Papscanee Island Nature Preserve in Rensselaer. We started at the north entrance of the preserve, giving us a driving tour of the Port of Rensselaer's oil yard. We didn't think we were in the right place, until we noticed a trail head at the end of a dead end road.

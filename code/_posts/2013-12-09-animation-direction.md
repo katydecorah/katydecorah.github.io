@@ -7,7 +7,6 @@ tags:
   - Haml
 image: http://codepen.io/katydecorah/pen/qKnGs/image/large.png
 pen: qKnGs
-redirect_from: /code/2013/12/09/animation-direction/
 ---
 
 <p data-height="450" data-theme-id="97" data-slug-hash="qKnGs" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/qKnGs'>Animation Direction</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

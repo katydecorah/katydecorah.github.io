@@ -1,10 +1,6 @@
 ---
 title: Holiday Treats
-
 image: http://farm8.staticflickr.com/7353/11428854303_f8bb3b982f_b.jpg
-redirect_from:
-  - /edibles/2013/12/17/holiday-treats/
-  - /epicurean/2013/12/17/holiday-treats/
 ---
 
 I've been baking.

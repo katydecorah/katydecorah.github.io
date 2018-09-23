@@ -12,7 +12,6 @@ coordinates:
   - -73.991,44.239
   - -76.0000238,44.3085161
   - -70.804,43.07
-redirect_from: /adventures/2013/07/08/three-mini-vacations/
 ---
 
 ## Lake Placid

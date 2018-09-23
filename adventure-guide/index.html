@@ -1,101 +1,25 @@
 ---
+layout: default
 title: Adventure guide
-layout: no-container
 description: My favorite hiking trails in Upstate New York and beyond.
 image: https://farm1.staticflickr.com/567/20552818663_bd6e380450_b.jpg
 ---
 
-<link href="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.css" rel="stylesheet" />
-<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/MarkerCluster.css' rel='stylesheet' />
-<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/MarkerCluster.Default.css' rel='stylesheet' />
-<script src="https://api.tiles.mapbox.com/mapbox.js/{{site.mapboxjs}}/mapbox.js"></script>
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/{{site.leafletjs}}/leaflet.markercluster.js'></script>
-
-<div class="container">
-<h1>{{page.title}}</h1>
 <p>My favorite hiking trails in Upstate New York and beyond.</p>
 
-<div class="toggle">
-  <div class="toggle-item active" data-toggle="list">{% include icons/menu.svg %}</div>
-  <div class="toggle-item" data-toggle="map">{% include icons/map.svg %}</div>
-</div>
 
-</div>
-
-<div class="container container-large">
+<div class="">
 <div id="list" class="adventures show">
-  {% assign posts = site.posts | where: "category", "adventures" %}
-  {% for post in posts %}{% if post.recommended %}
+  {% for post in site.posts %}{% if post.recommended %}
   <a href="{{post.url}}" class="adventure">
     <div class="adventure-image" style="background-image:url({{post.image}})"></div>
     <img class="adventure-map" src="https://api.tiles.mapbox.com/v4/{{ site.mapid }}/{% if coord_size >= 2 %}geojson%28%7B%22type%22%3A%22Feature%22%2C%22properties%22%3A%7B%22stroke-opacity%22%3A0%7D%2C%22geometry%22%3A%7B%22type%22%3A%22MultiLineString%22%2C%22coordinates%22%3A%5B%5B{% for coordinate in post.coordinates %}%5B{{coordinate | replace: ' ','' | replace: ',','%2C'}}%5D{% if forloop.last %}{% else %}%2C{% endif %}{% endfor %}%5D%0A%5D%0A%7D%0A%7D%29/auto{% else %}{% for coordinate in post.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if post.zoom %}{{ post.zoom }}{% else %}15{% endif %}{% endif %}/250x250@2x.png?access_token={{ site.mapbox-token }}" alt="map of {{post.title}}" />
     <div class="adventure-group">
-      <h2>{{post.title}}</h2>
+      <h2 class="h4">{{post.title}}</h2>
       <div class="adventure-location adventure-meta">{% include icons/marker.svg %} {{post.locations | first }}</div>
       {% if post.miles %}<div class="adventure-distance adventure-meta">{% include icons/map-signs.svg %} {{post.miles}} mile{% if post.miles > 1 %}s{% endif %}</div>{% endif %}
     </div>
   </a>
   {% endif %}{% endfor %}
 </div>
-<div id="map" class="adventure-map-container">
-  <div id="adventure" class="adventure-full-map"></div>
 </div>
-</div>
-<script>
-L.mapbox.accessToken = '{{site.mapbox-token}}';
-var map = L.mapbox.map('adventure', '{{site.mapid}}');
-//map.scrollWheelZoom.disable();
-
-var overlays = L.layerGroup().addTo(map);
-
-var featureLayer = L.mapbox.featureLayer()
-.loadURL('/map/adventures.geojson');
-
-featureLayer.on('ready', function(e) {
-  change();
-  layers = e.target;
-  cluster()
-});
-
-featureLayer.on('layeradd', function(e) {
-  var marker = e.layer,
-  feature = marker.feature;
-  // Create custom popup content
-  var popupContent =  '<a target="_blank" class="popup external-'+feature.properties.external+'" href="' + feature.properties.url + '">' +
-  '<img alt="'+ feature.properties.title +'+" src="' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
-
-  marker.bindPopup(popupContent,{
-    minWidth: 150,
-    closeButton: false
-  });
-});
-
-function change() {
-  featureLayer.setFilter(function (f) {
-    return f.properties['recommended'];
-  });
-  var bounds = featureLayer.getBounds();
-  map.fitBounds(featureLayer.getBounds());
-  return false;
-}
-
-function cluster() {
-  var clusterGroup = new L.MarkerClusterGroup().addTo(overlays);
-  layers.eachLayer(function(layer) {
-    clusterGroup.addLayer(layer);
-  });
-}
-
-$(".toggle-item").click(function() {
-  $(".toggle-item").removeClass("active");
-  $(this).addClass("active");
-  var type = $(this).attr("data-toggle");
-  $("#list,#map").removeClass("show");
-  $("#"+type).addClass("show");
-
-  if (type == 'map') {
-    map.invalidateSize(true);
-    change();
-  }
-});
-</script>

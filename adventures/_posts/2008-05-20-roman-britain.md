@@ -36,7 +36,6 @@ coordinates:
   - -1.826216,51.178882 #stone
   - -0.820257,50.8364284 #fish
   - -0.1015987,51.5286416 #london
-redirect_from: /adventures/2008/05/20/roman-britain/
 ---
 
 At Siena, I took a course called _Roman Britain_, where we studied the Romanization of Britain. At the end of the semester we visited the sites.

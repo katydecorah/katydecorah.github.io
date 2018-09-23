@@ -1,7 +1,6 @@
 ---
 title: The Cheers Sweatshirt
 image: http://farm4.staticflickr.com/3690/11890656616_c2f1b49dba_b.jpg
-redirect_from: /notes/2014/01/11/the-cheers-sweatshirt/
 ---
 
 <div class="photos">

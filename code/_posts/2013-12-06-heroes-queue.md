@@ -6,7 +6,6 @@ tags:
 image: http://codepen.io/katydecorah/pen/cJfhC/image/large.png
 pen: cJfhC
 dribbble: http://drbl.in/jzgO
-redirect_from: /code/2013/12/06/heroes-queue/
 ---
 
 <p data-height="350" data-theme-id="97" data-slug-hash="cJfhC" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cJfhC'>Heroes Queue by Antonas Deduchovas</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

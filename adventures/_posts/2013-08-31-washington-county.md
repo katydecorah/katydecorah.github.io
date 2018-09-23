@@ -14,7 +14,6 @@ map: static
 coordinates:
   - -73.3551201,43.4006769
 zoom: 11
-redirect_from: /adventures/2013/08/31/washington-county/
 ---
 
 Mom and I went on a Washington County/Vermont adventure today.

@@ -9,7 +9,6 @@ locations:
   - Fort Edward,NY
   - Saratoga,NY
 image: http://farm4.staticflickr.com/3732/11014694753_2138457b1c_b.jpg
-redirect_from: /adventures/2013/11/24/albany-pine-bush/
 ---
 
 Saturday morning we visited the Albany Pine Bush at [Karner Barrens East &amp; West](https://www.albanypinebush.org/recreation-center/trails-maps-and-conditions). We took the blue trail to the yellow. Despite the chill, it was a really nice 2.6 mile hike and it only took us about an hour.

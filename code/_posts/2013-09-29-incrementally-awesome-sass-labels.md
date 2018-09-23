@@ -75,7 +75,6 @@ css: |
     background: #470500;
     background: rgba(71, 5, 0, 0.5);
   }
-redirect_from: /code/2013/09/29/incrementally-awesome-sass-labels/
 ---
 
 For this site I wanted my categories to be color coded, but I didn't want to put a lot of effort into managing it. Instead I spent a little effort into making sure I didn't have to manage it.

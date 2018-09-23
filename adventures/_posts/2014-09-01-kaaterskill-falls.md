@@ -7,7 +7,7 @@ locations:
 coordinates:
   - -74.0632534,42.1932215
 image: https://farm6.staticflickr.com/5581/14911237709_d4b495b1fd_b.jpg
-redirect_from: /adventures/2014/09/01/kaaterskill-falls/
+
 miles: 1.4
 ---
 

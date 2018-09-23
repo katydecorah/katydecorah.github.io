@@ -8,7 +8,6 @@ pad: 0
 coordinates:
   - -74.289580,43.395900
 image: http://farm4.staticflickr.com/3683/12272509994_ee4ccc1a24_b.jpg
-redirect_from: /adventures/2014/02/02/wells-weekend/
 ---
 
 This weekend we celebrated my birthday in a cabin in Wells, NY.

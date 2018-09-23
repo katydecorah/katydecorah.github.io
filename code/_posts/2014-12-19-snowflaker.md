@@ -5,7 +5,6 @@ tags:
   - Sass
 image: http://i.imgur.com/yNv3nmo.gif
 codepen: zxBRKv
-redirect_from: /code/2014/12/19/snowflaker/
 ---
 
 <p data-height="350" data-theme-id="97" data-slug-hash="zxBRKv" data-default-tab="result" data-user="katydecorah" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/zxBRKv/'>Snowflaker</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

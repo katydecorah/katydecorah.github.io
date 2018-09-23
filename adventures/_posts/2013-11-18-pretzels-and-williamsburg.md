@@ -8,7 +8,6 @@ locations:
   - "Williamsburg,NYC"
 image: http://farm8.staticflickr.com/7298/10953719465_eb873a018c_b.jpg
 published: true
-redirect_from: /adventures/2013/11/18/pretzels-and-williamsburg/
 ---
 
 Saturday night I had an all out snack attack. Right before heading to the store to pick-up rice krispies treat supplies, my boyfriend asked for pretzels. So I added yeast to my list.

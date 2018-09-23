@@ -15,7 +15,6 @@ map: static
 coordinates:
   - -82.5531746,35.5922388
 image: http://farm8.staticflickr.com/7366/9702678259_877fa5dab4_c.jpg
-redirect_from: /adventures/2013/04/07/north-carolina/
 ---
 
 My sister moved to North Carolina a few years ago. Since then my folks and I make an annual trip down to visit.

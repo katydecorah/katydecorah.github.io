@@ -8,9 +8,6 @@ locations:
 image: https://farm6.staticflickr.com/5601/15675124791_179e7b979c_h.jpg
 recommended: true
 feed: nah
-redirect_from:
-  - /adventures/2014/10/26/pine-bush/
-  - /adventures/albany-pine-bush-II/
 miles: 2
 ---
 

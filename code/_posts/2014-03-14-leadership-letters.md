@@ -8,7 +8,6 @@ tags:
 image: http://farm8.staticflickr.com/7083/13157662535_270504e7a3_o.png
 pen: htBka
 dribbble: http://drbl.in/ktXg
-redirect_from: /code/2014/03/14/leadership-letters/
 ---
 
 <figure>

@@ -5,7 +5,6 @@ tags:
   - Haml
   - Sass
 image: http://codepen.io/katydecorah/pen/KhfCn/image/small.png
-redirect_from: /code/2013/09/04/simple-icons/
 ---
 
 Original design by [Rovane Durso](http://dribbble.com/shots/1220920-Simple-Icons).

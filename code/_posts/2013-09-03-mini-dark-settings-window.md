@@ -5,7 +5,6 @@ tags:
   - Haml
   - Sass
 image: http://codepen.io/katydecorah/pen/LpsGB/image/small.png
-redirect_from: /code/2013/09/03/mini-dark-settings-window/
 ---
 
 Original design by [Ben Bate](http://dribbble.com/shots/779059).

@@ -14,7 +14,6 @@ coordinates:
   - -8.5669615,51.934358
   - -8.29534, 51.85073
   - -3.6795367,40.4378271
-redirect_from: /adventures/2010/06/03/ireland-and-spain/
 ---
 
 My friend was wrapping up her Masters in Dublin, so I visited, along with another friend for two weeks. We hopped over to Spain for some quick sightseeing.

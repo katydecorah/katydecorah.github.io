@@ -6,7 +6,6 @@ tags:
   - Sass
 image: http://farm4.staticflickr.com/3326/13012960323_1ca9571922.jpg
 pen: whobi
-redirect_from: /code/2014/03/07/slidey-background/
 ---
 
 <p data-height="300" data-theme-id="97" data-slug-hash="whobi" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/whobi'>Slidey Background</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

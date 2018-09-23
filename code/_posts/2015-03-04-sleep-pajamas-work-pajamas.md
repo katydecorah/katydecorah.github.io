@@ -8,7 +8,6 @@ tags:
   # - elsewhere
   - podcasts
 emoji: 🎙
-redirect_from: /code/2015/03/04/the-east-wing/
 ---
 
 [A year later](/code/2014/03/14/the-east-wing/), I'm back chatting with Tim:

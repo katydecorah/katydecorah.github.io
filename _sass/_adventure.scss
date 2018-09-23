@@ -49,7 +49,7 @@
 
 .adventure-group {
   @include breakpoint(medium) {
-    padding-left: 2.5em;
+    padding-left: 1.5em;
     width: 50%;
   }
 
@@ -65,27 +65,5 @@
     color: $text-color;
     font-size: $font-small;
     margin-bottom: 0.5em;
-  }
-}
-
-.toggle,
-.toggle-item {
-  border-radius: 0.25em;
-  display: inline-block;
-  font-size: $font-small;
-  padding: 0.25em 0.5em;
-}
-
-.toggle {
-  background: $dark-accent;
-}
-
-.toggle-item {
-  color: $white;
-  cursor: pointer;
-
-  &.active {
-    background: $white;
-    color: $dark-accent;
   }
 }

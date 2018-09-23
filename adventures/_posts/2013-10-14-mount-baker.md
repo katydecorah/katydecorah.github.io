@@ -8,7 +8,6 @@ locations:
   - "Lake Placid,NY"
   - "Moreau,NY"
 image: http://farm3.staticflickr.com/2823/10229168105_2131a10c49_c.jpg
-redirect_from: /adventures/2013/10/14/mount-baker/
 ---
 
 ## Mount Baker

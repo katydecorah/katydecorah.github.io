@@ -5,7 +5,6 @@ tags:
   - Sass
   - Haml
 image: http://codepen.io/katydecorah/pen/xbtch/image/small.png
-redirect_from: /code/2013/08/27/random-bubbly/
 ---
 
 Giving the Sass random() a go.
