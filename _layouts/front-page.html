@@ -4,14 +4,14 @@
   <main class="container content">
     <div class="categories">
       <a href="/" class="category{% if page.title == 'Katy DeCorah' %} active{% endif %}">
-        {{site.data.emoji['all']}} all
+        <span class="emoji">{{site.data.emoji['all']}}</span> all
       </a>
       {% assign categories = site.categories | sort %}
       {% for category in categories %}
         {% assign name = category[0] %}
         {% assign title = page.title | downcase %}
         <a href="/{{name}}" class="category{% if title == name %} active{% endif %}">
-          {{site.data.emoji[name]}} {{name}}
+          <span class="emoji">{{site.data.emoji[name]}}</span> {{name}}
         </a>
       {% endfor %}
     </div>
