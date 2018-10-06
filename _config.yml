@@ -17,6 +17,10 @@ description: "Front-end developer and tinkerer from Saratoga Springs, NY."
 image: https://c2.staticflickr.com/8/7798/18359743065_ef178ded42_b.jpg
 twitter: "@katydecorah"
 
+collections:
+  favorites:
+    output: true
+
 # for adventures.geojson + year review pages
 years:
   - 2018
@@ -103,3 +107,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "favorites"
+    values:
+      layout: "default"
