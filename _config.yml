@@ -14,8 +14,12 @@ future: true
 
 title: Katy DeCorah
 description: "Front-end developer and tinkerer from Saratoga Springs, NY."
-image: https://c1.staticflickr.com/9/8881/18361278301_f8ac7d25d4_h.jpg
+image: https://c2.staticflickr.com/8/7798/18359743065_ef178ded42_b.jpg
 twitter: "@katydecorah"
+
+collections:
+  favorites:
+    output: true
 
 # for adventures.geojson + year review pages
 years:
@@ -38,11 +42,11 @@ sass:
 timezone: America/New_York
 
 plugins:
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-paginate
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
 
 kramdown:
   auto_ids: true
@@ -64,41 +68,30 @@ exclude:
   - test
 
 links:
-- text: Hello!
-  url: /hello/
-  position: top
-- text: Projects
-  url: /projects/
-  icon: archive
-  position: top
-- text: Card catalog
-  url: /card-catalog/
-  position: top
-
-- text: CodePen
-  url: https://codepen.io/katydecorah/
-  icon: codepen
-  position: bottom
-- text: Github
-  url: https://github.com/katydecorah
-  icon: github
-  position: bottom
-- text: Twitter
-  url: https://twitter.com/katydecorah
-  icon: twitter
-  position: bottom
-- text: Instagram
-  url: https://instagram.com/katydecorah
-  icon: instagram
-  position: bottom
-- text: Email
-  url: mailto:katydecorah@gmail.com
-  icon: mail
-  position: bottom
-- text: Feed
-  url: /feed.xml
-  icon: rss
-  position: bottom
+  - text: CodePen
+    url: https://codepen.io/katydecorah/
+    icon: codepen
+    position: bottom
+  - text: Github
+    url: https://github.com/katydecorah
+    icon: github
+    position: bottom
+  - text: Twitter
+    url: https://twitter.com/katydecorah
+    icon: twitter
+    position: bottom
+  - text: Instagram
+    url: https://instagram.com/katydecorah
+    icon: instagram
+    position: bottom
+  - text: Email
+    url: mailto:katydecorah@gmail.com
+    icon: mail
+    position: bottom
+  - text: Feed
+    url: /feed.xml
+    icon: rss
+    position: bottom
 
 mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2l0YzVhY2l6MGE0eDJ6czZ2NDRpZGtubyJ9.njBRjO2lRXdT0Mut9Vryqg
 mapid: katydecorah.21d6ba77
@@ -109,9 +102,13 @@ jquery: 3.1.1
 modernizr: 2.8.3
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "favorites"
+    values:
+      layout: "default"

@@ -1,4 +1,4 @@
-{% if page.category == "code" %}
+{% if page.categories[0] == "code" %}
 <script async src="https://codepen.io/assets/embed/ei.js"></script>
 {% endif %}
 {% if page.title == "Search" %}
@@ -12,4 +12,9 @@
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-34842039-1', 'auto');
   ga('send', 'pageview');
+</script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/js/service-worker.js');
+}
 </script>

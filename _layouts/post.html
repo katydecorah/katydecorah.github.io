@@ -1,7 +1,3 @@
----
-layout: compress
----
-
 {% include top.html %}
 <body class="post-page default-page">
 {% include header.html %}
@@ -9,19 +5,18 @@ layout: compress
 {% include post-map-header.html %}
 <div class="container"><h1>{{ page.title }}</h1></div>
 </div>
-<div class="container" id="content">{% if page.category %}
-<div class="post-meta small"><a href="/card-catalog/#{{ page.category | downcase }}" class="post-type">{{ page.category }}</a> &times; <a href="{{page.url}}">{{ page.date | date: "%B %-d, %Y" }}</a>{% if page.elsewhere-site %} &times; <a href="{{ page.elsewhere-link }}">{{ page.elsewhere-site }}</a>{% endif %}</div>{% endif %}</div>
+<div class="container" id="content">{% if page.categories[0] %}{% assign category = page.categories[0] | downcase %}
+<div class="post-meta small"><span class="post-meta-emoji">{% if page. emoji %}{{page.emoji}}{% else %}{{site.data.emoji[category]}}{% endif %}</span><a href="/{{ category}}" class="post-type">{{ page.categories[0] }}</a> &times; {{ page.date | date: "%B %-d, %Y" }}{% if page.elsewhere-site %} &times; <a href="{{ page.elsewhere-link }}">{{ page.elsewhere-site }}</a>{% endif %} {% include tags.html %}</div>{% endif %}</div>
 <div class="post">
-{% if page.category == 'playlists' %}<img src="/img/playlists/{{page.title | slugify}}.png" width="600" alt="album art">{% endif %}
-{% unless page.category == 'playlists' %}{{ content }}{% endunless %}
+{% if page.categories[0] == 'playlists' %}<img src="/img/playlists/{{page.title | slugify}}.png" width="600" alt="album art">{% endif %}
+{% unless page.categories[0] == 'playlists' %}{{ content }}{% endunless %}
 {% if page.recipe %}<p class="recipe-meta">Recipe: <a href="{{ page.recipe }}">{{ page.recipe-title }}</a></p>{% endif %}
-{% if page.category == 'playlists' %}{% include single-playlist.html %}{% endif %}{% if page.credits %}<p class="xs text-right">{{ page.credits }}.</p>{% endif %}
+{% if page.categories[0] == 'playlists' %}{% include single-playlist.html %}{% endif %}{% if page.credits %}<p class="xs text-right">{{ page.credits }}.</p>{% endif %}
 </div>
 <div class="container">
 <div class="post-footer">
 <div class="post-footer-meta">
 {% include locations.html %}
-{% include tags.html %}
 {% include twitter.html %}
 </div>
 {% include prev-next.html %}

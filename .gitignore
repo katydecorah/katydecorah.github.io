@@ -2,9 +2,5 @@ _site/
 .sass-cache
 _ignore/
 node_modules/
-_drafts/
-*.sublime-project
-*.sublime-workspace
-npm-debug.log
 style/
 tmp
