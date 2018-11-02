@@ -42,3 +42,8 @@ title: 👶 Baby
 - [The French Terry Racerback Nursing & Sleep Bra](https://www.kindredbravely.com/collections/nursing-bras/products/french-terry-nursing-sleep-bra)
 - [Gerber Birdseye 3-Ply Prefold Cloth Diapers, White, 10 Count](https://amzn.to/2PifDBg) (burp cloths)
 - [OXO Tot Baby Food Freezer Tray](https://amzn.to/2RBNCX8)
+
+## Apps
+
+- [Things](https://culturedcode.com/things/)
+- [Sprout Baby](http://sprout-apps.com/sprout-baby-iphone-ipad-app/)
