@@ -7,13 +7,13 @@ tags:
   - Jekyll
 ---
 
-This is the unofficial Part II to [Download the Flickr photos in your Jekyll posts](/code/flickr-to-jekyll) and a rundown of how I created a secure subdomain that points at an AWS S3 bucket to host my site's assets.
+This is part II to [Download the Flickr photos in your Jekyll posts](/code/flickr-to-jekyll) and a rundown of how I setup a subdomain that points at an AWS S3 bucket to host my site's assets. And https, too!
 
 ## Create a bucket
 
 I started by creating a bucket to store my photos. From a little research I decided to name my bucket after the subdomain that I will later point at the bucket `yo.katydecorah.com`.
 
-I used [this policy on my bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html#root-domain-walkthrough-s3-tasks) that would give read access to my bucket but not allow the public to see a list of everything in my bucket:
+I used [this policy on my bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html#root-domain-walkthrough-s3-tasks) that would give read access to my bucket but not publicly list everything in my bucket:
 
 ```json
 {
@@ -34,15 +34,16 @@ I used [this policy on my bucket](https://docs.aws.amazon.com/AmazonS3/latest/de
 
 From my S3 bucket, I clicked **Properties** > **Static website hosting**. I chose **Use this bucket to host a website**, entered `index.html`, and hit saved. (I completed the configuration in the next step.)
 
-Next, I uploaded an `index.html` to my bucket. (It's blank for now.)
+I also uploaded an `index.html` to my bucket. (It's blank for now. I'll make it nice later.)
 
 ## Make it https
 
 Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/). In addition to following the instructions, I made sure to:
 
 1. Set the **Default Root Object** to `index.html`. This will connect the page I uploaded in the last step.
-2. Point my subdomain at the CloudFront.
-   - Once I created my CloudFront distribution, I clicked on it and then copied the value of **Domain Name**.
+2. Under **Viewer Protocol Policy** I selected `Redirect HTTP to HTTPS`.
+3. Point my subdomain at CloudFront.
+   - Once I created my CloudFront distribution, I copied the value of **Domain Name**.
    - From my domain host, I created a CNAME record that points at that CloudFront domain name. For example:
      - type: `CNAME`
      - host name: `yo`
@@ -52,22 +53,18 @@ It took a few hours for the changes to propagate, but my bucket is now serving s
 
 ## Generate photo versions
 
-For each photo, I generated these versions:
+For each photo, I created these versions based on the max-width of my site:
 
 - 1600px wide
-- 1000px wide
 - 1600px wide in webp
+- 1000px wide
 - 1000px wide in webp
-
-I decided these sizes as the max-width of my site is around 800px. For a full-width image I'd want to double it for retina displays. I created the 1000px version for the occasion I use half-width images.
-
-I created webp versions for fun, even though they don't have wide browser support.
 
 For the time being, I'm using [Panic's Transmit](https://panic.com/transmit/) to sync my photos to my bucket. I'm currently working on a build script that will resize images and upload it to S3 for me (stay tuned 📺).
 
 ## Replace `img` with `picture`
 
-Next, I replaced all instances of the `img` element with the `picture` element so I could take advantage of the `srcset` attribute.
+As a last step, I replaced all instances of the `img` element with `picture` so I could use `srcset`.
 
 To implement, I decided to create an include called `img.html`. I used my code editor's regex find and replace to swap out the `img` element for the new include in all my posts:
 
