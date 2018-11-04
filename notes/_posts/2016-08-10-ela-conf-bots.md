@@ -22,7 +22,7 @@ With Zapier, you can also assign labels and even add issues to milestones as som
 
 We have this workflow set up for all of our forms:
 
-{% include img.html class='img-half' src='2016-08-10-ela-conf-bots-3.png' alt='' %}
+{% include img.html class='img-half' src='2016-08-10-ela-conf-bots-3.png' alt='form workflow' %}
 
 ## Welcomebot
 
@@ -32,7 +32,7 @@ Every time a someone requests to join our Slack channel, we get pinged in our or
 
 :wave: **Under the hood:** Zapier listens for additions to the spreadsheet and sends a message to our Slack channel. We can now add women to our community even faster!
 
-{% include img.html class='img-half' src='2016-08-10-ela-conf-bots-5.png' alt='' %}
+{% include img.html class='img-half' src='2016-08-10-ela-conf-bots-5.png' alt='zapier workflow' %}
 
 ## Ticketbot
 
@@ -42,7 +42,7 @@ Every time someone buys a ticket, we get pinged in our organizer channel:
 
 :ok_woman: **Under the hood:** I created a catch hook in Zapier and entered it in [nvite](https://nvite.com)'s RSVP webhook setting (thanks for being a sponsor, nvite!) as the trigger. I think this is our favorite bot!
 
-{% include img.html class='img-half' src='2016-08-10-ela-conf-bots-7.png' alt='' %}
+{% include img.html class='img-half' src='2016-08-10-ela-conf-bots-7.png' alt='ticketbot' %}
 
 ## Bots, bots, and more bots
 
