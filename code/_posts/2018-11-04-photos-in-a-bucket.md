@@ -31,7 +31,7 @@ I decided to use [this policy on my bucket](https://docs.aws.amazon.com/AmazonS3
 }
 ```
 
-Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/).
+Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/). I also set default root to `index.html`
 
 ## Generate photo versions
 
