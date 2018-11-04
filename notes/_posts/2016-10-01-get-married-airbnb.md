@@ -34,7 +34,7 @@ Here are some features to look for when choosing your Airbnb venue:
 
 We were up front with our hosts about our intentions, and they were supportive all along the way.
 
-![image](https://cloud.githubusercontent.com/assets/2180540/18972737/5938ee1c-8668-11e6-8319-b0f6b67c11fb.png)
+{% include img.html src="2016-10-01-get-married-airbnb-10.png" class="img-half" alt="airbnb message" %}
 
 ## 4. Book vendors early and always choose tacos
 
