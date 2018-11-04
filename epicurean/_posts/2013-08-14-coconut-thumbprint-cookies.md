@@ -1,7 +1,7 @@
 ---
 title: Coconut Thumbprint Cookies with Salted Caramel
 
-image: //yo.katydecorah.com/2013-08-14-coconut-thumbprint-cookies-0.jpg
+image: https://yo.katydecorah.com/2013-08-14-coconut-thumbprint-cookies-0.jpg
 
 emoji: 🍪
 ---

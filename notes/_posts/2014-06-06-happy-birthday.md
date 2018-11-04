@@ -1,6 +1,6 @@
 ---
 title: Happy Birthday Blog
-image: //yo.katydecorah.com/2014-06-06-happy-birthday-0.jpg
+image: https://yo.katydecorah.com/2014-06-06-happy-birthday-0.jpg
 
 emoji: 🍰
 ---

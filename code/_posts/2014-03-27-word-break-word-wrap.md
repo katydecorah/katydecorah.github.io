@@ -5,7 +5,7 @@ tags:
   - Haml
   - Sass
   - CSS
-image: //yo.katydecorah.com/2014-03-27-word-break-word-wrap-0.png
+image: https://yo.katydecorah.com/2014-03-27-word-break-word-wrap-0.png
 pen: ywmBE
 ---
 

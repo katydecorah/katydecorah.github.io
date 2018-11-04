@@ -5,7 +5,7 @@ coordinates:
   - -74.35782,42.59487
 locations:
   - Middleburgh, NY
-image: //yo.katydecorah.com/2014-10-25-vromans-nose-0.jpg
+image: https://yo.katydecorah.com/2014-10-25-vromans-nose-0.jpg
 recommended: true
 miles: 1.5
 ---

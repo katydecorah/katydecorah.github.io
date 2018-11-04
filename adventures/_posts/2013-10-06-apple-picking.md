@@ -6,7 +6,7 @@ coordinates:
   - -73.6860833,42.4351899
 locations:
   - Golden Harvest Farms Inc, Valatie, NY
-image: //yo.katydecorah.com/2013-10-06-apple-picking-0.jpg
+image: https://yo.katydecorah.com/2013-10-06-apple-picking-0.jpg
 ---
 
 ## Saturday

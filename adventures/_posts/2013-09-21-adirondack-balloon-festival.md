@@ -9,7 +9,7 @@ locations:
 map: static
 coordinates:
   - -73.6011497,43.3416466
-image: //yo.katydecorah.com/2013-09-21-adirondack-balloon-festival-0.jpg
+image: https://yo.katydecorah.com/2013-09-21-adirondack-balloon-festival-0.jpg
 ---
 
 ## Balloon Festival

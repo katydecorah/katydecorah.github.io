@@ -1,7 +1,7 @@
 ---
 title: Washington County
 
-image: //yo.katydecorah.com/2013-08-31-washington-county-0.jpg
+image: https://yo.katydecorah.com/2013-08-31-washington-county-0.jpg
 locations:
   - Hebron,NY
   - Salem,NY

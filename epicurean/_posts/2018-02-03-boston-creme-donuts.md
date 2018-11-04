@@ -1,7 +1,7 @@
 ---
 title: Boston Cream Doughnuts
 
-image: //yo.katydecorah.com/2018-02-03-boston-creme-donuts-0.jpg
+image: https://yo.katydecorah.com/2018-02-03-boston-creme-donuts-0.jpg
 recipe: https://cooking.nytimes.com/recipes/1017066-boston-cream-doughnuts
 recipe-title: Boston Cream Doughnuts
 emoji: 🍩

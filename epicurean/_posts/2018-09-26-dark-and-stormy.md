@@ -1,6 +1,6 @@
 ---
 title: Dark & stormy
-image: //yo.katydecorah.com/2018-09-26-dark-and-stormy-0.jpg
+image: https://yo.katydecorah.com/2018-09-26-dark-and-stormy-0.jpg
 emoji: 🍨
 ---
 

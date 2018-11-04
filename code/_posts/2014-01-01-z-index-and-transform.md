@@ -4,7 +4,7 @@ title: "z-index and transform"
 tags:
   - Haml
   - Sass
-image: //yo.katydecorah.com/2014-01-01-z-index-and-transform-0.png
+image: https://yo.katydecorah.com/2014-01-01-z-index-and-transform-0.png
 pen: lqBtz
 dribbble: http://drbl.in/jJIr
 ---

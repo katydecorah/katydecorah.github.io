@@ -1,7 +1,7 @@
 ---
 title: Two years ago on CodePen
 
-image: //yo.katydecorah.com/2014-08-26-two-years-ago-0.png
+image: https://yo.katydecorah.com/2014-08-26-two-years-ago-0.png
 ---
 
 Two years ago on CodePen I was picked for the first time ever.

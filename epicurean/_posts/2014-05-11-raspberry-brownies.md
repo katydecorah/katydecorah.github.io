@@ -1,7 +1,7 @@
 ---
 title: Raspberry Chocolate Brownies
 
-image: //yo.katydecorah.com/2014-05-11-raspberry-brownies-0.jpg
+image: https://yo.katydecorah.com/2014-05-11-raspberry-brownies-0.jpg
 recipe: http://theheritagecook.com/remembering-mom-raspberry-chocolate-brownies-src/
 recipe-title: Raspberry-Chocolate Brownies
 

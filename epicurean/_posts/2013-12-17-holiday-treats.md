@@ -1,6 +1,6 @@
 ---
 title: Holiday Treats
-image: //yo.katydecorah.com/2013-12-17-holiday-treats-0.jpg
+image: https://yo.katydecorah.com/2013-12-17-holiday-treats-0.jpg
 ---
 
 I've been baking.

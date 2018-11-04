@@ -7,7 +7,7 @@ locations:
 map: static
 coordinates:
   - -73.9210542,41.6939295
-image: //yo.katydecorah.com/2013-05-19-two-weddings-0.jpg
+image: https://yo.katydecorah.com/2013-05-19-two-weddings-0.jpg
 ---
 
 I had the distinct honor of being in two weddings this month.

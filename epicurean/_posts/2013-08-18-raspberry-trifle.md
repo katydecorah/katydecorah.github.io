@@ -1,7 +1,7 @@
 ---
 title: Raspberry Trifle
 
-image: //yo.katydecorah.com/2013-08-18-raspberry-trifle-0.jpg
+image: https://yo.katydecorah.com/2013-08-18-raspberry-trifle-0.jpg
 ---
 
 Incredibly easy and delicious! Once you have the ingredients together, assembly is simple.

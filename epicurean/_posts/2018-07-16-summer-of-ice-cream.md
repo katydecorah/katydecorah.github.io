@@ -1,7 +1,7 @@
 ---
 title: Summer of ice cream
 
-image: //yo.katydecorah.com/2018-07-16-summer-of-ice-cream-0.jpg
+image: https://yo.katydecorah.com/2018-07-16-summer-of-ice-cream-0.jpg
 emoji: 🍨
 ---
 

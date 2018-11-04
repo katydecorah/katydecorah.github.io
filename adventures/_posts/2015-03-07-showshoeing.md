@@ -1,7 +1,7 @@
 ---
 title: Showshoeing in Rensselaerville
 
-image: //yo.katydecorah.com/2015-03-07-showshoeing-0.jpg
+image: https://yo.katydecorah.com/2015-03-07-showshoeing-0.jpg
 locations:
   - Rensselaerville,NY
 coordinates:

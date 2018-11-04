@@ -4,7 +4,7 @@ title: Lake Placid
 locations:
   - Lake Placid,NY
   - Saranac Lake,NY
-image: //yo.katydecorah.com/2013-02-15-lake-placid-0.jpg
+image: https://yo.katydecorah.com/2013-02-15-lake-placid-0.jpg
 map: static
 coordinates:
   - -73.9835766,44.2805657

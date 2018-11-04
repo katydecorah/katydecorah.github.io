@@ -7,7 +7,7 @@ locations:
   - "Mount Baker, Saranac Lake"
   - "Lake Placid,NY"
   - "Moreau,NY"
-image: //yo.katydecorah.com/2013-10-14-mount-baker-0.jpg
+image: https://yo.katydecorah.com/2013-10-14-mount-baker-0.jpg
 ---
 
 ## Mount Baker

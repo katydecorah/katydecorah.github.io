@@ -4,7 +4,7 @@ title: Rennselaerville &amp; Thacher Park
 locations:
   - Rennselaerville,NY
   - Thacher State Park
-image: //yo.katydecorah.com/2013-03-16-rensselaerville-and-thacher-park-0.jpg
+image: https://yo.katydecorah.com/2013-03-16-rensselaerville-and-thacher-park-0.jpg
 map: static
 coordinates:
   - -74.0125265,42.6512778

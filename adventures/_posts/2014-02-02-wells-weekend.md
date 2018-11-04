@@ -7,7 +7,7 @@ locations:
 pad: 0
 coordinates:
   - -74.289580,43.395900
-image: //yo.katydecorah.com/2014-02-02-wells-weekend-0.jpg
+image: https://yo.katydecorah.com/2014-02-02-wells-weekend-0.jpg
 ---
 
 This weekend we celebrated my birthday in a cabin in Wells, NY.

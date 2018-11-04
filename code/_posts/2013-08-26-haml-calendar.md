@@ -5,7 +5,7 @@ tags:
   - Haml
   - Sass
 pen: aDAoG
-image: //yo.katydecorah.com/2013-08-26-haml-calendar-0.png
+image: https://yo.katydecorah.com/2013-08-26-haml-calendar-0.png
 project: true
 ---
 

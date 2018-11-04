@@ -9,7 +9,7 @@ locations:
 coordinates:
   - -74.15,42.52
 recommended: true
-image: //yo.katydecorah.com/2014-05-25-huyck-preserve-0.jpg
+image: https://yo.katydecorah.com/2014-05-25-huyck-preserve-0.jpg
 ---
 
 We took a ride out to Rensselaerville and explored the Huyck Preserve again. We took the trail around Lake Myosotis.

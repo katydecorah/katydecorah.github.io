@@ -7,7 +7,7 @@ locations:
 map: static
 coordinates:
   - -73.261242,43.4071351
-image: //yo.katydecorah.com/2013-05-04-rensselaerville-granville-0.jpg
+image: https://yo.katydecorah.com/2013-05-04-rensselaerville-granville-0.jpg
 ---
 
 ## Rensselaerville

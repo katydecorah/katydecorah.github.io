@@ -1,7 +1,7 @@
 ---
 title: Lake Placid &amp; Potter's Point
 
-image: //yo.katydecorah.com/2013-08-04-lake-placid-potters-point-0.jpg
+image: https://yo.katydecorah.com/2013-08-04-lake-placid-potters-point-0.jpg
 locations:
   - Lake Placid,NY
   - Moreau,NY

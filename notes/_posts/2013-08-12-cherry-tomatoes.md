@@ -1,6 +1,6 @@
 ---
 title: Windowsill Cherry Tomatoes
-image: //yo.katydecorah.com/2013-08-12-cherry-tomatoes-0.jpg
+image: https://yo.katydecorah.com/2013-08-12-cherry-tomatoes-0.jpg
 emoji: 🍅
 ---
 

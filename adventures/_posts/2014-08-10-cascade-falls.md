@@ -2,7 +2,7 @@
 title: Cascade Falls
 
 recommended: true
-image: //yo.katydecorah.com/2014-08-10-cascade-falls-0.jpg
+image: https://yo.katydecorah.com/2014-08-10-cascade-falls-0.jpg
 coordinates:
   - -73.1352701,42.6919608
 locations:

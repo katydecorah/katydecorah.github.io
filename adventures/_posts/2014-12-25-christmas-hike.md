@@ -5,7 +5,7 @@ locations:
   - Rensselaer, NY
 coordinates:
   - -73.7440735,42.5726903
-image: //yo.katydecorah.com/2014-12-25-christmas-hike-0.jpg
+image: https://yo.katydecorah.com/2014-12-25-christmas-hike-0.jpg
 feed: nah
 ---
 

@@ -3,7 +3,7 @@ title: Jekyll and GeoJSON
 
 tags:
   - Jekyll
-image: //yo.katydecorah.com/2014-11-03-jekyll-geojson-0.png
+image: https://yo.katydecorah.com/2014-11-03-jekyll-geojson-0.png
 ---
 
 Add this post to my love-affair-with-[Jekyll]({{site.url}}/code/2014/01/26/mapbox-for-jekyll-posts/)-and-[Mapbox]({{site.url}}/code/2014/07/26/static-mapbox-for-jekyll/) series.

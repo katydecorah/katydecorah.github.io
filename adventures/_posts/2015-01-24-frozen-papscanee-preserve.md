@@ -5,7 +5,7 @@ locations:
   - Rensselaer, NY
 coordinates:
   - -73.7440735,42.5726903
-image: //yo.katydecorah.com/2015-01-24-frozen-papscanee-preserve-0.jpg
+image: https://yo.katydecorah.com/2015-01-24-frozen-papscanee-preserve-0.jpg
 ---
 
 The trail was a sheet of ice, but a pretty sheet of ice.

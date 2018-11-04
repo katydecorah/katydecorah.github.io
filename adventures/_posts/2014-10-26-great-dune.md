@@ -5,7 +5,7 @@ coordinates:
   - -73.894,42.707
 locations:
   - Guilderland, NY
-image: //yo.katydecorah.com/2014-10-26-great-dune-0.jpg
+image: https://yo.katydecorah.com/2014-10-26-great-dune-0.jpg
 recommended: true
 feed: nah
 miles: 2

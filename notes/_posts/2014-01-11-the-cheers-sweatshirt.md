@@ -1,6 +1,6 @@
 ---
 title: The Cheers Sweatshirt
-image: //yo.katydecorah.com/2014-01-11-the-cheers-sweatshirt-0.jpg
+image: https://yo.katydecorah.com/2014-01-11-the-cheers-sweatshirt-0.jpg
 ---
 
 <div class="photos">

@@ -5,7 +5,7 @@ tags:
   - Jekyll
   - AngularJS
 pen: LqbjG
-image: //yo.katydecorah.com/2014-05-29-jekyll-and-angular-0.png
+image: https://yo.katydecorah.com/2014-05-29-jekyll-and-angular-0.png
 ---
 
 I'm a total AngularJS rube, so it took me a few tries to get Angular to work on a Jekyll site. Since both use `{% raw %}{{ curly brackets }}{% endraw %}`, Jekyll will gobble up the brackets first. (And none for AngularJS.)

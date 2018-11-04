@@ -4,7 +4,7 @@ title: Triangles
 tags:
   - Sass
 pen: hAive
-image: //yo.katydecorah.com/2013-08-06-triangles-0.png
+image: https://yo.katydecorah.com/2013-08-06-triangles-0.png
 ---
 
 <p data-height="300" data-theme-id="97" data-slug-hash="hAive" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/hAive'>Triangles</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

@@ -4,7 +4,7 @@ title: "Food by nos"
 tags:
   - Sass
   - Haml
-image: //yo.katydecorah.com/2013-12-23-food-by-nos-0.png
+image: https://yo.katydecorah.com/2013-12-23-food-by-nos-0.png
 dribbble: http://dribbble.com/shots/1355254-Food
 pen: Kyabd
 ---

@@ -5,7 +5,7 @@ locations:
   - Williamstown, MA
 coordinates:
   - -73.1967002,42.7123864
-image: //yo.katydecorah.com/2015-01-10-williamstown-0.jpg
+image: https://yo.katydecorah.com/2015-01-10-williamstown-0.jpg
 ---
 
 Or, how we beat cabin fever by fleeing cold New York for cold Massachusetts for one night.

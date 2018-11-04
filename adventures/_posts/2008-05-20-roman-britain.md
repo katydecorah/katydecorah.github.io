@@ -18,7 +18,7 @@ locations:
   - Stonehenge
   - Fishbourne
   - London
-image: //yo.katydecorah.com/2008-05-20-roman-britain-0.jpg
+image: https://yo.katydecorah.com/2008-05-20-roman-britain-0.jpg
 coordinates:
   - -2.601696,54.989898 #hadrians
   - -2.397806,55.00438 #cawfield

@@ -5,7 +5,7 @@ tags:
   - Haml
   - Sass
   - animation
-image: //yo.katydecorah.com/2014-03-14-leadership-letters-0.png
+image: https://yo.katydecorah.com/2014-03-14-leadership-letters-0.png
 pen: htBka
 dribbble: http://drbl.in/ktXg
 ---

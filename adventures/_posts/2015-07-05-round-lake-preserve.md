@@ -1,7 +1,7 @@
 ---
 title: Round Lake Preserve
 
-image: //yo.katydecorah.com/2015-07-05-round-lake-preserve-0.jpg
+image: https://yo.katydecorah.com/2015-07-05-round-lake-preserve-0.jpg
 locations:
   - Round lake
 coordinates:

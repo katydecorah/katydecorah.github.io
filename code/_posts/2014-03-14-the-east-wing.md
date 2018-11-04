@@ -3,7 +3,7 @@ title: The East Wing Episode 86
 
 #elsewhere-link: http://5by5.tv/eastwing/86
 #elsewhere-site: 5by5
-image: //yo.katydecorah.com/2014-03-14-the-east-wing-0.jpg
+image: https://yo.katydecorah.com/2014-03-14-the-east-wing-0.jpg
 tags:
   - podcasts
 emoji: 🎙

@@ -4,7 +4,7 @@ title: Font Awesome Buttons
 tags:
   - Sass
 pen: Bjhdw
-image: //yo.katydecorah.com/2013-08-05-font-awesome-buttons-0.png
+image: https://yo.katydecorah.com/2013-08-05-font-awesome-buttons-0.png
 
   - /code/2013/08/05/font-awesome-buttons/
   - /code/2013/08/05/font-awesome-buttons.html

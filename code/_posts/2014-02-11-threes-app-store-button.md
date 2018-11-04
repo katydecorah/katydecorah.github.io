@@ -3,7 +3,7 @@ title: THREES App Store Button
 
 tags:
   - Sass
-image: //yo.katydecorah.com/2014-02-11-threes-app-store-button-0.png
+image: https://yo.katydecorah.com/2014-02-11-threes-app-store-button-0.png
 ---
 
 <p data-height="266" data-theme-id="97" data-slug-hash="dAwft" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/dAwft'>THREES App Store Button</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

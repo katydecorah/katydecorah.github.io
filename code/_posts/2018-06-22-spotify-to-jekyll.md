@@ -1,7 +1,7 @@
 ---
 title: Turn a Spotify playlist into a Jekyll post
 
-image: //yo.katydecorah.com/2018-06-22-spotify-to-jekyll-0.png
+image: https://yo.katydecorah.com/2018-06-22-spotify-to-jekyll-0.png
 tags:
   - Node.js
   - Jekyll
