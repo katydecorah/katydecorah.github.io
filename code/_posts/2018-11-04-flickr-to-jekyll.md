@@ -5,6 +5,7 @@ emoji: 🖼
 tags:
   - API
   - Jekyll
+  - Node.js
 ---
 
 I've stored all my photos for this blog on Flickr. For a while now I have kicked around the idea of finding a new home for them. One big reason being that a lot of the images are bloated and I would like to create my own system to control them. And now that Flickr is changing its storage policies, it's time to move my boxes of photos out of their basement.
