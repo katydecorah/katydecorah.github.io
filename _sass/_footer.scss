@@ -49,10 +49,12 @@
   }
 
   .bio-img-container {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border-radius: 100%;
-    padding-bottom: 100%;
     width: 8em;
+    margin: 0;
+
+    img {
+      margin: 0;
+      border-radius: 100%;
+    }
   }
 }

@@ -4,7 +4,7 @@ title: Jekyll data playlists
 tags:
   - Jekyll
   - PHP
-image: https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png
+image: https://yo.katydecorah.com/2014-03-23-jekyll-data-playlists-0.png
 ---
 
 In 2008, I started creating a playlist for every season. I kept my playlists in iTunes, but have migrated to Rdio. These playlists are my audio diaries. I can listen to one and remember where I was, where I was going, who I was with, and how I felt. I love these playlists.
@@ -31,7 +31,7 @@ I decided to tighten up the process.
 
 I ditched the database and moved the playlists into a single YAML file. Using PHP, I outputted the playlist data into YAML format. I had to clean out special characters, but in all it worked beautifully. I saved my data into [`playlists.yml`](https://github.com/katydecorah/katydecorah.github.com/blob/master/_data/playlists.yml) in my site's `_data` folder.
 
-![playlists.xml](https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png)
+{% include img.html src='2014-03-23-jekyll-data-playlists-0.png' alt='playlists.xml' class='img-half' %}
 
 Using liquid, I could now spin through the data. To test, I created a [playlist master]({{site.url}}/playlists) page that pulls all the data from `playlists.yml` into a beautiful list.
 

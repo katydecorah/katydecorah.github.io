@@ -1,7 +1,7 @@
 ---
 title: GitHub as a talk proposal review system
 
-image: https://c1.staticflickr.com/5/4672/40055436132_cf2a8a81fb_o.png
+image: https://yo.katydecorah.com/2018-02-04-proposal-reviewer-0.png
 tags:
   - Node.js
   - API
@@ -29,7 +29,7 @@ To help automate the process, I [wrote a script](https://github.com/katydecorah/
 
 Below is a (highly) redacted example of a talk proposal with a 5 :+1: rating and a "favorite" label adhered by the bot!
 
-![screenshot of GitHub issue](https://c1.staticflickr.com/5/4616/39189820595_7e39651f00_h.jpg)
+{% include img.html src='2018-02-04-proposal-reviewer-1.jpg' alt='screenshot of GitHub issue' class='img-half' %}
 
 The system and script worked very well for a small-scale (receiving around 200 proposals) conference that needed an asynchronous review period. We used labels to help organize the different types of proposals we received and left comments based on what we thought about the talk.
 

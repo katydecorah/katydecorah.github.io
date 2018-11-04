@@ -7,20 +7,22 @@ locations:
 map: static
 coordinates:
   - -73.261242,43.4071351
-image: http://farm8.staticflickr.com/7300/10848303914_d20201cda4_b.jpg
+image: https://yo.katydecorah.com/2013-05-04-rensselaerville-granville-0.jpg
 ---
 
 ## Rensselaerville
 
 <div class="photos">
 
-<img src="http://farm3.staticflickr.com/2838/10848217696_e501175023_b.jpg" class="img-wide" alt="2013-05-04 11.28.50-1">
-<img src="http://farm8.staticflickr.com/7300/10848303914_d20201cda4_b.jpg" class="img-tall" alt="2013-05-04 11.23.37-1">
+{% include img.html src="2013-05-04-rensselaerville-granville-1.jpg" class="img-wide" alt="2013-05-04 11.28.50-1" %}
+{% include img.html src="2013-05-04-rensselaerville-granville-0.jpg" class="img-tall" alt="2013-05-04 11.23.37-1" %}
+
 </div>
 
 ## Granville
 
 <div class="photos">
 
-<img src="http://farm4.staticflickr.com/3723/10848219716_1a72383007_b.jpg" alt="2013-05-05 13.56.33">
+{% include img.html src="2013-05-04-rensselaerville-granville-2.jpg" alt="2013-05-05 13.56.33" %}
+
 </div>

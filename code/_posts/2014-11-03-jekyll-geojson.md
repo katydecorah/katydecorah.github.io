@@ -3,7 +3,7 @@ title: Jekyll and GeoJSON
 
 tags:
   - Jekyll
-image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
+image: https://yo.katydecorah.com/2014-11-03-jekyll-geojson-0.png
 ---
 
 Add this post to my love-affair-with-[Jekyll]({{site.url}}/code/2014/01/26/mapbox-for-jekyll-posts/)-and-[Mapbox]({{site.url}}/code/2014/07/26/static-mapbox-for-jekyll/) series.
@@ -99,7 +99,7 @@ feature = marker.feature;
 
 // Create custom popup content
 var popupContent = '<a target="_blank" class="popup" href="' + feature.properties.url + '">' +
-'<img alt="'+ feature.properties.title +'+" style="max-width: 150px" src="' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
+'{% include img.html alt="'+ feature.properties.title +'+" style="max-width: 150px" src="' + feature.properties.image + '" %}<h2 class="text-center">'+feature.properties.title+'</h2></a>';
 
 // http://leafletjs.com/reference.html#popup
 marker.bindPopup(popupContent,{

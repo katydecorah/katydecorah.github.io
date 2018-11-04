@@ -5,7 +5,7 @@ tags:
   - Sass
   - Haml
 pen: gwAmk
-image: http://farm8.staticflickr.com/7324/12730510673_c1866394ba_o.png
+image: https://yo.katydecorah.com/2013-08-19-optical-illusion-0.png
 ---
 
 I gave a few optical illusions a try to flex my Sass skills. The source file for each illusion can be found in the JS tab.

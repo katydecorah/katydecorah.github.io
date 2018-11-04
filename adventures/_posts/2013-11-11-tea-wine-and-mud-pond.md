@@ -8,7 +8,7 @@ locations:
   - Ballston Spa
   - Oliva Vineyards
   - Nassau Mud Pond Preserve
-image: http://farm6.staticflickr.com/5547/10789496434_0f2b245c5c_c.jpg
+image: https://yo.katydecorah.com/2013-11-11-tea-wine-and-mud-pond-0.jpg
 ---
 
 ## Tea
@@ -19,7 +19,8 @@ After lunch, we walked around town and stopped in Wheats & Sweets for a giant co
 
 <div class="photos">
 
-<img src="http://farm3.staticflickr.com/2817/10789405676_2df4e07fcf_c.jpg" class="img-center" alt="giant cookie">
+{% include img.html src="2013-11-11-tea-wine-and-mud-pond-1.jpg" class="img-center" alt="giant cookie" %}
+
 </div>
 
 ## Wine
@@ -30,14 +31,16 @@ The vineyard is also home to thoroughbred horses.
 
 <div class="photos">
 
-<img src="http://farm6.staticflickr.com/5547/10789496434_0f2b245c5c_c.jpg" alt="Oliva Vineyards" class="img-center">
+{% include img.html src="2013-11-11-tea-wine-and-mud-pond-0.jpg" alt="Oliva Vineyards" class="img-center" %}
+
 </div>
 
 Mom got this great shot of me just as I was giggling, "My hand went in his mouth!"
 
 <div class="photos">
 
-<img src="http://farm4.staticflickr.com/3729/10789402276_5d1eafcedc_c.jpg" alt="Oliva Vineyards" class="pop-out">
+{% include img.html src="2013-11-11-tea-wine-and-mud-pond-2.jpg" alt="Oliva Vineyards" class="pop-out" %}
+
 </div>
 
 ## Nassau Mud Pond Preserve
@@ -48,5 +51,6 @@ The view of the pond wasn't very clear, but the trail was decent. The trailhead 
 
 <div class="photos">
 
-<img src="http://farm8.staticflickr.com/7414/10804674405_6191ffaaa0_b.jpg" class="pop-out" alt="Mud Pond Preserve">
+{% include img.html src="2013-11-11-tea-wine-and-mud-pond-3.jpg" class="pop-out" alt="Mud Pond Preserve" %}
+
 </div>

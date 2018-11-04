@@ -14,7 +14,7 @@ future: true
 
 title: Katy DeCorah
 description: "Front-end developer and tinkerer from Saratoga Springs, NY."
-image: https://c2.staticflickr.com/8/7798/18359743065_ef178ded42_b.jpg
+image: https://yo.katydecorah.com/katy-decorah@1600.jpg
 twitter: "@katydecorah"
 
 collections:
@@ -66,6 +66,7 @@ exclude:
   - Gemfile.lock
   - package.json
   - test
+  - img/posts
 
 links:
   - text: CodePen

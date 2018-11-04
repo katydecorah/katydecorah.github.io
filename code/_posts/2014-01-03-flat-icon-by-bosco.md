@@ -4,7 +4,7 @@ title: Flat icon by _Bosco
 tags:
   - Haml
   - Sass
-image: http://farm4.staticflickr.com/3708/12730299513_58bce11c10_o.png
+image: https://yo.katydecorah.com/2014-01-03-flat-icon-by-bosco-0.png
 pen: ipEka
 ---
 
@@ -18,10 +18,10 @@ While `$fontSize` controls the size of the number and ultimately adjusts the siz
 
 The awards are all styled the same, but `.ribbon` and `.badge` provide different styles for the pseudo elements. I dreamt up the ribbon tails for `.ribbon` quickly. I manipulated the border by styling a transparent `border-bottom-color`, which created two triangles for the ribbon tails. I added height to the element to elongate it into a ribbon. I created one tail out of each pseudo element.
 
-![diagram of ribbon](http://farm4.staticflickr.com/3708/12730299513_58bce11c10_o.png)
+{% include img.html src='2014-01-03-flat-icon-by-bosco-0.png' alt='diagram of ribbon' class='img-half' %}
 
 I started to sweat a little while creating the badge. I didn't think I had enough pseudo elements to achieve what looks like a hexagon. In the end, I managed to skimp on a side. I created a rectangle out of the `:before` and used a horizontal gradient to create the three stripes. Then I created a triangle out of the `:after`, but kept it solid colored. Luckily the medallion fit nice and snug up where the triangle and rectangle met.
 
-![diagram of badge](http://farm4.staticflickr.com/3719/12730140135_bb748b1de1_o.png)
+{% include img.html src='2014-01-03-flat-icon-by-bosco-1.png' alt='diagram of badge' class='img-half' %}
 
 Can you tell that I got an iPad for Christmas?

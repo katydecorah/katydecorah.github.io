@@ -1,13 +1,13 @@
 ---
 title: Candy Sushi
 
-image: http://farm8.staticflickr.com/7341/10848177206_5f518d74ef_b.jpg
+image: https://yo.katydecorah.com/2013-01-13-candy-sushi-0.jpg
 
 emoji: 🍣
 ---
 
 <div class="photos">
-<img src="http://farm8.staticflickr.com/7341/10848177206_5f518d74ef_b.jpg" alt="Candy Sushi">
+{% include img.html src="2013-01-13-candy-sushi-0.jpg" alt="Candy Sushi" %}
 </div>
 
 You too can bring candy sushi magic to your home. Below is a basic write-up of what I did, but free-styling is encouraged.
