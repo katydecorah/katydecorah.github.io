@@ -34,7 +34,7 @@ I used [this policy on my bucket](https://docs.aws.amazon.com/AmazonS3/latest/de
 
 From my S3 bucket, I clicked **Properties** > **Static website hosting**. I chose **Use this bucket to host a website**, entered `index.html`, and hit saved. (I completed the configuration in the next step.)
 
-I also uploaded an `index.html` to my bucket. (It's blank for now. I'll make it nice later.)
+I also uploaded an `index.html` to my bucket.
 
 ## Make it https
 
