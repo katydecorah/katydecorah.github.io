@@ -6,7 +6,7 @@ tags:
   - jQuery
   - Haml
 pen: CLxkg
-image: http://farm3.staticflickr.com/2838/12730513903_cd54d30d25_o.png
+image: //yo.katydecorah.com/2013-04-19-combination-lock-0.png
 project: true
 ---
 

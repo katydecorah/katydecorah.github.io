@@ -4,3 +4,5 @@ _ignore/
 node_modules/
 style/
 tmp
+data
+img/posts

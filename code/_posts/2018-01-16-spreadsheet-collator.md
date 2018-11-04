@@ -1,7 +1,7 @@
 ---
 title: Collate Google Form responses into Google Docs
 
-image: https://c1.staticflickr.com/5/4607/27955743299_e5aa8d82ba_o.png
+image: //yo.katydecorah.com/2018-01-16-spreadsheet-collator-0.png
 tags:
   - Node.js
   - API
@@ -31,28 +31,28 @@ The script worked beautifully and saved us loads of time. Here's how you can use
 
 Create your form in Google Sheets. (For this example, I made a vegetable feedback form.)
 
-![Screenshot of a Google Form](https://c1.staticflickr.com/5/4629/39734271961_330feb9a1a_o.png)
+![Screenshot of a Google Form](//yo.katydecorah.com/2018-01-16-spreadsheet-collator-1.png)
 
 Once you create the form, click the "Responses" tab and then the Google Sheets icon to create a Google spreadsheet to store your data.
 
 While you have your spreadsheet open, you'll want to jot down a few credentials:
 
 1. The spreadsheet ID, which is that string of characters in the URL:
-   ![Screenshot of Google spreadsheet ID](https://c1.staticflickr.com/5/4707/39702871512_674448cc63_o.png)
+   ![Screenshot of Google spreadsheet ID](//yo.katydecorah.com/2018-01-16-spreadsheet-collator-2.png)
 2. The spreadsheet range, which is the tab name and cell ranges you want to read. For this example we want `Vegetable Feedback!B:D`:
-   ![Screenshot of Google spreadsheet range](https://c1.staticflickr.com/5/4631/39702871792_ee4d2daf2c_o.png)
+   ![Screenshot of Google spreadsheet range](//yo.katydecorah.com/2018-01-16-spreadsheet-collator-3.png)
 3. The name of the column header that holds the rows that will be the titles of your Google docs:
-   ![Screenshot of Google spreadsheet header row](https://c1.staticflickr.com/5/4662/39734272281_47ce959bb8_o.png)
+   ![Screenshot of Google spreadsheet header row](//yo.katydecorah.com/2018-01-16-spreadsheet-collator-4.png)
 
 ## Create a Google Drive folder
 
 Create a folder in Google Drive that will ultimately be the home for the docs. You can also store your form and form response spreadsheet here.
 
-![Screenshot of a Google Drive folder](https://c1.staticflickr.com/5/4661/39734272331_af7926a36c_o.png)
+![Screenshot of a Google Drive folder](//yo.katydecorah.com/2018-01-16-spreadsheet-collator-5.png)
 
 While you're here, you also want to jot down the folder's ID, which is that string of characters in the URL:
 
-![Screenshot of Google Drive Folder ID](https://c1.staticflickr.com/5/4650/24864818327_42066d52b2_o.png)
+![Screenshot of Google Drive Folder ID](//yo.katydecorah.com/2018-01-16-spreadsheet-collator-6.png)
 
 ## Configure the collator
 
@@ -62,15 +62,15 @@ After you've cloned the [spreadsheet-collator repo](https://github.com/katydecor
 
 Following the steps in the [README](https://github.com/katydecorah/spreadsheet-collator#authenticate-and-run), you'll need to first authenticate your account so that script can access your spreadsheet and create files. Then you can [run the collator](https://github.com/katydecorah/spreadsheet-collator#run-the-script).
 
-![Screenshot of Terminal](https://c1.staticflickr.com/5/4751/39734272401_73e655c530_o.png)
+![Screenshot of Terminal](//yo.katydecorah.com/2018-01-16-spreadsheet-collator-7.png)
 
 Open up your Google Drive folder to see your freshly created documents:
 
-![Screenshot of Google Drive folder with docs](https://c1.staticflickr.com/5/4711/39702871972_5319836e8a_o.png)
+![Screenshot of Google Drive folder with docs](//yo.katydecorah.com/2018-01-16-spreadsheet-collator-8.png)
 
 And then open up a doc to see your collated data:
 
-![Screenshot of Google doc](https://c1.staticflickr.com/5/4758/24864818507_6ea0f68953_o.png)
+![Screenshot of Google doc](//yo.katydecorah.com/2018-01-16-spreadsheet-collator-9.png)
 
 ## Customize the collator
 

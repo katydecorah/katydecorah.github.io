@@ -7,7 +7,7 @@ locations:
 coordinates:
   - -73.8553663,42.6328986
 zoom: 16
-image: https://farm3.staticflickr.com/2918/14771854853_f283db09ba_b.jpg
+image: //yo.katydecorah.com/2014-07-27-pine-hollow-arboretum-0.jpg
 ---
 
 Yesterday we visited the [Pine Hollow Arboretum](http://www.pinehollowarboretum.org/) in Slingerlands. We saw the sign for the arboretum during one of our drives out to Rensselaerville.
@@ -18,27 +18,28 @@ This might be the best place to satisfy the urge to (safely) get lost in the woo
 
 <div class="photos">
 
-<img src="https://farm3.staticflickr.com/2908/14771840973_b6234f53ab_b.jpg" alt="Pine Hollow Arboretum">
+{% include img.html src="2014-07-27-pine-hollow-arboretum-1.jpg" alt="Pine Hollow Arboretum" %}
 
-<img src="https://farm3.staticflickr.com/2930/14728975376_2d8ea7743e_b.jpg" class="img-half" alt="Pine Hollow Arboretum">
-<img src="https://farm4.staticflickr.com/3889/14751984385_1580a03753_b.jpg" class="img-half" alt="Pine Hollow Arboretum">
+{% include img.html src="2014-07-27-pine-hollow-arboretum-2.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-3.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
 
-<img src="https://farm4.staticflickr.com/3849/14565539437_ef8cc392b9_b.jpg" alt="Pine Hollow Arboretum">
+{% include img.html src="2014-07-27-pine-hollow-arboretum-4.jpg" alt="Pine Hollow Arboretum" %}
 
-<img src="https://farm4.staticflickr.com/3864/14748817051_576bf55755_b.jpg" class="img-half" alt="Pine Hollow Arboretum">
-<img src="https://farm3.staticflickr.com/2914/14565332749_ced0d73271_b.jpg" class="img-half" alt="Pine Hollow Arboretum">
+{% include img.html src="2014-07-27-pine-hollow-arboretum-5.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-6.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
 
-<img src="https://farm4.staticflickr.com/3847/14565294670_47fdb3b30e_b.jpg" alt="Pine Hollow Arboretum">
+{% include img.html src="2014-07-27-pine-hollow-arboretum-7.jpg" alt="Pine Hollow Arboretum" %}
 
-<img src="https://farm3.staticflickr.com/2925/14751988345_e16cbc0867_b.jpg" class="img-tall" alt="Pine Hollow Arboretum">
-<img src="https://farm3.staticflickr.com/2917/14728987886_793463c0eb_b.jpg" class="img-wide" alt="Pine Hollow Arboretum">
+{% include img.html src="2014-07-27-pine-hollow-arboretum-8.jpg" class="img-tall" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-9.jpg" class="img-wide" alt="Pine Hollow Arboretum" %}
 
-<img src="https://farm4.staticflickr.com/3910/14565296070_f9e9247575_b.jpg" alt="Pine Hollow Arboretum">
+{% include img.html src="2014-07-27-pine-hollow-arboretum-10.jpg" alt="Pine Hollow Arboretum" %}
 
-<img src="https://farm4.staticflickr.com/3876/14728991806_cf64f4374f_b.jpg" class="img-half" alt="Pine Hollow Arboretum">
-<img src="https://farm6.staticflickr.com/5593/14751679842_d6caa643a6_b.jpg" class="img-half" alt="Pine Hollow Arboretum">
+{% include img.html src="2014-07-27-pine-hollow-arboretum-11.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-12.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
 
-<img src="https://farm3.staticflickr.com/2918/14771854853_f283db09ba_b.jpg" alt="Pine Hollow Arboretum">
+{% include img.html src="2014-07-27-pine-hollow-arboretum-0.jpg" alt="Pine Hollow Arboretum" %}
+
 </div>
 
 Recipe for the perfect day date:

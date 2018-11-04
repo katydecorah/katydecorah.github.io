@@ -3,7 +3,7 @@ title: Incrementally awesome Sass labels
 
 tags:
   - Sass
-image: http://farm8.staticflickr.com/7340/12730825944_d47ef70a77_o.png
+image: //yo.katydecorah.com/2013-09-29-incrementally-awesome-sass-labels-0.png
 project: true
 css: |
   .label {

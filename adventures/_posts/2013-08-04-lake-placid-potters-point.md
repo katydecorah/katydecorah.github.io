@@ -1,7 +1,7 @@
 ---
 title: Lake Placid &amp; Potter's Point
 
-image: http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_c.jpg
+image: //yo.katydecorah.com/2013-08-04-lake-placid-potters-point-0.jpg
 locations:
   - Lake Placid,NY
   - Moreau,NY
@@ -17,9 +17,9 @@ On the way home, I visited my folks. Mom took me to a spot not far from home cal
 I also filled my pockets with felled mini hemlock pine cones. Free craft materials!
 
 <div class="photos">
-<img src="http://farm4.staticflickr.com/3792/9440867540_59b0194450_n.jpg" class="img-fourths" alt="Potter's Point">
-<img src="http://farm8.staticflickr.com/7411/9440876766_8d6c1b1b89_n.jpg" class="img-fourths" alt="Potter's Point">
-<img src="http://farm6.staticflickr.com/5330/9440887880_7c8b2f0d6a_n.jpg" class="img-fourths" alt="Potter's Point">
-<img src="http://farm6.staticflickr.com/5527/9440890890_ccecb2bdd6_n.jpg" class="img-fourths" alt="Potter's Point">
-<img src="http://farm4.staticflickr.com/3687/9440884304_609a0f98e9_b.jpg" alt="Potter's Point">
+{% include img.html src="2013-08-04-lake-placid-potters-point-1.jpg" class="img-fourths" alt="Potter's Point" %}
+{% include img.html src="2013-08-04-lake-placid-potters-point-2.jpg" class="img-fourths" alt="Potter's Point" %}
+{% include img.html src="2013-08-04-lake-placid-potters-point-3.jpg" class="img-fourths" alt="Potter's Point" %}
+{% include img.html src="2013-08-04-lake-placid-potters-point-4.jpg" class="img-fourths" alt="Potter's Point" %}
+{% include img.html src="2013-08-04-lake-placid-potters-point-5.jpg" alt="Potter's Point" %}
 </div>

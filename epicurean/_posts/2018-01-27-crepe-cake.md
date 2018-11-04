@@ -1,14 +1,14 @@
 ---
 title: Chocolate Hazelnut Crepe Cake
 
-image: https://c1.staticflickr.com/5/4740/39221869344_f95e772a50_k.jpg
+image: //yo.katydecorah.com/2018-01-27-crepe-cake-0.jpg
 recipe: https://cooking.nytimes.com/recipes/1018338-chocolate-hazelnut-crepe-cake
 recipe-title: Chocolate Hazelnut Crepe Cake
 emoji: 🍰
 ---
 
 <div class="photos">
-<img src="https://c1.staticflickr.com/5/4740/39221869344_f95e772a50_k.jpg" alt="crepe cake">
+{% include img.html src="2018-01-27-crepe-cake-0.jpg" alt="crepe cake" %}
 </div>
 
 I love making crepes, so I've had my eye on a crepe cake for a while. I found the crepe batter had a bit of a learning curve to get right. Thankfully, the batter was generous and allow for several oops crepes.
@@ -18,6 +18,6 @@ When assembling, I tried to be clever by adding more space between the edge of t
 The cake still came out very pretty!
 
 <div class="photos">
-<img src="https://c1.staticflickr.com/5/4749/39034348215_d4ab2fe917_k.jpg" alt="crepe cake" class="img-half">
-<img src="https://c1.staticflickr.com/5/4696/26060243808_d586cdeaea_k.jpg" alt="crepe cake" class="img-half">
+{% include img.html src="2018-01-27-crepe-cake-1.jpg" alt="crepe cake" class="img-half" %}
+{% include img.html src="2018-01-27-crepe-cake-2.jpg" alt="crepe cake" class="img-half" %}
 </div>

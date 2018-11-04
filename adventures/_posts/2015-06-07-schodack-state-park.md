@@ -1,7 +1,7 @@
 ---
 title: Schodack Island State Park
 
-image: https://farm9.staticflickr.com/8854/18001503574_3cbe35ecd9_b.jpg
+image: //yo.katydecorah.com/2015-06-07-schodack-state-park-0.jpg
 locations:
   - Schodack Island State Park
 coordinates:
@@ -9,10 +9,10 @@ coordinates:
 ---
 
 <div class="photos">
-<img src="https://farm9.staticflickr.com/8882/18597818566_8f8ca95b98_b.jpg" class="img-tall" alt="Schodack Island State Park">
-<img src="https://farm1.staticflickr.com/402/18436487560_ff08fcf22d_b.jpg" class="img-wide" alt="Schodack Island State Park">
-<img src="https://farm1.staticflickr.com/360/18436460940_95c47d1513_b.jpg" class="img-tall" alt="Schodack Island State Park">
-<img src="https://farm9.staticflickr.com/8854/18001503574_3cbe35ecd9_b.jpg" class="img-wide" alt="Schodack Island State Park">
-<img src="https://farm1.staticflickr.com/259/18597783146_fa81e88a5a_b.jpg" class="img-half" alt="Schodack Island State Park">
-<img src="https://farm1.staticflickr.com/383/18436459260_e8f8170b05_b.jpg" class="img-half" alt="Schodack Island State Park">
+{% include img.html src="2015-06-07-schodack-state-park-1.jpg" class="img-tall" alt="Schodack Island State Park" %}
+{% include img.html src="2015-06-07-schodack-state-park-2.jpg" class="img-wide" alt="Schodack Island State Park" %}
+{% include img.html src="2015-06-07-schodack-state-park-3.jpg" class="img-tall" alt="Schodack Island State Park" %}
+{% include img.html src="2015-06-07-schodack-state-park-0.jpg" class="img-wide" alt="Schodack Island State Park" %}
+{% include img.html src="2015-06-07-schodack-state-park-4.jpg" class="img-half" alt="Schodack Island State Park" %}
+{% include img.html src="2015-06-07-schodack-state-park-5.jpg" class="img-half" alt="Schodack Island State Park" %}
 </div>

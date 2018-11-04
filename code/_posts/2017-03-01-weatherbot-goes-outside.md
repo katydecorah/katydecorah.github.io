@@ -1,7 +1,7 @@
 ---
 title: WeatherBot goes outside
 
-image: https://c1.staticflickr.com/1/584/33134069845_e0d27177f0_z.jpg
+image: //yo.katydecorah.com/2017-03-01-weatherbot-goes-outside-0.jpg
 tags:
   - Node.js
   - AWS
@@ -11,11 +11,11 @@ emoji: ❄️
 
 Last week I talked about how I built a [WeatherBot](/code/weatherbot/) that gives us a heads up if there will be snow over the next several hours. The recent warm weather inspired me to add warm weather alerts:
 
-![WeatherBot Slack Post](https://c1.staticflickr.com/3/2013/32728005310_a1b45ffb85_b.jpg)
+![WeatherBot Slack Post](//yo.katydecorah.com/2017-03-01-weatherbot-goes-outside-1.jpg)
 
 <div class='caption'>Cloudy and warm</div>
 
-![Partly cloudy WeatherBot](https://c1.staticflickr.com/3/2860/32318481893_bf18077b2d_b.jpg)
+![Partly cloudy WeatherBot](//yo.katydecorah.com/2017-03-01-weatherbot-goes-outside-2.jpg)
 
 <div class='caption'>Party cloudy and warm</div>
 

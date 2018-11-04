@@ -1,6 +1,6 @@
 ---
 title: Coconut curried kale and sweet potato
-image: https://c2.staticflickr.com/2/1863/44812677891_8c3fcfcdbf_b.jpg
+image: //yo.katydecorah.com/2018-09-21-coconut-curry-0.jpg
 emoji: 🍛
 ---
 
@@ -10,7 +10,7 @@ I did a thing in this recipe that I don't love: where an ingredient needs its ow
 
 Now I'm doing a thing with this recipe that I don't love: long intros when all you want is the recipe. K byeeee.
 
-![Coconut Curried Kale and Sweet Potato](https://c2.staticflickr.com/2/1863/44812677891_8c3fcfcdbf_b.jpg)
+![Coconut Curried Kale and Sweet Potato](//yo.katydecorah.com/2018-09-21-coconut-curry-0.jpg)
 
 ## Ingredients
 

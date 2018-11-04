@@ -4,7 +4,7 @@ title: Power Up Preloader by Mantas Ba&#269;iu&#353;ka
 tags:
   - Sass
 pen: BfuGF
-image: https://farm3.staticflickr.com/2860/12730278733_e045273427_o.png
+image: //yo.katydecorah.com/2014-01-30-power-up-preloader-0.png
 browser: Chrome 32.0.1700.102
 ---
 

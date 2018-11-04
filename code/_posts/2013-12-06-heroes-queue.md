@@ -22,7 +22,7 @@ In a new spreadsheet, I resized the rows and columns to 25 and turned word text 
 
 Before this project, I had known about a cool feature in Google Spreadsheets, _conditional formatting_. You can set conditions in the spreadsheet to style a cell based on a string or digit. If there is a match then the background color or font color of that cell will change according to your rule.
 
-![Conditional Formatting](http://farm4.staticflickr.com/3783/12730143585_8cf6118b7d_o.png)
+![Conditional Formatting](//yo.katydecorah.com/2013-12-06-heroes-queue-0.png)
 
 ## Variables as conditions
 
@@ -34,7 +34,7 @@ With one eye in Photoshop and another in Google Drive, I started typing my varia
 
 I ended up creating each character on a 26&times;26 grid or in spreadsheet terms A1:Z26. This grid size came in handy later when concocting the formula.
 
-![batman](http://farm8.staticflickr.com/7397/12730621234_eef39c0af6_o.png)
+![batman](//yo.katydecorah.com/2013-12-06-heroes-queue-1.png)
 
 You might notice that I didn’t need to include `$bg`. I could have left those cells blank, because in the end I’m just going to ignore those cells because the `body` background can make up for it. I’m a visual person, so putting those values in worked for me.
 
@@ -61,11 +61,11 @@ Feel free to [check out the spreadsheet](https://docs.google.com/spreadsheet/ccc
 
 (I highlighted AA1 to indicate that that cell holds the formula.)
 
-![Batman with values](http://farm4.staticflickr.com/3779/12730303473_19a1b8767c_o.png)
+![Batman with values](//yo.katydecorah.com/2013-12-06-heroes-queue-2.png)
 
 When I pasted the code it had some undesirable spaces and returns, but I quickly regex replaced that sucker into a dreamy column.
 
-![Batman Straight Values](http://farm6.staticflickr.com/5478/12730621174_17712c1681_o.png)
+![Batman Straight Values](//yo.katydecorah.com/2013-12-06-heroes-queue-3.png)
 
 ## Phat code
 

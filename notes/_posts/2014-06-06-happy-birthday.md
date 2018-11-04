@@ -1,12 +1,12 @@
 ---
 title: Happy Birthday Blog
-image: https://farm6.staticflickr.com/5477/14174930269_b388e7da02_b.jpg
+image: //yo.katydecorah.com/2014-06-06-happy-birthday-0.jpg
 
 emoji: 🍰
 ---
 
 <div class="photos">
-<img src="https://farm6.staticflickr.com/5477/14174930269_b388e7da02_b.jpg" alt="Happy birthday blog!">
+{% include img.html src="2014-06-06-happy-birthday-0.jpg" alt="Happy birthday blog!" %}
 </div>
 
 A year ago I decided to settle down and find myself a blogging system. I had heard about Jekyll and bandaged together several (okay, a lot) of novice commands to get it set up locally. Whatever the combination was, it worked. I pushed to Github and, hot damn, I had myself a website.

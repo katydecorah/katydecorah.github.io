@@ -1,10 +1,10 @@
 ---
 title: The Cheers Sweatshirt
-image: http://farm4.staticflickr.com/3690/11890656616_c2f1b49dba_b.jpg
+image: //yo.katydecorah.com/2014-01-11-the-cheers-sweatshirt-0.jpg
 ---
 
 <div class="photos">
-<img src="http://farm4.staticflickr.com/3690/11890656616_c2f1b49dba_b.jpg" class="pop-out" alt="Cheers sweatshirt">
+{% include img.html src="2014-01-11-the-cheers-sweatshirt-0.jpg" class="pop-out" alt="Cheers sweatshirt" %}
 </div>
 
 I received so many wonderful gifts this past Christmas, but one stands out.

@@ -1,7 +1,7 @@
 ---
 title: Symlinking Jekyll data files
 
-image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
+image: //yo.katydecorah.com/2015-10-14-symlinking-jekyll-data-0.png
 tags:
   - Jekyll
 ---
@@ -36,7 +36,7 @@ And soon I had a CSV file with a list of the font family names.
 I also used ["very ugly string manipulation hacks"](http://stackoverflow.com/a/30607373) to get a distinct list of tags and in alphabetical order. And with a few more very ugly string manipulation hacks, I got the [CSV file](https://github.com/katydecorah/font-library/blob/gh-pages/families.csv) looking exactly how I wanted:
 
 <div class="photos">
-<img src="https://cloud.githubusercontent.com/assets/2180540/10503702/bc497fe6-72c6-11e5-855d-8e57cb143b48.png" alt="CSV file">
+{% include img.html src="https://cloud.githubusercontent.com/assets/2180540/10503702/bc497fe6-72c6-11e5-855d-8e57cb143b48.png" alt="CSV file" %}
 </div>
 
 Since Github pages run in safe mode the file won't build in production. (It's still totally a success though.)

@@ -75,16 +75,19 @@
       padding-right: 1em;
     }
 
+    picture,
     img,
     video {
       margin-bottom: 0.5em;
       margin-top: 0;
     }
 
+    picture ~ .caption,
     img ~ .caption {
       margin: 0;
     }
 
+    .caption ~ picture,
     .caption ~ img {
       margin-top: 1em;
     }

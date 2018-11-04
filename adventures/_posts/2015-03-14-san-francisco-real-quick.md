@@ -1,7 +1,7 @@
 ---
 title: San Francisco real quick
 
-image: https://farm8.staticflickr.com/7653/16601605307_844e26a063_h.jpg
+image: //yo.katydecorah.com/2015-03-14-san-francisco-real-quick-0.jpg
 locations:
   - San Francisco
 coordinates:
@@ -12,9 +12,10 @@ I was in Burlingame and San Francisco this past week for FOSS4G NA. Slides and v
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7653/16601605307_844e26a063_h.jpg"  alt="Painted ladies">
+{% include img.html src="2015-03-14-san-francisco-real-quick-0.jpg"  alt="Painted ladies" %}
 
-<img src="https://farm8.staticflickr.com/7648/16807769791_70c8c5b93b_h.jpg" class="img-half" alt="San Francisco">
+{% include img.html src="2015-03-14-san-francisco-real-quick-1.jpg" class="img-half" alt="San Francisco" %}
 
-<img src="https://farm9.staticflickr.com/8705/16621315088_3f8d9d1425_h.jpg" class="img-half" alt="San Francisco">
+{% include img.html src="2015-03-14-san-francisco-real-quick-2.jpg" class="img-half" alt="San Francisco" %}
+
 </div>

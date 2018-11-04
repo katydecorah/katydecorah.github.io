@@ -10,7 +10,7 @@ locations:
   - Crete, Greece
   - Athens, Greece
   - Delphi, Greece
-image: https://farm8.staticflickr.com/7326/16506855066_b944227cb9_b.jpg
+image: //yo.katydecorah.com/2009-05-20-turkey-greece-0.jpg
 coordinates:
   - 29.0121795,41.0053215 #istanbul
   - 26.4270929,40.1305585 #Çanakkale
@@ -34,34 +34,35 @@ Delphi is :heart_eyes_cat:.
 
 <div class="photos">
 
-<img src="https://farm3.staticflickr.com/2848/10009183116_a62d599673_b.jpg" class="img-wide" alt="Sultan Ahmed Mosque">
+{% include img.html src="2009-05-20-turkey-greece-1.jpg" class="img-wide" alt="Sultan Ahmed Mosque" %}
 
-<img src="https://farm3.staticflickr.com/2813/10009242593_5f377e854b_b.jpg" class="img-tall" alt="Obelisk of Theodosius">
+{% include img.html src="2009-05-20-turkey-greece-2.jpg" class="img-tall" alt="Obelisk of Theodosius" %}
 
-<img src="https://farm4.staticflickr.com/3745/10009122564_3df9f3e42e_b.jpg" class="img-wide" alt="Istanbul">
+{% include img.html src="2009-05-20-turkey-greece-3.jpg" class="img-wide" alt="Istanbul" %}
 
-<img src="https://farm8.staticflickr.com/7387/10009272713_f9ae407882_b.jpg" class="img-tall" alt="Sultan Ahmed Mosque">
+{% include img.html src="2009-05-20-turkey-greece-4.jpg" class="img-tall" alt="Sultan Ahmed Mosque" %}
 
-<img src="https://farm8.staticflickr.com/7450/10009173064_6acb221385_b.jpg" class="img-half" alt="Sultan Ahmed Mosque">
+{% include img.html src="2009-05-20-turkey-greece-5.jpg" class="img-half" alt="Sultan Ahmed Mosque" %}
 
-<img src="https://farm4.staticflickr.com/3690/10009184634_93b4779781_b.jpg" class="img-half" alt="Sultan Ahmed Mosque">
+{% include img.html src="2009-05-20-turkey-greece-6.jpg" class="img-half" alt="Sultan Ahmed Mosque" %}
 
-<img src="https://farm4.staticflickr.com/3794/10009259356_81ef2c2492_b.jpg" class="img-half" alt="Sultan Ahmed Mosque">
+{% include img.html src="2009-05-20-turkey-greece-7.jpg" class="img-half" alt="Sultan Ahmed Mosque" %}
 
-<img src="https://farm3.staticflickr.com/2879/10009317693_203b740ef4_b.jpg" class="img-half" alt="Sultan Ahmed Mosque">
+{% include img.html src="2009-05-20-turkey-greece-8.jpg" class="img-half" alt="Sultan Ahmed Mosque" %}
 
-<img src="https://farm9.staticflickr.com/8663/15999751573_cd8ba5c19b_b.jpg"  alt="011">
+{% include img.html src="2009-05-20-turkey-greece-9.jpg"  alt="011" %}
+
 </div>
 
 ### Süleymaniye Mosque
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7344/10009204194_18ed6f1e18_b.jpg" class="img-half" alt="Süleymaniye Mosque">
+{% include img.html src="2009-05-20-turkey-greece-10.jpg" class="img-half" alt="Süleymaniye Mosque" %}
 
-<img src="https://farm8.staticflickr.com/7390/10009298856_aae74681e8_b.jpg" class="img-half" alt="Süleymaniye Mosque">
+{% include img.html src="2009-05-20-turkey-greece-11.jpg" class="img-half" alt="Süleymaniye Mosque" %}
 
-<img src="https://farm8.staticflickr.com/7323/10009301936_6c9a5ea2f2_b.jpg"  alt="Süleymaniye Mosque">
+{% include img.html src="2009-05-20-turkey-greece-12.jpg"  alt="Süleymaniye Mosque" %}
 
 </div>
 
@@ -69,41 +70,43 @@ Delphi is :heart_eyes_cat:.
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7292/10009362953_fa27475d92_b.jpg" class="img-half" alt="Süleymaniye Mosque">
+{% include img.html src="2009-05-20-turkey-greece-13.jpg" class="img-half" alt="Süleymaniye Mosque" %}
 
-<img src="https://farm6.staticflickr.com/5487/10009344776_f0684fe189_b.jpg" class="img-half" alt="Istanbul">
+{% include img.html src="2009-05-20-turkey-greece-14.jpg" class="img-half" alt="Istanbul" %}
 
-<img src="https://farm8.staticflickr.com/7352/10009351526_c30de1bbb2_b.jpg" class="img-half" alt="Istanbul">
+{% include img.html src="2009-05-20-turkey-greece-15.jpg" class="img-half" alt="Istanbul" %}
 
-<img src="https://farm8.staticflickr.com/7355/10009321935_ef1e1b4650_b.jpg" class="img-half" alt="Istanbul">
+{% include img.html src="2009-05-20-turkey-greece-16.jpg" class="img-half" alt="Istanbul" %}
+
 </div>
 
 ### Yerebatan Sarnici
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7389/10009364223_a67af0626a_b.jpg" class="img-wide" alt="Istanbul">
+{% include img.html src="2009-05-20-turkey-greece-17.jpg" class="img-wide" alt="Istanbul" %}
 
-<img src="https://farm3.staticflickr.com/2839/10009248404_d9b3f4e4a1_b.jpg" class="img-tall" alt="Istanbul">
+{% include img.html src="2009-05-20-turkey-greece-18.jpg" class="img-tall" alt="Istanbul" %}
 
-<img src="https://farm9.staticflickr.com/8663/16619503685_45010361c3_b.jpg"  alt="012">
+{% include img.html src="2009-05-20-turkey-greece-19.jpg"  alt="012" %}
+
 </div>
 
 ### Topkapi Sarayi
 
-<img src="https://farm9.staticflickr.com/8667/16433704269_a1b494a670_o.jpg"  alt="018">
+{% include img.html src="2009-05-20-turkey-greece-20.jpg"  alt="018" %}
 
-<img src="https://farm9.staticflickr.com/8682/16412216307_007df2e2da_o.jpg"  alt="013">
+{% include img.html src="2009-05-20-turkey-greece-21.jpg"  alt="013" %}
 
 ### Hagia Sofia
 
 <div class="photos">
 
-<img src="https://farm6.staticflickr.com/5471/10009373523_109e9d98c2_b.jpg" class="img-tall" alt="Hagia Sophia">
+{% include img.html src="2009-05-20-turkey-greece-22.jpg" class="img-tall" alt="Hagia Sophia" %}
 
-<img src="https://farm6.staticflickr.com/5325/10009291565_347445613e_b.jpg" class="img-wide" alt="Hagia Sophia">
+{% include img.html src="2009-05-20-turkey-greece-23.jpg" class="img-wide" alt="Hagia Sophia" %}
 
-<img src="https://farm9.staticflickr.com/8594/16618380321_2fc6a1cd70_b.jpg"   alt="009">
+{% include img.html src="2009-05-20-turkey-greece-24.jpg"   alt="009" %}
 
 </div>
 
@@ -111,20 +114,21 @@ Delphi is :heart_eyes_cat:.
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7312/16530818811_4c6c949846_o.jpg" class="img-half" alt="Troy">
+{% include img.html src="2009-05-20-turkey-greece-25.jpg" class="img-half" alt="Troy" %}
 
-<img src="https://farm9.staticflickr.com/8614/15912348133_cdcd6e7144_o.jpg" class="img-half" alt="Troy">
+{% include img.html src="2009-05-20-turkey-greece-26.jpg" class="img-half" alt="Troy" %}
 
-<img src="https://farm9.staticflickr.com/8637/16619503575_9b0f5a9959_b.jpg"  alt="015">
+{% include img.html src="2009-05-20-turkey-greece-27.jpg"  alt="015" %}
+
 </div>
 
 ## Çanakkale
 
 <div class="photos">
 
-<img src="https://farm9.staticflickr.com/8609/16506559186_fd95acb2d3_o.jpg" class="img-tall" alt="Çanakkale">
+{% include img.html src="2009-05-20-turkey-greece-28.jpg" class="img-tall" alt="Çanakkale" %}
 
-<img src="https://farm8.staticflickr.com/7316/16530849581_71b353b52b_b.jpg" class="img-wide" alt="Çanakkale">
+{% include img.html src="2009-05-20-turkey-greece-29.jpg" class="img-wide" alt="Çanakkale" %}
 
 </div>
 
@@ -132,19 +136,19 @@ Delphi is :heart_eyes_cat:.
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7390/16346322069_1540c27197_b.jpg" class="img-wide" alt="100_3762">
+{% include img.html src="2009-05-20-turkey-greece-30.jpg" class="img-wide" alt="100_3762" %}
 
-<img src="https://farm9.staticflickr.com/8656/15910020804_e210cf4175_b.jpg" class="img-tall" alt="100_3763">
+{% include img.html src="2009-05-20-turkey-greece-31.jpg" class="img-tall" alt="100_3763" %}
 
-<img src="https://farm8.staticflickr.com/7375/16530879811_5de2ab33cd_b.jpg" class="img-half" alt="100_3764">
+{% include img.html src="2009-05-20-turkey-greece-32.jpg" class="img-half" alt="100_3764" %}
 
-<img src="https://farm8.staticflickr.com/7365/15910021804_b01faf414d_b.jpg" class="img-half" alt="100_3765">
+{% include img.html src="2009-05-20-turkey-greece-33.jpg" class="img-half" alt="100_3765" %}
 
-<img src="https://farm8.staticflickr.com/7444/16346323949_264e8031ba_b.jpg" class="img-wide" alt="100_3766">
+{% include img.html src="2009-05-20-turkey-greece-34.jpg" class="img-wide" alt="100_3766" %}
 
-<img src="https://farm8.staticflickr.com/7323/16506591046_3f7cc5b356_b.jpg" class="img-tall" alt="100_3767">
+{% include img.html src="2009-05-20-turkey-greece-35.jpg" class="img-tall" alt="100_3767" %}
 
-<img src="https://farm9.staticflickr.com/8604/16593540486_f25e7d9fbb_o.jpg"  alt="006">
+{% include img.html src="2009-05-20-turkey-greece-36.jpg"  alt="006" %}
 
 </div>
 
@@ -154,64 +158,67 @@ Delphi is :heart_eyes_cat:.
 
 <div class="photos">
 
-<img src="https://farm9.staticflickr.com/8581/15910023934_fe8bae3427_b.jpg" class="img-half" alt="100_3769">
+{% include img.html src="2009-05-20-turkey-greece-37.jpg" class="img-half" alt="100_3769" %}
 
-<img src="https://farm8.staticflickr.com/7331/15912410693_0a0d6ea3f1_b.jpg" class="img-half" alt="100_3770">
+{% include img.html src="2009-05-20-turkey-greece-38.jpg" class="img-half" alt="100_3770" %}
 
-<img src="https://farm8.staticflickr.com/7356/15912411283_91a73ea1cf_b.jpg" class="img-half" alt="100_3771">
+{% include img.html src="2009-05-20-turkey-greece-39.jpg" class="img-half" alt="100_3771" %}
 
-<img src="https://farm8.staticflickr.com/7348/16346327249_eb0d21a709_b.jpg" class="img-half" alt="100_3773">
+{% include img.html src="2009-05-20-turkey-greece-40.jpg" class="img-half" alt="100_3773" %}
 
-<img src="https://farm8.staticflickr.com/7454/16506594496_1806c699fa_b.jpg" class="img-tall" alt="100_3774">
+{% include img.html src="2009-05-20-turkey-greece-41.jpg" class="img-tall" alt="100_3774" %}
 
-<img src="https://farm9.staticflickr.com/8609/16345143860_80472e04b1_b.jpg" class="img-wide" alt="100_3775">
+{% include img.html src="2009-05-20-turkey-greece-42.jpg" class="img-wide" alt="100_3775" %}
 
-<img src="https://farm8.staticflickr.com/7329/16344918418_2abbca35f2_b.jpg" class="img-tall" alt="100_3776">
+{% include img.html src="2009-05-20-turkey-greece-43.jpg" class="img-tall" alt="100_3776" %}
 
-<img src="https://farm9.staticflickr.com/8611/16344918828_b29bf6a461_b.jpg" class="img-wide" alt="100_3777">
+{% include img.html src="2009-05-20-turkey-greece-44.jpg" class="img-wide" alt="100_3777" %}
 
-<img src="https://farm9.staticflickr.com/8629/16345147880_b5d9b0b9a1_b.jpg" class="img-half" alt="100_3779">
+{% include img.html src="2009-05-20-turkey-greece-45.jpg" class="img-half" alt="100_3779" %}
 
-<img src="https://farm8.staticflickr.com/7294/16345149000_18e5dfa54c_b.jpg" class="img-half" alt="100_3781">
+{% include img.html src="2009-05-20-turkey-greece-46.jpg" class="img-half" alt="100_3781" %}
 
-<img src="https://farm9.staticflickr.com/8584/16432322358_08c6ab0166_b.jpg"  alt="008">
+{% include img.html src="2009-05-20-turkey-greece-47.jpg"  alt="008" %}
+
 </div>
 
 ## Kusadasi
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7410/16532643005_55de4dffeb_b.jpg" class="img-half" alt="100_3788">
+{% include img.html src="2009-05-20-turkey-greece-48.jpg" class="img-half" alt="100_3788" %}
 
-<img src="https://farm8.staticflickr.com/7460/15912435323_6753a5783e_b.jpg" class="img-half" alt="100_3803">
+{% include img.html src="2009-05-20-turkey-greece-49.jpg" class="img-half" alt="100_3803" %}
+
 </div>
 
 ## Crete
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7335/16531575332_3fc3c7c340_b.jpg" class="img-half" alt="100_3807">
+{% include img.html src="2009-05-20-turkey-greece-50.jpg" class="img-half" alt="100_3807" %}
 
-<img src="https://farm9.staticflickr.com/8627/15912441813_a019370298_b.jpg" class="img-half" alt="100_3810">
+{% include img.html src="2009-05-20-turkey-greece-51.jpg" class="img-half" alt="100_3810" %}
 
-<img src="https://farm9.staticflickr.com/8656/15910055804_5e7548fac7_b.jpg" class="img-half" alt="100_3813">
+{% include img.html src="2009-05-20-turkey-greece-52.jpg" class="img-half" alt="100_3813" %}
 
-<img src="https://farm9.staticflickr.com/8613/16346722817_c1bb5a0db0_b.jpg" class="img-half" alt="100_3814">
+{% include img.html src="2009-05-20-turkey-greece-53.jpg" class="img-half" alt="100_3814" %}
 
-<img src="https://farm8.staticflickr.com/7397/15910057174_c4aa1981f7_b.jpg" alt="100_3816">
+{% include img.html src="2009-05-20-turkey-greece-54.jpg" alt="100_3816" %}
+
 </div>
 
 ### Knossos
 
 <div class="photos">
 
-<img src="https://farm9.staticflickr.com/8644/16345175990_ce36db5eb5_b.jpg" class="img-half" alt="100_3821">
+{% include img.html src="2009-05-20-turkey-greece-55.jpg" class="img-half" alt="100_3821" %}
 
-<img src="https://farm9.staticflickr.com/8641/16344951468_3d2b085feb_b.jpg" class="img-half" alt="100_3822">
+{% include img.html src="2009-05-20-turkey-greece-56.jpg" class="img-half" alt="100_3822" %}
 
-<img src="https://farm8.staticflickr.com/7285/16346362139_8113b798c7_b.jpg"  alt="100_3823">
+{% include img.html src="2009-05-20-turkey-greece-57.jpg"  alt="100_3823" %}
 
-<img src="https://farm9.staticflickr.com/8574/15999751323_f99de3973f_o.jpg"  alt="022">
+{% include img.html src="2009-05-20-turkey-greece-58.jpg"  alt="022" %}
 
 </div>
 
@@ -219,9 +226,10 @@ Delphi is :heart_eyes_cat:.
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7282/16506630426_4fcbe26140_b.jpg" class="img-half" alt="100_3826">
+{% include img.html src="2009-05-20-turkey-greece-59.jpg" class="img-half" alt="100_3826" %}
 
-<img src="https://farm8.staticflickr.com/7426/15910063124_209c2f5256_b.jpg" class="img-half" alt="100_3829">
+{% include img.html src="2009-05-20-turkey-greece-60.jpg" class="img-half" alt="100_3829" %}
+
 </div>
 
 ## Athens
@@ -230,45 +238,45 @@ Delphi is :heart_eyes_cat:.
 
 <div class="photos">
 
-<img src="https://farm9.staticflickr.com/8573/16346745507_826058631a_b.jpg" class="img-half" alt="100_3836">
+{% include img.html src="2009-05-20-turkey-greece-61.jpg" class="img-half" alt="100_3836" %}
 
-<img src="https://farm8.staticflickr.com/7316/16532674645_1a67744b3e_b.jpg" class="img-half" alt="100_3837">
+{% include img.html src="2009-05-20-turkey-greece-62.jpg" class="img-half" alt="100_3837" %}
 
-<img src="https://farm9.staticflickr.com/8562/16618864822_ef588fd83d_o.jpg"  alt="023">
+{% include img.html src="2009-05-20-turkey-greece-63.jpg"  alt="023" %}
 
-<img src="https://farm8.staticflickr.com/7362/16531602452_ec4415a493_b.jpg" class="img-half" alt="100_3838">
+{% include img.html src="2009-05-20-turkey-greece-64.jpg" class="img-half" alt="100_3838" %}
 
-<img src="https://farm8.staticflickr.com/7434/16530938381_edf9471fc4_b.jpg" class="img-half" alt="100_3839">
+{% include img.html src="2009-05-20-turkey-greece-65.jpg" class="img-half" alt="100_3839" %}
 
-<img src="https://farm8.staticflickr.com/7434/16530938381_edf9471fc4_b.jpg" class="img-half" alt="100_3839">
+{% include img.html src="2009-05-20-turkey-greece-65.jpg" class="img-half" alt="100_3839" %}
 
-<img src="https://farm8.staticflickr.com/7347/15912469743_3a82eb7c9e_b.jpg" class="img-half" alt="100_3841">
+{% include img.html src="2009-05-20-turkey-greece-66.jpg" class="img-half" alt="100_3841" %}
 
-<img src="https://farm8.staticflickr.com/7298/15912470343_f0cbe201ba_b.jpg" class="img-half" alt="100_3842">
+{% include img.html src="2009-05-20-turkey-greece-67.jpg" class="img-half" alt="100_3842" %}
 
-<img src="https://farm8.staticflickr.com/7395/16506652366_c708eb5cea_b.jpg" class="img-half" alt="100_3843">
+{% include img.html src="2009-05-20-turkey-greece-68.jpg" class="img-half" alt="100_3843" %}
 
-<img src="https://farm8.staticflickr.com/7408/16346385499_1286f63699_b.jpg" class="img-half" alt="100_3844">
+{% include img.html src="2009-05-20-turkey-greece-69.jpg" class="img-half" alt="100_3844" %}
 
-<img src="https://farm8.staticflickr.com/7315/16506653396_0735968a6d_b.jpg" class="img-half" alt="100_3845">
+{% include img.html src="2009-05-20-turkey-greece-70.jpg" class="img-half" alt="100_3845" %}
 
-<img src="https://farm8.staticflickr.com/7370/16531607142_8e15fa5fcb_b.jpg" class="img-half" alt="100_3846">
+{% include img.html src="2009-05-20-turkey-greece-71.jpg" class="img-half" alt="100_3846" %}
 
-<img src="https://farm9.staticflickr.com/8587/16345206870_8c892b0782_b.jpg" class="img-half" alt="100_3848">
+{% include img.html src="2009-05-20-turkey-greece-72.jpg" class="img-half" alt="100_3848" %}
 
-<img src="https://farm8.staticflickr.com/7344/16532684985_b00f01a2e4_b.jpg" class="img-half" alt="100_3850">
+{% include img.html src="2009-05-20-turkey-greece-73.jpg" class="img-half" alt="100_3850" %}
 
-<img src="https://farm8.staticflickr.com/7421/15910091754_e002218042_b.jpg" class="img-half" alt="100_3851">
+{% include img.html src="2009-05-20-turkey-greece-74.jpg" class="img-half" alt="100_3851" %}
 
-<img src="https://farm8.staticflickr.com/7333/16346397589_9b39dfe432_b.jpg" class="img-half" alt="100_3853">
+{% include img.html src="2009-05-20-turkey-greece-75.jpg" class="img-half" alt="100_3853" %}
 
-<img src="https://farm8.staticflickr.com/7326/15910097584_d12c793cb6_b.jpg" class="img-half" alt="100_3854">
+{% include img.html src="2009-05-20-turkey-greece-76.jpg" class="img-half" alt="100_3854" %}
 
-<img src="https://farm8.staticflickr.com/7450/16506666356_9ee07f6193_b.jpg" class="img-half" alt="100_3855">
+{% include img.html src="2009-05-20-turkey-greece-77.jpg" class="img-half" alt="100_3855" %}
 
-<img src="https://farm8.staticflickr.com/7458/16345214800_8238d1cf17_b.jpg" class="img-half" alt="100_3856">
+{% include img.html src="2009-05-20-turkey-greece-78.jpg" class="img-half" alt="100_3856" %}
 
-<img src="https://farm8.staticflickr.com/7330/16346763337_d8169dc303_b.jpg"  alt="100_3857">
+{% include img.html src="2009-05-20-turkey-greece-79.jpg"  alt="100_3857" %}
 
 </div>
 
@@ -276,37 +284,37 @@ Delphi is :heart_eyes_cat:.
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7283/16532767695_6800444315_b.jpg" class="img-half" alt="100_3866">
+{% include img.html src="2009-05-20-turkey-greece-80.jpg" class="img-half" alt="100_3866" %}
 
-<img src="https://farm8.staticflickr.com/7319/16531716082_9d30dfef28_b.jpg" class="img-half" alt="100_3948">
+{% include img.html src="2009-05-20-turkey-greece-81.jpg" class="img-half" alt="100_3948" %}
 
-<img src="https://farm9.staticflickr.com/8648/16532787015_7754da0142_b.jpg" class="img-half" alt="100_3949">
+{% include img.html src="2009-05-20-turkey-greece-82.jpg" class="img-half" alt="100_3949" %}
 
-<img src="https://farm9.staticflickr.com/8591/16531718202_a9bb8e1893_b.jpg" class="img-half" alt="100_3952">
+{% include img.html src="2009-05-20-turkey-greece-83.jpg" class="img-half" alt="100_3952" %}
 
-<img src="https://farm8.staticflickr.com/7409/16346497469_44f1e38bac_b.jpg" class="img-tall" alt="100_3955">
+{% include img.html src="2009-05-20-turkey-greece-84.jpg" class="img-tall" alt="100_3955" %}
 
-<img src="https://farm8.staticflickr.com/7332/16345090258_4d4caf17a4_b.jpg" class="img-wide" alt="100_3957">
+{% include img.html src="2009-05-20-turkey-greece-85.jpg" class="img-wide" alt="100_3957" %}
 
-<img src="https://farm8.staticflickr.com/7355/16345090878_6fefd00c0c_b.jpg" class="img-half" alt="100_3958">
+{% include img.html src="2009-05-20-turkey-greece-86.jpg" class="img-half" alt="100_3958" %}
 
-<img src="https://farm9.staticflickr.com/8658/15910246444_6e97c9a896_b.jpg" class="img-half" alt="100_4020">
+{% include img.html src="2009-05-20-turkey-greece-87.jpg" class="img-half" alt="100_4020" %}
 
-<img src="https://farm8.staticflickr.com/7353/15912644473_0ec75dc511_b.jpg" class="img-tall" alt="100_4023">
+{% include img.html src="2009-05-20-turkey-greece-88.jpg" class="img-tall" alt="100_4023" %}
 
-<img src="https://farm8.staticflickr.com/7305/16346558809_96e918f90d_b.jpg" class="img-wide" alt="100_4034">
+{% include img.html src="2009-05-20-turkey-greece-89.jpg" class="img-wide" alt="100_4034" %}
 
-<img src="https://farm8.staticflickr.com/7308/16346925717_2b1a9bf96a_b.jpg" class="img-half" alt="100_4035">
+{% include img.html src="2009-05-20-turkey-greece-90.jpg" class="img-half" alt="100_4035" %}
 
-<img src="https://farm8.staticflickr.com/7442/16531812182_0d4546030c_b.jpg" class="img-half" alt="100_4107">
+{% include img.html src="2009-05-20-turkey-greece-91.jpg" class="img-half" alt="100_4107" %}
 
-<img src="https://farm9.staticflickr.com/8682/16506861446_8eaa9bb053_b.jpg" class="img-half" alt="100_4109">
+{% include img.html src="2009-05-20-turkey-greece-92.jpg" class="img-half" alt="100_4109" %}
 
-<img src="https://farm8.staticflickr.com/7373/16531149071_dd4584e6c2_b.jpg" class="img-half" alt="100_4110">
+{% include img.html src="2009-05-20-turkey-greece-93.jpg" class="img-half" alt="100_4110" %}
 
-<img src="https://farm8.staticflickr.com/7390/16345185298_094de0e506_b.jpg" class="img-half" alt="100_4111">
+{% include img.html src="2009-05-20-turkey-greece-94.jpg" class="img-half" alt="100_4111" %}
 
-<img src="https://farm8.staticflickr.com/7359/16531506702_e79183389e_b.jpg" class="img-half" alt="Athens">
+{% include img.html src="2009-05-20-turkey-greece-95.jpg" class="img-half" alt="Athens" %}
 
 </div>
 
@@ -314,28 +322,28 @@ Delphi is :heart_eyes_cat:.
 
 <div class="photos">
 
-<img src="https://farm8.staticflickr.com/7343/15910272184_3b5439ef9f_b.jpg" class="img-tall" alt="100_4075">
+{% include img.html src="2009-05-20-turkey-greece-96.jpg" class="img-tall" alt="100_4075" %}
 
-<img src="https://farm9.staticflickr.com/8646/15912660393_6250afb56f_b.jpg" class="img-wide" alt="100_4076">
+{% include img.html src="2009-05-20-turkey-greece-97.jpg" class="img-wide" alt="100_4076" %}
 
-<img src="https://farm8.staticflickr.com/7420/16532867115_5f23505b0a_b.jpg" class="img-wide" alt="100_4077">
+{% include img.html src="2009-05-20-turkey-greece-98.jpg" class="img-wide" alt="100_4077" %}
 
-<img src="https://farm8.staticflickr.com/7382/16345165428_ebcfe02030_b.jpg" class="img-tall" alt="100_4079">
+{% include img.html src="2009-05-20-turkey-greece-99.jpg" class="img-tall" alt="100_4079" %}
 
-<img src="https://farm8.staticflickr.com/7396/16345389940_1edb14d38b_b.jpg" class="img-half" alt="100_4081">
+{% include img.html src="2009-05-20-turkey-greece-100.jpg" class="img-half" alt="100_4081" %}
 
-<img src="https://farm9.staticflickr.com/8672/16345167038_7cbe150bbc_b.jpg" class="img-half" alt="100_4082">
+{% include img.html src="2009-05-20-turkey-greece-101.jpg" class="img-half" alt="100_4082" %}
 
-<img src="https://farm8.staticflickr.com/7318/16345395320_94af591cc7_b.jpg" class="img-half" alt="100_4088">
+{% include img.html src="2009-05-20-turkey-greece-102.jpg" class="img-half" alt="100_4088" %}
 
-<img src="https://farm8.staticflickr.com/7397/16345395450_b60e6e3764_b.jpg" class="img-half" alt="100_4089">
+{% include img.html src="2009-05-20-turkey-greece-103.jpg" class="img-half" alt="100_4089" %}
 
-<img src="https://farm8.staticflickr.com/7348/16346582049_9068cb3816_b.jpg" class="img-half" alt="100_4090">
+{% include img.html src="2009-05-20-turkey-greece-104.jpg" class="img-half" alt="100_4090" %}
 
-<img src="https://farm8.staticflickr.com/7413/16346952037_68678b0e4d_b.jpg" class="img-half" alt="100_4092">
+{% include img.html src="2009-05-20-turkey-greece-105.jpg" class="img-half" alt="100_4092" %}
 
-<img src="https://farm8.staticflickr.com/7326/16506855066_b944227cb9_b.jpg" alt="100_4093">
+{% include img.html src="2009-05-20-turkey-greece-0.jpg" alt="100_4093" %}
 
-<img src="https://farm9.staticflickr.com/8605/16618379961_da8f0319cd_o.jpg"  alt="019">
+{% include img.html src="2009-05-20-turkey-greece-106.jpg"  alt="019" %}
 
 </div>

@@ -1,7 +1,7 @@
 ---
 title: Two years ago on CodePen
 
-image: https://farm6.staticflickr.com/5559/14938075432_af54665e34_o.png
+image: //yo.katydecorah.com/2014-08-26-two-years-ago-0.png
 ---
 
 Two years ago on CodePen I was picked for the first time ever.
@@ -9,7 +9,7 @@ Two years ago on CodePen I was picked for the first time ever.
 I know this because I found a screenshot on my computer a few days ago:
 
 <div class="photos">
-<img src="https://farm6.staticflickr.com/5584/14935235411_8c6673b432_b.jpg" alt="Screen Shot 2012-08-26 at 9.24.21 PM">
+{% include img.html src="2014-08-26-two-years-ago-1.jpg" alt="Screen Shot 2012-08-26 at 9.24.21 PM" %}
 </div>
 
 I took the screenshot at the time because I was shocked. Total double take. Nobody had seen something I made like _this_ before. I was just messing around. Maybe I should delete it, it's not finished. People are seeing. People will see. Hot sweat. Cold sweat. Do something.

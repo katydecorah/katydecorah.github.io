@@ -5,7 +5,7 @@ tags:
   - Sass
   - Haml
 pen: FgmJI
-image: http://farm6.staticflickr.com/5476/12730510033_3b98c3c1de_o.png
+image: //yo.katydecorah.com/2013-01-09-sass-adjust-hue-reference-0.png
 project: true
 ---
 

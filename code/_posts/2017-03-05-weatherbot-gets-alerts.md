@@ -1,7 +1,7 @@
 ---
 title: WeatherBot gets alerts
 
-image: https://c2.staticflickr.com/4/3955/32422791034_428c7775ee_o.png
+image: //yo.katydecorah.com/2017-03-05-weatherbot-gets-alerts-0.png
 tags:
   - Node.js
   - AWS
@@ -13,7 +13,7 @@ I didn't expect [WeatherBot](/code/weatherbot/) to become [a series](/code/weath
 
 WeatherBot has severe weather alerts now:
 
-![WeatherBot severe weather alerts](https://c1.staticflickr.com/3/2806/32422722984_d497cf6a63_o.png)
+![WeatherBot severe weather alerts](//yo.katydecorah.com/2017-03-05-weatherbot-gets-alerts-1.png)
 
 ## How it works
 
