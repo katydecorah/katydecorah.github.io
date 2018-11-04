@@ -4,7 +4,6 @@ category: code
 emoji: 🖼
 tags:
   - API
-  - workflow
   - Jekyll
 ---
 
@@ -22,3 +21,5 @@ And, guess what reader, it will download the _original_ Flick photo.
 4. If the [script finds photos](https://github.com/katydecorah/flickr-to-jekyll/blob/fb849869c6f7c00da4fc60003e3f6c1c074fe2aa/index.js#L84-L89), it'll [download each photo](https://github.com/katydecorah/flickr-to-jekyll/blob/fb849869c6f7c00da4fc60003e3f6c1c074fe2aa/index.js#L95-L109) and then [updates the photo paths](https://github.com/katydecorah/flickr-to-jekyll/blob/fb849869c6f7c00da4fc60003e3f6c1c074fe2aa/index.js#L112-L121) in your post for the new relative ones.
 
 You can find the [code on GitHub](https://github.com/katydecorah/flickr-to-jekyll/) with instructions on how to use the module on your own site.
+
+🔮 Curious as to how I'm hosting my photos now? Continue on to [Storing assets in an AWS bucket](/code/photos-in-a-bucket/).

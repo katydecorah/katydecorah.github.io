@@ -3,12 +3,11 @@ title: Storing assets in an AWS bucket
 category: code
 emoji: 🗑
 tags:
-  - API
-  - workflow
+  - AWS
   - Jekyll
 ---
 
-This is the unofficial Part II to [Download the Flickr photos in your Jekyll posts](/code/flickr-to-jekyll). This is a rundown of how I created a secure subdomain that points at an AWS S3 bucket to host my site's assets.
+This is the unofficial Part II to [Download the Flickr photos in your Jekyll posts](/code/flickr-to-jekyll) and a rundown of how I created a secure subdomain that points at an AWS S3 bucket to host my site's assets.
 
 ## Create a bucket
 
