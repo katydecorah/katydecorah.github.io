@@ -1,9 +1,10 @@
 ---
-layout: no-container
+layout: default
+hideTitle: true
 title: Tags
 ---
-<div class="container">
-<div class="tags-columns">
+
+<div class="columns">
 <ul class="icon-ul">
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
@@ -21,7 +22,7 @@ title: Tags
 </ul>
 </div>
 <hr>
-</div>
+
 
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
@@ -33,15 +34,11 @@ title: Tags
 {% for tag in site.tags %}
 {% if tag[1].size == i %}
 <div class="tag-container" id="{{ tag[0] | downcase | replace:' ','_' }}">
-<div class="container">
 <h2>{{ tag[0] }} <span class="badge">{{ i }}</span></h2>
-{% if tag[0] == 'time travel' %}<p>Posts that I wrote and published after the fact.</p>{% endif %}
-{% if tag[0] == 'elsewhere' %}<p>Posts that link to content originally posted elsewhere.</p>{% endif %}
 <div class="columns">
 <ul class="icon-ul">
-{% for post in tag.last %}<li><a href="{{ post.url }}"><span class="icon-li">{% include icons/tag.svg %}</span> {{ post.title }}</a></li>{% endfor %}
+{% for post in tag.last %}<li><a href="{{ post.url }}"><span class="icon-li">{% include icons/angle-right.svg %}</span> {{ post.title }}</a></li>{% endfor %}
 </ul>
-</div>
 </div>
 </div>
 {% endif %}

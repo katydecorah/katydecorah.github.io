@@ -9,14 +9,15 @@
   width: 100%;
 
   .leaflet-popup-content,
-  .leaflet-popup-content-wrapper { padding: 0; }
+  .leaflet-popup-content-wrapper {
+    padding: 0;
+  }
 
   h2 {
-
     @extend %fancy-type;
 
     margin: 0;
-    padding: .5em;
+    padding: 0.5em;
   }
 
   img {
@@ -24,11 +25,10 @@
     margin: 0;
     max-width: 100%;
   }
-
 }
 
 .external-true h2::after {
-  content: '\f14c';
+  content: "\f14c";
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: $font-xs;
@@ -38,7 +38,7 @@
 }
 
 .map-select {
-  background: rgba($white, .5);
+  background: rgba($white, 0.5);
   bottom: 0;
   font-size: $font-xs;
   height: 450px;
@@ -50,20 +50,23 @@
   z-index: 100;
 
   .filter,
-  .year-group { display: none; }
+  .year-group {
+    display: none;
+  }
 
   .filter:checked + .filter-label {
     font-weight: bold;
 
-    + .year-group { display: block;}
-
+    + .year-group {
+      display: block;
+    }
   }
 
   .filter-label {
     background: $white;
     cursor: pointer;
     display: block;
-    padding: .25em 1em;
+    padding: 0.25em 1em;
 
     &:hover {
       background: darken($accent, 10%);
@@ -72,20 +75,17 @@
 
   .year-child {
     cursor: pointer;
-    padding: .2em 1em;
+    padding: 0.2em 1em;
 
     &:hover {
       background: darken($accent, 10%);
     }
-
   }
-
 }
-
 
 .map-attribution {
   bottom: 1em;
-  color: rgba($text-color, .7);
+  color: rgba($text-color, 0.7);
   display: block;
   font-size: 13px;
   position: absolute;

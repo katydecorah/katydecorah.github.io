@@ -1,5 +1,3 @@
-
-
 %body-type {
   font-family: $body-font-family;
   font-weight: $body-font-weight;
@@ -10,16 +8,23 @@
   font-weight: $fancy-font-weight;
 }
 
-%headings-type { font-weight: $body-font-bold; }
+%headings-type {
+  font-weight: $body-font-weight;
+}
 
-%code-type {font-family: $code-font-family;}
+%code-type {
+  font-family: $code-font-family;
+}
 
-strong { font-weight: $body-font-bold; }
+strong {
+  font-weight: $body-font-bold;
+}
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 .lead {
-
   font-size: 1.5em;
   text-align: justify;
 }
@@ -34,28 +39,39 @@ h2,
 h3,
 h4 {
   line-height: 1.2;
-  margin: 1.414em 0 .5em;
+  margin: 1.414em 0 0.5em;
 }
 
-h1 {
-
+h1,
+.h1 {
   @extend %fancy-type;
 
   font-size: $h1-size;
   margin-top: 0;
 
-  @include breakpoint(mobile) { font-size: 2em;}
+  @include breakpoint(small) {
+    font-size: 2em;
+  }
+}
 
+h2 .h2,
+h3,
+.h3 {
+  @extend %headings-type;
 }
 
 h2,
-h3 {  @extend %headings-type; }
+.h2 {
+  font-size: $h2-size;
+}
 
-h2 {font-size: $h2-size;}
+h3,
+.h3 {
+  font-size: $h3-size;
+}
 
-h3 {font-size: $h3-size;}
-
-h4 {
+h4,
+.h4 {
   font-size: $h4-size;
   font-weight: normal;
 }
@@ -72,44 +88,39 @@ h4 {
 %small,
 small,
 .small {
-
   font-size: $font-small;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     font-size: 1em;
   }
-
 }
 
 %xs,
 .xs {
-
   font-size: $font-xs;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     font-size: 1em;
   }
-
 }
 
 %xxs,
 .xxs {
+  font-size: 0.6em;
 
-  font-size: .6em;
-
-  @include breakpoint(mobile) {
+  @include breakpoint(small) {
     font-size: 1em;
   }
-
 }
-
 
 ul,
 ol {
   margin-bottom: 1em;
 }
 
-ol { list-style: decimal; }
+ol {
+  list-style: decimal;
+}
 
 .unstyled {
   list-style: none;
@@ -128,32 +139,29 @@ blockquote {
   position: relative;
 
   p {
-
     @extend %fancy-type;
 
     font-size: 1.25em;
   }
 
   cite {
-
     @extend %code-type;
 
     display: block;
-    font-size: .5em;
+    font-size: 0.5em;
     font-style: normal;
-
   }
 
   &::before {
     color: darken($accent, 10%);
-    content: '\201C';
+    content: "\201C";
     display: block;
     font-size: 8em;
     height: 1em;
-    left: -.1em;
+    left: -0.1em;
     line-height: 1;
     position: absolute;
-    top: -.2em;
+    top: -0.2em;
     width: 1em;
     z-index: -1;
   }
@@ -162,7 +170,7 @@ blockquote {
 .big {
   font-size: 7em;
   line-height: 1;
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
 }
 
 ::selection {

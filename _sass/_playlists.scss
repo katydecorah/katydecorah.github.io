@@ -23,12 +23,12 @@
 }
 
 .track-name {
-
   @extend %fancy-type;
-
 }
 
-.track-artist { font-weight: bold; }
+.track-artist {
+  font-weight: bold;
+}
 
 .track-meta {
   color: $text-color-light;
@@ -44,14 +44,13 @@
   padding-bottom: 1em;
 
   &:nth-child(even) {
-    background: rgba(complement($accent), .4);
+    background: rgba(complement($accent), 0.4);
     border-bottom: 1px dashed $body-bg;
     border-top: 1px dashed $body-bg;
   }
 
   &:target {
     padding-top: $body-padding-top / 2;
-    transition: .5s;
+    transition: 0.5s;
   }
-
 }
