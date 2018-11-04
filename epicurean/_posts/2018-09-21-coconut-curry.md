@@ -10,7 +10,7 @@ I did a thing in this recipe that I don't love: where an ingredient needs its ow
 
 Now I'm doing a thing with this recipe that I don't love: long intros when all you want is the recipe. K byeeee.
 
-![Coconut Curried Kale and Sweet Potato](//yo.katydecorah.com/2018-09-21-coconut-curry-0.jpg)
+{% include img.html class='img-half' src='2018-09-21-coconut-curry-0.jpg' alt='Coconut Curried Kale and Sweet Potato' %}
 
 ## Ingredients
 
