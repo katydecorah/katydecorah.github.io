@@ -14,18 +14,18 @@ This is the unofficial Part II to [Download the Flickr photos in your Jekyll pos
 
 I wanted to make sure that my assets stored on an AWS bucket would use my domain. I found some [great instructions on how to alias a subdomain to an S3 bucket](https://carltonbale.com/how-to-alias-a-domain-name-or-sub-domain-to-amazon-s3/).
 
-I decided to use [this policy on my bucket](https://stackoverflow.com/a/15584266) that would give read access to my bucket but not allow the public to see a list of everything in my bucket:
+I decided to use [this policy on my bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html) that would give read access to my bucket but not allow the public to see a list of everything in my bucket:
 
 ```json
 {
-  "Version": "2008-10-17",
+  "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "AddPerm",
+      "Sid": "PublicReadGetObject",
       "Effect": "Allow",
       "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::yo.katydecorah.com/*"
+      "Action": ["s3:GetObject"],
+      "Resource": ["arn:aws:s3:::example.com/*"]
     }
   ]
 }
