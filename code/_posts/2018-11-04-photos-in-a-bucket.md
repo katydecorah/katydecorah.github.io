@@ -12,9 +12,28 @@ This is the unofficial Part II to [Download the Flickr photos in your Jekyll pos
 
 ## Point a subdomain to an AWS bucket
 
-I wanted to make sure that my assets stored on an AWS bucket would use my domain. I found some [great instructions on how to alias a subdomain to an S3 bucket](https://carltonbale.com/how-to-alias-a-domain-name-or-sub-domain-to-amazon-s3/). Following the instructions, I created an S3 bucket called `yo.katydecorah.com`, updated the permissions to the bucket, and adjusted my DNS records to point my newly created subdomain at the bucket.
+I wanted to make sure that my assets stored on an AWS bucket would use my domain. I found some [great instructions on how to alias a subdomain to an S3 bucket](https://carltonbale.com/how-to-alias-a-domain-name-or-sub-domain-to-amazon-s3/).
 
-## Create photo options
+I decided to use [this policy on my bucket](https://stackoverflow.com/a/15584266) that would give read access to my bucket but not allow the public to see a list of everything in my bucket:
+
+```json
+{
+  "Version": "2008-10-17",
+  "Statement": [
+    {
+      "Sid": "AddPerm",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::yo.katydecorah.com/*"
+    }
+  ]
+}
+```
+
+Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/).
+
+## Generate photo versions
 
 For each photo, I generated these versions:
 
