@@ -8,7 +8,7 @@ tags:
   - Jekyll
 ---
 
-This is the unofficial Part II to [Download the Flickr photos in your Jekyll posts](/code/flickr-to-jekyll).
+This is the unofficial Part II to [Download the Flickr photos in your Jekyll posts](/code/flickr-to-jekyll). This is a rundown of how I created a secure subdomain that points at an AWS S3 bucket to host my site's assets.
 
 ## Create a bucket
 
