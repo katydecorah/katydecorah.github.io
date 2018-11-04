@@ -1,5 +1,5 @@
 ---
-title: Download the Flickr photos in your Jekyll posts
+title: Download Flickr photos in your Jekyll posts
 category: code
 emoji: 🖼
 tags:
