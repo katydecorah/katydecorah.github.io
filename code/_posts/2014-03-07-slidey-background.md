@@ -4,7 +4,7 @@ title: Slidey background
 tags:
   - Haml
   - Sass
-image: http://farm4.staticflickr.com/3326/13012960323_1ca9571922.jpg
+image: https://yo.katydecorah.com/2014-03-07-slidey-background-0.jpg
 pen: whobi
 ---
 

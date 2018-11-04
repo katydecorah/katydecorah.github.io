@@ -1,7 +1,7 @@
 ---
 title: Create emails from a Google spreadsheet
 
-image: https://c1.staticflickr.com/5/4768/39734525941_2f6f5dc8c7_o.png
+image: https://yo.katydecorah.com/2018-01-06-google-sheets-to-gmail-0.png
 tags:
   - JavaScript
   - API
@@ -31,7 +31,7 @@ Add one last column to your spreadsheet called "Email status" or similar. You'll
 
 For this example, I've created a fake business that matches you with a vegetable. New year, new me.
 
-![Screenshot of Google spreadsheet with sample data](https://c1.staticflickr.com/5/4727/38641692405_90c45293a4_o.png)
+{% include img.html src='2018-01-06-google-sheets-to-gmail-1.png' alt='Screenshot of Google spreadsheet with sample data' class='img-half' %}
 
 ## Set up the script
 
@@ -78,4 +78,4 @@ The first time you run the script you'll need to grant permission for it to read
 
 After you authenticate, the script will run and you should find as many emails in your Gmail draft folder:
 
-![Screenshot of emails drafted in Gmail](https://c1.staticflickr.com/5/4689/27761717269_0ebfc01ff2_o.png)
+{% include img.html src='2018-01-06-google-sheets-to-gmail-2.png' alt='Screenshot of emails drafted in Gmail' class='img-half' %}

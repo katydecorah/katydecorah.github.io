@@ -1,7 +1,7 @@
 ---
 title: Writing for everyone
 
-image: https://farm8.staticflickr.com/7612/16606351737_721e54516d_c.jpg
+image: https://yo.katydecorah.com/2015-03-25-writing-for-everyone-0.jpg
 tags:
   - Jekyll
   - speaking

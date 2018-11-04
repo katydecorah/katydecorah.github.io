@@ -1,7 +1,7 @@
 ---
 title: Mini Boston Cream Pies
 
-image: https://farm6.staticflickr.com/5593/14475647445_b6a140e9e7_b.jpg
+image: https://yo.katydecorah.com/2014-06-16-mini-boston-cream-pie-0.jpg
 recipe: http://www.foodnetwork.com/recipes/boston-cream-pie-recipe0.html
 recipe-title: Boston Cream Pie
 
@@ -9,7 +9,7 @@ emoji: 🥧
 ---
 
 <div class="photos">
-<img src="https://farm6.staticflickr.com/5593/14475647445_b6a140e9e7_b.jpg" alt="Boston Creme Pie">
+{% include img.html src="2014-06-16-mini-boston-cream-pie-0.jpg" alt="Boston Creme Pie" %}
 </div>
 
 For Father's Day, I made our dads their very own 3&#8243; Boston Creme Pie.

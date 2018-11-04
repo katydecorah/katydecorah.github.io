@@ -5,7 +5,7 @@ pen: mJeba
 tags:
   - Sass
   - animation
-image: http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg
+image: https://yo.katydecorah.com/2014-01-15-escape-by-carla-corrales-0.jpg
 dribbble: http://drbl.in/jMcZ
 ---
 
@@ -17,7 +17,7 @@ I have another single element project! I explored the Dribbble shot [Escape by C
 
 The main element, `.marker`, is the map marker shape. The `:before` is the inner circles and the `:after` is the dial.
 
-![element diagram](http://farm3.staticflickr.com/2881/12730618224_35decb3433.jpg)
+{% include img.html src='2014-01-15-escape-by-carla-corrales-0.jpg' alt='element diagram' class='img-half' %}
 
 I created the marker shape by using a `border-radius: 100% 100% 0;`. Then I rotated the element 45 degrees, making it sit on its point. I used a linear gradient for the two-toned look of the background.
 

@@ -3,7 +3,7 @@ title: Weaving data into GeoJSON with Jekyll
 
 tags:
   - Jekyll
-image: https://farm9.staticflickr.com/8594/15981508984_a398d1fa77_b.jpg
+image: https://yo.katydecorah.com/2015-02-21-weaving-geojson-0.jpg
 ---
 
 Say you have a dataset for a handful of countries or all the countries, or maybe a handful of states or all the states. You want to assign your data to each state or country as a polygon of that area, not a point, so you can do fun colors or popups and make a darn cool map.

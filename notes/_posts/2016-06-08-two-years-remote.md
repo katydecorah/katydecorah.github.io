@@ -1,7 +1,7 @@
 ---
 title: What I learned after working remotely for 2 years
 
-image: https://c2.staticflickr.com/8/7425/26934340133_47aef85887.jpg
+image: https://yo.katydecorah.com/2016-06-08-two-years-remote-0.jpg
 ---
 
 I have entered my ~~terrible~~ terrific twos of working remotely. Working from yoga pants. Working from couch. Working from over the sink as I eat leftovers. The glamour. The rolling out of bed. The "I'm going to wake up early and walk, lol jk."
@@ -15,5 +15,5 @@ Last year, I talked about [lessons learned](/notes/one-year-remote/) and this ye
 5. **Use these phrases more:** How are you? What are you doing this weekend? Thank you! You are welcome. I'm sorry, I made a mistake. What can I take off your plate? I need help. Great job!
 
 <div class="photos">
-<img src="https://c2.staticflickr.com/8/7425/26934340133_47aef85887_b.jpg" alt="my office">
+{% include img.html src="2016-06-08-two-years-remote-1.jpg" alt="my office" %}
 </div>

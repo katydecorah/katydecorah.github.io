@@ -1,6 +1,6 @@
 ---
 title: Windowsill Cherry Tomatoes
-image: http://farm4.staticflickr.com/3777/9496159841_8160d1b55b_z.jpg
+image: https://yo.katydecorah.com/2013-08-12-cherry-tomatoes-0.jpg
 emoji: 🍅
 ---
 
@@ -16,21 +16,20 @@ Only one tomato has riped so far, I have about a dozen waiting to burst with col
 
 <div class="photos">
 
-<img src="http://farm3.staticflickr.com/2825/9498963032_a064e727d7.jpg" class="img-thirds" alt="Cherry tomatoes">
+{% include img.html src="2013-08-12-cherry-tomatoes-1.jpg" class="img-thirds" alt="Cherry tomatoes" %}
 
-<img src="http://farm4.staticflickr.com/3756/9496163413_621252bf15_z.jpg" class="img-thirds" alt="Cherry tomatoes">
+{% include img.html src="2013-08-12-cherry-tomatoes-2.jpg" class="img-thirds" alt="Cherry tomatoes" %}
 
-<img src="http://farm8.staticflickr.com/7408/9496164677_9684654752.jpg" class="img-thirds" alt="Cherry tomatoes">
+{% include img.html src="2013-08-12-cherry-tomatoes-3.jpg" class="img-thirds" alt="Cherry tomatoes" %}
 
-<img src="http://farm8.staticflickr.com/7377/9496166341_409b532162_z.jpg"   alt="Cherry tomatoes">
+{% include img.html src="2013-08-12-cherry-tomatoes-4.jpg"   alt="Cherry tomatoes" %}
 
-<img src="http://farm6.staticflickr.com/5476/9498969402_7715cfe3e5_z.jpg"  class="img-half" alt="Cherry tomatoes">
+{% include img.html src="2013-08-12-cherry-tomatoes-5.jpg"  class="img-half" alt="Cherry tomatoes" %}
 
-<img src="http://farm6.staticflickr.com/5347/9496172695_45e75ffc55_z.jpg"  class="img-half" alt="Cherry tomatoes">
+{% include img.html src="2013-08-12-cherry-tomatoes-6.jpg"  class="img-half" alt="Cherry tomatoes" %}
 
-<img src="http://farm6.staticflickr.com/5465/9498960026_f54b279544_z.jpg" class="img-half" alt="Cherry tomatoes">
+{% include img.html src="2013-08-12-cherry-tomatoes-7.jpg" class="img-half" alt="Cherry tomatoes" %}
 
-<img src="http://farm4.staticflickr.com/3777/9496159841_8160d1b55b_z.jpg" class="img-half" alt="Cherry tomatoes">
+{% include img.html src="2013-08-12-cherry-tomatoes-0.jpg" class="img-half" alt="Cherry tomatoes" %}
+
 </div>
-
-[Check out the full set](http://www.flickr.com/photos/91218249@N05/sets/72157635042606211/)

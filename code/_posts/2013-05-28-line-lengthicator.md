@@ -6,7 +6,7 @@ tags:
   - jQuery
   - Haml
 pen: cufzB
-image: http://farm4.staticflickr.com/3830/12730512263_517fe233f6_o.png
+image: https://yo.katydecorah.com/2013-05-28-line-lengthicator-0.png
 project: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Building a WeatherBot
 
-image: https://c1.staticflickr.com/3/2719/32935597221_eef6641328_b.jpg
+image: https://yo.katydecorah.com/2017-02-22-weatherbot-0.jpg
 tags:
   - Node.js
   - AWS
@@ -11,7 +11,7 @@ emoji: ❄️
 
 We live in Upstate New York so there's snow and it's kind of pain for J to plow the driveway if our cars are in the way. I built a little Slack bot that runs three times a day (7 am, 1 pm, and 7 pm). And if there will be more than one inch of snow in the next 12 hours then [WeatherBot](https://github.com/katydecorah/weatherbot) will ping our Slack:
 
-![WeatherBot Slack Post](https://c1.staticflickr.com/3/2115/33061999005_5b2acd0dd1_b.jpg)
+{% include img.html src='2017-02-22-weatherbot-1.jpg' alt='WeatherBot Slack Post' class='img-half' %}
 
 ## How it works
 

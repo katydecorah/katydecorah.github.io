@@ -6,7 +6,7 @@ elsewhere-site: CodePen Blog
 tags:
   - CSS
   - writing
-image: https://farm6.staticflickr.com/5588/14429683600_f7f828069a_o.png
+image: https://yo.katydecorah.com/2014-07-30-case-for-empty-0.png
 ---
 
 At work today, I'm styling an app. The code is automatically generated, making me a CSS jockey. It can be challenging, but it makes me flex my CSS powers. This morning I found a great use case for `:empty`.
