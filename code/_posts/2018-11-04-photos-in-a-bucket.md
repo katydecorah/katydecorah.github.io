@@ -29,19 +29,12 @@ I started by creating a bucket to store my photos. I used [this policy on my buc
 }
 ```
 
-## Set static site hosting
-
-From my S3 bucket, I clicked **Properties** > **Static website hosting**. I chose **Use this bucket to host a website** and entered `index.html`. (I completed the configuration in the next step.)
-
-I also uploaded an `index.html` to my bucket.
-
 ## Make it https
 
 Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/). In addition to following the instructions, I made sure to:
 
-1. Set the **Default Root Object** to `index.html`. This will connect the page I uploaded in the last step.
-2. Under **Viewer Protocol Policy** I selected `Redirect HTTP to HTTPS`.
-3. Point my subdomain at CloudFront.
+1. Under **Viewer Protocol Policy** I selected `Redirect HTTP to HTTPS`.
+2. Point my subdomain at CloudFront.
    - Once I created my CloudFront distribution, I copied the value of **Domain Name**.
    - From my domain host, I created a CNAME record that points at that CloudFront domain name. For example:
      - type: `CNAME`
