@@ -12,26 +12,11 @@ This is part II to [Download Flickr photos in your Jekyll posts](/code/flickr-to
 
 ## Create a bucket
 
-I started by creating a bucket to store my photos. I used [this policy on my bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html#root-domain-walkthrough-s3-tasks) that would give read access to my bucket but not publicly list everything in my bucket:
-
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "PublicReadGetObject",
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": ["s3:GetObject"],
-      "Resource": ["arn:aws:s3:::bucket-name/*"]
-    }
-  ]
-}
-```
+I started by creating a bucket on [S3](https://s3.console.aws.amazon.com/s3/home) to store my photos. To keep my bucket secure and allow me to test locally, I added a policy to [allow my IP address access](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-bucket-policies.html#example-bucket-policies-use-case-3). In the next step, I'll allow CloudFront to configure my bucket policies further.
 
 ## Make it https
 
-Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/). In addition to following the instructions, I made sure to:
+Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/). In addition to the instructions, I did the following:
 
 1. Under **Viewer Protocol Policy** I selected `Redirect HTTP to HTTPS`.
 2. Point my subdomain at CloudFront.
@@ -41,11 +26,13 @@ Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bu
      - host name: `yo`
      - target name: `1234abcd.cloudfront.net`
 
-It took a few hours for the changes to propagate, but my bucket is now serving securely.
-
 ## Secure assets to the domain
 
-To keep my assets secure, I followed the steps on [How to Prevent Hotlinking by Using AWS WAF, Amazon CloudFront, and Referer Checking](https://aws.amazon.com/blogs/security/how-to-prevent-hotlinking-by-using-aws-waf-amazon-cloudfront-and-referer-checking/). I used **Approach 1: A separate subdomain** and it appears to be working as expected. Earlier I tried adding policies to my bucket to restrict my assets to the domain, but had difficulty getting it just right. I'll circle back to this section if I discover improvements or missteps.
+To keep my assets secure, I followed the steps on [How to Prevent Hotlinking by Using AWS WAF, Amazon CloudFront, and Referer Checking](https://aws.amazon.com/blogs/security/how-to-prevent-hotlinking-by-using-aws-waf-amazon-cloudfront-and-referer-checking/) (I used **Approach 1: A separate subdomain**).
+
+Next, I followed these steps to [allow access to an Amazon S3 bucket only from a CloudFront distribution](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-access-to-amazon-s3/).
+
+Now only my site can load my content, which keeps others from hotlinking my stuff and driving up my AWS bill.
 
 ## Create a custom error page
 
@@ -78,7 +65,9 @@ For markdown images:
 
 Both regex searches keep all attributes intact, which means that I'm passing the original image's `src`, `alt`, `class` attributes as variables to the include.
 
-The include contains logic and the `picture` element where the include will determine which size photo to display based on the classes that are passed through the include. You can [check out the include on GitHub](https://github.com/katydecorah/katydecorah.github.io/blob/68058c7316dbefde8f9a1eae5e0a94c83113911d/_includes/img.html).
+The include contains logic and the `picture` element. The include determines which size photo to display based on the classes that are passed through to the include. When I'm developing locally, my site will use my AWS bucket's URL that my IP address can access (set by permissions when I created my bucket earlier).
+
+You can [check out the include on GitHub](https://github.com/katydecorah/katydecorah.github.io/blob/d1b1cf784915115985ea88f99f32941213a63015/_includes/img.html).
 
 ## We'll see
 
