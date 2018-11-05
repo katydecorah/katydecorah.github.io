@@ -50,6 +50,10 @@ Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bu
 
 It took a few hours for the changes to propagate, but my bucket is now serving securely.
 
+## Secure assets to the domain
+
+To keep my assets secure, I followed the steps on [How to Prevent Hotlinking by Using AWS WAF, Amazon CloudFront, and Referer Checking](https://aws.amazon.com/blogs/security/how-to-prevent-hotlinking-by-using-aws-waf-amazon-cloudfront-and-referer-checking/). I used **Approach 1: A separate subdomain** and it appears to be working as expected. Earlier I tried adding policies to my bucket to restrict my assets to the domain, but had difficulty getting it just right. I'll circle back to this section if I discover improvements or missteps.
+
 ## Generate photo versions
 
 For each photo, I created these versions based on the max-width of my site:
