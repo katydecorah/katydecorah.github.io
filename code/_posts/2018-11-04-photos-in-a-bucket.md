@@ -11,9 +11,7 @@ This is part II to [Download Flickr photos in your Jekyll posts](/code/flickr-to
 
 ## Create a bucket
 
-I started by creating a bucket to store my photos. From a little research I decided to name my bucket after the subdomain that I will later point at the bucket `yo.katydecorah.com`.
-
-I used [this policy on my bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html#root-domain-walkthrough-s3-tasks) that would give read access to my bucket but not publicly list everything in my bucket:
+I started by creating a bucket to store my photos. I used [this policy on my bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html#root-domain-walkthrough-s3-tasks) that would give read access to my bucket but not publicly list everything in my bucket:
 
 ```json
 {
