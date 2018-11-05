@@ -39,7 +39,7 @@ I updated my map include to generate the static map:
 {% if page.coordinates %}
 
   <div class="post-map-header">
-  	<div style="background-image:url(http://api.tiles.mapbox.com/v4/{{ site.mapid }}/{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if page.zoom %}{{ page.zoom }}{% else %}15{% endif %}/1280x300.png?access_token={{ site.mapbox-token }})" class="post-location-image"></div>
+  	<div style="background-image:url(https://api.tiles.mapbox.com/v4/{{ site.mapid }}/{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if page.zoom %}{{ page.zoom }}{% else %}15{% endif %}/1280x300.png?access_token={{ site.mapbox-token }})" class="post-location-image"></div>
   </div>
 {% endif %}
 {% endraw %}
