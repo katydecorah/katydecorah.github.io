@@ -9,7 +9,7 @@
 <div class="post-meta small"><span class="post-meta-emoji">{% if page. emoji %}{{page.emoji}}{% else %}{{site.data.emoji[category]}}{% endif %}</span><a href="/{{ category}}" class="post-type">{{ page.categories[0] }}</a> &times; {{ page.date | date: "%B %-d, %Y" }}{% if page.elsewhere-site %} &times; <a href="{{ page.elsewhere-link }}">{{ page.elsewhere-site }}</a>{% endif %} {% include tags.html %}</div>{% endif %}</div>
 <div class="post">
 {% if page.categories[0] == 'playlists' %}
-{% capture src %}playlists/{{page.title | slugify}}.png{% endcapture %}
+{% capture src %}{{page.title | slugify}}.png{% endcapture %}
 {% include img.html src=src class='img-half' alt='album art' %}
 {% endif %}
 {% unless page.categories[0] == 'playlists' %}{{ content }}{% endunless %}
