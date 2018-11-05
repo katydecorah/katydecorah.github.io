@@ -22,7 +22,7 @@ I started by creating a bucket to store my photos. I used [this policy on my buc
       "Effect": "Allow",
       "Principal": "*",
       "Action": ["s3:GetObject"],
-      "Resource": ["arn:aws:s3:::example.com/*"]
+      "Resource": ["arn:aws:s3:::bucket-name/*"]
     }
   ]
 }
