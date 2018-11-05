@@ -47,6 +47,10 @@ It took a few hours for the changes to propagate, but my bucket is now serving s
 
 To keep my assets secure, I followed the steps on [How to Prevent Hotlinking by Using AWS WAF, Amazon CloudFront, and Referer Checking](https://aws.amazon.com/blogs/security/how-to-prevent-hotlinking-by-using-aws-waf-amazon-cloudfront-and-referer-checking/). I used **Approach 1: A separate subdomain** and it appears to be working as expected. Earlier I tried adding policies to my bucket to restrict my assets to the domain, but had difficulty getting it just right. I'll circle back to this section if I discover improvements or missteps.
 
+## Create a custom error page
+
+Now that CloudFront is blocking traffic to my bucket outside of my domain, I created an error page. I did this in CloudFount by clicking **Error Pages** and then **Create Custom Error Response**. From the dropdown I selected `403: Forbidden` and hit `Yes` on **Customize Error Response**. I entered a response path of `/oops.html` which is [a file](https://yo.katydecorah.com/oops.html) I uploaded to my bucket.
+
 ## Generate photo versions
 
 For each photo, I created these versions based on the max-width of my site:
