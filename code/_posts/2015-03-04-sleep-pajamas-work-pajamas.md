@@ -10,7 +10,7 @@ tags:
 emoji: 🎙
 ---
 
-[A year later](/code/2014/03/14/the-east-wing/), I'm back chatting with Tim:
+[A year later](/code/the-east-wing/), I'm back chatting with Tim:
 
 > Tim talks with Katy DeCorah about moving jobs, working at Mapbox, working remotely, tinkering with code, and more
 

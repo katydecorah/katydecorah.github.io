@@ -9,7 +9,7 @@ locations: "Albany,NY"
 project: true
 ---
 
-**As of 7/26/2014, this site has moved to the [Mapbox static API](/code/2014/07/26/static-mapbox-for-jekyll/).**
+**As of 7/26/2014, this site has moved to the [Mapbox static API](/code/static-mapbox-for-jekyll/).**
 
 I have several posts with locations and I wanted a better way to integrate them into my posts. I tinkered around with the static Google Maps Image API and found a neat little solution.
 

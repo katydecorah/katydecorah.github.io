@@ -79,7 +79,7 @@ I found information about the Burden tomb from [Henry Burden By Mrs. Margaret E.
 
 <div class="photos">
 
-{% include img.html src="http://books.google.com/books?id=A6UNAAAAYAAJ&amp;pg=PA86-IA3&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U3HfiVOeep-fJFeRwDllJi8AO5hNg&amp;ci=140%2C274%2C711%2C939&amp;edge=0" class="rotate-left pop-out" alt="Henry Burden" %}
+<img src="http://books.google.com/books?id=A6UNAAAAYAAJ&amp;pg=PA86-IA3&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U3HfiVOeep-fJFeRwDllJi8AO5hNg&amp;ci=140%2C274%2C711%2C939&amp;edge=0" class="rotate-left pop-out" alt="Henry Burden">
 
 </div>
 

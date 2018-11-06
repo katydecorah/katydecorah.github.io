@@ -6,7 +6,7 @@ tags:
 image: https://yo.katydecorah.com/2015-01-29-seasonal-posts-0.png
 ---
 
-After flipping through past posts, I realized that my lush green static map didn't match wintery posts. For example, [Christmas day hike](/adventures/2014/12/25/christmas-hike/). It's winter, nothing is green. Everything is white and then gray and then cold and then sometimes sad. So I needed a map style to match winter (minus the sad).
+After flipping through past posts, I realized that my lush green static map didn't match wintery posts. For example, [Christmas day hike](/adventures/christmas-hike/). It's winter, nothing is green. Everything is white and then gray and then cold and then sometimes sad. So I needed a map style to match winter (minus the sad).
 
 <div class="photos">
 <img src="https://api.tiles.mapbox.com/v4/{{site.mapid}}/-73.7440735,42.5726903,15/600x400.png?access_token={{site.mapbox-token}}" class="img-half" alt="untitled">
@@ -14,7 +14,7 @@ After flipping through past posts, I realized that my lush green static map didn
 <img src="https://api.tiles.mapbox.com/v4/{{site.mapid-winter}}/-73.7440735,42.5726903,15/600x400.png?access_token={{site.mapbox-token}}" class="img-half" alt="untitled">
 </div>
 
-Default style on the left, winter style on the right. ([Read more about my Jekyll-generated Mapbox static maps.](/code/2014/07/26/static-mapbox-for-jekyll/))
+Default style on the left, winter style on the right. ([Read more about my Jekyll-generated Mapbox static maps.](/code/static-mapbox-for-jekyll/))
 
 At first I created an in-post variable that could swap out my default map ID `{%raw%}{% if page.mapid %}{%endraw%}`, but that would need upkeep. I decided to evaluate the post's month and assign a map ID based on the season -- the post's month.
 

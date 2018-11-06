@@ -47,4 +47,4 @@ We enjoyed 20 weeks of the [Fox Creek Farm CSA](http://www.foxcreekfarmcsa.com/)
 
 </div>
 
-We missed week 17 and week 19 due to [adventures](/adventures/2014/10/03/rhode-island/) and busy schedules.
+We missed week 17 and week 19 due to [adventures](/adventures/rhode-island/) and busy schedules.

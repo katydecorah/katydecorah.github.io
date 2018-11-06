@@ -11,7 +11,7 @@ Say you have a dataset for a handful of countries or all the countries, or maybe
 Something like this:
 
 <div class="photos">
-<iframe src="{{site.url}}/geojson-weaver/" width="100%" height='400px'></iframe>
+<iframe src="https://katydecorah.com/geojson-weaver/" width="100%" height='400px'></iframe>
 </div>
 
 So at this point your thought process might be you're like, "Ok, where do I start?" and then you think, "Ok, maybe I'll do it by hand!"
@@ -81,8 +81,8 @@ var countryData = {
 };
 {% endraw %}{% endhighlight %}
 
-And [here's what it looks like]({{site.url}}/geojson-weaver/country-data.js) once Jekyll gobbles it up and spits it out. Now I can [load that GeoJSON on a map]({{site.url}}/geojson-weaver/)!
+And [here's what it looks like](https://katydecorah.com/geojson-weaver/country-data.js) once Jekyll gobbles it up and spits it out. Now I can [load that GeoJSON on a map](https://katydecorah.com/geojson-weaver/)!
 
 The workflow ends up being painless. I can make updates to my data file and once Jekyll runs, my map updates. Also, I followed the same process with state data that I got from Mapbox, so I can do some state shape and data matchmaking.
 
-[Check out repo with all the files, data, and fun.](https://github.com/katydecorah/geojson-weaver) And, hey, guess what! I wrote about building a GeoJSON file with Jekyll before &mdash; [Jekyll and GeoJSON](/code/2014/11/03/jekyll-geojson/).
+[Check out repo with all the files, data, and fun.](https://github.com/katydecorah/geojson-weaver) And, hey, guess what! I wrote about building a GeoJSON file with Jekyll before &mdash; [Jekyll and GeoJSON](/code/jekyll-geojson/).

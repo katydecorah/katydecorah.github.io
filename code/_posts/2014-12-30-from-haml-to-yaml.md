@@ -15,7 +15,7 @@ To store each length name and metadata, I created a multidimensional array in Ha
 
 ## To Jekyll
 
-I decided to create a Jekyll gh-pages repo and open up the tool there. I exported the CodePen and created a local Jekyll site. Once I organized the files, I refactored my code to [interpolate the AngularJS tags](/code/2014/05/29/jekyll-and-angular/).
+I decided to create a Jekyll gh-pages repo and open up the tool there. I exported the CodePen and created a local Jekyll site. Once I organized the files, I refactored my code to [interpolate the AngularJS tags](/code/jekyll-and-angular/).
 
 At first I copied and pasted the compiled HTML, but I knew it was going to be a pain to make any markup changes. I ended up reformatting the Haml array to Yaml (via regex find and replace):
 
@@ -41,6 +41,6 @@ To make content changes, I'll update the Yaml. To make layout changes, I'll upda
 
 ## The CSS Ruler
 
-Feast your eyes on the live [CSS Ruler]({{site.url}}/css-ruler/) or [jump into the code](https://github.com/katydecorah/css-ruler).
+Feast your eyes on the live [CSS Ruler](https://katydecorah.com/css-ruler/) or [jump into the code](https://github.com/katydecorah/css-ruler).
 
 p.s. Uncheck _all_ the length types to unlock an Easter egg.

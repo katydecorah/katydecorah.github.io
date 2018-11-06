@@ -6,7 +6,7 @@ tags:
   - Jekyll
 ---
 
-[Font Library]({{site.url}}/font-library/) has delicious data packed into a [JSON file]({{site.url}}/font-library/families.json). I've had an urge to see how else I can hack the file with Jekyll and tonight I was up for the challenge.
+[Font Library](https://katydecorah.com/font-library/) has delicious data packed into a [JSON file](https://katydecorah.com/font-library/families.json). I've had an urge to see how else I can hack the file with Jekyll and tonight I was up for the challenge.
 
 To start, the JSON file is in the root of the Jekyll site, making it a simple file without Jekyll powers. I keep it there so it's easier to find, especially for contributors. A few times I had considered moving it to `_data/` because with a [Jekyll data file](http://jekyllrb.com/docs/datafiles/) I can use [liquid](https://github.com/Shopify/liquid/wiki) to `loop` and `if` and `else` the data all I want.
 
@@ -36,7 +36,7 @@ And soon I had a CSV file with a list of the font family names.
 I also used ["very ugly string manipulation hacks"](http://stackoverflow.com/a/30607373) to get a distinct list of tags and in alphabetical order. And with a few more very ugly string manipulation hacks, I got the [CSV file](https://github.com/katydecorah/font-library/blob/gh-pages/families.csv) looking exactly how I wanted:
 
 <div class="photos">
-{% include img.html src="" alt="CSV file" %}
+{% include img.html src="2015-10-14-symlinking-jekyll-data-1.png" alt="CSV file" class="img-full" %}
 </div>
 
 Since Github pages run in safe mode the file won't build in production. (It's still totally a success though.)

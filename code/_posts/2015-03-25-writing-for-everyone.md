@@ -8,7 +8,7 @@ tags:
 emoji: 👩🏼‍🏫
 ---
 
-A couple weeks ago I gave my talk [Writing for everyone]({{site.url}}/writing-for-everyone/) at FOSS4G NA. I had a great time! You can [click through my slides]({{site.url}}/writing-for-everyone/), follow along with [my notes]({{site.url}}/writing-for-everyone/notes/), or <a href="https://youtu.be/bXd6aRRvJG4?list=PLWW0CjV-TafaJlkE6Zq4OgXgb04TQfNiR" data-proofer-ignore>watch the video</a>.
+A couple weeks ago I gave my talk [Writing for everyone](https://katydecorah.com/writing-for-everyone/) at FOSS4G NA. I had a great time! You can [click through my slides](https://katydecorah.com/writing-for-everyone/), follow along with [my notes](https://katydecorah.com/writing-for-everyone/notes/), or <a href="https://youtu.be/bXd6aRRvJG4?list=PLWW0CjV-TafaJlkE6Zq4OgXgb04TQfNiR" data-proofer-ignore>watch the video</a>.
 
 The slides are built with [Big](http://www.macwright.org/big/) and Jekyll. At first I was just going to work in a flat HTML file, but then I got the itch.
 

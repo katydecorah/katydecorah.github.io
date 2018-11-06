@@ -9,7 +9,7 @@ image: https://yo.katydecorah.com/2014-12-25-christmas-hike-0.jpg
 feed: nah
 ---
 
-A morning hike at the [Papscanee Island Nature Preserve](http://www.rensselaercounty.org/enviroment%20management%20council/Papscanee%20Preserve.htm).
+A morning hike at the Papscanee Island Nature Preserve.
 
 <div class="photos">
 
