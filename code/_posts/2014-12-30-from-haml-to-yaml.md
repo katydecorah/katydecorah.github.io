@@ -4,7 +4,7 @@ title: From Haml to Yaml
 tags:
   - Jekyll
   - AngularJS
-image: https://yo.katydecorah.com/2014-12-30-from-haml-to-yaml-0.png
+image: //yo.katydecorah.com/2014-12-30-from-haml-to-yaml-0.png
 ---
 
 Way back in May, I built a pen based on [MDN's article](https://developer.mozilla.org/en-US/docs/Web/CSS/length) to visualize and compare all CSS lengths. Here's the original pen:

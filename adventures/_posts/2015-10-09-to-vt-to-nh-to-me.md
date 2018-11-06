@@ -1,7 +1,7 @@
 ---
 title: VT to NH to ME
 
-image: https://yo.katydecorah.com/2015-10-09-to-vt-to-nh-to-me-0.jpg
+image: //yo.katydecorah.com/2015-10-09-to-vt-to-nh-to-me-0.jpg
 coordinates:
   - -73.2968605,44.4926914
   - -72.8459604,44.6418721
@@ -60,7 +60,7 @@ We took a three-night drive through New England with help from [Hotel Tonight](h
 {% include img.html src="2015-10-09-to-vt-to-nh-to-me-0.jpg" alt="Mt Washington" %}
 {% include img.html src="2015-10-09-to-vt-to-nh-to-me-13.jpg" class="img-half" alt="Mt Washington" %}
 {% include img.html src="2015-10-09-to-vt-to-nh-to-me-14.jpg" class="img-half" alt="Mt Washington" %}
-<video src="https://www.flickr.com/photos/katydecorah/22054398711/play/hd/2ff3c419f5/" poster="https://yo.katydecorah.com/2015-10-09-to-vt-to-nh-to-me-15.jpg" controls=""></video>
+<video src="https://www.flickr.com/photos/katydecorah/22054398711/play/hd/2ff3c419f5/" poster="//yo.katydecorah.com/2015-10-09-to-vt-to-nh-to-me-15.jpg" controls=""></video>
 </div>
 
 ## Cape Elizabeth, ME

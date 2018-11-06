@@ -1,7 +1,7 @@
 ---
 title: Plotters Kill Preserve
 
-image: https://yo.katydecorah.com/2016-03-20-plotters-kill-0.jpg
+image: //yo.katydecorah.com/2016-03-20-plotters-kill-0.jpg
 coordinates:
   - -74.0521084,42.8284966
 locations:

@@ -6,7 +6,7 @@ locations:
   - Hunter, NY
 coordinates:
   - -74.0632534,42.1932215
-image: https://yo.katydecorah.com/2014-09-01-kaaterskill-falls-0.jpg
+image: //yo.katydecorah.com/2014-09-01-kaaterskill-falls-0.jpg
 
 miles: 1.4
 ---

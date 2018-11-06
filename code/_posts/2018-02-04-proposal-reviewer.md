@@ -1,7 +1,7 @@
 ---
 title: GitHub as a talk proposal review system
 
-image: https://yo.katydecorah.com/2018-02-04-proposal-reviewer-0.png
+image: //yo.katydecorah.com/2018-02-04-proposal-reviewer-0.png
 tags:
   - Node.js
   - API

@@ -1,7 +1,7 @@
 ---
 title: Symlinking Jekyll data files
 
-image: https://yo.katydecorah.com/2015-10-14-symlinking-jekyll-data-0.png
+image: //yo.katydecorah.com/2015-10-14-symlinking-jekyll-data-0.png
 tags:
   - Jekyll
 ---

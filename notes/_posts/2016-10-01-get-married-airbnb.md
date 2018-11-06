@@ -1,6 +1,6 @@
 ---
 title: How to get married at an Airbnb
-image: https://yo.katydecorah.com/2016-10-01-get-married-airbnb-0.jpg
+image: //yo.katydecorah.com/2016-10-01-get-married-airbnb-0.jpg
 emoji: 👰
 ---
 

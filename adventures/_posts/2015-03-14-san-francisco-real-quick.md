@@ -1,7 +1,7 @@
 ---
 title: San Francisco real quick
 
-image: https://yo.katydecorah.com/2015-03-14-san-francisco-real-quick-0.jpg
+image: //yo.katydecorah.com/2015-03-14-san-francisco-real-quick-0.jpg
 locations:
   - San Francisco
 coordinates:

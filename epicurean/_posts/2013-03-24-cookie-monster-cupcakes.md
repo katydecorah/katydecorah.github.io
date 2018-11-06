@@ -1,7 +1,7 @@
 ---
 title: Cookie Monster Cupcakes
 
-image: https://yo.katydecorah.com/2013-03-24-cookie-monster-cupcakes-0.jpg
+image: //yo.katydecorah.com/2013-03-24-cookie-monster-cupcakes-0.jpg
 ---
 
 I made these cupcakes for a certain amazing person's birthday!

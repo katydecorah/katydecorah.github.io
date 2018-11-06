@@ -1,7 +1,7 @@
 ---
 title: Make your Slack status the weather forecast
 
-image: https://yo.katydecorah.com/2018-05-11-weather-status-0.png
+image: //yo.katydecorah.com/2018-05-11-weather-status-0.png
 tags:
   - Node.js
   - AWS

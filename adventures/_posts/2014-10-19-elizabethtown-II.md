@@ -5,7 +5,7 @@ locations:
   - Elizabethtown, NY
 coordinates:
   - -73.5914674,44.216574
-image: https://yo.katydecorah.com/2014-10-19-elizabethtown-II-0.jpg
+image: //yo.katydecorah.com/2014-10-19-elizabethtown-II-0.jpg
 ---
 
 A college roommates weekend in Elizabethtown. A weekend way over due.

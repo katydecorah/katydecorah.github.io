@@ -1,6 +1,6 @@
 ---
 title: The bird feeder
-image: https://yo.katydecorah.com/2015-03-18-the-bird-feeder-0.jpg
+image: //yo.katydecorah.com/2015-03-18-the-bird-feeder-0.jpg
 
 emoji: 🐦
 ---

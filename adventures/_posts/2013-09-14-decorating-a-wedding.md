@@ -6,7 +6,7 @@ coordinates:
   - -73.0598826,43.1467218
 locations:
   - Manchester, VT
-image: https://yo.katydecorah.com/2013-09-14-decorating-a-wedding-0.jpg
+image: //yo.katydecorah.com/2013-09-14-decorating-a-wedding-0.jpg
 ---
 
 This weekend I had the privilege of decorating a friend's wedding at the Wilburton Inn in Manchester, Vermont. As payment, my boyfriend and I got to stay all weekend at the Inn. It was an excellent trade!

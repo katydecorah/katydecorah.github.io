@@ -1,7 +1,7 @@
 ---
 title: Kings Highway Barrens
 
-image: https://yo.katydecorah.com/2015-08-23-kings-highway-barrens-0.jpg
+image: //yo.katydecorah.com/2015-08-23-kings-highway-barrens-0.jpg
 recommended: true
 locations:
   - Guilderland, NY

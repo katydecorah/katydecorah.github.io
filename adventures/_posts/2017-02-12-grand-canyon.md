@@ -1,7 +1,7 @@
 ---
 title: Grand Canyon
 
-image: https://yo.katydecorah.com/2017-02-12-grand-canyon-0.jpg
+image: //yo.katydecorah.com/2017-02-12-grand-canyon-0.jpg
 locations:
   - Grand Canyon Village
 coordinates:

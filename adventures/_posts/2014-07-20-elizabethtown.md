@@ -6,7 +6,7 @@ locations:
 coordinates:
   - -73.5914674,44.216574
 map: static
-image: https://yo.katydecorah.com/2014-07-20-elizabethtown-0.jpg
+image: //yo.katydecorah.com/2014-07-20-elizabethtown-0.jpg
 ---
 
 This weekend we stayed with friends in Lewis. On Saturday we woke up early to catch the town-wide garage sales in Elizabethtown in the spirit of E-town Day. Our haul included: 1 over-sized sweater, 2 books, and 3 hats.

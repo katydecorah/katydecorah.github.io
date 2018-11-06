@@ -1,7 +1,7 @@
 ---
 title: Rhode Island
 
-image: https://yo.katydecorah.com/2014-10-03-rhode-island-0.jpg
+image: //yo.katydecorah.com/2014-10-03-rhode-island-0.jpg
 locations:
   - Providence, RI
 coordinates:

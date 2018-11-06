@@ -1,7 +1,7 @@
 ---
 title: lunr.js and Jekyll
 
-image: https://yo.katydecorah.com/2015-08-15-lunr-and-jekyll-0.png
+image: //yo.katydecorah.com/2015-08-15-lunr-and-jekyll-0.png
 tags:
   - Jekyll
   - JavaScript

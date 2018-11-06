@@ -1,7 +1,7 @@
 ---
 title: Homemade Vanilla Marshmallows
 
-image: https://yo.katydecorah.com/2013-07-20-homemade-vanilla-marshmallows-0.jpg
+image: //yo.katydecorah.com/2013-07-20-homemade-vanilla-marshmallows-0.jpg
 ---
 
 I love marshmallows. I officially love homemade marshmallows even more.

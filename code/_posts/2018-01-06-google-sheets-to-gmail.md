@@ -1,7 +1,7 @@
 ---
 title: Create emails from a Google spreadsheet
 
-image: https://yo.katydecorah.com/2018-01-06-google-sheets-to-gmail-0.png
+image: //yo.katydecorah.com/2018-01-06-google-sheets-to-gmail-0.png
 tags:
   - JavaScript
   - API

@@ -1,7 +1,7 @@
 ---
 title: Raspberry Chocolate Pie
 
-image: https://yo.katydecorah.com/2013-07-04-raspberry-chocolate-pie-0.jpg
+image: //yo.katydecorah.com/2013-07-04-raspberry-chocolate-pie-0.jpg
 
 emoji: 🥧
 ---

@@ -4,7 +4,7 @@ title: Google Font Explorer
 tags:
   - API
 pen: vetCA
-image: https://yo.katydecorah.com/2013-07-03-google-font-explorer-0.png
+image: //yo.katydecorah.com/2013-07-03-google-font-explorer-0.png
 project: true
 ---
 

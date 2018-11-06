@@ -1,7 +1,7 @@
 ---
 title: Mini Boston Cream Pies
 
-image: https://yo.katydecorah.com/2014-06-16-mini-boston-cream-pie-0.jpg
+image: //yo.katydecorah.com/2014-06-16-mini-boston-cream-pie-0.jpg
 recipe: http://www.foodnetwork.com/recipes/boston-cream-pie-recipe0.html
 recipe-title: Boston Cream Pie
 

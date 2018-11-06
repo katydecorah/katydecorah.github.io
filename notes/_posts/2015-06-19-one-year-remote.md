@@ -1,7 +1,7 @@
 ---
 title: What I learned after working remote for 1 year
 
-image: https://yo.katydecorah.com/2015-06-19-one-year-remote-0.jpg
+image: //yo.katydecorah.com/2015-06-19-one-year-remote-0.jpg
 ---
 
 - Shower and change your clothes frequently (or daily even)

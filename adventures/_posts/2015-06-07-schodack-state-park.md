@@ -1,7 +1,7 @@
 ---
 title: Schodack Island State Park
 
-image: https://yo.katydecorah.com/2015-06-07-schodack-state-park-0.jpg
+image: //yo.katydecorah.com/2015-06-07-schodack-state-park-0.jpg
 locations:
   - Schodack Island State Park
 coordinates:

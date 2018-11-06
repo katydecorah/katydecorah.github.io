@@ -1,7 +1,7 @@
 ---
 title: South Yokun Ridge
 
-image: https://yo.katydecorah.com/2015-09-05-south-yokun-ridge-0.jpg
+image: //yo.katydecorah.com/2015-09-05-south-yokun-ridge-0.jpg
 recommended: true
 locations:
   - Stockbridge, MA

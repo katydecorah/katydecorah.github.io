@@ -1,7 +1,7 @@
 ---
 title: Three Mini Vacations
 
-image: https://yo.katydecorah.com/2013-07-08-three-mini-vacations-0.jpg
+image: //yo.katydecorah.com/2013-07-08-three-mini-vacations-0.jpg
 locations:
   - Lake Placid,NY
   - Thousand Islands,NY

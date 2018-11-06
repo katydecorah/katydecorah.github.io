@@ -2,7 +2,7 @@
 title: The Snow Hole
 
 recommended: true
-image: https://yo.katydecorah.com/2013-06-22-the-snow-hole-0.jpg
+image: //yo.katydecorah.com/2013-06-22-the-snow-hole-0.jpg
 locations:
   - Petersburgh, NY
 map: static

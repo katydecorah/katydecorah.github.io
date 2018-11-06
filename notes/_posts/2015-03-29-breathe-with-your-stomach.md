@@ -2,7 +2,7 @@
 title: Breathe with your stomach
 elsewhere-site: The Pastry Box Project
 elsewhere-link: https://the-pastry-box-project.net/katy-decorah/2015-march-29
-image: https://yo.katydecorah.com/2015-03-29-breathe-with-your-stomach-0.png
+image: //yo.katydecorah.com/2015-03-29-breathe-with-your-stomach-0.png
 tags:
   - writing
 ---

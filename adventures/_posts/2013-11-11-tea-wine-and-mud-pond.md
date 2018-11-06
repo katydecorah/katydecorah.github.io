@@ -8,7 +8,7 @@ locations:
   - Ballston Spa
   - Oliva Vineyards
   - Nassau Mud Pond Preserve
-image: https://yo.katydecorah.com/2013-11-11-tea-wine-and-mud-pond-0.jpg
+image: //yo.katydecorah.com/2013-11-11-tea-wine-and-mud-pond-0.jpg
 ---
 
 ## Tea

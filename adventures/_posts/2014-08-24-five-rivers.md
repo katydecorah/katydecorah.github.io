@@ -2,7 +2,7 @@
 title: Five Rivers
 
 recommended: true
-image: https://yo.katydecorah.com/2014-08-24-five-rivers-0.jpg
+image: //yo.katydecorah.com/2014-08-24-five-rivers-0.jpg
 locations:
   - Delmar, NY
 coordinates:
