@@ -8,6 +8,12 @@ tags:
   - Jekyll
 ---
 
+---
+
+🙏 _I'm still ironing out the steps in this post and updating as I'm learning. So far I've learned that most of these configurations take (multiple) hours to fully kick in. Sometimes I wake up in the morning and things aren't how I left them. I'm still having fun._
+
+---
+
 This is part II to [Download Flickr photos in your Jekyll posts](/code/flickr-to-jekyll) and a rundown of how I setup a subdomain that points at an AWS S3 bucket to host my site's assets. And https, too!
 
 ## Create a bucket
