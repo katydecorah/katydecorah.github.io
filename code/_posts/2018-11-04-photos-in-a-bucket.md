@@ -22,15 +22,15 @@ I started by creating a bucket on [S3](https://s3.console.aws.amazon.com/s3/home
 
 ## Make it https
 
-Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/). In addition to the instructions, I did the following:
+Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/).
 
-1. Under **Viewer Protocol Policy** I selected `Redirect HTTP to HTTPS`.
-2. Point my subdomain at CloudFront.
-   - Once I created my CloudFront distribution, I copied the value of **Domain Name**.
-   - From my domain host, I created a CNAME record that points at that CloudFront domain name. For example:
-     - type: `CNAME`
-     - host name: `yo`
-     - target name: `1234abcd.cloudfront.net`
+In addition to the instructions, I pointed my subdomain at CloudFront:
+
+- Once I created my CloudFront distribution, I copied the value of **Domain Name**.
+- From my domain host, I created a CNAME record that points at that CloudFront domain name. For example:
+- type: `CNAME`
+- host name: `yo`
+- target name: `1234abcd.cloudfront.net`
 
 ## Secure assets to the domain
 
