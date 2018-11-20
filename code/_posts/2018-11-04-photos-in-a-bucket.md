@@ -8,11 +8,6 @@ tags:
   - Jekyll
 ---
 
----
-
-🙏 _I'm still ironing out the steps in this post and updating as I'm learning. So far I've learned that most of these configurations take (multiple) hours to fully kick in. Sometimes I wake up in the morning and things aren't how I left them. I'm still having fun._
-
----
 
 This is part II to [Download Flickr photos in your Jekyll posts](/code/flickr-to-jekyll) and a rundown of how I setup a subdomain that points at an AWS S3 bucket to host my site's assets. And https, too!
 
@@ -24,10 +19,9 @@ I started by creating a bucket on [S3](https://s3.console.aws.amazon.com/s3/home
 
 Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bucket](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/).
 
-In addition to the instructions, I pointed my subdomain at CloudFront:
+💡 When creating your SSL Certificate, under the **Add domain names** section, also add an `*` version of your domain. For example: `yo.katydecorah.com` and `*.katydecorah.com`.
 
-- Once I created my CloudFront distribution, I copied the value of **Domain Name**.
-- From my domain host, I created a CNAME record that points at that CloudFront domain name. For example:
+I also pointed my subdomain at CloudFront bu copying the value of **Domain Name** from my distribution. Then from my domain host, I created a CNAME record that points at that CloudFront domain name. For example:
 - type: `CNAME`
 - host name: `yo`
 - target name: `1234abcd.cloudfront.net`
