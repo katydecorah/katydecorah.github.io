@@ -49,6 +49,10 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+feed:
+  categories:
+    - code
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
