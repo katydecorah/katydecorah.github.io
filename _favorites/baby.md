@@ -33,6 +33,7 @@ title: 👶 Baby
 - [Short-Sleeve Shirts with Side Snaps](https://amzn.to/2PeJNFy)
 - [Long-Sleeve Shirts with Side-Snaps:](https://amzn.to/2Eb7spc)
 - [Footies pajamas](https://www.primary.com/shop/baby/top-10/the-zip-footie)
+- [Compression socks](https://amzn.to/2Bx6rEV)
 
 ## Nursing and eating
 
