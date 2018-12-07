@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 9]>      <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,22 +24,9 @@
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#fff">
 {% feed_meta %}
-{% if page.layout != 'offline' %}<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,400i,700|IBM+Plex+Serif" rel="stylesheet">{% endif %}
-{% if page.layout == 'offline' %}<link href="/css/offline.css" rel="stylesheet" type="text/css">{% else %}<link href="/css/style.css" rel="stylesheet" type="text/css">{% endif %}{% if page.css %}
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,400i,700|IBM+Plex+Serif" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet" type="text/css">{% if page.css %}
 <style>{{ page.css }}</style>{% endif %}
 {% if page.jquery %}<script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/{{site.jquery}}/jquery.min.js"></script>{% endif %}
-{% if page.layout != 'offline' %}<script async src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/{{site.modernizr}}/modernizr.min.js"></script>{% endif %}
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js')
-    .then(swReg => {
-      // console.log('Service Worker is registered', swReg);
-    })
-    .catch(err => {
-      // console.error('Service Worker Error', err);
-    });
-  });
-}
-</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/{{site.modernizr}}/modernizr.min.js"></script>
 </head>
