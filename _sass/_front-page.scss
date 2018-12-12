@@ -143,10 +143,10 @@
 
 .post-tags {
   display: none;
+  margin-top: 1em;
 
   @include breakpoint(medium) {
     display: inline-block;
-    margin-left: 0.5em;
   }
 
   .post-tag {
