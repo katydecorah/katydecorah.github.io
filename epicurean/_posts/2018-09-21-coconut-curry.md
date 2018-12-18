@@ -16,7 +16,7 @@ This has become one of our favorite Instant Pot recipes. It's especially perfect
 - 3 garlic cloves, pressed or minced
 - 2 inches ginger root, minced
 - 1 cup uncooked long grain brown rice or long-grain basmati
-- 2 sweet potatoes or butternut squash, peeled and sliced into ½-inch cubes
+- 2 sweet potatoes or butternut squash, peeled and sliced into 1-inch cubes
 - 2 teaspoons curry powder
 - 2 (14-ounce) cans vegetable or chicken broth
 - 1 (14-ounce) can full-fat coconut milk
