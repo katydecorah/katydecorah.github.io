@@ -4,6 +4,8 @@ title: "Food by nos"
 tags:
   - Sass
   - Haml
+  - Dribbble
+  - CodePen
 image: //yo.katydecorah.com/2013-12-23-food-by-nos-0.png
 dribbble: http://dribbble.com/shots/1355254-Food
 pen: Kyabd

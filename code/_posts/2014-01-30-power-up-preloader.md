@@ -3,6 +3,8 @@ title: Power Up Preloader by Mantas Ba&#269;iu&#353;ka
 
 tags:
   - Sass
+  - Dribbble
+  - CodePen
 pen: BfuGF
 image: //yo.katydecorah.com/2014-01-30-power-up-preloader-0.png
 browser: Chrome 32.0.1700.102

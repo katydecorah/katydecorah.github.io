@@ -3,6 +3,8 @@ title: Heroes Queue by Antonas Deduchovas
 
 tags:
   - Sass
+  - Dribbble
+  - CodePen
 image: http://codepen.io/katydecorah/pen/cJfhC/image/large.png
 pen: cJfhC
 dribbble: http://drbl.in/jzgO

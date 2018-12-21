@@ -5,6 +5,7 @@ tags:
   - Sass
   - jQuery
   - Haml
+  - CodePen
 pen: Chmws
 image: //yo.katydecorah.com/2013-08-07-forebruary-0.png
 ---

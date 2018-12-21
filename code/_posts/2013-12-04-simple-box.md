@@ -4,6 +4,7 @@ title: Simple box
 tags:
   - Sass
   - Haml
+  - CodePen
 image: http://codepen.io/katydecorah/pen/vrzmH/image/large.png
 pen: vrzmH
 ---

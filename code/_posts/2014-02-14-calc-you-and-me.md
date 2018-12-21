@@ -4,6 +4,7 @@ title: "calc(you + me)"
 tags:
   - animation
   - Sass
+  - CodePen
 image: //yo.katydecorah.com/2014-02-14-calc-you-and-me-0.png
 ---
 

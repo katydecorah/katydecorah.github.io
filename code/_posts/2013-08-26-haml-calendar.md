@@ -4,6 +4,8 @@ title: Haml calendar
 tags:
   - Haml
   - Sass
+  - Dribbble
+  - CodePen
 pen: aDAoG
 image: //yo.katydecorah.com/2013-08-26-haml-calendar-0.png
 project: true

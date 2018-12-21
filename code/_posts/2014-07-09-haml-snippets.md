@@ -6,6 +6,7 @@ elsewhere-site: CodePen Blog
 tags:
   - Haml
   - writing
+  - CodePen
 image: //yo.katydecorah.com/2014-07-09-haml-snippets-0.png
 ---
 

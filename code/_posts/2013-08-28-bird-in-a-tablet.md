@@ -4,6 +4,7 @@ title: Bird in a tablet
 tags:
   - Sass
   - Haml
+  - CodePen
 image: http://codepen.io/katydecorah/pen/DHCJg/image/small.png
 ---
 

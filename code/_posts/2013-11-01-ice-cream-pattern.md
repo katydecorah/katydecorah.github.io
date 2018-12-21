@@ -4,6 +4,8 @@ title: Ice Cream Pattern by Dorottya Porkolab
 tags:
   - Sass
   - Haml
+  - Dribbble
+  - CodePen
 pen: Bjoui
 image: http://codepen.io/katydecorah/pen/Bjoui/image/large.png
 dribbble: http://dribbble.com/shots/1294320-Ice-Cream-Pattern

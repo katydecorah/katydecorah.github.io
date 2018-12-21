@@ -1,6 +1,7 @@
 ---
 title: Two years ago on CodePen
-
+tags:
+  - CodePen
 image: //yo.katydecorah.com/2014-08-26-two-years-ago-0.png
 ---
 

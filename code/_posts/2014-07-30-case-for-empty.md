@@ -6,6 +6,7 @@ elsewhere-site: CodePen Blog
 tags:
   - CSS
   - writing
+  - CodePen
 image: //yo.katydecorah.com/2014-07-30-case-for-empty-0.png
 ---
 

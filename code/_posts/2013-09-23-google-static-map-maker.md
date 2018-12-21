@@ -5,6 +5,7 @@ tags:
   - API
   - AngularJS
   - Sass
+  - CodePen
 image: http://codepen.io/katydecorah/pen/Klieu/image/large.png
 project: true
 ---

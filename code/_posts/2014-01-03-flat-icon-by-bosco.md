@@ -4,6 +4,8 @@ title: Flat icon by _Bosco
 tags:
   - Haml
   - Sass
+  - Dribbble
+  - CodePen
 image: //yo.katydecorah.com/2014-01-03-flat-icon-by-bosco-0.png
 pen: ipEka
 ---

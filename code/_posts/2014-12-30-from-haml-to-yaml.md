@@ -4,6 +4,7 @@ title: From Haml to Yaml
 tags:
   - Jekyll
   - AngularJS
+  - CodePen
 image: //yo.katydecorah.com/2014-12-30-from-haml-to-yaml-0.png
 ---
 

@@ -4,6 +4,7 @@ title: CSS bicycle wheel
 tags:
   - Sass
   - Haml
+  - CodePen
 pen: lJjIH
 image: //yo.katydecorah.com/2013-08-01-bicycle-wheel-0.png
 ---

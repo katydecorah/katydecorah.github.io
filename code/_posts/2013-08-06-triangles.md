@@ -3,6 +3,8 @@ title: Triangles
 
 tags:
   - Sass
+  - Dribbble
+  - CodePen
 pen: hAive
 image: //yo.katydecorah.com/2013-08-06-triangles-0.png
 ---

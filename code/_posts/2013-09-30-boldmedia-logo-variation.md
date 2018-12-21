@@ -4,6 +4,8 @@ title: BoldMedia Logo Variation by Jeroen van Eerden
 tags:
   - Sass
   - Haml
+  - Dribbble
+  - CodePen
 image: http://codepen.io/katydecorah/pen/hjxHy/image/large.png
 ---
 

@@ -4,6 +4,7 @@ title: Holiday tree(s)
 tags:
   - Haml
   - Sass
+  - CodePen
 image: http://codepen.io/katydecorah/pen/xcDHf/image/large.png
 pen: xcDHf
 ---

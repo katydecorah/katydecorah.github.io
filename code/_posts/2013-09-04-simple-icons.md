@@ -4,6 +4,8 @@ title: Simple icons
 tags:
   - Haml
   - Sass
+  - Dribbble
+  - CodePen
 image: http://codepen.io/katydecorah/pen/KhfCn/image/small.png
 ---
 

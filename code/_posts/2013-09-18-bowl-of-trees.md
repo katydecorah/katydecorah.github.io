@@ -4,6 +4,8 @@ title: Bowl of trees
 tags:
   - Haml
   - Sass
+  - Dribbble
+  - CodePen
 image: http://codepen.io/katydecorah/pen/oEiCf/image/large.png
 ---
 

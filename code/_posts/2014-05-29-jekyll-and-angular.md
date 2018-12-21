@@ -4,6 +4,7 @@ title: Jekyll and AngularJS
 tags:
   - Jekyll
   - AngularJS
+  - CodePen
 pen: LqbjG
 image: //yo.katydecorah.com/2014-05-29-jekyll-and-angular-0.png
 ---

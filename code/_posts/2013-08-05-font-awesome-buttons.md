@@ -3,6 +3,8 @@ title: Font Awesome Buttons
 
 tags:
   - Sass
+  - Dribbble
+  - CodePen
 pen: Bjhdw
 image: //yo.katydecorah.com/2013-08-05-font-awesome-buttons-0.png
 

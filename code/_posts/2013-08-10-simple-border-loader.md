@@ -3,6 +3,7 @@ title: Simple border-width loader
 
 tags:
   - Sass
+  - CodePen
 image: http://codepen.io/katydecorah/pen/hdsLI/image/small.png
 ---
 

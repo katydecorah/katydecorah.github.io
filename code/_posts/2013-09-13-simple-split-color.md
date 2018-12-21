@@ -3,6 +3,7 @@ title: Simple split color
 
 tags:
   - Sass
+  - CodePen
 image: http://codepen.io/katydecorah/pen/ElaeD/image/large.png
 ---
 

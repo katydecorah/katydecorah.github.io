@@ -3,6 +3,7 @@ title: Snowflaker
 
 tags:
   - Sass
+  - CodePen
 image: http://i.imgur.com/yNv3nmo.gif
 codepen: zxBRKv
 ---

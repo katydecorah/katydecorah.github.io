@@ -4,6 +4,8 @@ title: Hallowiener by Bobby McKenna
 tags:
   - Sass
   - Haml
+  - Dribbble
+  - CodePen
 pen: qpoFv
 image: http://codepen.io/katydecorah/pen/qpoFv/image/large.png
 ---

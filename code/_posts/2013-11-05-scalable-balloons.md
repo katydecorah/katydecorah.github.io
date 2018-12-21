@@ -5,6 +5,8 @@ tags:
   - Sass
   - Haml
   - animation
+  - Dribbble
+  - CodePen
 image: http://codepen.io/katydecorah/pen/cdkHn/image/large.png
 pen: cdkHn
 ---

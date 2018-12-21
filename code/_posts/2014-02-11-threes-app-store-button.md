@@ -3,6 +3,7 @@ title: THREES App Store Button
 
 tags:
   - Sass
+  - CodePen
 image: //yo.katydecorah.com/2014-02-11-threes-app-store-button-0.png
 ---
 

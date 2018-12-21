@@ -4,6 +4,8 @@ title: Haml clock
 tags:
   - Haml
   - Sass
+  - Dribbble
+  - CodePen
 pen: xADtE
 image: //yo.katydecorah.com/2013-09-05-haml-clock-0.png
 ---

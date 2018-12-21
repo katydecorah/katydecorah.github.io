@@ -4,6 +4,7 @@ title: Accordion nav
 tags:
   - Haml
   - Sass
+  - CodePen
 image: http://codepen.io/katydecorah/pen/kEuwC/image/large.png
 ---
 

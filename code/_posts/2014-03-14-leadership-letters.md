@@ -5,6 +5,8 @@ tags:
   - Haml
   - Sass
   - animation
+  - Dribbble
+  - CodePen
 image: //yo.katydecorah.com/2014-03-14-leadership-letters-0.png
 pen: htBka
 dribbble: http://drbl.in/ktXg

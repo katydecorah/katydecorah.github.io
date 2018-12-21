@@ -4,6 +4,7 @@ title: Optical illusions
 tags:
   - Sass
   - Haml
+  - CodePen
 pen: gwAmk
 image: //yo.katydecorah.com/2013-08-19-optical-illusion-0.png
 ---

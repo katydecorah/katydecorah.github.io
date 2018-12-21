@@ -4,6 +4,8 @@ title: Navigation Bar by Jan Kaděra
 tags:
   - Sass
   - Haml
+  - Dribbble
+  - CodePen
 image: //yo.katydecorah.com/2013-10-10-navigation-bar-0.png
 ---
 

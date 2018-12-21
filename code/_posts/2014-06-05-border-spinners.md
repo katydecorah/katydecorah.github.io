@@ -4,6 +4,7 @@ title: Border spinners
 tags:
   - Sass
   - CSS
+  - CodePen
 image: http://i.imgur.com/axSxlAN.gif
 codepen: tbjqx
 ---
