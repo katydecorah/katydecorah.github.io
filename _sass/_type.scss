@@ -48,10 +48,6 @@ h1,
 
   font-size: $h1-size;
   margin-top: 0;
-
-  @include breakpoint(small) {
-    font-size: 2em;
-  }
 }
 
 h2 .h2,
