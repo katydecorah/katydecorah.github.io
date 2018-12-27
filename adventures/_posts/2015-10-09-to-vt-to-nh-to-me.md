@@ -1,7 +1,7 @@
 ---
 title: VT to NH to ME
 
-image: //yo.katydecorah.com/2015-10-09-to-vt-to-nh-to-me-0.jpg
+image: 2015-10-09-to-vt-to-nh-to-me-0.jpg
 coordinates:
   - -73.2968605,44.4926914
   - -72.8459604,44.6418721

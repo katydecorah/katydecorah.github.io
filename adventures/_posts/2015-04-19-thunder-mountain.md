@@ -1,7 +1,7 @@
 ---
 title: Thunder Mountain
 
-image: //yo.katydecorah.com/2015-04-19-thunder-mountain-0.jpg
+image: 2015-04-19-thunder-mountain-0.jpg
 recommended: true
 miles: 1.3
 locations:

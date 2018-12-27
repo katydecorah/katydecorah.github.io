@@ -1,7 +1,7 @@
 ---
 title: What I learned after working remotely for 2 years
 
-image: //yo.katydecorah.com/2016-06-08-two-years-remote-0.jpg
+image: 2016-06-08-two-years-remote-0.jpg
 ---
 
 I have entered my ~~terrible~~ terrific twos of working remotely. Working from yoga pants. Working from couch. Working from over the sink as I eat leftovers. The glamour. The rolling out of bed. The "I'm going to wake up early and walk, lol jk."

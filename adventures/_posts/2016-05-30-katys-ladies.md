@@ -1,7 +1,7 @@
 ---
 title: The farm
 
-image: //yo.katydecorah.com/2016-05-30-katys-ladies-0.jpg
+image: 2016-05-30-katys-ladies-0.jpg
 coordinates:
   - -78.1116075,38.6046132
 locations:

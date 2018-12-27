@@ -1,7 +1,7 @@
 ---
 title: Unconventional use cases for Jekyll
 
-image: //yo.katydecorah.com/2016-05-08-jekyllconf-0.jpg
+image: 2016-05-08-jekyllconf-0.jpg
 tags:
   - Jekyll
   - speaking

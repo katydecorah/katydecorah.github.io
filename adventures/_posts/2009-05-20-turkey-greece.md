@@ -10,7 +10,7 @@ locations:
   - Crete, Greece
   - Athens, Greece
   - Delphi, Greece
-image: //yo.katydecorah.com/2009-05-20-turkey-greece-0.jpg
+image: 2009-05-20-turkey-greece-0.jpg
 coordinates:
   - 29.0121795,41.0053215 #istanbul
   - 26.4270929,40.1305585 #Çanakkale

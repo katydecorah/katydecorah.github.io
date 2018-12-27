@@ -1,7 +1,7 @@
 ---
 title: WeatherBot gets alerts
 
-image: //yo.katydecorah.com/2017-03-05-weatherbot-gets-alerts-0.png
+image: 2017-03-05-weatherbot-gets-alerts-0.png
 tags:
   - Node.js
   - AWS

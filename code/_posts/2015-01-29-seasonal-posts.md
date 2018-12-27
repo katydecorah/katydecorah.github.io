@@ -3,7 +3,7 @@ title: Seasonal posts
 
 tags:
   - Jekyll
-image: //yo.katydecorah.com/2015-01-29-seasonal-posts-0.png
+image: 2015-01-29-seasonal-posts-0.png
 ---
 
 After flipping through past posts, I realized that my lush green static map didn't match wintery posts. For example, [Christmas day hike](/adventures/christmas-hike/). It's winter, nothing is green. Everything is white and then gray and then cold and then sometimes sad. So I needed a map style to match winter (minus the sad).

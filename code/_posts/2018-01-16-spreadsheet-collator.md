@@ -1,7 +1,7 @@
 ---
 title: Collate Google Form responses into Google Docs
 
-image: //yo.katydecorah.com/2018-01-16-spreadsheet-collator-0.png
+image: 2018-01-16-spreadsheet-collator-0.png
 tags:
   - Node.js
   - API

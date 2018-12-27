@@ -1,6 +1,6 @@
 ---
 title: Half Share
-image: //yo.katydecorah.com/2014-10-21-fox-creek-farm-0.jpg
+image: 2014-10-21-fox-creek-farm-0.jpg
 
 emoji: 🌽
 ---

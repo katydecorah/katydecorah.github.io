@@ -5,7 +5,7 @@ recommended: true
 map: static
 coordinates:
   - -74.0125265,42.6512778
-image: //yo.katydecorah.com/2013-09-05-thacher-park-in-the-morning-0.jpg
+image: 2013-09-05-thacher-park-in-the-morning-0.jpg
 image-small: //yo.katydecorah.com/2013-09-05-thacher-park-in-the-morning-1.jpg
 image-large: //yo.katydecorah.com/2013-09-05-thacher-park-in-the-morning-2.jpg
 locations:

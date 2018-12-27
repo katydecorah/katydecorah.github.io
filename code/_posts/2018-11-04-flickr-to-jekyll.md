@@ -2,7 +2,7 @@
 title: Download Flickr photos in your Jekyll posts
 category: code
 emoji: 🖼
-image: //yo.katydecorah.com/2018-11-04-flickr-to-jekyll-0.png
+image: 2018-11-04-flickr-to-jekyll-0.png
 tags:
   - API
   - Jekyll

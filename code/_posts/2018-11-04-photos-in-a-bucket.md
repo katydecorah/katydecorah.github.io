@@ -2,12 +2,11 @@
 title: Storing assets in an AWS bucket
 category: code
 emoji: ☁️
-image: //yo.katydecorah.com/2018-11-04-photos-in-a-bucket-0.png
+image: 2018-11-04-photos-in-a-bucket-0.png
 tags:
   - AWS
   - Jekyll
 ---
-
 
 This is part II to [Download Flickr photos in your Jekyll posts](/code/flickr-to-jekyll) and a rundown of how I setup a subdomain that points at an AWS S3 bucket to host my site's assets. And https, too!
 
@@ -22,6 +21,7 @@ Next, I followed these instructions to [serve HTTPS requests for my Amazon S3 bu
 💡 When creating your SSL Certificate, under the **Add domain names** section, also add an `*` version of your domain. For example: `yo.katydecorah.com` and `*.katydecorah.com`.
 
 I also pointed my subdomain at CloudFront bu copying the value of **Domain Name** from my distribution. Then from my domain host, I created a CNAME record that points at that CloudFront domain name. For example:
+
 - type: `CNAME`
 - host name: `yo`
 - target name: `1234abcd.cloudfront.net`

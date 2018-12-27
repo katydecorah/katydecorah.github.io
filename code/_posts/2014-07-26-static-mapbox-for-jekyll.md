@@ -8,7 +8,7 @@ locations:
 tags:
   - Jekyll
   - API
-image: //yo.katydecorah.com/2014-07-26-static-mapbox-for-jekyll-0.png
+image: 2014-07-26-static-mapbox-for-jekyll-0.png
 ---
 
 I've done [Static Google Maps Image for Jekyll Posts](/code/google-maps-images-api-for-jekyll/), [Mapbox for Jekyll Posts](/code/mapbox-for-jekyll-posts/), but it's time to settle down.

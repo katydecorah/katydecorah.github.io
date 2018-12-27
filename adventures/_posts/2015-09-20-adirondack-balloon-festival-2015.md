@@ -1,7 +1,7 @@
 ---
 title: Adirondack Balloon Festival 2015
 
-image: //yo.katydecorah.com/2015-09-20-adirondack-balloon-festival-2015-0.jpg
+image: 2015-09-20-adirondack-balloon-festival-2015-0.jpg
 locations:
   - Floyd Bennett Memorial Airport
 coordinates:

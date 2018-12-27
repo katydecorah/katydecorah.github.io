@@ -4,7 +4,7 @@ title: Static Google maps for Jekyll
 tags:
   - Jekyll
   - API
-image: //yo.katydecorah.com/2013-09-06-google-maps-images-api-for-jekyll-0.png
+image: 2013-09-06-google-maps-images-api-for-jekyll-0.png
 locations: "Albany,NY"
 project: true
 ---

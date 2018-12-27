@@ -7,7 +7,7 @@ tags:
   - animation
   - Dribbble
   - CodePen
-image: //yo.katydecorah.com/2014-01-15-escape-by-carla-corrales-0.jpg
+image: 2014-01-15-escape-by-carla-corrales-0.jpg
 dribbble: http://drbl.in/jMcZ
 ---
 

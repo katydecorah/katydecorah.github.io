@@ -1,6 +1,6 @@
 ---
 title: Cookie Monster Cupcakes
-image: //yo.katydecorah.com/2013-03-24-cookie-monster-cupcakes-0.jpg
+image: 2013-03-24-cookie-monster-cupcakes-0.jpg
 recipe: http://birdonacake.blogspot.com/2011/11/om-nom-nom-nom.html
 recipe-title: Cookie monster cupcake
 ---

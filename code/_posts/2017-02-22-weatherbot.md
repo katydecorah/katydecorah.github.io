@@ -1,7 +1,7 @@
 ---
 title: Building a WeatherBot
 
-image: //yo.katydecorah.com/2017-02-22-weatherbot-0.jpg
+image: 2017-02-22-weatherbot-0.jpg
 tags:
   - Node.js
   - AWS

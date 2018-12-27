@@ -1,7 +1,7 @@
 ---
 title: Rensselaerville
 
-image: //yo.katydecorah.com/2013-08-21-rensselaerville-0.jpg
+image: 2013-08-21-rensselaerville-0.jpg
 locations:
   - Rensselaerville,NY
 map: static

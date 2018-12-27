@@ -5,7 +5,7 @@ tags:
   - Haml
   - Sass
   - CodePen
-image: //yo.katydecorah.com/2014-03-07-slidey-background-0.jpg
+image: 2014-03-07-slidey-background-0.jpg
 pen: whobi
 ---
 

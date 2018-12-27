@@ -7,7 +7,7 @@ tags:
   - Haml
   - writing
   - CodePen
-image: //yo.katydecorah.com/2014-07-09-haml-snippets-0.png
+image: 2014-07-09-haml-snippets-0.png
 ---
 
 I love writing my pens in Haml, but I still have a hard time remembering the syntax. I created a post on my CodePen blog as a running reference guide of all the fun Haml snippets that I have used to date.

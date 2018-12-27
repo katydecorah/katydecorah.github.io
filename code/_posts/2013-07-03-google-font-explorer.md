@@ -5,7 +5,7 @@ tags:
   - API
   - CodePen
 pen: vetCA
-image: //yo.katydecorah.com/2013-07-03-google-font-explorer-0.png
+image: 2013-07-03-google-font-explorer-0.png
 project: true
 ---
 

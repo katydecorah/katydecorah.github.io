@@ -3,7 +3,7 @@ title: San Francisco
 
 locations:
   - San Francisco
-image: //yo.katydecorah.com/2014-12-15-san-francisco-0.jpg
+image: 2014-12-15-san-francisco-0.jpg
 coordinates:
   - -122.4160994,37.7785974
 ---

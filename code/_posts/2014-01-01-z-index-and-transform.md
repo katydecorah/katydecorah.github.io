@@ -6,7 +6,7 @@ tags:
   - Sass
   - Dribbble
   - CodePen
-image: //yo.katydecorah.com/2014-01-01-z-index-and-transform-0.png
+image: 2014-01-01-z-index-and-transform-0.png
 pen: lqBtz
 dribbble: http://drbl.in/jJIr
 ---

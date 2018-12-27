@@ -1,7 +1,7 @@
 ---
 title: Bozen Kill Preserve
 
-image: //yo.katydecorah.com/2016-01-03-bozen-kill-preserve-0.jpg
+image: 2016-01-03-bozen-kill-preserve-0.jpg
 coordinates:
   - -74.046213,42.7148751
 locations:

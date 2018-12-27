@@ -1,7 +1,7 @@
 ---
 title: Western Mass Adventures
 
-image: //yo.katydecorah.com/2013-06-02-western-mass-adventures-0.jpg
+image: 2013-06-02-western-mass-adventures-0.jpg
 locations:
   - North Adams,MA
   - Grafton,NY

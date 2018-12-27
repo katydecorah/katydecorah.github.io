@@ -1,7 +1,7 @@
 ---
 title: WeatherBot goes outside
 
-image: //yo.katydecorah.com/2017-03-01-weatherbot-goes-outside-0.jpg
+image: 2017-03-01-weatherbot-goes-outside-0.jpg
 tags:
   - Node.js
   - AWS

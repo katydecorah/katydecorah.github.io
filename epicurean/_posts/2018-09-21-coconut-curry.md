@@ -1,6 +1,6 @@
 ---
 title: Coconut curried kale, sweet potato, and chicken
-image: //yo.katydecorah.com/2018-09-21-coconut-curry-0.jpg
+image: 2018-09-21-coconut-curry-0.jpg
 emoji: 🍛
 ---
 

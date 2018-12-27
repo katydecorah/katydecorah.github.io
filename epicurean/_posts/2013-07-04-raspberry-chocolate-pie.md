@@ -1,6 +1,6 @@
 ---
 title: Raspberry Chocolate Pie
-image: //yo.katydecorah.com/2013-07-04-raspberry-chocolate-pie-0.jpg
+image: 2013-07-04-raspberry-chocolate-pie-0.jpg
 emoji: 🥧
 recipe: http://www.marthastewart.com/354896/raspberry-chocolate-pie
 recipe-title: Raspberry Chocolate Pie

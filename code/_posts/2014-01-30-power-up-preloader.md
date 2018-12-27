@@ -6,7 +6,7 @@ tags:
   - Dribbble
   - CodePen
 pen: BfuGF
-image: //yo.katydecorah.com/2014-01-30-power-up-preloader-0.png
+image: 2014-01-30-power-up-preloader-0.png
 browser: Chrome 32.0.1700.102
 ---
 

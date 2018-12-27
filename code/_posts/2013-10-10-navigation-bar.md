@@ -6,7 +6,7 @@ tags:
   - Haml
   - Dribbble
   - CodePen
-image: //yo.katydecorah.com/2013-10-10-navigation-bar-0.png
+image: 2013-10-10-navigation-bar-0.png
 ---
 
 <p data-height="500" data-theme-id="97" data-slug-hash="HEgwl" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/HEgwl'>Navigation Bar by Jan Kaděra</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

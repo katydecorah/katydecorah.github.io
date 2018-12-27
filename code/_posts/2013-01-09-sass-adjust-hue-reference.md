@@ -6,7 +6,7 @@ tags:
   - Haml
   - CodePen
 pen: FgmJI
-image: //yo.katydecorah.com/2013-01-09-sass-adjust-hue-reference-0.png
+image: 2013-01-09-sass-adjust-hue-reference-0.png
 project: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Candy Sushi
-image: //yo.katydecorah.com/2013-01-13-candy-sushi-0.jpg
+image: 2013-01-13-candy-sushi-0.jpg
 emoji: 🍣
 ---
 

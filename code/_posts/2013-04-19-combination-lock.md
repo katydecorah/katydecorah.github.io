@@ -7,7 +7,7 @@ tags:
   - Haml
   - CodePen
 pen: CLxkg
-image: //yo.katydecorah.com/2013-04-19-combination-lock-0.png
+image: 2013-04-19-combination-lock-0.png
 project: true
 ---
 

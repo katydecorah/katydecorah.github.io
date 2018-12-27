@@ -7,7 +7,7 @@ coordinates:
   - -73.7236504,43.2294791
 locations:
   - Moreau, NY
-image: //yo.katydecorah.com/2013-08-24-palmertown-mountain-range-0.jpg
+image: 2013-08-24-palmertown-mountain-range-0.jpg
 ---
 
 We woke up early and drove up to Moreau Lake State Park for a hike.

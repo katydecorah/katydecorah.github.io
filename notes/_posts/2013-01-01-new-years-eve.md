@@ -1,6 +1,6 @@
 ---
 title: New Years Eve Homemade Sushi
-image: //yo.katydecorah.com/2013-01-01-new-years-eve-0.jpg
+image: 2013-01-01-new-years-eve-0.jpg
 emoji: 🍣
 ---
 

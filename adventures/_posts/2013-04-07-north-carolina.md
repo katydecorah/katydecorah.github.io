@@ -14,7 +14,7 @@ locations:
 map: static
 coordinates:
   - -82.5531746,35.5922388
-image: //yo.katydecorah.com/2013-04-07-north-carolina-0.jpg
+image: 2013-04-07-north-carolina-0.jpg
 ---
 
 My sister moved to North Carolina a few years ago. Since then my folks and I make an annual trip down to visit.

@@ -1,6 +1,6 @@
 ---
 title: Homemade Vanilla Marshmallows
-image: //yo.katydecorah.com/2013-07-20-homemade-vanilla-marshmallows-0.jpg
+image: 2013-07-20-homemade-vanilla-marshmallows-0.jpg
 recipe: http://www.marthastewart.com/341856/vanilla-marshmallows
 recipe-title: Vanilla marshmallows
 ---

@@ -6,7 +6,7 @@ locations:
 map: static
 coordinates:
   - -73.1662799,42.6392075
-image: //yo.katydecorah.com/2013-09-28-mount-greylock-0.jpg
+image: 2013-09-28-mount-greylock-0.jpg
 ---
 
 We woke up early and drove out to Mount Greylock in Mass. It was a gorgeous morning!

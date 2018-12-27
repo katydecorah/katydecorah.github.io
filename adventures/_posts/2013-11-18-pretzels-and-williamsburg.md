@@ -6,7 +6,7 @@ coordinates:
   - -73.9531715,40.7115551
 locations:
   - "Williamsburg,NYC"
-image: //yo.katydecorah.com/2013-11-18-pretzels-and-williamsburg-0.jpg
+image: 2013-11-18-pretzels-and-williamsburg-0.jpg
 published: true
 ---
 

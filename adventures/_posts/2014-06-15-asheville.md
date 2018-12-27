@@ -8,7 +8,7 @@ zoom: 13
 locations:
   - Asheville, NC
 map: static
-image: //yo.katydecorah.com/2014-06-15-asheville-0.jpg
+image: 2014-06-15-asheville-0.jpg
 ---
 
 I spent the past week visiting my sister in Asheville. That place never gets old.

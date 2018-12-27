@@ -7,7 +7,7 @@ tags:
   - Haml
   - CodePen
 pen: cufzB
-image: //yo.katydecorah.com/2013-05-28-line-lengthicator-0.png
+image: 2013-05-28-line-lengthicator-0.png
 project: true
 ---
 

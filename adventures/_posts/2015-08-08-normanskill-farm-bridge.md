@@ -1,7 +1,7 @@
 ---
 title: Normanskill Farm Bridge
 
-image: //yo.katydecorah.com/2015-08-08-normanskill-farm-bridge-0.jpg
+image: 2015-08-08-normanskill-farm-bridge-0.jpg
 locations:
   - Normanskill
 coordinates:
