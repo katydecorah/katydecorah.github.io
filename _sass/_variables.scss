@@ -16,7 +16,7 @@ $dark-transparent02: rgba(0, 0, 0, 0.2);
 $link: #2980b9;
 
 $link-color: darken($link, 4%);
-$link-hover: $fancy-accent;
+$link-hover: darken($link, 15%);
 $link-transition: 0.1s;
 
 $body-font-size: 24px;

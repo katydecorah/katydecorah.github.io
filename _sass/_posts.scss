@@ -195,8 +195,7 @@
 
 .post-locations,
 .post-twitter {
-  font-size: $font-xs;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 
   .icon {
     margin-right: 0.5em;
@@ -256,11 +255,9 @@
 
   position: relative;
   transition: $link-transition;
-  width: 100%;
 
   @include breakpoint(medium) {
     min-height: 2em;
-    width: 50%;
   }
 
   &:hover {
@@ -281,7 +278,6 @@
 .post-prev-title,
 .post-next-title {
   display: block;
-  font-size: $font-xs;
 
   @include breakpoint(medium) {
     width: 100%;
@@ -289,11 +285,11 @@
 }
 
 .post-prev-title {
-  padding-left: 1em;
+  padding-left: 0.5em;
 }
 
 .post-next-title {
-  padding-right: 1em;
+  padding-right: 0.5em;
 }
 
 figure {

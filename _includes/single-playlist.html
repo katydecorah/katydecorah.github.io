@@ -1,8 +1,6 @@
 {% for playlist in site.data.playlists %}
 {% if page.title == playlist.playlist %}
-<p class="playlist-meta">
-{% if playlist.spotify %}{% include icons/music.svg %} <a href="{{ playlist.spotify }}" class="playlist-rdio">Listen on Spotify</a>{% endif %}
-</p>
+{% if playlist.spotify %}<p class="playlist-meta"><a href="{{ playlist.spotify }}" class="btn">Listen on Spotify</a></p>{% endif %}
 <div class="playlist">
 {% for tracks in playlist.tracks %}
 <div class="playlist-track">

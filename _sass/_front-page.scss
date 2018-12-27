@@ -149,8 +149,9 @@
   }
 
   @include breakpoint(medium) {
-    display: inline-block;
+    display: block;
     .front-page & {
+      display: inline-block;
       margin-left: 0.5em;
     }
   }
