@@ -83,7 +83,7 @@ We took a few strolls around Biltmore. We rewatched Richie Rich after finding ou
 
 </div>
 
-I am no longer terrified of my sister's cat (RE: [last year's trip](/adventures/2013/04/07/north-carolina/)).
+I am no longer terrified of my sister's cat (RE: [last year's trip](/adventures/north-carolina/)).
 
 <div class="photos">
 

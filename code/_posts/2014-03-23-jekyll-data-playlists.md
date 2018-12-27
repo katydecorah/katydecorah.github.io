@@ -17,7 +17,7 @@ Next, I migrated the database to PHPmyadmin. Using PHP I spun out each playlist 
 
 ## Importing to Rdio
 
-After some more hacking, I was able to import the playlists into Rdio using [re/spin](http://resp.in/). Re/spin easily imports any Last.fm or Spotify playlist into Rdio. The service also accept [XSPF](http://www.xspf.org/). I was able to save each playlist as an XSPF and import it into Rdio.
+After some more hacking, I was able to import the playlists into Rdio using re/spin. Re/spin easily imports any Last.fm or Spotify playlist into Rdio. The service also accept [XSPF](http://www.xspf.org/). I was able to save each playlist as an XSPF and import it into Rdio.
 
 Not all songs transferred over, but enough did to make it worth it. Re/spin will want to find something if Rdio doesn't have a match, so beware of some funky replacements. Otherwise, re/spin is a fabulous service.
 

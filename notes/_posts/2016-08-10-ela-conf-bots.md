@@ -53,8 +53,8 @@ It's also going to be fun watching @elaconfbot's contribution graph:
 
 {% include img.html class='img-half' src='2016-08-10-ela-conf-bots-8.png' alt='contributions' %}
 
-Can you tell when we opened our [call for proposals](http://elaconf.com/proposals/)?
+Can you tell when we opened our call for proposals?
 
 My next challenge will be building an anonymous feedback system for our speakers. I have a suspicion that it will involve some type of form, GitHub, and then some type of delivery service. I cannot wait to get started!
 
-If you enjoyed this post, love bots, awesome systems, and advancing women in tech, please consider [becoming an Ela Conf sponsor](http://elaconf.com/sponsor/)!
+If you enjoyed this post, love bots, awesome systems, and advancing women in tech, please consider becoming an Ela Conf sponsor!

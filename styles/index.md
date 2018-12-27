@@ -45,34 +45,34 @@ height: 80px;
 `.img-fourths`
 
 <div class="photos">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-fourths">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-fourths">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-fourths">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-fourths">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-fourths">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-fourths">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-fourths">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-fourths">
 </div>
 
 `img-thirds`
 
 <div class="photos">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-thirds">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-thirds">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-thirds">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-thirds">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-thirds">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-thirds">
 </div>
 
 `.img-half`
 
 <div class="photos">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-half">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-half">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-half">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-half">
 </div>
 
 `.img-wide`, `.img-tall`
 
 <div class="photos">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany" class="img-wide">
-<img src="//yo.katydecorah.com/cali.jpg" class="img-tall" alt="Untitled">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany" class="img-wide">
+<img src="{{site.assets}}cali.jpg" class="img-tall" alt="Untitled">
 </div>
 
 <div class="photos">
-<img src="//yo.katydecorah.com/ducks.jpg" alt="Washington Park, Albany">
+<img src="{{site.assets}}ducks.jpg" alt="Washington Park, Albany">
 </div>

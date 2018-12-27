@@ -75,8 +75,6 @@ Check out the [raw Jekyll GeoJSON](https://github.com/katydecorah/katydecorah.gi
 
 ## Adventure map
 
-The [map lives here](/map), but hey, I'll save you a trip:
-
 <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
 
@@ -109,7 +107,7 @@ closeButton: false
 });
 </script>
 
-I [built the map](https://github.com/katydecorah/katydecorah.github.io/blob/master/map/index.html) with [Mapbox.js](https://www.mapbox.com/mapbox.js/api/). I sourced the functionality of my map from Mapbox.js examples. I used:
+I built the map with [Mapbox.js](https://www.mapbox.com/mapbox.js/api/). I sourced the functionality of my map from Mapbox.js examples. I used:
 
 - [Load GeoJSON from a URL](https://www.mapbox.com/mapbox.js/example/v1.0.0/geojson-marker-from-url/)
 - [Custom toolips](https://www.mapbox.com/mapbox.js/example/v1.0.0/custom-popup/)

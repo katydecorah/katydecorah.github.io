@@ -9,7 +9,7 @@ locations:
   - North Adams, MA
 ---
 
-Yesterday morning we work up early and drove out to North Adams to explore [Cascade Falls once again](/adventures/2013/06/02/this-weekend/).
+Yesterday morning we work up early and drove out to North Adams to explore [Cascade Falls once again](/adventures/western-mass-adventures/).
 
 On the drive there we saw a family of black bears crossing the road. I got a quick snap of one of the babies.
 
