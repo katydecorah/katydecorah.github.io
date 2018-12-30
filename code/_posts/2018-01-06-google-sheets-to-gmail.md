@@ -11,7 +11,7 @@ emoji: 📨
 
 For this past [Ela Conf](//elaconf.com), we had a record number of proposals submitted, which also (unfortunately) meant a record number of rejection emails to be sent. In the past, we sent these individually, but the sheer volume was going to take hours. We didn't want to send a mass email because it was important to us to address the proposal submitter by their name and reference their submitted talk title(s).
 
-I found [a tutorial](https://developers.google.com/apps-script/articles/sending_emails) (which is curiously incorrectly titled) that can send emails from a Google spreadsheet and it worked very well for us.
+I found [a tutorial](https://developers.google.com/apps-script/articles/sending_emails) that can send emails from a Google spreadsheet and it worked very well for us.
 
 I repurposed this script once again at Mapbox as part of our Gender Minority Employee Resource Group's mentorship program. We matched 64 pairs and we used this script to send an email to introduce the mentor and mentee. This time I updated the script to draft emails so that we could check each email before we sent it out.
 
