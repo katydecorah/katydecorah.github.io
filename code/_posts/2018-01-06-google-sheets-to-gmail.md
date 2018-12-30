@@ -67,11 +67,9 @@ The first time you run the script you'll need to grant permission for it to read
 1. Click the play icon or click `Run > Run function > draftMyEmails` from the toolbar.
 2. A window should appear. Click "Review Permissions."
 3. Select the account you want to authenticate.
-
-- You may get a warning since this isn't an official script.
-- Review the code to get an idea of how it works and how it will interact with your account.
-- Once you feel comfortable, from the warning screen, click "Advanced" then "Go to Draft emails (unsafe)" (or whatever you named your script). This will get you through to the next screen.
-
+   - You may get a warning since this isn't an official script.
+   - Review the code to get an idea of how it works and how it will interact with your account.
+   - Once you feel comfortable, from the warning screen, click "Advanced" then "Go to Draft emails (unsafe)" (or whatever you named your script). This will get you through to the next screen.
 4. Click "Allow" to grant the script access to the stated parts of your account.
 
 ## Run the script
