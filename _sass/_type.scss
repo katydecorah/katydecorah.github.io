@@ -50,7 +50,17 @@ h1,
   margin-top: 0;
 }
 
-h2 .h2,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  font-weight: 700;
+}
+
+h2,
+.h2,
 h3,
 .h3 {
   @extend %headings-type;
@@ -69,7 +79,6 @@ h3,
 h4,
 .h4 {
   font-size: $h4-size;
-  font-weight: normal;
 }
 
 .xl {
