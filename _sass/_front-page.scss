@@ -115,7 +115,6 @@
   .category {
     @extend %btn;
 
-    background: rgba($white, 33%);
     margin-bottom: 0.5em;
 
     @include breakpoint(medium) {
