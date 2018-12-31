@@ -129,6 +129,7 @@
     &.active,
     &:hover {
       background: $white;
+      color: $link-hover;
       text-decoration: none;
     }
   }
