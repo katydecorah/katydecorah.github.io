@@ -24,7 +24,7 @@ coordinates:
 
 At Siena, I took a business and ancient Greece course. At the end of the semester we visited Turkey and Greece.
 
-(After I took this trip, I didn't organize these photos very well. So some of these are guesses.)
+(After I took this trip, I didn't organize these photos well. So some of these are guesses.)
 
 Delphi is :heart_eyes_cat:.
 

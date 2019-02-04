@@ -11,7 +11,7 @@ miles: 1.3
 image: 2014-01-12-dean-farm-heritage-trail-0.jpg
 ---
 
-Today my folks and I explored the <a href="http://www.adirondackjournal.com/news/2013/jul/01/work-continues-dean-farm-trail-stony-creek/" data-proofer-ignore>Dean Farm Heritage Trail</a> in Stony Creek. The trail was fairly easy to navigate as it was marked with wooden poles. We were impressed by all of the beautiful bridges, benches, and overlook points.
+Today my folks and I explored the <a href="http://www.adirondackjournal.com/news/2013/jul/01/work-continues-dean-farm-trail-stony-creek/" data-proofer-ignore>Dean Farm Heritage Trail</a> in Stony Creek. The trail was fairly easy to navigate as it was marked with wooden poles. We were impressed by all the beautiful bridges, benches, and overlook points.
 
 <div class="photos">
 

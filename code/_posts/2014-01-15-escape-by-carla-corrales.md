@@ -56,9 +56,9 @@ One last thing, did you give it a hover yet? Scroll back up there and do it. Yes
 
 ### Updated 01/18/2014
 
-I wanted to give this Pen a little more pizazz by making the dial spin immediately and then spin again on hover. To make this happen, I needed to trade in my `transition` for `animation`, but more importantly, I needed to learn more about `animation-play-state`. I had never thought to use this property until I read Lea Verou's, [Smooth state animations with animation-play-state](http://lea.verou.me/2014/01/smooth-state-animations-with-animation-play-state/).
+I wanted to give this Pen a little more pizazz by making the dial spin and then spin again on hover. To make this happen, I needed to trade in my `transition` for `animation`, but more importantly, I needed to learn more about `animation-play-state`. I had never thought to use this property until I read Lea Verou's, [Smooth state animations with animation-play-state](http://lea.verou.me/2014/01/smooth-state-animations-with-animation-play-state/).
 
-Starting out, I added the `animation` to `.marker:after` and I added `animation-play-state` to `.marker:hover:after`. I wanted the animation to play and then play again on `:hover`. After trying out all of the values and combinations of values, I finally began to understand this property. I like to think about `animation-play-state` like watching a movie and the remote is my `:hover` target.
+Starting out, I added the `animation` to `.marker:after` and I added `animation-play-state` to `.marker:hover:after`. I wanted the animation to play and then play again on `:hover`. After trying out all the values and combinations of values, I finally began to understand this property. I like to think about `animation-play-state` like watching a movie and the remote is my `:hover` target.
 
 <h4>{% include icons/play.svg %} <code>animation-play-state: running;</code></h4>
 
@@ -74,7 +74,7 @@ If I'm watching a movie and I press pause, the movie will pause. I'm guessing th
 
 <h4>{% include icons/pause.svg %} {% include icons/play.svg %} <code>animation-play-state: paused, running;</code></h4>
 
-A little confused with my previous tries, I checked out [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state). I read that both values can be used, which led me to try `paused, running`. This value worked great! The dial spun on `:hover`.
+A little confused with my earlier tries, I checked out [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state). I read that both values can be used, which led me to try `paused, running`. This value worked great! The dial spun on `:hover`.
 
 I was watching a movie, I paused it and then played it again.
 

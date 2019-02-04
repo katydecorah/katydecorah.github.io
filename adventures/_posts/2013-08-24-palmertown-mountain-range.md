@@ -14,7 +14,7 @@ We woke up early and drove up to Moreau Lake State Park for a hike.
 
 {% include img.html alt="Moreau Lake State Park Map" src="2013-08-24-palmertown-mountain-range-1.png" %}
 
-We parked on Spier Falls road, at the bottom of the map just before where the Hudson River curls. We took the Western Ridge (WR) trail, or yellow trail for a majority of the hike. This trail has several scenic overlooks as indicated by stars on the map.
+We parked on Spier Falls road, at the bottom of the map just before where the Hudson River curls. We took the Western Ridge (WR) trail, or yellow trail for a majority of the hike. This trail has several scenic overlooks as marked by stars on the map.
 
 <div class="photos">
 

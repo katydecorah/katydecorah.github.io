@@ -11,7 +11,7 @@ emoji: 📨
 
 For this past [Ela Conf](//elaconf.com), we had a record number of proposals submitted, which also (unfortunately) meant a record number of rejection emails to be sent. In the past, we sent these individually, but the sheer volume was going to take hours. We didn't want to send a mass email because it was important to us to address the proposal submitter by their name and reference their submitted talk title(s).
 
-I found [a tutorial](https://developers.google.com/apps-script/articles/sending_emails) that can send emails from a Google spreadsheet and it worked very well for us.
+I found [a tutorial](https://developers.google.com/apps-script/articles/sending_emails) that can send emails from a Google spreadsheet and it worked well for us.
 
 I repurposed this script once again at Mapbox as part of our Gender Minority Employee Resource Group's mentorship program. We matched 64 pairs and we used this script to send an email to introduce the mentor and mentee. This time I updated the script to draft emails so that we could check each email before we sent it out.
 
@@ -25,9 +25,9 @@ Here's how you can use it.
 
 ## Set up your spreadsheet
 
-At a minimum, you'll need a row to hold the email addresses. From there, you'll want to store data in separate rows, for example, a row for the person's name and other specific information that you'd like to pop into a template. This script also assumes that your first row of data contains titles for each column.
+At the least, you'll need a row to hold the email addresses. From there, you'll want to store data in separate rows, for example, a row for the person's name and other specific information that you'd like to pop into a template. This script also assumes that your first row of data has titles for each column.
 
-Add one last column to your spreadsheet called "Email status" or similar. You'll use this column in the script to indicate if an email has already been drafted or sent to keep the script from creating duplicates.
+Add one last column to your spreadsheet called "Email status" or similar. You'll use this column in the script to state if an email has already been drafted or sent to keep the script from creating duplicates.
 
 For this example, I've created a fake business that matches you with a vegetable. New year, new me.
 

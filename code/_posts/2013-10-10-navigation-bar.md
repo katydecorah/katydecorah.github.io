@@ -13,7 +13,7 @@ image: 2013-10-10-navigation-bar-0.png
 
 Another Dribbble shot for the books. This time it's [Navigation Bar by Jan Kaděra](http://dribbble.com/shots/1267103-Navigation-Bar). I did my own interpreting for the hover. So please, give that nav a hover!
 
-The navigation is typical list, where I primarily styled the anchor tags. I used pseudo elements to create edges for each button, which made it a snap on styling the hover. However getting the edges of the buttons just right was a task. I can still see that's not exactly right, but I decided to walk away for now. I'll save that for a rainy day.
+The navigation is typical list, where I primarily styled the anchor tags. I used pseudo elements to create edges for each button, which made it a snap on styling the hover. But getting the edges of the buttons just right was a task. I can still see that's not exactly right, but I decided to walk away for now. I'll save that for a rainy day.
 
 This Pen made me realize how much I enjoy writing Haml; so much that I'm thinking about changing my default HTML setting to it on CodePen.
 

@@ -13,7 +13,7 @@ tags:
 
 {% include img.html src="2014-10-31-how-i-write-0.gif" alt="hey dummy" %}
 
-To reassure the reader, you might want to say, "It's easy!". Unfortunately, that can backfire. If your reader doesn't agree, then s/he will probably bail. I like to assume that everything is hard (because it is).
+To reassure the reader, you might want to say, "It's easy!". Unfortunately, that can backfire. If your reader doesn't agree, then s/he will probably bail. I like to assume that everything is hard.
 
 I recommend checking out Chris Coyier's [Words To Avoid in Educational Writing](http://css-tricks.com/words-avoid-educational-writing/) and Brad Frost's [Just](https://the-pastry-box-project.net/brad-frost/2014-january-28).
 

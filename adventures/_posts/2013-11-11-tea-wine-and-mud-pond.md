@@ -45,9 +45,9 @@ Mom got this great shot of me just as I was giggling, "My hand went in his mouth
 
 ## Nassau Mud Pond Preserve
 
-On Monday, my boyfriend and I drove out to Nassau to explore the new Mud Pond Preserve. It was a 1.2 mile round trip through the woods, ending at an overlook of Mud Pond. We were in and out in under 40 minutes.
+On Monday, my boyfriend and I drove out to Nassau to explore the new Mud Pond Preserve. It was an 1.2 mile round trip through the woods, ending at an overlook of Mud Pond. We were in and out in under 40 minutes.
 
-The view of the pond wasn't very clear, but the trail was decent. The trailhead was well marked and included a large parking area. The trail is located at 591 Central Nassau Road next door to the town dump.
+The view of the pond wasn't clear, but the trail was decent. The trailhead was well marked and included a large parking area. The trail is located at 591 Central Nassau Road next door to the town dump.
 
 <div class="photos">
 

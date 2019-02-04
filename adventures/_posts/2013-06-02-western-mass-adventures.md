@@ -25,7 +25,7 @@ The waterfall was set in two large embankments, which were not to be easily clim
 {% include img.html src="2013-06-02-western-mass-adventures-3.jpg" class="img-half" alt="Waterfall" %}
 </div>
 
-We left to find the train tunnel. Ate lunch at a Greek pizza shop in town and enjoyed whoopee pies at a local cafe.
+We left to find the train tunnel. Ate lunch at a Greek pizza shop in town and enjoyed whoopee pies at a local café.
 
 <div class="photos">
 

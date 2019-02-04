@@ -81,7 +81,7 @@ For this site I wanted my categories to be color coded, but I didn't want to put
 
 ## The Set-up
 
-Where I want a category to be color coded, I used the class of 'label.' While not immediately semantic, it could allow for flexibility in the future. I'm also a Bootstrap fan, so it was a go-to move. This class is intended to be used on inline elements such as spans or anchor tags.
+Where I want a category to be color coded, I used the class of 'label.' While not semantic, it could allow for flexibility in the future. I'm also a Bootstrap fan, so it was a go-to move. This class is intended to be used on inline elements such as spans or anchor tags.
 
 Sample: <span class="label">label</span>
 
@@ -95,7 +95,7 @@ Next I created a Sass list to define each category.
 
 <script src="https://gist.github.com/katydecorah/6748660.js">&nbsp;</script>
 
-For each category I created its own supplemental class. Each class incrementally changes the background-color of the original color `$blue`. Based on how many categories I have I chose 35 to be my increment. This may need to be adjusted if you have more or less items and depending on how close of a color spectrum you desire.
+For each category I created its own supplemental class. Each class incrementally changes the background-color of the original color `$blue`. Based on how many categories I have I chose 35 to be my increment. This may need to be adjusted if you have more or less items and depending on how close of a color spectrum you want.
 
 <script src="https://gist.github.com/katydecorah/6748663.js">&nbsp;</script>
 

@@ -17,7 +17,7 @@ So I did:
 
 {% include img.html src='2018-05-11-weather-status-0.png' alt="screenshot of Slack where the user's status is a sun emoji with the forecast: Clear for the hour. 59℉" class='img-half' %}
 
-The emoji provides an idea as to what's going on outside our window and then we can hover to get full details. I've set it up so that if the _feels like_ temperature differs from the actual temperature, it'll also let us know in the status.
+The emoji offers an idea about what's going on outside our window and then we can hover to get full details. I've set it up so that if the _feels like_ temperature differs from the actual temperature, it'll also let us know in the status.
 
 It's fun.
 

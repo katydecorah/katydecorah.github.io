@@ -47,13 +47,13 @@ For each photo, I created these versions based on the max-width of my site:
 - 1000px wide
 - 1000px wide in webp
 
-For the time being, I'm using [Panic's Transmit](https://panic.com/transmit/) to sync my photos to my bucket. I'm currently working on a build script that will resize images and upload it to S3 for me (stay tuned 📺).
+<!--editor ignore Transmit-->For the time being, I'm using [Panic's Transmit](https://panic.com/transmit/) to sync my photos to my bucket. I'm now working on a build script that will resize images and upload it to S3 for me (stay tuned 📺).
 
 ## Replace `img` with `picture`
 
 As a last step, I replaced all instances of the `img` element with `picture` so I could use `srcset`.
 
-To implement, I decided to create an include called `img.html`. I used my code editor's regex find and replace to swap out the `img` element for the new include in all my posts:
+To put in place, I decided to create an include called `img.html`. I used my code editor's regex find and replace to swap out the `img` element for the new include in all my posts:
 
 - Find: `<img([\w\W]+?)>`
 - Replace: {% raw %}`{% include img.html $1 %}`{% endraw %}
@@ -65,10 +65,10 @@ For markdown images:
 
 Both regex searches keep all attributes intact, which means that I'm passing the original image's `src`, `alt`, `class` attributes as variables to the include.
 
-The include contains logic and the `picture` element. The include determines which size photo to display based on the classes that are passed through to the include. When I'm developing locally, my site will use my AWS bucket's URL that my IP address can access (set by permissions when I created my bucket earlier).
+The include has logic and the `picture` element. The include determines which size photo to display based on the classes that are passed through to the include. When I'm developing locally, my site will use my AWS bucket's URL that my IP address can access (set by permissions when I created my bucket earlier).
 
 You can [check out the include on GitHub](https://github.com/katydecorah/katydecorah.github.io/blob/d1b1cf784915115985ea88f99f32941213a63015/_includes/img.html).
 
 ## We'll see
 
-I'm not sure how this new journey of hosting my assets on AWS will go, how my include will change, or the future of my photo sizes. Nevertheless, it was really fun figuring out all the pieces.
+I'm not sure how this new journey of hosting my assets on AWS will go, how my include will change, or the future of my photo sizes. Still, it was really fun figuring out all the pieces.

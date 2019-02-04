@@ -19,7 +19,7 @@ image: 2013-04-07-north-carolina-0.jpg
 
 My sister moved to North Carolina a few years ago. Since then my folks and I make an annual trip down to visit.
 
-This week is ceremoniously dedicated to eating a lot of food in between mom geocaching and then my sister and I binging on a tv series on Netflix. This year it was Bones.
+This week is ceremoniously dedicated to eating a lot of food between mom geocaching and then my sister and I binging on a tv series on Netflix. This year it was Bones.
 
 ## Snowflake
 

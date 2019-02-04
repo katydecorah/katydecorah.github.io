@@ -14,7 +14,7 @@ Yesterday we visited the [Pine Hollow Arboretum](http://www.pinehollowarboretum.
 
 At the Visitor Center we were given a map and a self-guided tour pamphlet. We also received a quick little tutorial on how to read the map and general access to the grounds. Then we were off into this magical, beautiful place, with the hum of the highways in the background.
 
-This might be the best place to satisfy the urge to (safely) get lost in the woods. It's so delightful. Filled with paths, ponds, and interesting trees. We were there for about an hour and only covered about half of the grounds.
+This might be the best place to meet the urge to (safely) get lost in the woods. It's so delightful. Filled with paths, ponds, and interesting trees. We were there for about an hour and only covered about half of the grounds.
 
 <div class="photos">
 

@@ -76,6 +76,6 @@ And then open up a doc to see your collated data:
 
 This script is great for sorting comments and with a little editing it can process other types of data.
 
-Try [editing this section](https://github.com/katydecorah/spreadsheet-collator/blob/59e312affe5ac32eabf47a879cc7f1cdcea3bbc4/index.js#L87-L96) to change the output the your docs. For example, you can add additional text or calculate and then display the average for a quantitative question.
+Try [editing this section](https://github.com/katydecorah/spreadsheet-collator/blob/59e312affe5ac32eabf47a879cc7f1cdcea3bbc4/index.js#L87-L96) to change the output the your docs. For example, you can add text or calculate and then display the average for a quantitative question.
 
 Happy collating!

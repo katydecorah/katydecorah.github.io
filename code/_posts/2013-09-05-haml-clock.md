@@ -16,7 +16,7 @@ After creating the [Haml calendar]({{site.url}}/code/haml-calendar), I decided t
 
 How it works:
 
-1. Haml provides the initial time.
+1. <!--editor ignore initial-->Haml provides the initial time.
 2. Internal Sass rotates the hands of the clock to portray that time.
 3. CSS animation keeps the hands ticking.
 
@@ -24,7 +24,7 @@ Initially I only used an inline style to set the rotation of each hand. I wanted
 
 ## Features
 
-I spent some extra time figuring out how to support different timezones. The clock is currently set at UTC-4 (EST). You can easily change the timezone in the Haml, it's the very first variable.
+I spent some extra time figuring out how to support different timezones. The clock is set at UTC-4 (EST). You can easily change the timezone in the Haml, it's the first variable.
 
 The CSS is all em-based and happily responsive. When the width/height is too small, then the digital time displays.
 

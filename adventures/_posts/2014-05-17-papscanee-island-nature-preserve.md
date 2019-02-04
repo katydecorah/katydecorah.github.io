@@ -12,7 +12,7 @@ image: 2014-05-17-papscanee-island-nature-preserve-0.jpg
 
 This morning we went to the Papscanee Island Nature Preserve in Rensselaer. We started at the north entrance of the preserve, giving us a driving tour of the Port of Rensselaer's oil yard. We didn't think we were in the right place, until we noticed a trail head at the end of a dead end road.
 
-Right away were were greeted by a giant puddle. We almost turned back, but we shimmied behind the kiosk and stayed dry.
+Right away were greeted by a giant puddle. We almost turned back, but we shimmied behind the kiosk and stayed dry.
 
 <div class="photos">
 

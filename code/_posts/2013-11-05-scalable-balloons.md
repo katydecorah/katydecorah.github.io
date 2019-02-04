@@ -24,12 +24,12 @@ After I styled the first balloon, I absolutely positioned the balloon from the b
 I added more `.balloon` elements and wrote a Sass loop to give each balloon slight customizations. For example, I adjusted the hue of each balloon based on a predetermined color. I also used rgba to give a nice transparent look to the balloons whenever they collide.
 
 {% highlight css %}
-background: rgba(adjust-hue($balloonColorStart,random(360)),0.5);
+background: rgba(adjust-hue(\$balloonColorStart,random(360)),0.5);
 {% endhighlight %}
 
 Here `$balloonColorStart` is defined at the top of my Sass file, to be easily changed.
 
-In the Sass loop for the balloons, I created a variable called `$stringHeight` and set it to a random number up to 20em. I used `$stringHeight` for the height of the `:after` (which represents the string) and for the bottom value for each balloon element in the loop. Just like I had done before with my first balloon, but now dynamic.
+In the Sass loop for the balloons, I created a variable called `$stringHeight` and set it to a random number up to 20em. I used `$stringHeight` for the height of the `:after` (which is the string) and for the bottom value for each balloon element in the loop. Just like I had done before with my first balloon, but now dynamic.
 
 I also created a variable, `$balloonLeft`, to increment itself after every iteration of the loop to be applied as the left value. This made sure the balloons remained evenly spaced out.
 
@@ -45,7 +45,7 @@ Next, I adjusted my `:before`, or the rubber tie part of the balloon, to be in p
 width: $balloonWidth / 8;
 height: $balloonWidth / 14;
 bottom: ($balloonWidth / 14) \* -0.75;
-left: ($balloonWidth / 2) - ($balloonWidth / 14);
+left: ($balloonWidth / 2) - (\$balloonWidth / 14);
 {% endhighlight %}
 
 I went back and forth between setting the `$balloonWidth` from a low number and then to a high number and decided that those equations suited my rubber tie part of the balloon best.

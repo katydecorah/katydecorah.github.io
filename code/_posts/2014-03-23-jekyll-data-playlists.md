@@ -61,7 +61,7 @@ My new workflow for adding a playlist to my site at the end of the season:
 
 I found [this great bookmarklet](https://gist.github.com/nloko/3001053) that scrapes the title, artist, and album from a given Rdio playlist. I've had little experience with bookmarklets, but I hacked away at it. My version outputs the playlist into YAML. It also grabs the playlist title, image, and link to the playlist on Rdio.
 
-At this time, I need to make sure that the entire playlist is loaded and that I open the "Share" modal, otherwise the bookmarklet won't find those values. I'll make the bookmarklet sweet on a rainy day, but for now it works despite the conditions.
+Now, I need to make sure that the entire playlist is loaded and that I open the "Share" modal, otherwise the bookmarklet won't find those values. I'll make the bookmarklet sweet on a rainy day, but for now it works despite the conditions.
 
 ![Rdio playlist bookmarklet in action](http://i.imgur.com/4YDPRZl.gif)
 

@@ -19,7 +19,7 @@ For this pen, I made each ice cream a single element. I used `border-top` for th
 
 I rotated the ice cream bars using the nth-child selector, but more specifically calling out odd and even. The odd and even ice creams have similar styling, but the odd is a reflection of the even. To acheive this, I only really had to swap around and lighten the shadows and on the odd ice creams. The trickiest part was adding just the right amount of margin to make the pattern look evenly spaced out.
 
-I applied a width to the body to ensure that the pattern will stay inline. Then I hid the overflow to keep the pattern tight against the browser.
+I applied a width to the body to make sure that the pattern will stay inline. Then I hid the overflow to keep the pattern tight against the browser.
 
 And then I made an animation on hover because it's Friday.
 

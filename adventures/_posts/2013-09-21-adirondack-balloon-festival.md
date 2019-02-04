@@ -34,7 +34,7 @@ Once the sun came up, the wind picked up. Crews unfolded balloons and brought th
 
 We got back into Glens Falls around 9 am and stopped for breakfast at The Peppermill. After mom and I rested a bit, we decided to take advantage of what was left of the now sunny Saturday.
 
-We drove out to the Coldbrook Preserve in Wilton. The preserve has a few very pleasant trails through forest and marsh. I would definitely go back.
+We drove out to the Coldbrook Preserve in Wilton. The preserve has a few pleasant trails through forest and marsh. I would definitely go back.
 
 <div class="photos">
 

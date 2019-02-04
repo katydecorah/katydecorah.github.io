@@ -10,9 +10,9 @@ Today at work I needed to move and rename a ton of files, but I also needed to m
 
 It took me a while to figure this all out, so I figured I'd share.
 
-In the root, I had nearly 1000 files with the following naming schema: `L1T1-page01.cfm` (standing for lesson 1, topic 1, page 1). All together there are 8 lessons, each lesson has multiple topics, and each topic has multiple pages.
+In the root, I had nearly 1000 files with the following naming schema: `L1T1-page01.cfm` (standing for lesson 1, topic 1, page 1). All together the project has 8 lessons, each lesson has several topics, and each topic has several pages.
 
-I needed to move these files from the root and into organized folders: `L1T1-page01.cfm` would reside at `lessons/01-lesson-name/01-topic-name/L1T1-page01.cfm`.
+I needed to move these files from the root and into organized folders: `L1T1-page01.cfm` would live at `lessons/01-lesson-name/01-topic-name/L1T1-page01.cfm`.
 
 So I had to `git mv` these files myself; a new-to-me command.
 
@@ -29,16 +29,16 @@ After I moved the files I realized I wanted to shorten the filenames from `L1T1-
 Within each topic folder, I hit the following command:
 
 {% highlight ruby %}
-for f in \*.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’);done
+for f in \*.cfm; do git mv $f $(echo \$f | sed ‘s/L[0-9]T[0-9]-page//g’);done
 {% endhighlight %}
 
 _Update 1/7/2014:_ I revisited this post, I'm so glad I had save these commands! I found that instead of going into individual folders, I can run the commands from the `lessons/` folder and let it ride:
 
 {% highlight ruby %}
-for f in _/_/\*.cfm; do git mv $f $(echo $f | sed ‘s/L[0-9]T[0-9]-page//g’);done
+for f in _/_/\*.cfm; do git mv $f $(echo \$f | sed ‘s/L[0-9]T[0-9]-page//g’);done
 {% endhighlight %}
 
-It worked. Just by looking at the last command, I know there's a smarter way to write it. Nevertheless, it worked and I'm kind of proud of myself.
+It worked. Just by looking at the last command, I know there's a smarter way to write it. Still, it worked and I'm kind of proud of myself.
 
 As I was figuring this out, I imagined the scene from Hook where Peter begins to remember how to play pretend and the children are like "You're doing it, Peter."
 

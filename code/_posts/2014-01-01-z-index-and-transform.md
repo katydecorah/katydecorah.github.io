@@ -17,7 +17,7 @@ I knew that I wanted to code out the Dribbble shot END by Catt as a single eleme
 
 {% include img.html src='2014-01-01-z-index-and-transform-0.png' alt='Ribbon diagram' class='img-half' %}
 
-In making all of this happen, I was presented with of couple challenges.
+In making all this happen, I was presented with of couple challenges.
 
 1. Give the ribbon tail a shadow without adding extra elements.
 2. Preserve the stacking order on transform.
@@ -38,7 +38,7 @@ The trapezoid fit perfectly. I also used a variable `$ribbonSize` to keep the ri
 
 ## Preserve the stacking order on transform
 
-Prior to this project, I noticed issues in preserving the stacking order, `z-index`, of elements once a `transform` is introduced. Until now, I didn't know how to remedy it, so I avoided it.
+Before this project, I noticed issues in preserving the stacking order, `z-index`, of elements once a `transform` is introduced. Until now, I didn't know how to remedy it, so I avoided it.
 
 Once I added `transform` to the main element, the pseudo elements appeared to disregard the `z-index: -1` rule and sat on top of the main element.
 

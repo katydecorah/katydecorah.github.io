@@ -4,7 +4,7 @@ title: What I learned after working remote for 1 year
 image: 2015-06-19-one-year-remote-0.jpg
 ---
 
-- Shower and change your clothes frequently (or daily even)
+- Shower and change your clothes often (or daily even)
 - Your significant other (who also works from home) isn't your coworker &mdash; respect their time.
 - Leave the house (even if it's to aimlessly walk around Jo-Ann Fabrics).
 - Don't do house chores during work hours (because you'll never remember to fold the laundry).
