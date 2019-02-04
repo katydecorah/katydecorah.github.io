@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Katy DeCorah's personal webiste",
   "scripts": {
-    "test": "tape test/*.js | tap-spec && editor {adventures,code,epicurean,notes}/_posts -d",
+    "test": "tape test/*.js | tap-spec",
     "test-content": "editor {adventures,code,epicurean,notes}/_posts",
     "proofer": "htmlproofer ./_site",
     "precommit": "lint-staged",
