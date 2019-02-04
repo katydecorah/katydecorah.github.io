@@ -1,14 +1,3 @@
 language: node_js
 node_js: "stable"
-before_install:
-  - rvm install 2.3.0
-  - rvm use 2.3.0
-  - gem install bundler
-  - bundle install
-  - gem install html-proofer
-  - gem install jekyll-paginate
-  - bundle exec jekyll build
 sudo: false
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
