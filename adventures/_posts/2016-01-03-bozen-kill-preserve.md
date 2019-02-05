@@ -12,7 +12,7 @@ miles: 1
 
 Today we hiked [Bozen Kill Preserve](http://mohawkhudson.org/our-preserves/bozen-kill-protected-area/) in Altamont. It was muddy, icy, and even muddy-icy combo, but it's a lovely trail.
 
-I recommend starting with the blue trail as it takes you along the stream where there are small falls, and then it meets up with the white trail.
+I recommend starting with the blue trail as it takes you along the stream where you will find a small falls, and then it meets up with the white trail.
 
 <div class="photos">
 {% include img.html src="2016-01-03-bozen-kill-preserve-1.jpg" alt="Bozen Kill Preserve" class="img-tall" %}

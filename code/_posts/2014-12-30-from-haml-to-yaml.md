@@ -20,28 +20,31 @@ I decided to create a Jekyll gh-pages repo and open up the tool there. I exporte
 
 At first I copied and pasted the compiled HTML, but I knew it was going to be a pain to make any markup changes. I ended up reformatting the Haml array to Yaml (via regex find and replace):
 
-{% highlight yaml %}
-
+```yaml
 - length: em
   type: font-relative
-  description: This unit represents the calculated font-size of the element. If used on the font-size property itself, it represents the inherited font-size of the element.
-  {% endhighlight %}
+  description: This unit is the calculated font-size of the element. If used on the font-size property itself, it is the inherited font-size of the element.
+```
 
 I saved the file into the Jekyll `_data` folder. Using a loop, I ran through each item and rebuilt markup output. [My code](https://github.com/katydecorah/css-ruler/blob/gh-pages/index.html) looks something like this:
 
-{% highlight html %}{% raw %}
+````html{% raw %}
 {% for item in site.data.lengths %}
-
-<div class="example-container" data-toggle="popover" data-content="{{item.description}}" title="{{ item.length }}, {{item.type}}">
-<div class="example" style="width: [[ unit ]]{{ item.length }}; height: [[ unit ]]{{ item.length }}" title="[[unit]]{{item.length}}"></div>
+<div
+  class="example-container"
+  data-toggle="popover"
+  data-content="{{item.description}}"
+  title="{{ item.length }}, {{item.type}}"
+>
+  <div
+    class="example"
+    style="width: [[ unit ]]{{ item.length }}; height: [[ unit ]]{{ item.length }}"
+    title="[[unit]]{{item.length}}"
+  ></div>
 </div>
-{% endfor %}
-{% endraw %}{% endhighlight %}
-
-To make content changes, I'll update the Yaml. To make layout changes, I'll update the HTML. Party :tada:.
-
-## The CSS Ruler
-
-Feast your eyes on the live [CSS Ruler](https://katydecorah.com/css-ruler/) or [jump into the code](https://github.com/katydecorah/css-ruler).
-
-p.s. Uncheck _all_ the length types to unlock an Easter egg.
+{% endfor %} {% endraw %}``` To make content changes, I'll update the Yaml. To
+make layout changes, I'll update the HTML. Party :tada:. ## The CSS Ruler Feast
+your eyes on the live [CSS Ruler](https://katydecorah.com/css-ruler/) or [jump
+into the code](https://github.com/katydecorah/css-ruler). p.s. Uncheck _all_ the
+length types to unlock an Easter egg.
+````

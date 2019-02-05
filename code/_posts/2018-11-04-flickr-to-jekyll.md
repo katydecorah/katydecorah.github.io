@@ -24,4 +24,4 @@ And, guess what reader, it will download the _original_ Flickr photo.
 
 You can find the [code on GitHub](https://github.com/katydecorah/flickr-to-jekyll/) with instructions on how to use the module on your own site.
 
-🔮 Curious as to how I'm hosting my photos now? Continue on to [Storing assets in an AWS bucket](/code/photos-in-a-bucket/).
+🔮 Curious about how I'm hosting my photos now? Continue on to [Storing assets in an AWS bucket](/code/photos-in-a-bucket/).

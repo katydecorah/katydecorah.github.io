@@ -48,7 +48,7 @@ Next I created a new list for the ordinal days of the calendar using a new loop:
 
 I started by printing 31 days (with the start of the month at Sunday for now). I styled the list items so that only 7 can fit in each row. The list items naturally fell into calendar order.
 
-At this point I had a calendar, but it wasn't accurate. August begins on Thursday, not Sunday. I found that if I adjusted the starting value of my loop, I could get the first of the month to start on Thursday `- (-3...32).each do |i|`. That works, except now Sunday reads as -3 and so forth. I added a few constraints:
+At this point I had a calendar, but it wasn't correct. August begins on Thursday, not Sunday. I found that if I adjusted the starting value of my loop, I could get the first of the month to start on Thursday `- (-3...32).each do |i|`. That works, except now Sunday reads as -3 and so forth. I added a few constraints:
 
 {% highlight haml %}
 %ul.week
@@ -87,7 +87,7 @@ So I updated my loop:
 
 To make sure my loop worked, I changed my `month` variable to 9 to display September. It worked!
 
-However, September only has 30 days and I'm still printing out 31.
+But, September only has 30 days and I'm still printing out 31.
 
 I wrote another variable called `monthEnd`. This new variable was slightly easier than monthStart as I automatically receive an integer.
 

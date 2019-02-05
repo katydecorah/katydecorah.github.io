@@ -14,7 +14,7 @@ dribbble: http://drbl.in/jzgO
 
 I love trying to find different ways to get a job done. Especially when it means using a certain piece of technology in an unexpected way. Maybe the job is silly, but it's the problem solving that I really, truly dig.
 
-At first glance, I knew I wanted to somehow play around with the Dribbble shot [Heroes Queue by Antonas Deduchovas](http://drbl.in/jzgO) and I was definitely thinking single element for each character, but with tons of `box-shadow`. However, I also knew that I didn’t want to do the grunt work. So I opened up a spreadsheet in Google Drive.
+At first glance, I knew I wanted to somehow play around with the Dribbble shot [Heroes Queue by Antonas Deduchovas](http://drbl.in/jzgO) and I was definitely thinking single element for each character, but with tons of `box-shadow`. But, I also knew that I didn’t want to do the grunt work. So I opened up a spreadsheet in Google Drive.
 
 ## Google spreadsheets to the rescue
 
@@ -22,7 +22,7 @@ In a new spreadsheet, I resized the rows and columns to 25 and turned word text 
 
 ## Format > Conditional formatting
 
-Before this project, I had known about a cool feature in Google Spreadsheets, _conditional formatting_. You can set conditions in the spreadsheet to style a cell based on a string or digit. If there is a match then the background color or font color of that cell will change according to your rule.
+Before this project, I had known about a cool feature in Google Spreadsheets, _conditional formatting_. You can set conditions in the spreadsheet to style a cell based on a string or digit. When the condition is matched, then the background color or font color of that cell will change according to your rule.
 
 {% include img.html src='2013-12-06-heroes-queue-0.png' alt='Conditional Formatting' class='img-half' %}
 
@@ -46,11 +46,11 @@ Once I had the character ready, it was time for formula magic to output my `box-
 
     =ArrayFormula(if(A1:Z26<>"$bg","("&column(A1:Z1) -1 &" * $width) (" & ROW(A1:Z26) -1  &" * $width) 0 0 "&A1:Z26&",",""))
 
-I entered this formula in the first cell after the last column, AA:1. This formula went through A1:Z26 and transposed all of the cell data, but I carefully defined the output so that each cell declares its own `box-shadow` value.
+I entered this formula in the first cell after the last column, AA:1. This formula went through A1:Z26 and transposed all the cell data, but I carefully defined the output so that each cell declares its own `box-shadow` value.
 
 The formula does the following:
 
-- If any cell within A1:Z26 doesn't equal “`$bg`”, then reformat the cell, but if it does then do “” (create a blank cell — so yes, the variable is superfluous as previously stated).
+- If any cell within A1:Z26 doesn't equal “`$bg`”, then reformat the cell, but if it does then do “” (create a blank cell — so yes, the variable is superfluous as stated before).
 - To reformat the cell, as seen in the second set of double quotes, each permitted cell generates the following `box-shadow` values `<offset-x> <offset-y> <blur-radius> <color>,`. Each cell dynamically adjusts the `offset-x` and `offset-y` values of the shadow according to its position in the spreadsheet. I set the `blur-radius` to 0 and used the existing cell data for the `color` of the shadow.
 
 Initially, I had used static values, for example: `9em 0em 0 $red,`, but that meant I couldn't scale the character because this was based on 1em. Instead, I made the values relative: `(9 * $width) (0 * $width) 0 $red,`. Now whenever I adjust the `$width` the character will stay in perfect proportion.
@@ -61,7 +61,7 @@ Once I entered the formula into cell AA:1, the character was automatically trans
 
 Feel free to [check out the spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AvJ6mdPETci9dEtZak04VzU2UEFqeXZ3V2hIdGtrWXc&usp=sharing) that I used to create these characters.
 
-(I highlighted AA1 to indicate that that cell holds the formula.)
+(I highlighted AA1 to show that that cell holds the formula.)
 
 {% include img.html src='2013-12-06-heroes-queue-2.png' alt='Batman with values' class='img-half' %}
 

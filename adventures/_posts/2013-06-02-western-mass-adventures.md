@@ -18,14 +18,14 @@ This weekend we woke up early and drove out to North Adams, Massachusetts. We to
 {% include img.html src="2013-06-02-western-mass-adventures-0.jpg" class="img-half" alt="Waterfall" %}
 </div>
 
-The waterfall was set in two large embankments, which were not to be easily climbed. So we took off our shoes and carefully walked up the stream to the waterfall. The rocks were so smooth and the water cold. As we got closer the mist from the waterfall drenched us and the roar of the water vibrated our ears.
+The waterfall sits in two large embankments, which were not to be easily climbed. So we took off our shoes and carefully walked up the stream to the waterfall. The rocks were so smooth and the water cold. As we got closer the mist from the waterfall drenched us and the roar of the water vibrated our ears.
 
 <div class="photos">
 {% include img.html src="2013-06-02-western-mass-adventures-2.jpg" class="img-half" alt="Waterfall" %}
 {% include img.html src="2013-06-02-western-mass-adventures-3.jpg" class="img-half" alt="Waterfall" %}
 </div>
 
-We left to find the train tunnel. Ate lunch at a Greek pizza shop in town and enjoyed whoopee pies at a local cafe.
+We left to find the train tunnel. Ate lunch at a Greek pizza shop in town and enjoyed whoopee pies at a local café.
 
 <div class="photos">
 

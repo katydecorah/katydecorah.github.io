@@ -37,7 +37,7 @@ I made an apple dutch baby.
 
 </div>
 
-We had an awesome lunch at the Timberline Cafe in Speculator.
+We had an awesome lunch at the Timberline Café in Speculator.
 
 <div class="photos">
 

@@ -15,7 +15,7 @@ I also built a live demo with my site: [{{site.url}}/search](/search/)
 
 I started off by creating a file called, [lunr-feed.js](https://github.com/katydecorah/katydecorah.github.io/blob/master/js/lunr-feed.js) and adding front matter since I'll be using logic to loop through my posts.
 
-Next, I declared fields to describe my data (and by data I mean my posts). I can customize the field names, but it's important to keep the `id` field (this acts like an unique identifier). I can also add a boost to each field. A boost tells lunr that I want it to favor this field _that_ much more in the context of searching. In my case, I wanted lunr to focus on the content of my posts, so I applied a boost to that field.
+Next, I declared fields to describe my data (and by data I mean my posts). I can customize the field names, but it's important to keep the `id` field (this acts like a unique identifier). I can also add a boost to each field. A boost tells lunr that I want it to favor this field _that_ much more in the context of searching. In my case, I wanted lunr to focus on the content of my posts, so I applied a boost to that field.
 
 {% highlight js %}
 var index = lunr(function () {
@@ -49,7 +49,7 @@ By adding my fields and data, lunr passes it through its pipeline, processes the
 
 ## Build a data reference for lunr
 
-To complement the data that I gave to lunr, I created an object that contains basic information about each post. This is so I can reference it against lunr's search results because lunr returns the reference `id` as a search result and _not_ all the data I gave it.
+To complement the data that I gave to lunr, I created an object that has basic information about each post. This is so I can reference it against lunr's search results because lunr returns the reference `id` as a search result and _not_ all the data I gave it.
 
 {% highlight js %}{% raw %}
 var store = [{% for post in site.posts %}{

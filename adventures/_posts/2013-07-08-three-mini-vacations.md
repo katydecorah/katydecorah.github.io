@@ -16,7 +16,7 @@ coordinates:
 
 ## Lake Placid
 
-On Monday, I drove up to Lake Placid to visit my college roommate. We went out to dinner, caught a movie, and walked around the lake. The next morning I drove into town for breakfast and did one last lap around the lake. It was a very short trip, but well worth it.
+On Monday, I drove up to Lake Placid to visit my college roommate. We went out to dinner, caught a movie, and walked around the lake. The next morning I drove into town for breakfast and did one last lap around the lake. It was a short trip, but well worth it.
 
 <div class="photos">
 {% include img.html src="2013-07-08-three-mini-vacations-1.jpg"  alt="Lake Placid" %}
@@ -43,4 +43,4 @@ For the weekend, my sister and I stayed in Portsmouth, NH. We booked an awesome 
 {% include img.html src="2013-07-08-three-mini-vacations-7.jpg" class="img-thirds" alt="Portsmouth, NH" %}
 </div>
 
-I don't take vacations very often, so I think I felt the need to cram everything into this one week. While it was all great, I definitely look forward to a vacation filled with less.
+I don't take vacations often, so I think I felt the need to cram everything into this one week. While it was all great, I definitely look forward to a vacation filled with less.

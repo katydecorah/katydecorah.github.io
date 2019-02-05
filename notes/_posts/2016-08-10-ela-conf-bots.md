@@ -17,11 +17,11 @@ Every time someone submits a volunteer application or an abstract, a new GitHub 
 
 {% include img.html class='img-half' src='2016-08-10-ela-conf-bots-2.png' alt='volunteerbot' %}
 
-:raising_hand: **Under the hood:** First, I created a GitHub account @elaconfbot (so as to not inflate my GitHub graph, make it clear that I'm not creating new issues, and because bots are cute). I made a zap in Zapier that will submit a new GitHub issue by @elaconfbot once a new row in the form's spreadsheet is added (aka someone fills out the form). We also have a Slack integration that watches the repo for new issues.
+:raising_hand: **Under the hood:** First, I created a GitHub account @elaconfbot (to not inflate my GitHub graph, make it clear that I'm not creating new issues, and because bots are cute). I made a zap in Zapier that will submit a new GitHub issue by @elaconfbot once a new row in the form's spreadsheet is added (aka someone fills out the form). We also have a Slack integration that watches the repo for new issues.
 
-With Zapier, you can also assign labels and even add issues to milestones as someone submits a form. Now instead of reading a spreadsheet, we'll be able to comment on each abstract and use all of GitHub's organizational features. I absolutely adore this workflow.
+With Zapier, you can also assign labels and even add issues to milestones as someone submits a form. Now instead of reading a spreadsheet, we'll be able to comment on each abstract and use all GitHub's organizational features. I absolutely adore this workflow.
 
-We have this workflow set up for all of our forms:
+We have this workflow set up for all our forms:
 
 {% include img.html class='img-half' src='2016-08-10-ela-conf-bots-3.png' alt='form workflow' %}
 
@@ -47,7 +47,7 @@ Every time someone buys a ticket, we get pinged in our organizer channel:
 
 ## Bots, bots, and more bots
 
-Every time we get a ping from our :raising_hand: :wave: :ok_woman: bots, we all get excited. Seeing women wanting to participate with and at Ela Conf in real-time is much more magical and meaningful than I think we all anticipated.
+Every time we get a ping from our :raising_hand: :wave: :ok_woman: bots, we all get excited. Seeing women wanting to take part with and at Ela Conf in real-time is much more magical and meaningful than I think we all anticipated.
 
 It's also going to be fun watching @elaconfbot's contribution graph:
 
@@ -55,6 +55,6 @@ It's also going to be fun watching @elaconfbot's contribution graph:
 
 Can you tell when we opened our call for proposals?
 
-My next challenge will be building an anonymous feedback system for our speakers. I have a suspicion that it will involve some type of form, GitHub, and then some type of delivery service. I cannot wait to get started!
+My next challenge will be building an anonymous feedback system for our speakers. I have a suspicion that it will involve a form, GitHub, and then a delivery service. I cannot wait to get started!
 
 If you enjoyed this post, love bots, awesome systems, and advancing women in tech, please consider becoming an Ela Conf sponsor!

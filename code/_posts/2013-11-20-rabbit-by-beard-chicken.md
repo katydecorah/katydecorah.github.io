@@ -13,11 +13,11 @@ dribbble: http://dribbble.com/shots/1316513
 
 <p data-height="500" data-theme-id="97" data-slug-hash="uIEFy" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/uIEFy'>Rabbit by Beard Chicken</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-This fun little animation was built from [Beard Chicken's Dribbble shot](http://dribbble.com/shots/1316513). (The animation will only run a couple of times here, but on CodePen it's infinite&hellip; hypnotizing even.)
+I built this fun little animation from [Beard Chicken's Dribbble shot](http://dribbble.com/shots/1316513). (The animation will only run a couple of times here, but on CodePen it's infinite&hellip; hypnotizing even.)
 
 I used only two elements for this project by putting `box-shadow` to work.
 
-The main element `.rabbit` is the rabbit's body. The `:before` is the tail, but then I used `box-shadow` to resize, recolor, and relocate the element's shadow into making the rabbit's eye. I added another `box-shadow` and made the rabbit's hind leg. Then I added multiple shadows to create the front leg.
+The main element `.rabbit` is the rabbit's body. The `:before` is the tail, but then I used `box-shadow` to resize, recolor, and move the element's shadow into making the rabbit's eye. I added another `box-shadow` and made the rabbit's hind leg. Then I added a bunch of shadows to create the front leg.
 
 Similarly, the rabbit's `:after` is one ear. By using `box-shadow`, I was able to create the second ear.
 
@@ -44,6 +44,6 @@ box-shadow: 5em 2em 0 -0.3em white, -2em 2em 0 white;
 }
 {% endhighlight %}
 
-The first `box-shadow` creates a copy of the element, but is moved to the right 5em and down 2em. I slightly shrunk the new cloud, using -0.3em for the `spread-radius`. Naturally, I set the color of the cloud to white. For the second `box-shadow`, I moved it to the left 2em and down 2em, but kept it the same size. I set the `blur-radius` to 0 for both shadows so that there is no blur and I receive a crisp cloud.
+The first `box-shadow` creates a copy of the element, but is moved to the right 5em and down 2em. I slightly shrunk the new cloud, using -0.3em for the `spread-radius`. Naturally, I set the color of the cloud to white. For the second `box-shadow`, I moved it to the left 2em and down 2em, but kept it the same size. I set the `blur-radius` to 0 for both shadows to avoid a blur and I receive a crisp cloud.
 
 Getting the `@keyframes` just right took a bit of adjusting, but I loved how this rabbit came to life!

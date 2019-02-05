@@ -20,9 +20,9 @@ With Haml, I spit out 3 `div` tags to act as the snowflake's `.spindles`. I pair
 
 {% include img.html src='2014-12-19-snowflaker-0.jpg' alt='3 spindles' class='img-half' %}
 
-I created `$w` to manage the width of each spindle and sized the height at 1em. I always like to have at least one dimension at 1em, because I'll drop a `font-size` on that element or its parent to allow the project to scale with respect to 1em.
+I created `$w` to manage the width of each spindle and sized the height at 1em. I always like to have at least one dimension at 1em, because I'll drop a `font-size` on that element or its parent to allow the project to scale on 1em.
 
-Next, I used `box-shadow` on the `:before` and `:after` to build the snowflake patterns off the spindles. This took some time to get just right because I had to think in terms of each spindle. Each spindle is part of the pattern pie. Eventually, I got the `:before` to look like this thanks to `box-shadow`:
+Next, I used `box-shadow` on the `:before` and `:after` to build the snowflake patterns off the spindles. This took some time to get just right because I had to think of each spindle. Each spindle is part of the pattern pie. Eventually, I got the `:before` to look like this thanks to `box-shadow`:
 
 {% include img.html src='2014-12-19-snowflaker-1.jpg' alt='before element' class='img-half' %}
 

@@ -38,7 +38,7 @@ We were up front with our hosts about our intentions, and they were supportive a
 
 ## 4. Book vendors early and always choose tacos
 
-We found that traditional wedding caterers had a minimum fee for their services which didn't scale well with our small wedding. We ended up going with a local restaurant, [Gringo Jack's](http://gringojacks.com/), who brought us a fantastic taco bar. We found our officiant on [Wedding Wire](https://www.weddingwire.com/), the [photographer](http://www.lauraandreaharris.com/) from browsing Instagram, and the [cake bakery](https://www.mothermyricks.com/), [hair stylists](http://thehairretreat.com/), and [florist](http://bondvillebloomist.com/) were also local to the area.
+We found that traditional wedding caterers had a small fee for their services which didn't scale well with our small wedding. We ended up going with a local restaurant, [Gringo Jack's](http://gringojacks.com/), who brought us a fantastic taco bar. We found our officiant on [Wedding Wire](https://www.weddingwire.com/), the [photographer](http://www.lauraandreaharris.com/) from browsing Instagram, and the [cake bakery](https://www.mothermyricks.com/), [hair stylists](http://thehairretreat.com/), and [florist](http://bondvillebloomist.com/) were also local to the area.
 
 <div class="photos">
 {% include img.html src="2016-10-01-get-married-airbnb-0.jpg" class="img-half" alt="cake" %}

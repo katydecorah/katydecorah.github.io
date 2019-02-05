@@ -12,9 +12,9 @@ image: 2014-07-27-pine-hollow-arboretum-0.jpg
 
 Yesterday we visited the [Pine Hollow Arboretum](http://www.pinehollowarboretum.org/) in Slingerlands. We saw the sign for the arboretum during one of our drives out to Rensselaerville.
 
-At the Visitor Center we were given a map and a self-guided tour pamphlet. We also received a quick little tutorial on how to read the map and general access to the grounds. Then we were off into this magical, beautiful place, with the hum of the highways in the background.
+At the Visitor Center we received a map and a self-guided tour pamphlet. We also received a quick little tutorial on how to read the map and general access to the grounds. Then we were off into this magical, beautiful place, with the hum of the highways in the background.
 
-This might be the best place to satisfy the urge to (safely) get lost in the woods. It's so delightful. Filled with paths, ponds, and interesting trees. We were there for about an hour and only covered about half of the grounds.
+This might be the best place to meet the urge to (safely) get lost in the woods. It's so delightful. Filled with paths, ponds, and interesting trees. We were there for about an hour and only covered about half of the grounds.
 
 <div class="photos">
 
