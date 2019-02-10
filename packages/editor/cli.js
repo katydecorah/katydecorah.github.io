@@ -26,18 +26,15 @@ var simplify = require('retext-simplify');
 var repeated = require('retext-repeated-words');
 var passive = require('retext-passive');
 var simplifyConfig = require('./simplify.config.json');
+var spell = require('retext-spell');
+var dictionary = require('dictionary-en-us');
+var myDictionary = require('fs').readFileSync(
+  './packages/editor/katydecorah.dic'
+);
+var urls = require('retext-syntax-urls');
 
-var textExtensions = [
-  'txt',
-  'text',
-  'md',
-  'markdown',
-  'mkd',
-  'mkdn',
-  'mkdown',
-  'ron'
-];
-var htmlExtensions = ['htm', 'html'];
+var textExtensions = ['md'];
+var htmlExtensions = ['html'];
 
 // Update messages.
 notifier({ pkg: pack }).notify();
@@ -134,7 +131,9 @@ function transform(options) {
     redundantAcronyms,
     repeated,
     [simplify, simplifyConfig],
-    passive
+    passive,
+    urls,
+    [spell, { dictionary: dictionary, personal: myDictionary }]
   ];
 
   if (cli.flags.html) {
