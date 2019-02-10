@@ -12,9 +12,9 @@ To start, the JSON file is in the root of the Jekyll site, making it a simple fi
 
 I also thought about duplicating the file so that I'd have the best of both worlds, but that's hard to maintain. And then I thought about creating a [symlink](https://en.wikipedia.org/wiki/Symbolic_link). I had never created one before, but [thanks to the Internet](http://apple.stackexchange.com/a/115647) I opened Terminal and entered:
 
-{% highlight sh %}
+```sh
 \$ ln -s ../families.json \_data/families.json
-{% endhighlight %}
+```
 
 And :boom: symlink! (Ok, it wasn't that smooth. It took me a bit to figure out how to write the path. And then after I pushed, I got a build error because I originally didn't use a _relative_ path.)
 
@@ -22,14 +22,14 @@ But will it loop?
 
 I created a file in the root `families.csv` and wrote:
 
-## {% highlight liquid %}{% raw %}
+## ```liquid{% raw %}
 
 ---
 
 {% for item in site.data.families %}
 {{item.family}}
 {% endfor %}
-{% endraw %}{% endhighlight %}<!--_-->
+{% endraw %}```<!--_-->
 
 And soon I had a CSV file with a list of the font family names.
 

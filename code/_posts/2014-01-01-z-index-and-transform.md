@@ -51,25 +51,23 @@ Through research, I dove into the situation of what takes place between stacking
 
 To allow the children to exist on their own, I needed to pepper in a couple more properties. First, I told my main element to `preserve-3d`.
 
-{% highlight css %}
+```css
 .ribbon {
-...
-transform-style: preserve-3d;
+  ... transform-style: preserve-3d;
 }
-{% endhighlight %}
+```
 
 Next, I controlled the stacking order of the pseudo elements through `translateZ`. Think of `translateZ` as the 3D version of `z-index`.
 
-{% highlight css %}
+```css
 .ribbon {
-...
-transform-style: preserve-3d;
+  ... transform-style: preserve-3d;
 }
-.ribbon:before, .ribbon:after {
-...
-transform: translateZ(-1em);
+.ribbon:before,
+.ribbon:after {
+  ... transform: translateZ(-1em);
 }
-{% endhighlight %}
+```
 
 After adding these properties, my ribbon tails popped back into place behind the ribbon.
 

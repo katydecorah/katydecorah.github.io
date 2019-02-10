@@ -17,7 +17,7 @@ I started off by creating a file called, [lunr-feed.js](https://github.com/katyd
 
 Next, I declared fields to describe my data (and by data I mean my posts). I can customize the field names, but it's important to keep the `id` field (this acts like a unique identifier). I can also add a boost to each field. A boost tells lunr that I want it to favor this field _that_ much more in the context of searching. In my case, I wanted lunr to focus on the content of my posts, so I applied a boost to that field.
 
-{% highlight js %}
+```json
 var index = lunr(function () {
 this.field('title')
 this.field('content', {boost: 10})
@@ -25,13 +25,13 @@ this.field('category')
 this.field('tags')
 this.ref('id')
 });
-{% endhighlight %}
+```
 
 ## Now give lunr your data
 
 Next, I gave lunr my data. This is the data that I want lunr to search and it corresponds with the fields that I defined above. And to keep my data straight, I increment a `count` to build the `id` as my unique identifier for each post.
 
-{% highlight js %}{% raw %}
+````json{% raw %}
 {% assign count = 0 %}
 {% for post in site.posts %}
 index.add({
@@ -43,7 +43,7 @@ id: {{count}}
 });
 {% assign count = count | plus: 1 %}
 {% endfor %}
-{% endraw %}{% endhighlight %}
+{% endraw %}```
 
 By adding my fields and data, lunr passes it through its pipeline, processes the data, and builds an object that I'll query later.
 
@@ -51,7 +51,7 @@ By adding my fields and data, lunr passes it through its pipeline, processes the
 
 To complement the data that I gave to lunr, I created an object that has basic information about each post. This is so I can reference it against lunr's search results because lunr returns the reference `id` as a search result and _not_ all the data I gave it.
 
-{% highlight js %}{% raw %}
+```json{% raw %}
 var store = [{% for post in site.posts %}{
 'title': {{post.title | jsonify}},
 'link': {{ post.url | jsonify }},
@@ -61,13 +61,13 @@ var store = [{% for post in site.posts %}{
 'excerpt': {{ post.content | strip_html | truncatewords: 20 | jsonify }}
 }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
-{% endraw %}{% endhighlight %}
+{% endraw %}```
 
 ## Query lunr and the match results
 
 Finally, it's time to query lunr aka query that `index` object lunr created from my fields and data. Lunr returns `id` numbers as search results (in order of most relevant) and then I use that `id` as an index number for my `store` object so I can output details about each search result.
 
-{% highlight js %}
+```json
 $(document).ready(function() {
 $('input#search').on('keyup', function () {
 var resultdiv = $('#results');
@@ -84,7 +84,7 @@ resultdiv.append(searchitem);
 }
 });
 });
-{% endhighlight %}
+````
 
 ## Now search
 

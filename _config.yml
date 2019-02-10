@@ -72,6 +72,7 @@ exclude:
   - package.json
   - test
   - img/posts
+  - packages
 
 links:
   - text: CodePen

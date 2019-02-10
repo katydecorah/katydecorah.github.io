@@ -39,32 +39,32 @@ I clicked around the examples, until I found what I was looking for in [Load Geo
 
 My next step was to marry the two examples:
 
-{% highlight javascript %}
-var map = L.mapbox.map('map', 'katydecorah.h41bj3lj'),
-geoJson = [
-{
-"type":"FeatureCollection",
-"features":[
-{
-"type":"Feature",
-"properties":{
-"title":"DC",
-"marker-color":"#2A2B26"
-},
-"geometry":{
-"type":"Point",
-"coordinates":[
--77.03887939453125,
-38.89530825492018
-]
-}
-}
-]
-}
-],
-markerLayer = L.mapbox.markerLayer().setGeoJSON(geoJson).addTo(map);
+```js
+var map = L.mapbox.map("map", "katydecorah.h41bj3lj"),
+  geoJson = [
+    {
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          properties: {
+            title: "DC",
+            "marker-color": "#2A2B26"
+          },
+          geometry: {
+            type: "Point",
+            coordinates: [-77.03887939453125, 38.89530825492018]
+          }
+        }
+      ]
+    }
+  ],
+  markerLayer = L.mapbox
+    .markerLayer()
+    .setGeoJSON(geoJson)
+    .addTo(map);
 map.fitBounds(markerLayer.getBounds());
-{% endhighlight %}
+```
 
 It worked!
 
@@ -81,20 +81,19 @@ In the front-matter of this post, I added `locations`, just like I have done in 
 
 The following is this page's front-matter to generate the map:
 
-{% highlight yaml %}
+```yaml
 mapType: Mapbox
 locations:
-
-- "-73.7629483,42.6539068"
-- "-73.7254484,43.2440284"
-- "-82.5525523,35.5908429"
-  {% endhighlight %}
+  - "-73.7629483,42.6539068"
+  - "-73.7254484,43.2440284"
+  - "-82.5525523,35.5908429"
+```
 
 Since I'm still exploring and learning the Mapbox API, I'm not 100% ready to break up with Google maps on my posts. For now I will allow Google maps on older posts, but I will use the flag to let Jekyll know when to use Mapbox.
 
 I altered my Google map code to consider the new Mapbox flag:
 
-{% highlight erb %}
+```erb
 {% raw %}
 {% if page.locations %}
 <div{% if page.mapType %} id="map"{% endif %} class="post-map-header">
@@ -105,18 +104,17 @@ I altered my Google map code to consider the new Mapbox flag:
 </div>
 {% endif %}
 {% endraw %}
-{% endhighlight %}
+```
 
 If the post has `mapType`, then Jekyll will add `id="map"` and it will not load the Google map. For this page, which has `mapeType`, the logic above will output:
 
-{% highlight html %}
-
+```html
 <div id="map" class="post-map-header"></div>
-{% endhighlight %}
+```
 
 In my `end.html` include, that wraps up every post and page, I added a new include, `mapbox.html`. This include has the following logic:
 
-{% highlight erb %}
+```erb
 {% raw %}
 {% if page.mapType %}
 
@@ -135,7 +133,7 @@ if (map.tap) map.tap.disable();
 </script>
 {% endif %}
 {% endraw %}
-{% endhighlight %}
+```
 
 If the page has `mapType`, then it will load Mapbox and create the `geoJson` variable. The `geoJson` variable is constructed using a loop on the current page `locations`.
 

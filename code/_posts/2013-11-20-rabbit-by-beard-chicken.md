@@ -27,9 +27,9 @@ I created one cloud using pseudo elements, but then used `box-shadow` to display
 
 The fourth value of `box-shadow` controls the size of the shadow, or `spread-radius`. Until today, I had severely under used this value.
 
-{% highlight css %}
-box-shadow: <offset-x> <offset-y> <blur-radius> <spread-radius> <color>
-{% endhighlight %}
+```css
+box-shadow: <offset-x> <offset-y> <blur-radius> <spread-radius> <color>;
+```
 
 [More on box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
@@ -37,12 +37,11 @@ The `spread-radius` is optional, but the value is 0 unless specified. If the `sp
 
 So in the case of `.clouds`:
 
-{% highlight css %}
+```css
 .clouds {
-...
-box-shadow: 5em 2em 0 -0.3em white, -2em 2em 0 white;
+  ... box-shadow: 5em 2em 0 -0.3em white, -2em 2em 0 white;
 }
-{% endhighlight %}
+```
 
 The first `box-shadow` creates a copy of the element, but is moved to the right 5em and down 2em. I slightly shrunk the new cloud, using -0.3em for the `spread-radius`. Naturally, I set the color of the cloud to white. For the second `box-shadow`, I moved it to the left 2em and down 2em, but kept it the same size. I set the `blur-radius` to 0 for both shadows to avoid a blur and I receive a crisp cloud.
 

@@ -36,9 +36,9 @@ Two cheers for simple code.
 
 Next, I needed to get each `.item` on a circle and rotated about 45 degrees to achieve the cascading effect. I tweaked the _items on a circle_ mixin until each element fell into place. I've used the mixin before, but I must not have examined the code. I didn't realize that you can assign more than one `rotate` values in one `transform` rule. (I learned something new today _/air guitar/_).
 
-{% highlight css %}
+```css
 transform: rotate(0deg) translate(0.875em) rotate(45deg);
-{% endhighlight %}
+```
 
 Using the two rotates, I balanced out the items onto the circle and then locked them into position.
 
@@ -46,11 +46,11 @@ Using the two rotates, I balanced out the items onto the circle and then locked 
 
 I used `:nth-of-type` to alternate the colors of my Sass list, `$colors`. I thought I had the `:nth` selector game figured out, but it took me a few tries to alternate the colors among the items.
 
-{% highlight css %}
+```css
 :nth-of-type(4n + 2)
 :nth-of-type(4n + 3)
 :nth-of-type(4n + 4)
-{% endhighlight %}
+```
 
 The above will then compute as:
 

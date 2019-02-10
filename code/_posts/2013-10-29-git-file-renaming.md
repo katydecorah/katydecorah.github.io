@@ -18,9 +18,9 @@ So I had to `git mv` these files myself; a new-to-me command.
 
 First, I moved batches of files belonging to the same topic to their respective topic folders by hitting this command:
 
-{% highlight ruby %}
+```ruby
 git mv L1T1* lessons/01*/01\*
-{% endhighlight %}
+```
 
 (Can I get a _hell yeah_ for that asterisk?)
 
@@ -28,15 +28,15 @@ After I moved the files I realized I wanted to shorten the filenames from `L1T1-
 
 Within each topic folder, I hit the following command:
 
-{% highlight ruby %}
+```ruby
 for f in \*.cfm; do git mv $f $(echo \$f | sed ‘s/L[0-9]T[0-9]-page//g’);done
-{% endhighlight %}
+```
 
 _Update 1/7/2014:_ I revisited this post, I'm so glad I had save these commands! I found that instead of going into individual folders, I can run the commands from the `lessons/` folder and let it ride:
 
-{% highlight ruby %}
+```ruby
 for f in _/_/\*.cfm; do git mv $f $(echo \$f | sed ‘s/L[0-9]T[0-9]-page//g’);done
-{% endhighlight %}
+```
 
 It worked. Just by looking at the last command, I know there's a smarter way to write it. Still, it worked and I'm kind of proud of myself.
 

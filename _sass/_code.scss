@@ -1,3 +1,8 @@
+pre.highlight {
+  max-height: 400px;
+  overflow: auto;
+}
+
 code,
 pre {
   @extend %code-type;
@@ -13,7 +18,7 @@ pre {
 
 pre {
   margin: 1em 0;
-  padding: 2em;
+  padding: 1em;
 
   code {
     background: none;

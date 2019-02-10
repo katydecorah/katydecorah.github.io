@@ -24,20 +24,20 @@ One thing that had me scratching my head: how to evaluate an expression, but the
 
 Finally, I figured it out.
 
-{% highlight javascript %}
+```js
 {% raw %}
 {{ e.API !== '' && '&key='+e.API || ''}}
 {% endraw %}
-{% endhighlight %}
+```
 
 Wherever this is present, it will evaluate the input and then output based on evaluation. If the input does not equal an empty string, or if the input has a value, (`e.API !== ''`) then output `&key=[whatever the api key is]` otherwise (`||`) show `''` (empty string).
 
 I evaluated the checkbox for the Map Marker (showMarker) the same way:
 
-{% highlight javascript %}
+```js
 {% raw %}
 {{ showMarker == 'true' && '&markers=size:'+e.markerSize+'%7Ccolor:'+e.markerColor+'%7C'+e.location.split(' ').join('+') || '' }}
 {% endraw %}
-{% endhighlight %}
+```
 
 Angular is pretty cool.
