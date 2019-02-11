@@ -35,5 +35,11 @@
   },
   "bin": {
     "editor": "cli.js"
+  },
+  "devDependencies": {
+    "retext": "^6.0.1",
+    "tape": "^4.10.0",
+    "unist-builder": "^1.0.3",
+    "unist-util-remove-position": "^1.1.2"
   }
 }

@@ -32,6 +32,7 @@ var myDictionary = require('fs').readFileSync(
   './packages/editor/katydecorah.dic'
 );
 var urls = require('retext-syntax-urls');
+var liquid = require('./liquid.js');
 
 var textExtensions = ['md'];
 var htmlExtensions = ['html'];
@@ -126,6 +127,7 @@ function transform(options) {
   var settings = options || {};
   var plugins = [
     english,
+    liquid,
     diacritics,
     indefiniteArticle,
     redundantAcronyms,
