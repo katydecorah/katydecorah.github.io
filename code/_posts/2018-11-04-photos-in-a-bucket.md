@@ -36,7 +36,7 @@ Now only my site can load my content, which keeps others from hotlinking my stuf
 
 ## Create a custom error page
 
-Now that CloudFront is blocking traffic to my bucket outside of my domain, I created an error page. I did this in CloudFount by clicking **Error Pages** and then **Create Custom Error Response**. From the dropdown I selected `403: Forbidden` and hit `Yes` on **Customize Error Response**. I entered a response path of `/oops.html` which is [a file](//yo.katydecorah.com/oops.html) I uploaded to my bucket.
+Now that CloudFront is blocking traffic to my bucket outside of my domain, I created an error page. I did this in CloudFront by clicking **Error Pages** and then **Create Custom Error Response**. From the dropdown I selected `403: Forbidden` and hit `Yes` on **Customize Error Response**. I entered a response path of `/oops.html` which is [a file](//yo.katydecorah.com/oops.html) I uploaded to my bucket.
 
 ## Generate photo versions
 

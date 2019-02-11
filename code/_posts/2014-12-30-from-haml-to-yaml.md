@@ -16,7 +16,7 @@ To store each length name and metadata, I created a multidimensional array in Ha
 
 ## To Jekyll
 
-I decided to create a Jekyll gh-pages repo and open up the tool there. I exported the CodePen and created a local Jekyll site. Once I organized the files, I refactored my code to [interpolate the AngularJS tags](/code/jekyll-and-angular/).
+I decided to create a Jekyll gh-pages repository and open up the tool there. I exported the CodePen and created a local Jekyll site. Once I organized the files, I refactored my code to [interpolate the AngularJS tags](/code/jekyll-and-angular/).
 
 At first I copied and pasted the compiled HTML, but I knew it was going to be a pain to make any markup changes. I ended up reformatting the Haml array to Yaml (via regex find and replace):
 

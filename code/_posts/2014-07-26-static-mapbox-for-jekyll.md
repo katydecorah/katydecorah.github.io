@@ -46,7 +46,7 @@ I updated my map include to generate the static map:
 {% endif %} {% endraw %}
 ```
 
-I placed my public api token and mapid in my config file, so that I can quickly edit those items when necessary.
+I placed my public API token and mapid in my config file, so that I can quickly edit those items when necessary.
 
 Now a static Mapbox map will generate when I create a post that has coordinates defined in the front matter.
 

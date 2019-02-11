@@ -37,7 +37,7 @@ At this point, I thought I was finished, but when I changed the width and height
 
 ## Let's make this thing scalable.
 
-I decided that the balloon width, or `$balloonWidth`, would be the main variable in keeping my proportions tight. From this variable, I calculated the height of the balloons by hitting `height: $balloonWidth * 1.25`. Now the height and width of my balloons are in proporation.
+I decided that the balloon width, or `$balloonWidth`, would be the main variable in keeping my proportions tight. From this variable, I calculated the height of the balloons by hitting `height: $balloonWidth * 1.25`. Now the height and width of my balloons are in proportion.
 
 Next, I adjusted my `:before`, or the rubber tie part of the balloon, to be in proportion with the width of the balloon. Here's what I came up with:
 

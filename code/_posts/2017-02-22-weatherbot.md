@@ -24,7 +24,7 @@ We live in Upstate New York so there's snow and it's kind of pain for J to plow 
 WeatherBot uses three [AWS resources](https://aws.amazon.com/):
 
 1. [**S3**](https://aws.amazon.com/s3/) - I deploy and host the code here.
-2. [**Cloudformation**](https://aws.amazon.com/cloudformation/) - I created a [Cloudformation template](https://github.com/katydecorah/weatherbot/blob/master/cloudformation/weatherbot.template.json) that defines the variables and the functions that Lambda will need to run my code.
+2. [**CloudFormation**](https://aws.amazon.com/cloudformation/) - I created a [CloudFormation template](https://github.com/katydecorah/weatherbot/blob/master/cloudformation/weatherbot.template.json) that defines the variables and the functions that Lambda will need to run my code.
 3. [**Lambda**](https://aws.amazon.com/lambda/) - Lambda handles [running my code](https://github.com/katydecorah/weatherbot/blob/bfef0af2650e42c7fcee960ac615de680b6987c2/cloudformation/weatherbot.template.json#L113-L126) at the days and times I've defined. (The CloudFormation template does me a solid by configuring Lambda for me.)
 
 [Browse the code!](https://github.com/katydecorah/weatherbot)

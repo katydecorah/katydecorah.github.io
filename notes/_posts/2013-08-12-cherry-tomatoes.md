@@ -12,7 +12,7 @@ I learned a lot from growing the tomatoes, but it really came down to proper hyd
 
 One mistake I made was that I waited too long to put them outside. I waited a few extra weeks just in case of cold weather, but I really shouldn't have waited. Instead the plants started growing really tall (around 5 feet) to find more sunlight. By the time I put them outside they were weak and lanky. They ended up shedding most of their original leaves and grew stronger ones while outside.
 
-Only one tomato has riped so far, I have about a dozen waiting to burst with color. I am just so proud of these guys.
+Only one tomato has ripened so far, I have about a dozen waiting to burst with color. I am just so proud of these guys.
 
 <div class="photos">
 

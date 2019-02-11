@@ -9,7 +9,7 @@ image: 2015-06-19-one-year-remote-0.jpg
 - Leave the house (even if it's to aimlessly walk around Jo-Ann Fabrics).
 - Don't do house chores during work hours (because you'll never remember to fold the laundry).
 - Don't do work hours during downtime (because you'll never stop working).
-- Have a _special_ lunch at least once a week (order out, grill a hotdog).
+- Have a _special_ lunch at least once a week (order out, grill a hot dog).
 - Hang out with your friends.
 - Ping your coworkers just to say, _Hey!_
 - Build a tabletop for the treadmill and walk 5 miles every morning[^1]:

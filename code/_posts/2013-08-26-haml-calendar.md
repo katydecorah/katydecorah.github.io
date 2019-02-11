@@ -17,7 +17,7 @@ While I was looking through the Haml docs today, I found the ability to print ou
 
 It took a lot of research, but I made a functioning Haml Calendar. I say functioning, because it will display the correct date and tomorrow it will automatically display tomorrow's date. You may also change the month, year, and day variables to display a specific date.
 
-I realize this is not a practicular calendar solution, but it was fun to figure out.
+I realize this is not a practical calendar solution, but it was fun to figure out.
 
 I used [these](http://dribbble.com/shots/1054042--Freebie-Calendar-Window?list=searches&tag=calendar) [shots](http://dribbble.com/shots/1054880-My-Birfday-Calendar) from Dribbble for layout and color inspiration.
 

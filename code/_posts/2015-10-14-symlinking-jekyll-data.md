@@ -39,4 +39,4 @@ And soon I had a CSV file with a list of the font family names.
 {% include img.html src="2015-10-14-symlinking-jekyll-data-1.png" alt="CSV file" class="img-full" %}
 </div>
 
-Since Github pages run in safe mode the file won't build in production. (It's still totally a success though.)
+Since GitHub pages run in safe mode the file won't build in production. (It's still totally a success though.)

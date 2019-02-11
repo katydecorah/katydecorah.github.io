@@ -62,7 +62,7 @@ We created a list of everything that needed to happen on Friday and Saturday, in
 
 ## 8. Make a playlist
 
-We created a ~~rdio~~ [Spotify playlist](https://open.spotify.com/user/katydecorah/playlist/6xPm2b74Rrdl7ipRpg58Mo) with our ceremony songs first and then the more upbeat lovey dovey songs for the rest of the night. The Airbnb had an amazing sound system throughout the house (even the bathrooms). Jason hit play right before he walked out.
+We created a ~~rdio~~ [Spotify playlist](https://open.spotify.com/user/katydecorah/playlist/6xPm2b74Rrdl7ipRpg58Mo) with our ceremony songs first and then the more upbeat songs for the rest of the night. The Airbnb had an amazing sound system throughout the house (even the bathrooms). Jason hit play right before he walked out.
 
 ## 9. Assemble a wedding arch
 
@@ -84,8 +84,8 @@ We weren't sure what the Airbnb would have stocked in the kitchen, so we picked 
 
 Ok, I bought a ton of other stuff, too:
 
-- [Ensidig](http://www.ikea.com/us/en/catalog/products/10239888/) [vases](http://www.ikea.com/us/en/catalog/products/40233149/) from Ikea
-- [Glasig tealight holders](http://www.ikea.com/us/en/catalog/products/00259141/) from Ikea
+- [Ensidig](http://www.ikea.com/us/en/catalog/products/10239888/) [vases](http://www.ikea.com/us/en/catalog/products/40233149/) from IKEA
+- [Glasig tealight holders](http://www.ikea.com/us/en/catalog/products/00259141/) from IKEA
 - White candlesticks and tealights from Target
 - [Marble tile](http://amzn.to/2cEPXjb) (that I turned into coasters by sanding them down and adding felt backing)
 - Wood blocks from the craft store that Jason drilled holes to fit candlesticks
