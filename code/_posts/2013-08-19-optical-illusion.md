@@ -37,7 +37,7 @@ Then I applied a clear on the first item in each row to be sure my rows stay row
 
 <p data-height="500" data-theme-id="97" data-slug-hash="pdCsB" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/pdCsB'>Optical Illusion III</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-As before, I spun out 500 list items in Haml. I styled each item the same. All items have a ::before pseduo element that draws the circle. I absolutely positioned the circle to fit between each square.
+As before, I spun out 500 list items in Haml. I styled each item the same. All items have a ::before pseudo element that draws the circle. I absolutely positioned the circle to fit between each square.
 
 I gave the list `margin: 0 -1em;` and hid the overflow on the body. I wanted the illusion to completely fill the page.
 

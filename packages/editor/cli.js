@@ -26,18 +26,13 @@ var simplify = require('retext-simplify');
 var repeated = require('retext-repeated-words');
 var passive = require('retext-passive');
 var simplifyConfig = require('./simplify.config.json');
+var spell = require('retext-spell');
+var dictionary = require('dictionary-en-us');
+var urls = require('retext-syntax-urls');
+var liquid = require('./liquid.js');
 
-var textExtensions = [
-  'txt',
-  'text',
-  'md',
-  'markdown',
-  'mkd',
-  'mkdn',
-  'mkdown',
-  'ron'
-];
-var htmlExtensions = ['htm', 'html'];
+var textExtensions = ['md'];
+var htmlExtensions = ['html'];
 
 // Update messages.
 notifier({ pkg: pack }).notify();
@@ -54,6 +49,7 @@ var cli = meow(
     '  -t, --text   treat input as plain-text (not markdown)',
     '  -l, --html   treat input as html (not markdown)',
     '  -d, --diff   ignore unchanged lines (affects Travis only)',
+    '  -c, --dict   path to your personal dictionary',
     '  --stdin      read from stdin',
     '',
     'When no input files are given, searches for markdown and text',
@@ -73,7 +69,8 @@ var cli = meow(
       html: { type: 'boolean', alias: 'l' },
       diff: { type: 'boolean', alias: 'd' },
       quiet: { type: 'boolean', alias: 'q' },
-      why: { type: 'boolean', alias: 'w' }
+      why: { type: 'boolean', alias: 'w' },
+      dict: { type: 'string', alias: 'c' }
     }
   }
 );
@@ -83,6 +80,11 @@ var extensions = cli.flags.html ? htmlExtensions : textExtensions;
 var defaultGlobs = ['{docs/**/,doc/**/,}*.{' + extensions.join(',') + '}'];
 var silentlyIgnore;
 var globs;
+var myDictionary;
+
+if (cli.flags.dict) {
+  myDictionary = require('fs').readFileSync(`./${cli.flags.dict}`, 'utf8');
+}
 
 if (cli.flags.stdin) {
   if (cli.input.length !== 0) {
@@ -129,12 +131,15 @@ function transform(options) {
   var settings = options || {};
   var plugins = [
     english,
+    liquid,
     diacritics,
     indefiniteArticle,
     redundantAcronyms,
     repeated,
     [simplify, simplifyConfig],
-    passive
+    passive,
+    urls,
+    [spell, { dictionary: dictionary, personal: myDictionary }]
   ];
 
   if (cli.flags.html) {

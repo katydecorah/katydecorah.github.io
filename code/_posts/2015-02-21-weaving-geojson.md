@@ -204,7 +204,7 @@ Imaging trying to traverse a GeoJSON file _filled_ with all that ugh? No, thank 
 
 I found a better workflow with Jekyll.
 
-After a quick search I found a [GeoJSON file with all the countries](https://github.com/johan/world.geo.json). I regex'd it into yml format and saved it to my `_data` folder ([in _this_ repo](https://github.com/katydecorah/geojson-weaver)) as [`countries.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/countries.yml). That will serve as a reference file; I don't need to touch it. Actually, Atom will barf if I try to open it, so it stays sealed tight.
+After a quick search I found a [GeoJSON file with all the countries](https://github.com/johan/world.geo.json). I regex'd it into yaml format and saved it to my `_data` folder ([in _this_ repository](https://github.com/katydecorah/geojson-weaver)) as [`countries.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/countries.yml). That will serve as a reference file; I don't need to touch it. Actually, Atom will barf if I try to open it, so it stays sealed tight.
 
 Next, I created another file ([`leave.yml`](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/_data/leave.yml)). This is the data that I want to weave in with the country data. For each country, I made sure to use the same exact country name found in `countries.yml` because later I'll evaluate the name to match the data up.
 
@@ -215,7 +215,7 @@ Next, I created another file ([`leave.yml`](https://github.com/katydecorah/geojs
   leave: 12
 ```
 
-I created a [Jekyll-ized JS file](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/country-data.js) to output the GeoJSON as a variable. Here's how I did it:
+I created a [Jekyll-ized JavaScript file](https://github.com/katydecorah/geojson-weaver/blob/gh-pages/country-data.js) to output the GeoJSON as a variable. Here's how I did it:
 
 1. First, I looped through the countries data.
 2. Inside that loop, I looped through my data file.
@@ -250,4 +250,4 @@ And [here's what it looks like](https://katydecorah.com/geojson-weaver/country-d
 
 The workflow ends up being painless. I can make updates to my data file and once Jekyll runs, my map updates. Also, I followed the same process with state data that I got from Mapbox, so I can do some state shape and data matchmaking.
 
-[Check out repo with all the files, data, and fun.](https://github.com/katydecorah/geojson-weaver) And, hey, guess what! I wrote about building a GeoJSON file with Jekyll before &mdash; [Jekyll and GeoJSON](/code/jekyll-geojson/).
+[Check out repository with all the files, data, and fun.](https://github.com/katydecorah/geojson-weaver) And, hey, guess what! I wrote about building a GeoJSON file with Jekyll before &mdash; [Jekyll and GeoJSON](/code/jekyll-geojson/).

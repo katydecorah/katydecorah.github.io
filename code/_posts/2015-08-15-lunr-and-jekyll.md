@@ -7,7 +7,7 @@ tags:
   - JavaScript
 ---
 
-I recently spent some time hooking up a Jekyll site with [lunr.js](http://lunrjs.com/). Lunr.js is a full text client-side search engine and it works rather well. It took me a few tries to understand how lunr works and then translate that into a Jekyll site ([I had some help from this post](http://matthewdaly.co.uk/blog/2015/04/18/how-i-added-search-to-my-site-with-lunr-dot-js/)) so here's a walkthrough of I how got it all connected.
+I recently spent some time hooking up a Jekyll site with [lunr.js](http://lunrjs.com/). Lunr.js is a full text client-side search engine and it works rather well. It took me a few tries to understand how lunr works and then translate that into a Jekyll site ([I had some help from this post](http://matthewdaly.co.uk/blog/2015/04/18/how-i-added-search-to-my-site-with-lunr-dot-js/)) so here's a walk through of I how got it all connected.
 
 I also built a live demo with my site: [{{site.url}}/search](/search/)
 

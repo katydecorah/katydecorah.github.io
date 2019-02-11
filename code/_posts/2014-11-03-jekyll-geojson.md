@@ -12,11 +12,9 @@ Add this post to my love-affair-with-[Jekyll]({{site.url}}/code/mapbox-for-jekyl
 
 To summon Jekyll to a page, you use those six hyphens:
 
-## ```erb
-
+```erb
 ---
-
-````
+```
 
 Put variables inside or don't. Either way Jekyll will gobble it up and make something awesome. Jekyll doesn't discriminate.
 
@@ -34,7 +32,7 @@ All my [adventure](/adventures) posts have coordinates that I use to build a [st
 
 To start, I worked on my loop and found that this was the best route:
 
-```liquid{% raw %}
+````liquid{% raw %}
 {% assign places = (site.posts | where: "category", "adventures") %}
 {% for place in places %}
 
@@ -63,7 +61,8 @@ I created the file: `adventures.geojson` and added those six magical hyphens. Ne
 }{% if forloop.rindex > 1 %},{% endif%}{% endfor %}
 ]
 }
-{% endraw %}```
+{% endraw %}
+````
 
 Then, I added a few conditional statements to make sure my data looked tight:
 
@@ -125,4 +124,7 @@ A few things I would like to work on:
 - **Style a map for my site.** Right now I've been using a map that I styled with [Editor](https://www.mapbox.com/editor), but I should really get my hands dirty with [Studio](https://www.mapbox.com/mapbox-studio).
 
 Can you tell that I work for Mapbox now? <3
-````
+
+```
+
+```

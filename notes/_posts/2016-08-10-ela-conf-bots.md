@@ -11,13 +11,13 @@ Last year, [Ela Conf](http://elaconf.com) organizers and I relied on Google Form
 
 ## Volunteer, proposals, and grant bot
 
-Every time someone submits a volunteer application or an abstract, a new GitHub issue is created in our private repo and then our organizer Slack channel receives a ping:
+Every time someone submits a volunteer application or an abstract, a new GitHub issue is created in our private repository and then our organizer Slack channel receives a ping:
 
 {% include img.html class='img-half' src='2016-08-10-ela-conf-bots-1.png' alt='abstract' %}
 
 {% include img.html class='img-half' src='2016-08-10-ela-conf-bots-2.png' alt='volunteerbot' %}
 
-:raising_hand: **Under the hood:** First, I created a GitHub account @elaconfbot (to not inflate my GitHub graph, make it clear that I'm not creating new issues, and because bots are cute). I made a zap in Zapier that will submit a new GitHub issue by @elaconfbot once a new row in the form's spreadsheet is added (aka someone fills out the form). We also have a Slack integration that watches the repo for new issues.
+:raising_hand: **Under the hood:** First, I created a GitHub account @elaconfbot (to not inflate my GitHub graph, make it clear that I'm not creating new issues, and because bots are cute). I made a zap in Zapier that will submit a new GitHub issue by @elaconfbot once a new row in the form's spreadsheet is added (aka someone fills out the form). We also have a Slack integration that watches the repository for new issues.
 
 With Zapier, you can also assign labels and even add issues to milestones as someone submits a form. Now instead of reading a spreadsheet, we'll be able to comment on each abstract and use all GitHub's organizational features. I absolutely adore this workflow.
 

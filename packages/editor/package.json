@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dictionary-en-us": "^2.0.0",
     "meow": "^5.0.0",
     "rehype-parse": "^6.0.0",
     "rehype-retext": "^2.0.2",
@@ -23,6 +24,8 @@
     "retext-redundant-acronyms": "^1.2.2",
     "retext-repeated-words": "^1.2.2",
     "retext-simplify": "^4.1.2",
+    "retext-spell": "^2.4.0",
+    "retext-syntax-urls": "^1.0.1",
     "stream": "0.0.2",
     "unified": "^7.1.0",
     "unified-diff": "^2.0.0",
@@ -32,5 +35,11 @@
   },
   "bin": {
     "editor": "cli.js"
+  },
+  "devDependencies": {
+    "retext": "^6.0.1",
+    "tape": "^4.10.0",
+    "unist-builder": "^1.0.3",
+    "unist-util-remove-position": "^1.1.2"
   }
 }

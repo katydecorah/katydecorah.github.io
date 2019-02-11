@@ -16,7 +16,7 @@ For [Ela Conf](http://elaconf.com) 2016 and 2017, we created a Google Form to co
 - What did you find confusing?
 - What's one thing the speaker(s) can improve their talk for next time?
 
-We then read through the responses, summarized them into a personal report for each speaker, and then sent the feedback to each speaker after the conference.
+We then read through the responses, summarized them into a personal repository for each speaker, and then sent the feedback to each speaker after the conference.
 
 Reading through a spreadsheet with 290 rows with feedback for 20 sessions wasn't going to be fun, so I wrote [spreadsheet-collator](https://github.com/katydecorah/spreadsheet-collator/) that would:
 
@@ -56,7 +56,7 @@ While you're here, you also want to jot down the folder's ID, which is that stri
 
 ## Configure the collator
 
-After you've cloned the [spreadsheet-collator repo](https://github.com/katydecorah/spreadsheet-collator/), open up [config.js](https://github.com/katydecorah/spreadsheet-collator/blob/master/config.js), and update the config with the values you collected above.
+After you've cloned the [spreadsheet-collator repository](https://github.com/katydecorah/spreadsheet-collator/), open up [config.js](https://github.com/katydecorah/spreadsheet-collator/blob/master/config.js), and update the config with the values you collected above.
 
 ## Run the collator
 
