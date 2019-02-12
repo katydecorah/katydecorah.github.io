@@ -16,7 +16,7 @@ After creating the [Haml calendar]({{site.url}}/code/haml-calendar), I decided t
 
 How it works:
 
-1. <!--editor ignore initial-->Haml provides the initial time.
+1. <!--extra-eyes ignore initial-->Haml provides the initial time.
 2. Internal Sass rotates the hands of the clock to portray that time.
 3. CSS animation keeps the hands ticking.
 

@@ -33,7 +33,7 @@ I created a file in the root `families.csv` and wrote:
 
 And soon I had a CSV file with a list of the font family names.
 
-<!--editor ignore very--> I also used ["very ugly string manipulation hacks"](http://stackoverflow.com/a/30607373) to get a distinct list of tags and in alphabetical order. And with a few more very ugly string manipulation hacks, I got the [CSV file](https://github.com/katydecorah/font-library/blob/gh-pages/families.csv) looking exactly how I wanted:
+<!--extra-eyes ignore very--> I also used ["very ugly string manipulation hacks"](http://stackoverflow.com/a/30607373) to get a distinct list of tags and in alphabetical order. And with a few more very ugly string manipulation hacks, I got the [CSV file](https://github.com/katydecorah/font-library/blob/gh-pages/families.csv) looking exactly how I wanted:
 
 <div class="photos">
 {% include img.html src="2015-10-14-symlinking-jekyll-data-1.png" alt="CSV file" class="img-full" %}

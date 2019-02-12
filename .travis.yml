@@ -3,4 +3,4 @@ node_js: "stable"
 sudo: false
 script:
   - npm test
-  - editor {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic --diff
+  - extra-eyes {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic --diff

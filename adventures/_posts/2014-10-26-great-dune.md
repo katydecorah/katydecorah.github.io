@@ -11,7 +11,7 @@ feed: nah
 miles: 2
 ---
 
-<!--editor ignore very--> A very fall hike with an old friend on trailhead 8 (Great Dune) of the Albany Pine Bush.
+<!--extra-eyes ignore very--> A very fall hike with an old friend on trailhead 8 (Great Dune) of the Albany Pine Bush.
 
 <div class="photos">
 
