@@ -29,7 +29,7 @@ I added an `animation` in the example below to show the stack of elements before
 
 <p data-height="270" data-theme-id="97" data-slug-hash="1ef155d2126eb89a515ed9873dc1b722" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/1ef155d2126eb89a515ed9873dc1b722'>Simple Box, 2</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-<!--editor ignore relative to-->To create the sides, I skewed each pseudo element 45 degrees and then translated it into place. I translated each side relative to the size of the box, making the box scalable. If you adjust `$boxSize`, the box will happily scale to your input. I also applied a slight change of `0.025` to the translate. I found that the sides didn't match up exactly how I liked them, so I persuaded them into place.
+<!--extra-eyes ignore relative to-->To create the sides, I skewed each pseudo element 45 degrees and then translated it into place. I translated each side relative to the size of the box, making the box scalable. If you adjust `$boxSize`, the box will happily scale to your input. I also applied a slight change of `0.025` to the translate. I found that the sides didn't match up exactly how I liked them, so I persuaded them into place.
 
 I added an `animation` in the example below to show the `transform` (skew and translate) used to create the sides of the box.
 

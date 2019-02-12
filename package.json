@@ -4,13 +4,14 @@
   "description": "Katy DeCorah's personal webiste",
   "scripts": {
     "test": "tape test/*.js | tap-spec",
-    "test-content": "editor {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic",
+    "test-content": "extra-eyes {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic",
     "proofer": "htmlproofer ./_site",
     "precommit": "lint-staged",
     "scsslint": "stylelint _sass/*.scss"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
+    "extra-eyes": "1.0.0",
     "eslint": "^4.19.1",
     "husky": "^0.14.3",
     "js-yaml": "^3.12.0",
@@ -48,8 +49,5 @@
       "prettier --write",
       "git add"
     ]
-  },
-  "dependencies": {
-    "editor": "file:packages/editor"
   }
 }

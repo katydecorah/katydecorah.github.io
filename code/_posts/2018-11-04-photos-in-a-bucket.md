@@ -47,7 +47,7 @@ For each photo, I created these versions based on the max-width of my site:
 - 1000px wide
 - 1000px wide in webp
 
-<!--editor ignore Transmit-->For the time being, I'm using [Panic's Transmit](https://panic.com/transmit/) to sync my photos to my bucket. I'm now working on a build script that will resize images and upload it to S3 for me (stay tuned 📺).
+<!--extra-eyes ignore Transmit-->For the time being, I'm using [Panic's Transmit](https://panic.com/transmit/) to sync my photos to my bucket. I'm now working on a build script that will resize images and upload it to S3 for me (stay tuned 📺).
 
 ## Replace `img` with `picture`
 

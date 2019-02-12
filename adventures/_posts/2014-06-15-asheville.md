@@ -99,4 +99,4 @@ The clouds, though. (Can you tell that I had the window seat?)
 
 </div>
 
-<!--editor ignore very-->Farewell, two week vacation. You were very, very kind to me.
+<!--extra-eyes ignore very-->Farewell, two week vacation. You were very, very kind to me.
