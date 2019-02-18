@@ -1,8 +1,5 @@
 ---
 title: "Sleep Pajamas and Work Pajamas"
-
-#elsewhere-link: http://goodstuff.fm/theeastwing/12
-#elsewhere-site: GoodStuff.fm
 image: 2015-03-04-sleep-pajamas-work-pajamas-0.jpg
 tags:
   # - elsewhere
