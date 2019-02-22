@@ -299,9 +299,8 @@ figure {
 figcaption {
   color: lighten($text-color, 20%);
   font-size: $font-xs;
-  margin-bottom: 1em;
-  margin-top: 0.5em;
-  text-align: right;
+  margin-bottom: 2em;
+  margin-top: -1em;
 }
 
 .caption {

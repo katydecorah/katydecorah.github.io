@@ -79,6 +79,10 @@ img {
 }
 
 .img-half {
+  .post & {
+    max-width: 500px;
+  }
+
   @include breakpoint(medium) {
     width: 49.6%;
   }
