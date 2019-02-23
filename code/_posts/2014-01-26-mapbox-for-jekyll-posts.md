@@ -93,17 +93,14 @@ Since I'm still exploring and learning the Mapbox API, I'm not 100% ready to bre
 
 I altered my Google map code to consider the new Mapbox flag:
 
-```erb
-{% raw %}
-{% if page.locations %}
+```liquid
+{% raw %}{% if page.locations %}
 <div{% if page.mapType %} id="map"{% endif %} class="post-map-header">
 {% if page.mapType %}{% else %}
 {% include img.html src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location | replace:' ','+' }}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% else %}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% endif %}{% endfor %}&amp;zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&amp;size=1280x180&amp;scale=2&amp;sensor=false&amp;visual_refresh=true" class="post-location-image" alt="untitled" %}
 {% endif %}
-
 </div>
-{% endif %}
-{% endraw %}
+{% endif %}{% endraw %}
 ```
 
 If the post has `mapType`, then Jekyll will add `id="map"` and it will not load the Google map. For this page, which has `mapeType`, the logic above will output:
@@ -114,25 +111,25 @@ If the post has `mapType`, then Jekyll will add `id="map"` and it will not load 
 
 In my `end.html` include, that wraps up every post and page, I added a new include, `mapbox.html`. This include has the following logic:
 
-```erb
-{% raw %}
-{% if page.mapType %}
-
-<link href='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
-<script src='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+```html
+{% raw %}{% if page.mapType %}
+<link
+  href="//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css"
+  rel="stylesheet"
+/>
+<script src="//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js"></script>
 <script>
-var geoJson = [{"type":"FeatureCollection","features":[{% for location in page.locations %}{"type":"Feature","properties":{"marker-color":"#2A2B26"},"geometry":{"type":"Point","coordinates":[{{location}}]}}{% if forloop.last == false %},{% endif %}{% endfor %}]}],
-map = L.mapbox.map('map', 'katydecorah.h41bj3lj',{zoomControl: false}),
-markerLayer = L.mapbox.markerLayer().setGeoJSON(geoJson).addTo(map);
-map.fitBounds(markerLayer.getBounds());
-map.dragging.disable();
-map.touchZoom.disable();
-map.doubleClickZoom.disable();
-map.scrollWheelZoom.disable();
-if (map.tap) map.tap.disable();
+  var geoJson = [{"type":"FeatureCollection","features":[{% for location in page.locations %}{"type":"Feature","properties":{"marker-color":"#2A2B26"},"geometry":{"type":"Point","coordinates":[{{location}}]}}{% if forloop.last == false %},{% endif %}{% endfor %}]}],
+  map = L.mapbox.map('map', 'katydecorah.h41bj3lj',{zoomControl: false}),
+  markerLayer = L.mapbox.markerLayer().setGeoJSON(geoJson).addTo(map);
+  map.fitBounds(markerLayer.getBounds());
+  map.dragging.disable();
+  map.touchZoom.disable();
+  map.doubleClickZoom.disable();
+  map.scrollWheelZoom.disable();
+  if (map.tap) map.tap.disable();
 </script>
-{% endif %}
-{% endraw %}
+{% endif %}{% endraw %}
 ```
 
 If the page has `mapType`, then it will load Mapbox and create the `geoJson` variable. The `geoJson` variable is constructed using a loop on the current page `locations`.

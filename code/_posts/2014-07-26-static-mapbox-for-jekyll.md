@@ -17,13 +17,12 @@ I'm going with the [static Mapbox API](https://www.mapbox.com/developers/api/sta
 
 ## Front matter
 
-The front matter of this post, supplies `locations` and `coordinates`.
+The front matter of this post supplies `locations` and `coordinates`.
 
 ```yaml
 coordinates:
-
-- -73.7236504,43.2294791
-  locations: Moreau Lake State Park
+  - -73.7236504,43.2294791
+locations: Moreau Lake State Park
 ```
 
 As it stands, the `locations` variable doesn't help generate the static map. The Mapbox API accepts coordinates, but I want to keep the locations as a label and for future flexibility.
@@ -35,15 +34,14 @@ Zoom is also available as a front matter variable, but I set a default of 15, wh
 I updated my map include to generate the static map:
 
 ```html
-{% raw %} {% if page.coordinates %}
-
+{% raw %}{% if page.coordinates %}
 <div class="post-map-header">
   <div
     style="background-image:url(https://api.tiles.mapbox.com/v4/{{ site.mapid }}/{% for coordinate in page.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if page.zoom %}{{ page.zoom }}{% else %}15{% endif %}/1280x300.png?access_token={{ site.mapbox-token }})"
     class="post-location-image"
   ></div>
 </div>
-{% endif %} {% endraw %}
+{% endif %}{% endraw %}
 ```
 
 I placed my public API token and mapid in my config file, so that I can quickly edit those items when necessary.

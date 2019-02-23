@@ -22,14 +22,12 @@ But will it loop?
 
 I created a file in the root `families.csv` and wrote:
 
-## ```liquid{% raw %}
-
----
-
+```liquid
+{% raw %}---
 {% for item in site.data.families %}
 {{item.family}}
-{% endfor %}
-{% endraw %}```<!--_-->
+{% endfor %}{% endraw %}
+```
 
 And soon I had a CSV file with a list of the font family names.
 

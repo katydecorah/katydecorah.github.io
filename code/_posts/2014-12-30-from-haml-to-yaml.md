@@ -28,8 +28,8 @@ At first I copied and pasted the compiled HTML, but I knew it was going to be a 
 
 I saved the file into the Jekyll `_data` folder. Using a loop, I ran through each item and rebuilt markup output. [My code](https://github.com/katydecorah/css-ruler/blob/gh-pages/index.html) looks something like this:
 
-````html{% raw %}
-{% for item in site.data.lengths %}
+````html
+{% raw %}{% for item in site.data.lengths %}
 <div
   class="example-container"
   data-toggle="popover"
@@ -42,7 +42,7 @@ I saved the file into the Jekyll `_data` folder. Using a loop, I ran through eac
     title="[[unit]]{{item.length}}"
   ></div>
 </div>
-{% endfor %} {% endraw %}``` To make content changes, I'll update the Yaml. To
+{% endfor %} {% endraw %} ``` To make content changes, I'll update the Yaml. To
 make layout changes, I'll update the HTML. Party :tada:. ## The CSS Ruler Feast
 your eyes on the live [CSS Ruler](https://katydecorah.com/css-ruler/) or [jump
 into the code](https://github.com/katydecorah/css-ruler). p.s. Uncheck _all_ the

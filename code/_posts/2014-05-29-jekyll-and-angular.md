@@ -15,6 +15,4 @@ After some digging, I found [this Fiddle](http://jsfiddle.net/Bvc62/3/) and I le
 
 Interpolate provider will allow you to swap curly brackets for different characters.
 
-I created an example below.
-
-<p data-height="300" data-theme-id="6389" data-slug-hash="LqbjG" data-default-tab="result" class='codepen'>See the Pen Angular Interpolate Provider Example by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="300" data-slug-hash="LqbjG" data-default-tab="result" class='codepen'>See the Pen Angular Interpolate Provider Example by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

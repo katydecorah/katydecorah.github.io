@@ -20,17 +20,20 @@ At first I created an in-post variable that could swap out my default map ID `{%
 
 First, I needed to capture the post's month. (It seems like I can only grab this value as a string.)
 
-````erb{% raw %}
-{% capture month %}{{page.date | date: "%m"}}{% endcapture %}
-{% endraw %}```
+```liquid
+{% raw %}{% capture month %}{{page.date | date: "%m"}}{% endcapture %}{% endraw %}
+```
 
 Next, I evaluated the month -- December, January, February, and March will receive the winter map ID from my config, while other months will receive my default map ID.
 
-```erb{% raw %}
-{% if month == "12" or month == "01" or month == "02" or month == "03" %}{{site.mapid-winter}}{% else %}{{ site.mapid }}{% endif %}
-{% endraw %}```
+```liquid
+{% raw %}{% if month == "12" or month == "01" or month == "02" or month == "03" %}
+  {{site.mapid-winter}}
+{% else %}
+  {{ site.mapid }}
+{% endif %}{% endraw %}
+```
 
 I dropped this statement in my static map call and that was it! All my past winter month posts switched to my winter map ID. A fall map style may come in handy, but I'll stick with just two for right now. [See the full code.](https://github.com/katydecorah/katydecorah.github.io/blob/master/_includes/post-map-header.html)
 
 By the way, for my map styles I'm using [Mapbox Outdoors](https://github.com/mapbox/mapbox-studio-outdoors.tm2) and [Winter Wonderland](https://github.com/mapbox/mapbox-studio-winter-wonderland.tm2) both with small tweaks to remove the labels.
-````
