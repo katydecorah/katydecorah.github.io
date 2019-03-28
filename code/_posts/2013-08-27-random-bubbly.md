@@ -4,6 +4,7 @@ title: Random() bubbly
 tags:
   - Sass
   - Haml
+  - CodePen
 image: http://codepen.io/katydecorah/pen/xbtch/image/small.png
 ---
 

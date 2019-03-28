@@ -4,6 +4,7 @@ title: Simple chart
 tags:
   - Sass
   - jQuery
+  - CodePen
 image: http://codepen.io/katydecorah/pen/hungF/image/small.png
 ---
 

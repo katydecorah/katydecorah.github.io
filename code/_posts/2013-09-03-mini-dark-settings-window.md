@@ -4,6 +4,8 @@ title: Mini dark settings window
 tags:
   - Haml
   - Sass
+  - Dribbble
+  - CodePen
 image: http://codepen.io/katydecorah/pen/LpsGB/image/small.png
 ---
 

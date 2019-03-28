@@ -5,6 +5,7 @@ tags:
   - Sass
   - Haml
   - AngularJS
+  - CodePen
 image: http://codepen.io/katydecorah/pen/IiDKe/image/small.png
 project: true
 ---

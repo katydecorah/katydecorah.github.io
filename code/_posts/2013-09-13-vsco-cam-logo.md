@@ -5,6 +5,7 @@ tags:
   - Sass
   - Haml
   - animation
+  - CodePen
 image: http://codepen.io/katydecorah/pen/dLgqG/image/large.png
 ---
 

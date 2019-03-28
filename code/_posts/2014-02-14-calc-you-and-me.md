@@ -4,7 +4,8 @@ title: "calc(you + me)"
 tags:
   - animation
   - Sass
-image: http://farm4.staticflickr.com/3772/12730355005_2434189c5b_o.png
+  - CodePen
+image: 2014-02-14-calc-you-and-me-0.png
 ---
 
 <p data-height="560" data-theme-id="97" data-slug-hash="EGAmb" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/EGAmb'>calc(you + me)</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

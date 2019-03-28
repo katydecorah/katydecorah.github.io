@@ -48,13 +48,19 @@ h1,
 
   font-size: $h1-size;
   margin-top: 0;
-
-  @include breakpoint(small) {
-    font-size: 2em;
-  }
 }
 
-h2 .h2,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  font-weight: 700;
+}
+
+h2,
+.h2,
 h3,
 .h3 {
   @extend %headings-type;
@@ -73,7 +79,6 @@ h3,
 h4,
 .h4 {
   font-size: $h4-size;
-  font-weight: normal;
 }
 
 .xl {

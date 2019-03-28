@@ -9,7 +9,7 @@ locations:
 map: static
 coordinates:
   - -73.6011497,43.3416466
-image: http://farm3.staticflickr.com/2893/9874639174_9a41feb163_b.jpg
+image: 2013-09-21-adirondack-balloon-festival-0.jpg
 ---
 
 ## Balloon Festival
@@ -20,46 +20,50 @@ Once the sun came up, the wind picked up. Crews unfolded balloons and brought th
 
 <div class="photos">
 
-<img src="http://farm6.staticflickr.com/5468/9874729963_c1bf932d8a_b.jpg" class="img-half" alt="Adirondack Balloon Festival 2013">
-<img src="http://farm6.staticflickr.com/5461/9874631594_e10c10a2ce_b.jpg" class="img-half" alt="Adirondack Balloon Festival 2013">
-<img src="http://farm3.staticflickr.com/2865/9874732873_b11b3703e4_b.jpg" class="img-half" alt="Adirondack Balloon Festival 2013">
-<img src="http://farm3.staticflickr.com/2860/9874618285_70ef7cf2c8_b.jpg" class="img-half" alt="Adirondack Balloon Festival 2013">
-<img src="http://farm3.staticflickr.com/2893/9874639174_9a41feb163_b.jpg" class="img-half" alt="Adirondack Balloon Festival 2013">
-<img src="http://farm8.staticflickr.com/7333/9874643754_c1eeaaaedf_b.jpg" class="img-half" alt="Adirondack Balloon Festival 2013">
-<img src="http://farm8.staticflickr.com/7348/9874735143_a26183f17d_b.jpg" class="pop-out" alt="Adirondack Balloon Festival 2013">
+{% include img.html src="2013-09-21-adirondack-balloon-festival-1.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-2.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-3.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-4.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-0.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-5.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-6.jpg" class="pop-out" alt="Adirondack Balloon Festival 2013" %}
+
 </div>
 
 ## Coldbrook Preserve
 
-We got back into Glens Falls around 9 am and stopped for breakfast at The Peppermill. After mom and I rested a bit, we decided to take advantage of what was left of the now sunny Saturday.
+We got back into Glens Falls around 9 am and stopped for breakfast at The Peppermill. After mom and I rested a bit, we decided to take advantage of the now sunny Saturday.
 
-We drove out to the Coldbrook Preserve in Wilton. The preserve has a few very pleasant trails through forest and marsh. I would definitely go back.
+We drove out to the Coldbrook Preserve in Wilton. The preserve has a few pleasant trails through forest and marsh. I would definitely go back.
 
 <div class="photos">
 
-<img src="http://farm4.staticflickr.com/3813/9874611476_443e9c3ba3_b.jpg" class="img-half" alt="Coldbrook Preserve">
-<img src="http://farm6.staticflickr.com/5473/9874647796_6d4e44aec8_b.jpg" class="img-half" alt="Coldbrook Preserve">
-<img src="http://farm4.staticflickr.com/3681/9874640545_5b25026774_b.jpg" class="pop-out" alt="Coldbrook Preserve">
+{% include img.html src="2013-09-21-adirondack-balloon-festival-7.jpg" class="img-half" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-8.jpg" class="img-half" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-9.jpg" class="pop-out" alt="Coldbrook Preserve" %}
+
 </div>
 
 Adding to my collection of man-made things growing in trees.
 
 <div class="photos">
 
-<img src="http://farm4.staticflickr.com/3788/9874673106_b9b80d8bbd_b.jpg" class="img-half" alt="Coldbrook Preserve">
-<img src="http://farm8.staticflickr.com/7328/9874666895_75041378ee_b.jpg" class="img-half" alt="Coldbrook Preserve">
+{% include img.html src="2013-09-21-adirondack-balloon-festival-10.jpg" class="img-half" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-11.jpg" class="img-half" alt="Coldbrook Preserve" %}
+
 </div>
 
 Stump vision.
 
 <div class="photos">
 
-<img src="http://farm3.staticflickr.com/2831/9874792823_443ed738d8_b.jpg" class="img-half" alt="Coldbrook Preserve">
-<img src="http://farm8.staticflickr.com/7421/9874687686_3386a87dd0_b.jpg" class="img-half" alt="Coldbrook Preserve">
-<img src="http://farm4.staticflickr.com/3696/9874695376_bac284f5e8_b.jpg" class="pop-out" alt="Coldbrook Preserve">
-<img src="http://farm6.staticflickr.com/5349/9874772413_1280f5f169_b.jpg" class="img-half" alt="Coldbrook Preserve">
-<img src="http://farm8.staticflickr.com/7446/9874599525_9fd88d2085_b.jpg" class="img-half" alt="Coldbrook Preserve">
-<img src="http://farm3.staticflickr.com/2872/9874686455_a98c1b1323_b.jpg" class="pop-out" alt="Coldbrook Preserve">
+{% include img.html src="2013-09-21-adirondack-balloon-festival-12.jpg" class="img-half" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-13.jpg" class="img-half" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-14.jpg" class="pop-out" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-15.jpg" class="img-half" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-16.jpg" class="img-half" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-17.jpg" class="pop-out" alt="Coldbrook Preserve" %}
+
 </div>
 
 Despite the disappointment of the canceled balloon launch, I had a really great day with my wonderful mom.

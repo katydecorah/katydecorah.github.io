@@ -4,7 +4,8 @@ title: Slidey background
 tags:
   - Haml
   - Sass
-image: http://farm4.staticflickr.com/3326/13012960323_1ca9571922.jpg
+  - CodePen
+image: 2014-03-07-slidey-background-0.jpg
 pen: whobi
 ---
 
@@ -14,7 +15,7 @@ Each box above is an anchor tag with a `linear-gradient`. On hover, the `backgro
 
 ## Creating the gradient
 
-I created an even gradient for each link where the lighter color ends at 50% and the darker color starts at 50%. The gradient doesn't repeat, but it's twice it's size on either the x or y axis. For example, the up (&uarr;) link has `background-size: 100% 200%`. Unless I change the `background-position`, then the second half of the gradient will remain hidden because it's clipped by the size of the element.
+I created an even gradient for each link where the lighter color ends at 50% and the darker color starts at 50%. The gradient doesn't repeat, but it's twice it's size on either the x or y axis. For example, the up (&uarr;) link has `background-size: 100% 200%`. Unless I change the `background-position`, then the second half of the gradient will stay hidden because it's clipped by the size of the element.
 
 <figure>
 <p data-height="500" data-theme-id="97" data-slug-hash="faf98b949f3b126b2c2d809367798c0f" data-default-tab="result" class='codepen img-half'>See the Pen <a href='http://codepen.io/katydecorah/pen/faf98b949f3b126b2c2d809367798c0f'>Slidey Background: Demo 1</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -37,4 +38,4 @@ Did you notice the lip of the darker gradient peaking in? The lip is adjustable 
 
 ## Thoughts
 
-I love the sliding between the left (&larr;) and right (&rarr;) links. It appears that they are both tugging at the same rectangle. I'll have to hold onto this idea.
+I love the sliding between the left (&larr;) and right (&rarr;) links. It looks like they are both tugging at the same rectangle. I'll have to hold onto this idea.

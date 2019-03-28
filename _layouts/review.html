@@ -50,7 +50,7 @@
         {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% capture pageYear %}{{ page.title }}{% endcapture %}
         {% if year == pageYear %}
-        <a href="{{post.url}}" style="background-image:url({{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"></a>
+        <a href="{{post.url}}" style="background-image:url({{site.assets}}{{post.image}})" class="review-thumb" data-date="{{post.date | date: "%m%d"}}" title="{{post.title}}"></a>
         {% endif %}
         {% endfor %}
 
@@ -98,10 +98,11 @@
       <ul>{% for fav in data.favorites %}<li>{% for f in fav %}<a href="{{f[1]}}">{{f[0]}}</a>{% endfor %}</li>{% endfor %}</ul>
       {% endif %}
 
-      <h2>Most listened albums</h2>
-      <ol>{% for album in data.albums %}<li>{{album}}</li>{% endfor %}</ol>
+      {% if data.albums.size > 0 %}<h2>Most listened albums</h2>
+      <ol>{% for album in data.albums %}<li>{{album}}</li>{% endfor %}</ol>{% endif %}
       <h2>Most listened tracks</h2>
-      <img src="/img/playlists/{{page.title}}.png" alt="most listened tracks album art" />
+      {% assign img = page.title | append: '.png' %}
+      {% include img.html src=img alt="most listened tracks album art" %}
       {% if data.spotify %} {% include icons/music.svg %} <a href="{{ data.spotify }}" class="playlist-rdio">Listen on Spotify</a>{% endif %}
       <ol>{% for track in data.tracks %}<li>{{track}}</li>{% endfor %}</ol>
       {% endif %}{% endfor %}
@@ -136,7 +137,7 @@
       feature = marker.feature;
       // Create custom popup content
       var popupContent =  '<a target="_blank" class="popup external-'+feature.properties.external+'" href="' + feature.properties.url + '">' +
-      '<img alt="'+ feature.properties.title +'+" src="' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
+      '<img alt="'+ feature.properties.title +'+" src="{{site.assets}}' + feature.properties.image + '" /><h2 class="text-center">'+feature.properties.title+'</h2></a>';
 
       // http://leafletjs.com/reference.html#popup
       marker.bindPopup(popupContent,{

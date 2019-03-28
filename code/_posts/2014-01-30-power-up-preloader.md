@@ -3,8 +3,10 @@ title: Power Up Preloader by Mantas Ba&#269;iu&#353;ka
 
 tags:
   - Sass
+  - Dribbble
+  - CodePen
 pen: BfuGF
-image: https://farm3.staticflickr.com/2860/12730278733_e045273427_o.png
+image: 2014-01-30-power-up-preloader-0.png
 browser: Chrome 32.0.1700.102
 ---
 
@@ -25,7 +27,7 @@ The main element, `.battery`, is the outline of the battery. The `:before` is th
 
 ## You best customize
 
-Like my previous Pens, I also made this one scalable. Try changing `$size` in the Sass. I added a few conditions for when `$size` is less than 4em, because when $size is teeny the positioning gets thrown off. To help it along, I added a `background-color` to `.battery` to hide the pixel off-ness.
+Like my other pens, I also made this one scalable. Try changing `$size` in the Sass. I added a few conditions for when `$size` is less than 4em, because when \$size is teeny the positioning gets thrown off. To help it along, I added a `background-color` to `.battery` to hide the pixel off-ness.
 
 The color of the battery and background will adjust according to `$accent`. Darkish grays look pretty dope.
 

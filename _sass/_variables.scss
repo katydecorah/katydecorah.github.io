@@ -16,7 +16,7 @@ $dark-transparent02: rgba(0, 0, 0, 0.2);
 $link: #2980b9;
 
 $link-color: darken($link, 4%);
-$link-hover: $fancy-accent;
+$link-hover: darken($link, 15%);
 $link-transition: 0.1s;
 
 $body-font-size: 24px;
@@ -39,11 +39,11 @@ $media-max: 1000px;
 
 $border-radius-img: 0.15em;
 
-$h1-size: 2em;
-$h1-size-map: 3em;
-$h2-size: 1.424em;
-$h3-size: 1.266em;
-$h4-size: 1.125em;
+$h1-size: 1.602em;
+$h1-size-map: $h1-size;
+$h2-size: 1.266em;
+$h3-size: 1.125em;
+$h4-size: 1em;
 
 $border-radius: 0.2em;
 

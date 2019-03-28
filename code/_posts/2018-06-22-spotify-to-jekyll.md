@@ -1,7 +1,7 @@
 ---
 title: Turn a Spotify playlist into a Jekyll post
 
-image: https://c2.staticflickr.com/2/1780/41148768130_78baa7c1f4_o.png
+image: 2018-06-22-spotify-to-jekyll-0.png
 tags:
   - Node.js
   - Jekyll
@@ -31,6 +31,6 @@ spotify-to-jekyll --playlist=<playlist-id>
 
 In a few seconds, the script has updated `_data/playlist.yml`, created a new post, and downloaded a thumbnail image for the post.
 
-![GitHub app displaying the three files that have been downloaded](https://c2.staticflickr.com/2/1837/29086582348_5be7bd7e87_o.png)
+{% include img.html src='2018-06-22-spotify-to-jekyll-1.png' alt='GitHub app displaying the three files that have been downloaded' class='img-half' %}
 
 You can find the [code on GitHub](https://github.com/katydecorah/spotify-to-jekyll) to learn how to set it up for yourself.

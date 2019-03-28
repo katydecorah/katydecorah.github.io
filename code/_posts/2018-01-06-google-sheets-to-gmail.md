@@ -1,7 +1,7 @@
 ---
 title: Create emails from a Google spreadsheet
 
-image: https://c1.staticflickr.com/5/4768/39734525941_2f6f5dc8c7_o.png
+image: 2018-01-06-google-sheets-to-gmail-0.png
 tags:
   - JavaScript
   - API
@@ -9,9 +9,9 @@ tags:
 emoji: 📨
 ---
 
-For this past [Ela Conf](https://elaconf.com), we had a record number of proposals submitted, which also (unfortunately) meant a record number of rejection emails to be sent. In the past, we sent these individually, but the sheer volume was going to take hours. We didn't want to send a mass email because it was important to us to address the proposal submitter by their name and reference their submitted talk title(s).
+For this past [Ela Conf](//elaconf.com), we had a record number of proposals submitted, which also (unfortunately) meant a record number of rejection emails we need to send. In the past, we sent these individually, but the sheer volume was going to take hours. We didn't want to send a mass email because it was important to us to address the proposal submitter by their name and reference their submitted talk title(s).
 
-I found [a tutorial](https://developers.google.com/apps-script/articles/sending_emails) (which is curiously incorrectly titled) that can send emails from a Google spreadsheet and it worked very well for us.
+I found [a tutorial](https://developers.google.com/apps-script/articles/sending_emails) that can send emails from a Google spreadsheet and it worked well for us.
 
 I repurposed this script once again at Mapbox as part of our Gender Minority Employee Resource Group's mentorship program. We matched 64 pairs and we used this script to send an email to introduce the mentor and mentee. This time I updated the script to draft emails so that we could check each email before we sent it out.
 
@@ -25,13 +25,13 @@ Here's how you can use it.
 
 ## Set up your spreadsheet
 
-At a minimum, you'll need a row to hold the email addresses. From there, you'll want to store data in separate rows, for example, a row for the person's name and other specific information that you'd like to pop into a template. This script also assumes that your first row of data contains titles for each column.
+At the least, you'll need a row to hold the email addresses. From there, you'll want to store data in separate rows, for example, a row for the person's name and other specific information that you'd like to pop into a template. This script also assumes that your first row of data has titles for each column.
 
-Add one last column to your spreadsheet called "Email status" or similar. You'll use this column in the script to indicate if an email has already been drafted or sent to keep the script from creating duplicates.
+Add one last column to your spreadsheet called "Email status" or similar. You'll use this column in the script to state if an email has already been drafted or sent to keep the script from creating duplicates.
 
 For this example, I've created a fake business that matches you with a vegetable. New year, new me.
 
-![Screenshot of Google spreadsheet with sample data](https://c1.staticflickr.com/5/4727/38641692405_90c45293a4_o.png)
+{% include img.html src='2018-01-06-google-sheets-to-gmail-1.png' alt='Screenshot of Google spreadsheet with sample data' class='img-half' %}
 
 ## Set up the script
 
@@ -48,7 +48,7 @@ Make the script your own by specifying which columns have which data, assigning 
 
 Check out the [createDraft documentation](<https://developers.google.com/apps-script/reference/gmail/gmail-app#createDraft(String,String,String)>) to learn about more options. For example, you can cc or bcc others on the emails or add a reply-to address.
 
-The current script is set up to create drafts. If you'd prefer the script to send emails instead, swap out the `GmailApp.createDraft()` function with:
+I set up the current script to create drafts. If you'd prefer the script to send emails instead, swap out the `GmailApp.createDraft()` function with:
 
 ```js
 MailApp.sendEmail(
@@ -67,15 +67,13 @@ The first time you run the script you'll need to grant permission for it to read
 1. Click the play icon or click `Run > Run function > draftMyEmails` from the toolbar.
 2. A window should appear. Click "Review Permissions."
 3. Select the account you want to authenticate.
-
-- You may get a warning since this isn't an official script.
-- Review the code to get an idea of how it works and how it will interact with your account.
-- Once you feel comfortable, from the warning screen, click "Advanced" then "Go to Draft emails (unsafe)" (or whatever you named your script). This will get you through to the next screen.
-
+   - You may get a warning since this isn't an official script.
+   - Review the code to get an idea of how it works and how it will interact with your account.
+   - Once you feel comfortable, from the warning screen, click "Advanced" then "Go to Draft emails (unsafe)" (or whatever you named your script). This will get you through to the next screen.
 4. Click "Allow" to grant the script access to the stated parts of your account.
 
 ## Run the script
 
 After you authenticate, the script will run and you should find as many emails in your Gmail draft folder:
 
-![Screenshot of emails drafted in Gmail](https://c1.staticflickr.com/5/4689/27761717269_0ebfc01ff2_o.png)
+{% include img.html src='2018-01-06-google-sheets-to-gmail-2.png' alt='Screenshot of emails drafted in Gmail' class='img-half' %}

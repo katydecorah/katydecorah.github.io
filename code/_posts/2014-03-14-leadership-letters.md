@@ -5,7 +5,9 @@ tags:
   - Haml
   - Sass
   - animation
-image: http://farm8.staticflickr.com/7083/13157662535_270504e7a3_o.png
+  - Dribbble
+  - CodePen
+image: 2014-03-14-leadership-letters-0.png
 pen: htBka
 dribbble: http://drbl.in/ktXg
 ---
@@ -22,11 +24,11 @@ I recreated [Leadership Letters #2. by Jeroen van Eerden](http://drbl.in/ktXg) u
 The project has eight block elements, `.item`, nested in a container. Each `.item` is supposed to resemble the letter 'L'. (In my first commit I totally wrote that it was the number '7', re: title.) To get the shape, I assigned the top and right `border-color` colors, while I gave the bottom and left `border-color` transparent values.
 
 <figure>
-<p data-height="300" data-theme-id="5127" data-slug-hash="b113f096098c45121f65a78adc5f8af6" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/b113f096098c45121f65a78adc5f8af6'>Leadership Letters demo 1</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="300" data-slug-hash="b113f096098c45121f65a78adc5f8af6" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/b113f096098c45121f65a78adc5f8af6'>Leadership Letters demo 1</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <figcaption>Creating the shape with border</figcaption>
 </figure>
 
-At first, I didn't use the bottom or left borders at all. Instead, I used `box-shadow` to cast a white lip around the broadside of each element providing space between each `.item`. By doing that I had to increment the `z-index` to keep each element's noise underneath the previous. Unfortunately, the first element in the z-index stack was then on top of the last element. I scratched my head for a while, until I removed the `box-shadow` and clipped each element's nose with a transparent left border.
+<!--extra-eyes ignore previous-->At first, I didn't use the bottom or left borders at all. Instead, I used `box-shadow` to cast a white lip around the broadside of each element providing space between each `.item`. By doing that I had to increment the `z-index` to keep each element's nose underneath the previous. Unfortunately, the first element in the z-index stack was then on top of the last element. I scratched my head for a while, until I removed the `box-shadow` and clipped each element's nose with a transparent left border.
 
 Two cheers for simple code.
 
@@ -34,9 +36,9 @@ Two cheers for simple code.
 
 Next, I needed to get each `.item` on a circle and rotated about 45 degrees to achieve the cascading effect. I tweaked the _items on a circle_ mixin until each element fell into place. I've used the mixin before, but I must not have examined the code. I didn't realize that you can assign more than one `rotate` values in one `transform` rule. (I learned something new today _/air guitar/_).
 
-{% highlight css %}
+```css
 transform: rotate(0deg) translate(0.875em) rotate(45deg);
-{% endhighlight %}
+```
 
 Using the two rotates, I balanced out the items onto the circle and then locked them into position.
 
@@ -44,11 +46,11 @@ Using the two rotates, I balanced out the items onto the circle and then locked 
 
 I used `:nth-of-type` to alternate the colors of my Sass list, `$colors`. I thought I had the `:nth` selector game figured out, but it took me a few tries to alternate the colors among the items.
 
-{% highlight css %}
+```css
 :nth-of-type(4n + 2)
 :nth-of-type(4n + 3)
 :nth-of-type(4n + 4)
-{% endhighlight %}
+```
 
 The above will then compute as:
 
@@ -58,7 +60,7 @@ The above will then compute as:
 
 (I think that this makes sense to me. Hi, I'm insecure about `:nth`.)
 
-The first and fifth elements take the initial style from `.item`.
+<!--extra-eyes ignore initial-->The first and fifth elements take the initial style from `.item`.
 
 ## Border animation
 

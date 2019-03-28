@@ -3,8 +3,10 @@ title: Font Awesome Buttons
 
 tags:
   - Sass
+  - Dribbble
+  - CodePen
 pen: Bjhdw
-image: http://farm4.staticflickr.com/3731/12730354485_3d3356068b_o.png
+image: 2013-08-05-font-awesome-buttons-0.png
 
   - /code/2013/08/05/font-awesome-buttons/
   - /code/2013/08/05/font-awesome-buttons.html
@@ -18,4 +20,4 @@ I've been using [Font Awesome](http://fortawesome.github.io/Font-Awesome/) as my
 
 I created simple-to-mark-up buttons. Add the desired Font Awesome icon class to the anchor tag along with `icon-btn` and specify the color with _icon-blue_ (or red or purple). The _icon-btn_ class draws a simple and proportional circle around the icon. The icon color class will specify its respective color gradient background.
 
-I gave the `icon-btn` a larger `font-size` to magnify the detail. This value can be set a 1em to fit comfortably with text.
+I gave the `icon-btn` a larger `font-size` to magnify the detail. I set this value at 1em to fit comfortably with text.

@@ -4,8 +4,9 @@ title: Sass adjust-hue reference
 tags:
   - Sass
   - Haml
+  - CodePen
 pen: FgmJI
-image: http://farm6.staticflickr.com/5476/12730510033_3b98c3c1de_o.png
+image: 2013-01-09-sass-adjust-hue-reference-0.png
 project: true
 ---
 

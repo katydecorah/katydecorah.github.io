@@ -4,7 +4,8 @@ title: From Haml to Yaml
 tags:
   - Jekyll
   - AngularJS
-image: https://farm6.staticflickr.com/5157/14278201486_25b78eef45_o.png
+  - CodePen
+image: 2014-12-30-from-haml-to-yaml-0.png
 ---
 
 Way back in May, I built a pen based on [MDN's article](https://developer.mozilla.org/en-US/docs/Web/CSS/length) to visualize and compare all CSS lengths. Here's the original pen:
@@ -15,32 +16,35 @@ To store each length name and metadata, I created a multidimensional array in Ha
 
 ## To Jekyll
 
-I decided to create a Jekyll gh-pages repo and open up the tool there. I exported the CodePen and created a local Jekyll site. Once I organized the files, I refactored my code to [interpolate the AngularJS tags](/code/2014/05/29/jekyll-and-angular/).
+I decided to create a Jekyll gh-pages repository and open up the tool there. I exported the CodePen and created a local Jekyll site. Once I organized the files, I refactored my code to [interpolate the AngularJS tags](/code/jekyll-and-angular/).
 
 At first I copied and pasted the compiled HTML, but I knew it was going to be a pain to make any markup changes. I ended up reformatting the Haml array to Yaml (via regex find and replace):
 
-{% highlight yaml %}
-
+```yaml
 - length: em
   type: font-relative
-  description: This unit represents the calculated font-size of the element. If used on the font-size property itself, it represents the inherited font-size of the element.
-  {% endhighlight %}
+  description: This unit is the calculated font-size of the element. If used on the font-size property itself, it is the inherited font-size of the element.
+```
 
 I saved the file into the Jekyll `_data` folder. Using a loop, I ran through each item and rebuilt markup output. [My code](https://github.com/katydecorah/css-ruler/blob/gh-pages/index.html) looks something like this:
 
-{% highlight html %}{% raw %}
-{% for item in site.data.lengths %}
-
-<div class="example-container" data-toggle="popover" data-content="{{item.description}}" title="{{ item.length }}, {{item.type}}">
-<div class="example" style="width: [[ unit ]]{{ item.length }}; height: [[ unit ]]{{ item.length }}" title="[[unit]]{{item.length}}"></div>
+````html
+{% raw %}{% for item in site.data.lengths %}
+<div
+  class="example-container"
+  data-toggle="popover"
+  data-content="{{item.description}}"
+  title="{{ item.length }}, {{item.type}}"
+>
+  <div
+    class="example"
+    style="width: [[ unit ]]{{ item.length }}; height: [[ unit ]]{{ item.length }}"
+    title="[[unit]]{{item.length}}"
+  ></div>
 </div>
-{% endfor %}
-{% endraw %}{% endhighlight %}
-
-To make content changes, I'll update the Yaml. To make layout changes, I'll update the HTML. Party :tada:.
-
-## The CSS Ruler
-
-Feast your eyes on the live [CSS Ruler]({{site.url}}/css-ruler/) or [jump into the code](https://github.com/katydecorah/css-ruler).
-
-p.s. Uncheck _all_ the length types to unlock an Easter egg.
+{% endfor %} {% endraw %} ``` To make content changes, I'll update the Yaml. To
+make layout changes, I'll update the HTML. Party :tada:. ## The CSS Ruler Feast
+your eyes on the live [CSS Ruler](https://katydecorah.com/css-ruler/) or [jump
+into the code](https://github.com/katydecorah/css-ruler). p.s. Uncheck _all_ the
+length types to unlock an Easter egg.
+````

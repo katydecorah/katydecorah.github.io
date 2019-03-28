@@ -32,47 +32,61 @@ Excepteur [sint occaecat cupidatat](../) non proident, sunt in culpa qui officia
 
 ---
 
-{% highlight css %}
+```css
 #header h1 a {
-display: block;
-width: 300px;
-height: 80px;
+  display: block;
+  width: 300px;
+  height: 80px;
 }
-{% endhighlight %}
+```
 
 ---
 
+## Posts
+
+### Photo grids
+
 `.img-fourths`
 
+<div class="post">
 <div class="photos">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-fourths">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-fourths">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-fourths">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-fourths">
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-fourths" %}
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-fourths" %}
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-fourths" %}
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-fourths" %}
+</div>
 </div>
 
-`img-thirds`
+`.img-thirds`
 
+<div class="post">
 <div class="photos">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-thirds">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-thirds">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-thirds">
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-thirds" %}
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-thirds" %}
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-thirds" %}
+</div>
 </div>
 
 `.img-half`
 
+<div class="post">
 <div class="photos">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-half">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-half">
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-half" %}
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-half" %}
+</div>
 </div>
 
 `.img-wide`, `.img-tall`
 
+<div class="post">
 <div class="photos">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany" class="img-wide">
-<img src="https://farm8.staticflickr.com/7693/17131759382_5493242b29_b.jpg" class="img-tall" alt="Untitled">
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" class="img-wide" %}
+{% include img.html src="cali.jpg" class="img-tall" alt="Untitled" %}
+</div>
 </div>
 
+<div class="post">
 <div class="photos">
-<img src="https://farm4.staticflickr.com/3708/8907365662_937b4e2d71_b.jpg" alt="Washington Park, Albany">
+{% include img.html src="ducks.jpg" alt="Washington Park, Albany" %}
+</div>
 </div>

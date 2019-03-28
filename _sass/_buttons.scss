@@ -1,26 +1,28 @@
-.btn {
-  border: 2px solid;
+%btn {
+  border-radius: 2em;
   color: $text-color;
   display: inline-block;
+  padding: 0.3em 1.25em;
+}
+
+.btn {
+  @extend %btn;
+
+  background: $white;
   font-size: $font-small;
   margin-bottom: 0.5em;
-  padding: 0.3em 1em;
 
   &:hover {
     text-decoration: none;
   }
 
-  .icon-angle-right {
-    margin-left: 0.5em;
-  }
-
-  .icon-angle-left {
-    margin-right: 0.5em;
-  }
-
   .icon {
     height: 24px;
+  }
+
+  .icon-twitter {
+    left: -4px;
     position: relative;
-    top: 5px;
+    top: 4px;
   }
 }

@@ -113,16 +113,13 @@
   */
 
   .category {
-    border-radius: 1em;
-    display: block;
+    @extend %btn;
+
     margin-bottom: 0.5em;
-    padding: 0.25em 1em;
 
     @include breakpoint(medium) {
       display: inline-block;
       margin-bottom: 0;
-      margin-left: 0.25em;
-      margin-right: 0.25em;
     }
 
     @include breakpoint(big) {
@@ -132,11 +129,14 @@
     &.active,
     &:hover {
       background: $white;
+      color: $link-hover;
       text-decoration: none;
     }
   }
 
   .emoji {
+    left: -4px;
+    position: relative;
     vertical-align: middle;
   }
 }
@@ -144,9 +144,16 @@
 .post-tags {
   display: none;
 
+  .post-page & {
+    margin-top: 1em;
+  }
+
   @include breakpoint(medium) {
-    display: inline-block;
-    margin-left: 0.5em;
+    display: block;
+    .front-page & {
+      display: inline-block;
+      margin-left: 0.5em;
+    }
   }
 
   .post-tag {

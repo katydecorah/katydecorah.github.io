@@ -3,8 +3,10 @@ title: Triangles
 
 tags:
   - Sass
+  - Dribbble
+  - CodePen
 pen: hAive
-image: http://farm3.staticflickr.com/2878/12730825804_16446faf71_o.png
+image: 2013-08-06-triangles-0.png
 ---
 
 <p data-height="300" data-theme-id="97" data-slug-hash="hAive" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/hAive'>Triangles</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>

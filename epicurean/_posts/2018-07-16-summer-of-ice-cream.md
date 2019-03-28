@@ -1,7 +1,7 @@
 ---
 title: Summer of ice cream
 
-image: https://c2.staticflickr.com/2/1825/28417835647_c9de5b71b1_b.jpg
+image: 2018-07-16-summer-of-ice-cream-0.jpg
 emoji: 🍨
 ---
 
@@ -10,7 +10,7 @@ For the past month, I've tried a new ice cream recipe with ingredients from the 
 A few tips and notes:
 
 - I have this bad (well, delicious) habit of replacing all the dairy in ice cream recipes with heavy cream only. It's more calories, but I find it keeps the ice cream from getting an icy/frozen taste and gives you a smooth taste.
-- Use a rubber spatula on the pan once you mix the egg yolks with the cream. If you don't scrape well, you risk making an omelette on the bottom of your pan.
+- Use a rubber spatula on the pan once you mix the egg yolks with the cream. If you don't scrape well, you risk making an omelet on the bottom of your pan.
 - Use fresh eggs. It makes a huge difference.
 
 Here's what I made:
@@ -18,7 +18,7 @@ Here's what I made:
 ## Honey lavender
 
 <div class="photos">
-<img src="https://c2.staticflickr.com/2/1825/28417835647_c9de5b71b1_b.jpg" alt="honey lavender">
+{% include img.html src="2018-07-16-summer-of-ice-cream-0.jpg" alt="honey lavender" %}
 </div>
 
 [Honey lavender recipe](https://www.epicurious.com/recipes/food/views/honey-lavender-ice-cream-108526)
@@ -28,7 +28,7 @@ I followed the advice of a few commenters and used about half of the prescribed 
 ## Strawberry basil
 
 <div class="photos">
-<img src="https://c1.staticflickr.com/1/926/43287294981_d352117530_b.jpg" alt="Strawberry basil">
+{% include img.html src="2018-07-16-summer-of-ice-cream-1.jpg" alt="Strawberry basil" %}
 </div>
 
 [Strawberry basil recipe](https://www.finecooking.com/recipe/strawberry-basil-ice-cream)
@@ -38,7 +38,7 @@ No deviations or recommendations. This recipe was 👌.
 ## Toasted almond and cherry swirl
 
 <div class="photos">
-<img src="https://c1.staticflickr.com/1/923/28417835877_8d486897d7_b.jpg" alt="Toasted almond and cherry swirl">
+{% include img.html src="2018-07-16-summer-of-ice-cream-2.jpg" alt="Toasted almond and cherry swirl" %}
 </div>
 
 I borrowed bits from two recipes: [Toasted almond recipe](https://cooking.nytimes.com/recipes/1016628-almond-ice-cream) and [cherry swirl recipe](https://www.williams-sonoma.com/recipe/raspberry-swirl-ice-cream.html)
@@ -48,7 +48,7 @@ I recommend not mixing the caramelized toasted almonds into the batter and inste
 ## Blueberry vanilla and lemon curd ripple
 
 <div class="photos">
-<img src="https://c2.staticflickr.com/2/1809/41625141750_6f8621dde2_b.jpg" alt="Blueberry vanilla and lemon curd ripple">
+{% include img.html src="2018-07-16-summer-of-ice-cream-3.jpg" alt="Blueberry vanilla and lemon curd ripple" %}
 </div>
 
 Again, I borrowed from two recipes: [Blueberry recipe](https://cooking.nytimes.com/recipes/4730-blueberry-ice-cream) and [lemon curd recipe](http://thepioneerwoman.com/food-and-friends/lemon-curd-ripple-ice-cream/)

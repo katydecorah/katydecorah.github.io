@@ -7,14 +7,15 @@ author:
   name: Katy DeCorah
   email: katydecorah@gmail.com
   uri: https://katydecorah.com
+assets: //yo.katydecorah.com/
 
 paginate: 5
 paginate_path: ":num"
 future: true
 
 title: Katy DeCorah
-description: "Front-end developer and tinkerer from Saratoga Springs, NY."
-image: https://c2.staticflickr.com/8/7798/18359743065_ef178ded42_b.jpg
+description: "Frontend engineer and tinkerer from Saratoga Springs, NY."
+image: //yo.katydecorah.com/katy-decorah@1600.jpg
 twitter: "@katydecorah"
 
 collections:
@@ -48,6 +49,10 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+feed:
+  categories:
+    - code
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -66,6 +71,8 @@ exclude:
   - Gemfile.lock
   - package.json
   - test
+  - img/posts
+  - packages
 
 links:
   - text: CodePen

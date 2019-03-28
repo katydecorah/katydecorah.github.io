@@ -5,6 +5,8 @@ tags:
   - Sass
   - Haml
   - animation
+  - Dribbble
+  - CodePen
 image: http://codepen.io/katydecorah/pen/cdkHn/image/large.png
 pen: cdkHn
 ---
@@ -21,13 +23,13 @@ After I styled the first balloon, I absolutely positioned the balloon from the b
 
 I added more `.balloon` elements and wrote a Sass loop to give each balloon slight customizations. For example, I adjusted the hue of each balloon based on a predetermined color. I also used rgba to give a nice transparent look to the balloons whenever they collide.
 
-{% highlight css %}
-background: rgba(adjust-hue($balloonColorStart,random(360)),0.5);
-{% endhighlight %}
+```css
+background: rgba(adjust-hue(\$balloonColorStart, random(360)), 0.5);
+```
 
 Here `$balloonColorStart` is defined at the top of my Sass file, to be easily changed.
 
-In the Sass loop for the balloons, I created a variable called `$stringHeight` and set it to a random number up to 20em. I used `$stringHeight` for the height of the `:after` (which represents the string) and for the bottom value for each balloon element in the loop. Just like I had done before with my first balloon, but now dynamic.
+In the Sass loop for the balloons, I created a variable called `$stringHeight` and set it to a random number up to 20em. I used `$stringHeight` for the height of the `:after` (which is the string) and for the bottom value for each balloon element in the loop. Just like I had done before with my first balloon, but now dynamic.
 
 I also created a variable, `$balloonLeft`, to increment itself after every iteration of the loop to be applied as the left value. This made sure the balloons remained evenly spaced out.
 
@@ -35,16 +37,16 @@ At this point, I thought I was finished, but when I changed the width and height
 
 ## Let's make this thing scalable.
 
-I decided that the balloon width, or `$balloonWidth`, would be the main variable in keeping my proportions tight. From this variable, I calculated the height of the balloons by hitting `height: $balloonWidth * 1.25`. Now the height and width of my balloons are in proporation.
+I decided that the balloon width, or `$balloonWidth`, would be the main variable in keeping my proportions tight. From this variable, I calculated the height of the balloons by hitting `height: $balloonWidth * 1.25`. Now the height and width of my balloons are in proportion.
 
 Next, I adjusted my `:before`, or the rubber tie part of the balloon, to be in proportion with the width of the balloon. Here's what I came up with:
 
-{% highlight css %}
+```css
 width: $balloonWidth / 8;
 height: $balloonWidth / 14;
 bottom: ($balloonWidth / 14) \* -0.75;
-left: ($balloonWidth / 2) - ($balloonWidth / 14);
-{% endhighlight %}
+left: ($balloonWidth / 2) - (\$balloonWidth/14);
+```
 
 I went back and forth between setting the `$balloonWidth` from a low number and then to a high number and decided that those equations suited my rubber tie part of the balloon best.
 

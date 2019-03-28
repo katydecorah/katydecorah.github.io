@@ -4,7 +4,9 @@ title: "Food by nos"
 tags:
   - Sass
   - Haml
-image: http://farm4.staticflickr.com/3685/12730139965_505cccb115_o.png
+  - Dribbble
+  - CodePen
+image: 2013-12-23-food-by-nos-0.png
 dribbble: http://dribbble.com/shots/1355254-Food
 pen: Kyabd
 ---

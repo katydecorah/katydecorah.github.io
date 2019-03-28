@@ -1,0 +1,3 @@
+{
+    "plugins": ["remark-lint-no-dead-urls"]
+  }

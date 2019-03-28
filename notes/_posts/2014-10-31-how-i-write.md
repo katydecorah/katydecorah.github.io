@@ -1,19 +1,19 @@
 ---
 title: How I write
-image: https://cloud.githubusercontent.com/assets/2180540/4868004/fed98df4-613a-11e4-9950-f67d1bad8999.gif
+image: 2014-10-31-how-i-write-0.gif
 tags:
   - writing
 ---
 
-<p class="note">This is a devlog I wrote at Mapbox that inspired my talk <a href="{{site.url}}/writing-for-everyone/">Writing for everyone</a>.</p>
+<p class="note">This is a devlog I wrote at Mapbox that inspired my talk <a href="https://katydecorah.com/writing-for-everyone/">Writing for everyone</a>.</p>
 
 &hellip;I thought I'd share some of my personal writing tips. Just a few things I picked up from teaching (synchronous), my instructional design days (asynchronous), and for-fun blog writing.
 
 ## Hey, dummy.
 
-![hey-dummy](https://cloud.githubusercontent.com/assets/2180540/4868004/fed98df4-613a-11e4-9950-f67d1bad8999.gif)
+{% include img.html src="2014-10-31-how-i-write-0.gif" alt="hey dummy" %}
 
-To reassure the reader, you might want to say, "It's easy!". Unfortunately, that can backfire. If your reader doesn't agree, then s/he will probably bail. I like to assume that everything is hard (because it is).
+To reassure the reader, you might want to say, "It's easy!". Unfortunately, that can backfire. If your reader doesn't agree, then s/he will probably bail. I like to assume that everything is hard.
 
 I recommend checking out Chris Coyier's [Words To Avoid in Educational Writing](http://css-tricks.com/words-avoid-educational-writing/) and Brad Frost's [Just](https://the-pastry-box-project.net/brad-frost/2014-january-28).
 
@@ -29,7 +29,7 @@ I like to introduce jargon or acronyms like I would introduce two people. Start 
 
 ## Who did what in where?
 
-![clue](https://cloud.githubusercontent.com/assets/2180540/4868008/05c9b3e6-613b-11e4-9a98-ad0c3fd2d44f.gif)
+{% include img.html src='2014-10-31-how-i-write-1.gif' alt='clue' %}
 
 > After the file is saved...
 

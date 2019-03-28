@@ -4,7 +4,7 @@ title: Jekyll data playlists
 tags:
   - Jekyll
   - PHP
-image: https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png
+image: 2014-03-23-jekyll-data-playlists-0.png
 ---
 
 In 2008, I started creating a playlist for every season. I kept my playlists in iTunes, but have migrated to Rdio. These playlists are my audio diaries. I can listen to one and remember where I was, where I was going, who I was with, and how I felt. I love these playlists.
@@ -17,7 +17,7 @@ Next, I migrated the database to PHPmyadmin. Using PHP I spun out each playlist 
 
 ## Importing to Rdio
 
-After some more hacking, I was able to import the playlists into Rdio using [re/spin](http://resp.in/). Re/spin easily imports any Last.fm or Spotify playlist into Rdio. The service also accept [XSPF](http://www.xspf.org/). I was able to save each playlist as an XSPF and import it into Rdio.
+After some more hacking, I was able to import the playlists into Rdio using re/spin. Re/spin easily imports any Last.fm or Spotify playlist into Rdio. The service also accept [XSPF](http://www.xspf.org/). I was able to save each playlist as an XSPF and import it into Rdio.
 
 Not all songs transferred over, but enough did to make it worth it. Re/spin will want to find something if Rdio doesn't have a match, so beware of some funky replacements. Otherwise, re/spin is a fabulous service.
 
@@ -31,7 +31,7 @@ I decided to tighten up the process.
 
 I ditched the database and moved the playlists into a single YAML file. Using PHP, I outputted the playlist data into YAML format. I had to clean out special characters, but in all it worked beautifully. I saved my data into [`playlists.yml`](https://github.com/katydecorah/katydecorah.github.com/blob/master/_data/playlists.yml) in my site's `_data` folder.
 
-![playlists.xml](https://farm3.staticflickr.com/2868/13362876355_b3ce6c825f_o.png)
+{% include img.html src='2014-03-23-jekyll-data-playlists-0.png' alt='playlists.xml' class='img-half' %}
 
 Using liquid, I could now spin through the data. To test, I created a [playlist master]({{site.url}}/playlists) page that pulls all the data from `playlists.yml` into a beautiful list.
 
@@ -61,7 +61,7 @@ My new workflow for adding a playlist to my site at the end of the season:
 
 I found [this great bookmarklet](https://gist.github.com/nloko/3001053) that scrapes the title, artist, and album from a given Rdio playlist. I've had little experience with bookmarklets, but I hacked away at it. My version outputs the playlist into YAML. It also grabs the playlist title, image, and link to the playlist on Rdio.
 
-At this time, I need to make sure that the entire playlist is loaded and that I open the "Share" modal, otherwise the bookmarklet won't find those values. I'll make the bookmarklet sweet on a rainy day, but for now it works despite the conditions.
+Now, I need to make sure that the entire playlist is loaded and that I open the "Share" modal, otherwise the bookmarklet won't find those values. I'll make the bookmarklet sweet on a rainy day, but for now it works despite the conditions.
 
 ![Rdio playlist bookmarklet in action](http://i.imgur.com/4YDPRZl.gif)
 

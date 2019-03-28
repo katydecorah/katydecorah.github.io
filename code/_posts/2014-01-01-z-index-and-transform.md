@@ -1,21 +1,21 @@
 ---
 title: "z-index and transform"
-
 tags:
   - Haml
   - Sass
-image: http://farm8.staticflickr.com/7409/12730119235_c26ceaf678_o.png
+  - Dribbble
+  - CodePen
+image: 2014-01-01-z-index-and-transform-0.png
 pen: lqBtz
-dribbble: http://drbl.in/jJIr
 ---
 
 <p data-height="400" data-theme-id="97" data-slug-hash="lqBtz" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/lqBtz'>END by Catt</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I knew that I wanted to code out the Dribbble shot END by Catt as a single element. I planned on using the main element for the text and pseudo elements to create the tails of the ribbon.
 
-![Ribbon diagram](http://farm8.staticflickr.com/7409/12730119235_c26ceaf678_o.png)
+{% include img.html src='2014-01-01-z-index-and-transform-0.png' alt='Ribbon diagram' class='img-half' %}
 
-In making all of this happen, I was presented with of couple challenges.
+In making all this happen, I was presented with of couple challenges.
 
 1. Give the ribbon tail a shadow without adding extra elements.
 2. Preserve the stacking order on transform.
@@ -24,23 +24,23 @@ In making all of this happen, I was presented with of couple challenges.
 
 First, I created a triangle by manipulating the `border` properties to recreate the shadow effect of the ribbon. It worked, but it didn't match up perfectly.
 
-![Ribbon tail with triangles with opacity](http://farm8.staticflickr.com/7320/12730118965_f0fd2fc653_o.png)
-![Ribbon tail with triangles](http://farm8.staticflickr.com/7374/12730595314_72bf0f4849_o.png)
+{% include img.html src='2014-01-01-z-index-and-transform-1.png' alt='Ribbon tail with triangles with opacity' class='img-half' %}
+{% include img.html src='2014-01-01-z-index-and-transform-2.png' alt='Ribbon tail with triangles' class='img-half' %}
 
 And then, it came to me&hellip; a trapezoid!
 
-![Ribbon tail with trapezoids with opacity](http://farm8.staticflickr.com/7317/12730595464_24caa00dba_o.png)
-![Ribbon tail with trapezoids](http://farm8.staticflickr.com/7459/12730118995_d6dcbfac16_o.png)
+{% include img.html src='2014-01-01-z-index-and-transform-3.png' alt='Ribbon tail with trapezoids with opacity' class='img-half' %}
+{% include img.html src='2014-01-01-z-index-and-transform-4.png' alt='Ribbon tail with trapezoids' class='img-half' %}
 
 The trapezoid fit perfectly. I also used a variable `$ribbonSize` to keep the ribbon tails in proportion with the shadow. In doing so, the ribbon became scalable!
 
 ## Preserve the stacking order on transform
 
-Prior to this project, I noticed issues in preserving the stacking order, `z-index`, of elements once a `transform` is introduced. Until now, I didn't know how to remedy it, so I avoided it.
+Before this project, I noticed issues in preserving the stacking order, `z-index`, of elements once a `transform` is introduced. Until now, I didn't know how to remedy it, so I avoided it.
 
 Once I added `transform` to the main element, the pseudo elements appeared to disregard the `z-index: -1` rule and sat on top of the main element.
 
-![Ribbon transformed out of stacking order](http://farm8.staticflickr.com/7372/12730595494_33df26c087_o.png)
+{% include img.html src='2014-01-01-z-index-and-transform-5.png' alt='Ribbon transformed out of stacking order' class='img-half' %}
 
 Through research, I dove into the situation of what takes place between stacking orders and transforms. I learned that once transformed, an element needs to play by 3D rules. Without specifying the `transform-style`, I was technically still in flat mode.
 
@@ -49,25 +49,23 @@ Through research, I dove into the situation of what takes place between stacking
 
 To allow the children to exist on their own, I needed to pepper in a couple more properties. First, I told my main element to `preserve-3d`.
 
-{% highlight css %}
+```css
 .ribbon {
-...
-transform-style: preserve-3d;
+  ... transform-style: preserve-3d;
 }
-{% endhighlight %}
+```
 
 Next, I controlled the stacking order of the pseudo elements through `translateZ`. Think of `translateZ` as the 3D version of `z-index`.
 
-{% highlight css %}
+```css
 .ribbon {
-...
-transform-style: preserve-3d;
+  ... transform-style: preserve-3d;
 }
-.ribbon:before, .ribbon:after {
-...
-transform: translateZ(-1em);
+.ribbon:before,
+.ribbon:after {
+  ... transform: translateZ(-1em);
 }
-{% endhighlight %}
+```
 
 After adding these properties, my ribbon tails popped back into place behind the ribbon.
 

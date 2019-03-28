@@ -1,14 +1,14 @@
 {% if paginator.total_pages > 1 %}
 <div class="post-prev-next">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="post-prev">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="post-prev btn">
       {% include icons/angle-left.svg %} <span class="post-prev-title">Back</span>
     </a>
     {% else %}
     <div class="post-prev"></div>
   {% endif %}
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="post-next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="post-next btn">
       <span class="post-next-title">Next</span> {% include icons/angle-right.svg %}
     </a>
   {% endif %}

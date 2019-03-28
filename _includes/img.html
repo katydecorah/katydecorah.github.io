@@ -1,0 +1,5 @@
+{% assign ext =  include.src | slice: -4, 4 %}{% assign large = '@1600' | append: ext %}{% assign medium = '@1000' | append: ext %}{% assign largeImg = include.src | replace: ext, large %}{% assign mediumImg = include.src | replace: ext, medium %}{% if include.class contains 'img-half' or include.class contains 'img-thirds' or include.class contains 'img-fourths' or include.class contains 'img-wide' or include.class contains 'img-tall' or include.class contains 'img-split-wide' or include.class contains 'img-split-tall' %}{% assign largeImg = mediumImg %}{% endif %}<picture class="{{include.class}}">
+          <source srcset="{{site.assets}}{{largeImg | replace: ext, '.webp'}}" type="image/webp">{% if mediumImg != largeImg %}
+          <source srcset="{{site.assets}}{{largeImg}}" media="(min-width: 800px)">{% endif %}
+          <img alt="{{include.alt}}" src="{{site.assets}}{{mediumImg}}">
+        </picture>
