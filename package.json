@@ -15,7 +15,7 @@
     "eslint": "^4.19.1",
     "extra-eyes": "1.0.0",
     "husky": "^0.14.3",
-    "js-yaml": "^3.12.0",
+    "js-yaml": "^3.13.0",
     "lint-staged": "^7.3.0",
     "minimist": "^1.2.0",
     "moment": "^2.23.0",
@@ -25,7 +25,7 @@
     "request": "^2.88.0",
     "retext-spell": "^2.4.0",
     "stylelint": "^9.9.0",
-    "stylelint-scss": "^3.5.3",
+    "stylelint-scss": "^3.5.4",
     "tap-spec": "^5.0.0",
     "tape": "^4.10.1",
     "underscore": "^1.9.1"
