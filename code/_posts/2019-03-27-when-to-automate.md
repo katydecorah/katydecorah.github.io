@@ -1,6 +1,6 @@
 ---
 title: When to automate
-image: 2019-03-29-when-to-automate.jpg
+image: 2019-03-29-when-to-automate.png
 emoji: 🤖
 ---
 
