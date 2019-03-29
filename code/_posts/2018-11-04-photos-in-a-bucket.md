@@ -38,6 +38,25 @@ Now only my site can load my content, which keeps others from hotlinking my stuf
 
 Now that CloudFront is blocking traffic to my bucket outside of my domain, I created an error page. I did this in CloudFront by clicking **Error Pages** and then **Create Custom Error Response**. From the dropdown I selected `403: Forbidden` and hit `Yes` on **Customize Error Response**. I entered a response path of `/oops.html` which is [a file](//yo.katydecorah.com/oops.html) I uploaded to my bucket.
 
+## Create robots.txt
+
+You'll likely want to create a robots.txt file in your root directory to keep engines from indexing your assets. You can enter the following in your robots.txt file:
+
+```
+User-agent: *
+Disallow: /
+```
+
+If you use images in your social media meta tags, then you'll want to allow certain crawlers such as [Twitterbot](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html#url-crawling-caching):
+
+```
+User-agent: Twitterbot
+Disallow:
+
+User-agent: *
+Disallow: /
+```
+
 ## Generate photo versions
 
 For each photo, I created these versions based on the max-width of my site:
@@ -47,7 +66,9 @@ For each photo, I created these versions based on the max-width of my site:
 - 1000px wide
 - 1000px wide in webp
 
-<!--extra-eyes ignore Transmit-->For the time being, I'm using [Panic's Transmit](https://panic.com/transmit/) to sync my photos to my bucket. I'm now working on a build script that will resize images and upload it to S3 for me (stay tuned 📺).
+<!--extra-eyes ignore transmit-->
+
+For the time being, I'm using [Panic's Transmit](https://panic.com/transmit/) to sync my photos to my bucket. I'm now working on a build script that will resize images and upload it to S3 for me (stay tuned 📺).
 
 ## Replace `img` with `picture`
 
