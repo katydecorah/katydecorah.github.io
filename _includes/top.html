@@ -16,9 +16,9 @@
 <meta property="og:title" content="{{page.title}}" />
 <meta name="twitter:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% elsif page.excerpt %}{{page.excerpt | strip_html | strip_newlines | truncatewords: 30}}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:description" content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% elsif page.excerpt %}{{page.excerpt | strip_html | strip_newlines |  truncatewords: 30}}{% else %}{{ site.description }}{% endif %}" />
-<meta name="twitter:image" content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}{{site.image}}{% endif %}" />
-<meta name="st:image" content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}{{site.image}}{% endif %}" />
-<meta property="og:image" content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}{{site.image}}{% endif %}" />
+<meta name="twitter:image" content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}https:{{site.image}}{% endif %}" />
+<meta name="st:image" content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}https:{{site.image}}{% endif %}" />
+<meta property="og:image" content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}https:{{site.image}}{% endif %}" />
 <meta name="twitter:card" content="summary" />
 <meta property="og:type" content="blog" />
 <meta property="article:published_time" content="{{page.date}}" />
