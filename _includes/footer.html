@@ -6,10 +6,10 @@
       </div>
       <div class="bio-details">
         <div>Hello! I'm Katy DeCorah. I live in Saratoga Springs, NY with <a href="https://jasonmorris.com">my husband</a> and <a href="https://www.instagram.com/p/BpmUWaMgCB7/">son</a>. I'm a frontend engineer on the documentation team at <a href="https://www.mapbox.com">Mapbox</a>.</div>
+        <div class="nav">{% for link in site.links %}{% if link.position == 'bottom' %}{% assign icon = link.icon | prepend: 'icons/' | append: '.svg' %}
+          <a href="{{ link.url }}" title="{{ link.text }}" class="nav-link">{% include {{icon}} %}</a>{% endif %}{% endfor %}
+        </div>
       </div>
-    </div>
-    <div class="nav">{% for link in site.links %}{% if link.position == 'bottom' %}{% assign icon = link.icon | prepend: 'icons/' | append: '.svg' %}
-      <a href="{{ link.url }}" title="{{ link.text }}" class="nav-link">{% include {{icon}} %}</a>{% endif %}{% endfor %}
     </div>
   </div>
 </div>
