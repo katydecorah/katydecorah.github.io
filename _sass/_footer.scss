@@ -1,8 +1,8 @@
 .footer {
   background: $header-bg;
   margin-top: 2em;
-  z-index: 100;
   position: relative;
+  z-index: 100;
 
   .container {
     padding-bottom: 2em;
@@ -27,7 +27,7 @@
   @extend %flex;
   @extend %flex-space-between;
 
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 
   .bio-img,
   .bio-details {
@@ -46,12 +46,12 @@
   }
 
   .bio-img-container {
-    width: 200px;
     margin: 0;
+    width: 200px;
 
     img {
-      margin: 0;
       border-radius: 100%;
+      margin: 0;
     }
   }
 }

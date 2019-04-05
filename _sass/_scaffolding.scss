@@ -9,12 +9,12 @@ body {
 }
 
 html {
-  background: $header-bg;
+  background-color: $body-bg;
 }
 
 body {
   @extend %body-type;
-  background-color: $body-bg;
+
   color: $text-color;
   font-size: $body-font-size;
   line-height: 1.5;

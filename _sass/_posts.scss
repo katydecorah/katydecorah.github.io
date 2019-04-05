@@ -239,7 +239,7 @@
 
 .post-prev-next {
   @extend %flex-container;
-  @extend %flex-space-between;
+  // extend %flex-space-between;
 
   margin-top: 1em;
 
@@ -264,6 +264,10 @@
     text-decoration: none;
     transition: $link-transition;
   }
+}
+
+.post-prev {
+  margin-right: 1em;
 }
 
 .post-next {
