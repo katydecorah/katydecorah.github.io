@@ -2,6 +2,6 @@
 <a href="{{ post.url }}" class="post-link">
 <div class="post-meta">
 <div class="post-title"><div class="post-emoji">{% if post.emoji %}{{ post.emoji }}{% else %}{{site.data.emoji[category]}}{% endif %}</div>{{ post.title }}</div>
-<div class="post-date small">{% if page.title == 'Katy DeCorah' %}{{ category }} &times; {% endif %}{{ post.date | date: "%B %-d, %Y" }}{% if post.updated %}<span class="post-date-updated small">Updated {{ post.updated | date: "%B %d, %Y" }}</span>{% endif %}{% if post.elsewhere-site %}<span class="post-elsewhere-label"> &times; {{ post.elsewhere-site }} </span>{% endif %}{% if post.tags %}<span class="post-tags">{% for tag in post.tags %}<span class="post-tag">{{tag}}</span>{% endfor %}</span>{% endif %}</div>
+<div class="post-date small">{% if page.title == 'Katy DeCorah' %}{{ category }} &times; {% endif %}{{ post.date | date: "%B %-d, %Y" }}{% if post.updated %}<span class="post-date-updated small">Updated {{ post.updated | date: "%B %d, %Y" }}</span>{% endif %}{% if post.elsewhere-site %}<span class="post-elsewhere-label"> &times; {{ post.elsewhere-site }} </span>{% endif %}</div>
 </div>
 </a>
