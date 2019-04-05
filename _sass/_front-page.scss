@@ -11,10 +11,16 @@
     .post-prev-next {
       flex-wrap: wrap;
       margin-bottom: 1em;
+      // margin-left: -2em;
 
       .btn {
-        margin-right: 1em;
+        margin-right: 0.5em;
       }
+    }
+
+    .btn.category {
+      margin-right: 0.25em;
+      padding: 0.3em 0.5em;
     }
   }
 }
@@ -47,11 +53,10 @@
 
     .bio {
       .bio-details {
-        text-align: center;
         max-width: 450px;
+        text-align: center;
       }
       .bio-img.bio-img {
-        margin-right: 0;
         margin-bottom: 1em;
       }
     }
@@ -235,6 +240,40 @@
       background-color: darken($link-color, 15%);
       color: $white;
       text-decoration: none;
+    }
+  }
+}
+
+.btn.category {
+  position: relative;
+
+  &:hover {
+    &::after,
+    &::before {
+      font-size: 0.7em;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      z-index: 100;
+    }
+
+    &::after {
+      border-left: 0.4em solid transparent;
+      border-right: 0.4em solid transparent;
+      border-top: 0.4em solid $dark-accent;
+      content: "";
+      height: 0;
+      margin-top: -0.875em;
+      width: 0;
+    }
+
+    &::before {
+      background: $dark-accent;
+      border-radius: inherit;
+      color: $white;
+      content: attr(title);
+      padding: 0.25em 0.75em;
+      top: -1.5em;
     }
   }
 }

@@ -5,11 +5,16 @@
       {% include icons/angle-left.svg %} <span class="post-prev-title">Back</span>
     </a>
     {% else %}
-    <div class="post-prev"></div>
   {% endif %}
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="post-next btn">
       <span class="post-next-title">Next</span> {% include icons/angle-right.svg %}
     </a>
   {% endif %}
+  {% assign categories = site.categories | sort %}
+  {% for category in categories %}
+    {% assign name = category[0] %}
+    {% assign title = page.title | downcase %}
+    {% unless title == name %}<a title='{{name}}' href="/{{name}}" class="btn category">{{site.data.emoji[name]}}</a>{% endunless %}
+  {% endfor %}
 </div>{% endif %}
