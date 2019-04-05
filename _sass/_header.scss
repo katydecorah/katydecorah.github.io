@@ -5,6 +5,10 @@
   margin-bottom: 1em;
   position: relative;
 
+  .post-page & {
+    margin-bottom: 2em;
+  }
+
   .logo {
     @extend %small;
     @extend %fancy-type;
