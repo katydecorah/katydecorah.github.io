@@ -21,7 +21,9 @@
 
 .front-page-grid {
   @include breakpoint(medium) {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 45% 55%;
     grid-template-columns: 45% 55%;
 
     .content {
@@ -37,6 +39,9 @@
     }
 
     .bio {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
       margin-bottom: 0;
     }
