@@ -15,4 +15,4 @@ miles: .5
 {% include img.html src="2016-03-20-plotters-kill-3.jpg"  alt="Plotters Kill" %}
 </div>
 
-We hiked around Plotters Kill Preserve](http://www.alltrails.com/trail/us/new-york/plotter-kill-preserve) by starting on the blue trail. The blue trail is nice, but has limited views of the falls. We hopped on the red trail for a bit and were able to get a better view.
+We hiked around [Plotters Kill Preserve](http://www.alltrails.com/trail/us/new-york/plotter-kill-preserve) by starting on the blue trail. The blue trail is nice, but has limited views of the falls. We hopped on the red trail for a bit and were able to get a better view.
