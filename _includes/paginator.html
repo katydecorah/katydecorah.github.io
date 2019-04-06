@@ -1,5 +1,6 @@
 {% if paginator.total_pages > 1 %}
 <div class="post-prev-next">
+  <div class='prev-next-btns'>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="post-prev btn">
       {% include icons/angle-left.svg %} <span class="post-prev-title">Back</span>
@@ -11,10 +12,6 @@
       <span class="post-next-title">Next</span> {% include icons/angle-right.svg %}
     </a>
   {% endif %}
-  {% assign categories = site.categories | sort %}
-  {% for category in categories %}
-    {% assign name = category[0] %}
-    {% assign title = page.title | downcase %}
-    {% unless title == name %}<a title='{{name}}' href="/{{name}}" class="btn category">{{site.data.emoji[name]}}</a>{% endunless %}
-  {% endfor %}
+  </div>
+  {% include categories.html %}
 </div>{% endif %}

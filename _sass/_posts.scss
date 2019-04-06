@@ -240,10 +240,30 @@
 .post-prev-next {
   @extend %flex-container;
 
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 
   margin-top: 1em;
+
+  .prev-next-btns {
+    margin-bottom: 1em;
+  }
+
+  @include breakpoint(medium) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    .prev-next-btns {
+      margin-bottom: 0;
+    }
+  }
 
   .btn {
     margin-top: 0;

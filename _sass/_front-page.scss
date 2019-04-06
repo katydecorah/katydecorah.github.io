@@ -195,33 +195,35 @@
   margin-right: 0.25em;
   padding: 0.3em 0.5em;
 
-  &:hover {
-    &::after,
-    &::before {
-      font-size: 0.7em;
-      left: 50%;
-      position: absolute;
-      transform: translate(-50%, -50%);
-      z-index: 100;
-    }
+  @include breakpoint(medium) {
+    &:hover {
+      &::after,
+      &::before {
+        font-size: 0.7em;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+      }
 
-    &::after {
-      border-left: 0.4em solid transparent;
-      border-right: 0.4em solid transparent;
-      border-top: 0.4em solid $dark-accent;
-      content: "";
-      height: 0;
-      margin-top: -0.875em;
-      width: 0;
-    }
+      &::after {
+        border-left: 0.4em solid transparent;
+        border-right: 0.4em solid transparent;
+        border-top: 0.4em solid $dark-accent;
+        content: "";
+        height: 0;
+        margin-top: -0.875em;
+        width: 0;
+      }
 
-    &::before {
-      background: $dark-accent;
-      border-radius: inherit;
-      color: $white;
-      content: attr(title);
-      padding: 0.25em 0.75em;
-      top: -1.5em;
+      &::before {
+        background: $dark-accent;
+        border-radius: inherit;
+        color: $white;
+        content: attr(title);
+        padding: 0.25em 0.75em;
+        top: -1.5em;
+      }
     }
   }
 }
