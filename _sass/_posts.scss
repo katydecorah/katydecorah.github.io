@@ -239,19 +239,21 @@
 
 .post-prev-next {
   @extend %flex-container;
-  // extend %flex-space-between;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 
   margin-top: 1em;
 
-  @include breakpoint(small) {
-    // scss-lint:disable ImportantRule
-    display: block !important;
+  .btn {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
 .post-prev,
 .post-next {
-  @extend %flex-center;
+  @extend %flex-center-inline;
 
   position: relative;
   transition: $link-transition;

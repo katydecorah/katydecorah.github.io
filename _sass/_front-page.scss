@@ -1,4 +1,8 @@
 .front-page {
+  .btn {
+    margin-right: 0.5em;
+  }
+
   @include breakpoint(medium) {
     .container {
       padding: 0;
@@ -11,16 +15,6 @@
     .post-prev-next {
       flex-wrap: wrap;
       margin-bottom: 1em;
-      // margin-left: -2em;
-
-      .btn {
-        margin-right: 0.5em;
-      }
-    }
-
-    .btn.category {
-      margin-right: 0.25em;
-      padding: 0.3em 0.5em;
     }
   }
 }
@@ -156,56 +150,6 @@
   font-size: 0.8em;
 }
 
-.categories {
-  @extend %xxs;
-
-  display: none;
-  margin-bottom: 2em;
-
-  @include breakpoint(medium) {
-    display: block;
-  }
-
-  /*
-
-  @include breakpoint(big) {
-  position: fixed;
-  left: 2em;
-  margin-top: 1.5em;
-  width: 12em;
-}
-
-*/
-
-  .category {
-    @extend %btn;
-
-    margin-bottom: 0.5em;
-
-    @include breakpoint(medium) {
-      display: inline-block;
-      margin-bottom: 0;
-    }
-
-    @include breakpoint(big) {
-      margin-bottom: 0.25em;
-    }
-
-    &.active,
-    &:hover {
-      background: $white;
-      color: $link-hover;
-      text-decoration: none;
-    }
-  }
-
-  .emoji {
-    left: -4px;
-    position: relative;
-    vertical-align: middle;
-  }
-}
-
 .post-tags {
   display: none;
 
@@ -245,7 +189,11 @@
 }
 
 .btn.category {
+  @extend %flex-child-no-shrink;
+
   position: relative;
+  margin-right: 0.25em;
+  padding: 0.3em 0.5em;
 
   &:hover {
     &::after,
