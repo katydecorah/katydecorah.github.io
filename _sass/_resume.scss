@@ -1,0 +1,22 @@
+.front-page-resume {
+  .content {
+    font-size: 16px;
+    a {
+      @extend .btn;
+
+      color: $link-color;
+      &:hover {
+        color: $link-hover;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 1em;
+  }
+}
