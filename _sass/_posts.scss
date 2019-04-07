@@ -251,6 +251,8 @@
   margin-top: 1em;
 
   .prev-next-btns {
+    @extend %flex-container;
+
     margin-bottom: 1em;
   }
 
@@ -259,10 +261,6 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-
-    .prev-next-btns {
-      margin-bottom: 0;
-    }
   }
 
   .btn {

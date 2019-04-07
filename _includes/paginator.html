@@ -3,13 +3,13 @@
   <div class='prev-next-btns'>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="post-prev btn">
-      {% include icons/angle-left.svg %} <span class="post-prev-title">Back</span>
+      {% include icons/angle-left.svg %} <span class="post-prev-title">Newer</span>
     </a>
     {% else %}
   {% endif %}
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="post-next btn">
-      <span class="post-next-title">Next</span> {% include icons/angle-right.svg %}
+      <span class="post-next-title">Older</span> {% include icons/angle-right.svg %}
     </a>
   {% endif %}
   </div>
