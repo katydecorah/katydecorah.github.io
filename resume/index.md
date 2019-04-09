@@ -17,9 +17,11 @@ Maintain frontend for all docs.mapbox.com including React component library that
 
 Built tools to streamline and automate processes for a growing community conference, including an application review system with the GitHub API that helped us scale from 24 applicants to 200.
 
+<!--
 ## **UI Designer, Fire Engine RED**, 2014
 
 Designed print, email search campaigns, and web applications for colleges and universities.
+-->
 
 ## **Instructional Designer, Professional Development Program**, 2011 - 2014
 
@@ -31,7 +33,7 @@ Instructed Web Development, Intermediate Web Development, and Intermediate Inter
 
 # Skills
 
-[HTML](/tags/#haml) [CSS](/tags/#css) [Sass](/tags/#sass) [JavaScript](/tags/#javascript) [Node.js](/tags/#node.js) [React](/tags/#react) [AWS](/tags/#aws) [APIs](/tags/#api) [Jekyll](/tags/#jekyll) [Git](/tags/#git) [GitHub](https://github.com/katydecorah) [writing](/tags/#writing)
+[HTML](/tags/#haml), [CSS](/tags/#css), [Sass](/tags/#sass), [JavaScript](/tags/#javascript), [Node.js](/tags/#node.js), [React](/tags/#react), [AWS](/tags/#aws), [APIs](/tags/#api), [Jekyll](/tags/#jekyll), [Git](/tags/#git), [GitHub](https://github.com/katydecorah), [writing](/tags/#writing)
 
 # Education
 
