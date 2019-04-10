@@ -8,10 +8,14 @@
     "proofer": "htmlproofer ./_site",
     "lint-md": "remark {adventures,code,epicurean,notes}/_posts",
     "precommit": "lint-staged",
-    "scsslint": "stylelint _sass/*.scss"
+    "scsslint": "stylelint _sass/*.scss",
+    "send-images": "node bin/appropriate-images.js"
   },
   "devDependencies": {
+    "@mapbox/appropriate-images": "^2.0.0",
+    "aws-sdk": "^2.437.0",
     "babel-eslint": "^8.2.6",
+    "dotenv": "^7.0.0",
     "eslint": "^4.19.1",
     "extra-eyes": "1.0.1",
     "husky": "^0.14.3",
@@ -24,6 +28,7 @@
     "remark-lint-no-dead-urls": "^0.4.1",
     "request": "^2.88.0",
     "retext-spell": "^2.4.0",
+    "rimraf": "^2.6.3",
     "stylelint": "^9.9.0",
     "stylelint-scss": "^3.5.4",
     "tap-spec": "^5.0.0",
