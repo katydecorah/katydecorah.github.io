@@ -49,7 +49,10 @@ appropriateImages
   .then(() => {
     // upload to S3
     const files = fs.readdirSync(destination).reduce((arr, file) => {
-      arr.push({ path: `${destination}${file}`, file });
+      arr.push({
+        path: `${destination}${file}`,
+        file: file.replace('-1000', '@1000').replace('-1600', '@1600')
+      });
       return arr;
     }, []);
     return Promise.all(
