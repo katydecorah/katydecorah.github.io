@@ -1,12 +1,12 @@
 ---
 title: Create emails from a Google spreadsheet
-
 image: 2018-01-06-google-sheets-to-gmail-0.png
 tags:
   - JavaScript
   - API
   - Ela Conf
 emoji: 📨
+ad: true
 ---
 
 For this past [Ela Conf](//elaconf.com), we had a record number of proposals submitted, which also (unfortunately) meant a record number of rejection emails we need to send. In the past, we sent these individually, but the sheer volume was going to take hours. We didn't want to send a mass email because it was important to us to address the proposal submitter by their name and reference their submitted talk title(s).
