@@ -12,8 +12,7 @@
     "send-images": "node bin/appropriate-images.js"
   },
   "devDependencies": {
-    "@mapbox/appropriate-images": "^2.0.0",
-    "aws-sdk": "^2.441.0",
+    "aws-sdk": "^2.444.0",
     "babel-eslint": "^8.2.6",
     "dotenv": "^7.0.0",
     "eslint": "^4.19.1",
@@ -34,6 +33,9 @@
     "tap-spec": "^5.0.0",
     "tape": "^4.10.1",
     "underscore": "^1.9.1"
+  },
+  "optionalDependencies": {
+    "@mapbox/appropriate-images": "^2.0.0"
   },
   "lint-staged": {
     "**/*.js": [
@@ -57,5 +59,25 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "dependencies": {
+    "@mapbox/appropriate-images": "^2.0.0"
+  },
+  "main": "index.js",
+  "bin": {
+    "katy-decorah": "appropriate-images.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katydecorah/katydecorah.github.io.git"
+  },
+  "author": "Katy DeCorah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katydecorah/katydecorah.github.io/issues"
+  },
+  "homepage": "https://github.com/katydecorah/katydecorah.github.io#readme"
 }
