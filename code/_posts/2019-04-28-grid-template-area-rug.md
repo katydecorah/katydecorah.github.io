@@ -24,7 +24,7 @@ With `grid-template-areas` you can assign a `grid-area` to elements you want to 
 
 I decided to see how far I could push the boundaries of `grid-areas`. Taking tool inspiration from [Heroes Queue](/code/heroes-queue/), I created a 57 x 57 grid in Google Sheets by resizing the rows and columns.
 
-My ink was the formula `= "r" & ROW() & "c" & COLUMN()` which assigned a unique value to each cell. I also used a [conditional formatting rule](https://support.google.com/docs/answer/78413?co=GENIE.Platform%3DDesktop&hl=en) to turn any cell that began with `r` to black. To denote whitespace, I entered a period `.` which came in handy later.
+My ink was the formula `= "r" & ROW() & "c" & COLUMN()` which assigned a unique value to each cell. I also used a conditional formatting rule to turn any cell that began with `r` to black. To denote whitespace, I entered a period `.` which came in handy later.
 
 <div class="photos">
 {% include img.html src="2019-04-29-grid-template-area-rug.png" alt="Google spreadsheet pattern" %}
