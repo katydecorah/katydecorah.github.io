@@ -86,3 +86,11 @@ The CSS above is the first three rows of the floor. You can see the pattern of a
 Finally, I used CSS to add background color to `.tile` which turned all the tiles (except for the whitespace) to the color of my choosing.
 
 This project was a silly project, but I loved learning more about CSS grid and, unexpectedly, learning how to create sidebars in Google Sheets.
+
+## More patterns
+
+<p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="html,result" data-user="katydecorah" data-slug-hash="pBBEdN" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="grid-template-area-rug, 2">
+  <span>See the Pen <a href="https://codepen.io/katydecorah/pen/pBBEdN/">
+  grid-template-area-rug, 2</a> by Katy DeCorah (<a href="https://codepen.io/katydecorah">@katydecorah</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
