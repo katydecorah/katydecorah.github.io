@@ -66,7 +66,7 @@ The compiled HTML includes a div for each tile and each tile is assigned a uniqu
 Then using `grid-template-areas`, I call each `.tile` by its `grid-area` name exactly where I want it to appear in each row. Remember that period `.` for the whitespace? In `grid-template-areas` a period denotes an empty track which kept my whitespace intact.
 
 ```css
-.tiles1 {
+.tiles-0 {
   grid-template-areas:
     "r1c1  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . r1c57"
     ". r2c2  r2c3  r2c4  r2c5  r2c6  r2c7  r2c8  r2c9  r2c10 r2c11 r2c12 r2c13 r2c14 r2c15 r2c16 r2c17 r2c18 r2c19 r2c20 r2c21 r2c22 r2c23 r2c24 r2c25 r2c26 r2c27 r2c28 r2c29 r2c30 r2c31 r2c32 r2c33 r2c34 r2c35 r2c36 r2c37 r2c38 r2c39 r2c40 r2c41 r2c42 r2c43 r2c44 r2c45 r2c46 r2c47 r2c48 r2c49 r2c50 r2c51 r2c52 r2c53 r2c54 r2c55 r2c56 ."
