@@ -8,6 +8,7 @@ tags:
   - CSS
   - Haml
   - JavaScript
+  - Google Sheets
 ---
 
 Inspired by a recent [tile](https://www.instagram.com/p/BTO9mu0gQm6/) [search](https://www.instagram.com/p/BV7hx9blq19/), I set out to create a tiled floor pattern with CSS grid. Thanks to helpful examples on [Grid by Example](https://gridbyexample.com/examples/example11/) by [Rachel Andrew](https://rachelandrew.co.uk/), I tried [grid-template-areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas).
