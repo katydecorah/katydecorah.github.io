@@ -12,7 +12,7 @@
     "send-images": "node bin/appropriate-images.js"
   },
   "devDependencies": {
-    "aws-sdk": "^2.444.0",
+    "aws-sdk": "^2.478.0",
     "babel-eslint": "^8.2.6",
     "dotenv": "^7.0.0",
     "eslint": "^4.19.1",
@@ -22,16 +22,16 @@
     "lint-staged": "^7.3.0",
     "minimist": "^1.2.0",
     "moment": "^2.23.0",
-    "prettier": "^1.17.0",
+    "prettier": "^1.18.2",
     "remark-cli": "^6.0.1",
     "remark-lint-no-dead-urls": "^0.4.1",
     "request": "^2.88.0",
-    "retext-spell": "^2.4.0",
+    "retext-spell": "^2.4.1",
     "rimraf": "^2.6.3",
     "stylelint": "^9.9.0",
-    "stylelint-scss": "^3.6.0",
+    "stylelint-scss": "^3.8.0",
     "tap-spec": "^5.0.0",
-    "tape": "^4.10.1",
+    "tape": "^4.10.2",
     "underscore": "^1.9.1"
   },
   "optionalDependencies": {
