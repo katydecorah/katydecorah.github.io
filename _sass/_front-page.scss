@@ -1,4 +1,14 @@
 .front-page {
+  @include breakpoint(medium) {
+    background: linear-gradient(
+      90deg,
+      $body-bg 0%,
+      $body-bg 55%,
+      $white 55%,
+      $white 100%
+    );
+  }
+
   .btn {
     margin-right: 0.5em;
   }
@@ -20,11 +30,14 @@
 }
 
 .front-page-grid {
+  margin: 0 auto;
+  max-width: 1280px;
+
   @include breakpoint(medium) {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 45% 55%;
-    grid-template-columns: 45% 55%;
+    -ms-grid-columns: 55% 45%;
+    grid-template-columns: 55% 45%;
 
     .content {
       margin: 1em 1em 0 2em;
@@ -34,8 +47,9 @@
       background: $white;
       margin-top: 0;
       min-height: 100vh;
-      order: -1;
+      // order: -1;
       padding: 2em 1em 0;
+      position: relative;
     }
 
     .bio {
@@ -44,6 +58,7 @@
       -ms-flex-direction: column;
       flex-direction: column;
       margin-bottom: 0;
+      max-width: 700px;
     }
 
     .nav {

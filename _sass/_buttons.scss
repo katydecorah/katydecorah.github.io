@@ -26,3 +26,7 @@
     top: 4px;
   }
 }
+
+.btn-disabled {
+  color: darken($body-bg, 20%);
+}
