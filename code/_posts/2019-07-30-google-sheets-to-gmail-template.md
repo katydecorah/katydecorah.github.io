@@ -1,6 +1,6 @@
 ---
 title: Create emails from a Google spreadsheet and Google doc template
-image: 2019-07-31-email-2.png
+image: 2019-07-31-email-0.png
 tags:
   - JavaScript
   - API
