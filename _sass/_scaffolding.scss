@@ -23,12 +23,10 @@ body {
 
 a {
   color: $link-color;
-  text-decoration: none;
   transition: $link-transition;
 
   &:hover {
     color: $link-hover;
-    text-decoration: underline;
     transition: $link-transition;
   }
 }

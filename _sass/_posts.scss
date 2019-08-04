@@ -1,3 +1,7 @@
+.post-type {
+  text-decoration: none;
+}
+
 .post {
   @media (max-width: $container-width) {
     padding-left: 1em;

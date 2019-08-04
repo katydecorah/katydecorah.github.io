@@ -17,9 +17,10 @@
     display: block;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+    text-decoration: none;
 
     &:hover {
-      text-decoration: none;
+      color: $link-hover;
     }
   }
 }
