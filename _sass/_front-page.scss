@@ -13,6 +13,10 @@
     margin-right: 0.5em;
   }
 
+  .post-prev-next {
+    @extend %flex-wrap;
+  }
+
   @include breakpoint(medium) {
     .container {
       padding: 0;
@@ -23,7 +27,6 @@
     }
 
     .post-prev-next {
-      flex-wrap: wrap;
       margin-bottom: 1em;
     }
   }

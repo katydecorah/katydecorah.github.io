@@ -256,6 +256,7 @@
 
   .prev-next-btns {
     @extend %flex-container;
+    @extend %flex-wrap;
 
     margin-bottom: 1em;
   }

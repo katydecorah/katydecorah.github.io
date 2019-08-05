@@ -9,18 +9,23 @@
     padding-top: 3em;
   }
 
+  .nav {
+    @extend %flex-center-inline;
+    @extend %flex-space-between;
+    @extend %flex-wrap;
+
+    margin-top: 1em;
+    max-width: 250px;
+    width: 100%;
+  }
+
   .nav-link {
-    padding-right: 1em;
     text-decoration: none;
 
     &.nav-link:hover {
       color: $link-hover;
       text-decoration: none;
     }
-  }
-
-  .nav {
-    margin-top: 1em;
   }
 }
 

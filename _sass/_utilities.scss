@@ -79,6 +79,11 @@ img {
   justify-content: space-between;
 }
 
+%flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 %text-right,
 .text-right {
   text-align: right;

@@ -6,14 +6,14 @@
       {% include icons/angle-left.svg %} <span class="post-prev-title">Newer</span>
     </a>
     {% else %}
-    <div class="post-prev btn btn-disabled">{% include icons/angle-left.svg %} <span class="post-prev-title">Newer</div>
+    <div class="post-prev btn btn-disabled" aria-disabled="true">{% include icons/angle-left.svg %} <span class="post-prev-title">Newer</div>
   {% endif %}
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="post-next btn">
       <span class="post-next-title">Older</span> {% include icons/angle-right.svg %}
     </a>
     {% else %}
-    <div class="post-next btn btn-disabled">
+    <div class="post-next btn btn-disabled" aria-disabled="true">
       <span class="post-next-title">Older</span> {% include icons/angle-right.svg %}
     </div>
   {% endif %}
