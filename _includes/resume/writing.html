@@ -1,6 +1,0 @@
-{% if section.heading == 'Writing' %}
-{% for writing in section.contents %}
-<h3>{% if writing.link %}<a href="{{writing.link}}">{% endif %}{{ writing.title }}{% if writing.link %}</a>{% endif %}</h3>
-<p>{{ writing.site}}, {{ writing.date }}</p>
-{% endfor %}
-{% endif %}

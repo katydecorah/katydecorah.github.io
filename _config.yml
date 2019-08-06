@@ -7,7 +7,7 @@ author:
   name: Katy DeCorah
   email: katydecorah@gmail.com
   uri: https://katydecorah.com
-assets: //yo.katydecorah.com/
+assets: https://s3.amazonaws.com/yo.katydecorah.com/
 
 paginate: 5
 paginate_path: ":num"
@@ -15,8 +15,10 @@ future: true
 
 title: Katy DeCorah
 description: "Frontend engineer and tinkerer from Saratoga Springs, NY."
-image: //yo.katydecorah.com/katy-decorah@1600.jpg
+image: katy-decorah.jpg
 twitter: "@katydecorah"
+bio: |
+  Hello! I'm Katy DeCorah. I live in Saratoga Springs, NY with <a href="https://jasonmorris.com">my husband</a> and <a href="https://www.instagram.com/p/BpmUWaMgCB7/">son</a>. I'm a frontend engineer on the documentation team at <a href="https://www.mapbox.com">Mapbox</a>
 
 collections:
   favorites:
@@ -37,9 +39,6 @@ years:
   - 2008
   - 2005
 
-sass:
-  style: :compressed
-
 timezone: America/New_York
 
 plugins:
@@ -48,6 +47,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-remote-theme
+
+remote_theme: katydecorah/theme
 
 feed:
   categories:

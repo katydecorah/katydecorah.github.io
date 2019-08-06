@@ -1,6 +1,0 @@
-{% if section.heading == 'Notables' %}
-{% for notable in section.contents %}
-<h3>{% if notable.link %}<a href="{{notable.link}}">{% endif %}{{ notable.event }}{% if notable.link %}</a>{% endif %}</h3>
-<p>{{ notable.title }}, {{ notable.date }}</p>
-{% endfor %}
-{% endif %}

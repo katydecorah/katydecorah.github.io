@@ -1,5 +1,0 @@
-{% if section.heading == 'Volunteer' %}
-{% for outreach in section.contents %}
-<p><strong>{% if outreach.link %}<a href="{{outreach.link}}">{% endif %}{% if outreach.role %}{{ outreach.role }} at {% endif %}{{ outreach.event }}{% if outreach.link %}</a>{% endif %},</strong> {{ outreach.venue }}, {{ outreach.date }}</p>
-{% endfor %}
-{% endif %}
