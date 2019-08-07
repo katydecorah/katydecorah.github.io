@@ -75,6 +75,8 @@ exclude:
   - test
   - img/posts
   - packages
+  - katydecorah.dic
+  - bin/
 
 links:
   - text: CodePen
