@@ -1,5 +1,5 @@
 ---
-title: 🖤 Favorites
+title: Favorites
 permalink: /favorites/index.html
 ---
 
