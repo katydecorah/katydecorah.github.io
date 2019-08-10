@@ -73,6 +73,7 @@ exclude:
   - test
   - img/posts
   - packages
+  - katydecorah.dic
 
 links:
   - text: CodePen
