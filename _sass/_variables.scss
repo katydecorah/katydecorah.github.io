@@ -19,6 +19,7 @@ $link-hover: lighten($text-color, 4%);
   --link-hover: #{$link-hover};
   --text-color: #{$text-color};
   --switch: #{$background-accent};
+  --always-dark: #{$text-color};
 }
 
 @media (prefers-color-scheme: dark) {
