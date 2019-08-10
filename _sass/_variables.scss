@@ -27,8 +27,8 @@ $link-hover: lighten($text-color, 4%);
     --background: #{$text-color};
     --background-accent: #{$link-hover};
     --text-accent: #b3b4b8;
-    --link: #c7e1fd;
-    --link-hover: #{darken(#c7e1fd, 20%)};
+    --link: #e6cdd7;
+    --link-hover: #{darken(#e6cdd7, 15%)};
     --text-color: #dedede;
     --switch: #{darken($text-color, 10%)};
   }
