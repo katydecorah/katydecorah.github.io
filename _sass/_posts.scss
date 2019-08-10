@@ -200,7 +200,13 @@
 .post-locations,
 .post-twitter {
   margin-bottom: 1em;
+}
 
+.post-locations {
+  color: var(--text-accent);
+}
+
+.post-twitter {
   .icon {
     margin-right: 0.5em;
   }
