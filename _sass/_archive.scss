@@ -47,7 +47,7 @@
     &::before {
       @include breakpoint(medium) {
         background-color: var(--text-accent);
-        border-radius: 0.5em;
+        border-radius: $border-radius;
         content: "";
         height: 0.5em;
         left: -1.875em;

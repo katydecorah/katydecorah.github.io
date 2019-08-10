@@ -4,48 +4,31 @@ $list: background background-accent text-accent link link-hover text-color;
 
 $background: #f6f6f6;
 $background-accent: #fff;
-
 $text-color: #2d323e;
-$link: #2574a8;
-$text-accent: #586975;
-
-$link-hover: lighten($text-color, 4%);
+$link: #a5627c;
+$link-hover: darken($link, 10%);
+$text-accent: #6e6e6e;
 
 :root {
+  --always-dark: #{$text-color};
   --background: #{$background};
   --background-accent: #{$background-accent};
-  --text-accent: #{$text-accent};
   --link: #{$link};
   --link-hover: #{$link-hover};
-  --text-color: #{$text-color};
   --switch: #{$background-accent};
-  --always-dark: #{$text-color};
+  --text-accent: #{$text-accent};
+  --text-color: #{$text-color};
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #{$text-color};
-    --background-accent: #{$link-hover};
-    --text-accent: #b3b4b8;
-    --link: #e6cdd7;
-    --link-hover: #{darken(#e6cdd7, 15%)};
-    --text-color: #dedede;
+    --background-accent: #{lighten($text-color, 5%)};
+    --link: #{lighten($link, 25%)};
+    --link-hover: #{lighten($link, 10%)};
     --switch: #{darken($text-color, 10%)};
-  }
-}
-
-.blocks {
-  margin-bottom: 2em;
-}
-
-@each $color in $list {
-  .block#{"-" + $color} {
-    background: var(--$color);
-    width: 100px;
-    height: 100px;
-    outline: 1px solid white;
-    display: inline-block;
-    font-size: 9px;
+    --text-accent: #{lighten($text-accent, 20%)};
+    --text-color: #dedede;
   }
 }
 
@@ -75,6 +58,35 @@ $h4-size: 1em;
 
 $border-radius: 0.2em;
 $body-padding-top: 4em;
+
+// swatches
+
+.swatches {
+  @extend %flex;
+  @extend %flex-space-between;
+
+  margin-bottom: 5em;
+}
+
+@each $color in $list {
+  .swatch#{"-" + $color} {
+    background: var(--$color);
+    width: 100px;
+    height: 100px;
+    border-radius: $border-radius;
+    border: 1px solid white;
+    position: relative;
+
+    &:before {
+      content: "#{$color}";
+      position: absolute;
+      top: calc(100% + 0.5em);
+      font-size: 0.6em;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
 
 /////////////// Code Highlighter
 // Adapted from https://gist.github.com/edwardhotchkiss/2005058

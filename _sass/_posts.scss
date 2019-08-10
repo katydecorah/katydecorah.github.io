@@ -362,7 +362,7 @@ figcaption {
 
 .reversefootnote {
   background: var(--background-accent);
-  border-radius: 0.1em;
+  border-radius: $border-radius;
   color: var(--text-color);
   display: inline-block;
   margin-left: 0.5em;

@@ -8,7 +8,7 @@ pre {
   @extend %code-type;
 
   background: var(--switch);
-  border-radius: 0.2em;
+  border-radius: $border-radius;
   hyphens: none;
   tab-size: 4;
   white-space: pre-wrap;
