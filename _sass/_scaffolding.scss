@@ -9,25 +9,25 @@ body {
 }
 
 html {
-  background-color: $body-bg;
+  background-color: var(--background);
 }
 
 body {
   @extend %body-type;
 
-  color: $text-color;
+  color: var(--text-color);
   font-size: $body-font-size;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
 }
 
 a {
-  color: $link-color;
-  transition: $link-transition;
+  color: var(--link);
+  transition: var(--link-transition);
 
   &:hover {
-    color: $link-hover;
-    transition: $link-transition;
+    color: var(--link-hover);
+    transition: var(--link-transition);
   }
 }
 
@@ -60,14 +60,6 @@ picture,
 img {
   display: block;
   margin: 2em auto;
-}
-
-.img-polaroid {
-  background-color: $white;
-  border: 1px solid $dark-transparent02;
-  box-shadow: 0 1px 3px $dark-transparent01;
-  margin: 1em 0.25em 2em;
-  padding: 0.25em;
 }
 
 .img-full {

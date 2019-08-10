@@ -33,7 +33,7 @@
 }
 
 .track-meta {
-  color: $text-color-light;
+  color: var(--text-accent);
   font-size: $font-xs;
 }
 
@@ -46,9 +46,9 @@
   padding-bottom: 1em;
 
   &:nth-child(even) {
-    background: rgba(complement($accent), 0.4);
-    border-bottom: 1px dashed $body-bg;
-    border-top: 1px dashed $body-bg;
+    background: var(--text-accent);
+    border-bottom: 1px dashed var(--background-accent);
+    border-top: 1px dashed var(--background-accent);
   }
 
   &:target {

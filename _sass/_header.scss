@@ -1,7 +1,7 @@
 .header {
   @extend %clearfix;
 
-  background-color: rgba($header-bg, 0.85);
+  background-color: var(--background-accent);
   margin-bottom: 1em;
   position: relative;
 
@@ -13,14 +13,14 @@
     @extend %small;
     @extend %fancy-type;
 
-    color: $dark-accent;
+    color: var(--text-color);
     display: block;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
     text-decoration: none;
 
     &:hover {
-      color: $link-hover;
+      color: var(--link-hover);
     }
   }
 }

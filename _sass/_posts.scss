@@ -124,25 +124,25 @@
   }
 
   table {
-    border: 1px solid darken($light-accent, 10%);
+    border: 1px solid var(--background-accent);
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
 
     caption {
-      color: $text-color;
+      color: var(--text-color);
       font: italic 85%/1 arial, sans-serif;
       padding: 1em 0;
       text-align: center;
     }
 
     td {
-      background-color: $white;
+      background-color: var(--background-accent);
     }
 
     td,
     th {
-      border-left: 1px solid darken($light-accent, 10%);
+      border-left: 1px solid var(--background-accent);
       border-width: 0 0 0 1px;
       font-size: inherit;
       margin: 0;
@@ -156,16 +156,16 @@
     }
 
     thead {
-      background-color: $light-accent;
-      color: $text-color;
+      background-color: var(--background-accent);
+      color: var(--text-color);
       text-align: left;
       vertical-align: bottom;
     }
   }
 
   .note {
-    background: $light-accent;
-    border-left: 0.25em solid darken($light-accent, 10%);
+    background: var(--background-accent);
+    border-left: 0.25em solid var(--background-accent);
     padding: 1em;
   }
 
@@ -227,7 +227,7 @@
 
 .post-page {
   .post-meta {
-    color: $text-color-light;
+    color: var(--text-accent);
     margin-bottom: 2em;
   }
 
@@ -279,7 +279,7 @@
   @extend %flex-center-inline;
 
   position: relative;
-  transition: $link-transition;
+  transition: var(--link-transition);
 
   @include breakpoint(medium) {
     min-height: 2em;
@@ -287,7 +287,7 @@
 
   &:hover {
     text-decoration: none;
-    transition: $link-transition;
+    transition: var(--link-transition);
   }
 }
 
@@ -326,14 +326,14 @@ figure {
 }
 
 figcaption {
-  color: lighten($text-color, 20%);
+  color: var(--link-hover);
   font-size: $font-xs;
   margin-bottom: 2em;
   margin-top: -1em;
 }
 
 .caption {
-  color: lighten($text-color, 20%);
+  color: var(--link-hover);
   font-size: $font-xs;
   margin: -2.5em auto 0;
 }
@@ -349,15 +349,15 @@ figcaption {
     font-size: $font-xs;
 
     &:target {
-      color: $fancy-accent;
+      color: var(--text-color);
     }
   }
 }
 
 .reversefootnote {
-  background: $white;
+  background: var(--background-accent);
   border-radius: 0.1em;
-  color: $text-color;
+  color: var(--text-color);
   display: inline-block;
   margin-left: 0.5em;
   padding: 0.2em;
@@ -370,7 +370,7 @@ figcaption {
 .badge {
   @extend %xs;
 
-  background: $white;
+  background: var(--background-accent);
   border-radius: 1em;
   padding: 0 0.5em;
 }

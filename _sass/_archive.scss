@@ -4,7 +4,7 @@
 
 .archive-months {
   @include breakpoint(medium) {
-    border-left: 4px solid darken($body-bg, 15%);
+    border-left: 4px solid var(--text-accent);
     margin-left: 1em;
     padding-left: 1em;
   }
@@ -24,7 +24,7 @@
 
     &:hover {
       h3::before {
-        background-color: darken($body-bg, 20%);
+        background-color: var(--text-accent);
         transition: 0.25s;
       }
     }
@@ -46,7 +46,7 @@
 
     &::before {
       @include breakpoint(medium) {
-        background-color: darken($body-bg, 15%);
+        background-color: var(--text-accent);
         border-radius: 0.5em;
         content: "";
         height: 0.5em;

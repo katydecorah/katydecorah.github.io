@@ -7,7 +7,7 @@ code,
 pre {
   @extend %code-type;
 
-  background: $white;
+  background: var(--switch);
   border-radius: 0.2em;
   hyphens: none;
   tab-size: 4;

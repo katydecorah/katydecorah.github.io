@@ -15,9 +15,9 @@
 
 .skip a:active,
 .skip a:focus {
-  background: $link-color;
+  background: var(--link);
   clip: auto;
-  color: $white;
+  color: var(--background-accent);
   display: block;
   height: auto;
   margin: 0;

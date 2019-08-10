@@ -30,7 +30,7 @@
     margin: 0;
 
     @include breakpoint(medium) {
-      color: rgba($text-color, 0.75);
+      color: var(--link-hover);
       font-size: $h1-size-map;
     }
 

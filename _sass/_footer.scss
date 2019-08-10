@@ -1,5 +1,5 @@
 .footer {
-  background: $header-bg;
+  background: var(--background-accent);
   margin-top: 2em;
   position: relative;
   z-index: 100;
@@ -23,7 +23,7 @@
     text-decoration: none;
 
     &.nav-link:hover {
-      color: $link-hover;
+      color: var(--link-hover);
       text-decoration: none;
     }
   }

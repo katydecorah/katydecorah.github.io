@@ -16,7 +16,7 @@
 .adventure {
   @extend %flex;
 
-  background: $white;
+  background: var(--background-accent);
   display: block;
   margin-bottom: 1em;
 
@@ -62,7 +62,7 @@
   }
 
   .adventure-meta {
-    color: $text-color;
+    color: var(--text-color);
     font-size: $font-small;
     margin-bottom: 0.5em;
   }

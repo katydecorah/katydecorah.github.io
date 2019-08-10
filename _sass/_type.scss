@@ -134,7 +134,7 @@ ol {
 }
 
 hr {
-  border: 1px solid $white;
+  border: 1px solid var(--background-accent);
   margin: 2em auto;
   max-width: 70%;
 }
@@ -158,7 +158,7 @@ blockquote {
   }
 
   &::before {
-    color: darken($accent, 10%);
+    color: var(--text-accent);
     content: "\201C";
     display: block;
     font-size: 8em;
@@ -179,6 +179,6 @@ blockquote {
 }
 
 ::selection {
-  background: $fancy-accent;
-  color: $white;
+  background: var(--text-color);
+  color: var(--background-accent);
 }

@@ -1,6 +1,6 @@
 %btn {
   border-radius: 2em;
-  color: $text-color;
+  color: var(--text-color);
   display: inline-block;
   padding: 0.3em 1.25em;
   text-decoration: none;
@@ -9,12 +9,13 @@
 .btn {
   @extend %btn;
 
-  background: $white;
+  background: var(--background-accent);
   font-size: $font-small;
   margin-bottom: 0.5em;
 
   &:hover {
     text-decoration: none;
+    color: var(--link);
   }
 
   .icon {
@@ -29,5 +30,8 @@
 }
 
 .btn-disabled {
-  color: darken($body-bg, 20%);
+  color: var(--text-accent);
+  &:hover {
+    color: var(--text-accent);
+  }
 }

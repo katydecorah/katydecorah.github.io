@@ -2,7 +2,20 @@
 layout: default
 title: Styles
 hideTitle: true
+colors:
+  - background
+  - background-accent
+  - text-accent
+  - link
+  - link-hover
+  - text-color
 ---
+
+<div class="blocks">
+{% for color in page.colors %}
+<div class="block-{{color}}">{{color}}</div>
+{%endfor %}
+</div>
 
 # Header Level 1
 
