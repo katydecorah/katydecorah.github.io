@@ -19,6 +19,7 @@
   background: var(--background-accent);
   display: block;
   margin-bottom: 1em;
+  text-decoration: none;
 
   @include breakpoint(small) {
     padding: 1em;
@@ -65,5 +66,10 @@
     color: var(--text-color);
     font-size: $font-small;
     margin-bottom: 0.5em;
+
+    svg {
+      margin-right: 0.25em;
+      vertical-align: middle;
+    }
   }
 }

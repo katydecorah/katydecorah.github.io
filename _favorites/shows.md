@@ -1,5 +1,5 @@
 ---
-title: 📺 TV Shows
+title: TV Shows
 ---
 
 - [Patriot](https://www.imdb.com/title/tt4687882/)

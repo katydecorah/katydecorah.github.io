@@ -1,5 +1,5 @@
 ---
-title: 👶 Baby
+title: Baby
 ---
 
 ## Sleep

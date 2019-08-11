@@ -1,3 +1,7 @@
 <div class='prev-next-categories'>{% assign categories = site.categories | sort %}
-  {% for category in categories %}{% assign name = category[0] %}{% assign title = page.title | downcase %}{% unless title == name %}<a title='{{name}}' href="/{{name}}" class="btn category">{{site.data.emoji[name]}}</a>{% endunless %}{% endfor %}
+  {% for category in categories %}{% assign name = category[0] %}{% assign title = page.title | downcase %}{% unless title == name %}<a title='{{name}}' href="/{{name}}" class="btn category">
+{% assign file = site.data.emoji[name] | append: '.svg' | prepend: 'icons/' %}
+{% include {{file}} %}
+
+  </a>{% endunless %}{% endfor %}
 </div>

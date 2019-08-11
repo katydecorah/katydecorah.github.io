@@ -202,9 +202,12 @@
 .btn.category {
   @extend %flex-child-no-shrink;
 
+  @extend %flex-center-inline;
+
   position: relative;
-  margin-right: 0.25em;
   padding: 0.3em 0.5em;
+  height: 45px;
+  width: 45px;
 
   @include breakpoint(medium) {
     &:hover {
@@ -223,7 +226,7 @@
         border-top: 0.4em solid var(--text-color);
         content: "";
         height: 0;
-        margin-top: -0.875em;
+        top: -0.4em;
         width: 0;
       }
 
