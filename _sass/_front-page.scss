@@ -2,10 +2,10 @@
   @include breakpoint(medium) {
     background: linear-gradient(
       90deg,
-      var(--background) 0%,
-      var(--background) 55%,
-      var(--background-accent) 55%,
-      var(--background-accent) 100%
+      var(--background-accent) 0%,
+      var(--background-accent) 45%,
+      var(--background) 45%,
+      var(--background) 100%
     );
   }
 
@@ -39,20 +39,27 @@
   @include breakpoint(medium) {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 55% 45%;
-    grid-template-columns: 55% 45%;
+    -ms-grid-columns: 45% 55%;
+    grid-template-columns: 45% 55%;
 
     .content {
       margin: 1em 1em 0 2em;
+      order: 2;
     }
 
     .footer {
       background: var(--background-accent);
       margin-top: 0;
       min-height: 100vh;
-      // order: -1;
       padding: 2em 1em 0;
       position: relative;
+      order: 1;
+
+      .container {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 2em;
+      }
     }
 
     .bio {
@@ -83,6 +90,7 @@
 .all-posts {
   .front-page & {
     padding-left: 1.5em;
+    max-width: 600px;
   }
 
   @include breakpoint(medium) {
