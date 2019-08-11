@@ -229,7 +229,7 @@
       &::after {
         border-left: 0.4em solid transparent;
         border-right: 0.4em solid transparent;
-        border-top: 0.4em solid var(--text-color);
+        border-top: 0.4em solid var(--link);
         content: "";
         height: 0;
         top: -0.4em;
@@ -237,9 +237,9 @@
       }
 
       &::before {
-        background: var(--text-color);
+        background: var(--link);
         border-radius: inherit;
-        color: var(--background-accent);
+        color: var(--background);
         content: attr(title);
         padding: 0.25em 0.75em;
         top: -1.5em;
