@@ -6,14 +6,14 @@
 <div class="container"><h1>{{ page.title }}</h1></div>
 </div>
 <div class="container" id="content">{% if page.categories[0] %}{% assign category = page.categories[0] | downcase %}{% assign file = site.data.emoji[category] | append: '.svg' | prepend: 'icons/' %}
-<div class="post-meta"><a href="/{{ category}}" class="post-type"><span class="post-meta-emoji">{% include {{file}} %}</span> {{ page.categories[0] }}</a> &times; {{ page.date | date: "%B %-d, %Y" }}{% if page.elsewhere-site %} &times; <a href="{{ page.elsewhere-link }}">{{ page.elsewhere-site }}</a>{% endif %}</div>{% endif %}</div>
+<div class="post-meta"><a href="/{{ category}}" class="post-type"><span class="post-meta-emoji">{% include {{file}} %}</span> {{ page.categories[0] }}</a> | {{ page.date | date: "%B %-d, %Y" }}{% if page.elsewhere-site %} | <a href="{{ page.elsewhere-link }}">{{ page.elsewhere-site }}</a>{% endif %}</div>{% endif %}</div>
 <div class="post">
 {% if page.categories[0] == 'playlists' %}
 {% capture src %}{{page.title | slugify}}.png{% endcapture %}
 {% include img.html src=src class='img-half' alt='album art' %}
 {% endif %}
 {% unless page.categories[0] == 'playlists' %}{{ content }}{% endunless %}
-{% if page.recipe %}<p class="recipe-meta">Recipe: <a href="{{ page.recipe }}">{{ page.recipe-title }}</a></p>{% endif %}
+{% if page.recipe %}<p class="recipe-meta">Recipe: <a href="{{ page.recipe }}">{{ page.recipe-title }} {% include icons/external-link.svg %}</a></p>{% endif %}
 {% if page.categories[0] == 'playlists' %}{% include single-playlist.html %}{% endif %}{% if page.credits %}<p class="xs text-right">{{ page.credits }}.</p>{% endif %}
 </div>
 <div class="container">

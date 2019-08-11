@@ -33,9 +33,9 @@
   -moz-column-gap: 3em;
   -webkit-column-gap: 3em;
   column-gap: 3em;
-  -moz-columns: 2 290px;
-  -webkit-columns: 2 290px;
-  columns: 2 290px;
+  -moz-columns: 3 215px;
+  -webkit-columns: 3 215px;
+  columns: 3 215px;
 
   @include breakpoint(medium) {
     font-size: $font-xs;

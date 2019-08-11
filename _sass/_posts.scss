@@ -165,8 +165,17 @@
 
   .note {
     background: var(--background-accent);
-    border-left: 0.25em solid var(--background-accent);
+    border-left: 0.25em solid var(--link);
     padding: 1em;
+
+    padding: 1em 1em 1em 2em;
+    border-radius: 0 $border-radius $border-radius 0;
+    text-indent: -1.5em;
+
+    svg {
+      vertical-align: middle;
+      margin-right: 0.25em;
+    }
   }
 
   .instagram-media {
@@ -209,7 +218,8 @@
 .post-twitter {
   svg {
     margin-right: 0.25em;
-    vertical-align: middle;
+    vertical-align: sub;
+    width: 20px;
   }
 }
 
@@ -251,7 +261,9 @@
   min-height: 1px;
 
   svg {
-    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    margin-right: 0.25em;
   }
 }
 
@@ -339,16 +351,19 @@ figure {
   margin: 0 auto;
 }
 
-figcaption {
-  color: var(--link-hover);
+figcaption,
+.caption,
+caption {
+  color: var(--text-accent);
   font-size: $font-xs;
+}
+
+figcaption {
   margin-bottom: 2em;
   margin-top: -1em;
 }
 
 .caption {
-  color: var(--link-hover);
-  font-size: $font-xs;
   margin: -2.5em auto 0;
 }
 
@@ -368,17 +383,16 @@ figcaption {
   }
 }
 
-.reversefootnote {
+.reversefootnote,
+.footnote {
+  @extend %xs;
+
   background: var(--background-accent);
   border-radius: $border-radius;
   color: var(--text-color);
-  display: inline-block;
-  margin-left: 0.5em;
-  padding: 0.2em;
-
-  &:hover {
-    text-decoration: none;
-  }
+  padding: 0 0.25em;
+  margin: 0 0.25em;
+  text-decoration: none;
 }
 
 .badge {
@@ -387,4 +401,5 @@ figcaption {
   background: var(--background-accent);
   border-radius: 1em;
   padding: 0 0.5em;
+  vertical-align: middle;
 }

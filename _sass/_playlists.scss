@@ -1,7 +1,11 @@
 .playlist-meta {
-  margin-bottom: 1em;
-  margin-top: -1em;
+  margin-bottom: 3em;
   text-align: center;
+
+  svg {
+    vertical-align: sub;
+    margin-right: 0.25em;
+  }
 }
 
 .playlist-nostalgia {

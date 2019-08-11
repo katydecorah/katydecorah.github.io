@@ -5,7 +5,8 @@ tags:
   - writing
 ---
 
-<p class="note">This is a devlog I wrote at Mapbox that inspired my talk <a href="https://katydecorah.com/writing-for-everyone/">Writing for everyone</a>.</p>
+<p class="note">
+{% include icons/zap.svg %} This is a devlog I wrote at Mapbox that inspired my talk <a href="https://katydecorah.com/writing-for-everyone/">Writing for everyone</a>.</p>
 
 &hellip;I thought I'd share some of my personal writing tips. Just a few things I picked up from teaching (synchronous), my instructional design days (asynchronous), and for-fun blog writing.
 
