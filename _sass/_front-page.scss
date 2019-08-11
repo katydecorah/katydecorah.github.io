@@ -205,6 +205,7 @@
   }
 }
 
+.nav-link,
 .btn.category {
   @extend %flex-child-no-shrink;
 
@@ -216,6 +217,7 @@
   width: 45px;
 
   @include breakpoint(medium) {
+    &:focus,
     &:hover {
       &::after,
       &::before {
@@ -238,9 +240,10 @@
 
       &::before {
         background: var(--link);
-        border-radius: inherit;
+        border-radius: 0.5em;
         color: var(--background);
         content: attr(title);
+        font-size: $font-xs;
         padding: 0.25em 0.75em;
         top: -1.5em;
       }
