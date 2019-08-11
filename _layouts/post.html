@@ -5,7 +5,7 @@
 {% include post-map-header.html %}
 <div class="container"><h1>{{ page.title }}</h1></div>
 </div>
-<div class="container" id="content">{% if page.categories[0] %}{% assign category = page.categories[0] | downcase %}{% assign file = site.data.emoji[category] | append: '.svg' | prepend: 'icons/' %}
+<div class="container" id="content">{% if page.categories[0] %}{% assign category = page.categories[0] | downcase %}{% assign file = site.data.icons[category] | append: '.svg' | prepend: 'icons/' %}
 <div class="post-meta"><a href="/{{ category}}" class="post-type"><span class="post-meta-emoji">{% include {{file}} %}</span> {{ page.categories[0] }}</a> | {{ page.date | date: "%B %-d, %Y" }}{% if page.elsewhere-site %} | <a href="{{ page.elsewhere-link }}">{{ page.elsewhere-site }}</a>{% endif %}</div>{% endif %}</div>
 <div class="post">
 {% if page.categories[0] == 'playlists' %}

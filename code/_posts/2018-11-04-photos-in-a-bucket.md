@@ -1,7 +1,7 @@
 ---
 title: Storing assets in an AWS bucket
 category: code
-emoji: ☁️
+
 image: 2018-11-04-photos-in-a-bucket-0.png
 tags:
   - AWS

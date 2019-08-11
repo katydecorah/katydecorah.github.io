@@ -2,7 +2,6 @@
 title: Summer of ice cream
 
 image: 2018-07-16-summer-of-ice-cream-0.jpg
-emoji: 🍨
 ---
 
 For the past month, I've tried a new ice cream recipe with ingredients from the farmers market.

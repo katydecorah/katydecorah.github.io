@@ -1,7 +1,7 @@
 ---
 title: Baked Alaska flambé
 image: 2018-12-31-baked-alaska-0.jpg
-emoji: 🍨
+
 recipe: https://www.bbc.com/food/recipes/neopolitan_baked_alaska_18464
 recipe-title: Neapolitan Baked Alaska
 ---

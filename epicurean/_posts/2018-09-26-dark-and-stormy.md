@@ -1,7 +1,6 @@
 ---
 title: Dark & stormy
 image: 2018-09-26-dark-and-stormy-0.jpg
-emoji: 🍨
 ---
 
 As a farewell to summer, I made [one more ice cream](/epicurean/summer-of-ice-cream): the dark & stormy.

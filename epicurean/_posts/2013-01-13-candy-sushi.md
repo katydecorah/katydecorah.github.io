@@ -1,7 +1,6 @@
 ---
 title: Candy Sushi
 image: 2013-01-13-candy-sushi-0.jpg
-emoji: 🍣
 ---
 
 <div class="photos">

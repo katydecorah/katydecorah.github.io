@@ -6,7 +6,6 @@ tags:
   - API
   - Ela Conf
   - Google Sheets
-emoji: 📨
 ---
 
 <p class="note">

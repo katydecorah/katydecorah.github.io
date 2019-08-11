@@ -1,8 +1,6 @@
 ---
 title: Happy Birthday Blog
 image: 2014-06-06-happy-birthday-0.jpg
-
-emoji: 🍰
 ---
 
 <div class="photos">

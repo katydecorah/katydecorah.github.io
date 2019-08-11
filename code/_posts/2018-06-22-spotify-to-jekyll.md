@@ -6,7 +6,6 @@ tags:
   - Node.js
   - Jekyll
   - API
-emoji: 🎧
 ---
 
 For the past ten years, I've created a playlist for each season. I wrote about this before when I made [Jekyll data playlists](https://katydecorah.com/code/jekyll-data-playlists/). At the end of each season, the playlist gets a post and I store all the data in `_data/playlists.yml` (for safe keeping).

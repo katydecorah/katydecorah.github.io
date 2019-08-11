@@ -6,7 +6,6 @@ tags:
   - Node.js
   - AWS
   - API
-emoji: ☀️
 ---
 
 Filed under: things we probably don't need, but idk I want it.

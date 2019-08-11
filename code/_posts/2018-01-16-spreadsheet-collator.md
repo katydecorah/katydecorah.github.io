@@ -6,7 +6,6 @@ tags:
   - API
   - Ela Conf
   - Google Sheets
-emoji: 📁
 ---
 
 For [Ela Conf](http://elaconf.com) 2016 and 2017, we created a Google Form to collect speaker feedback. The form had the following fields:

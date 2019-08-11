@@ -2,5 +2,5 @@ all: book
 code: code
 notes: edit
 epicurean: coffee
-adventures: map
+adventures: map-pin
 playlists: music

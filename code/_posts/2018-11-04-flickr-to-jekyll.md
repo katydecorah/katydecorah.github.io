@@ -1,7 +1,7 @@
 ---
 title: Download Flickr photos in your Jekyll posts
 category: code
-emoji: 🖼
+
 image: 2018-11-04-flickr-to-jekyll-0.png
 tags:
   - API

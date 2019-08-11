@@ -1,7 +1,6 @@
 ---
 title: Coconut curried kale, sweet potato, and chicken
 image: 2018-09-21-coconut-curry-0.jpg
-emoji: 🍛
 ---
 
 This has become one of our favorite Instant Pot recipes. It's especially perfect for fall. It also holds up great for leftovers or meal prep.

@@ -1,7 +1,6 @@
 ---
 title: New Years Eve Homemade Sushi
 image: 2013-01-01-new-years-eve-0.jpg
-emoji: 🍣
 ---
 
 <div class="photos">

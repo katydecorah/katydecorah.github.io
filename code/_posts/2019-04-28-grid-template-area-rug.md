@@ -1,7 +1,7 @@
 ---
 title: grid-template-area-rug
 image: 2019-04-27-grid-template-area-rug-3.png
-emoji: ⬛️
+
 codepen: true
 tags:
   - CodePen

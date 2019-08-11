@@ -5,7 +5,6 @@ locations:
   - Gray's Crossing
 coordinates:
   - -73.8300479,43.0205738
-emoji: 🚶‍♀️
 ---
 
 A moody, muddy morning.

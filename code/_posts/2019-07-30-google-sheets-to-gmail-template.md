@@ -6,7 +6,6 @@ tags:
   - API
   - Google Sheets
   - Google Docs
-emoji: 📨
 ---
 
 Last year I wrote about how to [create emails from a Google spreadsheet](/code/google-sheets-to-gmail/). I'm going to show you how to simplify the process by creating your email template in a [Google doc](https://docs.google.com/).

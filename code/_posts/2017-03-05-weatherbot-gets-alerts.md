@@ -6,7 +6,6 @@ tags:
   - Node.js
   - AWS
   - API
-emoji: ❄️
 ---
 
 I didn't expect [WeatherBot](/code/weatherbot/) to become [a series](/code/weatherbot-goes-outside/) of posts, but the weather has been ~~fluctuating so much~~ scary.

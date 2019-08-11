@@ -1,7 +1,7 @@
 ---
 title: Organizing a conference with bots
 image: 2016-08-10-ela-conf-bots-0.png
-emoji: 🤖
+
 tags:
   - Ela Conf
   - Zapier

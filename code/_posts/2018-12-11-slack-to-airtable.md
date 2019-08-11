@@ -1,7 +1,7 @@
 ---
 title: Write to Airtable from a Slack command
 category: code
-emoji: 🥕
+
 image: 2018-12-11-airtable-to-slack-0.png
 tags:
   - Node.js

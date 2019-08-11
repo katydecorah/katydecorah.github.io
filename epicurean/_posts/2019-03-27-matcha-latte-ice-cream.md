@@ -1,7 +1,6 @@
 ---
 title: Matcha latte ice cream
 image: 2019-03-27-matcha-latte-ice-cream.jpg
-emoji: 🍵
 ---
 
 This week we visited [Gracie's](https://www.graciestruckny.com/) in Leeds, NY where I had a delicious iced matcha latte sweetened with vanilla and coconut milk. Inspired, I made matcha latte ice cream.

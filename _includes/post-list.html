@@ -1,5 +1,5 @@
 {% assign category = post.categories[0] %}
-{% assign file = site.data.emoji[category] | append: '.svg' | prepend: 'icons/' %}
+{% assign file = site.data.icons[category] | append: '.svg' | prepend: 'icons/' %}
 <a href="{{ post.url }}" class="post-link">
 <div class="post-meta">
 <div class="post-title"><div class="post-emoji">{% include {{file}} %}</div>{{ post.title }}</div>

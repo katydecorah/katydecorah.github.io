@@ -1,8 +1,6 @@
 ---
 title: The bird feeder
 image: 2015-03-18-the-bird-feeder-0.jpg
-
-emoji: 🐦
 ---
 
 Swoosh.

@@ -1,7 +1,7 @@
 ---
 title: Coconut Thumbprint Cookies with Salted Caramel
 image: 2013-08-14-coconut-thumbprint-cookies-0.jpg
-emoji: 🍪
+
 recipe: http://www.marthastewart.com/874528/coconut-thumbprint-cookies-salted-caramel
 recipe-title: Coconut thumbprint cookies with salted caramel
 ---

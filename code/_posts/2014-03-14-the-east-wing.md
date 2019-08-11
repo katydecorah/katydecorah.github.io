@@ -3,7 +3,6 @@ title: The East Wing Episode 86
 image: 2014-03-14-the-east-wing-0.jpg
 tags:
   - podcasts
-emoji: 🎙
 ---
 
 I had a nice time chatting with Chris Enns on the East Wing!

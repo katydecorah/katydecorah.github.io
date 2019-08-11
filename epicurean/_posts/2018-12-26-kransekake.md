@@ -1,7 +1,7 @@
 ---
 title: Holiday kransekake
 image: 2018-12-26-kransekake-0.jpg
-emoji: 🎄
+
 recipe: https://www.bbc.com/food/recipes/pauls_kransekake_83354
 recipe-title: Paul's Kransekake
 ---

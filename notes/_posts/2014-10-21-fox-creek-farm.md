@@ -1,8 +1,6 @@
 ---
 title: Half Share
 image: 2014-10-21-fox-creek-farm-0.jpg
-
-emoji: 🌽
 ---
 
 We enjoyed 20 weeks of the [Fox Creek Farm CSA](http://www.foxcreekfarmcsa.com/).

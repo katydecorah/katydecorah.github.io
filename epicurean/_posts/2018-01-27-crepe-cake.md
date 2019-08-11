@@ -3,7 +3,6 @@ title: Chocolate Hazelnut Crêpe Cake
 image: 2018-01-27-crepe-cake-0.jpg
 recipe: https://cooking.nytimes.com/recipes/1018338-chocolate-hazelnut-crepe-cake
 recipe-title: Chocolate Hazelnut Crepe Cake
-emoji: 🍰
 ---
 
 <div class="photos">

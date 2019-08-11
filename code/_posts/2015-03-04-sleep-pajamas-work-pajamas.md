@@ -4,7 +4,6 @@ image: 2015-03-04-sleep-pajamas-work-pajamas-0.jpg
 tags:
   # - elsewhere
   - podcasts
-emoji: 🎙
 ---
 
 [A year later](/code/the-east-wing/), I'm back chatting with Tim:

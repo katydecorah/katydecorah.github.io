@@ -7,7 +7,6 @@ tags:
   - Ela Conf
   - Zapier
   - GitHub
-emoji: 🗳
 ---
 
 For [Ela Conf](http://elaconf.com) 2015, 2016, and 2017, we turned a private GitHub repository into a system for reviewing talk proposals.

@@ -1,7 +1,6 @@
 ---
 title: When to automate
 image: 2019-03-29-when-to-automate.png
-emoji: 🤖
 ---
 
 You will know if you have a candidate for an automation when you have: [a frequent manual process](#1-frequent-manual-process), [consistent data](#2-consistent-data), and [a trigger](#3-a-trigger).
