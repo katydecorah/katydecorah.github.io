@@ -145,8 +145,6 @@ blockquote {
 
   p {
     @extend %fancy-type;
-
-    font-size: 1.25em;
   }
 
   cite {
@@ -155,20 +153,6 @@ blockquote {
     display: block;
     font-size: 0.5em;
     font-style: normal;
-  }
-
-  &::before {
-    color: var(--text-accent);
-    content: "\201C";
-    display: block;
-    font-size: 8em;
-    height: 1em;
-    left: -0.1em;
-    line-height: 1;
-    position: absolute;
-    top: -0.2em;
-    width: 1em;
-    z-index: -1;
   }
 }
 
