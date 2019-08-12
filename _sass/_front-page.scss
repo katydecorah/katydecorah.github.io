@@ -109,7 +109,7 @@
     display: inline-block;
     position: relative;
     text-indent: -1.5em;
-    top: 2px;
+    top: 0.25em;
 
     @include breakpoint(medium) {
       text-indent: -2em;
