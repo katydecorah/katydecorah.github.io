@@ -19,6 +19,55 @@ colors:
 {%endfor %}
 </div>
 
+# Code
+
+```js
+MailApp.sendEmail(
+  "hello@email.com", // recipient
+  "To my subscribers", // subject
+  "Dear subscriber,\nI love you.\nYours,\nKaty" // body
+);
+```
+
+```yaml
+- length: em
+  type: font-relative
+  description: This unit is the calculated font-size of the element. If used on the font-size property itself, it is the inherited font-size of the element.
+```
+
+```liquid
+{% raw %}{% capture month %}{{page.date | date: "%m"}}{% endcapture %}{% endraw %}
+```
+
+```sh
+\$ ln -s ../families.json \_data/families.json
+```
+
+```css
+#header h1 a {
+  display: block;
+  width: 300px;
+  height: 80px;
+}
+```
+
+```haml
+- @days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
+  %ul.weekdays
+  - @days.each do |i|
+    %li.weekday
+    = i[0]
+```
+
+```json
+{
+  "object": {
+    "key": "value"
+  },
+  "array": [1, 2, 3]
+}
+```
+
 # Header Level 1
 
 ## Header Level 2
@@ -44,16 +93,6 @@ Excepteur [sint occaecat cupidatat](../) non proident, sunt in culpa qui officia
 `.btn`
 
 <a href="../" class="btn">Button</a>
-
----
-
-```css
-#header h1 a {
-  display: block;
-  width: 300px;
-  height: 80px;
-}
-```
 
 ---
 
