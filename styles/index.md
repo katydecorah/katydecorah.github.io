@@ -9,6 +9,16 @@ colors:
   - link-hover
   - text-color
   - text-accent
+highlighters:
+  - highlighttwo
+  - highlightnine
+  - highlightone
+  - highlighteight
+  - highlightthree
+  - highlightfour
+  - highlightsix
+  - highlightfive
+  - highlightseven
 ---
 
 # Colors
@@ -19,7 +29,17 @@ colors:
 {%endfor %}
 </div>
 
+Code highlighters:
+
+<div class="swatches">
+{% for color in page.highlighters %}
+<div class="swatch-{{color}}"></div>
+{%endfor %}
+</div>
+
 # Code
+
+Example of some inline code: `var`, `const`, `let`.
 
 ```js
 MailApp.sendEmail(

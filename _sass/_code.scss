@@ -34,276 +34,276 @@ code {
 // Adapted from https://gist.github.com/edwardhotchkiss/2005058
 .highlight {
   .c {
-    color: $highlightcomment;
+    color: var(--highlightone);
   }
 
   .err {
-    color: $highlighterror;
+    color: var(--highlighttwo);
   }
 
   .g {
-    color: $highlightgeneric;
+    color: var(--highlighttwo);
   }
 
   .k {
-    color: $highlightkeyword;
+    color: var(--highlightthree);
   }
 
   .l {
-    color: $highlightliteral;
+    color: var(--highlighttwo);
   }
 
   .n {
-    color: $highlightname;
+    color: var(--highlighttwo);
   }
 
   .o {
-    color: $highlightoperator;
+    color: var(--highlightthree);
   }
 
   .x {
-    color: $highlightother;
+    color: var(--highlightfour);
   }
 
   .p {
-    color: $highlightpunctuation;
+    color: var(--highlighttwo);
   }
 
   .cm {
-    color: $highlightcommentmultiline;
+    color: var(--highlightone);
   }
 
   .cp {
-    color: $highlightcommentpreproc;
+    color: var(--highlightthree);
   }
 
   .c1 {
-    color: $highlightcommentsingle;
+    color: var(--highlightone);
   }
 
   .cs {
-    color: $highlightcommentspecial;
+    color: var(--highlightthree);
   }
 
   .gd {
-    color: $highlightgenericdeleted;
+    color: var(--highlightfive);
   }
 
   .ge {
-    color: $highlightgenericemph;
+    color: var(--highlighttwo);
     font-style: italic;
   }
 
   .gr {
-    color: $highlightgenericerror;
+    color: var(--highlightsix);
   }
 
   .gh {
-    color: $highlightgenericheading;
+    color: var(--highlightfour);
   }
 
   .gi {
-    color: $highlightgenericinserted;
+    color: var(--highlightthree);
   }
 
   .go {
-    color: $highlightgenericoutput;
+    color: var(--highlighttwo);
   }
 
   .gp {
-    color: $highlightgenericprompt;
+    color: var(--highlighttwo);
   }
 
   .gs {
-    color: $highlightgenericstrong;
+    color: var(--highlighttwo);
     font-weight: bold;
   }
 
   .gu {
-    color: $highlightgenericsubheading;
+    color: var(--highlightfour);
   }
 
   .gt {
-    color: $highlightgenerictraceback;
+    color: var(--highlighttwo);
   }
 
   .kc {
-    color: $highlightkeywordconstant;
+    color: var(--highlightfour);
   }
 
   .kd {
-    color: $highlightkeyworddeclaration;
+    color: var(--highlightseven);
   }
 
   .kn {
-    color: $highlightkeywordnamespace;
+    color: var(--highlightthree);
   }
 
   .kp {
-    color: $highlightkeywordpseudo;
+    color: var(--highlightthree);
   }
 
   .kr {
-    color: $highlightkeywordreserved;
+    color: var(--highlightseven);
   }
 
   .kt {
-    color: $highlightkeywordtype;
+    color: var(--highlightsix);
   }
 
   .ld {
-    color: $highlightliteraldate;
+    color: var(--highlighttwo);
   }
 
   .m {
-    color: $highlightliteralnumber;
+    color: var(--highlightfive);
   }
 
   .s {
-    color: $highlightliteralstring;
+    color: var(--highlightfive);
   }
 
   .na {
-    color: $highlightnameattribute;
+    color: var(--highlighttwo);
   }
 
   .nb {
-    color: $highlightnamebuiltin;
+    color: var(--highlighteight);
   }
 
   .nc {
-    color: $highlightnameclass;
+    color: var(--highlightseven);
   }
 
   .no {
-    color: $highlightnameconstant;
+    color: var(--highlightfour);
   }
 
   .nd {
-    color: $highlightnamedecorator;
+    color: var(--highlightseven);
   }
 
   .ni {
-    color: $highlightnameentity;
+    color: var(--highlightfour);
   }
 
   .ne {
-    color: $highlightnameexception;
+    color: var(--highlightfour);
   }
 
   .nf {
-    color: $highlightnamefunction;
+    color: var(--highlightseven);
   }
 
   .nl {
-    color: $highlightnamelabel;
+    color: var(--highlighttwo);
   }
 
   .nn {
-    color: $highlightnamenamespace;
+    color: var(--highlighttwo);
   }
 
   .nx {
-    color: $highlightnameother;
+    color: var(--highlightnine);
   }
 
   .py {
-    color: $highlightnameproperty;
+    color: var(--highlighttwo);
   }
 
   .nt {
-    color: $highlightnametag;
+    color: var(--highlightseven);
   }
 
   .nv {
-    color: $highlightnamevariable;
+    color: var(--highlightseven);
   }
 
   .ow {
-    color: $highlightoperatorword;
+    color: var(--highlightthree);
   }
 
   .w {
-    color: $highlighttextwhitespace;
+    color: var(--highlighttwo);
   }
 
   .mf {
-    color: $highlightliteralnumberfloat;
+    color: var(--highlightfive);
   }
 
   .mh {
-    color: $highlightliteralnumberhex;
+    color: var(--highlightfive);
   }
 
   .mi {
-    color: $highlightliteralnumberinteger;
+    color: var(--highlightfive);
   }
 
   .mo {
-    color: $highlightliteralnumberoct;
+    color: var(--highlightfive);
   }
 
   .sb {
-    color: $highlightliteralstringbacktick;
+    color: var(--highlightone);
   }
 
   .sc {
-    color: $highlightliteralstringchar;
+    color: var(--highlightfive);
   }
 
   .sd {
-    color: $highlightliteralstringdoc;
+    color: var(--highlighttwo);
   }
 
   .s2 {
-    color: $highlightliteralstringdouble;
+    color: var(--highlightfive);
   }
 
   .se {
-    color: $highlightliteralstringescape;
+    color: var(--highlightfour);
   }
 
   .sh {
-    color: $highlightliteralstringheredoc;
+    color: var(--highlighttwo);
   }
 
   .si {
-    color: $highlightliteralstringinterpol;
+    color: var(--highlightfive);
   }
 
   .sx {
-    color: $highlightliteralstringother;
+    color: var(--highlightfive);
   }
 
   .sr {
-    color: $highlightliteralstringregex;
+    color: var(--highlightsix);
   }
 
   .s1 {
-    color: $highlightliteralstringsingle;
+    color: var(--highlightfive);
   }
 
   .ss {
-    color: $highlightliteralstringsymbol;
+    color: var(--highlightfive);
   }
 
   .bp {
-    color: $highlightnamebuiltinpseudo;
+    color: var(--highlightseven);
   }
 
   .vc {
-    color: $highlightnamevariableclass;
+    color: var(--highlightseven);
   }
 
   .vg {
-    color: $highlightnamevariableglobal;
+    color: var(--highlightseven);
   }
 
   .vi {
-    color: $highlightnamevariableinstance;
+    color: var(--highlightseven);
   }
 
   .il {
-    color: $highlightliteralnumberintegerlong;
+    color: var(--highlightfive);
   }
 }
