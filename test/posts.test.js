@@ -8,6 +8,11 @@ const paths = [
   'playlists/_posts/',
   'notes/_posts/'
 ];
+const utils = require('./utils');
+
+const data = {
+  give: utils.readData('_data/', 'give.yml')
+};
 
 const readPost = filename => {
   const buffer = fs.readFileSync(filename),
@@ -121,6 +126,11 @@ posts.forEach(post => {
         true,
         'post should have no more than 5 tags'
       );
+    }
+
+    if (metadata.give) {
+      const found = data.give.metadata.find(m => m.name == metadata.give);
+      t.ok(found, `"${metadata.give}" must match a "name" in _data/give.yml`);
     }
 
     t.end();

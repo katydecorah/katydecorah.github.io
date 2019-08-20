@@ -15,6 +15,7 @@
 {% unless page.categories[0] == 'playlists' %}{{ content }}{% endunless %}
 {% if page.recipe %}<p class="recipe-meta">Recipe: <a href="{{ page.recipe }}">{{ page.recipe-title }} {% include icons/external-link.svg %}</a></p>{% endif %}
 {% if page.categories[0] == 'playlists' %}{% include single-playlist.html %}{% endif %}{% if page.credits %}<p class="xs text-right">{{ page.credits }}.</p>{% endif %}
+{% include give.html org=page.give %}
 </div>
 <div class="container">
 <div class="post-footer">

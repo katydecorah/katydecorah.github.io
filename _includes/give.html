@@ -1,0 +1,5 @@
+{% if include.org %}{% assign orgs = site.data.give | where: 'name', include.org | first %}{% else %}{% assign random = page.date | date: "%m%d" | modulo: site.data.give.size %}{% assign orgs = site.data.give[random] %}{% endif %}{% if orgs.name %}
+<div class="note">
+<div class="svg-wrapper">{% include icons/heart.svg %}</div>
+<p><strong>Did you enjoy this post?</strong> <a href="{{orgs.link}}">Give to {{orgs.name}}</a>. {{orgs.description}}</p>
+</div>{% endif %}

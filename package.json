@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Katy DeCorah's personal website",
   "scripts": {
-    "test": "tape test/*.js | tap-spec",
+    "test": "tape test/*.test.js | tap-min",
     "test-content": "extra-eyes {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic",
     "proofer": "htmlproofer ./_site",
     "lint-md": "remark {adventures,code,epicurean,notes}/_posts",
@@ -12,7 +12,7 @@
     "send-images": "node bin/appropriate-images.js"
   },
   "devDependencies": {
-    "aws-sdk": "^2.503.0",
+    "aws-sdk": "^2.513.0",
     "babel-eslint": "^8.2.6",
     "dotenv": "^7.0.0",
     "eslint": "^4.19.1",
@@ -27,10 +27,10 @@
     "remark-lint-no-dead-urls": "^0.4.1",
     "request": "^2.88.0",
     "retext-spell": "^2.4.1",
-    "rimraf": "^2.6.3",
+    "rimraf": "^2.7.1",
     "stylelint": "^9.9.0",
     "stylelint-scss": "^3.9.3",
-    "tap-spec": "^5.0.0",
+    "tap-min": "^2.0.0",
     "tape": "^4.11.0",
     "underscore": "^1.9.1"
   },

@@ -166,7 +166,7 @@
   }
 
   .note {
-    @extend %flex;
+    @extend %flex-container;
     @extend %flex-space-between;
 
     background: var(--background-accent);
@@ -177,10 +177,12 @@
 
     .svg-wrapper {
       @include breakpoint(medium) {
+        color: var(--link);
         display: block;
-        height: 3.5em;
+        margin-top: 0.25em;
 
         svg {
+          fill: var(--link);
           margin-right: 1em;
           width: 1.25em;
           height: 1.25em;
