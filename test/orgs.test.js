@@ -2,10 +2,10 @@ const test = require('tape');
 const utils = require('./utils');
 
 const data = {
-  give: utils.readData('_data/', 'give.yml')
+  organizations: utils.readData('_data/', 'organizations.yml')
 };
 
-data.give.metadata.forEach(org => {
+data.organizations.metadata.forEach(org => {
   test(org.name, t => {
     t.ok(org.name, 'must have a name');
     t.ok(org.description, 'must have a description');

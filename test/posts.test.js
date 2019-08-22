@@ -11,7 +11,7 @@ const paths = [
 const utils = require('./utils');
 
 const data = {
-  give: utils.readData('_data/', 'give.yml')
+  give: utils.readData('_data/', 'organizations.yml')
 };
 
 const readPost = filename => {
@@ -128,9 +128,14 @@ posts.forEach(post => {
       );
     }
 
-    if (metadata.give) {
-      const found = data.give.metadata.find(m => m.name == metadata.give);
-      t.ok(found, `"${metadata.give}" must match a "name" in _data/give.yml`);
+    if (metadata.organizations) {
+      const found = data.organizations.metadata.find(
+        m => m.name == metadata.organizations
+      );
+      t.ok(
+        found,
+        `"${metadata.organizations}" must match a "name" in _data/organizations.yml`
+      );
     }
 
     t.end();
