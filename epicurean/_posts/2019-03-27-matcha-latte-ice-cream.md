@@ -1,6 +1,8 @@
 ---
 title: Matcha latte ice cream
 image: 2019-03-27-matcha-latte-ice-cream.jpg
+tags:
+  - recipe
 ---
 
 This week we visited [Gracie's](https://www.graciestruckny.com/) in Leeds, NY where I had a delicious iced matcha latte sweetened with vanilla and coconut milk. Inspired, I made matcha latte ice cream.
@@ -9,6 +11,8 @@ This week we visited [Gracie's](https://www.graciestruckny.com/) in Leeds, NY wh
 {% include img.html src="2019-03-27-matcha-latte-ice-cream.jpg" alt="Matcha latte ice cream" %}
 </div>
 
+## Ingredients
+
 - ½ cup white sugar
 - 1 ½ cups heavy cream
 - 1 ½ cups unsweetened coconut cream
@@ -16,6 +20,8 @@ This week we visited [Gracie's](https://www.graciestruckny.com/) in Leeds, NY wh
 - ⅛ teaspoon fine sea salt
 - 1 vanilla bean
 - 6 eggs yolks
+
+## Steps
 
 1. Whisk together **heavy cream**, **coconut cream**, **¼ cup sugar**, **matcha**, and **sea salt** in a medium saucepan. Split **vanilla bean** lengthwise and scrape in seeds; add pod.
 2. Once bubbles begin to form around the edge of the pan, remove from heat. Taste custard and add a tablespoon of matcha or sugar if desired.

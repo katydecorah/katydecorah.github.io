@@ -1,6 +1,8 @@
 ---
 title: Coconut curried kale, sweet potato, and chicken
 image: 2018-09-21-coconut-curry-0.jpg
+tags:
+  - recipe
 ---
 
 This has become one of our favorite Instant Pot recipes. It's especially perfect for fall. It also holds up great for leftovers or meal prep.
@@ -24,7 +26,7 @@ This has become one of our favorite Instant Pot recipes. It's especially perfect
 - juice of 1 lime
 - red pepper flakes (optional), to taste
 
-## Instructions
+## Steps
 
 1. Turn machine to sauté setting. Add **onion**, **garlic**, **ginger**; cook, stirring often, until softened, 4 minutes. Stir in **rice** and **potato**; cook, stirring often, 1 minute. Add **curry powder**, and **salt** and **pepper** (to taste) until fragrant, 1 minute.
 2. Add **broth**; stir well. Add all but ½ cup **coconut milk**. Add **chicken breast** and submerge in the mixture. Lay **kale** on top of mixture in cooker.
