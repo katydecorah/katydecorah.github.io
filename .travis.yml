@@ -10,6 +10,7 @@ deploy:
   skip_cleanup: true
   github_token: $GH_TOKEN
   keep_history: true
+  target_branch: master
   repo: katydecorah/staging
   on:
     all_branches: true
