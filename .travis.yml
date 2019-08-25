@@ -5,16 +5,16 @@ script:
   - npm test
 install:
   - npm install
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  keep_history: true
+  repo: katydecorah/staging
+  on:
+    branch: master
 after_success:
-  - deploy:
-    provider: pages
-    skip_cleanup: true
-    github_token: $GH_TOKEN
-    keep_history: true
-    repo: katydecorah/staging
-    on:
-      branch: master
-  - npm run lh -- https://katydecorah.example.com/staging/
+  - npm run lh -- https://katydecorah.com/staging/
 env:
   global:
     secure: Qc/8WtVGvVr/Y+LaxolHkZnxvnihWyAsiILKxw3BSr0uug84IbOrg89pFYO8jJII7vvQrhfv6UboaGPFkfGr2CoD6hQi5ZW0DpOaD0zDEcI9FhcHpH7M2hVaJOkLXKJEJigIlp2sHwxlIc9rPQFEh3Yn9GCRurXyuZDrzPUnzP8=
