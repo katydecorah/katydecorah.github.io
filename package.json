@@ -9,7 +9,8 @@
     "lint-md": "remark {adventures,code,epicurean,notes}/_posts",
     "precommit": "lint-staged",
     "scsslint": "stylelint _sass/*.scss",
-    "send-images": "node bin/appropriate-images.js"
+    "send-images": "node bin/appropriate-images.js",
+    "lh": "lighthousebot"
   },
   "devDependencies": {
     "aws-sdk": "^2.513.0",
@@ -19,6 +20,7 @@
     "extra-eyes": "1.0.1",
     "husky": "^0.14.3",
     "js-yaml": "^3.13.1",
+    "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
     "lint-staged": "^7.3.0",
     "minimist": "^1.2.0",
     "moment": "^2.23.0",
