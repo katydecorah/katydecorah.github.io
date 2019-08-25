@@ -11,8 +11,6 @@ deploy:
   github_token: $GH_TOKEN
   keep_history: true
   repo: katydecorah/staging
-  on:
-    branch: master
 after_success:
   - npm run lh -- https://katydecorah.com/staging/
 env:
