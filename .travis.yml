@@ -15,7 +15,7 @@ deploy:
   on:
     all_branches: true
 after_success:
-  - npm run lh -- https://katydecorah.com/staging/
+  - npm run lh -- https://staging.katydecorah.com
 env:
   global:
     secure: Qc/8WtVGvVr/Y+LaxolHkZnxvnihWyAsiILKxw3BSr0uug84IbOrg89pFYO8jJII7vvQrhfv6UboaGPFkfGr2CoD6hQi5ZW0DpOaD0zDEcI9FhcHpH7M2hVaJOkLXKJEJigIlp2sHwxlIc9rPQFEh3Yn9GCRurXyuZDrzPUnzP8=
