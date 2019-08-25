@@ -61,11 +61,13 @@
     ]
   },
   "dependencies": {
-    "@mapbox/appropriate-images": "^2.0.0"
+    "@mapbox/appropriate-images": "^2.0.0",
+    "feather-icons": "^4.24.1"
   },
   "main": "index.js",
   "bin": {
-    "katy-decorah": "appropriate-images.js"
+    "upload-images": "bin/appropriate-images.js",
+    "update-icons": "bin/icons.js"
   },
   "directories": {
     "test": "test"
