@@ -1,6 +1,6 @@
 set -e
 
-DEPLOY_REPO="https://${GH_token}@github.com/katydecorah/staging.git"
+DEPLOY_REPO="https://${GH_TOKEN}@github.com/katydecorah/staging.git"
 
 function main {
 	clean
