@@ -3,18 +3,13 @@ node_js: stable
 sudo: false
 script:
   - npm test
+before_install: gem update bundler
+
 install:
+  - bundle install
   - npm install
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GH_TOKEN
-  keep_history: true
-  target_branch: master
-  repo: katydecorah/staging
-  on:
-    all_branches: true
 after_success:
+  - "./bin/deploy.sh"
   - npm run lh -- https://staging.katydecorah.com
 env:
   global:
