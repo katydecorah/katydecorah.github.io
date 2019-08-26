@@ -6,8 +6,9 @@ script:
 before_install: gem update bundler
 
 install:
+  - gem install bundler
   - bundle install
-  #- npm install
+  - npm install
 after_success:
   - "./bin/deploy.sh"
   #- npm run lh -- https://staging.katydecorah.com
