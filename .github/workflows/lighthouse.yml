@@ -1,17 +1,17 @@
 name: Lighthouse Audit
 on: push
-
 jobs:
-  audit:
+  lighthouse:
     runs-on: ubuntu-latest
     steps:
-    - name: Audit live URL
-      uses: jakejarvis/lighthouse-action@master
-      with:
-        url: 'https://katydecorah.com/'
-    - name: Create Issue From File
-      uses: peter-evans/create-issue-from-file@v1.0.1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ISSUE_TITLE: Lighthouse Audit
-        ISSUE_CONTENT_FILEPATH: ./github/workspace/report/https___katydecorah_com_.report.html
+      - uses: actions/checkout@v1
+      - name: Audit URLs using Lighthouse and ensure performance budget
+        uses: treosh/lighthouse-ci-action@v1
+        with:
+          urls: |
+            https://katydecorah.com/
+      - name: Save results
+        uses: actions/upload-artifact@master
+        with:
+          name: lighthouse-results
+          path: './results'
