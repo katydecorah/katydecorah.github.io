@@ -14,4 +14,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         ISSUE_TITLE: Lighthouse Audit
-        ISSUE_CONTENT_FILEPATH: ./https___katydecorah_com_.report.html
+        ISSUE_CONTENT_FILEPATH: ./github/workspace/report/https___katydecorah_com_.report.html
