@@ -9,6 +9,8 @@ author:
   uri: https://katydecorah.com
 assets: //yo.katydecorah.com/
 
+repository: katydecorah/katydecorah.github.io
+
 paginate: 5
 paginate_path: ":num"
 future: true
