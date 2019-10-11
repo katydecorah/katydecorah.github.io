@@ -24,7 +24,7 @@
     "remark-lint-no-dead-urls": "^0.4.1",
     "retext-spell": "^2.4.1",
     "stylelint": "^9.9.0",
-    "stylelint-scss": "^3.9.3",
+    "stylelint-scss": "^3.11.1",
     "tap-min": "^2.0.0",
     "tape": "^4.11.0",
     "underscore": "^1.9.1"
