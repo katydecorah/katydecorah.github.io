@@ -12,4 +12,4 @@ This week I made Yossy Arefi's [Rose apple tart](https://cooking.nytimes.com/rec
 {% include img.html src="2019-10-11-rose-apple-tart-2.jpg" alt="rose apple tart" %}
 </div>
 
-An absolutely delightful crust but a slightly tedious construction of the petals. (I think my slicer was cutting 1/16-inch apple slices rather than the recommended 1/8-inch.)
+An absolutely delightful crust but a slightly tedious construction of the petals. (I think my slicer was cutting the apples at 1/16-inch rather than the recommended 1/8-inch.)
