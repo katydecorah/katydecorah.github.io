@@ -1,0 +1,26 @@
+on:
+  schedule:
+    - cron:  '00 01 20 Mar,Jun,Sep,Dec *'
+
+jobs:
+  spotify_to_jekyll:
+    runs-on: ubuntu-latest
+    name: Turn a Spotify playlist into a Jekyll post.
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Create post
+        uses: katydecorah/spotify-to-jekyll-action
+        env:
+          SpotifyClientID: ${{ secrets.SpotifyClientID }}
+          SpotifyClientSecret: ${{ secrets.SpotifyClientSecret}}
+          SpotifyUser: ${{ secrets.SpotifyUser }}
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A && git commit -m "🎵 Add playlist post"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
