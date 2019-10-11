@@ -1,0 +1,24 @@
+on: [push]
+
+jobs:
+  images_to_s3:
+    runs-on: macOS-latest
+    name: Upload images to S3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Upload images
+        uses: katydecorah/images-to-s3-action@latest
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_BUCKET: ${{ secrets.AWS_BUCKET }}
+        with:
+          image_path: './img/staging/'
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A && git commit -m "Delete uploaded images"
+          git push "https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF}
