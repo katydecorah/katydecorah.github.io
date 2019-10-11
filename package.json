@@ -12,30 +12,22 @@
     "send-images": "node bin/appropriate-images.js"
   },
   "devDependencies": {
-    "aws-sdk": "^2.513.0",
     "babel-eslint": "^8.2.6",
-    "dotenv": "^7.0.0",
     "eslint": "^4.19.1",
     "extra-eyes": "1.0.1",
     "husky": "^0.14.3",
     "js-yaml": "^3.13.1",
     "lint-staged": "^7.3.0",
-    "minimist": "^1.2.0",
     "moment": "^2.23.0",
     "prettier": "^1.18.2",
     "remark-cli": "^6.0.1",
     "remark-lint-no-dead-urls": "^0.4.1",
-    "request": "^2.88.0",
     "retext-spell": "^2.4.1",
-    "rimraf": "^2.7.1",
     "stylelint": "^9.9.0",
     "stylelint-scss": "^3.9.3",
     "tap-min": "^2.0.0",
     "tape": "^4.11.0",
     "underscore": "^1.9.1"
-  },
-  "optionalDependencies": {
-    "@mapbox/appropriate-images": "^2.0.0"
   },
   "lint-staged": {
     "**/*.js": [
@@ -61,12 +53,10 @@
     ]
   },
   "dependencies": {
-    "@mapbox/appropriate-images": "^2.0.0",
     "feather-icons": "^4.24.1"
   },
   "main": "index.js",
   "bin": {
-    "upload-images": "bin/appropriate-images.js",
     "update-icons": "bin/icons.js"
   },
   "directories": {
