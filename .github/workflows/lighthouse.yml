@@ -1,7 +1,7 @@
 name: Lighthouse Audit
 on:
   schedule:
-    - cron:  '0 0 * * 0'
+    - cron: "0 0 * * 0"
 
 jobs:
   audit:
@@ -13,28 +13,33 @@ jobs:
         with:
           SITEMAP: https://katydecorah.com/sitemap.xml
         uses: katydecorah/lighthouse-sitemap-action@v1.3
+      - name: Clear out workspace results folder
+        run: |
+          rm -rf ${{ github.workspace }}/results/
       - name: Audit URLs using Lighthouse and ensure performance budget
         uses: treosh/lighthouse-ci-action@v1
         with:
           onlyCategories: performance,accessibility,best-practices,seo
           urls: ${{ env.urls }}
       - name: Evaluate scores and generate scores.md
-        uses: katydecorah/lighthouse-issue-action@v1.0
+        uses: katydecorah/lighthouse-issue-action@v1.1
         with:
           FILEPATH: ${{ github.workspace }}/results/
       - name: Save results
         uses: actions/upload-artifact@master
         with:
           name: lighthouse-results
-          path: './results'
+          path: "./results"
       - name: Upload results as an artifact
         uses: actions/upload-artifact@master
         with:
           name: scores.md
           path: ./scores.md
       - name: Create Issue From File
+        if: env.create_issue
         uses: peter-evans/create-issue-from-file@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_TITLE: Lighthouse Audit
           ISSUE_CONTENT_FILEPATH: ./scores.md
+          ISSUE_LABELS: lighthouse
