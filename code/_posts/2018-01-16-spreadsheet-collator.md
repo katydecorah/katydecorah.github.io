@@ -8,7 +8,7 @@ tags:
   - Google Sheets
 ---
 
-For [Ela Conf](http://elaconf.com) 2016 and 2017, we created a Google Form to collect speaker feedback. The form had the following fields:
+For [Ela Conf](https://elaconf.github.io/) 2016 and 2017, we created a Google Form to collect speaker feedback. The form had the following fields:
 
 - For which session are you leaving feedback? (A select box with all the possible talks)
 - What did you learn?

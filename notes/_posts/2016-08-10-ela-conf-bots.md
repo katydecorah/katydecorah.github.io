@@ -7,7 +7,7 @@ tags:
   - Zapier
 ---
 
-Last year, [Ela Conf](http://elaconf.com) organizers and I relied on Google Forms for women to submit anything from talks to volunteer applications. Forms worked well for us, but reviewing abstracts in a spreadsheet wasn't exactly a fun thing to do. With the help of [Zapier](https://zapier.com/), I created some efficient little bots that keep us organized and motivated.
+Last year, [Ela Conf](https://elaconf.github.io/) organizers and I relied on Google Forms for women to submit anything from talks to volunteer applications. Forms worked well for us, but reviewing abstracts in a spreadsheet wasn't exactly a fun thing to do. With the help of [Zapier](https://zapier.com/), I created some efficient little bots that keep us organized and motivated.
 
 ## Volunteer, proposals, and grant bot
 

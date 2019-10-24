@@ -9,7 +9,7 @@ tags:
   - GitHub
 ---
 
-For [Ela Conf](http://elaconf.com) 2015, 2016, and 2017, we turned a private GitHub repository into a system for reviewing talk proposals.
+For [Ela Conf](https://elaconf.github.io/) 2015, 2016, and 2017, we turned a private GitHub repository into a system for reviewing talk proposals.
 
 Here's how we set it up:
 
