@@ -36,12 +36,17 @@ Once you create the form, click the "Responses" tab and then the Google Sheets i
 
 While you have your spreadsheet open, you'll want to jot down a few credentials:
 
-1. The spreadsheet ID, which is that string of characters in the URL:
-   {% include img.html src='2018-01-16-spreadsheet-collator-2.png' alt='Screenshot of Google spreadsheet ID' class='img-full' %}
-2. The spreadsheet range, which is the tab name and cell ranges you want to read. For this example we want `Vegetable Feedback!B:D`:
-   {% include img.html src='2018-01-16-spreadsheet-collator-3.png' alt='Screenshot of Google spreadsheet range' class='img-full' %}
-3. The name of the column header that holds the rows that will be the titles of your Google docs:
-   {% include img.html src='2018-01-16-spreadsheet-collator-4.png' alt='Screenshot of Google spreadsheet header row' class='img-full' %}
+- The spreadsheet ID, which is that string of characters in the URL:
+
+{% include img.html src='2018-01-16-spreadsheet-collator-2.png' alt='Screenshot of Google spreadsheet ID' class='img-full' %}
+
+- The spreadsheet range, which is the tab name and cell ranges you want to read. For this example we want `Vegetable Feedback!B:D`:
+
+{% include img.html src='2018-01-16-spreadsheet-collator-3.png' alt='Screenshot of Google spreadsheet range' class='img-full' %}
+
+- The name of the column header that holds the rows that will be the titles of your Google docs:
+
+{% include img.html src='2018-01-16-spreadsheet-collator-4.png' alt='Screenshot of Google spreadsheet header row' class='img-full' %}
 
 ## Create a Google Drive folder
 
