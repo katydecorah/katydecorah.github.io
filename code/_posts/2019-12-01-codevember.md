@@ -8,7 +8,7 @@ pen: eYYyvde
 
 Last month I participated in [Codevember](http://codevember.xyz/), which is a challenge to code every day in November.
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="result" data-user="katydecorah" data-slug-hash="eYYyvde" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2019 Codevember">
+<p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="result" data-user="katydecorah" data-slug-hash="eYYyvde" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2019 Codevember">
   <span>See the Pen <a href="https://codepen.io/katydecorah/pen/eYYyvde">
   2019 Codevember</a> by Katy DeCorah (<a href="https://codepen.io/katydecorah">@katydecorah</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
