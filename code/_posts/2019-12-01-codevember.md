@@ -33,7 +33,9 @@ To keep myself challenged, I also decided to stay strict to:
 
 Using `currentColor` afforded me flexibility in changing the color scheme, especially in adding a color picker to the first CodePen.
 
-I did find that in Chrome, you need to trigger a repaint when switching currentColor on `background` and I was able to do so with:
+<iframe src="https://player.vimeo.com/video/376715447" width="640" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+I found that in Chrome you need to trigger a repaint when switching currentColor on `background` and I was able to do so with:
 
 ```CSS
 div,
