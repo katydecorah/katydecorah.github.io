@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron:  '00 01 20 Mar,Jun,Sep,Dec *'
+    - cron: "00 01 20 Mar,Jun,Sep,Dec *"
 
 jobs:
   spotify_to_jekyll:
@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Create post
-        uses: ./
+        uses: katydecorah/spotify-to-jekyll-action@v1
         env:
           SpotifyClientID: ${{ secrets.SpotifyClientID }}
           SpotifyClientSecret: ${{ secrets.SpotifyClientSecret}}
@@ -24,4 +24,3 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
