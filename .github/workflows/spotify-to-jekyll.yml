@@ -1,5 +1,6 @@
-on: [push]
-
+on:
+  schedule:
+    - cron: "00 01 21 Mar,Jun,Sep,Dec *"
 jobs:
   spotify_to_jekyll:
     runs-on: ubuntu-latest
