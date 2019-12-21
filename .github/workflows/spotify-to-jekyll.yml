@@ -1,6 +1,5 @@
 on: [push]
 
-
 jobs:
   spotify_to_jekyll:
     runs-on: ubuntu-latest
@@ -9,10 +8,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Create post
-        uses: katydecorah/spotify-to-jekyll-action@v1.1
+        uses: katydecorah/spotify-to-jekyll-action@v1.2
         env:
           SpotifyClientID: ${{ secrets.SpotifyClientID }}
-          SpotifyClientSecret: ${{ secrets.SpotifyClientSecret}}
+          SpotifyClientSecret: ${{ secrets.SpotifyClientSecret }}
           SpotifyUser: ${{ secrets.SpotifyUser }}
       - name: Commit files
         run: |
