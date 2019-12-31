@@ -8,6 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Upload images
+        if: success()
         uses: katydecorah/images-to-s3-action@v1.2
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
