@@ -63,7 +63,7 @@ I found [this great bookmarklet](https://gist.github.com/nloko/3001053) that scr
 
 Now, I need to make sure that the entire playlist is loaded and that I open the "Share" modal, otherwise the bookmarklet won't find those values. I'll make the bookmarklet sweet on a rainy day, but for now it works despite the conditions.
 
-![Rdio playlist bookmarklet in action](http://i.imgur.com/4YDPRZl.gif)
+![Rdio playlist bookmarklet in action.](http://i.imgur.com/4YDPRZl.gif)
 
 [Rdio playlist to YAML bookmarklet](https://gist.github.com/katydecorah/9574336)
 

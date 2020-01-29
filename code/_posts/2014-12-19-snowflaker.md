@@ -44,7 +44,7 @@ And it did!
 
 If you update the number of spindles in the Haml and Sass, you'll get a different snowflake. Here is 3 through 26 spindles:
 
-![scaling spindles](http://i.imgur.com/yNv3nmo.gif)
+![scaling spindles.](http://i.imgur.com/yNv3nmo.gif)
 
 You can play with the width of the spindles and patterns, too!
 
