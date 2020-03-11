@@ -1,1 +1,1 @@
-{% if page.locations %}<div class="post-locations"><span class="post-location">{% include icons/map-pin.svg %}</span> {% for location in page.locations %}<span class="post-location">{{ location | replace:',',', '}}</span>{% if forloop.last == false %}, {%endif%}{% endfor %}</div>{% endif %}
+{% if page.locations %}<div class="post-tags post-locations">{% for location in page.locations %}<span class="post-tag post-location">{% include icons/map-pin.svg %} {{ location | replace:',',', '}}</span>{% endfor %}</div>{% endif %}

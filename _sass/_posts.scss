@@ -220,13 +220,17 @@
   margin-top: 2em;
 }
 
-.post-locations,
 .post-twitter {
   margin-bottom: 1em;
 }
 
 .post-locations {
   color: var(--text-accent);
+
+  .post-location svg {
+    color: var(--text-accent);
+    vertical-align: text-bottom;
+  }
 }
 
 .post-twitter {
@@ -268,16 +272,6 @@
     svg {
       vertical-align: middle;
     }
-  }
-}
-
-.post-location {
-  min-height: 1px;
-
-  svg {
-    height: 20px;
-    width: 20px;
-    margin-right: 0.25em;
   }
 }
 
