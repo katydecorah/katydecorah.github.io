@@ -198,17 +198,14 @@
   .post-tag {
     @extend %xs;
 
-    background: var(--background-accent);
-    border-radius: 1em;
     display: inline-block;
-    margin-right: 0.5em;
-    padding: 0.25em 1.25em;
+    margin-right: 1.5em;
     text-decoration: none;
 
     svg {
-      margin-right: 0.25em;
       vertical-align: middle;
       width: 1em;
+      color: var(--link-hover);
     }
   }
 }
