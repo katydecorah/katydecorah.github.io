@@ -28,7 +28,7 @@
     "stylelint": "^9.9.0",
     "stylelint-scss": "^3.14.2",
     "tap-min": "^2.0.0",
-    "tape": "^4.13.0",
+    "tape": "^4.13.2",
     "underscore": "^1.9.2"
   },
   "lint-staged": {
