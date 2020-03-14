@@ -375,6 +375,8 @@ figcaption {
   margin-left: auto;
   margin-top: -2.5em;
   margin-right: auto;
+  position: relative;
+  z-index: 1;
 }
 
 .footnotes {
