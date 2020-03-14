@@ -14,7 +14,7 @@
   "devDependencies": {
     "@double-great/remark-lint-alt-text": "^0.2.1",
     "babel-eslint": "^8.2.6",
-    "eslint": "^4.19.1",
+    "eslint": "^6.8.0",
     "extra-eyes": "^1.1.1",
     "feather-icons": "^4.26.0",
     "husky": "^0.14.3",
