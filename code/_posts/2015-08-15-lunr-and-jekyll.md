@@ -17,7 +17,7 @@ I started off by creating a file called, [lunr-feed.js](https://github.com/katyd
 Next, I declared fields to describe my data (and by data I mean my posts). I can customize the field names, but it's important to keep the `id` field (this acts like a unique identifier). I can also add a boost to each field. A boost tells lunr that I want it to favor this field _that_ much more in the context of searching. In my case, I wanted lunr to focus on the content of my posts, so I applied a boost to that field.
 
 ```js
-var index = lunr(function() {
+var index = lunr(function () {
   this.field("title");
   this.field("content", { boost: 10 });
   this.field("category");
@@ -67,8 +67,8 @@ To complement the data that I gave to lunr, I created an object that has basic i
 Finally, it's time to query lunr aka query that `index` object lunr created from my fields and data. Lunr returns `id` numbers as search results (in order of most relevant) and then I use that `id` as an index number for my `store` object so I can output details about each search result.
 
 ```js
-$(document).ready(function() {
-  $("input#search").on("keyup", function() {
+$(document).ready(function () {
+  $("input#search").on("keyup", function () {
     var resultdiv = $("#results");
     // Get query
     var query = $(this).val();

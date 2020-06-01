@@ -9,11 +9,10 @@
     "send-images": "node bin/appropriate-images.js",
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "format": "prettier --write '**/*.{js,css,json,md,yml}'"
+    "format": "prettier --write '**/*.{js,css,scss,json,md,yml}'"
   },
   "devDependencies": {
     "@double-great/remark-lint-alt-text": "^0.2.1",
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.1.0",
     "extra-eyes": "^1.2.0",
     "feather-icons": "^4.28.0",
@@ -24,29 +23,6 @@
     "remark-cli": "^8.0.0",
     "tap-min": "^2.0.0",
     "tape": "^5.0.1"
-  },
-  "lint-staged": {
-    "**/*.js": [
-      "eslint",
-      "prettier --single-quote --write",
-      "git add"
-    ],
-    "**/*.md": [
-      "prettier --write",
-      "git add"
-    ],
-    "**/*.yml": [
-      "prettier --write",
-      "git add"
-    ],
-    "**/*.scss": [
-      "prettier --write",
-      "git add"
-    ],
-    "**/*.json": [
-      "prettier --write",
-      "git add"
-    ]
   },
   "dependencies": {},
   "husky": {

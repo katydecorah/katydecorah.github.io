@@ -1,22 +1,22 @@
-const test = require('tape');
-const fs = require('fs');
-const jsyaml = require('js-yaml');
+const test = require("tape");
+const fs = require("fs");
+const jsyaml = require("js-yaml");
 const paths = [
-  'adventures/_posts/',
-  'epicurean/_posts/',
-  'code/_posts/',
-  'playlists/_posts/',
-  'notes/_posts/'
+  "adventures/_posts/",
+  "epicurean/_posts/",
+  "code/_posts/",
+  "playlists/_posts/",
+  "notes/_posts/",
 ];
-const utils = require('./utils');
+const utils = require("./utils");
 
 const data = {
-  give: utils.readData('_data/', 'organizations.yml')
+  give: utils.readData("_data/", "organizations.yml"),
 };
 
-const readPost = filename => {
+const readPost = (filename) => {
   const buffer = fs.readFileSync(filename),
-    file = buffer.toString('utf8');
+    file = buffer.toString("utf8");
 
   try {
     const parts = file.split(/---\s*[\n^]/),
@@ -26,7 +26,7 @@ const readPost = filename => {
       name: filename,
       file: file,
       metadata: jsyaml.load(frontmatter),
-      content: parts[2]
+      content: parts[2],
     };
   } catch (err) {
     console.log(
@@ -36,7 +36,7 @@ const readPost = filename => {
 };
 
 const posts = paths.reduce((arr, path) => {
-  fs.readdirSync(`${path}/`).forEach(file => {
+  fs.readdirSync(`${path}/`).forEach((file) => {
     arr.push(`${path}${file}`);
   });
   return arr;
@@ -53,9 +53,9 @@ const permalinks = posts.reduce((prev, post) => {
       permalink = metadata.permalink;
     } else {
       permalink = post
-        .replace('_posts', '')
-        .replace('.md', '/')
-        .replace(/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-/, '');
+        .replace("_posts", "")
+        .replace(".md", "/")
+        .replace(/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-/, "");
     }
 
     if (!prev[permalink]) {
@@ -67,19 +67,19 @@ const permalinks = posts.reduce((prev, post) => {
   return prev;
 }, {});
 
-posts.forEach(post => {
+posts.forEach((post) => {
   const file = readPost(post),
     metadata = file.metadata;
 
-  test(post, t => {
+  test(post, (t) => {
     t.equal(
       typeof metadata,
-      'object',
-      'front matter must be formatted correctly'
+      "object",
+      "front matter must be formatted correctly"
     );
 
-    t.ok(metadata.title, 'post must have a title');
-    t.ok(metadata.image, 'post must have an image');
+    t.ok(metadata.title, "post must have a title");
+    t.ok(metadata.image, "post must have an image");
 
     // check permalinks
     let permalink;
@@ -87,50 +87,50 @@ posts.forEach(post => {
       permalink = metadata.permalink;
     } else {
       permalink = post
-        .replace('_posts', '')
-        .replace('.md', '/')
-        .replace(/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-/, '');
+        .replace("_posts", "")
+        .replace(".md", "/")
+        .replace(/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-/, "");
     }
     t.equal(
       permalinks[permalink].length,
       1,
-      'permalink must not already exist ' + permalink
+      "permalink must not already exist " + permalink
     );
 
-    if (metadata.category == 'playlists') {
-      t.ok(metadata.permalink, 'playlist must have a permalink');
+    if (metadata.category == "playlists") {
+      t.ok(metadata.permalink, "playlist must have a permalink");
     }
 
-    if (metadata.category == 'adventures') {
-      t.ok(metadata.locations, 'adventure post must have a locations field');
+    if (metadata.category == "adventures") {
+      t.ok(metadata.locations, "adventure post must have a locations field");
       t.equal(
         typeof metadata.locations,
-        'object',
-        'locations must be an object'
+        "object",
+        "locations must be an object"
       );
       t.ok(
         metadata.coordinates,
-        'adventure post must have a coordinates field'
+        "adventure post must have a coordinates field"
       );
       t.equal(
         typeof metadata.coordinates,
-        'object',
-        'coordinates must be an object'
+        "object",
+        "coordinates must be an object"
       );
     }
 
     if (metadata.tags) {
-      t.equal(typeof metadata.tags, 'object', 'tags must be an object');
+      t.equal(typeof metadata.tags, "object", "tags must be an object");
       t.equal(
         metadata.tags.length < 6,
         true,
-        'post should have no more than 5 tags'
+        "post should have no more than 5 tags"
       );
     }
 
     if (metadata.organizations) {
       const found = data.organizations.metadata.find(
-        m => m.name == metadata.organizations
+        (m) => m.name == metadata.organizations
       );
       t.ok(
         found,

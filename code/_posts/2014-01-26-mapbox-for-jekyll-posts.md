@@ -49,20 +49,17 @@ var map = L.mapbox.map("map", "katydecorah.h41bj3lj"),
           type: "Feature",
           properties: {
             title: "DC",
-            "marker-color": "#2A2B26"
+            "marker-color": "#2A2B26",
           },
           geometry: {
             type: "Point",
-            coordinates: [-77.03887939453125, 38.89530825492018]
-          }
-        }
-      ]
-    }
+            coordinates: [-77.03887939453125, 38.89530825492018],
+          },
+        },
+      ],
+    },
   ],
-  markerLayer = L.mapbox
-    .markerLayer()
-    .setGeoJSON(geoJson)
-    .addTo(map);
+  markerLayer = L.mapbox.markerLayer().setGeoJSON(geoJson).addTo(map);
 map.fitBounds(markerLayer.getBounds());
 ```
 
