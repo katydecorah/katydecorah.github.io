@@ -5,31 +5,25 @@
   "scripts": {
     "test": "tape test/*.test.js | tap-min && npm run lint-md",
     "test-content": "extra-eyes {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic",
-    "proofer": "htmlproofer ./_site",
     "lint-md": "remark {adventures,code,epicurean,notes}/_posts",
-    "precommit": "lint-staged",
-    "scsslint": "stylelint _sass/*.scss",
-    "send-images": "node bin/appropriate-images.js"
+    "send-images": "node bin/appropriate-images.js",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "format": "prettier --write '**/*.{js,css,json,md,yml}'"
   },
   "devDependencies": {
     "@double-great/remark-lint-alt-text": "^0.2.1",
-    "babel-eslint": "^8.2.6",
-    "eslint": "^6.8.0",
-    "extra-eyes": "^1.1.1",
-    "feather-icons": "^4.26.0",
-    "husky": "^0.14.3",
-    "js-yaml": "^3.13.1",
-    "lint-staged": "^7.3.0",
-    "moment": "^2.23.0",
-    "prettier": "^1.19.1",
-    "remark-cli": "^6.0.1",
-    "remark-lint-no-dead-urls": "^0.4.1",
-    "retext-spell": "^2.4.1",
-    "stylelint": "^9.9.0",
-    "stylelint-scss": "^3.14.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0",
+    "extra-eyes": "^1.2.0",
+    "feather-icons": "^4.28.0",
+    "husky": "^4.2.5",
+    "js-yaml": "^3.14.0",
+    "lint-staged": "^10.2.7",
+    "prettier": "^2.0.5",
+    "remark-cli": "^8.0.0",
     "tap-min": "^2.0.0",
-    "tape": "^4.13.2",
-    "underscore": "^1.9.2"
+    "tape": "^5.0.1"
   },
   "lint-staged": {
     "**/*.js": [
@@ -55,6 +49,11 @@
     ]
   },
   "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "main": "index.js",
   "bin": {
     "update-icons": "bin/icons.js"
