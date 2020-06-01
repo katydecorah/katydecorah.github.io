@@ -27,7 +27,7 @@ I turned one of my favorite cookies into ice cream. While this dairy-free treat 
 2. Whisk together the **egg yolks** and **cinnamon sugar** in a saucepan over medium heat until well-blended. Split **vanilla bean** lengthwise and scrape in seeds; add pod.
 3. Continuously stir the egg mixture with a wooden spoon until thickened, 7 to 8 minutes. The mixture should be thick enough to coat the back of the spoon. (Mixture should reach about 170°F.)
 4. Remove the mixture from heat and stir in the **oat milk** until smooth.
-5. Strain the mixture through a fine sieve set over a clean bowl.
+5. Strain the mixture through a fine sieve set over a clean bowl.
 6. Stir in **sea salt**.
 7. Cover and chill the mixture in the refrigerator, stirring occasionally until cool, about 1 hour.
 8. Pour the chilled mixture into an ice cream maker and freeze according to manufacturer’s directions. When the ice cream is almost finished, add the **chocolate** into the machine and allow to incorporate completely.
