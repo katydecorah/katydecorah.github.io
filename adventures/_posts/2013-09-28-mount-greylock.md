@@ -27,7 +27,7 @@ We woke up early and drove out to Mount Greylock in Mass. It was a gorgeous morn
 
 </div>
 
-Then these dudes decided to paraglide off the summit.
+Then these people went paragliding off the summit.
 
 <div class="photos">
 

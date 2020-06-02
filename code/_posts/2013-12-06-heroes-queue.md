@@ -34,34 +34,36 @@ I set up my color variables as conditional formatting. For example, in any cell 
 
 With one eye in Photoshop and another in Google Drive, I started typing my variables into the spreadsheet. As I entered a variable that matched a condition, the background instantly changed. It only took a few minutes to assign a color variable to each cell. Plus, spreadsheets allow for mass select and paste, it was a snap.
 
-I ended up creating each character on a 26&times;26 grid or in spreadsheet terms A1:Z26. This grid size came in handy later when concocting the formula.
+I ended up creating each character on a 26&times;26 grid or in spreadsheet terms `A1:Z26`. This grid size came in handy later when concocting the formula.
 
 {% include img.html src='2013-12-06-heroes-queue-1.png' alt='batman' class='img-half' %}
 
 You might notice that I didn’t need to include `$bg`. I could have left those cells blank, because in the end I’m just going to ignore those cells because the `body` background can make up for it. I’m a visual person, so putting those values in worked for me.
 
-## arrayFormula()
+## `arrayFormula()`
 
 Once I had the character ready, it was time for formula magic to output my `box-shadow` values.
 
-    =ArrayFormula(if(A1:Z26<>"$bg","("&column(A1:Z1) -1 &" * $width) (" & ROW(A1:Z26) -1  &" * $width) 0 0 "&A1:Z26&",",""))
+```
+=ArrayFormula(if(A1:Z26<>"$bg","("&column(A1:Z1) -1 &" * $width) (" & ROW(A1:Z26) -1  &" * $width) 0 0 "&A1:Z26&",",""))
+```
 
-I entered this formula in the first cell after the last column, AA:1. This formula went through A1:Z26 and transposed all the cell data, but I carefully defined the output so that each cell declares its own `box-shadow` value.
+I entered this formula in the first cell after the last column, AA:1. This formula went through `A1:Z26` and transposed all the cell data, but I carefully defined the output so that each cell declares its own `box-shadow` value.
 
 The formula does the following:
 
-- If any cell within A1:Z26 doesn't equal “`$bg`”, then reformat the cell, but if it does then do “” (create a blank cell — so yes, the variable is superfluous as stated before).
+- If any cell within `A1:Z26` doesn't equal “`$bg`”, then reformat the cell, but if it does then do “” (create a blank cell — so yes, the variable is superfluous as stated before).
 - To reformat the cell, as seen in the second set of double quotes, each permitted cell generates the following `box-shadow` values `<offset-x> <offset-y> <blur-radius> <color>,`. Each cell dynamically adjusts the `offset-x` and `offset-y` values of the shadow according to its position in the spreadsheet. I set the `blur-radius` to 0 and used the existing cell data for the `color` of the shadow.
 
-Initially, I had used static values, for example: `9em 0em 0 $red,`, but that meant I couldn't scale the character because this was based on 1em. Instead, I made the values relative: `(9 * $width) (0 * $width) 0 $red,`. Now whenever I adjust the `$width` the character will stay in perfect proportion.
+Initially, I had used static values, for example: `9em 0em 0 $red,`, but that meant I couldn't scale the character because this was based on `1em`. Instead, I made the values relative: `(9 * $width) (0 * $width) 0 $red,`. Now whenever I adjust the `$width` the character will stay in perfect proportion.
 
 ## Gimme all the box-shadows
 
-Once I entered the formula into cell AA:1, the character was automatically transposed into `box-shadow` values. From there I selected all AA1:AZ26 cells, copied, and pasted as the value of `box-shadow:` into my CSS. And done!
+Once I entered the formula into cell `AA:1`, the character was automatically transposed into `box-shadow` values. From there I selected all `AA1:AZ26` cells, copied, and pasted as the value of `box-shadow:` into my CSS. And done!
 
 Feel free to [check out the spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AvJ6mdPETci9dEtZak04VzU2UEFqeXZ3V2hIdGtrWXc&usp=sharing) that I used to create these characters.
 
-(I highlighted AA1 to show that that cell holds the formula.)
+(I highlighted `AA1` to show that that cell holds the formula.)
 
 {% include img.html src='2013-12-06-heroes-queue-2.png' alt='Batman with values' class='img-half' %}
 

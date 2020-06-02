@@ -25,9 +25,9 @@ The main element, `.battery`, is the outline of the battery. The `:before` is th
 <figcaption>Demonstration of elements.</figcaption>
 </figure>
 
-## You best customize
+## Make it scalable
 
-Like my other pens, I also made this one scalable. Try changing `$size` in the Sass. I added a few conditions for when `$size` is less than 4em, because when \$size is teeny the positioning gets thrown off. To help it along, I added a `background-color` to `.battery` to hide the pixel off-ness.
+Like my other pens, I also made this one scalable. Try changing `$size` in the Sass. I added a few conditions for when `$size` is less than `4em`, because when `$size` is teeny the positioning gets thrown off. To help it along, I added a `background-color` to `.battery` to hide the pixel misalignment.
 
 The color of the battery and background will adjust according to `$accent`. Darkish grays look pretty dope.
 

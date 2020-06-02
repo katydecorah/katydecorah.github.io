@@ -18,9 +18,9 @@ After working with Google Static Maps for some of my posts [(re: Static Google M
 
 This project is powered with Angular. I've only dabbled in Angular, but it came in handy because it's so great with forms.
 
-## Head Scratcher
+## Head scratcher
 
-One thing that had me scratching my head: how to evaluate an expression, but then output something else. For instance, when I don't have a value for the API Key input, then I don't want the parameter to be displayed in the API call. Because if the value of _api_ is blank, it can throw an error. I knew I needed a way to check the value of the input and output code based on that evaluation, but I couldn't figure out how to write it.
+One thing that had me scratching my head: how to evaluate an expression, but then output something else. For instance, when I don't have a value for the API Key input, then I don't want the parameter to be displayed in the API call. Because if the value of `api` is blank, it can throw an error. I knew I needed a way to check the value of the input and output code based on that evaluation, but I couldn't figure out how to write it.
 
 Finally, I figured it out.
 

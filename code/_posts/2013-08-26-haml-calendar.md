@@ -61,7 +61,7 @@ The calendar works, but it's not dynamic.
 
 ## Making it Dynamic
 
-I wrote a new variable called `monthStart`. Using the date function along with my variables for month and year, I could get the day each month starts on. I wrote another variable to find the position of the first of the month in my `@days` array. So in `@days` Thursday's position is 4, but my loop needs to start at -3 for the month to start on that day. I wrote down every day, its position in the array, and what number the loop needs to start on in order for the month to start on that day. From these findings, I created a formula. I take the negative of the hash and add 1.
+I wrote a new variable called `monthStart`. Using the date function along with my variables for month and year, I could get the day each month starts on. I wrote another variable to find the position of the first of the month in my `@days` array. So in `@days` Thursday's position is 4, but my loop needs to start at -3 for the month to start on that day. I wrote down every day, its position in the array, and what number the loop needs to start on for the month to start on that day. From these findings, I created a formula. I take the negative of the hash and add 1.
 
 ```haml
 - monthStart = Date.new(year, month, 1).strftime("%a")
@@ -84,13 +84,13 @@ To make sure my loop worked, I changed my `month` variable to 9 to display Septe
 
 But, September only has 30 days and I'm still printing out 31.
 
-I wrote another variable called `monthEnd`. This new variable was slightly easier than monthStart as I automatically receive an integer.
+I wrote another variable called `monthEnd`. This new variable was slightly easier than `monthStart` as I automatically receive an integer.
 
 ```haml
 - monthEnd = Integer(Date.new(year, month, -1).strftime("%d"))
 ```
 
-I updated my loop once more (Here I add 1 to monthEnd to make sure it gets the last day and not up until the last day of the month):
+I updated my loop once more (Here I add 1 to `monthEnd` to make sure it gets the last day and not up until the last day of the month):
 
 ```haml
 %ul.week

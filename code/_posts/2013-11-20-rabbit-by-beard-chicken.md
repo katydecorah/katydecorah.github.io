@@ -42,6 +42,6 @@ So in the case of `.clouds`:
 }
 ```
 
-The first `box-shadow` creates a copy of the element, but is moved to the right 5em and down 2em. I slightly shrunk the new cloud, using -0.3em for the `spread-radius`. Naturally, I set the color of the cloud to white. For the second `box-shadow`, I moved it to the left 2em and down 2em, but kept it the same size. I set the `blur-radius` to 0 for both shadows to avoid a blur and I receive a crisp cloud.
+The first `box-shadow` creates a copy of the element, but is moved to the right `5em` and down `2em`. I slightly shrunk the new cloud, using -0.3em for the `spread-radius`. Naturally, I set the color of the cloud to white. For the second `box-shadow`, I moved it to the left `2em` and down `2em`, but kept it the same size. I set the `blur-radius` to 0 for both shadows to avoid a blur and I receive a crisp cloud.
 
 Getting the `@keyframes` just right took a bit of adjusting, but I loved how this rabbit came to life!

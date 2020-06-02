@@ -47,7 +47,7 @@ Open up the tab of a Google spreadsheet that has your data.
 
 Make the script your own by specifying which columns have which data, assigning variables, and using those variables to weave together your message.
 
-Check out the [createDraft documentation](<https://developers.google.com/apps-script/reference/gmail/gmail-app#createDraft(String,String,String)>) to learn about more options. For example, you can cc or bcc others on the emails or add a reply-to address.
+Check out the [`createDraft` documentation](<https://developers.google.com/apps-script/reference/gmail/gmail-app#createDraft(String,String,String)>) to learn about more options. For example, you can cc or bcc others on the emails or add a reply-to address.
 
 I set up the current script to create drafts. If you'd prefer the script to send emails instead, swap out the `GmailApp.createDraft()` function with:
 
@@ -59,7 +59,7 @@ MailApp.sendEmail(
 );
 ```
 
-Check out the [sendEmail documentation](https://developers.google.com/apps-script/reference/mail/mail-app#sendemailrecipient-subject-body) to learn about more options you can use to send emails with this function.
+Check out the [`sendEmail` documentation](https://developers.google.com/apps-script/reference/mail/mail-app#sendemailrecipient-subject-body) to learn about more options you can use to send emails with this function.
 
 ## Authenticate the script
 

@@ -38,7 +38,7 @@ Check out the [README on Glitch](https://glitch.com/edit/#!/quiggles?path=README
 
 1. I created a Zapier zap that will run at 11 am every weekday. It's action is to [POST to a webhook URL](https://glitch.com/edit/#!/quiggles?path=index.js:42:0) that's pointed at my Glitch project.
 2. Once my project receives an authorized message from Zapier, it will pull all the rows from my Airtable base and [select a random question](https://glitch.com/edit/#!/quiggles?path=workers.js:27:0) (that hasn't been asked yet).
-3. Next, my project [marks the selected question as asked](https://glitch.com/edit/#!/quiggles?path=workers.js:55:0) by timestamping the `date_asked` column in Airtable.
+3. Next, my project [marks the selected question as asked](https://glitch.com/edit/#!/quiggles?path=workers.js:55:0) by adding a timestamp in the `date_asked` column in Airtable.
 4. Finally, Quiggles [posts the question in Slack](https://glitch.com/edit/#!/quiggles?path=workers.js:93:0).
 
 I dive deeper into how I setup each service in the [README of the Glitch project](https://glitch.com/edit/#!/quiggles?path=README.md:1:0).

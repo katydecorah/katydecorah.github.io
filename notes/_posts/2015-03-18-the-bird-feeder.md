@@ -21,6 +21,6 @@ All morning.
 {% include img.html src="2015-03-18-the-bird-feeder-3.jpg" alt="bird feeder" %}
 </div>
 
-A pair of cardinals and a bluejay also frequent the feeder, but they're camera shy.
+A pair of cardinals and a blue jay also frequent the feeder, but they're camera shy.
 
 <iframe src="https://player.vimeo.com/video/118554722" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

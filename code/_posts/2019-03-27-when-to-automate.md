@@ -32,7 +32,7 @@ Or your automation can run in response to another event. For example, if you sen
 
 ## Should I build it custom?
 
-Before creating something from scratch, check to see if there is already a service available that can do it for you. Services like [Zapier](https://zapier.com/), [IFTTT](https://ifttt.com/), and [Apple's Shortcuts](https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8) can make automation as straight forward as connecting your accounts and clicking a few buttons. [Slack](https://www.slack.com/apps) also offers built-in features and apps to help automate processes.
+Before creating something from scratch, check to see if a service exists that can do it for you. Services like [Zapier](https://zapier.com/), [IFTTT](https://ifttt.com/), and [Apple's Shortcuts](https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8) can make automation as straight forward as connecting your accounts and clicking a few buttons. [Slack](https://www.slack.com/apps) also offers built-in features and apps to help automate processes.
 
 If services cannot connect in the way you need or if you have privacy concerns, then you'll need to create a custom automation.
 
