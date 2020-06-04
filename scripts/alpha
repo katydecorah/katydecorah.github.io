@@ -1,0 +1,3 @@
+#!/bin/sh
+# alphabetizes the dictionary
+sort -o katydecorah.dic katydecorah.dic

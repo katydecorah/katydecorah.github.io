@@ -1,8 +1,9 @@
 {
-  "*.js": ["eslint", "prettier --write", "git add"],
-  "*.scss": ["prettier --write", "git add"],
-  "*.css": ["prettier --write", "git add"],
-  "*.json": ["prettier --write", "git add"],
-  "*.yml": ["prettier --write", "git add"],
-  "*.md": ["prettier --write", "git add"]
+  "*.js": ["eslint", "prettier --write"],
+  "*.scss": ["prettier --write"],
+  "*.css": ["prettier --write"],
+  "*.json": ["prettier --write"],
+  "*.yml": ["prettier --write"],
+  "*.md": ["prettier --write"],
+  "katydecorah.dic": ["./scripts/alpha"]
 }

@@ -19,7 +19,7 @@ The main element, `.loader`, acts as a container for the spinner. The real magic
 
 ## Pseudo what
 
-I styled the `:before` and `:after` similarly; each element is an 1em circle with a transparent border. But, one element received `left` and `border-left-color` values, while the other received `right` and `border-right-color` values.
+I styled the `:before` and `:after` similarly; each element is an `1em` circle with a transparent border. But, one element received `left` and `border-left-color` values, while the other received `right` and `border-right-color` values.
 
 My use of the border properties may seem redundant, but the elements need a border all around to keep the border from pinching in.
 

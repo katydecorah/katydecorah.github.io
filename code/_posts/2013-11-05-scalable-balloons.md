@@ -29,7 +29,7 @@ background: rgba(adjust-hue(\$balloonColorStart, random(360)), 0.5);
 
 Here `$balloonColorStart` is defined at the top of my Sass file, to be easily changed.
 
-In the Sass loop for the balloons, I created a variable called `$stringHeight` and set it to a random number up to 20em. I used `$stringHeight` for the height of the `:after` (which is the string) and for the bottom value for each balloon element in the loop. Just like I had done before with my first balloon, but now dynamic.
+In the Sass loop for the balloons, I created a variable called `$stringHeight` and set it to a random number up to `20em`. I used `$stringHeight` for the height of the `:after` (which is the string) and for the bottom value for each balloon element in the loop. Just like I had done before with my first balloon, but now dynamic.
 
 I also created a variable, `$balloonLeft`, to increment itself after every iteration of the loop to be applied as the left value. This made sure the balloons remained evenly spaced out.
 

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Katy DeCorah's personal website",
   "scripts": {
-    "test": "tape test/*.test.js | tap-min && npm run lint-md",
+    "test": "tape test/*.test.js | tap-min && npm run lint-md && npm run test-content",
     "test-content": "extra-eyes {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic",
     "lint-md": "remark {adventures,code,epicurean,notes}/_posts",
     "send-images": "node bin/appropriate-images.js",

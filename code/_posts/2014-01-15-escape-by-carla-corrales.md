@@ -50,7 +50,7 @@ The results were&hellip; dial-shaped!
 <figcaption>Demonstration of :after style.</figcaption>
 </figure>
 
-This baby is scalable. [Open it up in CodePen](http://codepen.io/katydecorah/pen/mJeba) and change the `$size` (easter egg: try a number less than 5em).
+This baby is scalable. [Open it up in CodePen](http://codepen.io/katydecorah/pen/mJeba) and change the `$size` (Easter egg: try a number less than `5em`).
 
 One last thing, did you give it a hover yet? Scroll back up there and do it. Yes, I am bossing you.
 
