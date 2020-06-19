@@ -1,4 +1,9 @@
-on: [pull_request]
+on:
+  push:
+    paths:
+      - "**.jpg"
+      - "**.png"
+      - "**.webp"
 
 jobs:
   images_to_s3:
