@@ -1,20 +1,6 @@
-# katydecorah.com [![](https://travis-ci.org/katydecorah/katydecorah.github.io.svg?branch=master)](https://travis-ci.org/katydecorah/katydecorah.github.io)
+# katydecorah.com ![Test](https://github.com/katydecorah/katydecorah.github.io/workflows/Test/badge.svg)
 
-```
-  ______
- /      \
-/$$$$$$  | __    __   ______
-$$ \__$$/ /  |  /  | /      \
-$$      \ $$ |  $$ |/$$$$$$  |
- $$$$$$  |$$ |  $$ |$$ |  $$ |
-/  \__$$ |$$ \__$$ |$$ |__$$ |
-$$    $$/ $$    $$/ $$    $$/
- $$$$$$/   $$$$$$/  $$$$$$$/
-                    $$ |
-                    $$ |
-                    $$/
-```
+Built with:
 
-Colophon:
-
-- https://feathericons.com/
+- [Jekyll](https://jekyllrb.com/)
+- [Feather Icons](https://feathericons.com/)
