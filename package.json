@@ -9,17 +9,17 @@
     "send-images": "node bin/appropriate-images.js",
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "format": "prettier --write '**/*.{js,css,scss,json,md,yml}'"
+    "pretty-quick": "pretty-quick"
   },
   "devDependencies": {
-    "@double-great/remark-lint-alt-text": "^0.2.1",
-    "eslint": "^7.1.0",
+    "@double-great/remark-lint-alt-text": "^0.2.2",
+    "eslint": "^7.3.0",
     "extra-eyes": "^1.2.0",
     "feather-icons": "^4.28.0",
     "husky": "^4.2.5",
     "js-yaml": "^3.14.0",
-    "lint-staged": "^10.2.7",
     "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
     "remark-cli": "^8.0.0",
     "tap-min": "^2.0.0",
     "tape": "^5.0.1"
@@ -27,7 +27,7 @@
   "dependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "pretty-quick --staged"
     }
   },
   "main": "index.js",
