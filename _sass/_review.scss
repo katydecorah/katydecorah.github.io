@@ -1,24 +1,3 @@
-.page-review {
-  input {
-    display: none;
-  }
-
-  .review-hover {
-    background: var(--background-accent);
-    border: 0.1em solid transparent;
-    cursor: pointer;
-    display: inline-block;
-    margin-bottom: 0.2em;
-    padding: 0 0.2em;
-  }
-
-  input:checked + .review-hover,
-  .review-hover:hover {
-    background: none;
-    border: 0.1em solid;
-  }
-}
-
 .review-thumbs,
 .topnine-thumbs {
   display: grid;
@@ -46,13 +25,20 @@
     grid-row: 1 / 1;
     grid-column: 1 / 1;
   }
+
+  svg {
+    top: 0.25em;
+    color: var(--text-color);
+    position: absolute;
+    left: 0.25em;
+  }
 }
 
 .review-thumb,
 .topnine-thumb {
   display: block;
   position: relative;
-  background: $background-accent;
+  background: var(--background-accent);
 }
 
 .review-container + .container {
