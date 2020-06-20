@@ -1,11 +1,10 @@
 ---
 title: Bird in a tablet
-
 tags:
   - Sass
   - Haml
   - CodePen
-image: http://codepen.io/katydecorah/pen/DHCJg/image/small.png
+image: 2013-08-28-bird-in-a-tablet.png
 ---
 
 As a kid, I remember drawing a picture of a bird on one side of paper and a cage on the other. When you spin it back and forth quickly, it seems that the bird is in the cage. Here's a take on that.

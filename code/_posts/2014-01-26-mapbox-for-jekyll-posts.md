@@ -1,6 +1,5 @@
 ---
 title: Mapbox for Jekyll posts
-
 map: Mapbox
 coordinates:
   - -73.7629483,42.6539068
@@ -14,7 +13,7 @@ tags:
   - API
   - Jekyll
   - JavaScript
-image: http://a.tiles.mapbox.com/v3/katydecorah.h41bj3lj/5/9/11.png
+image: 2014-01-26-mapbox-for-jekyll-posts.png
 ---
 
 **As of 7/26/2014, this site has moved to the [Mapbox static API](/code/static-mapbox-for-jekyll/).**

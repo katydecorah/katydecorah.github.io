@@ -1,12 +1,11 @@
 ---
 title: AngularJS contact form
-
 tags:
   - Sass
   - Haml
   - AngularJS
   - CodePen
-image: http://codepen.io/katydecorah/pen/IiDKe/image/small.png
+image: 2013-08-27-angular-contact-form.png
 project: true
 ---
 

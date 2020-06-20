@@ -1,11 +1,10 @@
 ---
 title: Simple box
-
 tags:
   - Sass
   - Haml
   - CodePen
-image: http://codepen.io/katydecorah/pen/vrzmH/image/large.png
+image: 2013-12-04-simple-box.png
 pen: vrzmH
 ---
 

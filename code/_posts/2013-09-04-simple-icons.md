@@ -1,12 +1,11 @@
 ---
 title: Simple icons
-
 tags:
   - Haml
   - Sass
   - Dribbble
   - CodePen
-image: http://codepen.io/katydecorah/pen/KhfCn/image/small.png
+image: 2013-09-04-simple-icons.png
 ---
 
 Original design by [Rovane Durso](http://dribbble.com/shots/1220920-Simple-Icons).

@@ -1,7 +1,6 @@
 ---
 title: Washington DC
-
-image: "https://s3.yimg.com/so/7405/12667170644_fcf57be895_b.jpg"
+image: "2014-02-24-washington-dc-0.jpg"
 map: static
 pad: 0
 locations:

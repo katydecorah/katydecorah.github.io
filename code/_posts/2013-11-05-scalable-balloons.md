@@ -1,13 +1,12 @@
 ---
 title: Scalable balloons
-
 tags:
   - Sass
   - Haml
   - animation
   - Dribbble
   - CodePen
-image: http://codepen.io/katydecorah/pen/cdkHn/image/large.png
+image: 2013-11-05-scalable-balloons.png
 pen: cdkHn
 ---
 

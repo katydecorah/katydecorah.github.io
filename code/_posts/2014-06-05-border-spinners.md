@@ -1,11 +1,10 @@
 ---
 title: Border spinners
-
 tags:
   - Sass
   - CSS
   - CodePen
-image: http://i.imgur.com/axSxlAN.gif
+image: 2014-06-05-border-spinners.png
 codepen: tbjqx
 ---
 
