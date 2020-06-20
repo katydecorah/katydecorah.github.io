@@ -11,11 +11,11 @@ title: Resume
 
 ## **Frontend Engineer, Mapbox**, September 2014 - present
 
-Maintain frontend for all docs.mapbox.com including React component library that is used throughout documentation sites.
+Maintain frontend for all [docs.mapbox.com](https://docs.mapbox.com/) including [React component library](https://github.com/mapbox/dr-ui) that is used throughout documentation sites.
 
 ## **Organizer and co-founder, Ela Conf**, April 2015 - December 2017
 
-Built tools to streamline and automate processes for a growing community conference, including an application review system with the GitHub API that helped us scale from 24 applicants to 200.
+Built tools to streamline and automate processes for a growing community conference, including an [application review system](https://github.com/katydecorah/proposal-reviewer) with the GitHub API that helped us scale from 24 applicants to 200.
 
 <!--
 ## **UI Designer, Fire Engine RED**, 2014

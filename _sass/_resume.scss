@@ -1,11 +1,11 @@
 .front-page-resume {
-  .header .container {
-    padding-left: 0.7em;
-  }
-
   .content {
     margin-bottom: 2em;
-    font-size: 16px;
+    font-size: 18px;
+
+    @media print {
+      font-size: 16px;
+    }
 
     a {
       color: var(--link);
@@ -30,6 +30,14 @@
 
   h1 {
     font-size: 1em;
+    text-transform: uppercase;
+    padding-bottom: 0.25em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid var(--background-accent);
+
+    + h2 {
+      margin-top: 0;
+    }
 
     + p {
       margin-top: 1em;
@@ -37,9 +45,12 @@
   }
 
   h2 {
-    font-size: 1em;
-    margin-bottom: 0;
-    margin-top: 1em;
     font-weight: normal;
+
+    @media print {
+      font-size: 1em;
+      margin-bottom: 0;
+      margin-top: 1em;
+    }
   }
 }
