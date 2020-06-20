@@ -1,10 +1,9 @@
 ---
 title: Snowflaker
-
 tags:
   - Sass
   - CodePen
-image: http://i.imgur.com/yNv3nmo.gif
+image: 2014-12-19-snowflaker.png
 codepen: zxBRKv
 ---
 
