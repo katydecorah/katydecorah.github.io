@@ -11,7 +11,7 @@ title: Resume
 
 ## **Frontend Engineer, Mapbox**, September 2014 - present
 
-Maintain frontend for all [docs.mapbox.com](https://docs.mapbox.com/) including [React component library](https://github.com/mapbox/dr-ui) that is used throughout documentation sites.
+Maintain frontend for all [docs.mapbox.com](https://docs.mapbox.com/) including [React component library](https://github.com/mapbox/dr-ui) that is used throughout documentation sites. Built linters and tests to validate content against the team's styleguide. Created user feedback feature to help improve documentation.
 
 ## **Organizer and co-founder, Ela Conf**, April 2015 - December 2017
 
