@@ -1,13 +1,12 @@
 ---
 title: Ice Cream Pattern by Dorottya Porkolab
-
 tags:
   - Sass
   - Haml
   - Dribbble
   - CodePen
 pen: Bjoui
-image: http://codepen.io/katydecorah/pen/Bjoui/image/large.png
+image: 2013-11-01-ice-cream-pattern.png
 dribbble: http://dribbble.com/shots/1294320-Ice-Cream-Pattern
 ---
 
