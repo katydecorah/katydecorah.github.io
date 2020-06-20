@@ -5,7 +5,7 @@ tags:
   - Dribbble
   - CodePen
   - Google Sheets
-image: http://codepen.io/katydecorah/pen/cJfhC/image/large.png
+image: 2013-12-06-heroes-queue.png
 pen: cJfhC
 dribbble: http://drbl.in/jzgO
 ---

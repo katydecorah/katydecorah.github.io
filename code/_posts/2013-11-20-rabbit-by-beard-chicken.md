@@ -5,7 +5,7 @@ tags:
   - animation
   - Dribbble
   - CodePen
-image: http://codepen.io/katydecorah/pen/uIEFy/image/large.png
+image: 2013-11-20-rabbit-by-beard-chicken.png
 pen: uIEFy
 dribbble: http://dribbble.com/shots/1316513
 ---

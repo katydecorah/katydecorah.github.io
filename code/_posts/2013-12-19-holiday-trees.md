@@ -1,11 +1,10 @@
 ---
 title: Holiday tree(s)
-
 tags:
   - Haml
   - Sass
   - CodePen
-image: http://codepen.io/katydecorah/pen/xcDHf/image/large.png
+image: 2013-12-19-holiday-trees.png
 pen: xcDHf
 ---
 

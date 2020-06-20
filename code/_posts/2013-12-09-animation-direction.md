@@ -1,12 +1,11 @@
 ---
 title: Animation direction
-
 tags:
   - animation
   - Sass
   - Haml
   - CodePen
-image: http://codepen.io/katydecorah/pen/qKnGs/image/large.png
+image: 2013-12-09-animation-direction.png
 pen: qKnGs
 ---
 
