@@ -1,12 +1,11 @@
 ---
 title: Google Static Map Maker
-
 tags:
   - API
   - AngularJS
   - Sass
   - CodePen
-image: http://codepen.io/katydecorah/pen/Klieu/image/large.png
+image: 2013-09-23-google-static-map-maker.png
 project: true
 ---
 
