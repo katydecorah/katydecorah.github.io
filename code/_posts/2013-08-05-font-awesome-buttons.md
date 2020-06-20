@@ -7,7 +7,7 @@ tags:
   - CodePen
 pen: Bjhdw
 image: 2013-08-05-font-awesome-buttons-0.png
-
+redirect_from:
   - /code/2013/08/05/font-awesome-buttons/
   - /code/2013/08/05/font-awesome-buttons.html
 ---
