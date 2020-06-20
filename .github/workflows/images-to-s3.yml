@@ -7,7 +7,7 @@ on:
 
 jobs:
   images_to_s3:
-    runs-on: macos
+    runs-on: macos-latest
     name: Upload images to S3
     steps:
       - name: Checkout
