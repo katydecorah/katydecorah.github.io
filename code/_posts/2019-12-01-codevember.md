@@ -37,7 +37,7 @@ Using `currentColor` afforded me flexibility in changing the color scheme, espec
 
 I found that in Chrome you need to trigger a repaint when switching currentColor on `background` and I was able to do so with:
 
-```CSS
+```css
 div,
 div::before,
 div::after {
