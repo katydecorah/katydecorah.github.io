@@ -41,6 +41,23 @@
   background: var(--background-accent);
 }
 
+.review-thumb {
+  overflow: hidden;
+
+  .review-thumbs-title {
+    position: absolute;
+    bottom: 0;
+    font-size: $font-xs;
+    left: 0;
+    right: 0;
+    padding: 0.25em 0.75em;
+    background: var(--background-accent);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
 .review-container + .container {
   margin-top: 1em;
 }

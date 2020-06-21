@@ -12,8 +12,9 @@
         {% for post in site.posts reversed %} {% capture year %}{{ post.date |
         date: "%Y" }}{% endcapture %} {% capture pageYear %}{{ page.title }}{%
         endcapture %} {% if year == pageYear %}
-        <a href="{{post.url}}" class="review-thumb" title="{{post.title}}">
+        <a href="{{post.url}}" class="review-thumb">
           {% include img.html src=post.image alt=post.title %}
+          <div class="review-thumbs-title">{{post.title}}</div>
         </a>
         {% endif %} {% endfor %}
       </div>
