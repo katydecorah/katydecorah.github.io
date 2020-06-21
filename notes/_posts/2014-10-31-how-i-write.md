@@ -1,6 +1,6 @@
 ---
 title: How I write
-image: 2014-10-31-how-i-write-0.gif
+image: 2014-10-31-how-i-write.png
 tags:
   - writing
 ---
@@ -11,7 +11,7 @@ tags:
 
 ## Hey, dummy.
 
-{% include img.html src="2014-10-31-how-i-write-0.gif" alt="hey dummy" %}
+![]({{site.assets}}2014-10-31-how-i-write-0.gif)
 
 To reassure the reader, you might want to say, "It's easy!". Unfortunately, that can backfire. If your reader doesn't agree, then s/he will probably bail. I like to assume that everything is hard.
 
@@ -29,11 +29,11 @@ I like to introduce jargon or acronyms like I would introduce two people. Start 
 
 ## Who did what in where?
 
-{% include img.html src='2014-10-31-how-i-write-1.gif' alt='clue' %}
+![]({{site.assets}}2014-10-31-how-i-write-1.gif)
 
 > After the file is saved...
 
-Hold up. Do I save the file? Does the file save automatically?
+Wait. Do I save the file? Does the file save automatically?
 
 > After you save the file...
 
