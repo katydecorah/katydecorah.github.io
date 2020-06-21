@@ -10,11 +10,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Create post
-        uses: katydecorah/spotify-to-jekyll-action@v3.0
+        uses: katydecorah/spotify-to-jekyll-action@v4.0
         env:
           SpotifyClientID: ${{ secrets.SpotifyClientID }}
-          SpotifyClientSecret: ${{ secrets.SpotifyClientSecret }}
+          SpotifyClientSecret: ${{ secrets.SpotifyClientSecret}}
           SpotifyUser: ${{ secrets.SpotifyUser }}
+          ImgDir: ${{ secrets.ImgDir }}
+          UpdateDataFile: ${{ secrets.UpdateDataFile }}
+          PostsDir: ${{ secrets.PostsDir }}
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
