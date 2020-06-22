@@ -14,7 +14,7 @@
         {
           "optional": {
             "tags": {
-              "maxLength": 6,
+              "maxLength": 5,
               "type": "object",
               "oneOf": [
                 "CodePen",
