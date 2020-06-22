@@ -16,6 +16,10 @@
             "tags": {
               "maxLength": 6,
               "type": "object"
+            },
+            "pen": {
+              "type": "string",
+              "maxLength": "7"
             }
           },
           "required": {
