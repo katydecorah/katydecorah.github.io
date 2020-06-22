@@ -78,9 +78,6 @@ posts.forEach((post) => {
       "front matter must be formatted correctly"
     );
 
-    t.ok(metadata.title, "post must have a title");
-    t.ok(metadata.image, "post must have an image");
-
     // check permalinks
     let permalink;
     if (metadata.permalink) {
@@ -116,15 +113,6 @@ posts.forEach((post) => {
         typeof metadata.coordinates,
         "object",
         "coordinates must be an object"
-      );
-    }
-
-    if (metadata.tags) {
-      t.equal(typeof metadata.tags, "object", "tags must be an object");
-      t.equal(
-        metadata.tags.length < 6,
-        true,
-        "post should have no more than 5 tags"
       );
     }
 
