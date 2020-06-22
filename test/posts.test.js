@@ -37,7 +37,7 @@ const readPost = (filename) => {
 
 const posts = paths.reduce((arr, path) => {
   fs.readdirSync(`${path}/`).forEach((file) => {
-    arr.push(`${path}${file}`);
+    if (file[0] !== ".") arr.push(`${path}${file}`);
   });
   return arr;
 }, []);
@@ -75,7 +75,7 @@ posts.forEach((post) => {
     t.equal(
       typeof metadata,
       "object",
-      "front matter must be formatted correctly"
+      `frontmatter must be formatted correctly: ${post}`
     );
 
     // check permalinks

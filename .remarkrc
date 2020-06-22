@@ -12,52 +12,50 @@
       [
         2,
         {
-          "optional": {
-            "tags": {
-              "maxLength": 5,
-              "type": "object",
-              "oneOf": [
-                "CodePen",
-                "Sass",
-                "Haml",
-                "Dribbble",
-                "API",
-                "Jekyll",
-                "Node.js",
-                "CSS",
-                "animation",
-                "writing",
-                "AWS",
-                "Google Sheets",
-                "JavaScript",
-                "Ela Conf",
-                "jQuery",
-                "AngularJS",
-                "recipe",
-                "Zapier",
-                "podcasts",
-                "speaking",
-                "Glitch",
-                "Git",
-                "PHP",
-                "GitHub",
-                "Airtable",
-                "Google Docs"
-              ]
-            },
-            "pen": {
-              "type": "string",
-              "maxLength": "7"
-            }
+          "tags": {
+            "maxLength": 5,
+            "type": "object",
+            "oneOf": [
+              "CodePen",
+              "Sass",
+              "Haml",
+              "Dribbble",
+              "API",
+              "Jekyll",
+              "Node.js",
+              "CSS",
+              "animation",
+              "writing",
+              "AWS",
+              "Google Sheets",
+              "JavaScript",
+              "Ela Conf",
+              "jQuery",
+              "AngularJS",
+              "recipe",
+              "Zapier",
+              "podcasts",
+              "speaking",
+              "Glitch",
+              "Git",
+              "PHP",
+              "GitHub",
+              "Airtable",
+              "Google Docs"
+            ]
           },
-          "required": {
-            "image": {
-              "match": "^\\d\\d\\d\\d-\\d\\d-\\d\\d-.*.(png|jpg)",
-              "type": "string"
-            },
-            "title": {
-              "type": "string"
-            }
+          "pen": {
+            "type": "string",
+            "maxLength": "7"
+          },
+          "image": {
+            "match": "^\\d\\d\\d\\d-\\d\\d-\\d\\d-.*.(png|jpg)",
+            "type": "string",
+            "required": true
+          },
+          "title": {
+            "type": "string",
+            "required": true
           }
         }
       ]
