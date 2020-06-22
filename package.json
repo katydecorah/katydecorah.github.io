@@ -22,7 +22,7 @@
     "pretty-quick": "^2.0.1",
     "remark-cli": "^8.0.0",
     "remark-frontmatter": "^2.0.0",
-    "remark-frontmatter-validator": "^0.3.0",
+    "remark-frontmatter-validator": "^0.4.0",
     "tap-min": "^2.0.0",
     "tape": "^5.0.1"
   },

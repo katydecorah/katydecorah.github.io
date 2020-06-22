@@ -1,0 +1,57 @@
+module.exports.plugins = [
+  "@double-great/remark-lint-alt-text",
+  ["remark-frontmatter", ["yaml"]],
+  [
+    "remark-frontmatter-validator",
+    [
+      2,
+      {
+        tags: {
+          maxLength: 5,
+          type: "array",
+          oneOf: [
+            "CodePen",
+            "Sass",
+            "Haml",
+            "Dribbble",
+            "API",
+            "Jekyll",
+            "Node.js",
+            "CSS",
+            "animation",
+            "writing",
+            "AWS",
+            "Google Sheets",
+            "JavaScript",
+            "Ela Conf",
+            "jQuery",
+            "AngularJS",
+            "recipe",
+            "Zapier",
+            "podcasts",
+            "speaking",
+            "Glitch",
+            "Git",
+            "PHP",
+            "GitHub",
+            "Airtable",
+            "Google Docs",
+          ],
+        },
+        pen: {
+          type: "string",
+          maxLength: "7",
+        },
+        image: {
+          match: "^\\d\\d\\d\\d-\\d\\d-\\d\\d-.*.(png|jpg)",
+          type: "string",
+          required: true,
+        },
+        title: {
+          type: "string",
+          required: true,
+        },
+      },
+    ],
+  ],
+];
