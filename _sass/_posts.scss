@@ -40,10 +40,6 @@
     }
   }
 
-  blockquote {
-    max-width: $container-width - ($body-font-size * 10);
-  }
-
   p,
   pre,
   .playlist,
@@ -53,6 +49,7 @@
   h2,
   h3,
   h4,
+  blockquote,
   .note,
   .footnotes {
     max-width: $container-width - ($body-font-size * 2);

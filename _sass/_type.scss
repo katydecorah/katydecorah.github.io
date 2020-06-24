@@ -140,18 +140,22 @@ hr {
 }
 
 blockquote {
-  margin: 2em auto;
+  margin: 1em auto;
   position: relative;
+  font-style: italic;
+  background: var(--background-accent);
+  padding: 1em;
+  border-radius: $border-radius;
 
-  p {
-    @extend %fancy-type;
+  > p:last-child {
+    margin-bottom: 0;
   }
 
   cite {
     @extend %code-type;
 
     display: block;
-    font-size: 0.5em;
+    font-size: $font-small;
     font-style: normal;
   }
 }
