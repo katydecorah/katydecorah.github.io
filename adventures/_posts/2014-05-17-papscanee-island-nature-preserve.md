@@ -41,8 +41,8 @@ The preserve sits between a railroad and the Hudson River. There's an old rail l
 
 {% include img.html src="2014-05-17-papscanee-island-nature-preserve-7.jpg" class="img-wide" alt="Papscanee Island Nature Preserve" %}
 {% include img.html src="2014-05-17-papscanee-island-nature-preserve-8.jpg" class="img-tall" alt="Papscanee Island Nature Preserve" %}
+{% include video.html src="2014-05-17-papscanee-island-nature-preserve.mp4" title="train passes by" %}
 
-<iframe src="//player.vimeo.com/video/95605159?title=0&amp;byline=0&amp;portrait=0" width="840" height="472" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 Unfortunately, the trails are a little difficult to navigate as trail markers are few and far between. We accidentally ended up on a trail that the map specifically forbids people to go. Sorry, government.
