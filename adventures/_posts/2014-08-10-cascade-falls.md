@@ -13,7 +13,9 @@ Yesterday morning we work up early and drove out to North Adams to explore [Casc
 
 On the drive there we saw a family of black bears crossing the road. I got a quick snap of one of the babies.
 
+<div class="photos">
 {% include img.html src="2014-08-10-cascade-falls-1.jpg" alt="Baby bear" %}
+</div>
 
 We came to the falls prepared this time. We brought extra shoes, shirts, shorts, towels, and waterproof cases for our electronic devices. We were ready to storm the base of the waterfall.
 
