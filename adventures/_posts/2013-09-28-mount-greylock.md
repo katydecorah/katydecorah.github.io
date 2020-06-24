@@ -27,11 +27,9 @@ We woke up early and drove out to Mount Greylock in Mass. It was a gorgeous morn
 
 </div>
 
-Then these people went paragliding off the summit.
+Then a group of people went paragliding off the summit.
 
 <div class="photos">
-
 {% include img.html src="2013-09-28-mount-greylock-11.jpg" alt="Mount Greylock" %}
-<object type="application/x-shockwave-flash" width="840" height="420" class="pop-out" data="https://www.flickr.com/apps/video/stewart.swf?v=109786" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&amp;photo_secret=447cc83b34&amp;photo_id=9986934734&amp;hd_default=false"></param> <param name="movie" value="https://www.flickr.com/apps/video/stewart.swf?v=109786"></param> <param name="bgcolor" value="#000000"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/video/stewart.swf?v=109786" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&amp;photo_secret=447cc83b34&amp;photo_id=9986934734&amp;hd_default=false" height="420" width="840"></embed></object>
-
+{% include video.html src="2013-09-28-mount-greylock.mov" alt="Paragliders off the summit" %}
 </div>
