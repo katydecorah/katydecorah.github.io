@@ -9,7 +9,7 @@ image: 2013-09-23-google-static-map-maker.png
 project: true
 ---
 
-[The Google Static Map Marker is also served on its own page.](http://staticmapmaker.com)
+View [the Google Static Map Marker](http://staticmapmaker.com).
 
 <p data-height="600" data-theme-id="97" data-slug-hash="Klieu" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Klieu'>Google Static Map Maker</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

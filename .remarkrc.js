@@ -1,5 +1,7 @@
 module.exports.plugins = [
   "@double-great/remark-lint-alt-text",
+  ["@mapbox/remark-lint-link-text", [2]],
+  ["remark-lint-heading-increment", [2]],
   ["remark-frontmatter", ["yaml"]],
   [
     "remark-frontmatter-validator",

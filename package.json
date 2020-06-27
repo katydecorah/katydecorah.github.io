@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@double-great/remark-lint-alt-text": "^0.2.2",
+    "@mapbox/remark-lint-link-text": "^0.5.0",
     "eslint": "^7.3.0",
     "extra-eyes": "^1.2.0",
     "feather-icons": "^4.28.0",
@@ -23,6 +24,7 @@
     "remark-cli": "^8.0.0",
     "remark-frontmatter": "^2.0.0",
     "remark-frontmatter-validator": "^0.4.0",
+    "remark-lint-heading-increment": "^2.0.0",
     "tap-min": "^2.0.0",
     "tape": "^5.0.1"
   },
