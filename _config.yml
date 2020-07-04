@@ -75,6 +75,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - package.json
+  - package-lock.json
   - test
   - img/posts
   - packages
