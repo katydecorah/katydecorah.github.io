@@ -38,6 +38,7 @@ module.exports.plugins = [
             "GitHub",
             "Airtable",
             "Google Docs",
+            "accessibility",
           ],
         },
         pen: {

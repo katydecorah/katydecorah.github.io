@@ -52,6 +52,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-mentions
 
 feed:
   categories:
