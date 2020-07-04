@@ -19,6 +19,7 @@
     "feather-icons": "^4.28.0",
     "husky": "^4.2.5",
     "js-yaml": "^3.14.0",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
     "remark-cli": "^8.0.0",
@@ -31,8 +32,13 @@
   "dependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --staged && lint-staged"
     }
+  },
+  "lint-staged": {
+    "katydecorah.dic": [
+      "./scripts/alpha"
+    ]
   },
   "main": "index.js",
   "bin": {
