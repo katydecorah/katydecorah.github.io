@@ -2,12 +2,26 @@
   <div class="container">
     <div class="bio">
       <a class="bio-img" href="{{site.url}}">
-        {% include img.html src='katy-decorah.jpg' width='200' height='200' class="bio-img-container" alt='Katy DeCorah' %}
+        {% include img.html src='katy-decorah.jpg' width='200' height='200'
+        class="bio-img-container" alt='Katy DeCorah' %}
       </a>
       <div class="bio-details">
-        <div>Hello! I'm Katy DeCorah. I live in upstate New York. I'm a frontend engineer on the documentation team at <a href="https://www.mapbox.com">Mapbox</a>.</div>
-        <div class="nav">{% for link in site.links %}{% if link.position == 'bottom' %}{% assign icon = link.icon | prepend: 'icons/' | append: '.svg' %}
-          <a href="{{ link.url }}" aria-label="{{ link.text }}" title="{{ link.text }}" class="nav-link">{% include {{icon}} %}</a>{% endif %}{% endfor %}
+        <div>
+          Hello! I'm Katy DeCorah. I live in upstate New York. I'm a frontend
+          engineer on the documentation team at
+          <a href="https://www.mapbox.com">Mapbox</a> and tinkerer at
+          <a href="https://doublegreat.dev">doublegreat.dev</a>.
+        </div>
+        <div class="nav">
+          {% for link in site.links %}{% if link.position == 'bottom' %}{%
+          assign icon = link.icon | prepend: 'icons/' | append: '.svg' %}
+          <a
+            href="{{ link.url }}"
+            aria-label="{{ link.text }}"
+            title="{{ link.text }}"
+            class="nav-link"
+            >{% include {{icon}} %}</a
+          >{% endif %}{% endfor %}
         </div>
       </div>
     </div>
