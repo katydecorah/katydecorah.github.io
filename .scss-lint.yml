@@ -1,6 +1,6 @@
 scss_files: "_sass/*.scss"
 
-exclude: "css/style.scss"
+exclude: "assets/style.scss"
 
 linters:
   UrlFormat:

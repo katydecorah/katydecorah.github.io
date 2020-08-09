@@ -12,7 +12,7 @@ I also built a live demo with my site: [{{site.url}}/search](/search/)
 
 ## Tell lunr all about your fields
 
-I started off by creating a file called, [lunr-feed.js](https://github.com/katydecorah/katydecorah.github.io/blob/master/js/lunr-feed.js) and adding front matter since I'll be using logic to loop through my posts.
+I started off by creating a file called, [lunr-feed.js](https://github.com/katydecorah/katydecorah.github.io/blob/master/assets/lunr-feed.js) and adding front matter since I'll be using logic to loop through my posts.
 
 Next, I declared fields to describe my data (and by data I mean my posts). I can customize the field names, but it's important to keep the `id` field (this acts like a unique identifier). I can also add a boost to each field. A boost tells lunr that I want it to favor this field _that_ much more in the context of searching. In my case, I wanted lunr to focus on the content of my posts, so I applied a boost to that field.
 
@@ -102,5 +102,5 @@ And that's how I brought lunr.js to Jekyll. You can add some fun stuff, like the
 
 - Documentation: [lunr.js](http://lunrjs.com/)
 - Demo: [{{site.url}}/search](/search/)
-- Code: [lunr-feed.js](https://github.com/katydecorah/katydecorah.github.io/blob/master/js/lunr-feed.js)
-- Live file: [lunr-feed.js](/js/lunr-feed.js)
+- Code: [lunr-feed.js](https://github.com/katydecorah/katydecorah.github.io/blob/gh-pages/assets/lunr-feed.js)
+- Live file: [lunr-feed.js](/assets/lunr-feed.js)
