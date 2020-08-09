@@ -19,7 +19,7 @@ title: Resume
 
 ## Skills
 
-[HTML](/tags/##haml), [CSS](/tags/##css), [Sass](/tags/##sass), [JavaScript](/tags/##javascript), [Node.js](/tags/##node.js), [React](/tags/##react), [AWS](/tags/##aws), [APIs](/tags/##api), [Jekyll](/tags/##jekyll), [Git](/tags/##git), [GitHub](https://github.com/katydecorah), [writing](/tags/##writing)
+[HTML](/tags/#haml), [CSS](/tags/#css), [Sass](/tags/#sass), [JavaScript](/tags/#javascript), [Node.js](/tags/#node.js), [React](/tags/#react), [AWS](/tags/#aws), [APIs](/tags/#api), [Jekyll](/tags/#jekyll), [Git](/tags/#git), [GitHub](https://github.com/katydecorah), [writing](/tags/#writing)
 
 ## Education
 
