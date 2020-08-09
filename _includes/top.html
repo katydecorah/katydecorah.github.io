@@ -59,16 +59,6 @@
     <style>
       {{ page.css }}
     </style>
-    {% endif %} {% if page.jquery %}
-    <script
-      async
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/{{site.jquery}}/jquery.min.js"
-    ></script>
-    {% endif %}
-    <script
-      async
-      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/{{site.modernizr}}/modernizr.min.js"
-    ></script>
-    {% if page.ad %}{% include ad.html %}{% endif %}
+    {% endif %} {% if page.ad %}{% include ad.html %}{% endif %}
   </head>
 </html>
