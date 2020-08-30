@@ -1,7 +1,3 @@
-.post-type {
-  text-decoration: none;
-}
-
 .post {
   @media (max-width: $container-width) {
     padding-left: 1em;
@@ -207,12 +203,6 @@
   }
 }
 
-.post-header-no-map {
-  h1 {
-    margin-bottom: 0.5em;
-  }
-}
-
 .post-footer {
   margin-top: 2em;
 }
@@ -260,15 +250,29 @@
 .post-page {
   .post-meta {
     color: var(--text-accent);
-    margin-bottom: 2em;
+    margin-bottom: 0em;
+
+    position: relative;
+    z-index: 1;
   }
 
-  .post-meta-emoji {
-    color: var(--link-hover);
+  svg {
+    vertical-align: top;
+    width: 1em;
+  }
+  .post-meta-breadcrumbs {
+    margin-bottom: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: var(--background-accent);
+  }
+  .breadcrumbs,
+  .post-meta-date {
+    font-size: $font-xs;
+  }
 
-    svg {
-      vertical-align: middle;
-    }
+  .post-meta-link {
+    text-decoration: none;
   }
 }
 

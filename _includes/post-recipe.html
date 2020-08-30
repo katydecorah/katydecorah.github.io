@@ -1,0 +1,8 @@
+{% if page.recipe %}
+<p class="recipe-meta">
+  Recipe:
+  <a href="{{ page.recipe }}"
+    >{{ page.recipe-title }} {% include icons/external-link.svg %}</a
+  >
+</p>
+{% endif %}

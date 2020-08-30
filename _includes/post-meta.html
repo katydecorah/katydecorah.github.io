@@ -1,0 +1,22 @@
+{% if page.categories[0] %}
+<div class="post-meta">
+  <div class="post-meta-breadcrumbs">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a class="post-meta-link" href="{{site.url}}">Katy DeCorah</a>
+        {% include icons/chevron-right.svg %}
+        <a class="post-meta-link" href="/{{ category}}"
+          >{{ page.categories[0] }}</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="post-meta-date">
+      {{ page.date | date: "%B %-d, %Y" }}{% if page.elsewhere-site %} |
+      <a href="{{ page.elsewhere-link }}">{{ page.elsewhere-site }}</a>{% endif
+      %}
+    </div>
+  </div>
+</div>
+{% endif %}
