@@ -1,46 +1,43 @@
 ---
 layout: default
 title: Tags
+hideTitle: true
 ---
 
-
 <div class="columns">
-<ul class="icon-ul">
-{% assign tags_max = 0 %}
-{% for tag in site.tags %}
-{% if tag[1].size > tags_max %}
-{% assign tags_max = tag[1].size %}
-{% endif %}
-{% endfor %}
-{% for i in (1..tags_max) reversed %}
-{% for tag in site.tags %}
-{% if tag[1].size == i %}
-<li><a href="#{{ tag[0] | downcase | replace:' ','_' }}" title="{{ i }} posts"><span class="icon-li">{% include icons/tag.svg %}</span> {{ tag[0] }}</a></li>
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ul>
+  <ul class="icon-ul">
+    {% assign tags_max = 0 %} {% for tag in site.tags %} {% if tag[1].size >
+    tags_max %} {% assign tags_max = tag[1].size %} {% endif %} {% endfor %} {%
+    for i in (1..tags_max) reversed %} {% for tag in site.tags %} {% if
+    tag[1].size == i %}
+    <li>
+      <a href="#{{ tag[0] | downcase | replace:' ','_' }}" title="{{ i }} posts"
+        ><span class="icon-li">{% include icons/tag.svg %}</span> {{ tag[0]
+        }}</a
+      >
+    </li>
+    {% endif %} {% endfor %} {% endfor %}
+  </ul>
 </div>
-<hr>
+<hr />
 
-
-{% assign tags_max = 0 %}
-{% for tag in site.tags %}
-{% if tag[1].size > tags_max %}
-{% assign tags_max = tag[1].size %}
-{% endif %}
-{% endfor %}
-{% for i in (1..tags_max) reversed %}
-{% for tag in site.tags %}
-{% if tag[1].size == i %}
+{% assign tags_max = 0 %} {% for tag in site.tags %} {% if tag[1].size >
+tags_max %} {% assign tags_max = tag[1].size %} {% endif %} {% endfor %} {% for
+i in (1..tags_max) reversed %} {% for tag in site.tags %} {% if tag[1].size == i
+%}
 <div class="tag-container" id="{{ tag[0] | downcase | replace:' ','_' }}">
-<h2>{{ tag[0] }} <span class="badge">{{ i }}</span></h2>
-<div class="columns">
-<ul class="icon-ul">
-{% for post in tag.last %}<li><a href="{{ post.url }}"><span class="icon-li">{% include icons/chevron-right.svg %}</span> {{ post.title }}</a></li>{% endfor %}
-</ul>
+  <h2>{{ tag[0] }} <span class="badge">{{ i }}</span></h2>
+  <div class="columns">
+    <ul class="icon-ul">
+      {% for post in tag.last %}
+      <li>
+        <a href="{{ post.url }}"
+          ><span class="icon-li">{% include icons/chevron-right.svg %}</span> {{
+          post.title }}</a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
+{% endif %} {% endfor %} {% endfor %}

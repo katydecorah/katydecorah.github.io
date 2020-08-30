@@ -247,33 +247,31 @@
   text-align: inherit;
 }
 
-.post-page {
-  .post-meta {
-    color: var(--text-accent);
-    margin-bottom: 0em;
+.post-meta-header {
+  color: var(--text-accent);
+  margin-bottom: 0em;
 
-    position: relative;
-    z-index: 1;
-  }
+  position: relative;
+  z-index: 1;
+}
 
-  svg {
-    vertical-align: top;
-    width: 1em;
-  }
-  .post-meta-breadcrumbs {
-    margin-bottom: 1.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    background-color: var(--background-accent);
-  }
-  .breadcrumbs,
-  .post-meta-date {
-    font-size: $font-xs;
-  }
+svg {
+  vertical-align: top;
+  width: 1em;
+}
+.post-meta-breadcrumbs {
+  margin-bottom: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: var(--background-accent);
+}
+.breadcrumbs,
+.post-meta-date {
+  font-size: $font-xs;
+}
 
-  .post-meta-link {
-    text-decoration: none;
-  }
+.post-meta-link {
+  text-decoration: none;
 }
 
 .post-prev-next {

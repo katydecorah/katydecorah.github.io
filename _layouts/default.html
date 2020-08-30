@@ -1,5 +1,6 @@
 {% include top.html %}
 <body class="default-page page-{{ page.title | downcase | replace:' ','_' | replace: '!',''  }}">
+{% include post-meta.html %}
 <div class="container">
 <div class="content" id="content">
 {% unless page.hideTitle %}<h1>{{ page.title }}</h1>{% endunless %}
