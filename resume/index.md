@@ -1,6 +1,7 @@
 ---
-layout: front-page
+layout: default
 title: Resume
+hideTitle: true
 ---
 
 ## Work

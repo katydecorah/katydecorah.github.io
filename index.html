@@ -1,9 +1,7 @@
 ---
-layout: front-page
+layout: home
 title: Katy DeCorah
 ---
-<main class="all-posts">
-  {% for post in paginator.posts %}
-    {% include post-list.html post=post %}
-  {% endfor %}
-</main>
+
+{% for post in paginator.posts %}{% include post-list.html post=post %}{% endfor
+%}

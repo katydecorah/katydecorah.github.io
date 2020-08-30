@@ -1,0 +1,16 @@
+---
+layout: default
+hideTitle: true
+hideHeader: true
+hideFooter: true
+---
+
+<div class="home-page-grid">
+  <div class="container content">
+    <div class="all-posts">{{ content }}</div>
+    {% if page.title == 'Katy DeCorah' %}{% include paginator.html %}{% endif %}
+    {% if page.layout == 'category' %}{% include category-paginator.html %}{%
+    endif %}
+  </div>
+  {% include footer.html %}
+</div>

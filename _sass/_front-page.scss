@@ -1,4 +1,4 @@
-.front-page {
+.home-page {
   @include breakpoint(medium) {
     background: linear-gradient(
       90deg,
@@ -28,7 +28,7 @@
   }
 }
 
-.front-page-grid {
+.home-page-grid {
   margin: 0 auto;
   max-width: 1280px;
 
@@ -84,13 +84,13 @@
 }
 
 .all-posts {
-  .front-page & {
+  .home-page & {
     padding-left: 1.5em;
     max-width: 600px;
   }
 
   @include breakpoint(medium) {
-    .front-page & {
+    .home-page & {
       padding-left: 2em;
     }
   }
@@ -185,7 +185,7 @@
 
   @include breakpoint(medium) {
     display: block;
-    .front-page & {
+    .home-page & {
       display: inline-block;
       margin-left: 0.5em;
     }
