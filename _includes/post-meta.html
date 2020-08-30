@@ -4,8 +4,7 @@
       <div class="breadcrumbs">
         <a class="post-meta-link" href="{{site.url}}">Katy DeCorah</a>
         {% include icons/chevron-right.svg %} {% if page.categories[0] %}
-
-        <a class="post-meta-link" href="/{{ category}}"
+        <a class="post-meta-link" href="/{{ page.categories[0] | downcase}}"
           >{{ page.categories[0] }}</a
         >
         {% else %}
