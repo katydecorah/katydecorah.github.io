@@ -1,6 +1,0 @@
-{% if section.heading == 'Projects' %}
-{% for project in section.contents %}
-<h3>{% if project.link %}<a href="{{project.link}}">{% endif %}{{ project.project }}{% if project.link %}</a>{% endif %}</h3>
-<p>{{ project.desc }}<br>Built with {{project.tools}}.</p>
-{% endfor %}
-{% endif %}
