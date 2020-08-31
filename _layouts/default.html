@@ -68,9 +68,12 @@
     {% unless layout.hideHeader %}{% include post-meta.html %}{% endunless %}
     <main class="{% if page.layout == 'default' %}container{% endif %} content">
       <div id="content">
-        {% unless page.hideTitle or layout.hideTitle %}
-        <h1>{{ page.title }}</h1>
-        {% endunless %} {{ content }}
+        <h1
+          class="{% if page.hideTitle or layout.hideTitle %}visually-hidden{% endif %}"
+        >
+          {{ page.title }}
+        </h1>
+        {{ content }}
       </div>
     </main>
     {% unless layout.hideFooter %}{% include footer.html %}{% endunless %}{%
