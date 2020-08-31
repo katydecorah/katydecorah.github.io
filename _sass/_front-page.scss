@@ -1,34 +1,4 @@
 .home-page {
-  @include breakpoint(medium) {
-    background: linear-gradient(
-      90deg,
-      var(--background-accent) 0%,
-      var(--background-accent) 45%,
-      var(--background) 45%,
-      var(--background) 100%
-    );
-  }
-
-  .btn {
-    margin-right: 0.5em;
-  }
-
-  .post-prev-next {
-    @extend %flex-wrap;
-  }
-
-  @include breakpoint(medium) {
-    .container {
-      padding: 0;
-    }
-
-    .post-prev-next {
-      margin-bottom: 1em;
-    }
-  }
-}
-
-.home-page-grid {
   margin: 0 auto;
   max-width: 1280px;
 
@@ -79,6 +49,34 @@
       .bio-img.bio-img {
         margin-bottom: 1em;
       }
+    }
+  }
+
+  @include breakpoint(medium) {
+    background: linear-gradient(
+      90deg,
+      var(--background-accent) 0%,
+      var(--background-accent) 45%,
+      var(--background) 45%,
+      var(--background) 100%
+    );
+  }
+
+  .btn {
+    margin-right: 0.5em;
+  }
+
+  .post-prev-next {
+    @extend %flex-wrap;
+  }
+
+  @include breakpoint(medium) {
+    .container {
+      padding: 0;
+    }
+
+    .post-prev-next {
+      margin-bottom: 1em;
     }
   }
 }

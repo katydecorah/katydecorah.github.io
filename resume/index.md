@@ -4,28 +4,28 @@ title: Resume
 hideTitle: true
 ---
 
-## Work
+## Experience
 
-- **Frontend Engineer, Mapbox**, September 2014 - present
+- **Frontend Engineer**, _Mapbox_, 2014 - present
   - Maintain frontend for all [docs.mapbox.com](https://docs.mapbox.com/) including [React component library](https://github.com/mapbox/dr-ui) that is used throughout documentation sites.
   - Built linters and tests to validate content against the team's styleguide.
   - Created [user feedback feature](https://doublegreat.dev/feedback-library/2020/06/13/mapbox/) to help improve documentation.
   - Designed and built [API playgrounds](https://docs.mapbox.com/playground/).
-- **Organizer and co-founder, Ela Conf**, April 2015 - December 2017
+- **Organizer and co-founder**, _Ela Conf_, 2015 - 2017
   - Built tools to streamline and automate processes for a growing community conference, including an [application review system](https://github.com/katydecorah/proposal-reviewer) with the GitHub API that helped us scale from 24 applicants to 200.
-- **Instructional Designer, Professional Development Program**, 2011 - 2014
+- **Instructional Designer**, _Professional Development Program_, 2011 - 2014
   - Designed and developed responsive and accessible (Section 508) trainings using HTML, CSS, jQuery, and ColdFusion.
-- **Adjunct Instructor, University at Albany**, 2011 - 2014
+- **Adjunct Instructor**, _University at Albany_, 2011 - 2014
   - Instructed Web Development, Intermediate Web Development, and Intermediate Interactive Design with an adaptive curriculum based on changing best practices.
+
+## Education
+
+- **University at Albany**, _Master of Science in Information Science_, 2009-2011
+- **Siena College**, _Bachelors of Arts in History_, 2005-2009
 
 ## Skills
 
 [HTML](/tags/#haml), [CSS](/tags/#css), [Sass](/tags/#sass), [JavaScript](/tags/#javascript), [Node.js](/tags/#node.js), [React](/tags/#react), [AWS](/tags/#aws), [APIs](/tags/#api), [Jekyll](/tags/#jekyll), [Git](/tags/#git), [GitHub](https://github.com/katydecorah), [writing](/tags/#writing)
-
-## Education
-
-- **University at Albany 2009-2011**, Master of Science in Information Science
-- **Siena College 2005-2009**, Bachelors of Arts in History
 
 ## Writing
 

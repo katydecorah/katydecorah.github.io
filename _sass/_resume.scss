@@ -1,4 +1,15 @@
 .page-resume {
+  @media print {
+    .post-meta-breadcrumbs {
+      margin-bottom: 0em;
+      margin-left: -0.25em;
+    }
+    .post-meta-breadcrumbs svg,
+    .post-meta-breadcrumbs span {
+      display: none;
+    }
+  }
+
   .content {
     margin-bottom: 2em;
     font-size: 18px;
@@ -16,6 +27,7 @@
       margin-bottom: 0.25em;
     }
 
+    h2,
     p + h2,
     ul + h2,
     h2 + p,
@@ -39,15 +51,15 @@
   }
 
   h2 {
-    font-weight: bold;
-    letter-spacing: 0.05em;
-    font-family: $body-font-family;
+    letter-spacing: 0.075em;
     font-size: 1em;
     text-transform: uppercase;
     margin-top: 0;
+    color: var(--text-accent);
 
     @media screen {
-      color: var(--text-accent);
+      padding-right: 1em;
+      border-right: 0.25rem solid var(--background-accent);
     }
 
     @media screen and (min-width: 600px) {
@@ -72,7 +84,8 @@
     @media screen {
       color: var(--text-accent);
 
-      strong {
+      strong,
+      em {
         color: var(--text-color);
       }
     }

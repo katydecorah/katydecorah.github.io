@@ -1,29 +1,14 @@
-.skip a {
-  border: 0;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  border-image-slice: initial;
-  border-image-source: initial;
-  border-image-width: initial;
-  clip: rect(1px 1px 1px 1px);
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
+.skip {
   position: absolute;
-  width: 1px;
-}
+  left: -999rem;
 
-.skip a:active,
-.skip a:focus {
-  background: var(--link);
-  clip: auto;
-  color: var(--background-accent);
-  display: block;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  padding: 1%;
-  position: static;
-  text-align: center;
-  width: 100%;
+  &:active,
+  &:focus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    display: block;
+    padding: 0.5rem 0.75rem;
+  }
 }

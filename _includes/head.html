@@ -1,0 +1,59 @@
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>
+  {% if page.title != 'Katy DeCorah' %}{{ page.title }} | Katy DeCorah{% else
+  %}Katy DeCorah{% endif %}
+</title>
+<meta
+  name="google-site-verification"
+  content="F5aWLWH-V1jAhith3Ybjt5dDtL4S8Yc5Z53yTvPFhaM"
+/>
+<meta
+  name="description"
+  content="{% if page.layout != 'front-page' %}{{page.title}} | Katy DeCorah | {% endif %}{{ site.description }}"
+/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="twitter:site" content="{{site.twitter}}" />
+<meta property="og:site_name" content="{{site.title}}" />
+<meta name="twitter:url" content="{{site.url}}{{page.url}}" />
+<meta property="og:url" content="{{site.url}}{{page.url}}" />
+<meta name="twitter:title" content="{{page.title}}" />
+<meta property="og:title" content="{{page.title}}" />
+<meta
+  name="twitter:description"
+  content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% elsif page.excerpt %}{{page.excerpt | strip_html | strip_newlines | truncatewords: 30}}{% else %}{{ site.description }}{% endif %}"
+/>
+<meta
+  property="og:description"
+  content="{% if page.description %}{{ page.description | truncatewords: 30 }}{% elsif page.excerpt %}{{page.excerpt | strip_html | strip_newlines |  truncatewords: 30}}{% else %}{{ site.description }}{% endif %}"
+/>
+<meta
+  name="twitter:image"
+  content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}https:{{site.image}}{% endif %}"
+/>
+<meta
+  name="st:image"
+  content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}https:{{site.image}}{% endif %}"
+/>
+<meta
+  property="og:image"
+  content="{% if page.image %}https:{{site.assets}}{{page.image}}{% else %}https:{{site.image}}{% endif %}"
+/>
+<meta name="twitter:card" content="summary" />
+<meta property="og:type" content="blog" />
+<meta property="article:published_time" content="{{page.date}}" />
+<meta property="article:author" content="Katy DeCorah" />
+<meta name="p:domain_verify" content="5ec32589eebd416f82c15e20ba199848" />
+<link rel="manifest" href="/manifest.json" />
+<meta name="theme-color" content="#fff" />
+{% feed_meta %}
+<link
+  href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,400i,700|IBM+Plex+Serif&display=swap"
+  rel="stylesheet"
+/>
+<link href="/assets/style.css" rel="stylesheet" type="text/css" />
+{% if page.css %}
+<style>
+  {{ page.css }}
+</style>
+{% endif %} {% if page.ad %}{% include ad.html %}{% endif %}
