@@ -10,7 +10,8 @@ $link-hover: darken($link, 10%);
 $text-accent: #6e6e6e;
 
 :root {
-  --always-dark: #{$text-color};
+  --always-background: #{$background}; // var does not change at dark theme
+  --always-dark: #{$text-color}; // var does not change at dark theme
   --background: #{$background};
   --background-accent: #{$background-accent};
   --link: #{$link};

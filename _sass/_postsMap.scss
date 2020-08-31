@@ -47,6 +47,7 @@ $map-height: 8em;
   top: 0;
   width: 100%;
   height: $map-height;
+  background: var(--always-background);
 
   @include breakpoint(small) {
     display: none;
@@ -66,4 +67,9 @@ $map-height: 8em;
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.map-iceland {
+  background: var(--always-background);
+  border-radius: 0.25em;
 }
