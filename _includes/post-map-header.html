@@ -14,7 +14,7 @@ page.coordinates limit:1-%}{{ coordinate }} {%- endfor-%},{{zoom}} {%- endif-%}
 
 <div class="post-map-header">
   <div
-    style="background-image:url(https://api.tiles.mapbox.com/v4/{{mapid}}/{{place}}/1280x200.png?access_token={{ site.mapbox-token }})"
+    style="background-image:url(https://api.tiles.mapbox.com/v4/{{mapid}}/{{place}}/1280x200@2x.png?access_token={{ site.mapbox-token }})"
     class="post-location-image"
   ></div>
   <a
