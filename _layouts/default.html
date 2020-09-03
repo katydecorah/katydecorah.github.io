@@ -12,7 +12,7 @@
     <main
       aria-label="Content"
       id="content"
-      class="{%- if page.layout == 'default' -%}container {%- endif -%}content"
+      class="{% if page.layout == 'default' %}container {% endif %}content"
     >
       <h1
         class="{%- if page.hideTitle or layout.hideTitle -%}visually-hidden{%- endif -%}"
