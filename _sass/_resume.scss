@@ -14,11 +14,9 @@
     margin-bottom: 2em;
     font-size: 18px;
 
-    > div {
-      @media screen and (min-width: 600px) {
-        display: grid;
-        grid-gap: 0 1em;
-      }
+    @media screen and (min-width: 600px) {
+      display: grid;
+      grid-gap: 0 1em;
     }
 
     h2,
