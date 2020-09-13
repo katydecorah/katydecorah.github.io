@@ -1,0 +1,14 @@
+.books {
+  display: grid;
+  gap: 1%;
+  grid-template-columns: repeat(10, 9%);
+  margin-bottom: 1em;
+}
+
+.book {
+  width: 100%;
+  padding-bottom: 150%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}

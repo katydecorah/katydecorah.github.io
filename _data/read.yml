@@ -1,119 +1,1046 @@
-# books
-
-
-
-
-# kindle
-- title: A Woman is No Man
-  author: Etaf Rum
-- title: An American Marriage
-  author: Tayari Jones
-- title: Everything Here Is Beautiful
-  author: Mira T. Lee
-- title: Dark Matter
-  author: Blake Crouch
-- title: We Should All Be Feminists
-  author: Chimamanda Ngozi Adichie
-- title: The Girls
-  author: Emma Cline
-- title: No one belong here more than you
-  author: Miranda July
-- title: The Grown up
-  author: Gillian Flynn
-- title: Sharp Objects
-  author: Gillian Flynn
-- title: Why not me?
-  author: Mindy Kaling
-- title: The First Bad Man
-  author: Miranda July
-- title: Dark Places
-  author: Gillian Flynn
-- title: The Curious Incident of the Dog in the Night-time
-  author: Mark Haddon
-- title: Words Fail Me
-  author: Patricia O'Connor
-- title: Yes Please
-  author: Amy Poehler
-- title: Gone Girl
-  author: Gillian Flynn
-- title: The Goldfinch
-  author: Donna Tartt
-- title: Blood, Bones & Butter
-  author: Gabrielle Hamilton
-- title: Is Everyone Hanging Out Without Me?
-  author: Mindy Kaling
-- title: I Know Why the Caged Bird Sings
-  author: Maya Angelou
-- title: Room
-  author: Emma Donoghue
-
- 
-
-
-
-# audio
-- title: Bad Feminist
-  author: Roxane Gay
-- title: Swing Time
-  author: Zadie Smith
-- title: Essentialism
-  author: Greg Mckeown
-- title: Hunger
-  author: Roxane Gay
-- title: The Mothers
-  author: Brit Bennett
-- title: The Hate U Give
-  author: Angie Thomas
-- title: Little Fires Everywhere
-  author: Celeste Ng
-- title: Girl in Snow
-  author: Danya Kukafka
-- title: The Power
-  author: Naomi Alderman
-- title: Stay Sexy & Don't Get Murdered
-  author: Karen Kilgariff, Georgia Hardstark
-- title: My Friend Anna
-  author: Rachel DeLoache Williams
-- title: Goodbye, Vitamin
-  author: Rachel Khong
-- title: Charlotte Walsh Like to Win
-  author: Jo Piazza
-- title: Difficult Women
-  author: Roxane Gay
-  completed:
-- title: Men Explain Things to Me
-  author: Rebecca Solnit
-  completed:
-- title: Not That Bad
-  author: Roxane Gay
-  completed:
-- title: The Naked Mind
-  author: Annie Grace
-  completed:
-- title: Dept. of Speculation
-  author: Jenny Offill
-  completed:
-- title: Trick Mirror
-  author: Jia Tolentino
-  completed:
-- title: Normal People
-  author: Sally Rooney
-  completed:
-- title: The Vanishing Half
-  author: Brit Bennett
-  completed:
-- title: I Might Regret This
-  author: Abbi Jacobson
-  completed:
-- title: Big Friendship
-  author: Aminatou Sou, Ann Friedman
-  completed:
-- title: I'll Be Gone in the Dark
-  author: Michelle McNamara
-  completed: 
-- title: Luster
-  author: Raven Leilani
-  completed: 2020-08-20
-- title: Transcendent Kingdom
-  author: Yaa Gyasi
-  completed: 2020-09-10
+- isbn: "9781588369253"
+  dateFinished: "2011-10-11"
+  title: "I Know Why the Caged Bird Sings"
+  authors:
+    - "Maya Angelou"
+  publishedDate: "2009-04-21"
+  description: "Here is a book as joyous and painful, as mysterious and memorable, as childhood itself. I Know Why the Caged Bird Sings captures the longing of lonely children, the brute insult of bigotry, and the wonder of words that can make the world right. Maya Angelou’s debut memoir is a modern American classic beloved worldwide. Sent by their mother to live with their devout, self-sufficient grandmother in a small Southern town, Maya and her brother, Bailey, endure the ache of abandonment and the prejudice of the local “powhitetrash.” At eight years old and back at her mother’s side in St. Louis, Maya is attacked by a man many times her age—and has to live with the consequences for a lifetime. Years later, in San Francisco, Maya learns that love for herself, the kindness of others, her own strong spirit, and the ideas of great authors (“I met and fell in love with William Shakespeare”) will allow her to be free instead of imprisoned. Poetic and powerful, I Know Why the Caged Bird Sings will touch hearts and change minds for as long as people read. “I Know Why the Caged Bird Sings liberates the reader into life simply because Maya Angelou confronts her own life with such a moving wonder, such a luminous dignity.”—James Baldwin"
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "1588369250"
+    - type: "ISBN_13"
+      identifier: "9781588369253"
+  pageCount: 304
+  printType: "BOOK"
+  categories:
+    - "Biography & Autobiography"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=VdxNlZidgikC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=VdxNlZidgikC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=VdxNlZidgikC"
+- isbn: "0307886271"
+  dateFinished: "2011-10-31"
+  title: "Is Everyone Hanging Out Without Me? (And Other Concerns)"
+  authors:
+    - "Mindy Kaling"
+  publishedDate: "2012-09-18"
+  description: 'The writer and actress from "The Office" shares observations on topics ranging from favorite male archetypes and her hatred of dieting to her relationship with her mother and the haphazard creative process on the show.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780307886279"
+    - type: "ISBN_10"
+      identifier: "0307886271"
+  pageCount: 222
+  printType: "BOOK"
+  categories:
+    - "Humor"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=LjolcgnljrcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=LjolcgnljrcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Is_Everyone_Hanging_Out_Without_Me_And_O.html?hl=&id=LjolcgnljrcC"
+- isbn: "0812980883"
+  dateFinished: "2012-01-24"
+  title: "Blood, Bones, & Butter"
+  authors:
+    - "Gabrielle Hamilton"
+  publishedDate: "2012"
+  description: "The chef of New York's East Village Prune restaurant presents an account of her search for meaning and purpose in the central rural New Jersey home of her youth, marked by a first chicken kill, an international backpacking tour, and the opening of a first restaurant."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780812980882"
+    - type: "ISBN_10"
+      identifier: "0812980883"
+  pageCount: 308
+  printType: "BOOK"
+  categories:
+    - "Biography & Autobiography"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=xTUGbXlII5MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=xTUGbXlII5MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Blood_Bones_Butter.html?hl=&id=xTUGbXlII5MC"
+- isbn: "9780349139630"
+  dateFinished: "2014-06-09"
+  title: "The Goldfinch"
+  authors:
+    - "Donna Tartt"
+  publishedDate: "2014"
+  description: "Winner of the Pulitzer Prize for Fiction 2014 Aged thirteen, Theo Decker, son of a devoted mother and a reckless, largely absent father, survives an accident that otherwise tears his life apart. Alone and rudderless in New York, he is taken in by the family of a wealthy friend. He is tormented by an unbearable longing for his mother, and down the years clings to the thing that most reminds him of her: a small, strangely captivating painting that ultimately draws him into the criminal underworld. As he grows up, Theo learns to glide between the drawing rooms of the rich and the dusty antiques store where he works. He is alienated and in love - and his talisman, the painting, places him at the centre of a narrowing, ever more dangerous circle. The Goldfinch is a haunted odyssey through present-day America and a drama of enthralling power. Combining unforgettably vivid characters and thrilling suspense, it is a beautiful, addictive triumph - a sweeping story of loss and obsession, of survival and self-invention, of the deepest mysteries of love, identity and fate."
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0349139636"
+    - type: "ISBN_13"
+      identifier: "9780349139630"
+  pageCount: 864
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=eN4lngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=eN4lngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/The_Goldfinch.html?hl=&id=eN4lngEACAAJ"
+- isbn: "0307588378"
+  dateFinished: "2014-11-02"
+  title: "Gone Girl"
+  authors:
+    - "Gillian Flynn"
+  publishedDate: "2014"
+  description: "When a woman goes missing on her fifth wedding anniversary, her diary reveals hidden turmoil in her marriage, while her husband, desperate to clear himself of suspicion, realizes that something more disturbing than murder may have occurred."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780307588371"
+    - type: "ISBN_10"
+      identifier: "0307588378"
+  pageCount: 422
+  printType: "BOOK"
+  categories:
+    - "FICTION"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=mmWODQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=mmWODQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Gone_Girl.html?hl=&id=mmWODQAAQBAJ"
+- isbn: "0316098337"
+  dateFinished: "2014-11-16"
+  title: "Room"
+  authors:
+    - "Emma Donoghue"
+  publishedDate: "2010-09-13"
+  description: "Held captive for years in a small shed, a woman and her precocious young son finally gain their freedom, and the boy experiences the outside world for the first time. Inspiration for the MAJOR MOTION PICTURE starring Academy Award winner Brie Larson To five-year-old-Jack, Room is the world. . . . It's where he was born, it's where he and his Ma eat and sleep and play and learn. At night, his Ma shuts him safely in the wardrobe, where he is meant to be asleep when Old Nick visits. Room is home to Jack, but to Ma it's the prison where she has been held for seven years. Through her fierce love for her son, she has created a life for him in this eleven-by-eleven-foot space. But with Jack's curiosity building alongside her own desperation, she knows that Room cannot contain either much longer. Room is a tale at once shocking, riveting, exhilarating--a story of unconquerable love in harrowing circumstances, and of the diamond-hard bond between a mother and her child."
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0316098337"
+    - type: "ISBN_13"
+      identifier: "9780316098335"
+  pageCount: 336
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=TdKHvgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=TdKHvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Room.html?hl=&id=TdKHvgEACAAJ"
+- isbn: "9780062268372"
+  dateFinished: "2014-11-16"
+  title: "Yes Please"
+  authors:
+    - "Amy Poehler"
+  publishedDate: "2014-10-28"
+  description: '#1 NEW YORK TIMES BESTSELLER Do you want to get to know the woman we first came to love on Comedy Central''s Upright Citizens Brigade? Do you want to spend some time with the lady who made you howl with laughter on Saturday Night Live, and in movies like Baby Mama, Blades of Glory, and They Came Together? Do you find yourself daydreaming about hanging out with the actor behind the brilliant Leslie Knope on Parks and Recreation? Did you wish you were in the audience at the last two Golden Globes ceremonies, so you could bask in the hilarity of Amy''s one-liners? If your answer to these questions is "Yes Please!" then you are in luck. In her first book, one of our most beloved funny folk delivers a smart, pointed, and ultimately inspirational read. Full of the comedic skill that makes us all love Amy, Yes Please is a rich and varied collection of stories, lists, poetry (Plastic Surgery Haiku, to be specific), photographs, mantras and advice. With chapters like "Treat Your Career Like a Bad Boyfriend," "Plain Girl Versus the Demon" and "The Robots Will Kill Us All" Yes Please will make you think as much as it will make you laugh. Honest, personal, real, and righteous, Yes Please is full of words to live by.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780062268372"
+    - type: "ISBN_10"
+      identifier: "0062268376"
+  pageCount: 352
+  printType: "BOOK"
+  categories:
+    - "Humor"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=5upzAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=5upzAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=5upzAwAAQBAJ"
+- isbn: "0316056871"
+  dateFinished: "2014-12-01"
+  title: "Bossypants"
+  authors:
+    - "Tina Fey"
+  publishedDate: "2012-01-03"
+  description: 'Before Liz Lemon, before "Weekend Update," before "Sarah Palin," Tina Fey was just a young girl with a dream: a recurring stress dream that she was being chased through a local airport by her middle-school gym teacher. She also had a dream that one day she would be a comedian on TV. She has seen both these dreams come true. At last, Tina Fey''s story can be told. From her youthful days as a vicious nerd to her tour of duty on Saturday Night Live; from her passionately halfhearted pursuit of physical beauty to her life as a mother eating things off the floor; from her one-sided college romance to her nearly fatal honeymoon -- from the beginning of this paragraph to this final sentence. Tina Fey reveals all, and proves what we''ve all suspected: you''re no one until someone calls you bossy. (Includes Special, Never-Before-Solicited Opinions on Breastfeeding, Princesses, Photoshop, the Electoral Process, and Italian Rum Cake!)'
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0316056871"
+    - type: "ISBN_13"
+      identifier: "9780316056878"
+  pageCount: 304
+  printType: "BOOK"
+  categories:
+    - "Humor"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=4FhCvgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=4FhCvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Bossypants.html?hl=&id=4FhCvgAACAAJ"
+- isbn: "9780547546872"
+  dateFinished: "2015-03-08"
+  title: "Words Fail Me"
+  authors:
+    - "Patricia T. O'Conner"
+  publishedDate: "2000-09-07"
+  description: "From the bestselling author of Woe Is I: A guide to grammar fundamentals that’s sympathetic to the struggling writer and often just plain funny” (The Seattle Times). Whether you need to improve your skills for work or school, or aspire to the Great American Novel, a grounding in grammar, spelling, and punctuation is essential—not just to make you look like a professional but to communicate effectively in emails, essays, or anything you need to write. This painless, practical book is filled with short, snappy chapters, crystal-clear examples, and a “playful sense of humor” (The New York Times Book Review)—covering everything from “Pronoun Pileups” and “Verbs That Zing” to “What to Do When You’re Stuck.” With these simple, straightforward tips, you can learn how to sort your thoughts and make sentences that make sense. “Students writing papers, employees preparing reports, and those who just want to be understood in print may benefit from this fun-to-use answer to Strunk and White. O’Connor uses humor as she takes apart sentences and their parts and shows how each element is used effectively.” —Booklist"
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780547546872"
+    - type: "ISBN_10"
+      identifier: "0547546874"
+  pageCount: 224
+  printType: "BOOK"
+  categories:
+    - "Language Arts & Disciplines"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=2UjQCj4cEyMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=2UjQCj4cEyMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=2UjQCj4cEyMC"
+- isbn: "0307341577"
+  dateFinished: "2015-05-20"
+  title: "Dark Places"
+  authors:
+    - "Gillian Flynn"
+  publishedDate: "2009"
+  description: "After witnessing the murder of her mother and sisters, 7-year-old Libby Day testifies against her brother Ben, but 25 years later she tries to profit from her tragic history and admit that her story might not have been accurate. Reprint. A best-selling novel."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780307341570"
+    - type: "ISBN_10"
+      identifier: "0307341577"
+  pageCount: 349
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=8eqyt0bendEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=8eqyt0bendEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Dark_Places.html?hl=&id=8eqyt0bendEC"
+- isbn: "0804138168"
+  dateFinished: "2015-12-31"
+  title: "Why Not Me?"
+  authors:
+    - "Mindy Kaling"
+  publishedDate: "2016-09-27"
+  description: "Hollywood starlet Mindy Kaling shares her ongoing, laugh-out-loud journey to find contentment and excitement in her adult life."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780804138161"
+    - type: "ISBN_10"
+      identifier: "0804138168"
+  pageCount: 240
+  printType: "BOOK"
+  categories:
+    - "Humor"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=WcoCDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=WcoCDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Why_Not_Me.html?hl=&id=WcoCDQAAQBAJ"
+- isbn: "0804188971"
+  dateFinished: "2016-08-19"
+  title: "The Grownup"
+  authors:
+    - "Gillian Flynn"
+  publishedDate: "2015"
+  description: '"Originally published in the anthology Rogues [as ''What do you do?''] ... by Bantam Books ... in 2014"--Title page verso.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780804188975"
+    - type: "ISBN_10"
+      identifier: "0804188971"
+  pageCount: 63
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=z73ZCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=z73ZCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/The_Grownup.html?hl=&id=z73ZCwAAQBAJ"
+- isbn: "9780743299411"
+  dateFinished: "2016-08-20"
+  title: "No One Belongs Here More Than You"
+  authors:
+    - "Miranda July"
+  publishedDate: "2008-05-06"
+  description: "Presents a collection of short works featuring sympathetic protagonists whose inherent sensitivities render them particularly vulnerable to unexpected events."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780743299411"
+    - type: "ISBN_10"
+      identifier: "0743299418"
+  pageCount: 205
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=u8S3BQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=u8S3BQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/No_One_Belongs_Here_More_Than_You.html?hl=&id=u8S3BQAAQBAJ"
+- isbn: "0307341550"
+  dateFinished: "2016-08-20"
+  title: "Sharp Objects"
+  authors:
+    - "Gillian Flynn"
+  publishedDate: "2006"
+  description: "Reluctantly returning to her hometown after an eight-year absence to investigate the murders of two preteen girls, reporter Camille Preaker is reunited with her neurotic mother and enigmatic, thirteen-year-old half-sister as she works to uncover the truth about the killings, a probe that leads her all too close to the secrets of her own past. A first novel. Reprint. 75,000 first printing."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780307341556"
+    - type: "ISBN_10"
+      identifier: "0307341550"
+  pageCount: 254
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=cAYy9_aV4kMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=cAYy9_aV4kMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Sharp_Objects.html?hl=&id=cAYy9_aV4kMC"
+- isbn: "0812988027"
+  dateFinished: "2016-10-20"
+  title: "The Girls"
+  authors:
+    - "Emma Cline"
+  publishedDate: "2017-05-09"
+  description: '"Originally published in hardcover in the United States by Random House ... in 2016."--Title page verso.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780812988024"
+    - type: "ISBN_10"
+      identifier: "0812988027"
+  pageCount: 368
+  printType: "BOOK"
+  categories:
+    - "Communal living"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=XOaiDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=XOaiDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/The_Girls.html?hl=&id=XOaiDgAAQBAJ"
+- isbn: "110191176X"
+  dateFinished: "2017-01-30"
+  title: "We Should All be Feminists"
+  authors:
+    - "Chimamanda Ngozi Adichie"
+  publishedDate: "2015"
+  description: "Offers an updated definition of feminism for the twenty-first century, one rooted in inclusion and awareness."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9781101911761"
+    - type: "ISBN_10"
+      identifier: "110191176X"
+  pageCount: 52
+  printType: "BOOK"
+  categories:
+    - "Political Science"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=2W6KDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=2W6KDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/We_Should_All_be_Feminists.html?hl=&id=2W6KDQAAQBAJ"
+- isbn: "1101904240"
+  dateFinished: "2017-02-01"
+  title: "Dark Matter"
+  authors:
+    - "Blake Crouch"
+  publishedDate: "2017"
+  description: '"Extra Libris: Essays, Reader''s Guides, and More"--Page [345].'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9781101904244"
+    - type: "ISBN_10"
+      identifier: "1101904240"
+  pageCount: 359
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=5YqVDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=5YqVDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Dark_Matter.html?hl=&id=5YqVDgAAQBAJ"
+- isbn: "0062282719"
+  dateFinished: "2017-04-05"
+  title: "Bad Feminist"
+  authors:
+    - "Roxane Gay"
+  publishedDate: "2014-08-05"
+  description: "From the author of Hunger: A Memoir of (My) Body, the New York Times Bestseller and Best Book of the Year at NPR, the Boston Globe, Newsweek, and many more A collection of essays spanning politics, criticism, and feminism from one of the most-watched young cultural observers of her generation, Roxane Gay. “Pink is my favorite color. I used to say my favorite color was black to be cool, but it is pink—all shades of pink. If I have an accessory, it is probably pink. I read Vogue, and I’m not doing it ironically, though it might seem that way. I once live-tweeted the September issue.” In these funny and insightful essays, Roxane Gay takes us through the journey of her evolution as a woman (Sweet Valley High) of color (The Help) while also taking readers on a ride through culture of the last few years (Girls, Django in Chains) and commenting on the state of feminism today (abortion, Chris Brown). The portrait that emerges is not only one of an incredibly insightful woman continually growing to understand herself and our society, but also one of our culture. Bad Feminist is a sharp, funny, and spot-on look at the ways in which the culture we consume becomes who we are, and an inspiring call-to-arms of all the ways we still need to do better, coming from one of our most interesting and important cultural critics."
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0062282719"
+    - type: "ISBN_13"
+      identifier: "9780062282712"
+  pageCount: 336
+  printType: "BOOK"
+  categories:
+    - "Social Science"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=Gd6CvgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=Gd6CvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Bad_Feminist.html?hl=&id=Gd6CvgEACAAJ"
+- isbn: "1594203989"
+  dateFinished: "2017-04-24"
+  title: "Swing Time"
+  authors:
+    - "Zadie Smith"
+  publishedDate: "2016-11-15"
+  description: 'An ambitious, exuberant new novel moving from North-West London to West Africa, from the multi-award-winning author of White Teeth and On Beauty Two brown girls dream of being dancers but only one, Tracey, has talent. The other has ideas: about rhythm and time, about black bodies and black music, what constitutes a tribe, or makes a person truly free. It''s a close but complicated childhood friendship that ends abruptly in their early twenties, never to be revisited, but never quite forgotten, either. Tracey makes it to the chorus line but struggles with adult life, while her friend leaves the old neighborhood behind, traveling the world as an assistant to a famous singer, Aimee, observing close up how the one percent live. But when Aimee develops grand philanthropic ambitions, the story moves from London to West Africa, where diaspora tourists travel back in time to find their roots, young men risk their lives to escape into a different future, the women dance just like Tracey the same twists, the same shakes and the origins of a profound inequality are not a matter of distant history, but a present dance to the music of time."'
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "1594203989"
+    - type: "ISBN_13"
+      identifier: "9781594203985"
+  pageCount: 464
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=SgqYDAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=SgqYDAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Swing_Time.html?hl=&id=SgqYDAEACAAJ"
+- isbn: "0804137382"
+  dateFinished: "2017-05-14"
+  title: "Essentialism"
+  authors:
+    - "Greg McKeown"
+  publishedDate: "2014"
+  description: "Outlines a systematic framework for enabling greater productivity without overworking, sharing strategies on how to eliminate unnecessary tasks while streamlining essential employee functions. By the co-author of the best-selling Multipliers. 75,000 first printing."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780804137386"
+    - type: "ISBN_10"
+      identifier: "0804137382"
+  pageCount: 260
+  printType: "BOOK"
+  categories:
+    - "Business & Economics"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=CleNDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=CleNDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Essentialism.html?hl=&id=CleNDQAAQBAJ"
+- isbn: "9780062362605"
+  dateFinished: "2017-05-15"
+  title: "Hunger"
+  authors:
+    - "Roxane Gay"
+  publishedDate: "2017-06-13"
+  description: "From the New York Times bestselling author of Bad Feminist: a searingly honest memoir of food, weight, self-image, and learning how to feed your hunger while taking care of yourself. “I ate and ate and ate in the hopes that if I made myself big, my body would be safe. I buried the girl I was because she ran into all kinds of trouble. I tried to erase every memory of her, but she is still there, somewhere. . . . I was trapped in my body, one that I barely recognized or understood, but at least I was safe.” In her phenomenally popular essays and long-running Tumblr blog, Roxane Gay has written with intimacy and sensitivity about food and body, using her own emotional and psychological struggles as a means of exploring our shared anxieties over pleasure, consumption, appearance, and health. As a woman who describes her own body as “wildly undisciplined,” Roxane understands the tension between desire and denial, between self-comfort and self-care. In Hunger, she explores her past—including the devastating act of violence that acted as a turning point in her young life—and brings readers along on her journey to understand and ultimately save herself. With the bracing candor, vulnerability, and power that have made her one of the most admired writers of her generation, Roxane explores what it means to learn to take care of yourself: how to feed your hungers for delicious and satisfying food, a smaller and safer body, and a body that can love and be loved—in a time when the bigger you are, the smaller your world becomes."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780062362605"
+    - type: "ISBN_10"
+      identifier: "0062362607"
+  pageCount: 320
+  printType: "BOOK"
+  categories:
+    - "Biography & Autobiography"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=XJJVCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=XJJVCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=XJJVCgAAQBAJ"
+- isbn: "9780399184536"
+  dateFinished: "2017-08-23"
+  title: "The Mothers"
+  authors:
+    - "Brit Bennett"
+  publishedDate: "2016-10-11"
+  description: 'NEW YORK TIMES BESTSELLER “Bittersweet, sexy, morally fraught.” –The New York Times Book Review "Luminous… engrossing and poignant, this is one not to miss." –People, Pick of the Week "Fantastic… a book that feels alive on the page." –The Washington Post The beloved New York Times-bestselling novel about young love and a big secret in a small community, from the author of The Vanishing Half. Set within a contemporary black community in Southern California, Brit Bennett''s mesmerizing first novel is an emotionally perceptive story about community, love, and ambition. It begins with a secret. "All good secrets have a taste before you tell them, and if we''d taken a moment to swish this one around our mouths, we might have noticed the sourness of an unripe secret, plucked too soon, stolen and passed around before its season." It is the last season of high school life for Nadia Turner, a rebellious, grief-stricken, seventeen-year-old beauty. Mourning her own mother''s recent suicide, she takes up with the local pastor''s son. Luke Sheppard is twenty-one, a former football star whose injury has reduced him to waiting tables at a diner. They are young; it''s not serious. But the pregnancy that results from this teen romance—and the subsequent cover-up—will have an impact that goes far beyond their youth. As Nadia hides her secret from everyone, including Aubrey, her God-fearing best friend, the years move quickly. Soon, Nadia, Luke, and Aubrey are full-fledged adults and still living in debt to the choices they made that one seaside summer, caught in a love triangle they must carefully maneuver, and dogged by the constant, nagging question: What if they had chosen differently? The possibilities of the road not taken are a relentless haunt. In entrancing, lyrical prose, The Mothers asks whether a "what if" can be more powerful than an experience itself. If, as time passes, we must always live in servitude to the decisions of our younger selves, to the communities that have parented us, and to the decisions we make that shape our lives forever.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780399184536"
+    - type: "ISBN_10"
+      identifier: "0399184538"
+  pageCount: 288
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=q86ACwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=q86ACwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=q86ACwAAQBAJ"
+- isbn: "0735224315"
+  dateFinished: "2017-10-05"
+  title: "Little Fires Everywhere"
+  authors:
+    - "Celeste Ng"
+  publishedDate: "2019-05-07"
+  description: 'Soon to be a Hulu limited series, starring Reese Witherspoon and Kerry Washington! Named a Best Book of the Year by: People, The Washington Post, Bustle, Esquire, Southern Living, The Daily Beast, GQ, Entertainment Weekly, NPR, Amazon, Barnes & Noble, iBooks, Audible, Goodreads, Library Reads, Book of the Month, Paste, Kirkus Reviews, St. Louis Post-Dispatch, and many more! "I read Little Fires Everywhere in a single, breathless sitting." -Jodi Picoult "To say I love this book is an understatement. It''s a deep psychological mystery about the power of motherhood, the intensity of teenage love, and the danger of perfection. It moved me to tears." - Reese Witherspoon "Extraordinary...Books like Little Fires Everywhere don''t come along often." --John Green "Witty, wise, and tender. It''s a marvel." - Paula Hawkins From the bestselling author of Everything I Never Told You, a riveting novel that traces the intertwined fates of the picture-perfect Richardson family and the enigmatic mother and daughter who upend their lives. In Shaker Heights, a placid, progressive suburb of Cleveland, everything is planned - from the layout of the winding roads, to the colors of the houses, to the successful lives its residents will go on to lead. And no one embodies this spirit more than Elena Richardson, whose guiding principle is playing by the rules. Enter Mia Warren - an enigmatic artist and single mother - who arrives in this idyllic bubble with her teenaged daughter Pearl, and rents a house from the Richardsons. Soon Mia and Pearl become more than tenants: all four Richardson children are drawn to the mother-daughter pair. But Mia carries with her a mysterious past and a disregard for the status quo that threatens to upend this carefully ordered community. When old family friends of the Richardsons attempt to adopt a Chinese-American baby, a custody battle erupts that dramatically divides the town--and puts Mia and Elena on opposing sides. Suspicious of Mia and her motives, Elena is determined to uncover the secrets in Mia''s past. But her obsession will come at unexpected and devastating costs. Little Fires Everywhere explores the weight of secrets, the nature of art and identity, and the ferocious pull of motherhood - and the danger of believing that following the rules can avert disaster. Perfect for book clubs! Visit celesteng.com for discussion guides and more.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780735224315"
+    - type: "ISBN_10"
+      identifier: "0735224315"
+  pageCount: 368
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=GI-RDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=GI-RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Little_Fires_Everywhere.html?hl=&id=GI-RDwAAQBAJ"
+- isbn: "1501144375"
+  dateFinished: "2017-11-20"
+  title: "Girl in Snow"
+  authors:
+    - "Danya Kukafka"
+  publishedDate: "2017-08"
+  description: "When fifteen-year-old Lucinda Hayes is found dead in her sleepy Colorado suburb, the secret lives of three people connected to her are revealed: the social outcast who loved her from afar, the jaded girl who despised her, and the policeman investigating her death…"
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9781501144370"
+    - type: "ISBN_10"
+      identifier: "1501144375"
+  pageCount: 368
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=MCcuDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=MCcuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Girl_in_Snow.html?hl=&id=MCcuDwAAQBAJ"
+- isbn: "0062413511"
+  dateFinished: "2018-04-19"
+  title: "Not That Bad"
+  authors:
+    - "Roxane Gay"
+  publishedDate: "2018-05-01"
+  description: 'New York Times Bestseller Edited and with an introduction by Roxane Gay, the New York Times bestselling and deeply beloved author of Bad Feminist and Hunger, this anthology of first-person essays tackles rape, assault, and harassment head-on. The Root, "28 Brilliant Books by Black Authors" * Paste, "The Best Nonfiction Books of 2018" * Vogue, “10 of the Most Anticipated Books of Spring 2018” * Harper’s Bazaar, “10 New Books to Add to Your Reading List in 2018” * Elle, “21 Books We’re Most Excited to Read in 2018” * Boston Globe, “25 books we can’t wait to read in 2018” * Huffington Post, “60 Books We Can’t Wait to Read in 2018” * Hello Giggles, “19 Books We Can’t Wait to Read in 2018” * Buzzfeed, “33 Most Exciting New Books of 2018” In this valuable and revealing anthology, cultural critic and bestselling author Roxane Gay collects original and previously published pieces that address what it means to live in a world where women have to measure the harassment, violence, and aggression they face, and where they are “routinely second-guessed, blown off, discredited, denigrated, besmirched, belittled, patronized, mocked, shamed, gaslit, insulted, bullied” for speaking out. Contributions include essays from established and up-and-coming writers, performers, and critics, including actors Ally Sheedy and Gabrielle Union and writers Amy Jo Burns, Lyz Lenz, and Claire Schwartz. Covering a wide range of topics and experiences, from an exploration of the rape epidemic embedded in the refugee crisis to first-person accounts of child molestation, this collection is often deeply personal and is always unflinchingly honest. Like Rebecca Solnit’s Men Explain Things to Me, Not That Bad will resonate with every reader, saying “something in totality that we cannot say alone.” Searing and heartbreakingly candid, this provocative collection both reflects the world we live in and offers a call to arms insisting that “not that bad” must no longer be good enough.'
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0062413511"
+    - type: "ISBN_13"
+      identifier: "9780062413512"
+  pageCount: 368
+  printType: "BOOK"
+  categories:
+    - "Social Science"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=OZYRtAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=OZYRtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Not_That_Bad.html?hl=&id=OZYRtAEACAAJ"
+- isbn: "0735221960"
+  dateFinished: "2018-07-12"
+  title: "Everything Here Is Beautiful"
+  authors:
+    - "Mira T. Lee"
+  publishedDate: "2018"
+  description: "Two sisters-Miranda, the older, responsible one, always her younger sister's protector; Lucia, the headstrong, unpredictable one, whose impulses are huge and, often, life changing. When their mother dies and Lucia starts hearing voices, it is Miranda who must find a way to reach her sister. But Lucia impetuously plows ahead, marrying a big-hearted, older man only to leave him, suddenly, to have a baby with a young Latino immigrant. She moves her new family from the States to Ecuador and back again, but the bitter constant is that she is, in fact, mentally ill. Lucia lives life on a grand scale, until, inevitably, she crashes to earth. Miranda leaves her own self-contained life in Switzerland to rescue her sister again-but only Lucia can decide whether she wants to be saved. The bonds of sisterly devotion stretch across oceans-but what does it take to break them? Told in alternating points of view, Everything Here Is Beautifulis, at its heart, the story of a young woman's quest to find fulfillment and a life unconstrained by her illness. But it's also an unforgettable, gut-wrenching story of the sacrifices we make to truly love someone-and when loyalty to one's self must prevail over all."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780735221963"
+    - type: "ISBN_10"
+      identifier: "0735221960"
+  pageCount: 368
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=hbNDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=hbNDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Everything_Here_Is_Beautiful.html?hl=&id=hbNDDwAAQBAJ"
+- isbn: "1616208686"
+  dateFinished: "2018-07-20"
+  title: "An American Marriage (Oprah's Book Club)"
+  authors:
+    - "Tayari Jones"
+  publishedDate: "2019-02-05"
+  description: "A NEW YORK TIMES AND WASHINGTON POST NOTABLE BOOK A 2018 BEST OF THE YEAR SELECTION OF NPR * TIME * BUSTLE * O, THE OPRAH MAGAZINE * THE DALLAS MORNING NEWS * AMAZON.COM OPRAH’S BOOK CLUB 2018 SELECTION LONGLISTED FOR THE 2018 NATIONAL BOOK AWARD FOR FICTION “A moving portrayal of the effects of a wrongful conviction on a young African-American couple.” —Barack Obama “Haunting . . . Beautifully written.” —The New York Times Book Review “Brilliant and heartbreaking . . . Unforgettable.” —USA Today “A tense and timely love story . . . Packed with brave questions about race and class.” —People “Compelling.” —The Washington Post “Epic . . . Transcendent . . . Triumphant.” —Elle Newlyweds Celestial and Roy are the embodiment of both the American Dream and the New South. He is a young executive, and she is an artist on the brink of an exciting career. But as they settle into the routine of their life together, they are ripped apart by circumstances neither could have imagined. Roy is arrested and sentenced to twelve years for a crime Celestial knows he didn’t commit. Though fiercely independent, Celestial finds herself bereft and unmoored, taking comfort in Andre, her childhood friend, and best man at their wedding. As Roy’s time in prison passes, she is unable to hold on to the love that has been her center. After five years, Roy’s conviction is suddenly overturned, and he returns to Atlanta ready to resume their life together. This stirring love story is a profoundly insightful look into the hearts and minds of three people who are at once bound and separated by forces beyond their control. An American Marriage is a masterpiece of storytelling, an intimate look deep into the souls of people who must reckon with the past while moving forward—with hope and pain—into the future."
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "1616208686"
+    - type: "ISBN_13"
+      identifier: "9781616208684"
+  pageCount: 336
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=eWGYtAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=eWGYtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/An_American_Marriage_Oprah_s_Book_Club.html?hl=&id=eWGYtAEACAAJ"
+- isbn: "9780062498557"
+  dateFinished: "2018-08-28"
+  title: "The Hate U Give"
+  authors:
+    - "Angie Thomas"
+  publishedDate: "2017-02-28"
+  description: '8 starred reviews ∙ Goodreads Choice Awards Best of the Best ∙ William C. Morris Award Winner ∙ National Book Award Longlist ∙ Printz Honor Book ∙ Coretta Scott King Honor Book ∙ #1 New York Times Bestseller! "Absolutely riveting!" —Jason Reynolds "Stunning." —John Green "This story is necessary. This story is important." —Kirkus (starred review) "Heartbreakingly topical." —Publishers Weekly (starred review) "A marvel of verisimilitude." —Booklist (starred review) "A powerful, in-your-face novel." —Horn Book (starred review) Sixteen-year-old Starr Carter moves between two worlds: the poor neighborhood where she lives and the fancy suburban prep school she attends. The uneasy balance between these worlds is shattered when Starr witnesses the fatal shooting of her childhood best friend Khalil at the hands of a police officer. Khalil was unarmed. Soon afterward, his death is a national headline. Some are calling him a thug, maybe even a drug dealer and a gangbanger. Protesters are taking to the streets in Khalil’s name. Some cops and the local drug lord try to intimidate Starr and her family. What everyone wants to know is: what really went down that night? And the only person alive who can answer that is Starr. But what Starr does—or does not—say could upend her community. It could also endanger her life. And don''t miss On the Come Up, Angie Thomas''s powerful follow-up to The Hate U Give.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780062498557"
+    - type: "ISBN_10"
+      identifier: "006249855X"
+  pageCount: 464
+  printType: "BOOK"
+  categories:
+    - "Young Adult Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=OTwYDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=OTwYDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=OTwYDQAAQBAJ"
+- isbn: "0399590501"
+  dateFinished: "2018-09-13"
+  title: "Educated"
+  authors:
+    - "Tara Westover"
+  publishedDate: "2018"
+  description: '"An unforgettable memoir about a young girl who, kept out of school, leaves her survivalist family and goes on to earn a PhD from Cambridge University"--Amazon.com.'
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0399590501"
+    - type: "ISBN_13"
+      identifier: "9780399590504"
+  pageCount: 352
+  printType: "BOOK"
+  categories:
+    - "BIOGRAPHY & AUTOBIOGRAPHY"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=0RGjtAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=0RGjtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Educated.html?hl=&id=0RGjtAEACAAJ"
+- isbn: "0316547611"
+  dateFinished: "2018-10-09"
+  title: "The Power"
+  authors:
+    - "Naomi Alderman"
+  publishedDate: "2017-10-10"
+  description: 'One of the New York Times''s Ten Best Books of 2017A Los Angeles Times Best Book of 2017One of the Washington Post''s Ten Best Books of 2017An NPR Best Book of 2017One of Entertainment Weekly''s Ten Best Books of 2017A Bustle Best Book of 2017A Paste Magazine Best Novel of 2017A San Francisco Chronicle Best Book of 2017Winner of the Baileys Women''s Prize for Fiction One of President Obama''s favorite reads of 2017 "The Power is our era''s The Handmaid''s Tale." --Ron Charles, Washington Post "Novels based on premises like the one at the core of The Power can quickly become little more than thought experiments, but Alderman dodges this trap deftly -- her writing is beautiful, and her intelligence seems almost limitless. She also has a pitch-dark sense of humor that she wields perfectly." --Michael Schaub, NPR A New York Times Book Review Editors'' Choice An Amazon Best Book of 2017 **WINNER OF THE 2017 BAILEYS WOMEN''S PRIZE FOR FICTION** What would happen if women suddenly possessed a fierce new power? In THE POWER, the world is a recognizable place: there''s a rich Nigerian boy who lounges around the family pool; a foster kid whose religious parents hide their true nature; an ambitious American politician; a tough London girl from a tricky family. But then a vital new force takes root and flourishes, causing their lives to converge with devastating effect. Teenage girls now have immense physical power--they can cause agonizing pain and even death. And, with this small twist of nature, the world drastically resets. From award-winning author Naomi Alderman, THE POWER is speculative fiction at its most ambitious and provocative, at once taking us on a thrilling journey to an alternate reality, and exposing our own world in bold and surprising ways.'
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0316547611"
+    - type: "ISBN_13"
+      identifier: "9780316547611"
+  pageCount: 400
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=l0tbMQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=l0tbMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/The_Power.html?hl=&id=l0tbMQAACAAJ"
+- isbn: "9780316556330"
+  dateFinished: "2019-04-23"
+  title: "Circe"
+  authors:
+    - "Madeline Miller"
+  publishedDate: "2018-04-10"
+  description: '"A bold and subversive retelling of the goddess''s story," this #1 New York Times bestseller is "both epic and intimate in its scope, recasting the most infamous female figure from the Odyssey as a hero in her own right" (Alexandra Alter, The New York Times). In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child -- not powerful, like her father, nor viciously alluring like her mother. Turning to the world of mortals for companionship, she discovers that she does possess power -- the power of witchcraft, which can transform rivals into monsters and menace the gods themselves. Threatened, Zeus banishes her to a deserted island, where she hones her occult craft, tames wild beasts and crosses paths with many of the most famous figures in all of mythology, including the Minotaur, Daedalus and his doomed son Icarus, the murderous Medea, and, of course, wily Odysseus. But there is danger, too, for a woman who stands alone, and Circe unwittingly draws the wrath of both men and gods, ultimately finding herself pitted against one of the most terrifying and vengeful of the Olympians. To protect what she loves most, Circe must summon all her strength and choose, once and for all, whether she belongs with the gods she is born from, or the mortals she has come to love. With unforgettably vivid characters, mesmerizing language, and page-turning suspense, Circe is a triumph of storytelling, an intoxicating epic of family rivalry, palace intrigue, love and loss, as well as a celebration of indomitable female strength in a man''s world. #1 New York Times Bestseller -- named one of the Best Books of the Year by NPR, the Washington Post, People, Time, Amazon, Entertainment Weekly, Bustle, Newsweek, the A.V. Club, Christian Science Monitor, Refinery 29, Buzzfeed, Paste, Audible, Kirkus, Publishers Weekly, Thrillist, NYPL, Self, Real Simple, Goodreads, Boston Globe, Electric Literature, BookPage, the Guardian, Book Riot, Seattle Times, and Business Insider.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780316556330"
+    - type: "ISBN_10"
+      identifier: "0316556335"
+  pageCount: 400
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=Vu8vDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=Vu8vDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=Vu8vDwAAQBAJ"
+- isbn: "0062699768"
+  dateFinished: "2019-05-15"
+  title: "A Woman Is No Man"
+  authors:
+    - "Etaf Rum"
+  publishedDate: "2019-03-05"
+  description: 'Three generations of Palestinian-American women living in Brooklyn are torn between individual desire and the strict mores of Arab culture in this powerful debut—a heart-wrenching story of love, intrigue, courage, and betrayal that will resonate with women from all backgrounds, giving voice to the silenced and agency to the oppressed. "Where I come from, we’ve learned to silence ourselves. We’ve been taught that silence will save us. Where I come from, we keep these stories to ourselves. To tell them to the outside world is unheard of—dangerous, the ultimate shame.” Palestine, 1990. Seventeen-year-old Isra prefers reading books to entertaining the suitors her father has chosen for her. Over the course of a week, the naïve and dreamy girl finds herself quickly betrothed and married, and is soon living in Brooklyn. There Isra struggles to adapt to the expectations of her oppressive mother-in-law Fareeda and strange new husband Adam, a pressure that intensifies as she begins to have children—four daughters instead of the sons Fareeda tells Isra she must bear. Brooklyn, 2008. Eighteen-year-old Deya, Isra’s oldest daughter, must meet with potential husbands at her grandmother Fareeda’s insistence, though her only desire is to go to college. Deya can’t help but wonder if her options would have been different had her parents survived the car crash that killed them when Deya was only eight. But her grandmother is firm on the matter: the only way to secure a worthy future for Deya is through marriage to the right man. But fate has a will of its own, and soon Deya will find herself on an unexpected path that leads her to shocking truths about her family—knowledge that will force her to question everything she thought she knew about her parents, the past, and her own future. Set in an America at once foreign to many and staggeringly close at hand, A Woman Is No Man is a story of culture and honor, secrets and betrayals, love and violence. It is an intimate glimpse into a controlling and closed cultural world, and a universal tale about family and the ways silence and shame can destroy those we have sworn to protect.'
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0062699768"
+    - type: "ISBN_13"
+      identifier: "9780062699763"
+  pageCount: 336
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=L044uAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=L044uAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/A_Woman_Is_No_Man.html?hl=&id=L044uAEACAAJ"
+- isbn: "1250178959"
+  dateFinished: "2019-10-01"
+  title: "Stay Sexy & Don't Get Murdered"
+  publishedDate: "May 28, 2019"
+  authors:
+    - "Karen Kilgariff"
+    - "Georgia Hardstark"
+  description: "The Definitive How-To Guide"
+  industryIdentifiers: []
+  pageCount: 304
+  printType: "BOOK"
+  categories: []
+  imageLinks:
+    smallThumbnail: "https://covers.openlibrary.org/b/id/9649738-S.jpg"
+    thumbnail: "https://covers.openlibrary.org/b/id/9649738-S.jpg"
+  language: "unknown"
+- isbn: "1982114096"
+  dateFinished: "2019-12-19"
+  title: "My Friend Anna"
+  authors:
+    - "Rachel DeLoache Williams"
+  publishedDate: "2019-07-23"
+  description: "Sex and the City meets Catch Me if You Can in the astonishing true story of Anna Delvey, a young con artist posing as a German heiress in New York City—as told by the former Vanity Fair photo editor who got seduced by her friendship and then scammed out of more than $62,000. Vanity Fair photo editor Rachel DeLoache Williams’s new friend Anna Delvey, a self-proclaimed German heiress, was worldly and ambitious. She was also generous—picking up the tab for lavish dinners at Le Coucou, infrared sauna sessions at HigherDOSE, drinks at the 11 Howard Library bar, and regular workout sessions with a celebrity personal trainer. When Anna proposed an all-expenses-paid trip to Marrakech at the five-star La Mamounia hotel, Rachel jumped at the chance. But when Anna’s credit cards mysteriously stopped working, the dream vacation quickly took a dark turn. Anna asked Rachel to begin fronting costs—first for flights, then meals and shopping, and, finally, for their $7,500-per-night private villa. Before Rachel knew it, more than $62,000 had been charged to her credit cards. Anna swore she would reimburse Rachel the moment they returned to New York. Back in Manhattan, the repayment never materialized, and a shocking pattern of deception emerged. Rachel learned that Anna had left a trail of deceit—and unpaid bills—wherever she’d been. Mortified, Rachel contacted the district attorney, and in a stunning turn of events, found herself helping to bring down one of the city’s most notorious con artists. With breathless pacing and in-depth reporting from the person who experienced it firsthand, My Friend Anna is an unforgettable true story of money, power, greed, and female friendship."
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "1982114096"
+    - type: "ISBN_13"
+      identifier: "9781982114091"
+  pageCount: 288
+  printType: "BOOK"
+  categories:
+    - "True Crime"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=syzOwQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=syzOwQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/My_Friend_Anna.html?hl=&id=syzOwQEACAAJ"
+- isbn: "9781250109156"
+  dateFinished: "2019-12-20"
+  title: "Goodbye, Vitamin"
+  authors:
+    - "Rachel Khong"
+  publishedDate: "2017-07-11"
+  description: 'Named a Best Book of the Year by NPR, O, The Oprah Magazine, Vogue, San Francisco Chronicle, Esquire, Huffington Post, Nylon, Entertainment Weekly, Buzzfeed, Booklist, and The Independent Winner of the California Book Award for First Fiction Los Angeles Times Book Prize Finalist for First Fiction "A quietly brilliant disquisition . . . told in prose that is so startling in its spare beauty that I found myself thinking about Khong''s turns of phrase for days after I finished reading."—Doree Shafrir, The New York Times Book Review "One of those rare books that is both devastating and light-hearted, heartful and joyful. . . . Don''t miss it."—Buzzfeed "Hello, Rachel Khong. Kudos for this delectable take on familial devotion and dementia."—NPR Her life at a crossroads, a young woman goes home again in this funny and inescapably moving debut from a wonderfully original new literary voice. Freshly disengaged from her fiancé and feeling that life has not turned out quite the way she planned, thirty-year-old Ruth quits her job, leaves town and arrives at her parents’ home to find that situation more complicated than she''d realized. Her father, a prominent history professor, is losing his memory and is only erratically lucid. Ruth’s mother, meanwhile, is lucidly erratic. But as Ruth''s father’s condition intensifies, the comedy in her situation takes hold, gently transforming her all her grief. Told in captivating glimpses and drawn from a deep well of insight, humor, and unexpected tenderness, Goodbye, Vitamin pilots through the loss, love, and absurdity of finding one’s footing in this life.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9781250109156"
+    - type: "ISBN_10"
+      identifier: "1250109159"
+  pageCount: 208
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=A8lyDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=A8lyDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=A8lyDQAAQBAJ"
+- isbn: "1250301696"
+  dateFinished: "2019-12-27"
+  title: "The Silent Patient"
+  authors:
+    - "Alex Michaelides"
+  publishedDate: "2019-02-05"
+  description: 'The instant #1 New York Times bestseller "An unforgettable—and Hollywood-bound—new thriller... A mix of Hitchcockian suspense, Agatha Christie plotting, and Greek tragedy." —Entertainment Weekly The Silent Patient is a shocking psychological thriller of a woman’s act of violence against her husband—and of the therapist obsessed with uncovering her motive. Alicia Berenson’s life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London’s most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word. Alicia’s refusal to talk, or give any kind of explanation, turns a domestic tragedy into something far grander, a mystery that captures the public imagination and casts Alicia into notoriety. The price of her art skyrockets, and she, the silent patient, is hidden away from the tabloids and spotlight at the Grove, a secure forensic unit in North London. Theo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him....'
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "1250301696"
+    - type: "ISBN_13"
+      identifier: "9781250301697"
+  pageCount: 336
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=eJjltgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=eJjltgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/The_Silent_Patient.html?hl=&id=eJjltgEACAAJ"
+- isbn: "9781501179426"
+  dateFinished: "2020-01-06"
+  title: "Charlotte Walsh Likes To Win"
+  authors:
+    - "Jo Piazza"
+  publishedDate: "2018-07-24"
+  description: "Cosmopolitan: “Most Anticipated Books for 2018” Elle: “Best Books to Read This Summer” Goop: “15 Books We’re Reading This Summer” People: “Best Summer Books” PopSugar: “25 Best New Books to Put in Your Beach Bag This Summer” Refinery29: “Brilliant Books to Bring to the Beach This Summer” Vulture: “18 Books We Can't Wait to Read This Summer” “The essential political novel for the 2018 midterms.” —Salon “This political novel is comically accurate.” —New York Post From Jo Piazza, the bestselling author of The Knock Off, How to Be Married, and Fitness Junkie, comes an exciting, insightful novel about what happens when a woman wants it all—political power, a happy marriage, and happiness—but isn’t sure just how much she’s willing to sacrifice to get it. Charlotte Walsh is running for Senate in the most important race in the country during a midterm election that will decide the balance of power in Congress. Still reeling from a presidential election that shocked and divided the country and inspired by the chance to make a difference, she’s left behind her high-powered job in Silicon Valley and returned, with her husband Max and their three young daughters, to her downtrodden Pennsylvania hometown to run in the Rust Belt state. Once the campaign gets underway, Charlotte is blindsided by just how dirty her opponent is willing to fight, how harshly she is judged by the press and her peers, and how exhausting it becomes to navigate a marriage with an increasingly ambivalent and often resentful husband. When the opposition uncovers a secret that could threaten not just her campaign but everything Charlotte holds dear, she has to decide just how badly she wants to win and at what cost. A searing, suspenseful story of political ambition, marriage, class, sexual politics, and infidelity, Charlotte Walsh Likes to Win is an insightful portrait of what it takes for a woman to run for national office in America today. In a dramatic political moment like no other with more women running for office than ever before, Jo Piazza’s novel is timely, engrossing, and perfect for readers on both sides of the aisle."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9781501179426"
+    - type: "ISBN_10"
+      identifier: "150117942X"
+  pageCount: 320
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=QGFEDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=QGFEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=QGFEDwAAQBAJ"
+- isbn: "0802125395"
+  dateFinished: "2020-01-13"
+  title: "Difficult Women"
+  authors:
+    - "Roxane Gay"
+  publishedDate: "2017-01-03"
+  description: "A collection of stories of ... hardscrabble lives, passionate loves, and quirky and vexed human connection…"
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0802125395"
+    - type: "ISBN_13"
+      identifier: "9780802125392"
+  pageCount: 272
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=TDp1jwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=TDp1jwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Difficult_Women.html?hl=&id=TDp1jwEACAAJ"
+- isbn: "1608464660"
+  dateFinished: "2020-01-20"
+  title: "Men Explain Things to Me"
+  authors:
+    - "Rebecca Solnit"
+  publishedDate: "2015"
+  description: "A landmark essay that went viral, inspired the word ?mansplaining,” and prompted fierce arguments."
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "1608464660"
+    - type: "ISBN_13"
+      identifier: "9781608464661"
+  pageCount: 159
+  printType: "BOOK"
+  categories:
+    - "Social Science"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=scbDoQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=scbDoQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Men_Explain_Things_to_Me.html?hl=&id=scbDoQEACAAJ"
+- isbn: "0525510567"
+  dateFinished: "2020-02-09"
+  title: "Trick Mirror"
+  authors:
+    - "Jia Tolentino"
+  publishedDate: "2020-07-14"
+  description: 'NEW YORK TIMES BESTSELLER * "From The New Yorker''s beloved cultural critic comes a bold, unflinching collection of essays about self-deception, examining everything from scammer culture to reality television."--Esquire "A whip-smart, challenging book."--Zadie Smith * "Jia Tolentino could be the Joan Didion of our time."--Vulture FINALIST FOR THE NATIONAL BOOK CRITICS CIRCLE''S JOHN LEONARD PRIZE FOR BEST FIRST BOOK * NAMED ONE OF THE TEN BEST BOOKS OF THE YEAR BY THE NEW YORK PUBLIC LIBRARY AND HARVARD CRIMSON AND ONE OF THE BEST BOOKS OF THE YEAR BY The New York Times Book Review * Time * Chicago Tribune * The Washington Post * NPR * Variety * Esquire * Vox * Elle * Glamour * GQ * Good Housekeeping * The Paris Review * Paste * Town & Country * BookPage * Kirkus Reviews * BookRiot * Shelf Awareness Jia Tolentino is a peerless voice of her generation, tackling the conflicts, contradictions, and sea changes that define us and our time. Now, in this dazzling collection of nine entirely original essays, written with a rare combination of give and sharpness, wit and fearlessness, she delves into the forces that warp our vision, demonstrating an unparalleled stylistic potency and critical dexterity. Trick Mirror is an enlightening, unforgettable trip through the river of self-delusion that surges just beneath the surface of our lives. This is a book about the incentives that shape us, and about how hard it is to see ourselves clearly through a culture that revolves around the self. In each essay, Tolentino writes about a cultural prism: the rise of the nightmare social internet; the advent of scamming as the definitive millennial ethos; the literary heroine''s journey from brave to blank to bitter; the punitive dream of optimization, which insists that everything, including our bodies, should become more efficient and beautiful until we die. Gleaming with Tolentino''s sense of humor and capacity to elucidate the impossibly complex in an instant, and marked by her desire to treat the reader with profound honesty, Trick Mirror is an instant classic of the worst decade yet. FINALIST FOR THE PEN/DIAMONSTEIN-SPIELVOGEL AWARD FOR THE ART OF THE ESSAY'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780525510567"
+    - type: "ISBN_10"
+      identifier: "0525510567"
+  pageCount: 320
+  printType: "BOOK"
+  categories:
+    - "Literary Collections"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=G_PsDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=G_PsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Trick_Mirror.html?hl=&id=G_PsDwAAQBAJ"
+- isbn: "0525537236"
+  dateFinished: "2020-02-09"
+  title: "This Naked Mind"
+  authors:
+    - "Annie Grace"
+  publishedDate: "2018-01-02"
+  description: 'This Naked Mind has ignited a movement across the country, helping thousands of people forever change their relationship with alcohol. Many people question whether drinking has become too big a part of their lives, and worry that it may even be affecting their health. But, they resist change because they fear losing the pleasure and stress-relief associated with alcohol, and assume giving it up will involve deprivation and misery. This Naked Mind offers a new, positive solution. Here, Annie Grace clearly presents the psychological and neurological components of alcohol use based on the latest science, and reveals the cultural, social, and industry factors that support alcohol dependence in all of us. Packed with surprising insight into the reasons we drink, this book will open your eyes to the startling role of alcohol in our culture, and how the stigma of alcoholism and recovery keeps people from getting the help they need. With Annie''s own extraordinary and candid personal story at its heart, this book is a must-read for anyone who drinks. This Naked Mind will give you freedom from alcohol. It removes the psychological dependence so that you will not crave alcohol, allowing you to easily drink less (or stop drinking). With clarity, humor, and a unique blend of science and storytelling, This Naked Mind will open the door to the life you have been waiting for. "You have given me my live back." --Katy F., Albuquerque, New Mexico "This is an inspiring and groundbreaking must-read. I am forever inspired and changed." --Kate S., Los Angeles, California "The most selfless and amazing book that I have ever read." --Bernie M., Dublin, Ireland'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780525537236"
+    - type: "ISBN_10"
+      identifier: "0525537236"
+  pageCount: 272
+  printType: "BOOK"
+  categories:
+    - "Self-Help"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=dZRBDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=dZRBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/This_Naked_Mind.html?hl=&id=dZRBDwAAQBAJ"
+- isbn: "0345806875"
+  dateFinished: "2020-02-15"
+  title: "Dept. of Speculation"
+  authors:
+    - "Jenny Offill"
+  publishedDate: "2014"
+  description: 'An unflinching portrait of marriage features a heroine simply referred to as "the Wife," who transitions from an idealistic woman who once exchanged love letters with her husband and who confronts an array of universal difficulties.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780345806871"
+    - type: "ISBN_10"
+      identifier: "0345806875"
+  pageCount: 179
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=U4uODQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=U4uODQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Dept_of_Speculation.html?hl=&id=U4uODQAAQBAJ"
+- isbn: "1982111909"
+  dateFinished: "2020-04-05"
+  title: "Big Friendship"
+  authors:
+    - "Aminatou Sow"
+    - "Ann Friedman"
+  publishedDate: "2020-07-14"
+  description: "A close friendship is one of the most influential and important relationships a human life can contain. Anyone will tell you that! But for all the rosy sentiments surrounding friendship, most people don’t talk much about what it really takes to stay close for the long haul. Now two friends, Aminatou Sow and Ann Friedman, tell the story of their equally messy and life-affirming Big Friendship in this honest and hilarious book that chronicles their first decade in one another’s lives. As the hosts of the hit podcast Call Your Girlfriend, they’ve become known for frank and intimate conversations. In this book, they bring that energy to their own friendship—its joys and its pitfalls. Aminatou and Ann define Big Friendship as a strong, significant bond that transcends life phases, geographical locations, and emotional shifts. And they should know: the two have had moments of charmed bliss and deep frustration, of profound connection and gut-wrenching alienation. They have weathered life-threatening health scares, getting fired from their dream jobs, and one unfortunate Thanksgiving dinner eaten in a car in a parking lot in Rancho Cucamonga. Through interviews with friends and experts, they have come to understand that their struggles are not unique. And that the most important part of a Big Friendship is making the decision to invest in one another again and again. An inspiring and entertaining testament to the power of society’s most underappreciated relationship, Big Friendship will invite you to think about how your own bonds are formed, challenged, and preserved. It is a call to value your friendships in all of their complexity. Actively choose them. And, sometimes, fight for them."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9781982111908"
+    - type: "ISBN_10"
+      identifier: "1982111909"
+  pageCount: 256
+  printType: "BOOK"
+  categories:
+    - "Family & Relationships"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=iPLwDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=iPLwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Big_Friendship.html?hl=&id=iPLwDwAAQBAJ"
+- isbn: "1984822187"
+  dateFinished: "2020-04-28"
+  title: "Normal People"
+  authors:
+    - "Sally Rooney"
+  publishedDate: "2020-02-18"
+  description: 'NEW YORK TIMES BESTSELLER - LONGLISTED FOR THE MAN BOOKER PRIZE - COMING TO HULU IN 2020 - SALLY ROONEY NAMED TO THE 2019 TIME 100 NEXT LIST "A stunning novel about the transformative power of relationships" (People) from the author of Conversations with Friends, "a master of the literary page-turner" (J. Courtney Sullivan). NAMED ONE OF ENTERTAINMENT WEEKLY''S TEN BEST NOVELS OF THE DECADE - NAMED ONE OF THE TEN BEST BOOKS OF THE YEAR BY Entertainment Weekly - People - The New York Public Library - Slate - Harvard Crimson AND ONE OF THE BEST BOOKS OF THE YEAR BY Dwight Garner, The New York Times - The New York TImes Book Review - O: The Oprah Magazine - Time - NPR - The Washington Post - Vogue - Esquire - Glamour - Elle - Marie Claire - Vox - The Paris Review - Good Housekeeping - Town & Country - Kirkus Reviews - BookPage - BookRiot "Absolutely engrossing and surprisingly heartbreaking with more depth, subtlety, and insight than any one novel deserves."--Stephanie Danler Connell and Marianne grew up in the same small town, but the similarities end there. At school, Connell is popular and well liked, while Marianne is a loner. But when the two strike up a conversation--awkward but electrifying--something life changing begins. A year later, they''re both studying at Trinity College in Dublin. Marianne has found her feet in a new social world while Connell hangs at the sidelines, shy and uncertain. Throughout their years at university, Marianne and Connell circle one another, straying toward other people and possibilities but always magnetically, irresistibly drawn back together. And as she veers into self-destruction and he begins to search for meaning elsewhere, each must confront how far they are willing to go to save the other. Normal People is the story of mutual fascination, friendship and love. It takes us from that first conversation to the years beyond, in the company of two people who try to stay apart but find that they can''t. Praise for Normal People "[A] novel that demands to be read compulsively, in one sitting."--The Washington Post "Arguably the buzziest novel of the season, Sally Rooney''s elegant sophomore effort . . . is a worthy successor to Conversations with Friends. Here, again, she unflinchingly explores class dynamics and young love with wit and nuance."--The Wall Street Journal "[Rooney] has been hailed as the first great millennial novelist for her stories of love and late capitalism. . . . [She writes] some of the best dialogue I''ve read."--The New Yorker'
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "1984822187"
+    - type: "ISBN_13"
+      identifier: "9781984822185"
+  pageCount: 304
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=Rd2uyQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=Rd2uyQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Normal_People.html?hl=&id=Rd2uyQEACAAJ"
+- isbn: "9781538713280"
+  dateFinished: "2020-06-02"
+  title: "I Might Regret This"
+  authors:
+    - "Abbi Jacobson"
+  publishedDate: "2018-10-30"
+  description: 'From the co-creator and co-star of the hit series Broad City, a "poignant, funny, and beautifully unabashed" (Cheryl Strayed) New York Times bestselling essay collection about love, loss, work, comedy, and figuring out who you really are when you thought you already knew. When Abbi Jacobson announced to friends and acquaintances that she planned to drive across the country alone, she was met with lots of questions and opinions: Why wasn''t she going with friends? Wouldn''t it be incredibly lonely? The North route is better! Was it safe for a woman? The Southern route is the way to go! You should bring mace! And a common one... why? But Abbi had always found comfort in solitude, and needed space to step back and hit the reset button. As she spent time in each city and town on her way to Los Angeles, she mulled over the big questions -- What do I really want? What is the worst possible scenario in which I could run into my ex? How has the decision to wear my shirts tucked in been pivotal in my adulthood? In this collection of anecdotes, observations and reflections--all told in the sharp, wildly funny, and relatable voice that has endeared Abbi to critics and fans alike--readers will feel like they''re in the passenger seat on a fun and, ultimately, inspiring journey. With some original illustrations by the author.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9781538713280"
+    - type: "ISBN_10"
+      identifier: "1538713284"
+  pageCount: 320
+  printType: "BOOK"
+  categories:
+    - "Humor"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=OmtSDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=OmtSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/I_Might_Regret_This.html?hl=&id=OmtSDwAAQBAJ"
+- isbn: "0525536299"
+  dateFinished: "2020-07-13"
+  title: "The Vanishing Half"
+  authors:
+    - "Brit Bennett"
+  publishedDate: "2020"
+  description: '#1 NEW YORK TIMES BESTSELLER A GOOD MORNING AMERICA Book Club Pick! "Bennett''s tone and style recalls James Baldwin and Jacqueline Woodson, but it''s especially reminiscent of Toni Morrison''s 1970 debut novel, The Bluest Eye." --Kiley Reid, Wall Street Journal "A story of absolute, universal timelessness ...For any era, it''s an accomplished, affecting novel. For this moment, it''s piercing, subtly wending its way toward questions about who we are and who we want to be...." - Entertainment Weekly From The New York Times-bestselling author of The Mothers, a stunning new novel about twin sisters, inseparable as children, who ultimately choose to live in two very different worlds, one black and one white. The Vignes twin sisters will always be identical. But after growing up together in a small, southern black community and running away at age sixteen, it''s not just the shape of their daily lives that is different as adults, it''s everything: their families, their communities, their racial identities. Many years later, one sister lives with her black daughter in the same southern town she once tried to escape. The other secretly passes for white, and her white husband knows nothing of her past. Still, even separated by so many miles and just as many lies, the fates of the twins remain intertwined. What will happen to the next generation, when their own daughters'' storylines intersect? Weaving together multiple strands and generations of this family, from the Deep South to California, from the 1950s to the 1990s, Brit Bennett produces a story that is at once a riveting, emotional family story and a brilliant exploration of the American history of passing. Looking well beyond issues of race, The Vanishing Half considers the lasting influence of the past as it shapes a person''s decisions, desires, and expectations, and explores some of the multiple reasons and realms in which people sometimes feel pulled to live as something other than their origins. As with her New York Times-bestselling debut The Mothers, Brit Bennett offers an engrossing page-turner about family and relationships that is immersive and provocative, compassionate and wise.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780525536291"
+    - type: "ISBN_10"
+      identifier: "0525536299"
+  pageCount: 352
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=-vnoDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=-vnoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/The_Vanishing_Half.html?hl=&id=-vnoDwAAQBAJ"
+- isbn: "9780062916310"
+  dateFinished: "2020-08-12"
+  title: "I'll Be Gone in the Dark"
+  authors:
+    - "Michelle McNamara"
+  publishedDate: "2019-02-26"
+  description: 'THE BASIS FOR THE MAJOR 6-PART HBO® DOCUMENTARY SERIES #1 NEW YORK TIMES BESTSELLER A BEST BOOK OF THE YEAR: Washington Post | Maureen Corrigan, NPR | Paste | Seattle Times | Entertainment Weekly | Esquire | Slate | Buzzfeed | Jezebel | Philadelphia Inquirer | Publishers Weekly | Kirkus Reviews | Library Journal | Bustle Winner of the Goodreads Choice Awards for Nonfiction | Anthony Award Winner | SCIBA Book Award Winner | Finalist for the Edgar Award for Best Fact Crime | Longlisted for the Carnegie Medal for Excellence The haunting true story of the elusive serial rapist turned murderer who terrorized California during the 70s and 80s, and of the gifted journalist who died tragically while investigating the case—which was solved in April 2018. The haunting true story of the elusive serial rapist turned murderer who terrorized California during the 70s and 80s, and of the gifted journalist who died tragically while investigating the case—which was solved in April 2018. Introduction by Gillian Flynn • Afterword by Patton Oswalt “A brilliant genre-buster.... Propulsive, can’t-stop-now reading.” —Stephen King For more than ten years, a mysterious and violent predator committed fifty sexual assaults in Northern California before moving south, where he perpetrated ten sadistic murders. Then he disappeared, eluding capture by multiple police forces and some of the best detectives in the area. Three decades later, Michelle McNamara, a true crime journalist who created the popular website TrueCrimeDiary.com, was determined to find the violent psychopath she called "the Golden State Killer." Michelle pored over police reports, interviewed victims, and embedded herself in the online communities that were as obsessed with the case as she was. I’ll Be Gone in the Dark—the masterpiece McNamara was writing at the time of her sudden death—offers an atmospheric snapshot of a moment in American history and a chilling account of a criminal mastermind and the wreckage he left behind. It is also a portrait of a woman’s obsession and her unflagging pursuit of the truth. Utterly original and compelling, it has been hailed as a modern true crime classic—one which fulfilled Michelle''s dream: helping unmask the Golden State Killer.'
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9780062916310"
+    - type: "ISBN_10"
+      identifier: "0062916319"
+  pageCount: 368
+  printType: "BOOK"
+  categories:
+    - "True Crime"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=R7NuDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=R7NuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://play.google.com/store/books/details?id=R7NuDwAAQBAJ"
+- isbn: "0374194327"
+  dateFinished: "2020-08-20"
+  title: "Luster"
+  authors:
+    - "Raven Leilani"
+  publishedDate: "2020-08-04"
+  description: "Sharp, comic, disruptive, tender, Raven Leilani's debut novel, Luster, sees a young black woman fall into art and someone else's open marriage Edie is stumbling her way through her twenties—sharing a subpar apartment in Bushwick, clocking in and out of her admin job, making a series of inappropriate sexual choices. She's also, secretly, haltingly figuring her way into life as an artist. And then she meets Eric, a digital archivist with a family in New Jersey, including an autopsist wife who has agreed to an open marriage—with rules. As if navigating the constantly shifting landscapes of contemporary sexual manners and racial politics weren't hard enough, Edie finds herself unemployed and falling into Eric's family life, his home. She becomes hesitant friend to his wife and a de facto role model to his adopted daughter. Edie is the only black woman young Akila may know. Razor sharp, darkly comic, sexually charged, socially disruptive, Luster is a portrait of a young woman trying to make her sense of her life in a tumultuous era. It is also a haunting, aching description of how hard it is to believe in your own talent and the unexpected influences that bring us into ourselves along the way."
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0374194327"
+    - type: "ISBN_13"
+      identifier: "9780374194321"
+  pageCount: 240
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=DuC4yQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=DuC4yQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Luster.html?hl=&id=DuC4yQEACAAJ"
+- isbn: "0525658181"
+  dateFinished: "2020-09-10"
+  title: "Transcendent Kingdom"
+  authors:
+    - "Yaa Gyasi"
+  publishedDate: "2020"
+  description: "A novel about faith, science, religion, and family that tells the deeply moving portrait of a family of Ghanaian immigrants ravaged by depression and addiction and grief, narrated by a fifth year candidate in neuroscience at Stanford school of medicine studying the neural circuits of reward seeking behavior in mice…"
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "0525658181"
+    - type: "ISBN_13"
+      identifier: "9780525658184"
+  pageCount: 288
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=ty19yQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=ty19yQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Transcendent_Kingdom.html?hl=&id=ty19yQEACAAJ"
+- isbn: "1439172560"
+  dateFinished: "2015-05-25"
+  title: "The First Bad Man"
+  authors:
+    - "Miranda July"
+  publishedDate: "2015-01-13"
+  description: "A haunted woman's reclusively ordered world is thrown into chaos by a houseguest who bullies her into reality and brings love into her life. A first novel by the best-selling author of No One Belongs Here More Than You. 125,000 first printing."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9781439172568"
+    - type: "ISBN_10"
+      identifier: "1439172560"
+  pageCount: 288
+  printType: "BOOK"
+  categories:
+    - "Fiction"
+  imageLinks:
+    smallThumbnail: "http://books.google.com/books/content?id=IqgVBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    thumbnail: "http://books.google.com/books/content?id=IqgVBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/The_First_Bad_Man.html?hl=&id=IqgVBgAAQBAJ"
