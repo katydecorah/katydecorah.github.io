@@ -307,7 +307,9 @@
   categories:
     - "Web sites"
   language: "en"
-  canonicalVolumeLink: "https://books.google.com/books/about/Expressive_Design_Systems.html?hl=&id=Pao7zQEACAAJ"
+  imageLinks:
+    thumbnail: "https://yo.katydecorah.com/expressive-design-systems.png"
+  canonicalVolumeLink: "https://abookapart.com/products/expressive-design-systems"
 - isbn: "9781937557959"
   dateFinished: "2020-10-10"
   title: "Practical Pair Programming"
@@ -321,3 +323,6 @@
   pageCount: 59
   printType: "EBOOK"
   language: "en"
+  canonicalVolumeLink: "https://abookapart.com/products/practical-pair-programming"
+  imageLinks:
+    thumbnail: "https://yo.katydecorah.com/practical-pair-programming.png"
