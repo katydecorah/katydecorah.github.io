@@ -29,6 +29,10 @@ pre {
 
 code {
   padding: 0 0.25em;
+
+  a & {
+    color: inherit;
+  }
 }
 
 // Adapted from https://gist.github.com/edwardhotchkiss/2005058

@@ -33,6 +33,10 @@
   }
 }
 
+.btn--large {
+  font-size: $body-font-size;
+}
+
 .btn-disabled {
   color: var(--text-accent);
   &:hover {
