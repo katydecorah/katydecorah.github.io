@@ -290,3 +290,34 @@
     thumbnail: "http://books.google.com/books/content?id=_xFezQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   language: "en"
   canonicalVolumeLink: "https://books.google.com/books/about/Saratoga_Soul_Brandtville_Blues.html?hl=&id=_xFezQEACAAJ"
+- isbn: "9781937557843"
+  dateFinished: "2020-10-09"
+  title: "Expressive Design Systems"
+  authors:
+    - "Yesenia Perez Cruz"
+  publishedDate: "2019"
+  description: "Good design systems can help you create digital products with efficiency and consistency. But great design systems will support and strengthen your team's creativity at the same time. In Expressive Design Systems, Yesenia Perez-Cruz shows you how to build useful, dependable systems that not only maintain harmony across your products, but also flex to accommodate inspiration and experimentation. Learn to communicate your brand, collaborate across teams-and do so much more than standardize components."
+  industryIdentifiers:
+    - type: "ISBN_10"
+      identifier: "1937557847"
+    - type: "ISBN_13"
+      identifier: "9781937557843"
+  pageCount: 126
+  printType: "BOOK"
+  categories:
+    - "Web sites"
+  language: "en"
+  canonicalVolumeLink: "https://books.google.com/books/about/Expressive_Design_Systems.html?hl=&id=Pao7zQEACAAJ"
+- isbn: "9781937557959"
+  dateFinished: "2020-10-10"
+  title: "Practical Pair Programming"
+  authors:
+    - "Jason Garber"
+  publishedDate: "2020"
+  description: "Two heads are better than one, especially when it comes to large, mission-critical software projects. Whether you’re just starting out as a developer or curious about pair programming, Jason Garber’s hands-on guide takes the mystery out of effective pairing. You’ll learn what good pair programming looks like, how to be a better pairing partner, and how to explain the benefits of pair programming to skeptics at your organization. Walk into your next pairing session confident and prepared for the adventure ahead."
+  industryIdentifiers:
+    - type: "ISBN_13"
+      identifier: "9781937557959"
+  pageCount: 59
+  printType: "EBOOK"
+  language: "en"
