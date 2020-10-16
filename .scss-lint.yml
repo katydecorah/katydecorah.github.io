@@ -1,9 +1,0 @@
-scss_files: "_sass/*.scss"
-
-exclude: "assets/style.scss"
-
-linters:
-  UrlFormat:
-    enabled: false
-  VendorPrefix:
-    enabled: false
