@@ -1,8 +1,0 @@
----
-layout: home
-hideTitle: true
-hideHeader: true
----
-
-{% assign category = page.title | downcase %} {% for post in
-site.categories[category] %} {% include post-list.html post=post %} {% endfor %}

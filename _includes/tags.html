@@ -1,1 +1,0 @@
-{% if page.tags.size > 0 %}<div class="post-tags">{% for tag in page.tags %}<a href="/tags/#{{ tag | downcase | replace:' ','_'}}" class="post-tag">{% include icons/tag.svg %} {{ tag }}</a>{% endfor %}</div>{% endif %}
