@@ -348,3 +348,24 @@
       thumbnail: "http://books.google.com/books/content?id=gIQkDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://play.google.com/store/books/details?id=gIQkDwAAQBAJ"
+  - isbn: "9781612197494"
+    dateFinished: "2020-11-14"
+    title: "How to Do Nothing"
+    authors:
+      - "Jenny Odell"
+    publishedDate: "2019"
+    description: "When the technologies we use every day collapse our experiences into 24/7 availability, platforms for personal branding, and products to be monetized, nothing can be quite so radical as...doing nothing. Here, Jenny Odell sends up a flare from the heart of Silicon Valley, delivering an action plan to resist capitalist narratives of productivity and techno-determinism, and to become more meaningfully connected in the process…"
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9781612197494"
+      - type: "ISBN_10"
+        identifier: "1612197493"
+    pageCount: 256
+    printType: "BOOK"
+    categories:
+      - "ART"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=286MDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=286MDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/How_to_Do_Nothing.html?hl=&id=286MDwAAQBAJ"
