@@ -6,18 +6,16 @@ image: 2020-11-28-gbbo-cake.jpg
 I baked along with Great British Bake Off series 11.
 
 <div class="photos">
-{% include img.html class="img-half" src="2020-11-28-gbbo-cake.jpg" alt="" %}
-{% include img.html class="img-half" src="2020-11-28-gbbo-biscuits.jpg" alt="" %}
-{% include img.html class="img-half" src="2020-11-28-gbbo-bread.jpg" alt="" %}
-{% include img.html class="img-half" src="2020-11-28-gbbo-chocolate.jpg" alt="" %}
-
-{% include img.html  class="img-half" src="2020-11-28-gbbo-pastry.jpg" alt="" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-japanese.jpg" alt="" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-trifle.jpg" alt="" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-desserts.jpg" alt="" %}
-
-{% include img.html  class="img-half" src="2020-11-28-gbbo-patisserie.jpg" alt="" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-creme.jpg" alt="" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-cake.jpg" alt="Raspberry-Mochi Butter Cake With Matcha Glaze" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-biscuits.jpg" alt="Viennese Whirls" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-bread.jpg" alt="Pumpkin Maple Cornbread" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-chocolate.jpg" alt="[Chocolate Peanut Butter Cups" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-pastry.jpg" alt="Chocolate éclairs" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-japanese.jpg" alt="Purin (Custard Pudding)" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-trifle.jpg" alt="Olde English Trifle" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-desserts.jpg" alt="Lemon Meringue Bars With Poppy Seed Crust" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-patisserie.jpg" alt="Foolproof Tarte Tatin" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-creme.jpg" alt="Vanilla Crème Brûlée" %}
 </div>
 
 
