@@ -1,5 +1,5 @@
 ---
-title: 2020 Bake along
+title: Bake along
 image: 2020-11-28-gbbo-cake.jpg
 ---
 
@@ -17,7 +17,6 @@ I baked along with Great British Bake Off series 11.
 {% include img.html  class="img-half" src="2020-11-28-gbbo-patisserie.jpg" alt="Foolproof Tarte Tatin" %}
 {% include img.html  class="img-half" src="2020-11-28-gbbo-creme.jpg" alt="Vanilla Crème Brûlée" %}
 </div>
-
 
 1. Cake. [Raspberry-Mochi Butter Cake With Matcha Glaze](https://cooking.nytimes.com/recipes/1020337-raspberry-mochi-butter-cake-with-matcha-glaze) recipe from Margarita Manzke and Betty Hallock, adapted by Alexa Weibel.
 2. Biscuits. [Viennese Whirls](https://www.pbs.org/food/recipes/mary-berrys-viennese-whirls/) by Mary Berry.
