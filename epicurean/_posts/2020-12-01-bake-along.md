@@ -1,24 +1,22 @@
 ---
 title: 2020 Bake along
-image: 2020-12-01-gbbo-cake.jpg
-css: |
-  .photos + p { margin-top: -1.5em; }
+image: 2020-11-28-gbbo-cake.jpg
 ---
 
 I baked along with Great British Bake Off series 11.
 
 <div class="photos">
-{% include img.html class="img-half" src="2020-12-01-gbbo-cake.jpg" alt="" %}
-{% include img.html class="img-half" src="2020-12-01-gbbo-biscuits.jpg" alt="" %}
-{% include img.html class="img-half" src="2020-12-01-gbbo-bread.jpg" alt="" %}
-{% include img.html class="img-half" src="2020-12-01-gbbo-chocolate.jpg" alt="" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-cake.jpg" alt="" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-biscuits.jpg" alt="" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-bread.jpg" alt="" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-chocolate.jpg" alt="" %}
 
-{% include img.html  class="img-half" src="2020-12-01-gbbo-pastry.jpg" alt="" %}
-{% include img.html  class="img-half" src="2020-12-01-gbbo-japanese.jpg" alt="" %}
-{% include img.html  class="img-half" src="2020-12-01-gbbo-trifle.jpg" alt="" %}
-{% include img.html  class="img-half" src="2020-12-01-gbbo-desserts.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-pastry.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-japanese.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-trifle.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-desserts.jpg" alt="" %}
 
-{% include img.html  class="img-half" src="2020-12-01-gbbo-patisserie.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-patisserie.jpg" alt="" %}
 {% include img.html  class="img-half" src="2020-11-28-gbbo-creme.jpg" alt="" %}
 </div>
 
