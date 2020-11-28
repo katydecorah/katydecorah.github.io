@@ -3,7 +3,7 @@ title: Bake along
 image: 2020-11-28-gbbo-cake.jpg
 ---
 
-I baked along with Great British Bake Off series 11.
+I baked along with series 11 of the Great British Bake Off.
 
 <div class="photos">
 {% include img.html class="img-half" src="2020-11-28-gbbo-cake.jpg" alt="Raspberry-Mochi Butter Cake With Matcha Glaze" %}
