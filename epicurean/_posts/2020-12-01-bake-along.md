@@ -8,18 +8,18 @@ css: |
 I baked along with Great British Bake Off series 11.
 
 <div class="photos">
-{% include img.html class="img-fourths" src="2020-12-01-gbbo-cake.jpg" alt="" %}
-{% include img.html class="img-fourths" src="2020-12-01-gbbo-biscuits.jpg" alt="" %}
-{% include img.html class="img-fourths" src="2020-12-01-gbbo-bread.jpg" alt="" %}
-{% include img.html class="img-fourths" src="2020-12-01-gbbo-chocolate.jpg" alt="" %}
+{% include img.html class="img-half" src="2020-12-01-gbbo-cake.jpg" alt="" %}
+{% include img.html class="img-half" src="2020-12-01-gbbo-biscuits.jpg" alt="" %}
+{% include img.html class="img-half" src="2020-12-01-gbbo-bread.jpg" alt="" %}
+{% include img.html class="img-half" src="2020-12-01-gbbo-chocolate.jpg" alt="" %}
 
-{% include img.html  class="img-fourths" src="2020-12-01-gbbo-pastry.jpg" alt="" %}
-{% include img.html  class="img-fourths" src="2020-12-01-gbbo-japanese.jpg" alt="" %}
-{% include img.html  class="img-fourths" src="2020-12-01-gbbo-trifle.jpg" alt="" %}
-{% include img.html  class="img-fourths" src="2020-12-01-gbbo-desserts.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-12-01-gbbo-pastry.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-12-01-gbbo-japanese.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-12-01-gbbo-trifle.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-12-01-gbbo-desserts.jpg" alt="" %}
 
 {% include img.html  class="img-half" src="2020-12-01-gbbo-patisserie.jpg" alt="" %}
-{% include img.html  class="img-half" src="2020-12-01-gbbo-patisserie.jpg" alt="" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-creme.jpg" alt="" %}
 </div>
 
 
@@ -32,4 +32,4 @@ I baked along with Great British Bake Off series 11.
 7. The '80s. Olde English Trifle from Silver Palate Cookbook by Sheila Lukins.
 8. Desserts. [Lemon Meringue Bars With Poppy Seed Crust](https://cooking.nytimes.com/recipes/1019277-lemon-meringue-bars-with-poppy-seed-crust) By Yossy Arefi.
 9. Pâtisserie. [Foolproof Tarte Tatin](https://cooking.nytimes.com/recipes/1016883-foolproof-tarte-tatin) recipe from Ron Paprocki, adapted by Julia Moskin.
-10. Final.
+10. Final. [Vanilla Crème Brûlée](https://cooking.nytimes.com/recipes/9039-vanilla-creme-brulee) By Mark Bittman.
