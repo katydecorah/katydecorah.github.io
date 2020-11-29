@@ -390,3 +390,24 @@
       thumbnail: "http://books.google.com/books/content?id=5fqTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://play.google.com/store/books/details?id=5fqTDwAAQBAJ"
+  - isbn: "9780316529228"
+    dateFinished: "2020-11-29"
+    title: "The Mercies"
+    authors:
+      - "Kirin Millwood Hargrave"
+    publishedDate: "2020-02-11"
+    description: "After the men in an Arctic Norwegian town are wiped out, the women must survive a sinister threat in this \"perfectly told\" 1600s parable of \"a world gone mad\" (Adriana Trigiani). Finnmark, Norway, 1617. Twenty-year-old Maren Magnusdatter stands on the craggy coast, watching the sea break into a sudden and reckless storm. Forty fishermen, including her brother and father, are drowned and left broken on the rocks below. With the menfolk wiped out, the women of the tiny Arctic town of Vardø must fend for themselves. Three years later, a stranger arrives on their shore. Absalom Cornet comes from Scotland, where he burned witches in the northern isles. He brings with him his young Norwegian wife, Ursa, who is both heady with her husband's authority and terrified by it. In Vardø, and in Maren, Ursa sees something she has never seen before: independent women. But Absalom sees only a place untouched by God, and flooded with a mighty evil. As Maren and Ursa are drawn to one another in ways that surprise them both, the island begins to close in on them, with Absalom's iron rule threatening Vardø's very existence. Inspired by the real events of the Vardø storm and the 1621 witch trials, The Mercies is a story of love, evil, and obsession, set at the edge of civilization.One of the Best Books of the Year USA TodayGood Housekeeping"
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9780316529228"
+      - type: "ISBN_10"
+        identifier: "0316529222"
+    pageCount: 352
+    printType: "BOOK"
+    categories:
+      - "Fiction"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=B0abDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=B0abDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://play.google.com/store/books/details?id=B0abDwAAQBAJ"
