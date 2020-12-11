@@ -7,13 +7,12 @@ image: trail.jpg
 
 <p>My favorite hiking trails in Upstate New York and beyond.</p>
 
-
 <div class="">
 <div id="list" class="adventures show">
   {% for post in site.posts %}{% if post.recommended %}
   <a href="{{post.url}}" class="adventure">
     {% include img.html src=post.image alt=post.title %}
-    <img class="adventure-map" src="https://api.tiles.mapbox.com/v4/{{ site.mapid }}/{% if coord_size >= 2 %}geojson%28%7B%22type%22%3A%22Feature%22%2C%22properties%22%3A%7B%22stroke-opacity%22%3A0%7D%2C%22geometry%22%3A%7B%22type%22%3A%22MultiLineString%22%2C%22coordinates%22%3A%5B%5B{% for coordinate in post.coordinates %}%5B{{coordinate | replace: ' ','' | replace: ',','%2C'}}%5D{% if forloop.last %}{% else %}%2C{% endif %}{% endfor %}%5D%0A%5D%0A%7D%0A%7D%29/auto{% else %}{% for coordinate in post.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if post.zoom %}{{ post.zoom }}{% else %}15{% endif %}{% endif %}/250x250@2x.png?access_token={{ site.mapbox-token }}" alt="map of {{post.title}}" />
+    <img class="adventure-map" src="https://api.mapbox.com/styles/v1/{{ site.mapid }}/static/{% if coord_size >= 2 %}geojson%28%7B%22type%22%3A%22Feature%22%2C%22properties%22%3A%7B%22stroke-opacity%22%3A0%7D%2C%22geometry%22%3A%7B%22type%22%3A%22MultiLineString%22%2C%22coordinates%22%3A%5B%5B{% for coordinate in post.coordinates %}%5B{{coordinate | replace: ' ','' | replace: ',','%2C'}}%5D{% if forloop.last %}{% else %}%2C{% endif %}{% endfor %}%5D%0A%5D%0A%7D%0A%7D%29/auto{% else %}{% for coordinate in post.coordinates limit:1 %}{{ coordinate }}{% endfor %},{% if post.zoom %}{{ post.zoom }}{% else %}15{% endif %}{% endif %}/250x250@2x?access_token={{ site.mapbox-token }}" alt="map of {{post.title}}" />
     <div class="adventure-group">
       <h2 class="h4">{{post.title}}</h2>
       <div class="adventure-location adventure-meta">{% include icons/map-pin.svg %} {{post.locations | first }}</div>

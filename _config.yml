@@ -94,8 +94,8 @@ links:
     position: bottom
 
 mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2l0YzVhY2l6MGE0eDJ6czZ2NDRpZGtubyJ9.njBRjO2lRXdT0Mut9Vryqg
-mapid: katydecorah.21d6ba77
-mapid-winter: katydecorah.70f1a6d1
+mapid: katydecorah/cikt0ttfx006q9flxv0h1qwob
+mapid-winter: katydecorah/cikt10uvy007393kp2uriu22l
 
 defaults:
   - scope:

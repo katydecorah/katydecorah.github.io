@@ -1,6 +1,5 @@
 ---
 title: Seasonal posts
-
 tags:
   - Jekyll
 image: 2015-01-29-seasonal-posts-0.png
@@ -9,9 +8,9 @@ image: 2015-01-29-seasonal-posts-0.png
 After flipping through past posts, I realized that my lush green static map didn't match wintery posts. For example, [Christmas day hike](/adventures/christmas-hike/). It's winter, nothing is green. Everything is white and then gray and then cold and then sometimes sad. So I needed a map style to match winter (minus the sad).
 
 <div class="photos">
-<img src="https://api.tiles.mapbox.com/v4/{{site.mapid}}/-73.7440735,42.5726903,15/600x400.png?access_token={{site.mapbox-token}}" class="img-half" alt="untitled">
+<img src="https://api.mapbox.com/styles/v1/{{site.mapid}}/static/-73.7440735,42.5726903,15/600x400?access_token={{site.mapbox-token}}" class="img-half" alt="Summer and spring map style">
 
-<img src="https://api.tiles.mapbox.com/v4/{{site.mapid-winter}}/-73.7440735,42.5726903,15/600x400.png?access_token={{site.mapbox-token}}" class="img-half" alt="untitled">
+<img src="https://api.mapbox.com/styles/v1/{{site.mapid-winter}}/static/-73.7440735,42.5726903,15/600x400?access_token={{site.mapbox-token}}" class="img-half" alt="Winter map style">
 </div>
 
 Default style on the left, winter style on the right. ([Read more about my Jekyll-generated Mapbox static maps.](/code/static-mapbox-for-jekyll/))
