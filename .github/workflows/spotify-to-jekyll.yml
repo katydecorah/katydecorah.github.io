@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Create post
-        uses: katydecorah/spotify-to-jekyll-action@v4.0
+        uses: katydecorah/spotify-to-jekyll-action@v4.1
         env:
           SpotifyClientID: ${{ secrets.SpotifyClientID }}
           SpotifyClientSecret: ${{ secrets.SpotifyClientSecret}}
