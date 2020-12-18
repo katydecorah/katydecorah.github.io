@@ -411,3 +411,25 @@
       thumbnail: "http://books.google.com/books/content?id=B0abDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://play.google.com/store/books/details?id=B0abDwAAQBAJ"
+  - isbn: "9780399181139"
+    dateFinished: "2020-12-17"
+    title: "Black Futures"
+    authors:
+      - "Kimberly Drew"
+      - "Jenna Wortham"
+    publishedDate: "2020"
+    description: "What does it mean to be black and alive right now? Black Futures is a collection of work--art, photos, essays, memes, dialogues, recipes, tweets, poetry, and more--that tells the story of the radical, imaginative, bold, and beautiful world that black artists, high and low, are producing today. The book presents a succession of brilliant and provocative pieces--from both emerging and renowned creators of all kinds--that generates an entrancing rhythm: Readers will go from conversations with hackers and street artists to memes and Instagram posts, from powerful prose to dazzling paintings and insightful infographics. A generational document that captures this fast-moving generation in its own dynamic and expansive language. While shaped in the tradition of other generational statements, from The New Negro to Black Fire to Toni Morrison's landmark The Black Book, Black Futures does not have a retrospective air. It showcases the present, but points to the future. We live at a time when black culture--whether it's created by Ava DuVernay or Donald Glover, Kendrick Lamar or Cardi B, meme-makers or YouTubers--is opening our imaginations and offering new paths forward, a multi-voiced, utopian alternative to a world of walls and white nationalism. Black Futures captures this expansive vision and energy and makes it available to any reader, of any color, who wants to explore this exciting cultural moment and see the next one coming."
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9780399181139"
+      - type: "ISBN_10"
+        identifier: "039918113X"
+    pageCount: 256
+    printType: "BOOK"
+    categories:
+      - "ART"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=MAIHEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=MAIHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/Black_Futures.html?hl=&id=MAIHEAAAQBAJ"
