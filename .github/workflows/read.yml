@@ -1,3 +1,5 @@
+name: Read a book
+
 on:
   issues:
     types: opened
