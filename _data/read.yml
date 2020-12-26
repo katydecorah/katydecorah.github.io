@@ -433,3 +433,24 @@
       thumbnail: "http://books.google.com/books/content?id=MAIHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/Black_Futures.html?hl=&id=MAIHEAAAQBAJ"
+  - isbn: "9780143039976"
+    dateFinished: "2020-12-26"
+    title: "We Have Always Lived in the Castle"
+    authors:
+      - "Shirley Jackson"
+    publishedDate: "2006"
+    description: "The inhabitants of the Rochester house wield a strange power over their neighbors."
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9780143039976"
+      - type: "ISBN_10"
+        identifier: "0143039970"
+    pageCount: 146
+    printType: "BOOK"
+    categories:
+      - "Fiction"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=J7YpDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=J7YpDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/We_Have_Always_Lived_in_the_Castle.html?hl=&id=J7YpDwAAQBAJ"
