@@ -454,9 +454,23 @@
       thumbnail: "http://books.google.com/books/content?id=J7YpDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/We_Have_Always_Lived_in_the_Castle.html?hl=&id=J7YpDwAAQBAJ"
+  - isbn: "9798585083976"
+    dateFinished: "2021-01-03"
+    title: "The Malleability of Blackness"
+    authors:
+      - "Bersabel Tadesse"
+    publishedDate: "2020"
+    description: "As someone who immigrated to the U.S. from Ethiopia at a young age, Bersabel's writing often explores themes of cultural identity, community, and loss. In her first published work, these themes are woven together with equally expansive examinations of self-worth and love in order to piece together a short journey through self-discovery."
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9798585083976"
+    pageCount: 31
+    printType: "BOOK"
+    language: "en"
+    canonicalVolumeLink: "https://www.amazon.com/Malleability-Blackness-Bersabel-Tadesse/dp/B08R689SJJ" 
   - isbn: "9781937557867"
     dateFinished: "2021-01-05"
-    title: "Cross-Cultural Design: People and Culture; 2 Principles of Cross-Cultural Design; 3 Cross-Cultural Practitioners; 4 Cross-Cultural Research; 5 Culturally Responsive Experiences; 6 Internationalization and Localization"
+    title: "Cross-Cultural Design"
     authors:
       - "Senongo Akpem"
     publishedDate: "2020"
