@@ -467,7 +467,7 @@
     pageCount: 31
     printType: "BOOK"
     language: "en"
-    canonicalVolumeLink: "https://www.amazon.com/Malleability-Blackness-Bersabel-Tadesse/dp/B08R689SJJ" 
+    canonicalVolumeLink: "https://www.amazon.com/Malleability-Blackness-Bersabel-Tadesse/dp/B08R689SJJ"
   - isbn: "9781937557867"
     dateFinished: "2021-01-05"
     title: "Cross-Cultural Design"
@@ -484,3 +484,21 @@
     printType: "BOOK"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/Cross_Cultural_Design_People_and_Culture.html?hl=&id=maelzQEACAAJ"
+  - isbn: "9781937557973"
+    dateFinished: "2021-01-18"
+    title: "Design for Cognitive Bias"
+    authors:
+      - "David Dylan Thomas"
+    publishedDate: "2020"
+    description: "We humans are messy, illogical creatures who like to imagine we're in control--but we blithely let our biases lead us astray. In Design for Cognitive Bias, David Dylan Thomas lays bare the irrational forces that shape our everyday decisions and, inevitably, inform the experiences we craft. Once we grasp the logic powering these forces, we stand a fighting chance of confronting them, tempering them, and even harnessing them for good. Come along on a whirlwind tour of the cognitive biases that encroach on our lives and our work, and learn to start designing more consciously."
+    industryIdentifiers:
+      - type: "ISBN_10"
+        identifier: "1937557979"
+      - type: "ISBN_13"
+        identifier: "9781937557973"
+    pageCount: 106
+    printType: "BOOK"
+    categories:
+      - "Decision making"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/Design_for_Cognitive_Bias.html?hl=&id=Uq0DzgEACAAJ"
