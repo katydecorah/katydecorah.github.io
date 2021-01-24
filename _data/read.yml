@@ -502,3 +502,22 @@
       - "Decision making"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/Design_for_Cognitive_Bias.html?hl=&id=Uq0DzgEACAAJ"
+  - isbn: "9780316422048"
+    dateFinished: "2021-01-23"
+    title: "The Once and Future Witches"
+    authors:
+      - "Alix E. Harrow"
+    publishedDate: "2020"
+    description: "In the late 1800s, three sisters use witchcraft to change the course of history in Alix E. Harrow's powerful novel of magic and the suffragette movement. In 1893, there's no such thing as witches. There used to be, in the wild, dark days before the burnings began, but now witching is nothing but tidy charms and nursery rhymes. If the modern woman wants any measure of power, she must find it at the ballot box. But when the Eastwood sisters -- James Juniper, Agnes Amaranth, and Beatrice Belladonna -- join the suffragists of New Salem, they begin to pursue the forgotten words and ways that might turn the women's movement into the witch's movement. Stalked by shadows and sickness, hunted by forces who will not suffer a witch to vote -- and perhaps not even to live -- the sisters will need to delve into the oldest magics, draw new alliances, and heal the bond between them if they want to survive. There's no such thing as witches. But there will be…"
+    industryIdentifiers:
+      - type: "ISBN_10"
+        identifier: "0316422045"
+      - type: "ISBN_13"
+        identifier: "9780316422048"
+    pageCount: 384
+    printType: "BOOK"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=7AhYzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=7AhYzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/The_Once_and_Future_Witches.html?hl=&id=7AhYzQEACAAJ"
