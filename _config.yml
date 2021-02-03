@@ -84,10 +84,6 @@ links:
     url: https://instagram.com/katydecorah
     icon: instagram
     position: bottom
-  - text: Email
-    url: mailto:&#107;&#097;&#116;&#121;&#100;&#101;&#099;&#111;&#114;&#097;&#104;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
-    icon: mail
-    position: bottom
   - text: RSS
     url: /feed.xml
     icon: rss
