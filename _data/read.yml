@@ -521,3 +521,22 @@
       thumbnail: "http://books.google.com/books/content?id=7AhYzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/The_Once_and_Future_Witches.html?hl=&id=7AhYzQEACAAJ"
+  - isbn: "9780525506348"
+    dateFinished: "2021-02-03"
+    title: "Eleanor Oliphant Is Completely Fine"
+    authors:
+      - "Gail Honeyman"
+    publishedDate: "2019-08-06"
+    description: "#1 NEW YORK TIMES BESTSELLER A Reese Witherspoon Book Club Pick \"Beautifully written and incredibly funny, Eleanor Oliphant Is Completely Fine is about the importance of friendship and human connection. I fell in love with Eleanor, an eccentric and regimented loner whose life beautifully unfolds after a chance encounter with a stranger; I think you will fall in love, too!\" --Reese Witherspoon No one's ever told Eleanor that life should be better than fine. Meet Eleanor Oliphant: She struggles with appropriate social skills and tends to say exactly what she's thinking. Nothing is missing in her carefully timetabled life of avoiding social interactions, where weekends are punctuated by frozen pizza, vodka, and phone chats with Mummy. But everything changes when Eleanor meets Raymond, the bumbling and deeply unhygienic IT guy from her office. When she and Raymond together save Sammy, an elderly gentleman who has fallen on the sidewalk, the three become the kinds of friends who rescue one another from the lives of isolation they have each been living. And it is Raymond's big heart that will ultimately help Eleanor find the way to repair her own profoundly damaged one. Soon to be a major motion picture produced by Reese Witherspoon, Eleanor Oliphant Is Completely Fine is the smart, warm, and uplifting story of an out-of-the-ordinary heroine whose deadpan weirdness and unconscious wit make for an irresistible journey as she realizes. . . The only way to survive is to open your heart."
+    industryIdentifiers:
+      - type: "ISBN_10"
+        identifier: "0525506349"
+      - type: "ISBN_13"
+        identifier: "9780525506348"
+    pageCount: 416
+    printType: "BOOK"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=R-wexgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=R-wexgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/Eleanor_Oliphant_Is_Completely_Fine.html?hl=&id=R-wexgEACAAJ"
