@@ -24,11 +24,11 @@
     "remark-cli": "^8.0.1",
     "remark-frontmatter": "^2.0.0",
     "remark-frontmatter-validator": "^0.4.0",
+    "remark-lint-haiku": "^0.2.0",
     "remark-lint-heading-increment": "^2.0.1",
     "tap-min": "^2.0.0",
     "tape": "^5.0.1"
   },
-  "dependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged && lint-staged"
