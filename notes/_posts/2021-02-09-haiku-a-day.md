@@ -37,7 +37,7 @@ And another tab
 
 ```haiku
 A mountain of clothes
-I ask does it bring me joy
+I ask, "does it bring me joy"
 An empty closet
 ```
 
@@ -55,7 +55,7 @@ I cut a rhombus
 
 ```haiku
 Whip to peaks just so
-Fold until ribbons beware
+Fold until ribbons; Beware
 Wrinkly, flat, chewy
 ```
 
@@ -66,7 +66,7 @@ I want good fabric
 ```
 
 ```haiku
-Oatmeal with French toast
+Oatmeal with french toast
 Sipping a piping hot chai
 Body so warm, flushed
 ```
