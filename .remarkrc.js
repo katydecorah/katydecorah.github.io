@@ -3,7 +3,7 @@ module.exports.plugins = [
   ["@mapbox/remark-lint-link-text", [2]],
   ["remark-lint-heading-increment", [2]],
   ["remark-frontmatter", ["yaml"]],
-  ["remark-lint-haiku"],
+  "remark-lint-haiku",
   [
     "remark-frontmatter-validator",
     [
