@@ -540,3 +540,24 @@
       thumbnail: "http://books.google.com/books/content?id=R-wexgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/Eleanor_Oliphant_Is_Completely_Fine.html?hl=&id=R-wexgEACAAJ"
+  - isbn: "9780593133378"
+    dateFinished: "2021-02-15"
+    title: "Detransition, Baby"
+    authors:
+      - "Torrey Peters"
+    publishedDate: "2021-01-12"
+    description: "A trans woman, her detransitioned ex, and his cisgender lover build an unconventional family together in the wake of heartbreak and an unplanned pregnancy."
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9780593133378"
+      - type: "ISBN_10"
+        identifier: "0593133374"
+    pageCount: 352
+    printType: "BOOK"
+    categories:
+      - "Fiction"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=pO8OEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=pO8OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/Detransition_Baby.html?hl=&id=pO8OEAAAQBAJ"
