@@ -561,3 +561,24 @@
       thumbnail: "http://books.google.com/books/content?id=pO8OEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/Detransition_Baby.html?hl=&id=pO8OEAAAQBAJ"
+  - isbn: "9781250239365"
+    dateFinished: "2021-02-18"
+    title: "The Lottery and Other Stories"
+    authors:
+      - "Shirley Jackson"
+    publishedDate: "2019-09-24"
+    description: "One of the most terrifying stories of the twentieth century, Shirley Jackson’s “The Lottery” created a sensation when it was first published in The New Yorker in 1948. \"Power and haunting,\" and \"nights of unrest\" were typical reader responses. Today it is considered a classic work of short fiction, a story remarkable for its combination of subtle suspense and pitch-perfect descriptions of both the chilling and the mundane. The Lottery and Other Stories, the only one to appear during Shirley Jackson's lifetime, unites \"The Lottery\" with twenty-four equally unusual short stories. Together they demonstrate Jackson's remarkable range -- from the hilarious to the horrible, the unsettling to the ominous -- and her power as a storyteller."
+    industryIdentifiers:
+      - type: "ISBN_10"
+        identifier: "1250239362"
+      - type: "ISBN_13"
+        identifier: "9781250239365"
+    pageCount: 464
+    printType: "BOOK"
+    categories:
+      - "Fiction"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=nCCxvgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=nCCxvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/The_Lottery_and_Other_Stories.html?hl=&id=nCCxvgEACAAJ"
