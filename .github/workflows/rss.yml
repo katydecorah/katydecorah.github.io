@@ -1,5 +1,7 @@
 name: RSS
-on: push
+on:
+  schedule:
+    - cron: "0 17 * * *"
 
 jobs:
   generate_rss:
