@@ -1,0 +1,28 @@
+name: RSS
+on: push
+
+jobs:
+  generate_rss:
+    runs-on: macOS-latest
+    name: Generate RSS
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: RSS
+        uses: katydecorah/instagram-rss-action@v0.1.0
+        with:
+          yourInstagram: katydecorah
+          listOfInstagrams: nextdoorkitchenandbar,flatbread.social,walt_cafe,frontstreetsocialclub,seneca_saratoga,sweetmimiscafe,tatutacony
+          fileName: rss-food.json
+          feedTitle: Insta brunch
+      - name: Commit files
+        run: >
+          git config --local user.email "action@github.com"
+
+          git config --local user.name "GitHub Action"
+
+          git add -A && git commit -m "🧇"
+
+          git push
+          "https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git"
+          HEAD:${GITHUB_REF}
