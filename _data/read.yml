@@ -582,3 +582,24 @@
       thumbnail: "http://books.google.com/books/content?id=nCCxvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/The_Lottery_and_Other_Stories.html?hl=&id=nCCxvgEACAAJ"
+  - isbn: "9781984879363"
+    dateFinished: "2021-02-28"
+    title: "Death in Her Hands"
+    authors:
+      - "Ottessa Moshfegh"
+    publishedDate: "2020-06-23"
+    description: "Named One of the Best Books of the Summer by: New York Magazine, Time Magazine, Town & Country, Marie Claire, Refinery 29, PopSugar, the Today Show, and more From one of our most ceaselessly provocative literary talents, a novel of haunting metaphysical suspense about an elderly widow whose life is upturned when she finds an ominous note on a walk in the woods. While on her daily walk with her dog in a secluded woods, a woman comes across a note, handwritten and carefully pinned to the ground by stones. \"Her name was Magda. Nobody will ever know who killed her. It wasn't me. Here is her dead body.\" But there is no dead body. Our narrator is deeply shaken; she has no idea what to make of this. She is new to this area, alone after the death of her husband, and she knows no one. Becoming obsessed with solving this mystery, our narrator imagines who Magda was and how she met her fate. With very little to go on, she invents a list of murder suspects and possible motives for the crime. Oddly, her suppositions begin to find correspondences in the real world, and with mounting excitement and dread, the fog of mystery starts to fade into menacing certainty. As her investigation widens, strange dissonances accrue, perhaps associated with the darkness in her own past; we must face the prospect that there is either an innocent explanation for all this or a much more sinister one. A triumphant blend of horror, suspense, and pitch-black comedy, Death in Her Hands asks us to consider how the stories we tell ourselves both reflect the truth and keep us blind to it. Once again, we are in the hands of a narrator whose unreliability is well earned, and the stakes have never been higher."
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9781984879363"
+      - type: "ISBN_10"
+        identifier: "1984879367"
+    pageCount: 272
+    printType: "BOOK"
+    categories:
+      - "Fiction"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=kiikDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=kiikDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/Death_in_Her_Hands.html?hl=&id=kiikDwAAQBAJ"
