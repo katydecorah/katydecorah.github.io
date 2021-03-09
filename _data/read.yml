@@ -603,3 +603,24 @@
       thumbnail: "http://books.google.com/books/content?id=kiikDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/Death_in_Her_Hands.html?hl=&id=kiikDwAAQBAJ"
+  - isbn: "9780062997562"
+    dateFinished: "2021-03-08"
+    title: "The Removed"
+    authors:
+      - "Brandon Hobson"
+    publishedDate: "2021-02-02"
+    description: "“Brandon Hobson has given us a haunted work, full of voices old and new. It is about a family’s reckoning with loss and injustice, and it is about a people trying for the same. The journey of this family’s way home is full—in equal measure—of melancholy and love. The Removed is spirited, droll, and as quietly devastating as rain lifting from earth to sky.” —Tommy Orange, author of There There A RECOMMENDED BOOK FROM USA Today * O, the Oprah Magazine * AARP * Alma * Biblio Lifestyle * Publishers Weekly Steeped in Cherokee myths and history, a novel about a fractured family reckoning with the tragic death of their son long ago—from National Book Award finalist Brandon Hobson In the fifteen years since their teenage son, Ray-Ray, was killed in a police shooting, the Echota family has been suspended in private grief. The mother, Maria, increasingly struggles to manage the onset of Alzheimer’s in her husband, Ernest. Their adult daughter, Sonja, leads a life of solitude, punctuated only by spells of dizzying romantic obsession. And their son, Edgar, fled home long ago, turning to drugs to mute his feelings of alienation. With the family’s annual bonfire approaching—an occasion marking both the Cherokee National Holiday and Ray-Ray’s death, and a rare moment in which they openly talk about his memory—Maria attempts to call the family together from their physical and emotional distances once more. But as the bonfire draws near, each of them feels a strange blurring of the boundary between normal life and the spirit world. Maria and Ernest take in a foster child who seems to almost miraculously keep Ernest’s mental fog at bay. Sonja becomes dangerously fixated on a man named Vin, despite—or perhaps because of—his ties to tragedy in her lifetime and lifetimes before. And in the wake of a suicide attempt, Edgar finds himself in the mysterious Darkening Land: a place between the living and the dead, where old atrocities echo. Drawing deeply on Cherokee folklore, The Removed seamlessly blends the real and spiritual to excavate the deep reverberations of trauma—a meditation on family, grief, home, and the power of stories on both a personal and ancestral level."
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9780062997562"
+      - type: "ISBN_10"
+        identifier: "0062997564"
+    pageCount: 288
+    printType: "BOOK"
+    categories:
+      - "Fiction"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=9UzlDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=9UzlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://play.google.com/store/books/details?id=9UzlDwAAQBAJ"
