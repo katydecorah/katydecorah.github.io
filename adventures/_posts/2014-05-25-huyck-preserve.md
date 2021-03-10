@@ -16,17 +16,17 @@ We took a ride out to Rensselaerville and explored the Huyck Preserve again. We 
 
 <div class="photos">
 
-{% include img.html src="2014-05-25-huyck-preserve-1.jpg" class="img-half" alt="Huyck Preserve" width="2448" height="3264" %}
+{% include img.html src="2014-05-25-huyck-preserve-1.jpg" class="img-half" alt="Huyck Preserve" %}
 
-{% include img.html src="2014-05-25-huyck-preserve-2.jpg" class="img-half" alt="Huyck Preserve" width="2448" height="3264" %}
+{% include img.html src="2014-05-25-huyck-preserve-2.jpg" class="img-half" alt="Huyck Preserve" %}
 
-{% include img.html src="2014-05-25-huyck-preserve-3.jpg" alt="Huyck Preserve" width="3264" height="2448" %}
+{% include img.html src="2014-05-25-huyck-preserve-3.jpg" alt="Huyck Preserve" %}
 
-{% include img.html src="2014-05-25-huyck-preserve-4.jpg" class="img-half" alt="Huyck Preserve" width="3264" height="2448" %}
+{% include img.html src="2014-05-25-huyck-preserve-4.jpg" class="img-half" alt="Huyck Preserve" %}
 
-{% include img.html src="2014-05-25-huyck-preserve-5.jpg" class="img-half" alt="Huyck Preserve" width="3264" height="2448" %}
+{% include img.html src="2014-05-25-huyck-preserve-5.jpg" class="img-half" alt="Huyck Preserve" %}
 
-{% include img.html src="2014-05-25-huyck-preserve-6.jpg" class="pop-out" alt="Huyck Preserve" width="3264" height="2448" %}
+{% include img.html src="2014-05-25-huyck-preserve-6.jpg" class="pop-out" alt="Huyck Preserve" %}
 
 </div>
 
@@ -34,6 +34,6 @@ On the way home, we picked up a jalope&ntilde;o and a cubanelle pepper plant for
 
 <div class="photos">
 
-{% include img.html src="2014-05-25-huyck-preserve-7.jpg" alt="Huyck Preserve" width="2448" height="3264" %}
+{% include img.html src="2014-05-25-huyck-preserve-7.jpg" alt="Huyck Preserve" %}
 
 </div>

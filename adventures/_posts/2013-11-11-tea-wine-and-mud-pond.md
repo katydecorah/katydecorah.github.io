@@ -19,7 +19,7 @@ After lunch, we walked around town and stopped in Wheats & Sweets for a giant co
 
 <div class="photos">
 
-{% include img.html src="2013-11-11-tea-wine-and-mud-pond-1.jpg" class="img-center" alt="giant cookie" width="2448" height="3264" %}
+{% include img.html src="2013-11-11-tea-wine-and-mud-pond-1.jpg" class="img-center" alt="giant cookie" %}
 
 </div>
 
@@ -31,7 +31,7 @@ The vineyard is also home to thoroughbred horses.
 
 <div class="photos">
 
-{% include img.html src="2013-11-11-tea-wine-and-mud-pond-0.jpg" alt="Oliva Vineyards" class="img-center" width="2448" height="3264" %}
+{% include img.html src="2013-11-11-tea-wine-and-mud-pond-0.jpg" alt="Oliva Vineyards" class="img-center" %}
 
 </div>
 
@@ -39,7 +39,7 @@ Mom got this great shot of me just as I was giggling, "My hand went in his mouth
 
 <div class="photos">
 
-{% include img.html src="2013-11-11-tea-wine-and-mud-pond-2.jpg" alt="Oliva Vineyards" class="pop-out" width="3264" height="2176" %}
+{% include img.html src="2013-11-11-tea-wine-and-mud-pond-2.jpg" alt="Oliva Vineyards" class="pop-out" %}
 
 </div>
 
@@ -51,6 +51,6 @@ The view of the pond wasn't clear, but the trail was decent. The trailhead was w
 
 <div class="photos">
 
-{% include img.html src="2013-11-11-tea-wine-and-mud-pond-3.jpg" class="pop-out" alt="Mud Pond Preserve" width="3264" height="2448" %}
+{% include img.html src="2013-11-11-tea-wine-and-mud-pond-3.jpg" class="pop-out" alt="Mud Pond Preserve" %}
 
 </div>

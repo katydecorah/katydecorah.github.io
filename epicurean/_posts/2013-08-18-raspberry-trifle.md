@@ -6,5 +6,5 @@ recipe-title: Grand Raspberry Trifle
 ---
 
 <div class="photos">
-{% include img.html src="2013-08-18-raspberry-trifle-1.jpg" alt="Raspberry Trifle" width="2448" height="3264" %}
+{% include img.html src="2013-08-18-raspberry-trifle-1.jpg" alt="Raspberry Trifle" %}
 </div>

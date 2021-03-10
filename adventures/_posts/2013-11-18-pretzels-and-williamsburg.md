@@ -18,7 +18,7 @@ And oh my, they tasted _amazing_ fresh out of the oven.
 
 <div class="photos">
 
-{% include img.html src="2013-11-18-pretzels-and-williamsburg-1.jpg" class="pop-out" alt="Homemade Pretzels" width="3264" height="2448" %}
+{% include img.html src="2013-11-18-pretzels-and-williamsburg-1.jpg" class="pop-out" alt="Homemade Pretzels" %}
 
 </div>
 
@@ -30,7 +30,7 @@ We got a place for the night on Airbnb in Williamsburg.
 
 <div class="photos">
 
-{% include img.html src="2013-11-18-pretzels-and-williamsburg-2.jpg"  alt="Williamsburg" width="3264" height="2448" %}
+{% include img.html src="2013-11-18-pretzels-and-williamsburg-2.jpg"  alt="Williamsburg" %}
 
 </div>
 
@@ -42,7 +42,7 @@ Next we slowly meandered back to the apartment and rested before we headed to th
 
 <div class="photos">
 
-{% include img.html src="2013-11-18-pretzels-and-williamsburg-3.jpg" alt="Williamsburg" width="3264" height="2448" %}
+{% include img.html src="2013-11-18-pretzels-and-williamsburg-3.jpg" alt="Williamsburg" %}
 
 </div>
 
@@ -50,7 +50,7 @@ We had a few minutes to kill before the show started, so we explored a bit more.
 
 <div class="photos">
 
-{% include img.html src="2013-11-18-pretzels-and-williamsburg-0.jpg" alt="Williamsburg" width="3264" height="2448" %}
+{% include img.html src="2013-11-18-pretzels-and-williamsburg-0.jpg" alt="Williamsburg" %}
 
 </div>
 

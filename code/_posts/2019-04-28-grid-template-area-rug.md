@@ -28,7 +28,7 @@ I decided to see how far I could push the boundaries of `grid-areas`. Taking too
 My ink was the formula `= "r" & ROW() & "c" & COLUMN()` which assigned a unique value to each cell. I also used a conditional formatting rule to turn any cell that began with `r` to black. To denote whitespace, I entered a period `.` which came in handy later.
 
 <div class="photos">
-{% include img.html src="2019-04-29-grid-template-area-rug.png" alt="Google spreadsheet pattern" width="2114" height="1444" %}
+{% include img.html src="2019-04-29-grid-template-area-rug.png" alt="Google spreadsheet pattern" %}
 </div>
 
 You can take a look at the [tile spreadsheet](https://docs.google.com/spreadsheets/d/1NsGr-rOQhd-XCAauMp6gq_YofqHrwaizk9f8z6AO4k8/edit?usp=sharing) I used for this project.
@@ -46,7 +46,7 @@ Next, I created a script (`Tools` > `Script editor`) to generate the code in Goo
 When I ran the script from the Script editor, the sidebar appears in the sheet with the code that I copied and pasted.
 
 <div class="photos">
-{% include img.html src="2019-04-27-grid-template-area-rug-3.png" alt="generated code in a sidebar in Google Sheets" width="2114" height="1444" %}
+{% include img.html src="2019-04-27-grid-template-area-rug-3.png" alt="generated code in a sidebar in Google Sheets" %}
 </div>
 
 Since there isn't a straightforward way to share the script and I'm not really up for making this into an official Sheets add-on, I added the script to the JavaScript window of the CodePen.
@@ -78,7 +78,7 @@ Then using `grid-template-areas`, I called each `.tile` by its `grid-area` name 
 The CSS above is the first three rows of the floor. You can see the pattern of alternating whitespace `.` and tiles:
 
 <div class="photos">
-{% include img.html src="2019-04-27-grid-template-area-rug-2.png" alt="First three rows of the Google spreadsheet" width="1227" height="93" %}
+{% include img.html src="2019-04-27-grid-template-area-rug-2.png" alt="First three rows of the Google spreadsheet" %}
 </div>
 
 ## Style the grid

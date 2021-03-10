@@ -13,7 +13,7 @@ pen: lqBtz
 
 I knew that I wanted to code out the Dribbble shot END by Catt as a single element. I planned on using the main element for the text and pseudo elements to create the tails of the ribbon.
 
-{% include img.html src='2014-01-01-z-index-and-transform-0.png' alt='Ribbon diagram' class='img-half' width="300" height="173" %}
+{% include img.html src='2014-01-01-z-index-and-transform-0.png' alt='Ribbon diagram' class='img-half' %}
 
 In making all this happen, I was presented with of couple challenges.
 
@@ -24,13 +24,13 @@ In making all this happen, I was presented with of couple challenges.
 
 First, I created a triangle by manipulating the `border` properties to recreate the shadow effect of the ribbon. It worked, but it didn't match up perfectly.
 
-{% include img.html src='2014-01-01-z-index-and-transform-1.png' alt='Ribbon tail with triangles with opacity' class='img-half' width="300" height="175" %}
-{% include img.html src='2014-01-01-z-index-and-transform-2.png' alt='Ribbon tail with triangles' class='img-half' width="300" height="175" %}
+{% include img.html src='2014-01-01-z-index-and-transform-1.png' alt='Ribbon tail with triangles with opacity' class='img-half' %}
+{% include img.html src='2014-01-01-z-index-and-transform-2.png' alt='Ribbon tail with triangles' class='img-half' %}
 
 And then, it came to me&hellip; a trapezoid!
 
-{% include img.html src='2014-01-01-z-index-and-transform-3.png' alt='Ribbon tail with trapezoids with opacity' class='img-half' width="300" height="175" %}
-{% include img.html src='2014-01-01-z-index-and-transform-4.png' alt='Ribbon tail with trapezoids' class='img-half' width="300" height="175" %}
+{% include img.html src='2014-01-01-z-index-and-transform-3.png' alt='Ribbon tail with trapezoids with opacity' class='img-half' %}
+{% include img.html src='2014-01-01-z-index-and-transform-4.png' alt='Ribbon tail with trapezoids' class='img-half' %}
 
 The trapezoid fit perfectly. I also used a variable `$ribbonSize` to keep the ribbon tails in proportion with the shadow. In doing so, the ribbon became scalable!
 
@@ -40,7 +40,7 @@ Before this project, I noticed issues in preserving the stacking order, `z-index
 
 Once I added `transform` to the main element, the pseudo elements appeared to disregard the `z-index: -1` rule and sat on top of the main element.
 
-{% include img.html src='2014-01-01-z-index-and-transform-5.png' alt='Ribbon transformed out of stacking order' class='img-half' width="300" height="175" %}
+{% include img.html src='2014-01-01-z-index-and-transform-5.png' alt='Ribbon transformed out of stacking order' class='img-half' %}
 
 Through research, I dove into the situation of what takes place between stacking orders and transforms. I learned that once transformed, an element needs to play by 3D rules. Without specifying the `transform-style`, I was technically still in flat mode.
 

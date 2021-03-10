@@ -10,11 +10,11 @@ tags:
 
 Last week I talked about how I built a [WeatherBot](/code/weatherbot/) that gives us a heads up if there will be snow over the next several hours. The recent warm weather inspired me to add warm weather alerts:
 
-{% include img.html src='2017-03-01-weatherbot-goes-outside-1.jpg' alt='WeatherBot Slack Post' class='img-full' width="1228" height="400" %}
+{% include img.html src='2017-03-01-weatherbot-goes-outside-1.jpg' alt='WeatherBot Slack Post' class='img-full' %}
 
 <div class='caption'>Cloudy and warm</div>
 
-{% include img.html src='2017-03-01-weatherbot-goes-outside-2.jpg' alt='Partly cloudy WeatherBot' class='img-full' width="1228" height="200" %}
+{% include img.html src='2017-03-01-weatherbot-goes-outside-2.jpg' alt='Partly cloudy WeatherBot' class='img-full' %}
 
 <div class='caption'>Party cloudy and warm</div>
 

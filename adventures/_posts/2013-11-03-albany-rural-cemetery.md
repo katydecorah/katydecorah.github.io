@@ -15,11 +15,11 @@ The cemetery is huge and holds beautiful stones and mausoleums.
 
 <div class="photos">
 
-{% include img.html alt='Albany Rural Cemetery' class="img-tall" src='2013-11-03-albany-rural-cemetery-1.jpg' width="2448" height="3264" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-wide' src='2013-11-03-albany-rural-cemetery-2.jpg' width="3264" height="2448" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-3.jpg' width="2448" height="3264" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-4.jpg' width="2448" height="3264" %}
-{% include img.html alt='Albany Rural Cemetery' class='pop-out' src='2013-11-03-albany-rural-cemetery-5.jpg' width="3264" height="2448" %}
+{% include img.html alt='Albany Rural Cemetery' class="img-tall" src='2013-11-03-albany-rural-cemetery-1.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-wide' src='2013-11-03-albany-rural-cemetery-2.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-3.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-4.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='pop-out' src='2013-11-03-albany-rural-cemetery-5.jpg' %}
 
 </div>
 
@@ -27,8 +27,8 @@ The cemetery is huge and holds beautiful stones and mausoleums.
 
 <div class="photos">
 
-{% include img.html alt='Albany Rural Cemetery' class='img-wide' src='2013-11-03-albany-rural-cemetery-6.jpg' width="3264" height="2448" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-tall' src='2013-11-03-albany-rural-cemetery-7.jpg' width="2448" height="3264" %}
+{% include img.html alt='Albany Rural Cemetery' class='img-wide' src='2013-11-03-albany-rural-cemetery-6.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-tall' src='2013-11-03-albany-rural-cemetery-7.jpg' %}
 
 </div>
 
@@ -36,10 +36,10 @@ The cemetery is huge and holds beautiful stones and mausoleums.
 
 <div class="photos">
 
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-8.jpg' width="2448" height="3264" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-9.jpg' width="2448" height="3264" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-10.jpg' width="3264" height="2448" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-11.jpg' width="3264" height="2448" %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-8.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-9.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-10.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-11.jpg' %}
 
 </div>
 
@@ -47,7 +47,7 @@ The cemetery is huge and holds beautiful stones and mausoleums.
 
 <div class="photos">
 
-{% include img.html alt='Albany Rural Cemetery' src='2013-11-03-albany-rural-cemetery-12.jpg' width="2448" height="3264" %}
+{% include img.html alt='Albany Rural Cemetery' src='2013-11-03-albany-rural-cemetery-12.jpg' %}
 
 </div>
 
@@ -55,11 +55,11 @@ The cemetery is huge and holds beautiful stones and mausoleums.
 
 <div class="photos">
 
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-13.jpg' width="3264" height="2448" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-14.jpg' width="3264" height="2448" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-thirds' src='2013-11-03-albany-rural-cemetery-15.jpg' width="3264" height="2448" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-thirds' src='2013-11-03-albany-rural-cemetery-16.jpg' width="3264" height="2448" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-thirds' src='2013-11-03-albany-rural-cemetery-17.jpg' width="3264" height="2448" %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-13.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-14.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-thirds' src='2013-11-03-albany-rural-cemetery-15.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-thirds' src='2013-11-03-albany-rural-cemetery-16.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-thirds' src='2013-11-03-albany-rural-cemetery-17.jpg' %}
 
 </div>
 
@@ -69,9 +69,9 @@ My favorite of the day. The Burden tomb holds Henry Burden, an engineer from Tro
 
 <div class="photos">
 
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-18.jpg' width="2448" height="3264" %}
-{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-19.jpg' width="2448" height="3264" %}
-{% include img.html alt='Albany Rural Cemetery' class='pop-out' src='2013-11-03-albany-rural-cemetery-0.jpg' width="2448" height="3264" %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-18.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='img-half' src='2013-11-03-albany-rural-cemetery-19.jpg' %}
+{% include img.html alt='Albany Rural Cemetery' class='pop-out' src='2013-11-03-albany-rural-cemetery-0.jpg' %}
 
 </div>
 

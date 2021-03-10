@@ -4,7 +4,7 @@ image: 2014-01-11-the-cheers-sweatshirt-0.jpg
 ---
 
 <div class="photos">
-{% include img.html src="2014-01-11-the-cheers-sweatshirt-0.jpg" class="pop-out" alt="Cheers sweatshirt" width="3264" height="2448" %}
+{% include img.html src="2014-01-11-the-cheers-sweatshirt-0.jpg" class="pop-out" alt="Cheers sweatshirt" %}
 </div>
 
 I received so many wonderful gifts this past Christmas, but one stands out.

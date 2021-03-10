@@ -44,9 +44,9 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-0.jpg" class="img-half" alt="Hadrian&#x27;s Wall" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-0.jpg" class="img-half" alt="Hadrian&#x27;s Wall" %}
 
-{% include img.html src="2008-05-20-roman-britain-1.jpg" class="img-half" alt="Hadrian&#x27;s Wall" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-1.jpg" class="img-half" alt="Hadrian&#x27;s Wall" %}
 
 </div>
 
@@ -54,7 +54,7 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-2.jpg"  alt="Cawfield Milecastle" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-2.jpg"  alt="Cawfield Milecastle" %}
 
 </div>
 
@@ -62,9 +62,9 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-3.jpg" class="img-half" alt="Vindolanda" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-3.jpg" class="img-half" alt="Vindolanda" %}
 
-{% include img.html src="2008-05-20-roman-britain-4.jpg" class="img-half" alt="Vindolanda" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-4.jpg" class="img-half" alt="Vindolanda" %}
 
 </div>
 
@@ -72,17 +72,17 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-5.jpg" class="img-half" alt="Chesters Roman Fort" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-5.jpg" class="img-half" alt="Chesters Roman Fort" %}
 
-{% include img.html src="2008-05-20-roman-britain-6.jpg" class="img-half" alt="Chesters Roman Fort" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-6.jpg" class="img-half" alt="Chesters Roman Fort" %}
 
-{% include img.html src="2008-05-20-roman-britain-7.jpg" class="img-half" alt="Chesters Roman Fort" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-7.jpg" class="img-half" alt="Chesters Roman Fort" %}
 
-{% include img.html src="2008-05-20-roman-britain-8.jpg" class="img-half" alt="Chesters Roman Fort" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-8.jpg" class="img-half" alt="Chesters Roman Fort" %}
 
-{% include img.html src="2008-05-20-roman-britain-9.jpg" class="img-half" alt="Chesters Roman Fort" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-9.jpg" class="img-half" alt="Chesters Roman Fort" %}
 
-{% include img.html src="2008-05-20-roman-britain-10.jpg" class="img-half" alt="Chesters Roman Fort" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-10.jpg" class="img-half" alt="Chesters Roman Fort" %}
 
 </div>
 
@@ -90,9 +90,9 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-11.jpg" class="img-half" alt="Arbeia" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-11.jpg" class="img-half" alt="Arbeia" %}
 
-{% include img.html src="2008-05-20-roman-britain-12.jpg" class="img-half" alt="Arbeia" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-12.jpg" class="img-half" alt="Arbeia" %}
 
 </div>
 
@@ -100,7 +100,7 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-13.jpg"  alt="Angel of the North" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-13.jpg"  alt="Angel of the North" %}
 
 </div>
 
@@ -108,7 +108,7 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-14.jpg"  alt="Shrewsbury" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-14.jpg"  alt="Shrewsbury" %}
 
 </div>
 
@@ -116,9 +116,9 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-15.jpg" class="img-half" alt="Wroxeter" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-15.jpg" class="img-half" alt="Wroxeter" %}
 
-{% include img.html src="2008-05-20-roman-britain-16.jpg" class="img-half" alt="Wroxeter" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-16.jpg" class="img-half" alt="Wroxeter" %}
 
 </div>
 
@@ -126,9 +126,9 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-17.jpg" class="img-half" alt="Caerleon" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-17.jpg" class="img-half" alt="Caerleon" %}
 
-{% include img.html src="2008-05-20-roman-britain-18.jpg" class="img-half" alt="Caerleon" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-18.jpg" class="img-half" alt="Caerleon" %}
 
 </div>
 
@@ -136,9 +136,9 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-19.jpg" class="img-half" alt="Caerwent" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-19.jpg" class="img-half" alt="Caerwent" %}
 
-{% include img.html src="2008-05-20-roman-britain-20.jpg" class="img-half" alt="Caerwent" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-20.jpg" class="img-half" alt="Caerwent" %}
 
 </div>
 
@@ -146,23 +146,23 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-21.jpg" class="img-half" alt="Bath" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-21.jpg" class="img-half" alt="Bath" %}
 
-{% include img.html src="2008-05-20-roman-britain-22.jpg" class="img-half" alt="Bath" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-22.jpg" class="img-half" alt="Bath" %}
 
-{% include img.html src="2008-05-20-roman-britain-23.jpg" class="img-half" alt="Bath" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-23.jpg" class="img-half" alt="Bath" %}
 
-{% include img.html src="2008-05-20-roman-britain-24.jpg" class="img-half" alt="Bath" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-24.jpg" class="img-half" alt="Bath" %}
 
-{% include img.html src="2008-05-20-roman-britain-25.jpg" class="img-tall" alt="Roman Bath" width="1928" height="2576" %}
+{% include img.html src="2008-05-20-roman-britain-25.jpg" class="img-tall" alt="Roman Bath" %}
 
-{% include img.html src="2008-05-20-roman-britain-26.jpg" class="img-wide" alt="Roman Bath" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-26.jpg" class="img-wide" alt="Roman Bath" %}
 
-{% include img.html src="2008-05-20-roman-britain-27.jpg" class="img-wide" alt="Roman Bath" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-27.jpg" class="img-wide" alt="Roman Bath" %}
 
-{% include img.html src="2008-05-20-roman-britain-28.jpg" class="img-tall" alt="Roman Bath" width="1928" height="2576" %}
+{% include img.html src="2008-05-20-roman-britain-28.jpg" class="img-tall" alt="Roman Bath" %}
 
-{% include img.html src="2008-05-20-roman-britain-29.jpg" alt="Roman Bath" width="1928" height="2576" %}
+{% include img.html src="2008-05-20-roman-britain-29.jpg" alt="Roman Bath" %}
 
 </div>
 
@@ -170,11 +170,11 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-30.jpg" class="img-thirds" alt="Chedworth" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-30.jpg" class="img-thirds" alt="Chedworth" %}
 
-{% include img.html src="2008-05-20-roman-britain-31.jpg" class="img-thirds" alt="Chedworth" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-31.jpg" class="img-thirds" alt="Chedworth" %}
 
-{% include img.html src="2008-05-20-roman-britain-32.jpg" class="img-thirds" alt="Chedworth" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-32.jpg" class="img-thirds" alt="Chedworth" %}
 
 </div>
 
@@ -182,11 +182,11 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-33.jpg" class="img-half" alt="Stonehenge" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-33.jpg" class="img-half" alt="Stonehenge" %}
 
-{% include img.html src="2008-05-20-roman-britain-34.jpg" class="img-half" alt="Stonehenge" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-34.jpg" class="img-half" alt="Stonehenge" %}
 
-{% include img.html src="2008-05-20-roman-britain-35.jpg"  alt="Stonehenge" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-35.jpg"  alt="Stonehenge" %}
 
 </div>
 
@@ -194,11 +194,11 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-36.jpg" class="img-tall" alt="Fishbourne" width="1928" height="2576" %}
+{% include img.html src="2008-05-20-roman-britain-36.jpg" class="img-tall" alt="Fishbourne" %}
 
-{% include img.html src="2008-05-20-roman-britain-37.jpg" class="img-wide" alt="Fishbourne" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-37.jpg" class="img-wide" alt="Fishbourne" %}
 
-{% include img.html src="2008-05-20-roman-britain-38.jpg"  alt="Fishbourne" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-38.jpg"  alt="Fishbourne" %}
 
 </div>
 
@@ -206,20 +206,20 @@ At Siena, I took a course called _Roman Britain_, where we studied the Romanizat
 
 <div class="photos">
 
-{% include img.html src="2008-05-20-roman-britain-39.jpg" class="img-half" alt="London" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-39.jpg" class="img-half" alt="London" %}
 
-{% include img.html src="2008-05-20-roman-britain-40.jpg" class="img-half" alt="London" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-40.jpg" class="img-half" alt="London" %}
 
-{% include img.html src="2008-05-20-roman-britain-41.jpg" class="img-half" alt="London" width="1928" height="2576" %}
+{% include img.html src="2008-05-20-roman-britain-41.jpg" class="img-half" alt="London" %}
 
-{% include img.html src="2008-05-20-roman-britain-42.jpg" class="img-half" alt="London" width="1928" height="2576" %}
+{% include img.html src="2008-05-20-roman-britain-42.jpg" class="img-half" alt="London" %}
 
-{% include img.html src="2008-05-20-roman-britain-43.jpg" class="img-wide" alt="London" width="2576" height="1932" %}
+{% include img.html src="2008-05-20-roman-britain-43.jpg" class="img-wide" alt="London" %}
 
-{% include img.html src="2008-05-20-roman-britain-44.jpg" class="img-tall" alt="London" width="1928" height="2576" %}
+{% include img.html src="2008-05-20-roman-britain-44.jpg" class="img-tall" alt="London" %}
 
-{% include img.html src="2008-05-20-roman-britain-45.jpg" alt="London" width="532" height="415" %}
+{% include img.html src="2008-05-20-roman-britain-45.jpg" alt="London" %}
 
-{% include img.html src="2008-05-20-roman-britain-46.jpg" alt="London" width="1106" height="384" %}
+{% include img.html src="2008-05-20-roman-britain-46.jpg" alt="London" %}
 
 </div>

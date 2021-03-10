@@ -8,7 +8,7 @@ tags:
 I turned one of my favorite cookies into ice cream. While this dairy-free treat is not as creamy as traditional ice cream, I really loved how well the flavors came together with the granola topping.
 
 <div class="photos">
-{% include img.html src="2019-09-24-cowboy-cookie-ice-cream-1.jpg" alt="cowboy cookie ice cream" width="1000" width="4032" height="3024" %}
+{% include img.html src="2019-09-24-cowboy-cookie-ice-cream-1.jpg" alt="cowboy cookie ice cream" width="1000" %}
 </div>
 
 ## Ingredients

@@ -15,18 +15,18 @@ Today we hiked [Bozen Kill Preserve](http://mohawkhudson.org/our-preserves/bozen
 I recommend starting with the blue trail as it takes you along the stream where you will find a small falls, and then it meets up with the white trail.
 
 <div class="photos">
-{% include img.html src="2016-01-03-bozen-kill-preserve-1.jpg" alt="Bozen Kill Preserve" class="img-tall" width="3024" height="4032" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-2.jpg" alt="Bozen Kill Preserve" class="img-wide" width="4032" height="3024" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-3.jpg" class="img-half" alt="Bozen Kill Preserve" width="4032" height="3024" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-4.jpg" class="img-half" alt="Bozen Kill Preserve" width="4032" height="3024" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-5.jpg" class="img-tall" alt="Bozen Kill Preserve" width="3024" height="4032" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-6.jpg" class="img-wide" alt="Bozen Kill Preserve" width="4032" height="3024" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-7.jpg" class="img-tall" alt="Bozen Kill Preserve" width="3024" height="4032" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-8.jpg" class="img-wide" alt="Bozen Kill Preserve" width="4032" height="3024" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-0.jpg" alt="Bozen Kill Preserve" width="4032" height="3024" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-9.jpg" class="img-half" alt="Bozen Kill Preserve" width="4032" height="3024" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-10.jpg" class="img-half" alt="Bozen Kill Preserve" width="4032" height="3024" %}
-{% include img.html src="2016-01-03-bozen-kill-preserve-11.jpg" alt="Bozen Kill Preserve" width="4032" height="3024" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-1.jpg" alt="Bozen Kill Preserve" class="img-tall" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-2.jpg" alt="Bozen Kill Preserve" class="img-wide" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-3.jpg" class="img-half" alt="Bozen Kill Preserve" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-4.jpg" class="img-half" alt="Bozen Kill Preserve" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-5.jpg" class="img-tall" alt="Bozen Kill Preserve" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-6.jpg" class="img-wide" alt="Bozen Kill Preserve" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-7.jpg" class="img-tall" alt="Bozen Kill Preserve" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-8.jpg" class="img-wide" alt="Bozen Kill Preserve" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-0.jpg" alt="Bozen Kill Preserve" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-9.jpg" class="img-half" alt="Bozen Kill Preserve" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-10.jpg" class="img-half" alt="Bozen Kill Preserve" %}
+{% include img.html src="2016-01-03-bozen-kill-preserve-11.jpg" alt="Bozen Kill Preserve" %}
 </div>
 
 We look forward to returning to the preserve in the spring!

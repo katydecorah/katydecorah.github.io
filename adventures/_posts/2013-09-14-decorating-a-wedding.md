@@ -17,11 +17,11 @@ Unfortunately I did not take enough pictures, but here are a few.
 
 <div class="photos">
 
-{% include img.html src="2013-09-14-decorating-a-wedding-1.jpg"  class="img-half" alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-0.jpg" class="img-half" alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-2.jpg" class="pop-out" alt="Annie &amp; David's Wedding" width="2448" height="3264" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-3.jpg"  alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-4.jpg"  alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-1.jpg"  class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-0.jpg" class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-2.jpg" class="pop-out" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-3.jpg"  alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-4.jpg"  alt="Annie &amp; David's Wedding" %}
 
 </div>
 
@@ -29,11 +29,11 @@ A few from the Inn.
 
 <div class="photos">
 
-{% include img.html src="2013-09-14-decorating-a-wedding-5.jpg" class="img-half" alt="Annie &amp; David's Wedding" width="2448" height="3264" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-6.jpg"  class="img-half" alt="Annie &amp; David's Wedding" width="2448" height="3264" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-7.jpg" class="pop-out" alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-8.jpg" class="img-half" alt="Annie &amp; David's Wedding" width="2448" height="3264" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-9.jpg"  class="img-half" alt="Annie &amp; David's Wedding" width="2448" height="3264" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-5.jpg" class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-6.jpg"  class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-7.jpg" class="pop-out" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-8.jpg" class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-9.jpg"  class="img-half" alt="Annie &amp; David's Wedding" %}
 
 </div>
 
@@ -41,12 +41,12 @@ I'm so happy with how the slate signs came out. I designed the text in Illustrat
 
 <div class="photos">
 
-{% include img.html src="2013-09-14-decorating-a-wedding-10.jpg" class="img-half" alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-11.jpg" class="img-half" alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-12.jpg" class="img-half" alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-13.jpg" class="img-half" alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-14.jpg" class="img-half" alt="Annie &amp; David's Wedding" width="3264" height="2448" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-15.jpg" class="img-half" alt="Annie &amp; David's Wedding" width="2448" height="3264" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-10.jpg" class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-11.jpg" class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-12.jpg" class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-13.jpg" class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-14.jpg" class="img-half" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-15.jpg" class="img-half" alt="Annie &amp; David's Wedding" %}
 
 </div>
 
@@ -54,8 +54,8 @@ Some raw materials collected from the great outdoors! Special thanks to my boyfr
 
 <div class="photos">
 
-{% include img.html src="2013-09-14-decorating-a-wedding-16.jpg" class="img-thirds" alt="Annie &amp; David's Wedding" width="2448" height="3264" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-17.jpg" class="img-thirds" alt="Annie &amp; David's Wedding" width="2448" height="3264" %}
-{% include img.html src="2013-09-14-decorating-a-wedding-18.jpg" class="img-thirds" alt="Annie &amp; David's Wedding" width="2448" height="3264" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-16.jpg" class="img-thirds" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-17.jpg" class="img-thirds" alt="Annie &amp; David's Wedding" %}
+{% include img.html src="2013-09-14-decorating-a-wedding-18.jpg" class="img-thirds" alt="Annie &amp; David's Wedding" %}
 
 </div>

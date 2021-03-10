@@ -30,7 +30,7 @@ The script worked beautifully and saved us loads of time. Here's how you can use
 
 Create your form in Google Sheets. (For this example, I made a vegetable feedback form.)
 
-{% include img.html src='2018-01-16-spreadsheet-collator-1.png' alt='Screenshot of a Google Form' class='img-full' width="1700" height="1030" %}
+{% include img.html src='2018-01-16-spreadsheet-collator-1.png' alt='Screenshot of a Google Form' class='img-full' %}
 
 Once you create the form, click the "Responses" tab and then the Google Sheets icon to create a Google spreadsheet to store your data.
 
@@ -38,25 +38,25 @@ While you have your spreadsheet open, you'll want to jot down a few credentials:
 
 - The spreadsheet ID, which is that string of characters in the URL:
 
-{% include img.html src='2018-01-16-spreadsheet-collator-2.png' alt='Screenshot of Google spreadsheet ID' class='img-full' width="1700" height="1030" %}
+{% include img.html src='2018-01-16-spreadsheet-collator-2.png' alt='Screenshot of Google spreadsheet ID' class='img-full' %}
 
 - The spreadsheet range, which is the tab name and cell ranges you want to read. For this example we want `Vegetable Feedback!B:D`:
 
-{% include img.html src='2018-01-16-spreadsheet-collator-3.png' alt='Screenshot of Google spreadsheet range' class='img-full' width="1700" height="1030" %}
+{% include img.html src='2018-01-16-spreadsheet-collator-3.png' alt='Screenshot of Google spreadsheet range' class='img-full' %}
 
 - The name of the column header that holds the rows that will be the titles of your Google docs:
 
-{% include img.html src='2018-01-16-spreadsheet-collator-4.png' alt='Screenshot of Google spreadsheet header row' class='img-full' width="1700" height="1030" %}
+{% include img.html src='2018-01-16-spreadsheet-collator-4.png' alt='Screenshot of Google spreadsheet header row' class='img-full' %}
 
 ## Create a Google Drive folder
 
 Create a folder in Google Drive that will ultimately be the home for the docs. You can also store your form and form response spreadsheet here.
 
-{% include img.html src='2018-01-16-spreadsheet-collator-5.png' alt='Screenshot of a Google Drive folder' class='img-full' width="1700" height="1030" %}
+{% include img.html src='2018-01-16-spreadsheet-collator-5.png' alt='Screenshot of a Google Drive folder' class='img-full' %}
 
 While you're here, you also want to jot down the folder's ID, which is that string of characters in the URL:
 
-{% include img.html src='2018-01-16-spreadsheet-collator-6.png' alt='Screenshot of Google Drive Folder ID' class='img-full' width="1700" height="1030" %}
+{% include img.html src='2018-01-16-spreadsheet-collator-6.png' alt='Screenshot of Google Drive Folder ID' class='img-full' %}
 
 ## Configure the collator
 
@@ -66,15 +66,15 @@ After you've cloned the [spreadsheet-collator repository](https://github.com/kat
 
 Following the steps in the [README](https://github.com/katydecorah/spreadsheet-collator#authenticate-and-run), you'll need to first authenticate your account so that script can access your spreadsheet and create files. Then you can [run the collator](https://github.com/katydecorah/spreadsheet-collator#run-the-script).
 
-{% include img.html src='2018-01-16-spreadsheet-collator-7.png' alt='Screenshot of Terminal' class='img-full' width="1472" height="1018" %}
+{% include img.html src='2018-01-16-spreadsheet-collator-7.png' alt='Screenshot of Terminal' class='img-full' %}
 
 Open up your Google Drive folder to see your freshly created documents:
 
-{% include img.html src='2018-01-16-spreadsheet-collator-8.png' alt='Screenshot of Google Drive folder with docs' class='img-full' width="1700" height="1030" %}
+{% include img.html src='2018-01-16-spreadsheet-collator-8.png' alt='Screenshot of Google Drive folder with docs' class='img-full' %}
 
 And then open up a doc to see your collated data:
 
-{% include img.html src='2018-01-16-spreadsheet-collator-9.png' alt='Screenshot of Google doc' class='img-full' width="1700" height="1030" %}
+{% include img.html src='2018-01-16-spreadsheet-collator-9.png' alt='Screenshot of Google doc' class='img-full' %}
 
 ## Customize the collator
 

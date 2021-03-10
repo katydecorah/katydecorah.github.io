@@ -30,6 +30,6 @@ spotify-to-jekyll --playlist=<playlist-id>
 
 In a few seconds, the script has updated `_data/playlist.yml`, created a new post, and downloaded a thumbnail image for the post.
 
-{% include img.html src='2018-06-22-spotify-to-jekyll-1.png' alt='GitHub app displaying the three files that have been downloaded' class='img-full' width="1200" height="769" %}
+{% include img.html src='2018-06-22-spotify-to-jekyll-1.png' alt='GitHub app displaying the three files that have been downloaded' class='img-full' %}
 
 You can find the [code on GitHub](https://github.com/katydecorah/spotify-to-jekyll) to learn how to set it up for yourself.

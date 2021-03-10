@@ -14,11 +14,11 @@ Whiskey, pumpkin carving, wine tasting, hot tubs, mulled wine, and goat cheese. 
 
 <div class="photos">
 
-{% include img.html src="2014-10-19-elizabethtown-II-0.jpg"  alt="Elizabethtown" width="3264" height="2448" %}
+{% include img.html src="2014-10-19-elizabethtown-II-0.jpg"  alt="Elizabethtown" %}
 
-{% include img.html src="2014-10-19-elizabethtown-II-1.jpg" class="img-tall" alt="Elizabethtown" width="2448" height="3264" %}
+{% include img.html src="2014-10-19-elizabethtown-II-1.jpg" class="img-tall" alt="Elizabethtown" %}
 
-{% include img.html src="2014-10-19-elizabethtown-II-2.jpg" alt="Elizabethtown" class="img-wide" width="3264" height="2448" %}
+{% include img.html src="2014-10-19-elizabethtown-II-2.jpg" alt="Elizabethtown" class="img-wide" %}
 
 <p>Grant, Becky, me, and Laura - respectively.</p>
 </div>

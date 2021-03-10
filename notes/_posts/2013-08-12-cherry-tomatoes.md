@@ -15,20 +15,20 @@ Only one tomato has ripened so far, I have about a dozen waiting to burst with c
 
 <div class="photos">
 
-{% include img.html src="2013-08-12-cherry-tomatoes-1.jpg" class="img-thirds" alt="Cherry tomatoes" width="1985" height="1985" %}
+{% include img.html src="2013-08-12-cherry-tomatoes-1.jpg" class="img-thirds" alt="Cherry tomatoes" %}
 
-{% include img.html src="2013-08-12-cherry-tomatoes-2.jpg" class="img-thirds" alt="Cherry tomatoes" width="2048" height="2048" %}
+{% include img.html src="2013-08-12-cherry-tomatoes-2.jpg" class="img-thirds" alt="Cherry tomatoes" %}
 
-{% include img.html src="2013-08-12-cherry-tomatoes-3.jpg" class="img-thirds" alt="Cherry tomatoes" width="2048" height="2048" %}
+{% include img.html src="2013-08-12-cherry-tomatoes-3.jpg" class="img-thirds" alt="Cherry tomatoes" %}
 
-{% include img.html src="2013-08-12-cherry-tomatoes-4.jpg"   alt="Cherry tomatoes" width="2048" height="2048" %}
+{% include img.html src="2013-08-12-cherry-tomatoes-4.jpg"   alt="Cherry tomatoes" %}
 
-{% include img.html src="2013-08-12-cherry-tomatoes-5.jpg"  class="img-half" alt="Cherry tomatoes" width="2048" height="1536" %}
+{% include img.html src="2013-08-12-cherry-tomatoes-5.jpg"  class="img-half" alt="Cherry tomatoes" %}
 
-{% include img.html src="2013-08-12-cherry-tomatoes-6.jpg"  class="img-half" alt="Cherry tomatoes" width="2048" height="1536" %}
+{% include img.html src="2013-08-12-cherry-tomatoes-6.jpg"  class="img-half" alt="Cherry tomatoes" %}
 
-{% include img.html src="2013-08-12-cherry-tomatoes-7.jpg" class="img-half" alt="Cherry tomatoes" width="1536" height="2048" %}
+{% include img.html src="2013-08-12-cherry-tomatoes-7.jpg" class="img-half" alt="Cherry tomatoes" %}
 
-{% include img.html src="2013-08-12-cherry-tomatoes-0.jpg" class="img-half" alt="Cherry tomatoes" width="1536" height="2048" %}
+{% include img.html src="2013-08-12-cherry-tomatoes-0.jpg" class="img-half" alt="Cherry tomatoes" %}
 
 </div>
