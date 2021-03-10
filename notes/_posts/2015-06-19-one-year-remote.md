@@ -15,8 +15,8 @@ image: 2015-06-19-one-year-remote-0.jpg
 - Build a tabletop for the treadmill and walk 5 miles every morning[^1]:
 
 <div class="photos">
-{% include img.html src="2015-06-19-one-year-remote-0.jpg" alt="office" class="img-tall" %}
-{% include img.html src="2015-06-19-one-year-remote-1.jpg" alt="Treadmill desk" class="img-wide" %}
+{% include img.html src="2015-06-19-one-year-remote-0.jpg" alt="office" class="img-tall" width="2448" height="3264" %}
+{% include img.html src="2015-06-19-one-year-remote-1.jpg" alt="Treadmill desk" class="img-wide" width="1024" height="768" %}
 </div>
 
 [^1]: This is how I survived winter.

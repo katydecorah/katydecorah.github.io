@@ -13,15 +13,15 @@ I spent an awesome week in DC.
 
 <div class="photos">
 
-{% include img.html src="2014-02-24-washington-dc-0.jpg" alt="DC" %}
+{% include img.html src="2014-02-24-washington-dc-0.jpg" alt="DC" width="2448" height="3264" %}
 
-{% include img.html src="2014-02-24-washington-dc-1.jpg" class="img-half" alt="DC" %}
-{% include img.html src="2014-02-24-washington-dc-2.jpg" class="img-half" alt="DC" %}
+{% include img.html src="2014-02-24-washington-dc-1.jpg" class="img-half" alt="DC" width="2448" height="3264" %}
+{% include img.html src="2014-02-24-washington-dc-2.jpg" class="img-half" alt="DC" width="2448" height="3264" %}
 
-{% include img.html src="2014-02-24-washington-dc-3.jpg" class="pop-out" alt="DC" %}
+{% include img.html src="2014-02-24-washington-dc-3.jpg" class="pop-out" alt="DC" width="3264" height="2448" %}
 
-{% include img.html src="2014-02-24-washington-dc-4.jpg" alt="DC" %}
+{% include img.html src="2014-02-24-washington-dc-4.jpg" alt="DC" width="2448" height="3264" %}
 
-{% include img.html src="2014-02-24-washington-dc-5.jpg" alt="DC" %}
+{% include img.html src="2014-02-24-washington-dc-5.jpg" alt="DC" width="3264" height="2448" %}
 
 </div>

@@ -11,8 +11,8 @@ miles: .5
 ---
 
 <div class="photos">
-{% include img.html src="2016-03-20-plotters-kill-1.jpg" alt="Plotters Kill" class="img-tall" %} {% include img.html src="2016-03-20-plotters-kill-2.jpg"  alt="Plotters Kill" class="img-wide" %}
-{% include img.html src="2016-03-20-plotters-kill-3.jpg"  alt="Plotters Kill" %}
+{% include img.html src="2016-03-20-plotters-kill-1.jpg" alt="Plotters Kill" class="img-tall" width="3024" height="4032" %} {% include img.html src="2016-03-20-plotters-kill-2.jpg"  alt="Plotters Kill" class="img-wide" %}
+{% include img.html src="2016-03-20-plotters-kill-3.jpg"  alt="Plotters Kill" width="4032" height="3024" %}
 </div>
 
 We hiked around [Plotters Kill Preserve](http://www.alltrails.com/trail/us/new-york/plotter-kill-preserve) by starting on the blue trail. The blue trail is nice, but has limited views of the falls. We hopped on the red trail for a bit and were able to get a better view.

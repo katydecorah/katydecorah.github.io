@@ -8,7 +8,7 @@ tags:
 This has become one of our favorite Instant Pot recipes. It's especially perfect for fall. It also holds up great for leftovers or meal prep.
 
 <div class="photos">
-{% include img.html src='2018-09-21-coconut-curry-0.jpg' alt='Coconut Curried Kale and Sweet Potato' %}
+{% include img.html src='2018-09-21-coconut-curry-0.jpg' alt='Coconut Curried Kale and Sweet Potato' width="4032" height="3024" %}
 </div>
 
 ## Ingredients

@@ -8,7 +8,7 @@ recipe-title: Cookie monster cupcake
 I made these cupcakes for a certain amazing person's birthday!
 
 <div class="photos">
-{% include img.html src="2013-03-24-cookie-monster-cupcakes-0.jpg" class="img-half" alt="Cookie monster cupcakes" %}
-{% include img.html src="2013-03-24-cookie-monster-cupcakes-1.jpg" class="img-half" alt="Cookie monster cupcakes" %}
-{% include img.html src="2013-03-24-cookie-monster-cupcakes-2.jpg" alt="Cookie monster cupcakes" %}
+{% include img.html src="2013-03-24-cookie-monster-cupcakes-0.jpg" class="img-half" alt="Cookie monster cupcakes" width="3264" height="2448" %}
+{% include img.html src="2013-03-24-cookie-monster-cupcakes-1.jpg" class="img-half" alt="Cookie monster cupcakes" width="3264" height="2448" %}
+{% include img.html src="2013-03-24-cookie-monster-cupcakes-2.jpg" alt="Cookie monster cupcakes" width="3264" height="2448" %}
 </div>

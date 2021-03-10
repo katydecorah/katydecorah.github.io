@@ -18,27 +18,27 @@ This might be the best place to meet the urge to (safely) get lost in the woods.
 
 <div class="photos">
 
-{% include img.html src="2014-07-27-pine-hollow-arboretum-1.jpg" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-1.jpg" alt="Pine Hollow Arboretum" width="3264" height="2448" %}
 
-{% include img.html src="2014-07-27-pine-hollow-arboretum-2.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
-{% include img.html src="2014-07-27-pine-hollow-arboretum-3.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-2.jpg" class="img-half" alt="Pine Hollow Arboretum" width="2448" height="3264" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-3.jpg" class="img-half" alt="Pine Hollow Arboretum" width="2448" height="3264" %}
 
-{% include img.html src="2014-07-27-pine-hollow-arboretum-4.jpg" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-4.jpg" alt="Pine Hollow Arboretum" width="3264" height="2448" %}
 
-{% include img.html src="2014-07-27-pine-hollow-arboretum-5.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
-{% include img.html src="2014-07-27-pine-hollow-arboretum-6.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-5.jpg" class="img-half" alt="Pine Hollow Arboretum" width="2448" height="3264" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-6.jpg" class="img-half" alt="Pine Hollow Arboretum" width="2448" height="3264" %}
 
-{% include img.html src="2014-07-27-pine-hollow-arboretum-7.jpg" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-7.jpg" alt="Pine Hollow Arboretum" width="3264" height="2448" %}
 
-{% include img.html src="2014-07-27-pine-hollow-arboretum-8.jpg" class="img-tall" alt="Pine Hollow Arboretum" %}
-{% include img.html src="2014-07-27-pine-hollow-arboretum-9.jpg" class="img-wide" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-8.jpg" class="img-tall" alt="Pine Hollow Arboretum" width="2448" height="3264" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-9.jpg" class="img-wide" alt="Pine Hollow Arboretum" width="3264" height="2448" %}
 
-{% include img.html src="2014-07-27-pine-hollow-arboretum-10.jpg" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-10.jpg" alt="Pine Hollow Arboretum" width="3264" height="2448" %}
 
-{% include img.html src="2014-07-27-pine-hollow-arboretum-11.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
-{% include img.html src="2014-07-27-pine-hollow-arboretum-12.jpg" class="img-half" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-11.jpg" class="img-half" alt="Pine Hollow Arboretum" width="2448" height="3264" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-12.jpg" class="img-half" alt="Pine Hollow Arboretum" width="2448" height="3264" %}
 
-{% include img.html src="2014-07-27-pine-hollow-arboretum-0.jpg" alt="Pine Hollow Arboretum" %}
+{% include img.html src="2014-07-27-pine-hollow-arboretum-0.jpg" alt="Pine Hollow Arboretum" width="3264" height="2448" %}
 
 </div>
 

@@ -24,7 +24,7 @@ In a new spreadsheet, I resized the rows and columns to 25 and turned word text 
 
 Before this project, I had known about a cool feature in Google Spreadsheets, _conditional formatting_. You can set conditions in the spreadsheet to style a cell based on a string or digit. When the condition is matched, then the background color or font color of that cell will change according to your rule.
 
-{% include img.html src='2013-12-06-heroes-queue-0.png' alt='Conditional Formatting' class='img-half' %}
+{% include img.html src='2013-12-06-heroes-queue-0.png' alt='Conditional Formatting' class='img-half' width="723" height="471" %}
 
 ## Variables as conditions
 
@@ -36,7 +36,7 @@ With one eye in Photoshop and another in Google Drive, I started typing my varia
 
 I ended up creating each character on a 26&times;26 grid or in spreadsheet terms `A1:Z26`. This grid size came in handy later when concocting the formula.
 
-{% include img.html src='2013-12-06-heroes-queue-1.png' alt='batman' class='img-half' %}
+{% include img.html src='2013-12-06-heroes-queue-1.png' alt='batman' class='img-half' width="718" height="672" %}
 
 You might notice that I didn’t need to include `$bg`. I could have left those cells blank, because in the end I’m just going to ignore those cells because the `body` background can make up for it. I’m a visual person, so putting those values in worked for me.
 
@@ -65,11 +65,11 @@ Feel free to [check out the spreadsheet](https://docs.google.com/spreadsheet/ccc
 
 (I highlighted `AA1` to show that that cell holds the formula.)
 
-{% include img.html src='2013-12-06-heroes-queue-2.png' alt='Batman with values' class='img-half' %}
+{% include img.html src='2013-12-06-heroes-queue-2.png' alt='Batman with values' class='img-half' width="1267" height="678" %}
 
 When I pasted the code it had some undesirable spaces and returns, but I quickly regex replaced that sucker into a dreamy column.
 
-{% include img.html src='2013-12-06-heroes-queue-3.png' alt='Batman Straight Values' class='img-half' %}
+{% include img.html src='2013-12-06-heroes-queue-3.png' alt='Batman Straight Values' class='img-half' width="392" height="474" %}
 
 ## Phat code
 

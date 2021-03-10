@@ -15,10 +15,10 @@ Today my folks and I explored the <a href="http://www.adirondackjournal.com/news
 
 <div class="photos">
 
-{% include img.html src="2014-01-12-dean-farm-heritage-trail-1.jpg" alt="Dean Farm Heritage Trail" %}
+{% include img.html src="2014-01-12-dean-farm-heritage-trail-1.jpg" alt="Dean Farm Heritage Trail" width="2448" height="3264" %}
 
-{% include img.html src="2014-01-12-dean-farm-heritage-trail-2.jpg" class="img-half" alt="Dean Farm Heritage Trail" %}
-{% include img.html src="2014-01-12-dean-farm-heritage-trail-3.jpg" class="img-half" alt="Dean Farm Heritage Trail" %}
+{% include img.html src="2014-01-12-dean-farm-heritage-trail-2.jpg" class="img-half" alt="Dean Farm Heritage Trail" width="2448" height="3264" %}
+{% include img.html src="2014-01-12-dean-farm-heritage-trail-3.jpg" class="img-half" alt="Dean Farm Heritage Trail" width="2448" height="3264" %}
 
 </div>
 
@@ -26,12 +26,12 @@ The creek was buzzing.
 
 <div class="photos">
 
-{% include img.html src="2014-01-12-dean-farm-heritage-trail-4.jpg" class="img-wide" alt="Dean Farm Heritage Trail" %}
-{% include img.html src="2014-01-12-dean-farm-heritage-trail-5.jpg" class="img-tall" alt="Dean Farm Heritage Trail" %}
+{% include img.html src="2014-01-12-dean-farm-heritage-trail-4.jpg" class="img-wide" alt="Dean Farm Heritage Trail" width="3264" height="2448" %}
+{% include img.html src="2014-01-12-dean-farm-heritage-trail-5.jpg" class="img-tall" alt="Dean Farm Heritage Trail" width="2448" height="3264" %}
 
-{% include img.html src="2014-01-12-dean-farm-heritage-trail-0.jpg" alt="Dean Farm Heritage Trail" %}
+{% include img.html src="2014-01-12-dean-farm-heritage-trail-0.jpg" alt="Dean Farm Heritage Trail" width="2448" height="3264" %}
 
-{% include img.html src="2014-01-12-dean-farm-heritage-trail-6.jpg" class="pop-out" alt="Dean Farm Heritage Trail" %}
+{% include img.html src="2014-01-12-dean-farm-heritage-trail-6.jpg" class="pop-out" alt="Dean Farm Heritage Trail" width="3264" height="2448" %}
 
 </div>
 

@@ -17,52 +17,52 @@ I worked out of the SF Mapbox office last week and then hung around for the week
 ## Año Nuevo beach
 
 <div class="photos">
-{% include img.html src="2015-04-13-san-francisco-all-weekend-1.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-2.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-1.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-2.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
 
-{% include img.html src="2015-04-13-san-francisco-all-weekend-3.jpg" alt="untitled" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-3.jpg" alt="untitled" width="3264" height="2448" %}
 
-{% include img.html src="2015-04-13-san-francisco-all-weekend-4.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-5.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-4.jpg" class="img-half" alt="untitled" width="2448" height="3264" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-5.jpg" class="img-half" alt="untitled" width="2448" height="3264" %}
 
-{% include img.html src="2015-04-13-san-francisco-all-weekend-6.jpg" class="img-wide" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-7.jpg" class="img-tall" alt="untitled" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-6.jpg" class="img-wide" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-7.jpg" class="img-tall" alt="untitled" width="2448" height="3264" %}
 
-{% include img.html src="2015-04-13-san-francisco-all-weekend-8.jpg" class="img-tall" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-9.jpg" class="img-wide" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-10.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-11.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-8.jpg" class="img-tall" alt="untitled" width="2448" height="3264" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-9.jpg" class="img-wide" alt="untitled" width="3141" height="2356" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-10.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-11.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
 
 </div>
 
 ## Santa Cruz
 
 <div class="photos">
-{% include img.html src="2015-04-13-san-francisco-all-weekend-12.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-13.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-12.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-13.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
 </div>
 
 ## Año Nuevo State Park
 
 <div class="photos">
-{% include img.html src="2015-04-13-san-francisco-all-weekend-14.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-15.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-0.jpg" alt="untitled" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-14.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-15.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-0.jpg" alt="untitled" width="3264" height="2448" %}
 </div>
 
 ## Around SF
 
 <div class="photos">
-{% include img.html src="2015-04-13-san-francisco-all-weekend-16.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-17.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-18.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-19.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-16.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-17.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-18.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-19.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
 </div>
 
 ## Twin Peaks
 
 <div class="photos">
-{% include img.html src="2015-04-13-san-francisco-all-weekend-20.jpg" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-21.jpg" class="img-half" alt="untitled" %}
-{% include img.html src="2015-04-13-san-francisco-all-weekend-22.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-20.jpg" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-21.jpg" class="img-half" alt="untitled" width="3264" height="2448" %}
+{% include img.html src="2015-04-13-san-francisco-all-weekend-22.jpg" class="img-half" alt="untitled" width="2954" height="2215" %}
 </div>

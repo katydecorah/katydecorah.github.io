@@ -14,7 +14,7 @@ Yesterday morning we work up early and drove out to North Adams to explore [Casc
 On the drive there we saw a family of black bears crossing the road. I got a quick snap of one of the babies.
 
 <div class="photos">
-{% include img.html src="2014-08-10-cascade-falls-1.jpg" alt="Baby bear" %}
+{% include img.html src="2014-08-10-cascade-falls-1.jpg" alt="Baby bear" width="443" height="591" %}
 </div>
 
 We came to the falls prepared this time. We brought extra shoes, shirts, shorts, towels, and waterproof cases for our electronic devices. We were ready to storm the base of the waterfall.
@@ -25,21 +25,21 @@ The water was cold, but it was a real treat.
 
 <div class="photos">
 
-{% include img.html src="2014-08-10-cascade-falls-2.jpg" alt="Cascade Falls" %}
+{% include img.html src="2014-08-10-cascade-falls-2.jpg" alt="Cascade Falls" width="3264" height="2448" %}
 
-{% include img.html src="2014-08-10-cascade-falls-3.jpg" alt="Cascade Falls" %}
+{% include img.html src="2014-08-10-cascade-falls-3.jpg" alt="Cascade Falls" width="2448" height="3264" %}
 
-{% include img.html src="2014-08-10-cascade-falls-4.jpg" class="img-thirds" alt="Cascade Falls" %}
+{% include img.html src="2014-08-10-cascade-falls-4.jpg" class="img-thirds" alt="Cascade Falls" width="2448" height="3264" %}
 
-{% include img.html src="2014-08-10-cascade-falls-5.jpg" class="img-thirds" alt="Cascade Falls" %}
+{% include img.html src="2014-08-10-cascade-falls-5.jpg" class="img-thirds" alt="Cascade Falls" width="2448" height="3264" %}
 
-{% include img.html src="2014-08-10-cascade-falls-6.jpg" class="img-thirds" alt="Cascade Falls" %}
+{% include img.html src="2014-08-10-cascade-falls-6.jpg" class="img-thirds" alt="Cascade Falls" width="2448" height="3264" %}
 
-{% include img.html src="2014-08-10-cascade-falls-7.jpg" class="img-half" alt="Cascade Falls" %}
+{% include img.html src="2014-08-10-cascade-falls-7.jpg" class="img-half" alt="Cascade Falls" width="2448" height="3264" %}
 
-{% include img.html src="2014-08-10-cascade-falls-8.jpg" class="img-half" alt="Cascade Falls" %}
+{% include img.html src="2014-08-10-cascade-falls-8.jpg" class="img-half" alt="Cascade Falls" width="960" height="1280" %}
 
-{% include img.html src="2014-08-10-cascade-falls-0.jpg" alt="Cascade Falls" %}
+{% include img.html src="2014-08-10-cascade-falls-0.jpg" alt="Cascade Falls" width="3264" height="2448" %}
 
 </div>
 

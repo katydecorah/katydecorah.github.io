@@ -17,7 +17,7 @@ Here's what I made:
 ## Honey lavender
 
 <div class="photos">
-{% include img.html src="2018-07-16-summer-of-ice-cream-0.jpg" alt="honey lavender" %}
+{% include img.html src="2018-07-16-summer-of-ice-cream-0.jpg" alt="honey lavender" width="4032" height="3024" %}
 </div>
 
 [Honey lavender recipe](https://www.epicurious.com/recipes/food/views/honey-lavender-ice-cream-108526)
@@ -27,7 +27,7 @@ I followed the advice of a few commenters and used about half of the prescribed 
 ## Strawberry basil
 
 <div class="photos">
-{% include img.html src="2018-07-16-summer-of-ice-cream-1.jpg" alt="Strawberry basil" %}
+{% include img.html src="2018-07-16-summer-of-ice-cream-1.jpg" alt="Strawberry basil" width="4032" height="3024" %}
 </div>
 
 [Strawberry basil recipe](https://www.finecooking.com/recipe/strawberry-basil-ice-cream)
@@ -37,7 +37,7 @@ No deviations or recommendations. This recipe was 👌.
 ## Toasted almond and cherry swirl
 
 <div class="photos">
-{% include img.html src="2018-07-16-summer-of-ice-cream-2.jpg" alt="Toasted almond and cherry swirl" %}
+{% include img.html src="2018-07-16-summer-of-ice-cream-2.jpg" alt="Toasted almond and cherry swirl" width="3772" height="2829" %}
 </div>
 
 I borrowed bits from two recipes: [Toasted almond recipe](https://cooking.nytimes.com/recipes/1016628-almond-ice-cream) and [cherry swirl recipe](https://www.williams-sonoma.com/recipe/raspberry-swirl-ice-cream.html)
@@ -47,7 +47,7 @@ I recommend not mixing the caramelized toasted almonds into the batter and inste
 ## Blueberry vanilla and lemon curd ripple
 
 <div class="photos">
-{% include img.html src="2018-07-16-summer-of-ice-cream-3.jpg" alt="Blueberry vanilla and lemon curd ripple" %}
+{% include img.html src="2018-07-16-summer-of-ice-cream-3.jpg" alt="Blueberry vanilla and lemon curd ripple" width="4032" height="3024" %}
 </div>
 
 Again, I borrowed from two recipes: [Blueberry recipe](https://cooking.nytimes.com/recipes/4730-blueberry-ice-cream) and [lemon curd recipe](http://thepioneerwoman.com/food-and-friends/lemon-curd-ripple-ice-cream/)

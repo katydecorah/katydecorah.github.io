@@ -13,14 +13,14 @@ image: 2013-08-24-palmertown-mountain-range-0.jpg
 We woke up early and drove up to Moreau Lake State Park for a hike.
 
 <div class="photos">
-{% include img.html alt="Moreau Lake State Park Map" src="2013-08-24-palmertown-mountain-range-1.png" %}
+{% include img.html alt="Moreau Lake State Park Map" src="2013-08-24-palmertown-mountain-range-1.png" width="1315" height="695" %}
 </div>
 
 We parked on Spier Falls road, at the bottom of the map just before where the Hudson River curls. We took the Western Ridge (WR) trail, or yellow trail for a majority of the hike. This trail has several scenic overlooks as marked by stars on the map.
 
 <div class="photos">
 
-{% include img.html src="2013-08-24-palmertown-mountain-range-2.jpg"  alt="Palmertown Mountain Range" %}
+{% include img.html src="2013-08-24-palmertown-mountain-range-2.jpg"  alt="Palmertown Mountain Range" width="3264" height="2448" %}
 
 </div>
 
@@ -28,7 +28,7 @@ The first scenic overlook (and our favorite):
 
 <div class="photos">
 
-{% include img.html src="2013-08-24-palmertown-mountain-range-0.jpg"  alt="Palmertown Mountain Range" class="pop-out" %}
+{% include img.html src="2013-08-24-palmertown-mountain-range-0.jpg"  alt="Palmertown Mountain Range" class="pop-out" width="3264" height="2448" %}
 
 </div>
 
@@ -36,9 +36,9 @@ The next stop was the overlook of the Spier Falls Dam:
 
 <div class="photos">
 
-{% include img.html src="2013-08-24-palmertown-mountain-range-3.jpg" class="img-thirds" alt="Palmertown Mountain Range" %}
-{% include img.html src="2013-08-24-palmertown-mountain-range-4.jpg" class="img-thirds" alt="Palmertown Mountain Range" %}
-{% include img.html src="2013-08-24-palmertown-mountain-range-5.jpg" class="img-thirds" alt="Palmertown Mountain Range" %}
+{% include img.html src="2013-08-24-palmertown-mountain-range-3.jpg" class="img-thirds" alt="Palmertown Mountain Range" width="3264" height="2448" %}
+{% include img.html src="2013-08-24-palmertown-mountain-range-4.jpg" class="img-thirds" alt="Palmertown Mountain Range" width="3264" height="2448" %}
+{% include img.html src="2013-08-24-palmertown-mountain-range-5.jpg" class="img-thirds" alt="Palmertown Mountain Range" width="3264" height="2448" %}
 
 </div>
 
@@ -46,9 +46,9 @@ We hiked up to where the yellow and orange trails meet at point 7. We then doubl
 
 <div class="photos">
 
-{% include img.html src="2013-08-24-palmertown-mountain-range-6.jpg" class="img-thirds" alt="Palmertown Mountain Range" %}
-{% include img.html src="2013-08-24-palmertown-mountain-range-7.jpg" class="img-thirds" alt="Palmertown Mountain Range" %}
-{% include img.html src="2013-08-24-palmertown-mountain-range-8.jpg" class="img-thirds" alt="Palmertown Mountain Range" %}
+{% include img.html src="2013-08-24-palmertown-mountain-range-6.jpg" class="img-thirds" alt="Palmertown Mountain Range" width="3264" height="2448" %}
+{% include img.html src="2013-08-24-palmertown-mountain-range-7.jpg" class="img-thirds" alt="Palmertown Mountain Range" width="3264" height="2448" %}
+{% include img.html src="2013-08-24-palmertown-mountain-range-8.jpg" class="img-thirds" alt="Palmertown Mountain Range" width="3264" height="2448" %}
 
 </div>
 
@@ -56,6 +56,6 @@ The weather was perfect and the overlooks were gorgeous, but the terrain was exh
 
 <div class="photos">
 
-{% include img.html src="2013-08-24-palmertown-mountain-range-9.jpg"  alt="Palmertown Mountain Range" %}
+{% include img.html src="2013-08-24-palmertown-mountain-range-9.jpg"  alt="Palmertown Mountain Range" width="3264" height="2448" %}
 
 </div>

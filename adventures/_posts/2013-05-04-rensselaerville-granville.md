@@ -14,8 +14,8 @@ image: 2013-05-04-rensselaerville-granville-0.jpg
 
 <div class="photos">
 
-{% include img.html src="2013-05-04-rensselaerville-granville-1.jpg" class="img-wide" alt="2013-05-04 11.28.50-1" %}
-{% include img.html src="2013-05-04-rensselaerville-granville-0.jpg" class="img-tall" alt="2013-05-04 11.23.37-1" %}
+{% include img.html src="2013-05-04-rensselaerville-granville-1.jpg" class="img-wide" alt="2013-05-04 11.28.50-1" width="3264" height="2448" %}
+{% include img.html src="2013-05-04-rensselaerville-granville-0.jpg" class="img-tall" alt="2013-05-04 11.23.37-1" width="2448" height="3264" %}
 
 </div>
 
@@ -23,6 +23,6 @@ image: 2013-05-04-rensselaerville-granville-0.jpg
 
 <div class="photos">
 
-{% include img.html src="2013-05-04-rensselaerville-granville-2.jpg" alt="2013-05-05 13.56.33" %}
+{% include img.html src="2013-05-04-rensselaerville-granville-2.jpg" alt="2013-05-05 13.56.33" width="3264" height="2448" %}
 
 </div>

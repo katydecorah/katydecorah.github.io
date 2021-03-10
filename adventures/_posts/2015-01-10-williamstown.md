@@ -12,11 +12,11 @@ Or, how we beat cabin fever by fleeing cold New York for cold Massachusetts for 
 
 <div class="photos">
 
-{% include img.html src="2015-01-10-williamstown-1.jpg" class="img-thirds" alt="Williamstown" %}
+{% include img.html src="2015-01-10-williamstown-1.jpg" class="img-thirds" alt="Williamstown" width="2448" height="3264" %}
 
-{% include img.html src="2015-01-10-williamstown-2.jpg" class="img-thirds" alt="Williamstown" %}
+{% include img.html src="2015-01-10-williamstown-2.jpg" class="img-thirds" alt="Williamstown" width="2448" height="3264" %}
 
-{% include img.html src="2015-01-10-williamstown-3.jpg" class="img-thirds" alt="Williamstown" %}
+{% include img.html src="2015-01-10-williamstown-3.jpg" class="img-thirds" alt="Williamstown" width="2448" height="3264" %}
 
 </div>
 

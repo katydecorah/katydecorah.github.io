@@ -18,7 +18,7 @@ This weekend I visited my friend Becky in Lake Placid. We woke up early on Satur
 
 <div class="photos">
 
-{% include img.html src="2013-10-14-mount-baker-1.jpg" class="pop-out" alt="Mount Baker" %}
+{% include img.html src="2013-10-14-mount-baker-1.jpg" class="pop-out" alt="Mount Baker" width="3264" height="2448" %}
 
 </div>
 
@@ -26,10 +26,10 @@ This weekend I visited my friend Becky in Lake Placid. We woke up early on Satur
 
 <div class="photos">
 
-{% include img.html src="2013-10-14-mount-baker-2.jpg" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-3.jpg" class="img-thirds" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-4.jpg" class="img-thirds" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-5.jpg" class="img-thirds" alt="Mount Baker" %}
+{% include img.html src="2013-10-14-mount-baker-2.jpg" alt="Mount Baker" width="3264" height="2448" %}
+{% include img.html src="2013-10-14-mount-baker-3.jpg" class="img-thirds" alt="Mount Baker" width="2448" height="3264" %}
+{% include img.html src="2013-10-14-mount-baker-4.jpg" class="img-thirds" alt="Mount Baker" width="2448" height="3264" %}
+{% include img.html src="2013-10-14-mount-baker-5.jpg" class="img-thirds" alt="Mount Baker" width="2448" height="3264" %}
 
 </div>
 
@@ -39,14 +39,14 @@ Amazing view! There were so many lady bugs at the top of the mountain that we we
 
 <div class="photos">
 
-{% include img.html src="2013-10-14-mount-baker-6.jpg" class="img-thirds" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-7.jpg" class="img-thirds" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-8.jpg" class="img-thirds" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-9.jpg" class="img-half" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-0.jpg" class="img-half" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-10.jpg" class="pop-out" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-11.jpg" class="img-half" alt="Mount Baker" %}
-{% include img.html src="2013-10-14-mount-baker-12.jpg" class="img-half" alt="Mount Baker" %}
+{% include img.html src="2013-10-14-mount-baker-6.jpg" class="img-thirds" alt="Mount Baker" width="3264" height="2448" %}
+{% include img.html src="2013-10-14-mount-baker-7.jpg" class="img-thirds" alt="Mount Baker" width="3264" height="2448" %}
+{% include img.html src="2013-10-14-mount-baker-8.jpg" class="img-thirds" alt="Mount Baker" width="3264" height="2448" %}
+{% include img.html src="2013-10-14-mount-baker-9.jpg" class="img-half" alt="Mount Baker" width="2448" height="3264" %}
+{% include img.html src="2013-10-14-mount-baker-0.jpg" class="img-half" alt="Mount Baker" width="2448" height="3264" %}
+{% include img.html src="2013-10-14-mount-baker-10.jpg" class="pop-out" alt="Mount Baker" width="3264" height="1183" %}
+{% include img.html src="2013-10-14-mount-baker-11.jpg" class="img-half" alt="Mount Baker" width="2448" height="3264" %}
+{% include img.html src="2013-10-14-mount-baker-12.jpg" class="img-half" alt="Mount Baker" width="2448" height="3264" %}
 
 </div>
 
@@ -56,7 +56,7 @@ Sunday morning Becky and I did a lap of Mirror Lake.
 
 <div class="photos">
 
-{% include img.html src="2013-10-14-mount-baker-13.jpg" class="pop-out" alt="Untitled" %}
+{% include img.html src="2013-10-14-mount-baker-13.jpg" class="pop-out" alt="Untitled" width="3264" height="2448" %}
 
 </div>
 

@@ -13,5 +13,5 @@ In the [repository's README](https://github.com/katydecorah/instagram-rss-action
 The action also has an option to remove hashtags and emoji to help make each post easier to read in RSS.
 
 <div class="photos">
-{% include img.html alt="" src="2021-02-27-instagram-rss-action.png" %}
+{% include img.html alt="" src="2021-02-27-instagram-rss-action.png" width="2150" height="1316" %}
 </div>

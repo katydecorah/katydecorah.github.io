@@ -9,8 +9,8 @@ coordinates:
 ---
 
 <div class="photos">
-{% include img.html src="2015-07-05-round-lake-preserve-0.jpg" alt="Round Lake Preserve" %}
-{% include img.html src="2015-07-05-round-lake-preserve-1.jpg" class="img-thirds" alt="Round Lake Preserve" %}
-{% include img.html src="2015-07-05-round-lake-preserve-2.jpg" class="img-thirds" alt="Round Lake Preserve" %}
-{% include img.html src="2015-07-05-round-lake-preserve-3.jpg" class="img-thirds" alt="Round Lake Preserve" %}
+{% include img.html src="2015-07-05-round-lake-preserve-0.jpg" alt="Round Lake Preserve" width="3264" height="2448" %}
+{% include img.html src="2015-07-05-round-lake-preserve-1.jpg" class="img-thirds" alt="Round Lake Preserve" width="3264" height="2448" %}
+{% include img.html src="2015-07-05-round-lake-preserve-2.jpg" class="img-thirds" alt="Round Lake Preserve" width="3264" height="2448" %}
+{% include img.html src="2015-07-05-round-lake-preserve-3.jpg" class="img-thirds" alt="Round Lake Preserve" width="3264" height="2448" %}
 </div>

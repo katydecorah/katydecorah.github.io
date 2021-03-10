@@ -9,7 +9,7 @@ tags:
 After working on a feedback feature for Mapbox's documentation sites, I started collecting screenshots of how other companies offer user feedback. I decided to build a site to store them all: [Feedback Library](https://doublegreat.dev/feedback-library/)
 
 <div class="photos">
-{% include img.html src="2020-07-05-feedback-library.png" alt="" %}
+{% include img.html src="2020-07-05-feedback-library.png" alt="" width="2428" height="1478" %}
 </div>
 
 The library includes feedback features for technical documentation and product. Each post includes screenshots of the feature, explores available options, and describes the experience.

@@ -12,16 +12,16 @@ The trail was a sheet of ice, but a pretty sheet of ice.
 
 <div class="photos">
 
-{% include img.html src="2015-01-24-frozen-papscanee-preserve-1.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-01-24-frozen-papscanee-preserve-1.jpg" class="img-half" alt="untitled" width="2448" height="3264" %}
 
-{% include img.html src="2015-01-24-frozen-papscanee-preserve-2.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-01-24-frozen-papscanee-preserve-2.jpg" class="img-half" alt="untitled" width="2448" height="3264" %}
 
-{% include img.html src="2015-01-24-frozen-papscanee-preserve-0.jpg"  alt="untitled" %}
+{% include img.html src="2015-01-24-frozen-papscanee-preserve-0.jpg"  alt="untitled" width="2448" height="3264" %}
 
-{% include img.html src="2015-01-24-frozen-papscanee-preserve-3.jpg" alt="untitled" %}
+{% include img.html src="2015-01-24-frozen-papscanee-preserve-3.jpg" alt="untitled" width="3264" height="2448" %}
 
-{% include img.html src="2015-01-24-frozen-papscanee-preserve-4.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-01-24-frozen-papscanee-preserve-4.jpg" class="img-half" alt="untitled" width="2448" height="3264" %}
 
-{% include img.html src="2015-01-24-frozen-papscanee-preserve-5.jpg" class="img-half" alt="untitled" %}
+{% include img.html src="2015-01-24-frozen-papscanee-preserve-5.jpg" class="img-half" alt="untitled" width="2448" height="3264" %}
 
 </div>

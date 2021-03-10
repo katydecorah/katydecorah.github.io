@@ -17,9 +17,9 @@ On the way home, I visited my folks. Mom took me to a spot not far from home cal
 I also filled my pockets with felled mini hemlock pine cones. Free craft materials!
 
 <div class="photos">
-{% include img.html src="2013-08-04-lake-placid-potters-point-1.jpg" class="img-fourths" alt="Potter's Point" %}
-{% include img.html src="2013-08-04-lake-placid-potters-point-2.jpg" class="img-fourths" alt="Potter's Point" %}
-{% include img.html src="2013-08-04-lake-placid-potters-point-3.jpg" class="img-fourths" alt="Potter's Point" %}
-{% include img.html src="2013-08-04-lake-placid-potters-point-4.jpg" class="img-fourths" alt="Potter's Point" %}
-{% include img.html src="2013-08-04-lake-placid-potters-point-5.jpg" alt="Potter's Point" %}
+{% include img.html src="2013-08-04-lake-placid-potters-point-1.jpg" class="img-fourths" alt="Potter's Point" width="2448" height="3264" %}
+{% include img.html src="2013-08-04-lake-placid-potters-point-2.jpg" class="img-fourths" alt="Potter's Point" width="2448" height="3264" %}
+{% include img.html src="2013-08-04-lake-placid-potters-point-3.jpg" class="img-fourths" alt="Potter's Point" width="2448" height="3264" %}
+{% include img.html src="2013-08-04-lake-placid-potters-point-4.jpg" class="img-fourths" alt="Potter's Point" width="2448" height="3264" %}
+{% include img.html src="2013-08-04-lake-placid-potters-point-5.jpg" alt="Potter's Point" width="3264" height="2448" %}
 </div>

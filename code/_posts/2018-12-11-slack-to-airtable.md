@@ -20,7 +20,7 @@ The best part is that it's built on a few of my favorite tools:
 - [Zapier](https://zapier.com) triggers the daily post.
 
 <div class="photos">
-{% include img.html src='2018-12-11-airtable-to-slack-1.png' alt="Slack messages from Quiggles: Would you accept $1 million today (tax free) if it meant that you forevermore have a 50/50 chance of mixing up salt and sugar in a recipe?" %}
+{% include img.html src='2018-12-11-airtable-to-slack-1.png' alt="Slack messages from Quiggles: Would you accept $1 million today (tax free) if it meant that you forevermore have a 50/50 chance of mixing up salt and sugar in a recipe?" width="1600" height="400" %}
 </div>
 
 Check out the [README on Glitch](https://glitch.com/edit/#!/quiggles?path=README.md:1:0) to learn how I set up each service for the app.

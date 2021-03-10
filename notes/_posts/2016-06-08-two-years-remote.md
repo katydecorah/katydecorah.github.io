@@ -15,5 +15,5 @@ Last year, I talked about [lessons learned](/notes/one-year-remote/) and this ye
 5. **Use these phrases more:** How are you? What are you doing this weekend? Thank you! You are welcome. I'm sorry, I made a mistake. What can I take off your plate? I need help. Great job!
 
 <div class="photos">
-{% include img.html src="2016-06-08-two-years-remote-1.jpg" alt="my office" %}
+{% include img.html src="2016-06-08-two-years-remote-1.jpg" alt="my office" width="4032" height="3024" %}
 </div>

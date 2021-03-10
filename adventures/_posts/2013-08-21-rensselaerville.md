@@ -13,6 +13,6 @@ A nice after work drive to shoot star photos, but the moon was too bright.
 
 <div class="photos">
 
-{% include img.html src="2013-08-21-rensselaerville-1.jpg" class="pop-out" alt="Rensselaerville, NY" %}
+{% include img.html src="2013-08-21-rensselaerville-1.jpg" class="pop-out" alt="Rensselaerville, NY" width="3264" height="2448" %}
 
 </div>

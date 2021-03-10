@@ -25,24 +25,24 @@ Here are some features to look for when choosing your Airbnb venue:
 - fun amenities (hot tub, sauna, hiking trails)
 
 <div class="photos">
-{% include img.html src="2016-10-01-get-married-airbnb-1.jpg" class="img-half" alt="house" %}
-{% include img.html src="2016-10-01-get-married-airbnb-2.jpg" class="img-half" alt="view" %}
+{% include img.html src="2016-10-01-get-married-airbnb-1.jpg" class="img-half" alt="house" width="5760" height="3840" %}
+{% include img.html src="2016-10-01-get-married-airbnb-2.jpg" class="img-half" alt="view" width="5760" height="3840" %}
 </div>
 
 ## 3. Tell your hosts you're getting married
 
 We were up front with our hosts about our intentions, and they were supportive all along the way.
 
-{% include img.html src="2016-10-01-get-married-airbnb-10.png" class="img-half" alt="airbnb message" %}
+{% include img.html src="2016-10-01-get-married-airbnb-10.png" class="img-half" alt="airbnb message" width="689" height="553" %}
 
 ## 4. Book vendors early and always choose tacos
 
 We found that traditional wedding caterers had a small fee for their services which didn't scale well with our small wedding. We ended up going with a local restaurant, [Gringo Jack's](http://gringojacks.com/), who brought us a fantastic taco bar. We found our officiant on [Wedding Wire](https://www.weddingwire.com/), the [photographer](http://www.lauraandreaharris.com/) from browsing Instagram, and the [cake bakery](https://www.mothermyricks.com/), [hair stylists](http://thehairretreat.com/), and [florist](http://bondvillebloomist.com/) were also local to the area.
 
 <div class="photos">
-{% include img.html src="2016-10-01-get-married-airbnb-0.jpg" class="img-half" alt="cake" %}
-{% include img.html src="2016-10-01-get-married-airbnb-3.jpg" class="img-half" alt="dinner" %}
-{% include img.html src="2016-10-01-get-married-airbnb-4.jpg" alt="taco bout love" %}
+{% include img.html src="2016-10-01-get-married-airbnb-0.jpg" class="img-half" alt="cake" width="5760" height="3840" %}
+{% include img.html src="2016-10-01-get-married-airbnb-3.jpg" class="img-half" alt="dinner" width="5760" height="3840" %}
+{% include img.html src="2016-10-01-get-married-airbnb-4.jpg" alt="taco bout love" width="5760" height="3840" %}
 </div>
 
 (I custom ordered the bibs on [Etsy](https://www.etsy.com/shop/SipHipHooray)! The y ended up being really cute and made everyone laugh.)
@@ -68,7 +68,7 @@ We created a ~~rdio~~ [Spotify playlist](https://open.spotify.com/user/katydecor
 We wanted a wedding arch to frame our ceremony space and make it feel more intimate. We also needed something that was easy to break down and assemble. We ended up buying &frac34;" black pipe from the hardware store and used stakes to keep it sturdy. The florist hung flowers to pull it all together.
 
 <div class="photos">
-{% include img.html src="2016-10-01-get-married-airbnb-5.jpg" alt="arch" %}
+{% include img.html src="2016-10-01-get-married-airbnb-5.jpg" alt="arch" width="3840" height="5760" %}
 </div>
 
 ## 10. Bring place settings
@@ -76,9 +76,9 @@ We wanted a wedding arch to frame our ceremony space and make it feel more intim
 We weren't sure what the Airbnb would have stocked in the kitchen, so we picked up [pretty paper and utensil supplies](https://harlowandgrey.com/collections/goddess), [fancy napkins](http://amzn.to/2cEPtJE), and [recyclable champagne flutes](http://amzn.to/2cF3geA).
 
 <div class="photos">
-{% include img.html src="2016-10-01-get-married-airbnb-6.jpg" class="img-half" alt="table" %}
-{% include img.html src="2016-10-01-get-married-airbnb-7.jpg" class="img-half" alt="table" %}
-{% include img.html src="2016-10-01-get-married-airbnb-8.jpg" alt="table" %}
+{% include img.html src="2016-10-01-get-married-airbnb-6.jpg" class="img-half" alt="table" width="5760" height="3840" %}
+{% include img.html src="2016-10-01-get-married-airbnb-7.jpg" class="img-half" alt="table" width="5760" height="3840" %}
+{% include img.html src="2016-10-01-get-married-airbnb-8.jpg" alt="table" width="5760" height="3840" %}
 </div>
 
 Ok, I bought a ton of other stuff, too:
@@ -91,7 +91,7 @@ Ok, I bought a ton of other stuff, too:
 - Copper [mugs](http://amzn.to/2dq4vyZ), [pitcher](http://www.potterybarn.com/products/copper-cocktail-pitcher/), [bar spoon](http://amzn.to/2daXach), and [jigger](http://amzn.to/2daXach)
 
 <div class="photos">
-{% include img.html src="2016-10-01-get-married-airbnb-9.jpg" alt="yay" %}
+{% include img.html src="2016-10-01-get-married-airbnb-9.jpg" alt="yay" width="5760" height="3840" %}
 </div>
 
 It was a really good day.

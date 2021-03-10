@@ -6,16 +6,16 @@ image: 2020-11-28-gbbo-cake.jpg
 I baked along with series 11 of the Great British Bake Off.
 
 <div class="photos">
-{% include img.html class="img-half" src="2020-11-28-gbbo-cake.jpg" alt="Raspberry-Mochi Butter Cake With Matcha Glaze" %}
-{% include img.html class="img-half" src="2020-11-28-gbbo-biscuits.jpg" alt="Viennese Whirls" %}
-{% include img.html class="img-half" src="2020-11-28-gbbo-bread.jpg" alt="Pumpkin Maple Cornbread" %}
-{% include img.html class="img-half" src="2020-11-28-gbbo-chocolate.jpg" alt="[Chocolate Peanut Butter Cups" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-pastry.jpg" alt="Chocolate éclairs" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-japanese.jpg" alt="Purin (Custard Pudding)" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-trifle.jpg" alt="Olde English Trifle" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-desserts.jpg" alt="Lemon Meringue Bars With Poppy Seed Crust" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-patisserie.jpg" alt="Foolproof Tarte Tatin" %}
-{% include img.html  class="img-half" src="2020-11-28-gbbo-creme.jpg" alt="Vanilla Crème Brûlée" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-cake.jpg" alt="Raspberry-Mochi Butter Cake With Matcha Glaze" width="4032" height="3024" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-biscuits.jpg" alt="Viennese Whirls" width="4032" height="3024" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-bread.jpg" alt="Pumpkin Maple Cornbread" width="4032" height="3024" %}
+{% include img.html class="img-half" src="2020-11-28-gbbo-chocolate.jpg" alt="[Chocolate Peanut Butter Cups" width="4032" height="3024" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-pastry.jpg" alt="Chocolate éclairs" width="4032" height="3024" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-japanese.jpg" alt="Purin (Custard Pudding)" width="4032" height="3024" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-trifle.jpg" alt="Olde English Trifle" width="3780" height="2835" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-desserts.jpg" alt="Lemon Meringue Bars With Poppy Seed Crust" width="4032" height="3024" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-patisserie.jpg" alt="Foolproof Tarte Tatin" width="4032" height="3024" %}
+{% include img.html  class="img-half" src="2020-11-28-gbbo-creme.jpg" alt="Vanilla Crème Brûlée" width="4032" height="3024" %}
 </div>
 
 1. Cake. [Raspberry-Mochi Butter Cake With Matcha Glaze](https://cooking.nytimes.com/recipes/1020337-raspberry-mochi-butter-cake-with-matcha-glaze) recipe from Margarita Manzke and Betty Hallock, adapted by Alexa Weibel.
