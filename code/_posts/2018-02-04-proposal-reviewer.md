@@ -29,7 +29,7 @@ To help automate the process, I [wrote a script](https://github.com/katydecorah/
 
 Below is a (highly) redacted example of a talk proposal with a 5 :+1: rating and a "favorite" label adhered by the bot!
 
-{% include img.html src='2018-02-04-proposal-reviewer-1.jpg' alt='screenshot of GitHub issue' class='img-full' %}
+{% include img.html src='2018-02-04-proposal-reviewer-1.jpg' alt='screenshot of GitHub issue' class='img-full' width='1600' height='1179' %}
 
 The system and script worked well for a small-scale (receiving around 200 proposals) conference that needed an asynchronous review period. We used labels to help organize the different types of proposals we received and left comments based on what we thought about the talk.
 

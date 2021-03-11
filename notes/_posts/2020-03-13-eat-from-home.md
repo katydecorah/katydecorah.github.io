@@ -6,7 +6,7 @@ image: 2020-03-13-eat-from-home.jpg
 I’ve been meal prepping for as long as I’ve worked remotely (almost 6 years). I started with batches of chili, next burrito bowls, then butter chicken. During the week, it's an incredible convenience and comfort to have a hot meal a few minutes away.
 
 <div class='photos'>
-{% include img.html src="2020-03-13-eat-from-home.jpg" alt="Chickpea Tagine With Chicken and Apricots" class="img-full" %}
+{% include img.html src="2020-03-13-eat-from-home.jpg" alt="Chickpea Tagine With Chicken and Apricots" class="img-full" width="1600" height="1143" %}
 </div>
 
 Here are my tips for planning meals.

@@ -16,8 +16,8 @@ I read a book, we watched movies, we cooked, and we hiked.
 
 <div class="photos">
 
-{% include img.html src="2014-02-02-wells-weekend-0.jpg" class="img-half" alt="Wells, NY" %}
-{% include img.html src="2014-02-02-wells-weekend-1.jpg" class="img-half" alt="Wells, NY" %}
+{% include img.html src="2014-02-02-wells-weekend-0.jpg" class="img-half" alt="Wells, NY" width="1600" height="2133" %}
+{% include img.html src="2014-02-02-wells-weekend-1.jpg" class="img-half" alt="Wells, NY" width="1600" height="2133" %}
 
 </div>
 
@@ -25,15 +25,15 @@ I made an apple dutch baby.
 
 <div class="photos">
 
-{% include img.html src="2014-02-02-wells-weekend-2.jpg" alt="Wells, NY" %}
+{% include img.html src="2014-02-02-wells-weekend-2.jpg" alt="Wells, NY" width="1600" height="2133" %}
 
-{% include img.html src="2014-02-02-wells-weekend-3.jpg" class="img-wide" alt="Wells, NY" %}
-{% include img.html src="2014-02-02-wells-weekend-4.jpg" class="img-tall" alt="Wells, NY" %}
+{% include img.html src="2014-02-02-wells-weekend-3.jpg" class="img-wide" alt="Wells, NY" width="1600" height="1200" %}
+{% include img.html src="2014-02-02-wells-weekend-4.jpg" class="img-tall" alt="Wells, NY" width="1600" height="2133" %}
 
-{% include img.html src="2014-02-02-wells-weekend-5.jpg" alt="Wells, NY" %}
+{% include img.html src="2014-02-02-wells-weekend-5.jpg" alt="Wells, NY" width="1600" height="2133" %}
 
-{% include img.html src="2014-02-02-wells-weekend-6.jpg" class="img-tall" alt="Wells, NY" %}
-{% include img.html src="2014-02-02-wells-weekend-7.jpg" class="img-wide" alt="Wells, NY" %}
+{% include img.html src="2014-02-02-wells-weekend-6.jpg" class="img-tall" alt="Wells, NY" width="1600" height="2133" %}
+{% include img.html src="2014-02-02-wells-weekend-7.jpg" class="img-wide" alt="Wells, NY" width="1600" height="1200" %}
 
 </div>
 
@@ -41,7 +41,7 @@ We had an awesome lunch at the Timberline Café in Speculator.
 
 <div class="photos">
 
-{% include img.html src="2014-02-02-wells-weekend-8.jpg" class="pop-out" alt="Wells, NY" %}
+{% include img.html src="2014-02-02-wells-weekend-8.jpg" class="pop-out" alt="Wells, NY" width="1600" height="390" %}
 
 </div>
 

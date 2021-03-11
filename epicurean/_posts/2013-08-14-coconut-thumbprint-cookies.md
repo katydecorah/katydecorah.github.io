@@ -7,8 +7,8 @@ recipe-title: Coconut thumbprint cookies with salted caramel
 ---
 
 <div class="photos">
-{% include img.html src="2013-08-14-coconut-thumbprint-cookies-1.jpg" class="img-thirds" alt="Coconut thumbprint cookies with salted caramel." %}
-{% include img.html src="2013-08-14-coconut-thumbprint-cookies-2.jpg" class="img-thirds" alt="Coconut thumbprint cookies with salted caramel." %}
-{% include img.html src="2013-08-14-coconut-thumbprint-cookies-3.jpg" class="img-thirds" alt="Coconut thumbprint cookies with salted caramel." %}
-{% include img.html src="2013-08-14-coconut-thumbprint-cookies-4.jpg"  alt="Coconut thumbprint cookies with salted caramel." %}
+{% include img.html src="2013-08-14-coconut-thumbprint-cookies-1.jpg" class="img-thirds" alt="Coconut thumbprint cookies with salted caramel." width="1600" height="1200" %}
+{% include img.html src="2013-08-14-coconut-thumbprint-cookies-2.jpg" class="img-thirds" alt="Coconut thumbprint cookies with salted caramel." width="1600" height="1200" %}
+{% include img.html src="2013-08-14-coconut-thumbprint-cookies-3.jpg" class="img-thirds" alt="Coconut thumbprint cookies with salted caramel." width="1600" height="1200" %}
+{% include img.html src="2013-08-14-coconut-thumbprint-cookies-4.jpg"  alt="Coconut thumbprint cookies with salted caramel." width="1600" height="1200" %}
 </div>

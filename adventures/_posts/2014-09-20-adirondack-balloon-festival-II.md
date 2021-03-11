@@ -22,19 +22,19 @@ coordinates:
 
 <div class="photos">
 
-{% include img.html src="2014-09-20-adirondack-balloon-festival-II-1.jpg" class="img-wide" alt="Adirondack Balloon Festival 2014" %}
+{% include img.html src="2014-09-20-adirondack-balloon-festival-II-1.jpg" class="img-wide" alt="Adirondack Balloon Festival 2014" width="1600" height="1200" %}
 
-{% include img.html src="2014-09-20-adirondack-balloon-festival-II-2.jpg" class="img-tall" alt="Adirondack Balloon Festival 2014" %}
+{% include img.html src="2014-09-20-adirondack-balloon-festival-II-2.jpg" class="img-tall" alt="Adirondack Balloon Festival 2014" width="1600" height="2133" %}
 
-{% include img.html src="2014-09-20-adirondack-balloon-festival-II-3.jpg" class="img-wide" alt="Adirondack Balloon Festival 2014" %}
+{% include img.html src="2014-09-20-adirondack-balloon-festival-II-3.jpg" class="img-wide" alt="Adirondack Balloon Festival 2014" width="1600" height="1200" %}
 
-{% include img.html src="2014-09-20-adirondack-balloon-festival-II-4.jpg" class="img-tall" alt="Elephant - Adirondack Balloon Festival 2014" %}
+{% include img.html src="2014-09-20-adirondack-balloon-festival-II-4.jpg" class="img-tall" alt="Elephant - Adirondack Balloon Festival 2014" width="1600" height="2133" %}
 
-{% include img.html src="2014-09-20-adirondack-balloon-festival-II-0.jpg" alt="Fire - Adirondack Balloon Festival 2014" %}
+{% include img.html src="2014-09-20-adirondack-balloon-festival-II-0.jpg" alt="Fire - Adirondack Balloon Festival 2014" width="1600" height="2133" %}
 
-{% include img.html src="2014-09-20-adirondack-balloon-festival-II-5.jpg"  alt="Pano - Adirondack Balloon Festival 2014" %}
+{% include img.html src="2014-09-20-adirondack-balloon-festival-II-5.jpg"  alt="Pano - Adirondack Balloon Festival 2014" width="1600" height="375" %}
 
-{% include img.html src="2014-09-20-adirondack-balloon-festival-II-6.jpg"  alt="Pano - Adirondack Balloon Festival 2014" %}
+{% include img.html src="2014-09-20-adirondack-balloon-festival-II-6.jpg"  alt="Pano - Adirondack Balloon Festival 2014" width="1600" height="846" %}
 
 </div>
 

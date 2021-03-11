@@ -15,7 +15,7 @@ miles: 2
 
 <div class="photos">
 
-{% include img.html src="2014-10-26-great-dune-0.jpg"  alt="Pine Bush" class="img-wide" %}
-{% include img.html src="2014-10-26-great-dune-1.jpg" class="img-tall" alt="Pine Bush" %}
+{% include img.html src="2014-10-26-great-dune-0.jpg"  alt="Pine Bush" class="img-wide" width="1600" height="1200" %}
+{% include img.html src="2014-10-26-great-dune-1.jpg" class="img-tall" alt="Pine Bush" width="1600" height="2133" %}
 
 </div>

@@ -22,10 +22,10 @@ While `$fontSize` controls the size of the number and ultimately adjusts the siz
 
 The awards are all styled the same, but `.ribbon` and `.badge` give different styles for the pseudo elements. I dreamt up the ribbon tails for `.ribbon` quickly. I manipulated the border by styling a transparent `border-bottom-color`, which created two triangles for the ribbon tails. I added height to the element to elongate it into a ribbon. I created one tail out of each pseudo element.
 
-{% include img.html src='2014-01-03-flat-icon-by-bosco-0.png' alt='diagram of ribbon' class='img-half' %}
+{% include img.html src='2014-01-03-flat-icon-by-bosco-0.png' alt='diagram of ribbon' class='img-half' width='350' height='250' %}
 
 I started to sweat a little while creating the badge. I didn't think I had enough pseudo elements to achieve what looks like a hexagon. In the end, I managed to skimp on a side. I created a rectangle out of the `:before` and used a horizontal gradient to create the three stripes. Then I created a triangle out of the `:after`, but kept it solid colored. Luckily the medallion fit nice and snug up where the triangle and rectangle met.
 
-{% include img.html src='2014-01-03-flat-icon-by-bosco-1.png' alt='diagram of badge' class='img-half' %}
+{% include img.html src='2014-01-03-flat-icon-by-bosco-1.png' alt='diagram of badge' class='img-half' width='350' height='214' %}
 
 Can you tell that I got an iPad for Christmas?

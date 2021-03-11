@@ -15,18 +15,18 @@ This weekend we visited our families, ate a ton a food, and hiked to Kaaterskill
 
 <div class="photos">
 
-{% include img.html src="2014-09-01-kaaterskill-falls-1.jpg" class="img-half" alt="ice cream" %}
+{% include img.html src="2014-09-01-kaaterskill-falls-1.jpg" class="img-half" alt="ice cream" width="1600" height="2133" %}
 
-{% include img.html src="2014-09-01-kaaterskill-falls-2.jpg" class="img-half" alt="clams" %}
+{% include img.html src="2014-09-01-kaaterskill-falls-2.jpg" class="img-half" alt="clams" width="1600" height="2133" %}
 
-{% include img.html src="2014-09-01-kaaterskill-falls-3.jpg" alt="Kaaterskill Falls" %}
+{% include img.html src="2014-09-01-kaaterskill-falls-3.jpg" alt="Kaaterskill Falls" width="1600" height="1200" %}
 
-{% include img.html src="2014-09-01-kaaterskill-falls-4.jpg" class="img-half" alt="Kaaterskill Falls" %}
+{% include img.html src="2014-09-01-kaaterskill-falls-4.jpg" class="img-half" alt="Kaaterskill Falls" width="1600" height="2133" %}
 
-{% include img.html src="2014-09-01-kaaterskill-falls-5.jpg" class="img-half" alt="Kaaterskill Falls" %}
+{% include img.html src="2014-09-01-kaaterskill-falls-5.jpg" class="img-half" alt="Kaaterskill Falls" width="1600" height="2133" %}
 
-{% include img.html src="2014-09-01-kaaterskill-falls-6.jpg" class="img-half" alt="Kaaterskill Falls" %}
+{% include img.html src="2014-09-01-kaaterskill-falls-6.jpg" class="img-half" alt="Kaaterskill Falls" width="1600" height="2133" %}
 
-{% include img.html src="2014-09-01-kaaterskill-falls-0.jpg" class="img-half" alt="Kaaterskill Falls" %}
+{% include img.html src="2014-09-01-kaaterskill-falls-0.jpg" class="img-half" alt="Kaaterskill Falls" width="1600" height="2133" %}
 
 </div>

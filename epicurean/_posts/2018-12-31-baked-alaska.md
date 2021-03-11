@@ -13,9 +13,9 @@ Using Mary Berry's recipe as a template, my version includes Häagen-Dazs Vanill
 I'm glad that I added the Oreo layer and jam; both added welcomed textures and flavors.
 
 <div class="photos">
-{% include img.html src="2018-12-31-baked-alaska-0.jpg" alt="baked alaska" %}
-{% include img.html src="2018-12-31-baked-alaska-1.jpg" class='img-half' alt="baked alaska" %}
-{% include img.html src="2018-12-31-baked-alaska-2.jpg" class='img-half' alt="baked alaska" %}
+{% include img.html src="2018-12-31-baked-alaska-0.jpg" alt="baked alaska" width="1080" height="1079" %}
+{% include img.html src="2018-12-31-baked-alaska-1.jpg" class='img-half' alt="baked alaska" width="1080" height="1079" %}
+{% include img.html src="2018-12-31-baked-alaska-2.jpg" class='img-half' alt="baked alaska" width="1080" height="1079" %}
 </div>
 
 I had a lot of trouble with the genoise in Mary's recipe &mdash; I attempted 6 times. I ended up following [Laws of Baking's](http://lawsofbaking.com/genoise/) technical instructions and had great success.

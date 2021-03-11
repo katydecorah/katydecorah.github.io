@@ -20,13 +20,13 @@ Once the sun came up, the wind picked up. Crews unfolded balloons and brought th
 
 <div class="photos">
 
-{% include img.html src="2013-09-21-adirondack-balloon-festival-1.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-2.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-3.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-4.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-0.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-5.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-6.jpg" class="pop-out" alt="Adirondack Balloon Festival 2013" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-1.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-2.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-3.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-4.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-0.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-5.jpg" class="img-half" alt="Adirondack Balloon Festival 2013" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-6.jpg" class="pop-out" alt="Adirondack Balloon Festival 2013" width="1600" height="2133" %}
 
 </div>
 
@@ -38,9 +38,9 @@ We drove out to the Coldbrook Preserve in Wilton. The preserve has a few pleasan
 
 <div class="photos">
 
-{% include img.html src="2013-09-21-adirondack-balloon-festival-7.jpg" class="img-half" alt="Coldbrook Preserve" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-8.jpg" class="img-half" alt="Coldbrook Preserve" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-9.jpg" class="pop-out" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-7.jpg" class="img-half" alt="Coldbrook Preserve" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-8.jpg" class="img-half" alt="Coldbrook Preserve" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-9.jpg" class="pop-out" alt="Coldbrook Preserve" width="1600" height="1200" %}
 
 </div>
 
@@ -48,8 +48,8 @@ Adding to my collection of man-made things growing in trees.
 
 <div class="photos">
 
-{% include img.html src="2013-09-21-adirondack-balloon-festival-10.jpg" class="img-half" alt="Coldbrook Preserve" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-11.jpg" class="img-half" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-10.jpg" class="img-half" alt="Coldbrook Preserve" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-11.jpg" class="img-half" alt="Coldbrook Preserve" width="1600" height="1200" %}
 
 </div>
 
@@ -57,12 +57,12 @@ Stump vision.
 
 <div class="photos">
 
-{% include img.html src="2013-09-21-adirondack-balloon-festival-12.jpg" class="img-half" alt="Coldbrook Preserve" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-13.jpg" class="img-half" alt="Coldbrook Preserve" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-14.jpg" class="pop-out" alt="Coldbrook Preserve" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-15.jpg" class="img-half" alt="Coldbrook Preserve" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-16.jpg" class="img-half" alt="Coldbrook Preserve" %}
-{% include img.html src="2013-09-21-adirondack-balloon-festival-17.jpg" class="pop-out" alt="Coldbrook Preserve" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-12.jpg" class="img-half" alt="Coldbrook Preserve" width="1600" height="2133" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-13.jpg" class="img-half" alt="Coldbrook Preserve" width="1600" height="2133" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-14.jpg" class="pop-out" alt="Coldbrook Preserve" width="1600" height="1200" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-15.jpg" class="img-half" alt="Coldbrook Preserve" width="1600" height="2133" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-16.jpg" class="img-half" alt="Coldbrook Preserve" width="1600" height="2133" %}
+{% include img.html src="2013-09-21-adirondack-balloon-festival-17.jpg" class="pop-out" alt="Coldbrook Preserve" width="1600" height="1200" %}
 
 </div>
 

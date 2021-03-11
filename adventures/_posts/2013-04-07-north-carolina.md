@@ -27,7 +27,7 @@ My sister's cat terrifies me.
 
 <div class="photos">
 
-{% include img.html src="2013-04-07-north-carolina-1.jpg" alt="North Carolina 2013" %}
+{% include img.html src="2013-04-07-north-carolina-1.jpg" alt="North Carolina 2013" width="1600" height="1600" %}
 
 </div>
 
@@ -35,7 +35,7 @@ My sister's cat terrifies me.
 
 <div class="photos">
 
-{% include img.html src="2013-04-07-north-carolina-2.jpg" class="pop-out" alt="North Carolina 2013" %}
+{% include img.html src="2013-04-07-north-carolina-2.jpg" class="pop-out" alt="North Carolina 2013" width="1600" height="1600" %}
 
 </div>
 
@@ -43,7 +43,7 @@ My sister's cat terrifies me.
 
 <div class="photos">
 
-{% include img.html src="2013-04-07-north-carolina-3.jpg" alt="North Carolina 2013" %}
+{% include img.html src="2013-04-07-north-carolina-3.jpg" alt="North Carolina 2013" width="1600" height="1600" %}
 
 </div>
 
@@ -51,7 +51,7 @@ My sister's cat terrifies me.
 
 <div class="photos">
 
-{% include img.html src="2013-04-07-north-carolina-0.jpg" alt="North Carolina 2013" %}
+{% include img.html src="2013-04-07-north-carolina-0.jpg" alt="North Carolina 2013" width="1600" height="1600" %}
 
 </div>
 
@@ -61,7 +61,7 @@ We fed the trout!
 
 <div class="photos">
 
-{% include img.html src="2013-04-07-north-carolina-4.jpg" alt="North Carolina 2013" %}
+{% include img.html src="2013-04-07-north-carolina-4.jpg" alt="North Carolina 2013" width="1600" height="1600" %}
 
 </div>
 
@@ -69,7 +69,7 @@ We fed the trout!
 
 <div class="photos">
 
-{% include img.html src="2013-04-07-north-carolina-5.jpg" alt="North Carolina 2013" %}
+{% include img.html src="2013-04-07-north-carolina-5.jpg" alt="North Carolina 2013" width="1502" height="1502" %}
 
 </div>
 
@@ -77,7 +77,7 @@ We fed the trout!
 
 <div class="photos">
 
-{% include img.html src="2013-04-07-north-carolina-6.jpg"  alt="North Carolina 2013" %}
+{% include img.html src="2013-04-07-north-carolina-6.jpg"  alt="North Carolina 2013" width="1600" height="2133" %}
 
 </div>
 
@@ -85,7 +85,7 @@ We fed the trout!
 
 <div class="photos">
 
-{% include img.html src="2013-04-07-north-carolina-7.jpg"  alt="North Carolina 2013" %}
+{% include img.html src="2013-04-07-north-carolina-7.jpg"  alt="North Carolina 2013" width="1600" height="2133" %}
 
 </div>
 
@@ -95,6 +95,6 @@ My sister is a middle school science teacher, so we picked up these hissing Mada
 
 <div class="photos">
 
-{% include img.html src="2013-04-07-north-carolina-8.jpg" alt="North Carolina 2013" %}
+{% include img.html src="2013-04-07-north-carolina-8.jpg" alt="North Carolina 2013" width="1600" height="1600" %}
 
 </div>

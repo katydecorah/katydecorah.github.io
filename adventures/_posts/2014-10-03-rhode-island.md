@@ -15,18 +15,18 @@ Lobster rolls, ocean air, zoo animals, donuts, s'mores everything, and macaroons
 
 <div class="photos">
 
-{% include img.html src="2014-10-03-rhode-island-1.jpg" class="img-tall" alt="Newport &amp; Providence" %}
-{% include img.html src="2014-10-03-rhode-island-2.jpg" class="img-wide" alt="Lobster Roll" %}
+{% include img.html src="2014-10-03-rhode-island-1.jpg" class="img-tall" alt="Newport &amp; Providence" width="1600" height="2133" %}
+{% include img.html src="2014-10-03-rhode-island-2.jpg" class="img-wide" alt="Lobster Roll" width="1600" height="1200" %}
 
-{% include img.html src="2014-10-03-rhode-island-0.jpg" alt="Newport &amp; Providence" %}
+{% include img.html src="2014-10-03-rhode-island-0.jpg" alt="Newport &amp; Providence" width="1600" height="2133" %}
 
-{% include img.html src="2014-10-03-rhode-island-3.jpg" class="img-tall" alt="Newport &amp; Providence" %}
-{% include img.html src="2014-10-03-rhode-island-4.jpg" class="img-wide" alt="Newport &amp; Providence" %}
+{% include img.html src="2014-10-03-rhode-island-3.jpg" class="img-tall" alt="Newport &amp; Providence" width="1600" height="2133" %}
+{% include img.html src="2014-10-03-rhode-island-4.jpg" class="img-wide" alt="Newport &amp; Providence" width="1600" height="1200" %}
 
-{% include img.html src="2014-10-03-rhode-island-5.jpg" class="img-half" alt="Newport &amp; Providence" %}
-{% include img.html src="2014-10-03-rhode-island-6.jpg" class="img-half" alt="Newport &amp; Providence" %}
+{% include img.html src="2014-10-03-rhode-island-5.jpg" class="img-half" alt="Newport &amp; Providence" width="1600" height="2133" %}
+{% include img.html src="2014-10-03-rhode-island-6.jpg" class="img-half" alt="Newport &amp; Providence" width="1600" height="2133" %}
 
-{% include img.html src="2014-10-03-rhode-island-7.jpg" alt="Newport &amp; Providence" class="img-half" %}
-{% include img.html src="2014-10-03-rhode-island-8.jpg" alt="Newport &amp; Providence" class="img-half" %}
+{% include img.html src="2014-10-03-rhode-island-7.jpg" alt="Newport &amp; Providence" class="img-half" width="1600" height="2133" %}
+{% include img.html src="2014-10-03-rhode-island-8.jpg" alt="Newport &amp; Providence" class="img-half" width="1600" height="2133" %}
 
 </div>

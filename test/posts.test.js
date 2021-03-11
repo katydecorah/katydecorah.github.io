@@ -68,8 +68,7 @@ const permalinks = posts.reduce((prev, post) => {
 }, {});
 
 posts.forEach((post) => {
-  const file = readPost(post),
-    metadata = file.metadata;
+  const { metadata, content } = readPost(post);
 
   test(post, (t) => {
     t.equal(
@@ -114,6 +113,14 @@ posts.forEach((post) => {
         "object",
         "coordinates must be an object"
       );
+    }
+
+    const hasImage = content.match(/`?{%\s?include img.html(.*)\s?%}`?/gim);
+    if (hasImage && hasImage.length > 0) {
+      hasImage.forEach((image) => {
+        if (!image.startsWith("`"))
+          t.ok(image.includes("width"), `image must have width and height`);
+      });
     }
 
     if (metadata.organizations) {

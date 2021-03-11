@@ -14,7 +14,7 @@ Traveled up to Lake Placid for the weekend with a college roommate, to visit our
 
 <div class="photos">
 
-{% include img.html src="2013-02-15-lake-placid-0.jpg" class="pop-out" alt="2013-02-16 00.22.52" %}
+{% include img.html src="2013-02-15-lake-placid-0.jpg" class="pop-out" alt="2013-02-16 00.22.52" width="1041" height="1041" %}
 
 </div>
 
@@ -22,6 +22,6 @@ We lounged for the weekend, but we made sure to drive into Saranac Lake to see t
 
 <div class="photos">
 
-{% include img.html src="2013-02-15-lake-placid-1.jpg" alt="2013-02-16 12.24.24" %}
+{% include img.html src="2013-02-15-lake-placid-1.jpg" alt="2013-02-16 12.24.24" width="1600" height="1600" %}
 
 </div>

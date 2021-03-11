@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Katy DeCorah's personal website",
   "scripts": {
-    "test": "tape test/*.test.js | tap-min && npm run lint-md && npm run test-content",
+    "test": "tape test/*.test.js | tap-spec && npm run lint-md && npm run test-content",
     "test-content": "extra-eyes {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic -q",
     "lint-md": "remark {adventures,code,epicurean,notes}/_posts -q",
     "send-images": "node bin/appropriate-images.js",
@@ -26,7 +26,7 @@
     "remark-frontmatter-validator": "^0.4.0",
     "remark-lint-haiku": "^0.2.0",
     "remark-lint-heading-increment": "^2.0.1",
-    "tap-min": "^2.0.0",
+    "tap-spec": "^5.0.0",
     "tape": "^5.0.1"
   },
   "husky": {
