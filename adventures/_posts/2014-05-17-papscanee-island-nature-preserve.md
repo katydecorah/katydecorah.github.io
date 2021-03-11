@@ -16,9 +16,9 @@ Right away were greeted by a giant puddle. We almost turned back, but we shimmie
 
 <div class="photos">
 
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-1.jpg" class="img-wide" alt="Papscanee Island Nature Preserve" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-1.jpg" class="img-wide" alt="Papscanee Island Nature Preserve" width="1600" height="1200" %}
 
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-2.jpg" class="img-tall" alt="Papscanee Island Nature Preserve" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-2.jpg" class="img-tall" alt="Papscanee Island Nature Preserve" width="1600" height="2133" %}
 
 </div>
 
@@ -26,12 +26,12 @@ This is one of my favorite trails to date. The preserve has four trails, all rel
 
 <div class="photos">
 
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-3.jpg" class="img-half" alt="Papscanee Island Nature Preserve" %}
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-4.jpg" class="img-half" alt="Papscanee Island Nature Preserve" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-3.jpg" class="img-half" alt="Papscanee Island Nature Preserve" width="1600" height="2133" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-4.jpg" class="img-half" alt="Papscanee Island Nature Preserve" width="1600" height="2133" %}
 
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-5.jpg" alt="Papscanee Island Nature Preserve" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-5.jpg" alt="Papscanee Island Nature Preserve" width="1600" height="2133" %}
 
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-6.jpg" class="pop-out" alt="Papscanee Island Nature Preserve" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-6.jpg" class="pop-out" alt="Papscanee Island Nature Preserve" width="1600" height="1200" %}
 
 </div>
 
@@ -39,8 +39,8 @@ The preserve sits between a railroad and the Hudson River. There's an old rail l
 
 <div class="photos">
 
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-7.jpg" class="img-wide" alt="Papscanee Island Nature Preserve" %}
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-8.jpg" class="img-tall" alt="Papscanee Island Nature Preserve" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-7.jpg" class="img-wide" alt="Papscanee Island Nature Preserve" width="1600" height="1200" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-8.jpg" class="img-tall" alt="Papscanee Island Nature Preserve" width="1600" height="2133" %}
 {% include video.html src="2014-05-17-papscanee-island-nature-preserve.mp4" title="train passes by" %}
 
 </div>
@@ -49,7 +49,7 @@ Unfortunately, the trails are a little difficult to navigate as trail markers ar
 
 <div class="photos">
 
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-9.jpg" alt="Papscanee Island Nature Preserve" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-9.jpg" alt="Papscanee Island Nature Preserve" width="1600" height="2133" %}
 
 </div>
 
@@ -57,9 +57,9 @@ We saw lots of birds, in particular a giant red-headed wood pecker.
 
 <div class="photos">
 
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-10.jpg" class="img-wide" alt="Papscanee Island Nature Preserve" %}
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-11.jpg" class="img-tall" alt="Papscanee Island Nature Preserve" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-10.jpg" class="img-wide" alt="Papscanee Island Nature Preserve" width="1600" height="1200" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-11.jpg" class="img-tall" alt="Papscanee Island Nature Preserve" width="1600" height="2133" %}
 
-{% include img.html src="2014-05-17-papscanee-island-nature-preserve-12.jpg" alt="Papscanee Island Nature Preserve" %}
+{% include img.html src="2014-05-17-papscanee-island-nature-preserve-12.jpg" alt="Papscanee Island Nature Preserve" width="1600" height="2133" %}
 
 </div>

@@ -4,7 +4,7 @@ image: 2014-06-06-happy-birthday-0.jpg
 ---
 
 <div class="photos">
-{% include img.html src="2014-06-06-happy-birthday-0.jpg" alt="Happy birthday blog!" %}
+{% include img.html src="2014-06-06-happy-birthday-0.jpg" alt="Happy birthday blog!" width="1600" height="2133" %}
 </div>
 
 A year ago I decided to settle down and find myself a blogging system. I had heard about Jekyll and bandaged together several (okay, a lot) of novice commands to get it set up locally. Whatever the combination was, it worked. I pushed to GitHub and, hot damn, I had myself a website.

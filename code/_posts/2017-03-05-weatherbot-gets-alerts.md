@@ -12,7 +12,7 @@ I didn't expect [WeatherBot](/code/weatherbot/) to become [a series](/code/weath
 
 WeatherBot has severe weather alerts now:
 
-{% include img.html src='2017-03-05-weatherbot-gets-alerts-1.png' alt='WeatherBot severe weather alerts' class='img-full' %}
+{% include img.html src='2017-03-05-weatherbot-gets-alerts-1.png' alt='WeatherBot severe weather alerts' class='img-full' width='1526' height='334' %}
 
 ## How it works
 

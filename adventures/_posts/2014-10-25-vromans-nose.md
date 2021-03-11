@@ -14,10 +14,10 @@ Today we hiked up to [Vroman’s Nose](https://en.wikipedia.org/wiki/Vroman%27s_
 
 <div class="photos">
 
-{% include img.html src="2014-10-25-vromans-nose-1.jpg" class="img-half" alt="Vroman&#x27;s Nose" %}
-{% include img.html src="2014-10-25-vromans-nose-2.jpg" class="img-half" alt="Vroman&#x27;s Nose" %}
+{% include img.html src="2014-10-25-vromans-nose-1.jpg" class="img-half" alt="Vroman&#x27;s Nose" width="1600" height="2133" %}
+{% include img.html src="2014-10-25-vromans-nose-2.jpg" class="img-half" alt="Vroman&#x27;s Nose" width="1600" height="2133" %}
 
-{% include img.html src="2014-10-25-vromans-nose-0.jpg"  alt="Vroman&#x27;s Nose" %}
+{% include img.html src="2014-10-25-vromans-nose-0.jpg"  alt="Vroman&#x27;s Nose" width="1600" height="2133" %}
 
 </div>
 
@@ -25,6 +25,6 @@ Then had an awesome lunch at [Middleburgers BBQ](https://www.facebook.com/pages/
 
 <div class="photos">
 
-{% include img.html src="2014-10-25-vromans-nose-3.jpg"  alt="cider donuts" %}
+{% include img.html src="2014-10-25-vromans-nose-3.jpg"  alt="cider donuts" width="1600" height="1200" %}
 
 </div>

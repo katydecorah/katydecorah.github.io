@@ -32,7 +32,7 @@ Add one last column to your spreadsheet called "Email status" or similar. You'll
 
 For this example, I've created a fake business that matches you with a vegetable. New year, new me.
 
-{% include img.html src='2018-01-06-google-sheets-to-gmail-1.png' alt='Screenshot of Google spreadsheet with sample data' class='img-full' %}
+{% include img.html src='2018-01-06-google-sheets-to-gmail-1.png' alt='Screenshot of Google spreadsheet with sample data' class='img-full' width='1600' height='261' %}
 
 ## Set up the script
 
@@ -77,4 +77,4 @@ The first time you run the script you'll need to grant permission for it to read
 
 After you authenticate, the script will run and you should find as many emails in your Gmail draft folder:
 
-{% include img.html src='2018-01-06-google-sheets-to-gmail-2.png' alt='Screenshot of emails drafted in Gmail' class='img-full' %}
+{% include img.html src='2018-01-06-google-sheets-to-gmail-2.png' alt='Screenshot of emails drafted in Gmail' class='img-full' width='1600' height='205' %}

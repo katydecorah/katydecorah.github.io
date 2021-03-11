@@ -19,7 +19,7 @@ I have another single element project! I explored the Dribbble shot [Escape by C
 
 The main element, `.marker`, is the map marker shape. The `:before` is the inner circles and the `:after` is the dial.
 
-{% include img.html src='2014-01-15-escape-by-carla-corrales-0.jpg' alt='element diagram' class='img-half' %}
+{% include img.html src='2014-01-15-escape-by-carla-corrales-0.jpg' alt='element diagram' class='img-half' width='400' height='300' %}
 
 I created the marker shape by using a `border-radius: 100% 100% 0;`. Then I rotated the element 45 degrees, making it sit on its point. I used a linear gradient for the two-toned look of the background.
 

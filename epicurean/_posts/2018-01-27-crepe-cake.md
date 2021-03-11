@@ -6,7 +6,7 @@ recipe-title: Chocolate Hazelnut Crepe Cake
 ---
 
 <div class="photos">
-{% include img.html src="2018-01-27-crepe-cake-0.jpg" alt="crêpe cake" %}
+{% include img.html src="2018-01-27-crepe-cake-0.jpg" alt="crêpe cake" width="1600" height="1200" %}
 </div>
 
 I love making crêpes, so I've had my eye on a crêpe cake for a while. I found the crêpe batter had a bit of a learning curve to get right. Thankfully, the batter was generous and allow for several oops crêpes.
@@ -16,6 +16,6 @@ When assembling, I tried to be clever by adding more space between the edge of t
 The cake still came out pretty!
 
 <div class="photos">
-{% include img.html src="2018-01-27-crepe-cake-1.jpg" alt="crêpe cake" class="img-half" %}
-{% include img.html src="2018-01-27-crepe-cake-2.jpg" alt="crêpe cake" class="img-half" %}
+{% include img.html src="2018-01-27-crepe-cake-1.jpg" alt="crêpe cake" class="img-half" width="1600" height="1200" %}
+{% include img.html src="2018-01-27-crepe-cake-2.jpg" alt="crêpe cake" class="img-half" width="1600" height="1200" %}
 </div>
