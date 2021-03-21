@@ -1,8 +1,6 @@
 name: Spotify to Jekyll
 
-on:
-  schedule:
-    - cron: "00 01 21 Mar,Jun,Sep,Dec *"
+on: push
 
 jobs:
   spotify_to_jekyll:
