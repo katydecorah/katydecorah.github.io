@@ -3,7 +3,6 @@ title: A test for haiku
 image: 2021-02-09-haiku.png
 tags:
   - Node.js
-  - GitHub
 ---
 
 To support my post [Haiku 2018-2019](/notes/haiku-a-day/), I created [remark-lint-haiku](https://github.com/katydecorah/remark-lint-haiku) to make sure that each haiku is in 5, 7, 5 syllable pattern. The linter uses [syllable](https://github.com/words/syllable) to count the syllables.
