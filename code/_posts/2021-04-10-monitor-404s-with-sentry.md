@@ -1,6 +1,6 @@
 ---
 title: Monitor 404s with Sentry
-image: 2021-04-10-monitory-404s-with-sentry.png
+image: 2021-04-10-monitor-404s-with-sentry.jpg
 tags:
   - JavaScript
   - Mapbox
