@@ -40,6 +40,7 @@ module.exports.plugins = [
             "Airtable",
             "Google Docs",
             "accessibility",
+            "Mapbox",
           ],
         },
         pen: {
