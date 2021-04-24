@@ -4,21 +4,17 @@ title: Tags
 hideTitle: true
 ---
 
-<div class="columns">
-  <ul class="icon-ul">
-    {% assign tags_max = 0 %} {% for tag in site.tags %} {% if tag[1].size >
-    tags_max %} {% assign tags_max = tag[1].size %} {% endif %} {% endfor %} {%
-    for i in (1..tags_max) reversed %} {% for tag in site.tags %} {% if
-    tag[1].size == i %}
-    <li>
-      <a href="#{{ tag[0] | downcase | replace:' ','_' }}" title="{{ i }} posts"
-        ><span class="icon-li">{% include icons/tag.svg %}</span> {{ tag[0]
-        }}</a
-      >
-    </li>
-    {% endif %} {% endfor %} {% endfor %}
-  </ul>
+<div class="post-tags">
+  {% assign tags_max = 0 %} {% for tag in site.tags %} {% if tag[1].size >
+  tags_max %} {% assign tags_max = tag[1].size %} {% endif %} {% endfor %} {%
+  for i in (1..tags_max) reversed %} {% for tag in site.tags %} {% if
+  tag[1].size == i %}
+  <a class="post-tag" href="#{{ tag[0] | downcase | replace:' ','_' }}"
+    ><span>{% include icons/tag.svg %}</span> {{ tag[0] }}</a
+  >
+  {% endif %} {% endfor %} {% endfor %}
 </div>
+
 <hr />
 
 {% assign tags_max = 0 %} {% for tag in site.tags %} {% if tag[1].size >
