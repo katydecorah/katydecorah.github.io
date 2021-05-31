@@ -11,7 +11,7 @@ assets: //yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
 
-remote_theme: katydecorah/theme@main
+remote_theme: katydecorah/theme@vert
 
 paginate: 5
 paginate_path: ":num"
