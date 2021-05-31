@@ -24,10 +24,8 @@ We set up our 404 page to automatically send an issue to Sentry on page load, he
 
 1. We created a new project in Sentry specifically for our 404 issues.
 2. From the 404 page, we initialized our Sentry project and send an issue to Sentry on page load. The issue includes:
-
-- A [custom tag](https://docs.sentry.io/platforms/javascript/enriching-events/tags/) for the referrer, which is important for understanding where the broken link originated.
-- A [fingerprint to group issues](https://docs.sentry.io/product/sentry-basics/guides/grouping-and-fingerprints/) by path, which is important for creating alarms.
-
+   - A [custom tag](https://docs.sentry.io/platforms/javascript/enriching-events/tags/) for the referrer, which is important for understanding where the broken link originated.
+   - A [fingerprint to group issues](https://docs.sentry.io/product/sentry-basics/guides/grouping-and-fingerprints/) by path, which is important for creating alarms.
 3. In Sentry, we created an alarm that will sound if more than 10 users see the same 404 path in a week. This threshold better tuned us into the health of our pages.
 
 It's also convenient that we can ignore issues in Sentry. If we remove a page and it has no suitable redirect, our policy is to allow the page to 404 to set the expectation that the content no longer exists.
