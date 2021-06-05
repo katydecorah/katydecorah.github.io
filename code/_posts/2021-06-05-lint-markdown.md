@@ -1,6 +1,6 @@
 ---
 title: Lint markdown
-image: 2021-04-24-linting-markdown.jpg
+image: 2021-06-05-lint-markdown.png
 tags:
   - JavaScript
   - Mapbox
