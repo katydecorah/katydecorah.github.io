@@ -8,7 +8,7 @@ tags:
 
 At Mapbox, we write a majority of documentation in [markdown](https://daringfireball.net/projects/markdown/). We have a suite of markdown linters to help us stay consistent and improve the quality of our documentation.
 
-Our suite includes markdown linters from the community and ones that we have made:
+Our suite includes [remark plugins](https://github.com/remarkjs/remark-lint) to lint markdown from the community and ones that we have made:
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
