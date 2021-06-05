@@ -79,7 +79,7 @@ We developed a remark linter, [remark-lint-link-text](https://github.com/mapbox/
 
 ## Improve accessibility
 
-Our newest remark linter helps check that all `iframe` elements and our React component `DemoIframe` have a `title` attribute and all `img` elements and our React component `AppropriateImage` have an `alt` attribute. While remark linters already exist that can help with finding missing alt text like [remark-lint-no-empty-image-alt-text](https://www.npmjs.com/package/remark-lint-no-empty-image-alt-text) and [@double-great/remark-lint-alt-text](https://www.npmjs.com/package/@double-great/remark-lint-alt-text), but we needed to extend it to our React components since we use them in our markdown files.
+Our newest remark linter helps check that all `iframe` elements and our React component `DemoIframe` have a `title` attribute and all `img` elements and our React component `AppropriateImage` have an `alt` attribute. While remark linters already exist to find missing alt text like [remark-lint-no-empty-image-alt-text](https://www.npmjs.com/package/remark-lint-no-empty-image-alt-text) and [@double-great/remark-lint-alt-text](https://www.npmjs.com/package/@double-great/remark-lint-alt-text), we needed to extend it to our React components since we use them in our markdown files.
 
 ## Assert heading level increment
 
