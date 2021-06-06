@@ -24,7 +24,7 @@ We forked alex to add more [retext plugins](https://github.com/retextjs/retext/b
 
 With content tests, context is everything. Our copyeditor has custom configurations for any plugin that allows it. For example, for the retext-equality plugin, we allow the word `disabled`. Where in some writing this word is polarizing, at Mapbox we are referring to a disabled feature or button.
 
-Since every content repository is unique, our copyeditor allows the contributor to disable a rule in three ways:
+alex, and by extension our copyeditor, allows the contributor to disable one or more rules in three ways:
 
 1. Inline with an HTML comment
 2. For an entire file
