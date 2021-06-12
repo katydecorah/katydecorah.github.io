@@ -13,7 +13,7 @@ Over the past several weeks, the documentation team has improved how we triage s
 
 Bad metrics exist, but they aren't so bad when you learn from them.
 
-When we added search to all documentation pages, we wanted to add a search metric to our team's operational metrics. Our search provider includes an insights dashboard that shows usage. One of the insights is the percent of searches with no results and includes a list of top queries with no results. We thought this percent of searches with no results was a good metric. And by good, I mean it was a number and we could say how high we did and didn't want it to go and call it a metric. So we did.
+When we added search to all documentation pages, we wanted track it in our team's operational metrics. Our search provider includes an insights dashboard that shows usage. One of the insights is the percent of searches with no results with a list of these searches. We thought this percent of searches with no results was a good metric. And by good, I mean it was a number and we could say how high we did and didn't want it to go and call it a metric. So we did.
 
 Each week a Lambda function shared last week's search analytics to a GitHub issue and then triaged any top queries with no results as needed. This went on for a couple years.
 
@@ -23,10 +23,10 @@ Our percent of searches with no results went above our threshold and we couldn't
 
 ## What makes a metric good?
 
-Your metrics must be meaningful to your systems and users and in our case we learned that:
+Your metrics must be meaningful to your systems and users. In our case we learned that:
 
 - **An issue is reported as it happens.** If the reporting is delayed, then your response will always be delayed.
-- **An issue is counted by the number of users.** When working with users, you should focus on quantifying how many of them are affected rather than how many events they generated. While the number events can be helpful, if you can't quantify users then it will be difficult to assess your response.
+- **An issue is counted by the number of users.** When working with users, focus on quantifying how many of them are affected rather than how many events they generated. While the number events can be helpful, if you can't quantify users then it will be difficult to assess your response.
 - **A system of accountability to respond to issues.** Your team needs a system to hold you accountable to responding to issues, ideally through automation and alerts.
 
 At the time, our metric did not meet any of these standards.
@@ -35,7 +35,7 @@ At the time, our metric did not meet any of these standards.
 
 We brainstormed what an alternative could look like and considered a system like [how we track 404s](/code/monitor-404s-with-sentry/). After some iteration, we learned that our search provider's data was not meaningful because it did not distinguish how many users entered each search with no results. Userless data is useless.
 
-We stepped away from our search provider's analytics and updated our search component to send an event to Sentry as soon as the user completes a search with no results. With Sentry, our data was suddenly enriched. Not only did was have a user and event count for each search, we also know what page they searched on.
+We stepped away from our search provider's analytics and updated our search component to send an event to Sentry as soon as the user completes a search with no results. With Sentry, our data was suddenly enriched. Not only did we have a user and event count for each search, we also know what page they searched on.
 
 Instead of tracking the percent of searches with no results, our team now has a service license agreement (SLA) for triaging searches with no results.
 
