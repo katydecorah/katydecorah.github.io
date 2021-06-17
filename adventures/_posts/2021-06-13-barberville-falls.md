@@ -6,9 +6,10 @@ locations:
 coordinates:
   - -73.5420229,42.6848663
 recommended: true
+miles: 0.25
 ---
 
-A muddy and beautiful descent to Barberville Falls.
+A muddy and beautiful descent to [Barberville Falls](https://www.rensselaerplateau.org/barbervillefalls).
 
 <div class="photos">
 {% include img.html src="2021-06-13-barberville-falls.jpg" alt="Water falls over a large rock formation and forms into pond." width="4032" height="3024" %}
