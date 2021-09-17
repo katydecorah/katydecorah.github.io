@@ -2,6 +2,7 @@
   "name": "katy-decorah",
   "version": "0.0.0",
   "description": "Katy DeCorah's personal website",
+  "type": "module",
   "scripts": {
     "test": "tape test/*.test.js | tap-spec && npm run lint-md && npm run test-content",
     "test-content": "extra-eyes {adventures,code,epicurean}/_posts --dict=katydecorah.dic -q",
@@ -12,10 +13,12 @@
     "pretty-quick": "pretty-quick"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.4",
     "@double-great/remark-lint-alt-text": "^0.7.0",
     "@mapbox/remark-lint-link-text": "^0.6.0",
     "doctoc": "^2.0.1",
-    "eslint": "^7.27.0",
+    "eslint": "^7.32.0",
     "extra-eyes": "^1.4.0",
     "husky": "^4.3.8",
     "js-yaml": "^4.1.0",
@@ -29,7 +32,7 @@
     "remark-lint-haiku": "^0.2.0",
     "remark-lint-heading-increment": "^2.0.1",
     "tap-spec": "^5.0.0",
-    "tape": "^5.0.1"
+    "tape": "^5.3.1"
   },
   "husky": {
     "hooks": {

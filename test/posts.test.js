@@ -1,21 +1,22 @@
-const test = require("tape");
-const fs = require("fs");
-const jsyaml = require("js-yaml");
+import test from "tape";
+import { readFileSync, readdirSync } from "fs";
+import jsyaml from "js-yaml";
+
 const paths = [
   "adventures/_posts/",
   "epicurean/_posts/",
   "code/_posts/",
   "notes/_posts/",
 ];
-const utils = require("./utils");
+
+import { readData } from "./utils.js";
 
 const data = {
-  give: utils.readData("_data/", "organizations.yml"),
+  give: readData("_data/", "organizations.yml"),
 };
 
 const readPost = (filename) => {
-  const buffer = fs.readFileSync(filename),
-    file = buffer.toString("utf8");
+  const file = readFileSync(filename, "utf-8");
 
   try {
     const parts = file.split(/---\s*[\n^]/),
@@ -23,7 +24,7 @@ const readPost = (filename) => {
 
     return {
       name: filename,
-      file: file,
+      file,
       metadata: jsyaml.load(frontmatter),
       content: parts[2],
     };
@@ -35,8 +36,8 @@ const readPost = (filename) => {
 };
 
 const posts = paths.reduce((arr, path) => {
-  fs.readdirSync(`${path}/`).forEach((file) => {
-    if (file[0] !== ".") arr.push(`${path}${file}`);
+  readdirSync(`${path}/`).forEach((file) => {
+    if (!file.startsWith(".")) arr.push(`${path}${file}`);
   });
   return arr;
 }, []);
