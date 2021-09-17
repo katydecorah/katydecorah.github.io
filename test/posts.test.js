@@ -5,7 +5,6 @@ const paths = [
   "adventures/_posts/",
   "epicurean/_posts/",
   "code/_posts/",
-  "playlists/_posts/",
   "notes/_posts/",
 ];
 const utils = require("./utils");
@@ -92,10 +91,6 @@ posts.forEach((post) => {
       1,
       "permalink must not already exist " + permalink
     );
-
-    if (metadata.category == "playlists") {
-      t.ok(metadata.permalink, "playlist must have a permalink");
-    }
 
     if (metadata.category == "adventures") {
       t.ok(metadata.locations, "adventure post must have a locations field");
