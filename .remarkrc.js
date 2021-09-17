@@ -47,11 +47,6 @@ module.exports.plugins = [
           type: "string",
           maxLength: "7",
         },
-        image: {
-          match: "^\\d\\d\\d\\d-\\d\\d-\\d\\d-.*.(png|jpg)",
-          type: "string",
-          required: true,
-        },
         title: {
           type: "string",
           required: true,
