@@ -1,7 +1,0 @@
----
-
----
-playlist,artist,track,album
-{% for playlist in site.data.playlists reversed %}
-{% for tracks in playlist.tracks %}{{ playlist.playlist }},{{ tracks.artist }},{{ tracks.track }},{{ tracks.album }}
-{% endfor %}{% endfor %}
