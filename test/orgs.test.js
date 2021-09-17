@@ -1,11 +1,9 @@
-const test = require("tape");
-const utils = require("./utils");
+import test from "tape";
+import { readData } from "./utils.js";
 
-const data = {
-  organizations: utils.readData("_data/", "organizations.yml"),
-};
+const { metadata } = readData("_data/", "organizations.yml");
 
-data.organizations.metadata.forEach((org) => {
+metadata.forEach((org) => {
   test(org.name, (t) => {
     t.ok(org.name, "must have a name");
     t.ok(org.description, "must have a description");

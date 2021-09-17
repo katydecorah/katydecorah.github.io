@@ -1,17 +1,12 @@
-const fs = require("fs");
-const jsyaml = require("js-yaml");
+import { readFileSync } from "fs";
+import jsyaml from "js-yaml";
 
-const readData = (dir, filename) => {
-  var buffer = fs.readFileSync(dir + filename),
-    file = buffer.toString("utf8");
+export const readData = (dir, filename) => {
+  const file = readFileSync(dir + filename, "utf-8");
 
   return {
     name: filename,
-    file: file,
+    file,
     metadata: jsyaml.load(file),
   };
-};
-
-module.exports = {
-  readData,
 };
