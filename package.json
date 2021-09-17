@@ -10,7 +10,8 @@
     "send-images": "node bin/appropriate-images.js",
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "pretty-quick": "pretty-quick"
+    "pretty-quick": "pretty-quick",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
@@ -19,25 +20,20 @@
     "@mapbox/remark-lint-link-text": "^0.6.0",
     "doctoc": "^2.0.1",
     "eslint": "^7.32.0",
-    "extra-eyes": "^1.4.0",
-    "husky": "^4.3.8",
+    "extra-eyes": "^1.5.0",
+    "husky": "^7.0.2",
     "js-yaml": "^4.1.0",
-    "lint-staged": "^10.4.0",
+    "lint-staged": "^11.1.2",
     "octokit": "^1.5.0",
-    "prettier": "^2.1.2",
+    "prettier": "^2.4.1",
     "pretty-quick": "^3.0.2",
-    "remark-cli": "^9.0.0",
-    "remark-frontmatter": "^3.0.0",
+    "remark-cli": "^10.0.0",
+    "remark-frontmatter": "^4.0.0",
     "remark-frontmatter-validator": "^0.4.0",
     "remark-lint-haiku": "^0.2.0",
-    "remark-lint-heading-increment": "^2.0.1",
+    "remark-lint-heading-increment": "^3.0.1",
     "tap-spec": "^5.0.0",
     "tape": "^5.3.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && lint-staged"
-    }
   },
   "lint-staged": {
     "katydecorah.dic": [
@@ -45,7 +41,9 @@
     ],
     "code/_posts/2021-06-05-lint-markdown.md": [
       "doctoc"
-    ]
+    ],
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   },
   "main": "index.js",
   "directories": {
