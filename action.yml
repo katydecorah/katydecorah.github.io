@@ -1,0 +1,4 @@
+name: "Seasonal post"
+description: "Generate a season post"
+runs:
+  using: "node12"
