@@ -1,49 +1,45 @@
 import { Octokit } from "octokit";
 import { load, dump } from "js-yaml";
 import { writeFileSync } from "fs";
+import { exportVariable, setFailed } from "@actions/core";
 
 const octokit = new Octokit({
-  auth: process.env.GitHubToken,
+  auth: process.env.GITHUB_TOKEN,
 });
 
-process.env.START = "2021-06-21";
-process.env.END = "2021-09-20";
+try {
+  const { start, end, season, year, name } = findSeason();
+  const image = `${year}-${season.toLowerCase()}.png`;
 
-const start = process.env.START;
-const end = process.env.END;
-const season = "Summer";
-const year = "2021";
-const image = `${year}-${season.toLowerCase()}.png`;
+  exportVariable("season", name);
 
-(async () => {
-  // fetch books
-  const bookData = await getDataFile("read.yml");
-  const books = filter(bookData, "dateFinished").map(
-    ({ title, authors, canonicalVolumeLink, isbn }) => ({
-      title,
-      authors: authors.join(", "),
-      url: canonicalVolumeLink,
-      isbn,
-    })
-  );
+  (async () => {
+    // fetch books
+    const bookData = await getDataFile("read.yml");
+    const books = filter(bookData, "dateFinished", start, end).map(
+      ({ title, authors, canonicalVolumeLink, isbn }) => ({
+        title,
+        authors: authors.join(", "),
+        url: canonicalVolumeLink,
+        isbn,
+      })
+    );
 
-  // fetch recipes
-  const recipeData = await getDataFile("recipes.yml");
-  const recipes = filter(recipeData, "date").map(({ title, site, url }) => ({
-    title,
-    site,
-    url,
-  }));
+    // fetch recipes
+    const recipeData = await getDataFile("recipes.yml");
+    const recipes = filter(recipeData, "date", start, end).map(
+      ({ title, site, url }) => ({
+        title,
+        site,
+        url,
+      })
+    );
 
-  // fetch playlist
-  const playlistData = await getDataFile("playlists.yml");
-  const playlist = playlistData.find(
-    ({ playlist }) =>
-      playlist ===
-      `${season === "Winter" ? `${year - 1}/${year}` : year} ${season}`
-  );
+    // fetch playlist
+    const playlistData = await getDataFile("playlists.yml");
+    const playlist = playlistData.find(({ playlist }) => playlist === name);
 
-  const md = `---
+    const md = `---
 title: ${year} ${season}
 image: ${image}
 type: season
@@ -78,11 +74,14 @@ ${recipes
   .join("\n")}
 `;
 
-  writeFileSync(
-    `./notes/_posts/${process.env.END}-${year}-${season.toLowerCase()}.md`,
-    md
-  );
-})();
+    writeFileSync(
+      `./notes/_posts/${end}-${year}-${season.toLowerCase()}.md`,
+      md
+    );
+  })();
+} catch (error) {
+  setFailed(error.message);
+}
 
 async function getDataFile(file) {
   try {
@@ -96,10 +95,35 @@ async function getDataFile(file) {
     });
     return load(data);
   } catch (err) {
-    console.log(err);
+    setFailed(err);
   }
 }
 
-function filter(data, field) {
+function filter(data, field, start, end) {
   return data.filter((f) => f[field] >= start && f[field] <= end);
+}
+
+function findSeason() {
+  const today = new Date();
+  const month = today.getMonth();
+  const year = today.getFullYear();
+  const season = {
+    2: "Winter",
+    5: "Spring",
+    8: "Summer",
+    11: "Fall",
+  };
+  const dates = {
+    2: ["12", "03"],
+    5: ["03", "06"],
+    8: ["06", "09"],
+    11: ["09", "12"],
+  };
+  return {
+    name: `${month == 2 ? `${year - 1}/${year}` : year} ${season[month]}`,
+    season: season[month],
+    year: year,
+    start: `${month === 2 ? `${year - 1}` : `${year}`}-${dates[month][0]}-21`,
+    end: `${year}-${dates[month][1]}-20`,
+  };
 }

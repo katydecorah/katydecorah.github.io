@@ -1,0 +1,19 @@
+on: [push]
+
+jobs:
+  seasonal_post:
+    runs-on: ubuntu-latest
+    name: Write seasonal post
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Write seasonal post
+        uses: ./bin/season.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GitHubToken }}
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A && git commit -m "${{ env.season }}"
+          git push "https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF}
