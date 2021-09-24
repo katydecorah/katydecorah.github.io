@@ -1,4 +1,8 @@
-on: [push]
+name: Seasonal post
+
+on:
+  schedule:
+    - cron: "00 02 20 Mar,Jun,Sep,Dec *"
 
 jobs:
   seasonal_post:
