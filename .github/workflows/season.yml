@@ -8,9 +8,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Write seasonal post
-        uses: ./bin/season.js
+        uses: katydecorah/seasonal-post-action@0.1.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GitHubToken }}
+          TOKEN: ${{ secrets.TOKEN }}
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
