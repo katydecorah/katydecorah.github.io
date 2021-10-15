@@ -5,25 +5,21 @@ tags:
   - Mapbox
 ---
 
-The list of searches with no results from the Mapbox documentation site's search is interesting. It tells us what the user wants. Sometimes it's a JavaScript framework that we don't have an example for yet or a different way to phrase the concept of a marker. We can then add content or add a synonym set for the term so the user is able to find what they want.
+Does your site have search? Do you track searches with no results? To the Mapbox documentation team, it's an interesting dataset. We can learn what the user wants but cannot find. Sometimes it's a JavaScript framework that we don't have an example for yet or a different way to phrase the concept of a marker. In response, we can then add content or add a synonym set for the term so the user is able to find what they want.
 
-Over the past several weeks, the documentation team has improved how we triage searches with no results because our original system and metric was ineffective. By focusing on improving data quality, response time, and holding ourselves accountable, we are building a more meaningful solution to improving documentation with failed searches.
+Over the past several weeks, the documentation team has improved how we triage searches with no results. By focusing on improving data quality, response time, and holding ourselves accountable, we are building a more meaningful solution to improving documentation with failed searches.
 
-## The bad metric
+## Is this a metric?
 
-Bad metrics exist, but they aren't so bad when you learn from them.
+When we added search to all documentation pages, we wanted track it in our team's operational metrics. Our search provider's insights dashboard informs us of the percent of searches with no results along with a list of these searches. We thought this percent of searches with no results was a good metric. And by good, I mean it was a number and we could say how high we did and didn't want it to go and call it a metric. So we did.
 
-When we added search to all documentation pages, we wanted track it in our team's operational metrics. Our search provider includes an insights dashboard that shows usage. One of the insights is the percent of searches with no results with a list of these searches. We thought this percent of searches with no results was a good metric. And by good, I mean it was a number and we could say how high we did and didn't want it to go and call it a metric. So we did.
+Each week a Lambda function shared last week's search analytics to a GitHub issue and then we triaged any top queries with no results as needed. This went on for a couple years.
 
-Each week a Lambda function shared last week's search analytics to a GitHub issue and then triaged any top queries with no results as needed. This went on for a couple years.
-
-## And then
-
-Our percent of searches with no results went above our threshold and we couldn't bring it back down. We added content and configured our search engine, but it didn't budge. After suggesting that we increase our threshold, my team pointed out that if we need to raise the threshold, then it's not the right metric.
+And then our percent of searches with no results went above our threshold and we couldn't bring it back down. We added content and configured our search engine, but it didn't budge. After suggesting that we increase our threshold, my team pointed out that if we need to raise the threshold, then it's not the right metric.
 
 ## What makes a metric good?
 
-Your metrics must be meaningful to your systems and users. In our case we learned that:
+Ultimately, your metrics must be meaningful to your systems and users. In our case we learned that:
 
 - **An issue is reported as it happens.** If the reporting is delayed, then your response will always be delayed.
 - **An issue is counted by the number of users.** When working with users, focus on quantifying how many of them are affected rather than how many events they generated. While the number events can be helpful, if you can't quantify users then it will be difficult to assess your response.
@@ -47,4 +43,4 @@ By doing this exercise and involving the entire team, we documented our criteria
 
 ## Your failed searches improve the docs
 
-It might be cheeky to thank users for improving documentation every time their search returns no results, but the sentiment true. It's a valuable dataset that helps us see our product through the users's eyes.
+It may be cheeky to thank users for improving documentation every time their search returns no results, but the sentiment true. It's a valuable dataset that helps us see our product through the users's eyes.
