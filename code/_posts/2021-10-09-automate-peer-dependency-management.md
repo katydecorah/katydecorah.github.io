@@ -9,11 +9,13 @@ With [`npm@v7`](https://github.blog/2021-02-02-npm-7-is-now-generally-available/
 
 ## Our configuration
 
-To keep all site repositories consistent, we have configuration packages for [`eslint`](/code/eslint-config/), [`remark`](/code/lint-markdown/), and `prettier`. To support each configuration, we must install `devDependencies` (such as `eslint-plugin-jsx-a11y`, `remark-lint-heading-increment`, and `lint-staged`) to make them work. In total, we maintain over 20 dependencies in each repository to support our configuration packages, which adds up across 18 repositories.
+To keep all site repositories consistent, we have configuration packages for [`eslint`](/code/eslint-config/), [`remark`](/code/lint-markdown/), and [`prettier`](https://github.com/mapbox/prettier-config-docs). To support each configuration, we must install `devDependencies` (such as `eslint-plugin-jsx-a11y`, `remark-lint-heading-increment`, and `lint-staged`) to make them work. In total, we maintain over 20 dependencies in each repository to support our configuration packages, which adds up across 18 repositories.
 
 ## Managing peer dependencies
 
 With npm@7, whatever `peerDependencies` that you define in `package.json`, npm will be automatically install them. For us, this eliminates our need to manually maintain about 20 packages in each repository.
+
+{% include img.html src="2021-10-09-automate-peer-dependency-management-2.png" alt="A list of peerDependencies for an eslint configuration." width="1270" height="604" %}
 
 Our workflow looks like this:
 
