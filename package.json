@@ -20,7 +20,7 @@
     "@mapbox/remark-lint-link-text": "^0.6.0",
     "doctoc": "^2.0.1",
     "eslint": "^7.32.0",
-    "extra-eyes": "^1.5.0",
+    "extra-eyes": "^3.0.2",
     "husky": "^7.0.2",
     "js-yaml": "^4.1.0",
     "lint-staged": "^11.1.2",
