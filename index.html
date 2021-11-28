@@ -3,5 +3,5 @@ layout: home
 title: Katy DeCorah
 ---
 
-{% for post in paginator.posts %}{% include post-list.html post=post %}{% endfor
-%}
+{% assign posts = paginator.posts | where_exp: "item", "item.sitemap != false" %}
+{% for post in posts %}{% include post-list.html post=post %}{% endfor %}
