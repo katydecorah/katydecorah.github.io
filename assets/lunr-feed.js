@@ -2,7 +2,6 @@
 
 ---
 // builds lunr
-{% assign posts = site.posts | where_exp: "item", "item.sitemap != false" %}
 var index = lunr(function () {
   this.field('title')
   this.field('content', {boost: 10})
@@ -10,7 +9,7 @@ var index = lunr(function () {
   this.field('tags')
   this.ref('id')
 });
-{% assign count = 0 %} {% for post in posts %}
+{% assign count = 0 %}{% for post in site.posts %}
 index.add({
   title: {{post.title | jsonify}},
   category: {{post.categories[0] | jsonify}},
@@ -19,7 +18,7 @@ index.add({
   id: {{count}}
 });{% assign count = count | plus: 1 %}{% endfor %}
 // builds reference data
-var store = [{% for post in posts %}{
+var store = [{% for post in site.posts %}{
   "title": {{post.title | jsonify}},
   "link": {{ post.url | jsonify }},
   "image": {{ post.image | jsonify }},
