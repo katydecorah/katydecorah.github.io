@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "tape test/*.test.js | tap-spec && npm run lint-md && npm run test-content",
-    "test-content": "extra-eyes {adventures,code,epicurean}/_posts --dict=katydecorah.dic -q",
+    "test-content": "extra-eyes {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic -q",
     "lint-md": "remark {adventures,code,epicurean,notes}/_posts -q",
     "send-images": "node bin/appropriate-images.js",
     "lint": "eslint .",
