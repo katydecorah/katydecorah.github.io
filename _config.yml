@@ -12,7 +12,7 @@ assets: //yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
 
-remote_theme: katydecorah/theme@main
+remote_theme: katydecorah/theme@v3.0.0
 
 paginate: 5
 paginate_path: ":num"
@@ -20,7 +20,7 @@ future: true
 
 title: Katy DeCorah
 description: "Frontend engineer and tinkerer from Saratoga Springs, NY."
-image: //yo.katydecorah.com/katy-decorah@1600.jpg
+image: //yo.katydecorah.com/katy-decorah-2021@1600.jpg
 twitter: "@katydecorah"
 
 collections:
