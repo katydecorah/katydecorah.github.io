@@ -12,7 +12,7 @@ assets: //yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
 
-remote_theme: katydecorah/theme@v3.0.0
+remote_theme: katydecorah/theme@v3.1.0
 
 paginate: 5
 paginate_path: ":num"
