@@ -1,6 +1,9 @@
 ---
 title: Wordle to yaml
 image: 2022-01-16-wordle.png
+tags:
+  - Node.js
+  - GitHub
 ---
 
 I'm playing [Wordle](https://www.powerlanguage.co.uk/wordle/). I love a word puzzle and, like, many have been hooked by the daily puzzle. I wrote [wordle-to-yaml-action](https://github.com/katydecorah/wordle-to-yaml-action) to commit my Wordle scores to a yaml file.
