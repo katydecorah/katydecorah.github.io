@@ -6,7 +6,7 @@ tags:
   - GitHub
 ---
 
-I'm playing [Wordle](https://www.powerlanguage.co.uk/wordle/). I love a word puzzle and like many have been hooked by the daily game. I wrote [wordle-to-yaml-action](https://github.com/katydecorah/wordle-to-yaml-action) to commit my Wordle scores to a yaml file.
+I'm playing [Wordle](https://www.powerlanguage.co.uk/wordle/). I love a word puzzle and like many have been hooked by the daily game. I wrote [wordle-to-yaml-action](https://github.com/katydecorah/wordle-to-yaml-action) to archive my Wordle games to a yaml file.
 
 I paired the action with an [iOS Shortcut](https://apps.apple.com/us/app/shortcuts/id915249334) (like the one I created for my [read-action](/code/read/#pair-it-with-an-ios-shortcut)). After I complete a game, I select my Wordle shortcut from the iOS share sheet and the shortcut will automatically format the score and then open the GitHub issue to kick of the action.
 
@@ -21,6 +21,10 @@ The data for each board looks something like this:
     - "🟩⬛⬛⬛⬛"
     - "⬛⬛🟨🟩🟨"
     - "🟩🟩🟩🟩🟩"
+  boardWords:
+    - "yes no no no no"
+    - "no no almost yes almost"
+    - "yes yes yes yes yes"
   won: true
   date: "2022-01-15"
 ```
