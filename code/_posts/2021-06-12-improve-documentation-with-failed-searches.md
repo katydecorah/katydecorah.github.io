@@ -5,9 +5,11 @@ tags:
   - Mapbox
 ---
 
-Does your site have search? Do you track searches with no results? To the Mapbox documentation team, it's an interesting dataset. We can learn what the user wants but cannot find. Sometimes it's a JavaScript framework that we don't have an example for yet or a different way to phrase the concept of a marker. In response, we can then add content or add a synonym set for the term so the user is able to find what they want.
+Do you track searches with no results on your site? To the Mapbox documentation team, it's an interesting dataset. We can learn what the user wants, but cannot find, and then turn those failed searches into improvements.
 
-Over the past several weeks, the documentation team has improved how we triage searches with no results. By focusing on improving data quality, response time, and holding ourselves accountable, we are building a more meaningful solution to improving documentation with failed searches.
+Sometimes a user will search for a JavaScript framework that we don't have an example for yet or they use different phrasing. We can then add content or a synonym set so the user can find what they want.
+
+Our team recently improved how we triage searches with no results. By focusing on improving data quality, response time, and holding ourselves accountable, we are building a more meaningful solution to improving documentation with failed searches.
 
 ## Is this a metric?
 
