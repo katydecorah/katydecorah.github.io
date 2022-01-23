@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Read
-        uses: katydecorah/read-action@v1.0.1
+        uses: katydecorah/read-action@v3.0.1
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
