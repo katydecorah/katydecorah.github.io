@@ -1,6 +1,6 @@
-import test from "tape";
 import { readFileSync, readdirSync } from "fs";
 import jsyaml from "js-yaml";
+import { readData } from "./utils.js";
 
 const paths = [
   "adventures/_posts/",
@@ -9,11 +9,9 @@ const paths = [
   "notes/_posts/",
 ];
 
-import { readData } from "./utils.js";
-
-const data = {
-  give: readData("_data/", "organizations.yml"),
-};
+const {
+  organizations,
+} = async () => await readData("_data/", "organizations.yml");
 
 const readPost = (filename) => {
   const file = readFileSync(filename, "utf-8");
@@ -47,8 +45,7 @@ const permalinks = posts.reduce((prev, post) => {
   let permalink;
 
   if (post) {
-    const file = readPost(post);
-    const metadata = file.metadata;
+    const { metadata } = readPost(post);
     if (metadata.permalink) {
       permalink = metadata.permalink;
     } else {
@@ -67,68 +64,44 @@ const permalinks = posts.reduce((prev, post) => {
   return prev;
 }, {});
 
-posts.forEach((post) => {
-  const { metadata, content } = readPost(post);
+describe("posts", () => {
+  for (const post of posts) {
+    const { metadata, content } = readPost(post);
 
-  test(post, (t) => {
-    t.equal(
-      typeof metadata,
-      "object",
-      `frontmatter must be formatted correctly: ${post}`
-    );
+    test(post, async () => {
+      expect(typeof metadata).toEqual("object");
 
-    // check permalinks
-    let permalink;
-    if (metadata.permalink) {
-      permalink = metadata.permalink;
-    } else {
-      permalink = post
-        .replace("_posts", "")
-        .replace(".md", "/")
-        .replace(/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-/, "");
-    }
-    t.equal(
-      permalinks[permalink].length,
-      1,
-      "permalink must not already exist " + permalink
-    );
+      // check permalinks
+      let permalink = metadata.permalink
+        ? metadata.permalink
+        : post
+            .replace("_posts", "")
+            .replace(".md", "/")
+            .replace(/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-/, "");
 
-    if (metadata.category == "adventures") {
-      t.ok(metadata.locations, "adventure post must have a locations field");
-      t.equal(
-        typeof metadata.locations,
-        "object",
-        "locations must be an object"
-      );
-      t.ok(
-        metadata.coordinates,
-        "adventure post must have a coordinates field"
-      );
-      t.equal(
-        typeof metadata.coordinates,
-        "object",
-        "coordinates must be an object"
-      );
-    }
+      expect(permalinks[permalink].length).toEqual(1);
 
-    const hasImage = content.match(/`?{%\s?include img.html(.*)\s?%}`?/gim);
-    if (hasImage && hasImage.length > 0) {
-      hasImage.forEach((image) => {
-        if (!image.startsWith("`"))
-          t.ok(image.includes("width"), `image must have width and height`);
-      });
-    }
+      if (metadata.category == "adventures") {
+        expect(metadata.locations).toBeDefined();
+        expect(typeof metadata.locations).toEqual("object");
+        expect(metadata.coordinates).toBeDefined();
+        expect(typeof metadata.coordinates).toEqual("object");
+      }
 
-    if (metadata.organizations) {
-      const found = data.organizations.metadata.find(
-        (m) => m.name == metadata.organizations
-      );
-      t.ok(
-        found,
-        `"${metadata.organizations}" must match a "name" in _data/organizations.yml`
-      );
-    }
+      const hasImage = content.match(/`?{%\s?include img.html(.*)\s?%}`?/gim);
+      if (hasImage && hasImage.length > 0) {
+        for (const image of hasImage) {
+          if (!image.startsWith("`"))
+            expect(image.includes("width")).toBeTruthy();
+        }
+      }
 
-    t.end();
-  });
+      if (metadata.organizations) {
+        const found = await organizations.metadata.find(
+          ({ name }) => name == metadata.organizations
+        );
+        expect(found).toBeDefined();
+      }
+    });
+  }
 });
