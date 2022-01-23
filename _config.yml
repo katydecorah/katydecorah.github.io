@@ -89,6 +89,10 @@ links:
     url: /feed.xml
     icon: rss
     position: bottom
+  - text: Collections
+    url: /has/
+    icon: bookmark
+    position: bottom
 
 mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2l0YzVhY2l6MGE0eDJ6czZ2NDRpZGtubyJ9.njBRjO2lRXdT0Mut9Vryqg
 mapid: katydecorah/cikt0ttfx006q9flxv0h1qwob
