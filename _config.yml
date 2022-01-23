@@ -12,7 +12,7 @@ assets: //yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
 
-remote_theme: katydecorah/theme@v4.0.0
+remote_theme: katydecorah/theme@v4.5.0
 
 paginate: 10
 paginate_path: ":num"
@@ -72,27 +72,21 @@ links:
   - text: CodePen
     url: https://codepen.io/katydecorah/
     icon: codepen
-    position: bottom
   - text: GitHub
     url: https://github.com/katydecorah
     icon: github
-    position: bottom
   - text: Twitter
     url: https://twitter.com/katydecorah
     icon: twitter
-    position: bottom
   - text: Instagram
     url: https://instagram.com/katydecorah
     icon: instagram
-    position: bottom
   - text: RSS
     url: /feed.xml
     icon: rss
-    position: bottom
   - text: Collections
     url: /has/
     icon: bookmark
-    position: bottom
 
 mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2l0YzVhY2l6MGE0eDJ6czZ2NDRpZGtubyJ9.njBRjO2lRXdT0Mut9Vryqg
 mapid: katydecorah/cikt0ttfx006q9flxv0h1qwob
