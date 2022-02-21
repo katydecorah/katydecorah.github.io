@@ -3,7 +3,7 @@ title: Pain au chocolat
 image: 2022-02-18-pain-au-chocolat-1.jpg
 ---
 
-As I write this, I have already eaten two [pains au chocolat](https://cooking.nytimes.com/recipes/1022057-pain-au-chocolate) (chocolate croissants). Since it was my first croissant that was fresh out of the oven, a heavenly experience, it only seemed reasonable to try it twice.
+As I write this, I have already eaten two [pains au chocolat](https://cooking.nytimes.com/recipes/1022057-pain-au-chocolate) (chocolate croissants). Since I am new to having a fresh-out-of-the-oven croissant, it only seemed reasonable to try it twice.
 
 This was my second try at croissants. Two weeks ago, I pulled the croissants from the oven and was greeted with a puddle of butter. (Fortunately, the loss of butter made for delicious biscuits.)
 
