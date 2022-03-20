@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Write seasonal post
-        uses: katydecorah/seasonal-post-action@v3.0.0
+        uses: katydecorah/seasonal-post-action@v4.0.0
         with:
           GitHubUsername: katydecorah
           GitHubRepository: has
@@ -22,5 +22,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull
           git add -A && git commit -m "${{ env.season }}"
           git push "https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF}
