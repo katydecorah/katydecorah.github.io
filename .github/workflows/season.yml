@@ -16,6 +16,7 @@ jobs:
           GitHubRepository: has
         env:
           TOKEN: ${{ secrets.TOKEN }}
+          SETDATE: "2021-09-20"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
