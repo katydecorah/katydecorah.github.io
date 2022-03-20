@@ -1,0 +1,12 @@
+<div class="collection-items collection-items--large">
+  {% for recipe in page.recipes %}
+  <a href="{{recipe.url}}" class="collection-item">
+    <img loading="lazy" class="collection-item-img-recipe" alt="" src="https://yo.katydecorah.com/{{recipe.image}}" />
+    <div>{{ recipe.title }}</div>
+    <div class="collection-item-meta">
+      <div>{{ recipe.site | join: ', ' }}</div>
+      <div>{{recipe.date | date: '%b %-d, %Y'}}</div>
+    </div>
+  </a>
+  {%- endfor -%}
+</div>
