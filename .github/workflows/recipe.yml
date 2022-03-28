@@ -21,7 +21,7 @@ jobs:
           git add -A && git commit -m "Updated _data/recipes.yml"
           git push "https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF}
       - name: Close issue
-        uses: peter-evans/close-issue@v1
+        uses: peter-evans/close-issue@v2
         with:
           issue-number: "${{ env.IssueNumber }}"
           comment: "You made ${{ env.RecipeTitle }} on ${{env.DateCooked}}."
