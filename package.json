@@ -22,7 +22,7 @@
     "doctoc": "^2.1.0",
     "eslint": "^8.12.0",
     "eslint-config-prettier": "^8.5.0",
-    "extra-eyes": "^3.0.2",
+    "extra-eyes": "^3.1.0",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
     "js-yaml": "^4.1.0",
