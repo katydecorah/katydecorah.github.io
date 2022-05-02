@@ -14,7 +14,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.17.10",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "@double-great/remark-lint-alt-text": "^1.0.0",
