@@ -19,7 +19,7 @@
     "@babel/preset-env": "^7.17.10",
     "@double-great/remark-lint-alt-text": "^1.0.0",
     "@mapbox/remark-lint-link-text": "^0.6.0",
-    "doctoc": "^2.1.0",
+    "doctoc": "^2.2.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "extra-eyes": "^3.1.0",
