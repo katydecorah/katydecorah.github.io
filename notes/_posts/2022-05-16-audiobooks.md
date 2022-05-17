@@ -3,7 +3,7 @@ title: Audiobooks
 image: 2022-05-16-audiobooks.png
 ---
 
-Last year, I met my goal of reading 52 books in 52 weeks and then some. I couldn't have done it without audiobooks, [Libby](https://www.overdrive.com/apps/libby), learning that New York State residents can [apply for the New York Public Library card](https://www.nypl.org/library-card/new).
+Last year, I met my goal of reading 52 books in 52 weeks and then some. I couldn't have done it without audiobooks, [Libby](https://www.overdrive.com/apps/libby), and learning that New York State residents can [apply for a New York Public Library card](https://www.nypl.org/library-card/new).
 
 Listening to a book while doing anything else is like a delightful cheat. I listen to books while:
 
@@ -19,8 +19,8 @@ Listening to a book while doing anything else is like a delightful cheat. I list
 - Crocheting
 - Emptying the dishwasher
 - Working on jig saw puzzles
-- Gardening
+- Pulling weeds in the garden
 - Coloring
 - Playing [Threes](http://play.threesgame.com/) on my phone
 
-Prove them wrong, all wrong. You can fill the void with audiobooks.
+Prove them all wrong, you can fill the void with audiobooks. (Or at least try to.)
