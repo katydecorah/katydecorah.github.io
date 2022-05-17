@@ -12,14 +12,14 @@ assets: //yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
 
-remote_theme: katydecorah/theme@v3.0.0
+remote_theme: katydecorah/theme@v4.8.1
 
-paginate: 5
+paginate: 10
 paginate_path: ":num"
 future: true
 
 title: Katy DeCorah
-description: "Frontend engineer and tinkerer from Saratoga Springs, NY."
+description: "Software engineer and tinkerer from Saratoga Springs, NY."
 image: //yo.katydecorah.com/katy-decorah-2021@1600.jpg
 twitter: "@katydecorah"
 
@@ -72,23 +72,21 @@ links:
   - text: CodePen
     url: https://codepen.io/katydecorah/
     icon: codepen
-    position: bottom
   - text: GitHub
     url: https://github.com/katydecorah
     icon: github
-    position: bottom
   - text: Twitter
     url: https://twitter.com/katydecorah
     icon: twitter
-    position: bottom
   - text: Instagram
     url: https://instagram.com/katydecorah
     icon: instagram
-    position: bottom
   - text: RSS
     url: /feed.xml
     icon: rss
-    position: bottom
+  - text: Collections
+    url: /has/
+    icon: bookmark
 
 mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2l0YzVhY2l6MGE0eDJ6czZ2NDRpZGtubyJ9.njBRjO2lRXdT0Mut9Vryqg
 mapid: katydecorah/cikt0ttfx006q9flxv0h1qwob

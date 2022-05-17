@@ -8,7 +8,7 @@ tags:
   - Google Sheets
 ---
 
-{% include note.html content="Try the updated version of this post where I'll teach you [how to draft your email in Google docs](/code/google-sheets-to-gmail-template/)" %}
+{% include post/note.html content="Try the updated version of this post where I'll teach you [how to draft your email in Google docs](/code/google-sheets-to-gmail-template/)" %}
 
 For this past [Ela Conf](https://elaconf.github.io), we had a record number of proposals submitted, which also (unfortunately) meant a record number of rejection emails we need to send. In the past, we sent these individually, but the sheer volume was going to take hours. We didn't want to send a mass email because it was important to us to address the proposal submitter by their name and reference their submitted talk title(s).
 

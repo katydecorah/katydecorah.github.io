@@ -3,5 +3,4 @@ layout: home
 title: Katy DeCorah
 ---
 
-{% for post in paginator.posts %}{% include post-list.html post=post %}{% endfor
-%}
+{%- for post in paginator.posts -%}{% include post/post-link.html post=post %}{%- endfor -%}
