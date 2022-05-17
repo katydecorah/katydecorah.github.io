@@ -24,4 +24,4 @@ Listening to a book while doing anything else is like a delightful cheat. I list
 - Playing [Threes](http://play.threesgame.com/) on my phone
 - Pruning my Libby holds and tags
 
-Prove them all wrong, you can fill the void with audiobooks. (Or at least try to.)
+More than that, I learned that listening to a book is a better medium for me than reading a physical book. Audiobooks hold my focus and help me maintain a cadence. It's been so rewarding to discover and become more curious about my learning style.
