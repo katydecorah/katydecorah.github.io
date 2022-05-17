@@ -22,6 +22,6 @@ Listening to a book while doing anything else is like a delightful cheat. I list
 - Pulling weeds in the garden
 - Coloring
 - Playing [Threes](http://play.threesgame.com/) on my phone
-- Pruning my Libby wishlist
+- Pruning my Libby holds and tags
 
 Prove them all wrong, you can fill the void with audiobooks. (Or at least try to.)
