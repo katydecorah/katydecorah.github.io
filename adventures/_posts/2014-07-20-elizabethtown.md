@@ -15,13 +15,13 @@ In the afternoon we took a little excursion out to Lake Champlain and Ausable Ch
 
 <div class="photos">
 
-{% include img.html src="2014-07-20-elizabethtown-1.jpg" alt="Lake Champlain" %}
+{% include img.html src="2014-07-20-elizabethtown-1.jpg" alt="Lake Champlain" width="1600" height="1200" %}
 
-{% include img.html src="2014-07-20-elizabethtown-2.jpg" alt="Ausable Chasm" class="img-thirds" %}
+{% include img.html src="2014-07-20-elizabethtown-2.jpg" alt="Ausable Chasm" class="img-thirds" width="1600" height="2133" %}
 
-{% include img.html src="2014-07-20-elizabethtown-3.jpg" alt="Ausable Chasm" class="img-thirds" %}
+{% include img.html src="2014-07-20-elizabethtown-3.jpg" alt="Ausable Chasm" class="img-thirds" width="1600" height="2133" %}
 
-{% include img.html src="2014-07-20-elizabethtown-0.jpg" alt="Ausable Chasm" class="img-thirds" %}
+{% include img.html src="2014-07-20-elizabethtown-0.jpg" alt="Ausable Chasm" class="img-thirds" width="1600" height="2133" %}
 
 </div>
 

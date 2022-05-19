@@ -1,17 +1,11 @@
-const fs = require("fs");
-const jsyaml = require("js-yaml");
+import { readFile } from "fs/promises";
+import { load } from "js-yaml";
 
-const readData = (dir, filename) => {
-  var buffer = fs.readFileSync(dir + filename),
-    file = buffer.toString("utf8");
-
+export async function readData(dir, filename) {
+  const file = await readFile(`${dir}${filename}`, "utf-8");
   return {
     name: filename,
-    file: file,
-    metadata: jsyaml.load(file),
+    file,
+    metadata: load(file),
   };
-};
-
-module.exports = {
-  readData,
-};
+}

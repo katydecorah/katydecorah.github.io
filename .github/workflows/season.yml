@@ -1,0 +1,27 @@
+name: Seasonal post
+
+on:
+  schedule:
+    - cron: "00 02 20 Mar,Jun,Sep,Dec *"
+
+jobs:
+  seasonal_post:
+    runs-on: ubuntu-latest
+    name: Write seasonal post
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Write seasonal post
+        uses: katydecorah/seasonal-post-action@v4.0.0
+        with:
+          GitHubUsername: katydecorah
+          GitHubRepository: has
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git pull
+          git add -A && git commit -m "${{ env.season }}"
+          git push "https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF}

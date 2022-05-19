@@ -1,0 +1,3 @@
+{
+  "allow": ["relative-to", "component", "minimize"]
+}

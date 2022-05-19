@@ -93,7 +93,7 @@ I altered my Google map code to consider the new Mapbox flag:
 {% raw %}{% if page.locations %}
 <div{% if page.mapType %} id="map"{% endif %} class="post-map-header">
 {% if page.mapType %}{% else %}
-{% include img.html src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location | replace:' ','+' }}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% else %}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% endif %}{% endfor %}&amp;zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&amp;size=1280x180&amp;scale=2&amp;sensor=false&amp;visual_refresh=true" class="post-location-image" alt="untitled" %}
+{% include img.html width="1280" height="180" src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location | replace:' ','+' }}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% else %}&amp;markers=color:blue%7C{{location | replace:' ','+' }}{% endif %}{% endfor %}&amp;zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&amp;size=1280x180&amp;scale=2&amp;sensor=false&amp;visual_refresh=true" class="post-location-image" alt="untitled" %}
 {% endif %}
 </div>
 {% endif %}{% endraw %}

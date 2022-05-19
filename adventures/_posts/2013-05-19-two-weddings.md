@@ -14,9 +14,9 @@ I had the distinct honor of being in two weddings this month.
 
 <div class="photos">
 
-{% include img.html src="2013-05-19-two-weddings-1.jpg" class="img-half" alt="2013-05-18 12.53.08-2" %}
-{% include img.html src="2013-05-19-two-weddings-2.jpg" class="img-half" alt="2013-05-11 13.22.54-1" %}
-{% include img.html src="2013-05-19-two-weddings-0.jpg" alt="2013-03-09 17.37.33" %}
+{% include img.html src="2013-05-19-two-weddings-1.jpg" class="img-half" alt="2013-05-18 12.53.08-2" width="1600" height="1600" %}
+{% include img.html src="2013-05-19-two-weddings-2.jpg" class="img-half" alt="2013-05-11 13.22.54-1" width="1600" height="1600" %}
+{% include img.html src="2013-05-19-two-weddings-0.jpg" alt="2013-03-09 17.37.33" width="1600" height="1600" %}
 
 </div>
 
@@ -24,7 +24,7 @@ For both weddings, I designed t-shirts for the bachelorette parties. The bride's
 
 <div class="photos">
 
-{% include img.html src="2013-05-19-two-weddings-3.jpg" alt="2013-03-07 22.12.42" %}
+{% include img.html src="2013-05-19-two-weddings-3.jpg" alt="2013-03-07 22.12.42" width="1600" height="1200" %}
 
 </div>
 

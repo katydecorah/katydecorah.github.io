@@ -15,14 +15,14 @@ Saturday morning we visited the Albany Pine Bush at [Karner Barrens East &amp; W
 
 <div class="photos">
 
-{% include img.html src="2013-11-24-albany-pine-bush-1.jpg" class="img-half" alt="Albany Pine Bush" %}
-{% include img.html src="2013-11-24-albany-pine-bush-2.jpg" class="img-half" alt="Albany Pine Bush" %}
-{% include img.html src="2013-11-24-albany-pine-bush-3.jpg" class="img-half" alt="Albany Pine Bush" %}
-{% include img.html src="2013-11-24-albany-pine-bush-4.jpg" class="img-half" alt="Albany Pine Bush" %}
-{% include img.html src="2013-11-24-albany-pine-bush-0.jpg" class="pop-out" alt="Albany Pine Bush" %}
-{% include img.html src="2013-11-24-albany-pine-bush-5.jpg" alt="Albany Pine Bush" %}
-{% include img.html src="2013-11-24-albany-pine-bush-6.jpg" class="img-half" alt="Albany Pine Bush" %}
-{% include img.html src="2013-11-24-albany-pine-bush-7.jpg" class="img-half" alt="Albany Pine Bush" %}
+{% include img.html src="2013-11-24-albany-pine-bush-1.jpg" class="img-half" alt="Albany Pine Bush" width="1600" height="1200" %}
+{% include img.html src="2013-11-24-albany-pine-bush-2.jpg" class="img-half" alt="Albany Pine Bush" width="1600" height="1200" %}
+{% include img.html src="2013-11-24-albany-pine-bush-3.jpg" class="img-half" alt="Albany Pine Bush" width="1600" height="1200" %}
+{% include img.html src="2013-11-24-albany-pine-bush-4.jpg" class="img-half" alt="Albany Pine Bush" width="1600" height="1200" %}
+{% include img.html src="2013-11-24-albany-pine-bush-0.jpg" class="pop-out" alt="Albany Pine Bush" width="1600" height="1200" %}
+{% include img.html src="2013-11-24-albany-pine-bush-5.jpg" alt="Albany Pine Bush" width="1600" height="2133" %}
+{% include img.html src="2013-11-24-albany-pine-bush-6.jpg" class="img-half" alt="Albany Pine Bush" width="1600" height="1200" %}
+{% include img.html src="2013-11-24-albany-pine-bush-7.jpg" class="img-half" alt="Albany Pine Bush" width="1600" height="1200" %}
 
 </div>
 

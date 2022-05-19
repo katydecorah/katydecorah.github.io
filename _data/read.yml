@@ -582,3 +582,45 @@
       thumbnail: "http://books.google.com/books/content?id=nCCxvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     language: "en"
     canonicalVolumeLink: "https://books.google.com/books/about/The_Lottery_and_Other_Stories.html?hl=&id=nCCxvgEACAAJ"
+  - isbn: "9781984879363"
+    dateFinished: "2021-02-28"
+    title: "Death in Her Hands"
+    authors:
+      - "Ottessa Moshfegh"
+    publishedDate: "2020-06-23"
+    description: "Named One of the Best Books of the Summer by: New York Magazine, Time Magazine, Town & Country, Marie Claire, Refinery 29, PopSugar, the Today Show, and more From one of our most ceaselessly provocative literary talents, a novel of haunting metaphysical suspense about an elderly widow whose life is upturned when she finds an ominous note on a walk in the woods. While on her daily walk with her dog in a secluded woods, a woman comes across a note, handwritten and carefully pinned to the ground by stones. \"Her name was Magda. Nobody will ever know who killed her. It wasn't me. Here is her dead body.\" But there is no dead body. Our narrator is deeply shaken; she has no idea what to make of this. She is new to this area, alone after the death of her husband, and she knows no one. Becoming obsessed with solving this mystery, our narrator imagines who Magda was and how she met her fate. With very little to go on, she invents a list of murder suspects and possible motives for the crime. Oddly, her suppositions begin to find correspondences in the real world, and with mounting excitement and dread, the fog of mystery starts to fade into menacing certainty. As her investigation widens, strange dissonances accrue, perhaps associated with the darkness in her own past; we must face the prospect that there is either an innocent explanation for all this or a much more sinister one. A triumphant blend of horror, suspense, and pitch-black comedy, Death in Her Hands asks us to consider how the stories we tell ourselves both reflect the truth and keep us blind to it. Once again, we are in the hands of a narrator whose unreliability is well earned, and the stakes have never been higher."
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9781984879363"
+      - type: "ISBN_10"
+        identifier: "1984879367"
+    pageCount: 272
+    printType: "BOOK"
+    categories:
+      - "Fiction"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=kiikDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=kiikDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://books.google.com/books/about/Death_in_Her_Hands.html?hl=&id=kiikDwAAQBAJ"
+  - isbn: "9780062997562"
+    dateFinished: "2021-03-08"
+    title: "The Removed"
+    authors:
+      - "Brandon Hobson"
+    publishedDate: "2021-02-02"
+    description: "“Brandon Hobson has given us a haunted work, full of voices old and new. It is about a family’s reckoning with loss and injustice, and it is about a people trying for the same. The journey of this family’s way home is full—in equal measure—of melancholy and love. The Removed is spirited, droll, and as quietly devastating as rain lifting from earth to sky.” —Tommy Orange, author of There There A RECOMMENDED BOOK FROM USA Today * O, the Oprah Magazine * AARP * Alma * Biblio Lifestyle * Publishers Weekly Steeped in Cherokee myths and history, a novel about a fractured family reckoning with the tragic death of their son long ago—from National Book Award finalist Brandon Hobson In the fifteen years since their teenage son, Ray-Ray, was killed in a police shooting, the Echota family has been suspended in private grief. The mother, Maria, increasingly struggles to manage the onset of Alzheimer’s in her husband, Ernest. Their adult daughter, Sonja, leads a life of solitude, punctuated only by spells of dizzying romantic obsession. And their son, Edgar, fled home long ago, turning to drugs to mute his feelings of alienation. With the family’s annual bonfire approaching—an occasion marking both the Cherokee National Holiday and Ray-Ray’s death, and a rare moment in which they openly talk about his memory—Maria attempts to call the family together from their physical and emotional distances once more. But as the bonfire draws near, each of them feels a strange blurring of the boundary between normal life and the spirit world. Maria and Ernest take in a foster child who seems to almost miraculously keep Ernest’s mental fog at bay. Sonja becomes dangerously fixated on a man named Vin, despite—or perhaps because of—his ties to tragedy in her lifetime and lifetimes before. And in the wake of a suicide attempt, Edgar finds himself in the mysterious Darkening Land: a place between the living and the dead, where old atrocities echo. Drawing deeply on Cherokee folklore, The Removed seamlessly blends the real and spiritual to excavate the deep reverberations of trauma—a meditation on family, grief, home, and the power of stories on both a personal and ancestral level."
+    industryIdentifiers:
+      - type: "ISBN_13"
+        identifier: "9780062997562"
+      - type: "ISBN_10"
+        identifier: "0062997564"
+    pageCount: 288
+    printType: "BOOK"
+    categories:
+      - "Fiction"
+    imageLinks:
+      smallThumbnail: "http://books.google.com/books/content?id=9UzlDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+      thumbnail: "http://books.google.com/books/content?id=9UzlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    language: "en"
+    canonicalVolumeLink: "https://play.google.com/store/books/details?id=9UzlDwAAQBAJ"

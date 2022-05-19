@@ -7,8 +7,8 @@ recipe-title: Raspberry Chocolate Pie
 ---
 
 <div class="photos">
-{% include img.html src="2013-07-04-raspberry-chocolate-pie-1.jpg" class="img-thirds" alt="Raspberry Ganache Pie" %}
-{% include img.html src="2013-07-04-raspberry-chocolate-pie-2.jpg" class="img-thirds" alt="Raspberry Ganache Pie" %}
-{% include img.html src="2013-07-04-raspberry-chocolate-pie-3.jpg" class="img-thirds" alt="Raspberry Ganache Pie" %}
-{% include img.html src="2013-07-04-raspberry-chocolate-pie-4.jpg" alt="Raspberry Ganache Pie" %}
+{% include img.html src="2013-07-04-raspberry-chocolate-pie-1.jpg" class="img-thirds" alt="Raspberry Ganache Pie" width="1600" height="2133" %}
+{% include img.html src="2013-07-04-raspberry-chocolate-pie-2.jpg" class="img-thirds" alt="Raspberry Ganache Pie" width="1600" height="2133" %}
+{% include img.html src="2013-07-04-raspberry-chocolate-pie-3.jpg" class="img-thirds" alt="Raspberry Ganache Pie" width="1600" height="2133" %}
+{% include img.html src="2013-07-04-raspberry-chocolate-pie-4.jpg" alt="Raspberry Ganache Pie" width="1600" height="1200" %}
 </div>

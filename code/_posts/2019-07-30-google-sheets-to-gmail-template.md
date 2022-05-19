@@ -15,7 +15,7 @@ Last year I wrote about how to [create emails from a Google spreadsheet](/code/g
 Look at your spreadsheet and find the variables that you will use in your template. These variables are the first row of your table. In the example below, my variables are `Name`, `Email`, `Type`, and `Recipe`.
 
 <div class="photos">
-{% include img.html src="2019-07-31-email.png" alt="Spreadsheet example where Name, Email, Type, and Recipe are all column names" %}
+{% include img.html src="2019-07-31-email.png" alt="Spreadsheet example where Name, Email, Type, and Recipe are all column names" width="1600" height="956" %}
 </div>
 
 💡 Make sure your spreadsheet header has unique titles.
@@ -25,7 +25,7 @@ Look at your spreadsheet and find the variables that you will use in your templa
 Write your email template in a Google doc. Replace the words that you want to personalize with data from your spreadsheet with their variable name wrapped in curly brackets. For example, "Hi Katy" becomes "Hi {Name}".
 
 <div class="photos">
-{% include img.html src="2019-07-31-email-2.png" alt="Email template in Google doc" %}
+{% include img.html src="2019-07-31-email-2.png" alt="Email template in Google doc" width="1600" height="956" %}
 </div>
 
 ## Get your Google doc ID
@@ -33,7 +33,7 @@ Write your email template in a Google doc. Replace the words that you want to pe
 Look at the URL for your Google doc and copy the sequence of letters and numbers after `/d/` and until the next `/`. See the highlighted string in the URL bar in the image below. This is your document's ID, you'll need it later.
 
 <div class="photos">
-{% include img.html src="2019-07-31-email-doc-id.png" alt="Find the Google doc ID" %}
+{% include img.html src="2019-07-31-email-doc-id.png" alt="Find the Google doc ID" width="1600" height="956" %}
 </div>
 
 ## Open the Script Editor in Google Sheets
@@ -51,13 +51,13 @@ Open up the tab of a Google spreadsheet that has your data.
 5. Enter a project name, such as "Email drafter".
 
 <div class="photos">
-{% include img.html src="2019-07-31-email-edit-script.png" alt="Google doc id" %}
+{% include img.html src="2019-07-31-email-edit-script.png" alt="Google doc id" width="1600" height="974" %}
 </div>
 
 ## Run the script
 
 <div class="photos">
-{% include img.html src="2019-07-31-email-send.png" alt="Google doc id" %}
+{% include img.html src="2019-07-31-email-send.png" alt="Google doc id" width="1600" height="974" %}
 </div>
 
 When you're ready to draft your emails:
@@ -70,7 +70,7 @@ When you're ready to draft your emails:
 4. Open Gmail and check your drafts folder. You should see emails that are ready for you to send.
 
 <div class="photos">
-{% include img.html src="2019-07-31-email-6.png" alt="Google doc id" %}
+{% include img.html src="2019-07-31-email-6.png" alt="Google doc id" width="1600" height="956" %}
 </div>
 
 If something didn't send properly, double check that your spreadsheet column rows match the variables in your Google doc exactly.

@@ -10,7 +10,7 @@ tags:
 
 We live in Upstate New York so there's snow and it's kind of pain for J to plow the driveway if our cars are in the way. I built a little Slack bot that runs three times a day (7 am, 1 pm, and 7 pm). And if there will be more than one inch of snow in the next 12 hours then [WeatherBot](https://github.com/katydecorah/weatherbot) will ping our Slack:
 
-{% include img.html src='2017-02-22-weatherbot-1.jpg' alt='WeatherBot Slack Post' class='img-full' %}
+{% include img.html src='2017-02-22-weatherbot-1.jpg' alt='WeatherBot Slack Post' class='img-full' width='1362' height='136' %}
 
 ## How it works
 

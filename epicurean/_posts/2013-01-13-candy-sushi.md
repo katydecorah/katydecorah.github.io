@@ -4,7 +4,7 @@ image: 2013-01-13-candy-sushi-0.jpg
 ---
 
 <div class="photos">
-{% include img.html src="2013-01-13-candy-sushi-0.jpg" alt="Candy Sushi" %}
+{% include img.html src="2013-01-13-candy-sushi-0.jpg" alt="Candy Sushi" width="1600" height="1600" %}
 </div>
 
 You too can bring candy sushi magic to your home. Below is a basic write-up of what I did, but free-styling is encouraged.

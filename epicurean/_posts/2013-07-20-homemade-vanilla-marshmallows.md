@@ -6,5 +6,5 @@ recipe-title: Vanilla marshmallows
 ---
 
 <div class="photos">
-{% include img.html src="2013-07-20-homemade-vanilla-marshmallows-1.jpg" alt="Homemade Vanilla Marshmallows" %}
+{% include img.html src="2013-07-20-homemade-vanilla-marshmallows-1.jpg" alt="Homemade Vanilla Marshmallows" width="1600" height="1200" %}
 </div>

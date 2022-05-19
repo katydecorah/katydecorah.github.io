@@ -31,7 +31,7 @@ I decided to tighten up the process.
 
 I ditched the database and moved the playlists into a single YAML file. Using PHP, I outputted the playlist data into YAML format. I had to clean out special characters, but in all it worked beautifully. I saved my data into [`playlists.yml`](https://github.com/katydecorah/katydecorah.github.com/blob/master/_data/playlists.yml) in my site's `_data` folder.
 
-{% include img.html src='2014-03-23-jekyll-data-playlists-0.png' alt='playlists.xml' class='img-half' %}
+{% include img.html src='2014-03-23-jekyll-data-playlists-0.png' alt='playlists.xml' class='img-half' width='800' height='800' %}
 
 Using liquid, I could now spin through the data. To test, I created a [playlist master]({{site.url}}/playlists) page that pulls all the data from `playlists.yml` into a beautiful list.
 

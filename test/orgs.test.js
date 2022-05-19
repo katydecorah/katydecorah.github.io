@@ -1,16 +1,13 @@
-const test = require("tape");
-const utils = require("./utils");
+import { readData } from "./utils.js";
 
-const data = {
-  organizations: utils.readData("_data/", "organizations.yml"),
-};
-
-data.organizations.metadata.forEach((org) => {
-  test(org.name, (t) => {
-    t.ok(org.name, "must have a name");
-    t.ok(org.description, "must have a description");
-    t.ok(org.description.endsWith("."), "description must end in period");
-    t.ok(org.link, "must have a link");
-    t.end();
+describe("organizations", () => {
+  test("Check organization metadata", async () => {
+    const { metadata } = await readData("_data/", "organizations.yml");
+    for (const { name, description, link } of metadata) {
+      expect(name).toBeDefined();
+      expect(description).toBeDefined();
+      expect(description.endsWith(".")).toBeTruthy();
+      expect(link).toBeDefined();
+    }
   });
 });

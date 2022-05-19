@@ -17,21 +17,21 @@ I decided to try a snowflake.
 
 With Haml, I spit out 3 `div` tags to act as the snowflake's `.spindles`. I paired the Haml loop with a Sass loop to crisscross the spindles dynamically.
 
-{% include img.html src='2014-12-19-snowflaker-0.jpg' alt='3 spindles' class='img-half' %}
+{% include img.html src='2014-12-19-snowflaker-0.jpg' alt='3 spindles' class='img-half' width='604' height='461' %}
 
 I created `$w` to manage the width of each spindle and sized the height at `1em`. I always like to have at least one dimension at `1em`, because I'll drop a `font-size` on that element or its parent to allow the project to scale on `1em`.
 
 Next, I used `box-shadow` on the `:before` and `:after` to build the snowflake patterns off the spindles. This took some time to get just right because I had to think of each spindle. Each spindle is part of the pattern pie. Eventually, I got the `:before` to look like this thanks to `box-shadow`:
 
-{% include img.html src='2014-12-19-snowflaker-1.jpg' alt='before element' class='img-half' %}
+{% include img.html src='2014-12-19-snowflaker-1.jpg' alt='before element' class='img-half' width='589' height='467' %}
 
 I added `box-shadow` to the `:after` to build the final pattern:
 
-{% include img.html src='2014-12-19-snowflaker-2.jpg' alt='after element' class='img-half' %}
+{% include img.html src='2014-12-19-snowflaker-2.jpg' alt='after element' class='img-half' width='515' height='439' %}
 
 To really break it down, a single spindle looks like this:
 
-{% include img.html src='2014-12-19-snowflaker-3.jpg' alt='annotated single spindle' class='img-half' %}
+{% include img.html src='2014-12-19-snowflaker-3.jpg' alt='annotated single spindle' class='img-half' width='720' height='476' %}
 
 Now put your finger at the top of the spindle and turn the bottom at (360/number of spindles) degrees and you’ll get the snowflake pattern.
 
