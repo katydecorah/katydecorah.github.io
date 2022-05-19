@@ -28,4 +28,4 @@ How does one go from being a person who _prepares_ or _develops_ to being a _pro
 - Pour La Croix in libation to the gods?
 - Type "software engineer" in your LinkedIn profile?
 
-I take pride in all the steps in my journey and maybe that is all I need to feel eligible.
+I take pride in all the titles I have held in my journey and maybe that is all I need to feel eligible.
