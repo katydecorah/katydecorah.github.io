@@ -29,4 +29,4 @@ The data for each board looks something like this:
   date: "2022-01-15"
 ```
 
-I created [a page to show off my scores](https://katydecorah.com/has/played/#wordle) and calculate the same game statistics found on Wordle. I love to see [my data in one place](https://katydecorah.com/has/) and build workflows that make it enjoyable to add to my growing collections.
+I created [a page to show off my scores](/has/played/#wordle) and calculate the same game statistics found on Wordle. I love to see [my data in one place](/has/) and build workflows that make it enjoyable to add to my growing collections.
