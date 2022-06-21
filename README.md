@@ -1,4 +1,4 @@
-# katydecorah.com ![Test](https://github.com/katydecorah/katydecorah.github.io/workflows/Test/badge.svg)
+# katy.dev ![Test](https://github.com/katydecorah/katydecorah.github.io/workflows/Test/badge.svg)
 
 Built with:
 

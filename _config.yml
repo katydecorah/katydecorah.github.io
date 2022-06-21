@@ -1,13 +1,13 @@
 port: 4000
 host: 127.0.0.1
 
-url: https://katydecorah.com
+url: https://katy.dev
 baseurl: ''
 permalink: /:categories/:title/
 author:
   name: Katy DeCorah
   email: katydecorah@gmail.com
-  uri: https://katydecorah.com
+  uri: https://katy.dev
 assets: //yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
