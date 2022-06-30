@@ -17,7 +17,7 @@ Last year I worked through the Buffy the Vampire Slayer series as a first time w
 These early references to the internet and computers feel campy now, but it's hard to miss the wonder how the internet in the 90s felt like magic. Today, the internet continues to feel like magic.
 
 <div class="photos">
-{% include img.html src="2021-02-08-in-defense-of-magic-2.png" class="img-half" alt="" width="1920" height="1200" %}
+{% include img.html src="2021-02-08-in-defense-of-magic-2.png" class="img-half" alt="Willow's mother says, 'But I will not have you communicating with your cyber-cover or what you.'" width="1920" height="1200" %}
 {% include img.html src="2021-02-08-in-defense-of-magic-3.png" class="img-half" alt="" width="1920" height="1200" %}
 </div>
 
