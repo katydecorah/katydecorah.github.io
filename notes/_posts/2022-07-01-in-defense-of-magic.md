@@ -33,6 +33,6 @@ Whether the code I wrote can make a task easier by automating a process or an ex
 {% include img.html src="2022-07-01-in-defense-of-magic-4.png" class="" alt="Buffy saying, 'If you can't do it on-line, then use magic'" width="1920" height="1200" %}
 </div>
 
-What changes when knowledge is shared online versus requires access to research libraries? What happens when code is documented? Who else can learn when you explain how to fix a bug?
+What changes when knowledge is shared online versus requires access to research libraries? What happens when code is documented? Who else can figure something out when you explain how to fix a bug?
 
 Share some magic today.
