@@ -1,6 +1,6 @@
 ---
 title: In defense of magic
-image: 2021-02-08-in-defense-of-magic-4.png
+image: 2022-07-01-in-defense-of-magic-4.png
 ---
 
 Last year I worked through the Buffy the Vampire Slayer series as a first time watcher. The comparison of what's old and new is a strong theme in the series, and magic.
@@ -11,14 +11,14 @@ Last year I worked through the Buffy the Vampire Slayer series as a first time w
 - Magic read from books; magic researched and shared online.
 
 <div class="photos">
-{% include img.html src="2021-02-08-in-defense-of-magic-1.png" alt="Technopagan is the term" width="1920" height="1200" %}
+{% include img.html src="2022-07-01-in-defense-of-magic-1.png" alt="Technopagan is the term" width="1920" height="1200" %}
 </div>
 
 These early references to the internet and computers feel campy now, but it's hard to miss the wonder how the internet in the 90s felt like magic. Today, the internet continues to feel like magic.
 
 <div class="photos">
-{% include img.html src="2021-02-08-in-defense-of-magic-2.png" class="img-half" alt="Willow's mother says, 'But I will not have you communicating with your cyber-cover or what you.'" width="1920" height="1200" %}
-{% include img.html src="2021-02-08-in-defense-of-magic-3.png" class="img-half" alt="" width="1920" height="1200" %}
+{% include img.html src="2022-07-01-in-defense-of-magic-2.png" class="img-half" alt="Willow's mother says, 'But I will not have you communicating with your cyber-cover or what you.'" width="1920" height="1200" %}
+{% include img.html src="2022-07-01-in-defense-of-magic-3.png" class="img-half" alt="" width="1920" height="1200" %}
 </div>
 
 In The Once and Future Witches, Alix E. Harrow wrote:
@@ -30,7 +30,7 @@ If you work on the web, it's likely someone has compared your work to sorcery or
 Whether the code I wrote can make a task easier by automating a process or an explanation can help you figure something out, these acts can close a space between what someone has and what they need.
 
 <div class="photos">
-{% include img.html src="2021-02-08-in-defense-of-magic-4.png" class="" alt="Buffy saying, 'If you can't do it on-line, then use magic'" width="1920" height="1200" %}
+{% include img.html src="2022-07-01-in-defense-of-magic-4.png" class="" alt="Buffy saying, 'If you can't do it on-line, then use magic'" width="1920" height="1200" %}
 </div>
 
 What changes when knowledge is shared online versus requires access to research libraries? What happens when code is documented? Who else can learn when you explain how to fix a bug?
