@@ -42,7 +42,7 @@ These files once lived in my site repository, but I realized they serve a differ
 
 ## Points on the board
 
-My private data repository builds [a public site](https://katydecorah.com/has/). I mentioned earlier that I tried to make the process of tracking rewarding &mdash; this site is it. Like checking something off a checklist, I have found a sense of accomplishment that makes me want to continue, to do more, to read more, to try a new recipe.
+My private data repository builds [a public site](/has/). I mentioned earlier that I tried to make the process of tracking rewarding &mdash; this site is it. Like checking something off a checklist, I have found a sense of accomplishment that makes me want to continue, to do more, to read more, to try a new recipe.
 
 Since my GitHub actions commit directly to the repository, the site will automatically update. This means that about a minute after I triggered a workflow for finishing a book, the book's title and thumbnail will appear on the site.
 

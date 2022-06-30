@@ -10,7 +10,7 @@ tags:
 
 Filed under: things we probably don't need, but idk I want it.
 
-A bit ago, I made a [weatherbot](https://katydecorah.com/code/weatherbot/) for our household Slack to remind us of nice weather so we can go for walks and of inclement weather so we can move the cars and hunker down. Since I spend a fair amount of time in Slack, I considered what it would be like to create a weather widget using a user's status.
+A bit ago, I made a [weatherbot](/code/weatherbot/) for our household Slack to remind us of nice weather so we can go for walks and of inclement weather so we can move the cars and hunker down. Since I spend a fair amount of time in Slack, I considered what it would be like to create a weather widget using a user's status.
 
 So I did:
 

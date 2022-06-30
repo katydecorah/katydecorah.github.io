@@ -11,7 +11,7 @@ Say you have a dataset for a handful of countries or all the countries, or maybe
 Something like this:
 
 <div class="photos">
-<iframe src="https://katydecorah.com/geojson-weaver/" width="100%" height='400px'></iframe>
+<iframe src="/geojson-weaver/" width="100%" height='400px'></iframe>
 </div>
 
 So at this point your thought process might be you're like, "Ok, where do I start?" and then you think, "Ok, maybe I'll do it by hand!"
@@ -246,7 +246,7 @@ The code looks like this:
 };{% endraw %}
 ```
 
-And [here's what it looks like](https://katydecorah.com/geojson-weaver/country-data.js) once Jekyll gobbles it up and spits it out. Now I can [load that GeoJSON on a map](https://katydecorah.com/geojson-weaver/)!
+And [here's what it looks like](/geojson-weaver/country-data.js) once Jekyll gobbles it up and spits it out. Now I can [load that GeoJSON on a map](/geojson-weaver/)!
 
 The workflow ends up being painless. I can make updates to my data file and once Jekyll runs, my map updates. Also, I followed the same process with state data that I got from Mapbox, so I can do some state shape and data matchmaking.
 

@@ -14,7 +14,7 @@ For [Ela Conf](https://elaconf.github.io/) 2015, 2016, and 2017, we turned a pri
 Here's how we set it up:
 
 1. We accepted proposals through a [Google Form](https://www.google.com/forms/about/).
-2. Once someone submitted a proposal through our form, we set up a [Zapier](https://katydecorah.com/notes/ela-conf-bots/) zap to create an issue in our repository.
+2. Once someone submitted a proposal through our form, we set up a [Zapier](/notes/ela-conf-bots/) zap to create an issue in our repository.
 3. Our team used emoji reactions :+1: or :-1: on each proposal (issue) for the first round of review.
 
 To help automate the process, I [wrote a script](https://github.com/katydecorah/proposal-reviewer) that:

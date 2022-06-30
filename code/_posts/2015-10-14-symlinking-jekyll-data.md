@@ -6,7 +6,7 @@ tags:
   - Jekyll
 ---
 
-[Font Library](https://katydecorah.com/font-library/) has delicious data packed into a [JSON file](https://katydecorah.com/font-library/families.json). I've had an urge to see how else I can hack the file with Jekyll and tonight I was up for the challenge.
+[Font Library](/font-library/) has delicious data packed into a [JSON file](/font-library/families.json). I've had an urge to see how else I can hack the file with Jekyll and tonight I was up for the challenge.
 
 To start, the JSON file is in the root of the Jekyll site, making it a simple file without Jekyll powers. I keep it there so it's easier to find, especially for contributors. A few times I had considered moving it to `_data/` because with a [Jekyll data file](http://jekyllrb.com/docs/datafiles/) I can use [liquid](https://github.com/Shopify/liquid/wiki) to `loop` and `if` and `else` the data all I want.
 
