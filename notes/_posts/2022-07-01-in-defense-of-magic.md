@@ -3,7 +3,7 @@ title: In defense of magic
 image: 2022-07-01-in-defense-of-magic-4.png
 ---
 
-Last year I worked through the Buffy the Vampire Slayer series as a first time watcher. The comparison of what's old and new is a strong theme in the series, and magic.
+Last year I worked through the Buffy the Vampire Slayer series as a first time watcher. The comparison of what's old and new is a strong theme in the series and often projected as magic.
 
 - The librarian and self-appointed Luddite; The teen computer whiz.
 - The male perception of strength; teen girls fighting villains.
