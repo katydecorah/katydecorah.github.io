@@ -3,7 +3,7 @@ title: In defense of magic
 image: 2022-07-01-in-defense-of-magic-4.png
 ---
 
-Last year I worked through the Buffy the Vampire Slayer series as a first time watcher. The comparison of what's old and new is a strong theme in the series and often projected as magic.
+Last year I worked through the Buffy the Vampire Slayer series as a first-time watcher. The comparison of what's old and new is a strong theme in the series and is often projected as magic.
 
 - The librarian and self-appointed Luddite; the teen computer whiz.
 - The male perception of strength; teen girls fighting villains.
@@ -14,7 +14,7 @@ Last year I worked through the Buffy the Vampire Slayer series as a first time w
 {% include img.html src="2022-07-01-in-defense-of-magic-1.png" alt="Technopagan is the term" width="1920" height="1200" %}
 </div>
 
-These early references to the internet and computers feel campy now, but I remember the wonder and excitement of having knowledge at your finger tips. It still feels like magic to me.
+These early references to the internet and computers feel campy now, but I remember the wonder and excitement of having knowledge at your fingertips. It still feels like magic to me.
 
 <div class="photos">
 {% include img.html src="2022-07-01-in-defense-of-magic-2.png" class="img-half" alt="Willow's mother says, 'But I will not have you communicating with your cyber-cover or what you.'" width="1920" height="1200" %}
