@@ -35,6 +35,6 @@ Whether some code can make a task easier or a blog post can help you figure some
 {% include img.html src="2022-07-01-in-defense-of-magic-4.png" class="" alt="Buffy saying, 'If you can't do it on-line, then use magic'" width="1920" height="1200" %}
 </div>
 
-What changes when knowledge is shared online versus requires access to research libraries? What happens when code is documented? Who else can figure something out when you explain how to fix a bug?
+What changes when knowledge is shared online versus requires access to research libraries? What happens when code is documented? Who else will be able to finish their job because you commented with a fix?
 
 Share some magic.
