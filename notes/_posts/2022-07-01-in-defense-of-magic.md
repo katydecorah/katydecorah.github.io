@@ -25,7 +25,7 @@ In The Once and Future Witches, Alix E. Harrow wrote:
 
 > That's all magic is, really: the space between what you have and what you need.
 
-If you work on the web, it's likely someone has compared your work to sorcery or your skills to magic. I've heard arguments that magical comparisons diminishes one's knowledge, and while I agree to an extent, I also _love_ magic. I love the feeling of sharing magic.
+If you work on the web, it's likely someone has compared your work to sorcery or your skills to magic. I've heard arguments that comparing someone's skills to magic has a diminishing effect, and while I agree to an extent, I also _love_ magic. I love the feeling of sharing magic.
 
 Whether the code I wrote can make a task easier by automating a process or an explanation can help you figure something out, these acts can close a space between what someone has and what they need.
 
