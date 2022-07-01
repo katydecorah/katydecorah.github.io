@@ -29,7 +29,7 @@ If you work on the web, it's likely someone has compared your work to sorcery or
 
 But I think there's still room for magic. The difference I'm proposing is between assuming that someone is magic and putting magic out into the world. It's sharing magic.
 
-Whether a few lines of code code can make a task easier or a blog post can help you figure something out, these acts can close a space between what you have and what you need.
+Whether a few lines of code can make a task easier or a blog post can help explain a concept, these acts of sharing close a space between what someone has and what they need.
 
 <div class="photos">
 {% include img.html src="2022-07-01-in-defense-of-magic-4.png" class="" alt="Buffy saying, 'If you can't do it on-line, then use magic'" width="1920" height="1200" %}
