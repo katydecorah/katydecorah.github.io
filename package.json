@@ -20,7 +20,7 @@
     "@double-great/remark-lint-alt-text": "^1.0.0",
     "@mapbox/remark-lint-link-text": "^0.6.0",
     "doctoc": "^2.2.0",
-    "eslint": "^8.18.0",
+    "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "extra-eyes": "^3.2.0",
     "husky": "^8.0.1",
