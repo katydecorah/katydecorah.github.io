@@ -16,7 +16,7 @@
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/eslint-parser": "^7.18.2",
-    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-env": "^7.18.6",
     "@double-great/remark-lint-alt-text": "^1.0.0",
     "@mapbox/remark-lint-link-text": "^0.6.0",
     "doctoc": "^2.2.0",
