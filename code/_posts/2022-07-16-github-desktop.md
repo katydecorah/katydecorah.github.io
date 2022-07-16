@@ -1,6 +1,8 @@
 ---
 title: GitHub Desktop
 image: 2022-07-16-github-desktop.png
+tags:
+  - GitHub
 ---
 
 I have been using [GitHub Desktop](https://desktop.github.com/) for years now and it's one of my favorite development tools. Desktop has evolved over the years from an interface for git commands to the command center for development.
