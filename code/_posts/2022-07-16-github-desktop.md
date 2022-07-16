@@ -12,4 +12,4 @@ I have been using [GitHub Desktop](https://desktop.github.com/) for years now an
 - **Manage untracked changes.** When I'm working between projects and I need to switch branches, Desktop will ask if I want to bring or leave my changes. This is also helpful if I find a branch is growing to large, I can quickly switch changes to another branch.
 - **Rerun checks.** Instead of switching to github.com to [rerun the checks](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-and-re-running-checks-in-github-desktop) on a pull request, I can do it from Desktop.
 
-My favorite part of Desktop has always been the ability to see exactly what I'm doing in a meaningful, contextual way.
+My favorite part of Desktop has always been the ability to see exactly what I'm doing in a meaningful way.
