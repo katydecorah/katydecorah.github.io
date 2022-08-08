@@ -23,6 +23,7 @@ jobs:
         with:
           static-site-dir: ${{ github.workspace }}/_site
           scan-timeout: 1800000
+          fail-on-accessibility-error: false
       - name: Upload Accessibility Insights report as artifact
         uses: actions/upload-artifact@v3
         with:
