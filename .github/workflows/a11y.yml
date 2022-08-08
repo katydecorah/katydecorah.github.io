@@ -1,0 +1,32 @@
+name:  Accessibility Insights report
+
+on:
+  workflow_dispatch: # enable run button on github.com
+  pull_request:
+
+jobs:
+  build:
+    name: Build site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v3
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Build site
+        run: bundle exec jekyll build
+      - name: Run Accessibility Insights
+        uses: microsoft/accessibility-insights-action@v3
+        with:
+          static-site-dir: ${{ github.workspace }}/_site
+          scan-timeout: 1800000
+          fail-on-accessibility-error: false
+      - name: Upload Accessibility Insights report as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: accessibility-reports
+          path: ${{ github.workspace }}/_accessibility-reports
+
