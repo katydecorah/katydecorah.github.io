@@ -12,7 +12,8 @@
     "pretty-quick": "pretty-quick",
     "prepare": "husky install",
     "start": "bundle exec jekyll serve",
-    "start:prod": "JEKYLL_ENV=production bundle exec jekyll serve"
+    "start:prod": "JEKYLL_ENV=production bundle exec jekyll serve",
+    "build": "bundle exec jekyll build"
   },
   "devDependencies": {
     "@babel/core": "^7.18.10",
