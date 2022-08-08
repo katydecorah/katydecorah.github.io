@@ -1,4 +1,4 @@
-name: Build and test
+name:  Accessibility Insights report
 
 on:
   workflow_dispatch: # enable run button on github.com
@@ -13,9 +13,9 @@ jobs:
         uses: actions/checkout@v3
       - name: Install dependencies
         run: npm ci
-      - name: Build site and test
+      - name: Build site
         run: npm run build
-      - name: Run Accessibility Insights site-wide
+      - name: Run Accessibility Insights
         uses: microsoft/accessibility-insights-action@v3
         with:
           static-site-dir: ${{ github.workspace }}/_site
