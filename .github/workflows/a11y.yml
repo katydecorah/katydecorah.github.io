@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v3
-      - name: Install ruby
-        uses: actions/setup-ruby@v1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
       - name: Install dependencies
         run: npm ci
       - name: Install bundle
@@ -28,3 +28,4 @@ jobs:
         with:
           name: accessibility-reports
           path: ${{ github.workspace }}/_accessibility-reports
+          scan-timeout: 1800000
