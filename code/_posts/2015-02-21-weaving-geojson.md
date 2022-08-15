@@ -11,7 +11,7 @@ Say you have a dataset for a handful of countries or all the countries, or maybe
 Something like this:
 
 <div class="photos">
-<iframe src="/geojson-weaver/" width="100%" height='400px'></iframe>
+<iframe title="Map depicting paid leave from work for mothers in various countries" src="/geojson-weaver/" width="100%" height='400px'></iframe>
 </div>
 
 So at this point your thought process might be you're like, "Ok, where do I start?" and then you think, "Ok, maybe I'll do it by hand!"
