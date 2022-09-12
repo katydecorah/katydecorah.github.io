@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Recipe box
-        uses: katydecorah/recipe-box-action@v3.1.3
+        uses: katydecorah/recipe-box-action@v4.0.0
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
