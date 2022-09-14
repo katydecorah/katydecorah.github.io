@@ -3,6 +3,7 @@ name: Seasonal post
 on:
   schedule:
     - cron: "00 02 20 Mar,Jun,Sep,Dec *"
+  workflow_dispatch: # enables run button on github.com
 
 jobs:
   seasonal_post:
