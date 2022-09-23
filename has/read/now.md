@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect: /archive/read/now/
+redirect: /archive/books/now/
 ---
