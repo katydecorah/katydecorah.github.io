@@ -2,7 +2,7 @@ port: 4000
 host: 127.0.0.1
 
 url: https://katydecorah.com
-baseurl: ''
+baseurl: ""
 permalink: /:categories/:title/
 author:
   name: Katy DeCorah
@@ -12,7 +12,7 @@ assets: //yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
 
-remote_theme: katydecorah/theme@v4.9.0
+remote_theme: katydecorah/theme@v4.10.1
 
 paginate: 10
 paginate_path: ":num"
@@ -84,8 +84,8 @@ links:
   - text: RSS
     url: /feed.xml
     icon: rss
-  - text: Collections
-    url: /has/
+  - text: Archive
+    url: /archive/
     icon: bookmark
 
 mapbox-token: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2l0YzVhY2l6MGE0eDJ6czZ2NDRpZGtubyJ9.njBRjO2lRXdT0Mut9Vryqg
