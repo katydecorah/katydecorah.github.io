@@ -36,7 +36,7 @@ I made a few more tweaks and published the [now reading page](https://katydecora
 
 ## Set-up the Raspberry Pi
 
-I used [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to format my SD card and make sure it could connect to wifi. Once the device connected to wifi, from my computer, I connected via ssh into the Raspberry Pi. I followed the [steps to install epaper.js](https://github.com/samsonmking/epaper.js#installation) with some bumps. My Raspberry Pi is several generations behind the recommended specifications.
+I used [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to format my SD card and make sure it could connect to wifi. Once the device connected to wifi, from my computer, I connected via SSH to the Raspberry Pi. I followed the [steps to install epaper.js](https://github.com/samsonmking/epaper.js#installation) with some bumps. My Raspberry Pi is several generations behind the recommended specifications.
 
 One new thing I learned is that you can make [nvm](https://github.com/nvm-sh/nvm) install unofficial Node builds with:
 
