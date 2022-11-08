@@ -18,4 +18,4 @@ Once you add documentation action to your action's repository, it will generate 
 
 In the sample workflow for documentation action, the action will trigger if any of the following files, `.github/workflows/example.yml`, `action.yml`, `package.json`, and `README.md`, since these files are the source for the documentation. If there's a diff, then the action will generate and commit the documentation.
 
-The documentation action may not cover all action use cases yet. (It mostly it covers what I have built with action so far.)
+The documentation action may not cover all action use cases yet. (It mostly it covers what I have built with actions so far.)
