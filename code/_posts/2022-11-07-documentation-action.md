@@ -1,6 +1,6 @@
 ---
 title: Documentation action
-image:
+image: 2022-11-07-documentation-action.png
 tags:
   - Node.js
   - GitHub
@@ -8,7 +8,7 @@ tags:
 
 Earlier this year, I created [documentation action](https://github.com/katydecorah/documentation-action) to automatically generate documentation for my GitHub Actions.
 
-The action requires a sample workflow, a markdown file (like README.md) to write the documentation, and the action configuration file (like action.yml).
+The action requires a sample workflow, a markdown file (like README.md) to write the documentation, and the action configuration file (action.yml).
 
 Once you add documentation action to your action's repository, it should generate:
 
@@ -18,4 +18,4 @@ Once you add documentation action to your action's repository, it should generat
 
 In the sample workflow for documentation action, the action recommends running whenever the repository see that any of the following files have been pushed: `.github/workflows/example.yml`, `action.yml`, `package.json`, and `README.md`.
 
-The documentation action may not cover all action use cases, mostly it covers what I have built with action so far.
+The documentation action may not cover all action use cases yet. It mostly it covers what I have built with action so far.
