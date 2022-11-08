@@ -12,7 +12,7 @@ The action requires a sample workflow, a markdown file (like README.md) to write
 
 Once you add documentation action to your action's repository, it should generate:
 
-- **How to set up the workflow.** This includes a slightly modify version of the sample workflow to enable users to copy and paste the workflow.
+- **How to set up the workflow.** This includes short instructions and a sample workflow to enable users to copy and paste it.
 - **Action options.** Lists all action input options if they exist.
 - **Workflow dispatch options.** Lists the payload for actions that use a workflow dispatch event.
 
