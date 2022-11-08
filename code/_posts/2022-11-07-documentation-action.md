@@ -16,6 +16,6 @@ Once you add documentation action to your action's repository, it should generat
 - **Action options.** Lists all action input options if they exist.
 - **Workflow dispatch options.** Lists the payload for actions that use a workflow dispatch event.
 
-In the sample workflow for documentation action, the action will trigger if any of the following files change: `.github/workflows/example.yml`, `action.yml`, `package.json`, and `README.md`. If there's a diff, then the action will commit the file.
+In the sample workflow for documentation action, the action will trigger if any of the following files, `.github/workflows/example.yml`, `action.yml`, `package.json`, and `README.md`, since any content changes may require the documentation to update. If there's a diff, then the action will generate and commit the documentation.
 
 The documentation action may not cover all action use cases yet. It mostly it covers what I have built with action so far.
