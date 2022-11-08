@@ -8,11 +8,11 @@ tags:
 
 Earlier this year, I created [documentation action](https://github.com/katydecorah/documentation-action) to automatically generate documentation for my GitHub Actions.
 
-The action requires a sample workflow, a markdown file (like README.md) to write the documentation, and the action configuration file (action.yml).
+The action requires a sample workflow, a markdown file (like `README.md`) to write the documentation, and the action configuration file (`action.yml`).
 
 Once you add documentation action to your action's repository, it will generate and keep up-to-date:
 
-- **How to set up the workflow.** This includes short instructions and a sample workflow to enable users to copy and paste it.
+- **How to set up the workflow.** This includes short instructions and a ready to copy and paste sample workflow.
 - **Action options.** A list of all input options, if they exist.
 - **Workflow dispatch options.** The payload object for actions that use a workflow dispatch event.
 
