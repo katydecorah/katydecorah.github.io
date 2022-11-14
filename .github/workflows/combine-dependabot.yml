@@ -15,5 +15,5 @@ jobs:
           mustBeGreen: true
           combineBranchName: "combined-prs"
           ignoreLabel: "no-combine"
-          baseBranch: "main"
+          baseBranch: "gh-pages"
           openPR: true
