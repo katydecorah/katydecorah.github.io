@@ -11,7 +11,7 @@ author:
 assets: //yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
-remote_theme: katydecorah/theme@v4.13.1
+remote_theme: katydecorah/theme@v4.14.0
 
 paginate: 10
 paginate_path: ":num"
@@ -80,6 +80,9 @@ links:
   - text: Instagram
     url: https://instagram.com/katydecorah
     icon: instagram
+  - text: Mastodon
+    url: https://mastodon.social/@katydecorah
+    icon: mastodon
   - text: RSS
     url: /feed.xml
     icon: rss
