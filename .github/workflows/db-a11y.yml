@@ -29,8 +29,9 @@ jobs:
           url: "http://localhost:3000"
           baselineFile: ${{ github.workspace }}/baseline/site.baseline
 
-      - name: Upload Accessibility Insights report as artifact
+      - name: Upload report as artifact
         uses: actions/upload-artifact@v3
+        if: success() || failure()
         with:
-          name: accessibility-reports
-          path: ${{ github.workspace }}/_accessibility-reports
+          name: "Accessibility report"
+          path: ${{ github.workspace }}/_accessibility-reports/
