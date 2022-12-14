@@ -1,26 +1,36 @@
 name: Accessibility scan
 
 on:
-  workflow_dispatch:
-  push:
+  workflow_dispatch: # enable run button on github.com
+  pull_request:
 
 jobs:
-  document_action:
-    runs-on: macOS-latest
-    name: Scan for accessibility issues
+  build:
+    name: Build site
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout branch
         uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "2.7" # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - run: npx serve _site &
 
       - name: Scan site
         uses: double-great/accessibility-scan-action@v0.1.0
         with:
-          url: "https://www.washington.edu/accesscomputing/AU/before.html"
-          # baselineFile: ${{ github.workspace }}/samples/site.baseline
+          url: "http://localhost:3000"
+          baselineFile: ${{ github.workspace }}/baseline/site.baseline
 
-      - name: Upload report as artifact
+      - name: Upload Accessibility Insights report as artifact
         uses: actions/upload-artifact@v3
-        if: success() || failure()
         with:
-          name: "Accessibility report"
-          path: ${{ github.workspace }}/_accessibility-reports/
+          name: accessibility-reports
+          path: ${{ github.workspace }}/_accessibility-reports
