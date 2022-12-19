@@ -24,7 +24,7 @@ jobs:
       - run: npx serve _site &
 
       - name: Scan site
-        uses: double-great/accessibility-scan-action@v0.1.0
+        uses: double-great/accessibility-scan-action@baseline
         with:
           url: "http://localhost:3000"
           baselineFile: ${{ github.workspace }}/baselines/site.baseline
