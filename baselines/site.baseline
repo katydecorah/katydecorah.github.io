@@ -61,14 +61,6 @@
       ],
     },
     {
-      cssSelector: '#cp_embed_oGJvn;#result-iframe;h1',
-      htmlSnippet: '<h1>Ja!</h1>',
-      rule: 'color-contrast',
-      urls: [
-        'http://localhost:3000/code/ja/',
-      ],
-    },
-    {
       cssSelector: '#file-script-js-LC33 > .pl-v',
       htmlSnippet: '<span class="pl-v">GmailApp</span>',
       rule: 'color-contrast',
