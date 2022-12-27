@@ -81,7 +81,7 @@ links:
     url: https://instagram.com/katydecorah
     icon: instagram
   - text: Mastodon
-    url: https://mastodon.social/@katydecorah
+    url: https://front-end.social/@katydecorah
     icon: mastodon
   - text: RSS
     url: /feed.xml
