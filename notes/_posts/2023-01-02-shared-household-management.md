@@ -13,7 +13,7 @@ We have a shared email account that we use for any shared service. When a bill i
 
 Through our shared email account, we have a few shared calendars.
 
-Our main calendar has repeating events for childcare pick up and drop off, and bed time. These events are also assigned to someone using our self-appointed emoji. When we are tired at the end of the day, we don't have to wonder who is doing what, because the calendar knows.
+Our main calendar has repeating events for childcare pick up and drop off, and bed time. These events are also assigned to someone using our self-appointed emoji. When we are tired, we don't have to wonder who is doing what, because the calendar tells us.
 
 <div class="photos">
 {% include img.html src="2023-01-02-shared-household-management-1.png" alt="A calendar showing 4 days with alternating emoji for Katy and Jason assigned to calendar events to drop off, pick up, and bed time." width="1116" height="248" %}
