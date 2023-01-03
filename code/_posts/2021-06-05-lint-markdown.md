@@ -10,9 +10,6 @@ At Mapbox, we write a majority of documentation in [markdown](https://daringfire
 
 Our suite includes [remark plugins](https://github.com/remarkjs/remark-lint) to lint markdown. We have built our own plugins and use many from the community:
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 - [Check links](#check-links)
 - [Assert frontmatter](#assert-frontmatter)
 - [Lint JSX in markdown](#lint-jsx-in-markdown)
@@ -21,8 +18,6 @@ Our suite includes [remark plugins](https://github.com/remarkjs/remark-lint) to 
 - [Improve accessibility](#improve-accessibility)
 - [Assert heading level increment](#assert-heading-level-increment)
 - [A shared remark configuration](#a-shared-remark-configuration)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Check links
 

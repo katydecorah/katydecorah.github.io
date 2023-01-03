@@ -20,7 +20,6 @@
     "@babel/preset-env": "^7.20.2",
     "@double-great/remark-lint-alt-text": "^1.0.0",
     "@mapbox/remark-lint-link-text": "^0.6.0",
-    "doctoc": "^2.2.1",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.5.0",
     "extra-eyes": "^3.2.0",
@@ -39,9 +38,6 @@
   "lint-staged": {
     "katydecorah.dic": [
       "./bin/alpha"
-    ],
-    "code/_posts/2021-06-05-lint-markdown.md": [
-      "doctoc"
     ],
     "*.js": "eslint --cache --fix",
     "*.{js,css,md,html,json,yml,cjs}": "prettier --write"
