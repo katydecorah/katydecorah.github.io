@@ -21,7 +21,7 @@ Our main calendar has repeating events for childcare pick up and drop off, and b
 
 (For those keeping score, Saturday is our alternating bedtime night. Also, in this home we call it "Read book mommy/daddy.")
 
-We started another calendar, "Work schedule", during COVID. On the calendar, we each block off important meetings and then one of us will Jenga style a childcare schedule. We still use it for sick days.
+We started another calendar, Work schedule, during COVID. On the calendar, we each block off important meetings and then one of us will create a childcare schedule that ends up looking a lot like [Tetris](https://en.wikipedia.org/wiki/Tetris). We still use it for sick days.
 
 ## Shared notes
 
