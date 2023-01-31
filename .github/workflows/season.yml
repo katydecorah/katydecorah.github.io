@@ -20,7 +20,7 @@ jobs:
         uses: katydecorah/seasonal-post-action@v5.4.0
         with:
           GitHubUsername: katydecorah
-          GitHubRepository: has
+          GitHubRepository: archive
         env:
           TOKEN: ${{ secrets.TOKEN }}
       - name: Commit files
