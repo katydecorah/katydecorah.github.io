@@ -18,6 +18,18 @@ jobs:
           ruby-version: "2.7" # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - run: npm install @octokit/action
+      # Node.js script can be anywhere. A good convention is to put local GitHub Actions
+      # into the `.github/actions` folder
+      - run: node .github/actions/pr-files.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PULL_NUMBER: ${{ github.event.pull_request.number }}
+
       - name: Build site
         run: bundle exec jekyll build
 
