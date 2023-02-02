@@ -5,7 +5,7 @@ const octokit = new Octokit();
 
 const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
 
-const files = await octokit.request(
+const { data } = await octokit.request(
   "GET /repos/{owner}/{repo}/pulls/{pull_number}/files{?per_page,page}",
   {
     owner,
@@ -14,4 +14,14 @@ const files = await octokit.request(
   }
 );
 
-console.log(files);
+const fileMatcher = new RegExp(
+  /^(.*)\/_posts\/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-(.*).md/
+);
+
+data
+  .map((file) => file.filename)
+  .filter((file) => file.endsWith(".md"))
+  .map((file) => {
+    const match = fileMatcher.exec(file);
+    console.log(file, match);
+  });
