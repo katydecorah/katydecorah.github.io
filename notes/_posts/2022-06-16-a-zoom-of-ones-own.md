@@ -51,7 +51,7 @@ In 2021, I still felt the pegboards were too distracting and so I moved them ove
 The plant wall provides the right amount texture, interest, and color balance on video calls, all while being low maintenance.
 
 <div class="photos">
-{% include img.html class="img-half" src="2022-06-16-zoom-of-ones-own-5a.jpg" alt=" " width="768" height="1024" %}
-{% include img.html  class="img-half" src="2022-06-16-zoom-of-ones-own-5b.jpg" alt=" " width="768" height="1024" %}
+{% include img.html class="img-half" src="2022-06-16-zoom-of-ones-own-5a.jpg" alt="" width="768" height="1024" %}
+{% include img.html  class="img-half" src="2022-06-16-zoom-of-ones-own-5b.jpg" alt="" width="768" height="1024" %}
 {% include img.html src="2022-06-16-zoom-of-ones-own-5c.jpg" alt="" width="1920" height="1440" %}
 </div>
