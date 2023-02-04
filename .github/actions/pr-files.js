@@ -29,3 +29,4 @@ const files = data
 
 console.log(files);
 core.setOutput("InputUrls", files.join(","));
+core.setOutput("MaxUrls", files.length);

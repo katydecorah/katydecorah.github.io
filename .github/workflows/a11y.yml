@@ -42,6 +42,7 @@ jobs:
           url: "http://localhost:3000"
           inputUrls: ${{ steps.files.outputs.InputUrls }}
           baselineFile: ${{ github.workspace }}/baselines/site.baseline
+          maxUrls: ${{ steps.files.outputs.MaxUrls }}
 
       - name: Upload report as artifact
         uses: actions/upload-artifact@v3
