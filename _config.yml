@@ -66,6 +66,7 @@ exclude:
   - img/posts
   - packages
   - katydecorah.dic
+  - baselines
 
 links:
   - text: CodePen

@@ -1,0 +1,96 @@
+{
+  metadata: {
+    fileFormatVersion: '1',
+  },
+  results: [
+    {
+      cssSelector: '#fnref\\:1',
+      htmlSnippet: '<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>',
+      rule: 'aria-allowed-role',
+      urls: [
+        'http://localhost:3000/notes/one-year-remote/',
+        'http://localhost:3000/notes/x-files/',
+      ],
+    },
+    {
+      cssSelector: '#fnref\\:1\\:1',
+      htmlSnippet: '<sup id="fnref:1:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>',
+      rule: 'aria-allowed-role',
+      urls: [
+        'http://localhost:3000/notes/x-files/',
+      ],
+    },
+    {
+      cssSelector: '#fn\\:1',
+      htmlSnippet: '<li id="fn:1" role="doc-endnote">\n      <p>This is how I survived winter.&nbsp;<a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>\n    </li>',
+      rule: 'aria-roles',
+      urls: [
+        'http://localhost:3000/notes/one-year-remote/',
+      ],
+    },
+    {
+      cssSelector: '#fn\\:1',
+      htmlSnippet: '<li id="fn:1" role="doc-endnote">\n      <p>Watch with the lights on.&nbsp;<a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a>&nbsp;<a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">↩<sup>2</sup></a></p>\n    </li>',
+      rule: 'aria-roles',
+      urls: [
+        'http://localhost:3000/notes/x-files/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_8e1abeef024e776dc485e94b081d74db;#result-iframe;.label-font-relative > strong',
+      htmlSnippet: '<strong>font relative</strong>',
+      rule: 'color-contrast',
+      urls: [
+        'http://localhost:3000/code/from-haml-to-yaml/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_8e1abeef024e776dc485e94b081d74db;#result-iframe;.label-viewport-percentage > strong',
+      htmlSnippet: '<strong>viewport percentage</strong>',
+      rule: 'color-contrast',
+      urls: [
+        'http://localhost:3000/code/from-haml-to-yaml/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_QWrNmzd;#result-link',
+      htmlSnippet: '<a id="result-link" href="#result-box" class="active" aria-pressed="true" role="button">\nResult\n</a>',
+      rule: 'color-contrast',
+      urls: [
+        'http://localhost:3000/code/now-reading/',
+      ],
+    },
+    {
+      cssSelector: '#file-script-js-LC33 > .pl-v',
+      htmlSnippet: '<span class="pl-v">GmailApp</span>',
+      rule: 'color-contrast',
+      urls: [
+        'http://localhost:3000/code/google-sheets-to-gmail/',
+      ],
+    },
+    {
+      cssSelector: '#file-script-js-LC4 > .pl-v',
+      htmlSnippet: '<span class="pl-v">SpreadsheetApp</span>',
+      rule: 'color-contrast',
+      urls: [
+        'http://localhost:3000/code/google-sheets-to-gmail/',
+      ],
+    },
+    {
+      cssSelector: '#file-script-js-LC43 > .pl-v',
+      htmlSnippet: '<span class="pl-v">SpreadsheetApp</span>',
+      rule: 'color-contrast',
+      urls: [
+        'http://localhost:3000/code/google-sheets-to-gmail/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_8e1abeef024e776dc485e94b081d74db;#result-iframe;#units',
+      htmlSnippet: '<input id="units" min="1" ng-model="unit" type="number" class="ng-pristine ng-untouched ng-valid ng-valid-min">',
+      rule: 'label',
+      urls: [
+        'http://localhost:3000/code/from-haml-to-yaml/',
+      ],
+    },
+  ],
+}

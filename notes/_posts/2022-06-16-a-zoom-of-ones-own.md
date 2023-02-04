@@ -46,7 +46,7 @@ In 2019, I split the pegboards and filled the middle with plant tiles. On video 
 
 ## 5. Dress for the job you want
 
-In 2021, I still felt the pegboards were too distracting and so I moved them over my project table. With my camera turned on, I used painters tape to outline my wall viewport and filled it in with plant tiles.
+In 2021, I still felt the pegboards were distracting and so I moved them over my project table. With my camera turned on, I used painters tape to outline my wall viewport and filled it in with plant tiles.
 
 The plant wall provides the right amount texture, interest, and color balance on video calls, all while being low maintenance.
 
