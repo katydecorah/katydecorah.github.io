@@ -2,10 +2,9 @@ name: Accessibility scan
 
 on:
   workflow_dispatch: # enable run button on github.com
-  pull_request:
-  #push:
-  #  paths:
-  #    - "**.md"
+  push:
+    paths:
+      - "**.md"
 
 jobs:
   build:
