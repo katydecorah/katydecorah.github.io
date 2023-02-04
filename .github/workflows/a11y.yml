@@ -3,10 +3,13 @@ name: Accessibility scan
 on:
   workflow_dispatch: # enable run button on github.com
   pull_request:
+  #push:
+  #  paths:
+  #    - "**.md"
 
 jobs:
   build:
-    name: Build site
+    name: Scan site
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
