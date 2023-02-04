@@ -24,9 +24,9 @@ const files = data
   .filter((file) => file.endsWith(".md"))
   .map((file) => {
     const match = fileMatcher.exec(file);
-    return `http://localhost:4000/${match[1]}/${match[2]}/`;
+    return `http://localhost:3000/${match[1]}/${match[2]}/`;
   });
 
-console.log(files);
+core.notice(files);
 core.setOutput("InputUrls", files.join(","));
-core.setOutput("MaxUrls", files.length);
+core.setOutput("MaxUrls", files.length == 0 ? 100 : files.length);
