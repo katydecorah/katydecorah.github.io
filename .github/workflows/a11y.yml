@@ -22,10 +22,11 @@ jobs:
         with:
           node-version: 16
 
-      - run: npm install @octokit/action
+      - run: npm install @octokit/action @actions/core
       # Node.js script can be anywhere. A good convention is to put local GitHub Actions
       # into the `.github/actions` folder
       - run: node .github/actions/pr-files.js
+        id: files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PULL_NUMBER: ${{ github.event.pull_request.number }}
@@ -36,9 +37,10 @@ jobs:
       - run: npx serve _site &
 
       - name: Scan site
-        uses: double-great/accessibility-scan-action@main
+        uses: double-great/accessibility-scan-action@input-urls
         with:
           url: "http://localhost:3000"
+          inputUrls: ${{ steps.files.outputs.InputUrls }}
           baselineFile: ${{ github.workspace }}/baselines/site.baseline
 
       - name: Upload report as artifact
