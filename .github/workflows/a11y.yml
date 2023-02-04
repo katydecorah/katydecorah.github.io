@@ -23,8 +23,7 @@ jobs:
           node-version: 16
 
       - run: npm install @octokit/action @actions/core
-      # Node.js script can be anywhere. A good convention is to put local GitHub Actions
-      # into the `.github/actions` folder
+
       - run: node .github/actions/pr-files.js
         id: files
         env:
