@@ -1,6 +1,7 @@
 ---
 title: ${year} ${season}
 image: ${image}
+type: season
 ${bookYaml}
 ${bookmarkYaml}
 ${playlistYaml}
