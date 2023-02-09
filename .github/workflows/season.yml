@@ -19,10 +19,10 @@ jobs:
       - name: Write seasonal post
         uses: katydecorah/seasonal-post-action@main
         with:
-          GitHubUsername: katydecorah
-          GitHubRepository: archive
-          SourceBookmarks: recipes|_data/recipes.json
-          SeasonalPostTemplate: .github/actions/seasonal-post-template.md
+          github-username: katydecorah
+          github-repository: archive
+          source-bookmarks: recipes|_data/recipes.json
+          seasonal-post-template: .github/actions/seasonal-post-template.md
         env:
           TOKEN: ${{ secrets.TOKEN }}
       - name: Commit files
