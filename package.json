@@ -15,12 +15,12 @@
     "start:prod": "JEKYLL_ENV=production bundle exec jekyll serve"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.3",
+    "@babel/core": "^7.21.4",
     "@babel/eslint-parser": "^7.21.3",
-    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-env": "^7.21.4",
     "@double-great/remark-lint-alt-text": "^1.0.0",
     "@mapbox/remark-lint-link-text": "^0.6.0",
-    "eslint": "^8.36.0",
+    "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.7.0",
     "extra-eyes": "^3.3.0",
     "husky": "^8.0.3",
