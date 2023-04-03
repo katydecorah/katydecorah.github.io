@@ -15,7 +15,7 @@
     "start:prod": "JEKYLL_ENV=production bundle exec jekyll serve"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.3",
+    "@babel/core": "^7.21.4",
     "@babel/eslint-parser": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
     "@double-great/remark-lint-alt-text": "^1.0.0",
