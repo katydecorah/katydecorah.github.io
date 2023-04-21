@@ -15,8 +15,8 @@ If you are a New York State resident, you can apply for a [New York Public Libra
 
 ## Libro.fm
 
-If there's a book I can't wait for, I'll buy it through [Libro.fm](https://libro.fm/). This service supports the local independent bookstore of your choosing. Another thing I love about Libro.fm is that you have full access to the audio files once you buy them.
+If there's a book I can't wait for, I'll buy it through [Libro.fm](https://libro.fm/). This service supports your local independent bookstore. You also have full access to the audio files once you buy them.
 
 ## Apple Books
 
-If I can't get a book through the above options or I know I want a book that will fully sync to my Apple Watch, I'll buy the book through [Apple Books](https://www.apple.com/apple-books/).
+If I can't get a book through my library or Libro.fm, or I know I want a book that will fully sync to my Apple Watch, I'll buy the book through [Apple Books](https://www.apple.com/apple-books/).
