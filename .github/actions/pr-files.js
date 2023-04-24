@@ -24,7 +24,7 @@ const fileMatcher = new RegExp(
   /^(.*)\/_posts\/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-(.*).md/
 );
 
-core.info(`Files: ${data}`);
+core.info(`Files: ${JSON.stringify(data, null, 2)}`);
 
 const files = data
   .map((file) => file.filename)
