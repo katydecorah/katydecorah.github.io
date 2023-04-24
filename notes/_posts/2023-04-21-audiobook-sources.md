@@ -7,7 +7,7 @@ This is my favorite question.
 
 ## Local library via the Libby app
 
-Many libraries offer ebooks and audiobooks through [OverDrive](https://www.overdrive.com/) and their app, [Libby](https://libbyapp.com/shelf). To begin borrowing and holding books, all you need is your library card.
+Many libraries offer ebooks and audiobooks through [OverDrive](https://www.overdrive.com/) and their app, [Libby](https://libbyapp.com/shelf). To begin borrowing and holding books all you need is your library card.
 
 If your library does not have a book that you want or in the desired format, you can recommend the book to your library from Overdrive. If your library adds it to their collection, it will automatically be added to your holds. I've been impressed with how often this feature works!
 
