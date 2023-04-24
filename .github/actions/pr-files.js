@@ -24,11 +24,14 @@ const fileMatcher = new RegExp(
   /^(.*)\/_posts\/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-(.*).md/
 );
 
+core.info(`Files: ${data}`);
+
 const files = data
   .map((file) => file.filename)
   .filter((file) => file.endsWith(".md"))
   .map((file) => {
     const match = fileMatcher.exec(file);
+    core.info(`Match: ${match}`);
     return `http://localhost:3000/${match[1]}/${match[2]}/`;
   });
 
