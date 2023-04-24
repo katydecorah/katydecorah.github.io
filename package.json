@@ -20,7 +20,7 @@
     "@babel/preset-env": "^7.21.4",
     "@double-great/remark-lint-alt-text": "^1.0.0",
     "@mapbox/remark-lint-link-text": "^0.6.0",
-    "eslint": "^8.38.0",
+    "eslint": "^8.39.0",
     "eslint-config-prettier": "^8.7.0",
     "extra-eyes": "^3.3.0",
     "husky": "^8.0.3",
