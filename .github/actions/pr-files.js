@@ -24,16 +24,24 @@ const fileMatcher = new RegExp(
   /^(.*)\/_posts\/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-(.*).md/
 );
 
-core.info(`Files: ${JSON.stringify(data, null, 2)}`);
+core.info(`Files: ${JSON.stringify(data)}`);
 
 const files = data
   .map((file) => file.filename)
   .filter((file) => file.endsWith(".md"))
-  .map((file) => {
+  .filter((file) => {
     const match = fileMatcher.exec(file);
     core.info(`Match: ${match}`);
+    if (!match) {
+      return "";
+    }
     return `http://localhost:3000/${match[1]}/${match[2]}/`;
   });
+
+if (files.length == 0) {
+  core.info("No files found, adding root");
+  files.push("http://localhost:3000/");
+}
 
 core.notice(files);
 core.setOutput("InputUrls", files.join(","));
