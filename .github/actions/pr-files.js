@@ -1,3 +1,7 @@
+if (!process.env.PULL_NUMBER) {
+  core.setFailed("No PULL_NUMBER environment variable set");
+  process.exit(1);
+}
 // https://github.com/octokit/action.js/
 import { Octokit } from "@octokit/action";
 import core from "@actions/core";
