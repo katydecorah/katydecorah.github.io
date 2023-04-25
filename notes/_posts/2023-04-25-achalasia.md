@@ -1,6 +1,6 @@
 ---
 title: On measuring the wrong data for 2 years
-image: 2023-04-25-achalasia.png
+image: 2023-04-25-achalasia-2.png
 ---
 
 I tracked my heartburn from January 2020 until March 2022. I stopped tracking because that's when I found out that I never had heartburn.
