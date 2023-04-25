@@ -1,8 +1,7 @@
 name: Accessibility scan
 
 on:
-  workflow_dispatch: # enable run button on github.com
-  push:
+  pull_request:
     paths:
       - "**.md"
 
@@ -24,7 +23,7 @@ jobs:
         with:
           node-version: 16
 
-      - run: npm install @octokit/action @actions/core
+      - run: npm install @octokit/action@5.0.2 @actions/core@1.10.0
 
       - run: node .github/actions/pr-files.js
         id: files
