@@ -5,13 +5,13 @@ image: 2023-04-25-achalasia.png
 
 I tracked my heartburn from January 2020 until March 2022. I stopped tracking because that's when I found out that I never had heartburn.
 
-But for over 2 years, I dutifully tracked my (alleged) heartburn. At this point, I was 3 years into symptoms which included waking often with heartburn-like pain and difficulty swallowing.
+But for over 2 years, I dutifully tracked my (alleged) heartburn. At this point, I was 3 years into having trouble swallowing foods and waking through the night with heartburn-like pain.
 
 I did all the tests and saw all the specialists, but everything came back normal. My doctor said, "I know you're uncomfortable, but there's not much else I can do." I coped the best way I knew how; I created an iOS shortcut that added a row to a Google spreadsheet to track the date and time of my heartburn. There were charts.
 
-{% include img.html src="2023-04-25-achalasia.png" alt="A bar chart depicting the number of hearburn occurrences by month spanning from January 2000 through March 2022." width="1760" height="954" %}
+{% include img.html src="2023-04-25-achalasia.png" alt="A bar chart depicting the number of heartburn occurrences by month spanning from January 2000 through March 2022." width="1760" height="954" %}
 
-I ran experiments to see if my heartburn changed. I tried:
+If I couldn't fix the pain I had with swallowing food and drink then surely I could cure heartburn. I ran experiments to see if my heartburn changed. I tried:
 
 - gluten-free
 - low-acid
@@ -20,15 +20,15 @@ I ran experiments to see if my heartburn changed. I tried:
 - no dairy and no eggs
 - sleeping on 3&Prime; wedge
 - sleeping on 7&Prime; wedge
-- spending $300 on an extremely uncomfortable heartburn pillow system
-- not eating after 7 pm
+- spending $300 on an uncomfortable heartburn pillow
+- not eating 3 hours before bed
 - staying upright for 3 hours after eating
 - no caffeine
 - every combination of heartburn medications
+- nasal sprays
+- muscle relaxers
 - taking a shot of apple cider vinegar before bed
 - acupuncture
-- DIY physical therapy
-- watching the Essential Oils episode of (Un)well on Netflix and realizing how people get to that point
 
 When all my experiments failed, I asked my doctor to repeat all the tests. The last (and worst) test proved that I have achalasia, a rare swallowing disorder that impairs the esophagus's ability to move food and liquid to the stomach. It was never heartburn.
 
