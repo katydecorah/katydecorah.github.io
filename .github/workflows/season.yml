@@ -23,7 +23,7 @@ jobs:
           github-repository: archive
           source-bookmarks: recipes|_data/recipes.json
           seasonal-post-template: .github/actions/seasonal-post-template.md
-          book-tags: "recommend, skip"
+          book-tags: "recommend, skip, content warning"
         env:
           TOKEN: ${{ secrets.TOKEN }}
       - name: Commit files
