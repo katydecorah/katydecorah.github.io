@@ -15,12 +15,12 @@
     "start:prod": "JEKYLL_ENV=production bundle exec jekyll serve"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.8",
+    "@babel/core": "^7.22.1",
     "@babel/eslint-parser": "^7.21.8",
-    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-env": "^7.22.4",
     "@double-great/remark-lint-alt-text": "^1.0.0",
     "@mapbox/remark-lint-link-text": "^0.6.0",
-    "eslint": "^8.40.0",
+    "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "extra-eyes": "^3.3.0",
     "husky": "^8.0.3",
@@ -33,7 +33,7 @@
     "remark-frontmatter": "^4.0.1",
     "remark-frontmatter-validator": "^0.4.0",
     "remark-lint-haiku": "^0.2.0",
-    "remark-lint-heading-increment": "^3.1.1"
+    "remark-lint-heading-increment": "^3.1.2"
   },
   "lint-staged": {
     "katydecorah.dic": [
