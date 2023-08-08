@@ -1,0 +1,7 @@
+Sitemap: https://katydecorah.com/sitemap.xml
+
+User-agent: *
+Disallow:
+
+User-agent: GPTBot
+Disallow: /

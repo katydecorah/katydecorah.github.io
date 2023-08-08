@@ -66,6 +66,8 @@ exclude:
   - packages
   - katydecorah.dic
   - baselines
+  - babel.config.cjs
+  - bin
 
 links:
   - text: CodePen
