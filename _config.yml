@@ -8,16 +8,16 @@ author:
   name: Katy DeCorah
   email: katydecorah@gmail.com
   uri: https://katydecorah.com
-assets: //yo.katydecorah.com/
+assets: https://yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
-remote_theme: katydecorah/theme@redesign
+remote_theme: katydecorah/theme@v5.0.0
 
 future: true
 
 title: Katy DeCorah
 description: "Software engineer and tinkerer from Saratoga Springs, NY."
-image: //yo.katydecorah.com/katy-decorah-2021@1600.jpg
+image: https://yo.katydecorah.com/katy-decorah-2021@1600.jpg
 
 collections:
   favorites:
