@@ -9,9 +9,9 @@ image: 2013-07-03-google-font-explorer-0.png
 project: true
 ---
 
-<p data-height="400" data-theme-id="97" data-slug-hash="vetCA" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/vetCA'>Google Font Explorer</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
-
 _Update 9/12/2013_ I received many requests on CodePen to make this pen its own page. So [here is the Google Font Explorer](/google-font-explorer/)!
+
+<p data-height="400" data-theme-id="97" data-slug-hash="vetCA" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/vetCA'>Google Font Explorer</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I love using Google Fonts. I know webfonts are a killer for web performance, but I can't help myself. I tend to start designing something based on the font. I use ems as a unit for measure and for dictating proportions in my design. Call it process, call it whatever, I just love a good font.
 

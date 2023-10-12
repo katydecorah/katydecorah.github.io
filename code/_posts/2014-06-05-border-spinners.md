@@ -8,9 +8,9 @@ image: 2014-06-05-border-spinners.png
 codepen: tbjqx
 ---
 
-<p data-height="300" data-theme-id="97" data-slug-hash="tbjqx" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/tbjqx/'>Twinner Spinner</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
 A few days ago, I wanted to create a single element spinner. (Just for funsies.) After several minutes of tinkering, I whipped up _Twinner Spinner_.
+
+<p data-height="300" data-theme-id="97" data-slug-hash="tbjqx" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/tbjqx/'>Twinner Spinner</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ## Meet the elements
 

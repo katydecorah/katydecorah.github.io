@@ -9,9 +9,9 @@ image: 2014-03-07-slidey-background-0.jpg
 pen: whobi
 ---
 
-<p data-height="300" data-theme-id="97" data-slug-hash="whobi" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/whobi'>Slidey Background</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+Each box below is an anchor tag with a `linear-gradient`. On hover, the `background-position` changes to reveal the second half of the link's gradient.
 
-Each box above is an anchor tag with a `linear-gradient`. On hover, the `background-position` changes to reveal the second half of the link's gradient.
+<p data-height="300" data-theme-id="97" data-slug-hash="whobi" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/whobi'>Slidey Background</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ## Creating the gradient
 

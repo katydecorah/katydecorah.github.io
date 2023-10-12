@@ -5,11 +5,11 @@ recipe: https://cooking.nytimes.com/recipes/1018338-chocolate-hazelnut-crepe-cak
 recipe-title: Chocolate Hazelnut Crepe Cake
 ---
 
+I love making crêpes, so I've had my eye on a crêpe cake for a while. I found the crêpe batter had a bit of a learning curve to get right. Thankfully, the batter was generous and allow for several oops crêpes.
+
 <div class="photos">
 {% include img.html src="2018-01-27-crepe-cake-0.jpg" alt="crêpe cake" width="1600" height="1200" %}
 </div>
-
-I love making crêpes, so I've had my eye on a crêpe cake for a while. I found the crêpe batter had a bit of a learning curve to get right. Thankfully, the batter was generous and allow for several oops crêpes.
 
 When assembling, I tried to be clever by adding more space between the edge of the crêpe and the center of the spread filling. My thought was that the weight of the following layers would smoosh the lower layers out. This was not the case. I wish I had brought the lower layers filling closer to the edge so the cake would be a little bit more level around the edges.
 

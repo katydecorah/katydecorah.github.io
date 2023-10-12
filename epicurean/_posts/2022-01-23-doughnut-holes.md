@@ -1,8 +1,6 @@
 ---
 title: Doughnut holes
 image: 2022-01-23-doughtnut-holes.jpg
-#recipe: https://cooking.nytimes.com/recipes/1019968-molten-chocolate-doughnut-holes
-#recipe-title: Molten Chocolate Doughnut Holes
 ---
 
 This weekend I made [Molten Chocolate Doughnut Holes](https://cooking.nytimes.com/recipes/1019968-molten-chocolate-doughnut-holes). Was it a cure for -15℉ morning? Maybe.

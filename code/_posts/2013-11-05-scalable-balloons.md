@@ -10,9 +10,9 @@ image: 2013-11-05-scalable-balloons.png
 pen: cdkHn
 ---
 
-<p data-height="550" data-theme-id="97" data-slug-hash="cdkHn" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cdkHn'>Random Customizable Balloons</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
-
 I saw this [Dribbble shot](http://dribbble.com/shots/1297767) and decided to spin out a few ideas. I ended up creating customizable, random-generated, scalable balloons!
+
+<p data-height="550" data-theme-id="97" data-slug-hash="cdkHn" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cdkHn'>Random Customizable Balloons</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I started by creating a single `.balloon` element. I styled the main element for the actual balloon shape, the `:before` for where the balloon is tied, and `:after` for the string.
 

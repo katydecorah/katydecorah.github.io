@@ -10,9 +10,9 @@ pen: cJfhC
 dribbble: http://drbl.in/jzgO
 ---
 
-<p data-height="350" data-theme-id="97" data-slug-hash="cJfhC" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cJfhC'>Heroes Queue by Antonas Deduchovas</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
-
 I love trying to find different ways to get a job done. Especially when it means using a certain piece of technology in an unexpected way. Maybe the job is silly, but it's the problem solving that I really, truly dig.
+
+<p data-height="350" data-theme-id="97" data-slug-hash="cJfhC" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/cJfhC'>Heroes Queue by Antonas Deduchovas</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 At first glance, I knew I wanted to somehow play around with the Dribbble shot [Heroes Queue by Antonas Deduchovas](http://drbl.in/jzgO) and I was definitely thinking single element for each character, but with tons of `box-shadow`. But, I also knew that I didn’t want to do the grunt work. So I opened up a spreadsheet in Google Drive.
 

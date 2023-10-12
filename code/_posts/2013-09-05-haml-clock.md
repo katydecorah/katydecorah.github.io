@@ -10,13 +10,13 @@ pen: xADtE
 image: 2013-09-05-haml-clock-0.png
 ---
 
-<p data-height="400" data-theme-id="97" data-slug-hash="xADtE" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/xADtE'>Haml Clock</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
-
 After creating the [Haml calendar]({{site.url}}/code/haml-calendar), I decided to go for a Haml clock.
+
+<p data-height="400" data-theme-id="97" data-slug-hash="xADtE" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/xADtE'>Haml Clock</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 How it works:
 
-1. <!--extra-eyes ignore initial-->Haml provides the initial time.
+1. Haml provides the time.
 2. Internal Sass rotates the hands of the clock to portray that time.
 3. CSS animation keeps the hands ticking.
 

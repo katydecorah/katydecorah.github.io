@@ -1,6 +1,5 @@
 ---
 title: Incrementally awesome Sass labels
-
 tags:
   - Sass
 image: 2013-09-29-incrementally-awesome-sass-labels-0.png
@@ -79,7 +78,7 @@ css: |
 
 For this site I wanted my categories to be color coded, but I didn't want to put a lot of effort into managing it. Instead I spent a little effort into making sure I didn't have to manage it.
 
-## The Set-up
+## The set-up
 
 Where I want a category to be color coded, I used the class of 'label.' While not semantic, it could allow for flexibility in the future. I'm also a Bootstrap fan, so it was a go-to move. This class is intended to be used on inline elements such as spans or anchor tags.
 
@@ -112,6 +111,6 @@ A miraculous rainbow of categories.
 
 ## Things to consider
 
-I can easily add categories, woo!
+I can also add categories, woo!
 
 ...but if I end up with more than 9 categories (hopefully not), then my color spectrum is going to get a bit cozy.

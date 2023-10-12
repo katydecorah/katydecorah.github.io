@@ -1,7 +1,6 @@
 ---
 title: Raspberry Chocolate Pie
 image: 2013-07-04-raspberry-chocolate-pie-0.jpg
-
 recipe: http://www.marthastewart.com/354896/raspberry-chocolate-pie
 recipe-title: Raspberry Chocolate Pie
 ---
