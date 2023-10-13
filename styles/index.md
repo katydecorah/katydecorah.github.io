@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Styles
-hideTitle: true
 colors:
   - background
   - background-accent

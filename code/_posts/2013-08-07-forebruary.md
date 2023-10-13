@@ -10,9 +10,9 @@ pen: Chmws
 image: 2013-08-07-forebruary-0.png
 ---
 
-<p data-height="500" data-theme-id="97" data-slug-hash="Chmws" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Chmws'>Forebruary</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
-
 A few days ago I saw [Forebruary](http://ilyabirman.net/projects/forebruary/) by Ilya Birman; a calendar that doesn't need replacing! Naturally, I needed to figure this out, CodePen style.
+
+<p data-height="500" data-theme-id="97" data-slug-hash="Chmws" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Chmws'>Forebruary</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I wrote the HTML in Haml. My main goal was to generate the numbers on the calendar efficiently. It took a some research, but I figured out how to use case statements. There could be a better way to increment the numbers in each row, but I haven't arrived at it yet.
 

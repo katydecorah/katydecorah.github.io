@@ -12,12 +12,12 @@ pen: htBka
 dribbble: http://drbl.in/ktXg
 ---
 
+I recreated [Leadership Letters #2. by Jeroen van Eerden](http://drbl.in/ktXg) using Hugo Giraudel's [items in a circle](http://hugogiraudel.com/2013/04/02/items-on-circle/) Sass mixin and generous use of the `border` property.
+
 <figure>
 <p data-height="350" data-theme-id="97" data-slug-hash="htBka" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/htBka'>Leadership Letters #2. by Jeroen van Eerden</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <figcaption><a href="http://drbl.in/ktXg">Leadership Letters #2. by Jeroen van Eerden</a></figcaption>
 </figure>
-
-I recreated [Leadership Letters #2. by Jeroen van Eerden](http://drbl.in/ktXg) using Hugo Giraudel's [items in a circle](http://hugogiraudel.com/2013/04/02/items-on-circle/) Sass mixin and generous use of the `border` property.
 
 ## Border control
 

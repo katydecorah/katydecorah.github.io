@@ -11,9 +11,9 @@ image: 2013-08-26-haml-calendar-0.png
 project: true
 ---
 
-<p data-height="400" data-theme-id="97" data-slug-hash="aDAoG" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/aDAoG'>Haml Calendar</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
-
 While I was looking through the Haml docs today, I found the ability to print out the date. My gears started spinning. Why not create a calendar?
+
+<p data-height="400" data-theme-id="97" data-slug-hash="aDAoG" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/aDAoG'>Haml Calendar</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 It took a lot of research, but I made a functioning Haml Calendar. I say functioning, because it will display the correct date and tomorrow it will automatically display tomorrow's date. You may also change the month, year, and day variables to display a specific date.
 

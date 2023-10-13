@@ -11,7 +11,7 @@ image: 2013-08-19-optical-illusion-0.png
 
 I gave a few optical illusions a try to flex my Sass skills. You can find the source file for each illusion in the JS tab.
 
-## Optical Illusion I
+## Optical illusion I
 
 <p data-height="500" data-theme-id="97" data-slug-hash="gwAmk" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/gwAmk'>Optical Illusion</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
@@ -21,7 +21,7 @@ I styled each list item the same, `5em` square with a gray border-top. This make
 
 Next I had to shift every other row to create the optical illusion. Knowing I have 20 items in each row, I knew the range for each row (the first 1-20, the second 21-40 and so on). I wrote a `@while` loop to build a nth-child range and to increment to every other row.
 
-## Optical Illusion II
+## Optical illusion II
 
 <p data-height="500" data-theme-id="97" data-slug-hash="fxpjh" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/fxpjh'>Optical Illusion II</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
@@ -33,7 +33,7 @@ The illusion creates three columns that are created by the narrowing of the list
 
 Then I applied a clear on the first item in each row to be sure my rows stay rows.
 
-## Optical Illusion III
+## Optical illusion III
 
 <p data-height="500" data-theme-id="97" data-slug-hash="pdCsB" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/pdCsB'>Optical Illusion III</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 

@@ -28,6 +28,11 @@ const files = data
   .filter((file) => file.endsWith(".md"))
   .map((file) => {
     const match = fileMatcher.exec(file);
+    core.debug(file);
+    core.debug(match);
+    if (!match) {
+      return "";
+    }
     return `http://localhost:3000/${match[1]}/${match[2]}/`;
   });
 

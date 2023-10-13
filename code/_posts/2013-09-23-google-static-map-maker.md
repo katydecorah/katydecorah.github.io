@@ -9,11 +9,11 @@ image: 2013-09-23-google-static-map-maker.png
 project: true
 ---
 
-View [the Google Static Map Marker](http://staticmapmaker.com).
+After working with Google Static Maps for some of my posts [(re: Static Google Maps Image for Jekyll Posts)](/code/google-maps-images-api-for-jekyll), I started scheming on an easier way to arrive at a map. I thought this might be helpful for other people too.
 
 <p data-height="600" data-theme-id="97" data-slug-hash="Klieu" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Klieu'>Google Static Map Maker</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
-After working with Google Static Maps for some of my posts [(re: Static Google Maps Image for Jekyll Posts)](/code/google-maps-images-api-for-jekyll), I started scheming on an easier way to arrive at a map. I thought this might be helpful for other people too.
+Visit [the Google Static Map Marker](http://staticmapmaker.com).
 
 This project is powered with Angular. I've only dabbled in Angular, but it came in handy because it's so great with forms.
 

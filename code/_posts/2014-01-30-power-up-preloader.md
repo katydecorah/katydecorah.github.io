@@ -10,9 +10,9 @@ image: 2014-01-30-power-up-preloader-0.png
 browser: Chrome 32.0.1700.102
 ---
 
-<p data-height="300" data-theme-id="97" data-slug-hash="bcc619ac0a04ac70e948a41d26e49a24" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/bcc619ac0a04ac70e948a41d26e49a24'>Power Up Preloader (GIF) by Mantas Bačiuška</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
 I created another scalable, chameleon, single element project. This is based off of the Dribbble shot, [Power Up Preloader by Mantas Ba&#269;iu&#353;ka](http://dribbble.com/shots/1399080-Power-Up-Preloader-GIF).
+
+<p data-height="300" data-theme-id="97" data-slug-hash="bcc619ac0a04ac70e948a41d26e49a24" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/bcc619ac0a04ac70e948a41d26e49a24'>Power Up Preloader (GIF) by Mantas Bačiuška</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 Hover over the battery for LIGHTNING CHARGE (please flick your lights on and off as you read this sentence).
 

@@ -11,9 +11,9 @@ image: 2013-04-19-combination-lock-0.png
 project: true
 ---
 
-<p data-height="550" data-theme-id="97" data-slug-hash="CLxkg" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/CLxkg'>Combination Lock</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
-
 I created a functioning combination lock.
+
+<p data-height="550" data-theme-id="97" data-slug-hash="CLxkg" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/CLxkg'>Combination Lock</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I provided the combination, but you need to resize your browser window to spin the dial. Don't forget you spin right, left (pass the number once), and right again. (It's much easier on CodePen and if you start with your browser relatively narrow.)
 

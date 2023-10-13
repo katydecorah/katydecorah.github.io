@@ -12,9 +12,9 @@ redirect_from:
   - /code/2013/08/05/font-awesome-buttons.html
 ---
 
-<p data-height="268" data-theme-id="97" data-slug-hash="Bjhdw" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Bjhdw'>Font Awesome Buttons</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
-
 Another [Dribbble inspired](http://dribbble.com/shots/1182658-Picto-icon-detail-variations-WIP) project!
+
+<p data-height="268" data-theme-id="97" data-slug-hash="Bjhdw" data-user="katydecorah" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/Bjhdw'>Font Awesome Buttons</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a></p>
 
 I've been using [Font Awesome](http://fortawesome.github.io/Font-Awesome/) as my icon font for nearly every project. So many fonts to choose from, plus it's CDN hosted. Nothing like upping that PageSpeed score!
 

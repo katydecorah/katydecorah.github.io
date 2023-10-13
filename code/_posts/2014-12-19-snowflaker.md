@@ -7,11 +7,11 @@ image: 2014-12-19-snowflaker.png
 codepen: zxBRKv
 ---
 
-<p data-height="350" data-theme-id="97" data-slug-hash="zxBRKv" data-default-tab="result" data-user="katydecorah" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/zxBRKv/'>Snowflaker</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
 I really wanted to build something last night, heck, something _seasonal_. Something to celebrate the fact that I'm done teaching and my free-time is katy-time.
 
 I decided to try a snowflake.
+
+<p data-height="350" data-theme-id="97" data-slug-hash="zxBRKv" data-default-tab="result" data-user="katydecorah" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/zxBRKv/'>Snowflaker</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ## Building it out
 
