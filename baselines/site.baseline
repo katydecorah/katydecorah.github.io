@@ -4,92 +4,107 @@
   },
   results: [
     {
-      cssSelector: '#fnref\\:1',
-      htmlSnippet: '<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>',
-      rule: 'aria-allowed-role',
-      urls: [
-        'http://localhost:3000/notes/one-year-remote/',
-        'http://localhost:3000/notes/x-files/',
-      ],
-    },
-    {
-      cssSelector: '#fnref\\:1\\:1',
-      htmlSnippet: '<sup id="fnref:1:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>',
-      rule: 'aria-allowed-role',
-      urls: [
-        'http://localhost:3000/notes/x-files/',
-      ],
-    },
-    {
-      cssSelector: '#fn\\:1',
-      htmlSnippet: '<li id="fn:1" role="doc-endnote">\n      <p>This is how I survived winter.&nbsp;<a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>\n    </li>',
-      rule: 'aria-roles',
-      urls: [
-        'http://localhost:3000/notes/one-year-remote/',
-      ],
-    },
-    {
-      cssSelector: '#fn\\:1',
-      htmlSnippet: '<li id="fn:1" role="doc-endnote">\n      <p>Watch with the lights on.&nbsp;<a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a>&nbsp;<a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">↩<sup>2</sup></a></p>\n    </li>',
-      rule: 'aria-roles',
-      urls: [
-        'http://localhost:3000/notes/x-files/',
-      ],
-    },
-    {
-      cssSelector: '#cp_embed_8e1abeef024e776dc485e94b081d74db;#result-iframe;.label-font-relative > strong',
-      htmlSnippet: '<strong>font relative</strong>',
+      cssSelector: '#cp_embed_FgmJI;#css-link',
+      htmlSnippet: '<a id="css-link" href="#css-box" role="button" aria-pressed="false">\nSCSS\n</a>',
       rule: 'color-contrast',
       urls: [
-        'http://localhost:3000/code/from-haml-to-yaml/',
+        'http://localhost:3000/code/sass-adjust-hue-reference/',
       ],
     },
     {
-      cssSelector: '#cp_embed_8e1abeef024e776dc485e94b081d74db;#result-iframe;.label-viewport-percentage > strong',
-      htmlSnippet: '<strong>viewport percentage</strong>',
+      cssSelector: '#cp_embed_FgmJI;#html-link',
+      htmlSnippet: '<a id="html-link" href="#html-box" role="button" aria-pressed="false">\nHaml\n</a>',
       rule: 'color-contrast',
       urls: [
-        'http://localhost:3000/code/from-haml-to-yaml/',
+        'http://localhost:3000/code/sass-adjust-hue-reference/',
       ],
     },
     {
-      cssSelector: '#cp_embed_QWrNmzd;#result-link',
-      htmlSnippet: '<a id="result-link" href="#result-box" class="active" aria-pressed="true" role="button">\nResult\n</a>',
+      cssSelector: '#cp_embed_FgmJI;#rerun-button',
+      htmlSnippet: '<button id="rerun-button" class="action-button rerun-button bottom right">\nRerun\n</button>',
       rule: 'color-contrast',
       urls: [
-        'http://localhost:3000/code/now-reading/',
+        'http://localhost:3000/code/sass-adjust-hue-reference/',
       ],
     },
     {
-      cssSelector: '#file-script-js-LC33 > .pl-v',
-      htmlSnippet: '<span class="pl-v">GmailApp</span>',
+      cssSelector: '#cp_embed_FgmJI;#resources-link',
+      htmlSnippet: '<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">\nResources\n</button>',
       rule: 'color-contrast',
       urls: [
-        'http://localhost:3000/code/google-sheets-to-gmail/',
+        'http://localhost:3000/code/sass-adjust-hue-reference/',
       ],
     },
     {
-      cssSelector: '#file-script-js-LC4 > .pl-v',
-      htmlSnippet: '<span class="pl-v">SpreadsheetApp</span>',
+      cssSelector: '#cp_embed_FgmJI;#zoom-button-025',
+      htmlSnippet: '<button class="action-button" id="zoom-button-025">0.25×</button>',
       rule: 'color-contrast',
       urls: [
-        'http://localhost:3000/code/google-sheets-to-gmail/',
+        'http://localhost:3000/code/sass-adjust-hue-reference/',
       ],
     },
     {
-      cssSelector: '#file-script-js-LC43 > .pl-v',
-      htmlSnippet: '<span class="pl-v">SpreadsheetApp</span>',
+      cssSelector: '#cp_embed_FgmJI;#zoom-button-05',
+      htmlSnippet: '<button class="action-button" id="zoom-button-05">0.5×</button>',
       rule: 'color-contrast',
       urls: [
-        'http://localhost:3000/code/google-sheets-to-gmail/',
+        'http://localhost:3000/code/sass-adjust-hue-reference/',
       ],
     },
     {
-      cssSelector: '#cp_embed_8e1abeef024e776dc485e94b081d74db;#result-iframe;#units',
-      htmlSnippet: '<input id="units" min="1" ng-model="unit" type="number" class="ng-pristine ng-untouched ng-valid ng-valid-min">',
-      rule: 'label',
+      cssSelector: '#cp_embed_FgmJI;#zoom-button-1',
+      htmlSnippet: '<button class="action-button" id="zoom-button-1">1×</button>',
+      rule: 'color-contrast',
       urls: [
-        'http://localhost:3000/code/from-haml-to-yaml/',
+        'http://localhost:3000/code/sass-adjust-hue-reference/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_cufzB;#result-iframe;#break',
+      htmlSnippet: '<button id="break">Break Word</button>',
+      rule: 'color-contrast',
+      urls: [
+        'http://localhost:3000/code/line-lengthicator/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_cufzB;#result-iframe;.go',
+      htmlSnippet: '<button class="go">\n    <i class="icon-magic"></i>\n    Visualize\n  </button>',
+      rule: 'color-contrast',
+      urls: [
+        'http://localhost:3000/code/line-lengthicator/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_vaoKs;#result-iframe;h1',
+      htmlSnippet: '<h1>\n  Double Vision\n</h1>',
+      rule: 'color-contrast',
+      urls: [
+        'http://localhost:3000/code/double-vision/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_Bjhdw;#result-iframe;.icon-github',
+      htmlSnippet: '<a href="" class="icon-github icon-purple icon-btn"></a>',
+      rule: 'link-name',
+      urls: [
+        'http://localhost:3000/code/font-awesome-buttons/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_Bjhdw;#result-iframe;.icon-instagram',
+      htmlSnippet: '<a href="" class="icon-instagram icon-red icon-btn"></a>',
+      rule: 'link-name',
+      urls: [
+        'http://localhost:3000/code/font-awesome-buttons/',
+      ],
+    },
+    {
+      cssSelector: '#cp_embed_Bjhdw;#result-iframe;.icon-twitter',
+      htmlSnippet: '<a href="" class="icon-twitter icon-blue icon-btn"></a>',
+      rule: 'link-name',
+      urls: [
+        'http://localhost:3000/code/font-awesome-buttons/',
       ],
     },
   ],
