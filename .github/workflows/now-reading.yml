@@ -1,0 +1,10 @@
+name: Now reading
+on:
+  repository_dispatch:
+    types: [now-reading]
+jobs:
+  myEvent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo ${{ github.event.client_payload }}
