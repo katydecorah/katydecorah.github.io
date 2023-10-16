@@ -7,4 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo ${{ github.event.client_payload }}
+      - run: |
+          ${{ github.event.client_payload.github }}" > _data/now-reading.json
