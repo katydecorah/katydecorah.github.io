@@ -3,12 +3,15 @@ on:
   repository_dispatch:
     types: [now-reading]
 jobs:
-  myEvent:
+  nowReading:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: |
-          ${{ github.event.client_payload.github }} > _data/now-reading.json
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github.event.client_payload.github) }}
+        run: |
+          echo "$GITHUB_CONTEXT" > _data/now-reading.json
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
