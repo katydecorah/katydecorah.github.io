@@ -8,4 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          ${{ github.event.client_payload.github }}" > _data/now-reading.json
+          ${{ github.event.client_payload.github }} > _data/now-reading.json
+      - run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A && git commit -m "📚 Now Reading"
+          git push
