@@ -6,7 +6,7 @@ jobs:
   nowReading:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Dump GitHub context
         env:
           JSON_DOC: ${{ toJson(github.event.client_payload.github) }}
