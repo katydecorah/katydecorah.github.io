@@ -11,7 +11,8 @@ jobs:
         env:
           JSON_DOC: ${{ github.event.client_payload.github }}
         run: |
-          printf '%s\n' "$JSON_DOC" > _data/now-reading.json
+          echo $JSON_DOC
+          printf '%s\n' $JSON_DOC > _data/now-reading.json
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
