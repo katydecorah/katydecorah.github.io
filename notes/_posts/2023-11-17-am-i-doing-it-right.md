@@ -17,4 +17,4 @@ Earlier this year, I migrated a project to use web components. Throughout the en
 
 - **How are others doing it?** After checking out trusted documentation to get a sense for the patterns, search for tutorials on your subject. Tutorials on personal sites are a gift as they can often provide raw feedback and examples that may more closely match your use case. You'll want to consider the author's background before implementing their solutions. If they share their code with a repository, check to see if they have tests and how their tests are structured, this can give a hint into their familiarity with the technology.
 
-Once you feel on your path to doing it right or somewhat right, you should write about it.
+And once you have learned something new, you should consider writing about it.
