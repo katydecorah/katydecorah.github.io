@@ -1,6 +1,5 @@
 ---
 title: CSS bicycle wheel
-
 tags:
   - Sass
   - Haml

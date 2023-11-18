@@ -1,12 +1,10 @@
 ---
 title: Static Google maps for Jekyll
-
 tags:
   - Jekyll
   - API
 image: 2013-09-06-google-maps-images-api-for-jekyll-0.png
 locations: "Albany,NY"
-project: true
 ---
 
 **As of 7/26/2014, this site has moved to the [Mapbox static API](/code/static-mapbox-for-jekyll/).**

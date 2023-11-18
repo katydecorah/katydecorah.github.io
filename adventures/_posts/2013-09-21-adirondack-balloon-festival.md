@@ -1,6 +1,5 @@
 ---
 title: Adirondack Balloon Festival &amp; Coldbrook Preserve
-
 locations:
   - "Floyd Bennett Memorial Airport"
   - "Glens Falls, NY"

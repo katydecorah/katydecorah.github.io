@@ -1,6 +1,5 @@
 ---
 title: Optical illusions
-
 tags:
   - Sass
   - Haml

@@ -1,6 +1,5 @@
 ---
 title: Albany Rural Cemetery
-
 map: static
 coordinates:
   - -73.731604,42.707184

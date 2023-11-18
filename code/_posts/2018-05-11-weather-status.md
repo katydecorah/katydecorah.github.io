@@ -1,6 +1,5 @@
 ---
 title: Make your Slack status the weather forecast
-
 image: 2018-05-11-weather-status-0.png
 tags:
   - Node.js

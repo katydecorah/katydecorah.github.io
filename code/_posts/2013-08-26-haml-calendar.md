@@ -1,6 +1,5 @@
 ---
 title: Haml calendar
-
 tags:
   - Haml
   - Sass
@@ -8,7 +7,6 @@ tags:
   - CodePen
 pen: aDAoG
 image: 2013-08-26-haml-calendar-0.png
-project: true
 ---
 
 While I was looking through the Haml docs today, I found the ability to print out the date. My gears started spinning. Why not create a calendar?

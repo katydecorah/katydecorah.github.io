@@ -3,7 +3,7 @@ title: How do I know if I'm doing it right?
 image: 2023-11-17-am-i-doing-it-right.png
 ---
 
-Earlier this year, I migrated a project to use web components. Throughout the entire process, I worried that I was doing it wrong. I started to consider how I might validate my assumptions.
+Earlier this year, I migrated a personal project to use web components. Throughout the entire process, I worried that I was doing it wrong. I started to consider how I might validate my assumptions especially as a self-learner.
 
 - **Where can you find trusted documentation and examples?** For web projects, I start with [MDN](https://developer.mozilla.org/en-US/) and [web.dev](https://web.dev/), these sites are well maintained, cited, and beginner friendly. While you could go right to the technology’s specification, I find that these sites help explain the source material through practical use cases. Documentation does expire; check to see when the page was published or last updated. If it was over a year ago, then you will want to check if there's been changes to the technology since then.
 

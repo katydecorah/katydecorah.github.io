@@ -6,7 +6,6 @@ tags:
   - Sass
   - CodePen
 image: 2013-09-23-google-static-map-maker.png
-project: true
 ---
 
 After working with Google Static Maps for some of my posts [(re: Static Google Maps Image for Jekyll Posts)](/code/google-maps-images-api-for-jekyll), I started scheming on an easier way to arrive at a map. I thought this might be helpful for other people too.

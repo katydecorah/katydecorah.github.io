@@ -1,6 +1,5 @@
 ---
 title: "Pretzels &amp; Williamsburg"
-
 map: static
 coordinates:
   - -73.9531715,40.7115551

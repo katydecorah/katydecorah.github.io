@@ -1,6 +1,5 @@
 ---
 title: Symlinking Jekyll data files
-
 image: 2015-10-14-symlinking-jekyll-data-0.png
 tags:
   - Jekyll

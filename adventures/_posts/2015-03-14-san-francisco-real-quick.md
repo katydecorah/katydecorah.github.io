@@ -1,6 +1,5 @@
 ---
 title: San Francisco real quick
-
 image: 2015-03-14-san-francisco-real-quick-0.jpg
 locations:
   - San Francisco

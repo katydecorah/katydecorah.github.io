@@ -1,6 +1,5 @@
 ---
 title: THREES App Store Button
-
 tags:
   - Sass
   - CodePen

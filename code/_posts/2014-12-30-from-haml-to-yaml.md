@@ -1,6 +1,5 @@
 ---
 title: From Haml to Yaml
-
 tags:
   - Jekyll
   - AngularJS

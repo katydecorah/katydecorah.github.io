@@ -1,6 +1,5 @@
 ---
 title: Kings Highway Barrens
-
 image: 2015-08-23-kings-highway-barrens-0.jpg
 recommended: true
 locations:

@@ -1,6 +1,5 @@
 ---
 title: Bozen Kill Preserve
-
 image: 2016-01-03-bozen-kill-preserve-0.jpg
 coordinates:
   - -74.046213,42.7148751

@@ -1,6 +1,5 @@
 ---
 title: "Greenwich &amp; treasure hunting"
-
 map: static
 coordinates:
   - -73.598587,41.0163474

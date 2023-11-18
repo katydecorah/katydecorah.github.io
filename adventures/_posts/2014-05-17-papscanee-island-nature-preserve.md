@@ -1,6 +1,5 @@
 ---
 title: Papscanee Island Nature Preserve
-
 recommended: true
 locations:
   - Rensselaer, NY

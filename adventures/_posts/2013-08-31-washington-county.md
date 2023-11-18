@@ -1,6 +1,5 @@
 ---
 title: Washington County
-
 image: 2013-08-31-washington-county-0.jpg
 locations:
   - Hebron,NY

@@ -1,6 +1,5 @@
 ---
 title: Lake Placid
-
 locations:
   - Lake Placid,NY
   - Saranac Lake,NY

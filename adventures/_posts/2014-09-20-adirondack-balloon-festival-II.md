@@ -1,6 +1,5 @@
 ---
 title: Adirondack Balloon Festival 2014
-
 image: 2014-09-20-adirondack-balloon-festival-II-0.jpg
 locations:
   - Floyd Bennett Memorial Airport

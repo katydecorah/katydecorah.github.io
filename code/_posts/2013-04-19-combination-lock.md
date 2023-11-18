@@ -1,6 +1,5 @@
 ---
 title: Combination lock
-
 tags:
   - Sass
   - jQuery
@@ -8,7 +7,6 @@ tags:
   - CodePen
 pen: CLxkg
 image: 2013-04-19-combination-lock-0.png
-project: true
 ---
 
 I created a functioning combination lock.

@@ -1,6 +1,5 @@
 ---
 title: San Francisco
-
 locations:
   - San Francisco
 image: 2014-12-15-san-francisco-0.jpg

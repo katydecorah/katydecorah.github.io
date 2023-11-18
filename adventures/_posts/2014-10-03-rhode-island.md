@@ -1,6 +1,5 @@
 ---
 title: Rhode Island
-
 image: 2014-10-03-rhode-island-0.jpg
 locations:
   - Providence, RI

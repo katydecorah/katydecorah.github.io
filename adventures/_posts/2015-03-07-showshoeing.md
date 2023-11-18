@@ -1,6 +1,5 @@
 ---
 title: Showshoeing in Rensselaerville
-
 image: 2015-03-07-showshoeing-0.jpg
 locations:
   - Rensselaerville,NY

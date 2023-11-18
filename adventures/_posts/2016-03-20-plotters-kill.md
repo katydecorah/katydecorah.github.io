@@ -1,6 +1,5 @@
 ---
 title: Plotters Kill Preserve
-
 image: 2016-03-20-plotters-kill-0.jpg
 coordinates:
   - -74.0521084,42.8284966

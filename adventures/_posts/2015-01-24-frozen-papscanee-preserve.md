@@ -1,6 +1,5 @@
 ---
 title: Frozen Papscanee Preserve
-
 locations:
   - Rensselaer, NY
 coordinates:

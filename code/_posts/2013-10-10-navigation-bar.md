@@ -1,6 +1,5 @@
 ---
 title: Navigation Bar by Jan Kaděra
-
 tags:
   - Sass
   - Haml

@@ -1,6 +1,5 @@
 ---
 title: Static Mapbox API for Jekyll posts
-
 coordinates:
   - -73.7236504,43.2294791
 locations:

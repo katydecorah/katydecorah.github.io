@@ -1,6 +1,5 @@
 ---
 title: WeatherBot gets alerts
-
 image: 2017-03-05-weatherbot-gets-alerts-0.png
 tags:
   - Node.js

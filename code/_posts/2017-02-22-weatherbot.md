@@ -1,6 +1,5 @@
 ---
 title: Building a WeatherBot
-
 image: 2017-02-22-weatherbot-0.jpg
 tags:
   - Node.js

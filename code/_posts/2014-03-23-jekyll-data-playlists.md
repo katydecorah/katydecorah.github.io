@@ -1,6 +1,5 @@
 ---
 title: Jekyll data playlists
-
 tags:
   - Jekyll
   - PHP

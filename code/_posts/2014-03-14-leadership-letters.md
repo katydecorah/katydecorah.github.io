@@ -1,6 +1,5 @@
 ---
 title: Leadership Letters by Jeroen van Eerden
-
 tags:
   - Haml
   - Sass

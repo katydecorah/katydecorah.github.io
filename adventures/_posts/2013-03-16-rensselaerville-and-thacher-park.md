@@ -1,6 +1,5 @@
 ---
 title: Rennselaerville &amp; Thacher Park
-
 locations:
   - Rennselaerville,NY
   - Thacher State Park

@@ -1,6 +1,5 @@
 ---
 title: Two Weddings
-
 locations:
   - Poughkeepsie,NY
   - Chatham,NJ

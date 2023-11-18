@@ -1,6 +1,5 @@
 ---
 title: Western Mass Adventures
-
 image: 2013-06-02-western-mass-adventures-0.jpg
 locations:
   - North Adams,MA

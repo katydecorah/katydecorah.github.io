@@ -1,6 +1,5 @@
 ---
 title: Line length-icator
-
 tags:
   - Sass
   - jQuery
@@ -8,7 +7,6 @@ tags:
   - CodePen
 pen: cufzB
 image: 2013-05-28-line-lengthicator-0.png
-project: true
 ---
 
 I'm always trying to find the optimal line length for my text. After reading [several](http://webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/ "The Elements of Typographic Style Applied to the Web") [posts](http://trentwalton.com/2012/06/19/fluid-type/ "Trent Walton: Fluid Type"), I found that the sweet spot is around 66 characters. While styling my paragraphs I started counting the characters manually. That got old, real fast.

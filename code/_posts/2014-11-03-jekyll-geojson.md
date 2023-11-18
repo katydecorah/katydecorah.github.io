@@ -1,6 +1,5 @@
 ---
 title: Jekyll and GeoJSON
-
 tags:
   - Jekyll
 image: 2014-11-03-jekyll-geojson-0.png

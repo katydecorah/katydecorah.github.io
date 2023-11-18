@@ -1,6 +1,5 @@
 ---
 title: Mount Greylock
-
 locations:
   - Mount Greylock
 map: static

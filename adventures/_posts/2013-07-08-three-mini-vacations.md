@@ -1,6 +1,5 @@
 ---
 title: Three Mini Vacations
-
 image: 2013-07-08-three-mini-vacations-0.jpg
 locations:
   - Lake Placid,NY

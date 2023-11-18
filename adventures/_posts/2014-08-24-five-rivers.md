@@ -1,6 +1,5 @@
 ---
 title: Five Rivers
-
 recommended: true
 image: 2014-08-24-five-rivers-0.jpg
 locations:

@@ -1,6 +1,5 @@
 ---
 title: Christmas day hike
-
 locations:
   - Rensselaer, NY
 coordinates:

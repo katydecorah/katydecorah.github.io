@@ -1,6 +1,5 @@
 ---
 title: Slidey background
-
 tags:
   - Haml
   - Sass

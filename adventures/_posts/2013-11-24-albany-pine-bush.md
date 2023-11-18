@@ -1,6 +1,5 @@
 ---
 title: Albany Pine Bush &amp; Family Sunday
-
 map: static
 coordinates:
   - -73.890848,42.737898

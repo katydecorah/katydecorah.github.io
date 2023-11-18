@@ -1,6 +1,5 @@
 ---
 title: Round Lake Preserve
-
 image: 2015-07-05-round-lake-preserve-0.jpg
 locations:
   - Round lake

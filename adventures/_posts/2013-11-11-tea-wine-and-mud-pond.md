@@ -1,6 +1,5 @@
 ---
 title: Tea, Wine, &amp; Mud Pond
-
 coordinates:
   - -73.5356922,42.563398
 map: static

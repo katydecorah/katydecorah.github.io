@@ -1,13 +1,11 @@
 ---
 title: Sass adjust-hue reference
-
 tags:
   - Sass
   - Haml
   - CodePen
 pen: FgmJI
 image: 2013-01-09-sass-adjust-hue-reference-0.png
-project: true
 ---
 
 If you have a color that you would like to adjust in Sass, but don't feel like guess and checking, then try out this little tool.

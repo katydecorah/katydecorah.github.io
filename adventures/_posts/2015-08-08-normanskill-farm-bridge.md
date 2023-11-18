@@ -1,6 +1,5 @@
 ---
 title: Normanskill Farm Bridge
-
 image: 2015-08-08-normanskill-farm-bridge-0.jpg
 locations:
   - Normanskill

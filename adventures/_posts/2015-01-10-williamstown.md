@@ -1,6 +1,5 @@
 ---
 title: Williamstown
-
 locations:
   - Williamstown, MA
 coordinates:

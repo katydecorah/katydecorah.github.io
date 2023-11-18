@@ -1,6 +1,5 @@
 ---
 title: The Snow Hole
-
 recommended: true
 image: 2013-06-22-the-snow-hole-0.jpg
 locations:

@@ -1,6 +1,5 @@
 ---
 title: Pine Hollow Arboretum
-
 recommended: true
 locations:
   - Slingerlands, NY

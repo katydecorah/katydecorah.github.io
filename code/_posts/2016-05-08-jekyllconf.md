@@ -1,6 +1,5 @@
 ---
 title: Unconventional use cases for Jekyll
-
 image: 2016-05-08-jekyllconf-0.jpg
 tags:
   - Jekyll

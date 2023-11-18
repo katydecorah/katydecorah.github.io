@@ -1,6 +1,5 @@
 ---
 title: Decorating a wedding
-
 map: static
 coordinates:
   - -73.0598826,43.1467218

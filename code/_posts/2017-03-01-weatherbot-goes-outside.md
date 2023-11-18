@@ -1,6 +1,5 @@
 ---
 title: WeatherBot goes outside
-
 image: 2017-03-01-weatherbot-goes-outside-0.jpg
 tags:
   - Node.js

@@ -6,7 +6,6 @@ tags:
   - AngularJS
   - CodePen
 image: 2013-08-27-angular-contact-form.png
-project: true
 ---
 
 My first try Angular form validation.

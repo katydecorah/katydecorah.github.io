@@ -1,6 +1,5 @@
 ---
 title: Cascade Falls
-
 recommended: true
 image: 2014-08-10-cascade-falls-0.jpg
 coordinates:

@@ -1,6 +1,5 @@
 ---
 title: Font Awesome Buttons
-
 tags:
   - Sass
   - Dribbble

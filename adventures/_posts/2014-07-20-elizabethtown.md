@@ -1,6 +1,5 @@
 ---
 title: Elizabethtown
-
 locations:
   - Elizabethtown, NY
 coordinates:

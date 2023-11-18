@@ -1,6 +1,5 @@
 ---
 title: Palmertown Mountain Range
-
 recommended: true
 map: static
 coordinates:

@@ -1,6 +1,5 @@
 ---
 title: Thunder Mountain
-
 image: 2015-04-19-thunder-mountain-0.jpg
 recommended: true
 miles: 1.3

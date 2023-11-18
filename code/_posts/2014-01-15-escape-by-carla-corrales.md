@@ -1,6 +1,5 @@
 ---
 title: Escape by Carla Corrales
-
 pen: mJeba
 tags:
   - Sass

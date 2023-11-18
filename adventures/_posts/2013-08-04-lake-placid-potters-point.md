@@ -1,6 +1,5 @@
 ---
 title: Lake Placid &amp; Potter's Point
-
 image: 2013-08-04-lake-placid-potters-point-0.jpg
 locations:
   - Lake Placid,NY

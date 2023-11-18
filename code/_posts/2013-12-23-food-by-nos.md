@@ -1,6 +1,5 @@
 ---
 title: "Food by nos"
-
 tags:
   - Sass
   - Haml

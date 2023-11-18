@@ -1,6 +1,5 @@
 ---
 title: South Yokun Ridge
-
 image: 2015-09-05-south-yokun-ridge-0.jpg
 recommended: true
 locations:

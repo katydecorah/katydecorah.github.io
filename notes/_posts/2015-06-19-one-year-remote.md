@@ -1,6 +1,5 @@
 ---
 title: What I learned after working remote for 1 year
-
 image: 2015-06-19-one-year-remote-0.jpg
 ---
 

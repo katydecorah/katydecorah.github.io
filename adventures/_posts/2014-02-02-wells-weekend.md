@@ -1,6 +1,5 @@
 ---
 title: Wells Weekend
-
 map: static
 locations:
   - Wells, NY

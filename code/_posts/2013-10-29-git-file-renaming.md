@@ -1,6 +1,5 @@
 ---
 title: Git file renaming
-
 tags:
   - Git
 image: 2013-10-29-git-file-renaming-0.jpg

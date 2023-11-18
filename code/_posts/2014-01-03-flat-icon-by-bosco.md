@@ -1,6 +1,5 @@
 ---
 title: Flat icon by _Bosco
-
 tags:
   - Haml
   - Sass

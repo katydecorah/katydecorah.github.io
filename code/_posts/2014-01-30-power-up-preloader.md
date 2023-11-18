@@ -1,6 +1,5 @@
 ---
 title: Power Up Preloader by Mantas Ba&#269;iu&#353;ka
-
 tags:
   - Sass
   - Dribbble

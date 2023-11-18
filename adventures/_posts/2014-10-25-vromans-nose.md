@@ -1,6 +1,5 @@
 ---
 title: Vroman’s Nose
-
 coordinates:
   - -74.35782,42.59487
 locations:

@@ -1,6 +1,5 @@
 ---
 title: Rensselaerville &amp; Granville
-
 locations:
   - Rensselaerville,NY
   - Granville,NY

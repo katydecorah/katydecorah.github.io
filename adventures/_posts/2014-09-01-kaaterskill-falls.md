@@ -1,6 +1,5 @@
 ---
 title: Kaaterskill Falls
-
 recommended: true
 locations:
   - Hunter, NY

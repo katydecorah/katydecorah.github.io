@@ -1,6 +1,5 @@
 ---
 title: Triangles
-
 tags:
   - Sass
   - Dribbble

@@ -1,6 +1,5 @@
 ---
 title: Huyck Preserve
-
 map: static
 markers: none
 pad: 0

@@ -1,6 +1,5 @@
 ---
 title: Guide to Responsive-Friendly CSS Columns
-
 elsewhere-site: CSS-Tricks
 elsewhere-link: http://css-tricks.com/guide-responsive-friendly-css-columns/
 tags:

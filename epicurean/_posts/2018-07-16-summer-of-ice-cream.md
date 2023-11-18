@@ -1,6 +1,5 @@
 ---
 title: Summer of ice cream
-
 image: 2018-07-16-summer-of-ice-cream-0.jpg
 ---
 

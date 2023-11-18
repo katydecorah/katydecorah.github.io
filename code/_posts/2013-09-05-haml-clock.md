@@ -1,6 +1,5 @@
 ---
 title: Haml clock
-
 tags:
   - Haml
   - Sass

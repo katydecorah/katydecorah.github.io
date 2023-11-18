@@ -1,6 +1,5 @@
 ---
 title: Forebruary
-
 tags:
   - Sass
   - jQuery

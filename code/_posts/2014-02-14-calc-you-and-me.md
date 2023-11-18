@@ -1,6 +1,5 @@
 ---
 title: "calc(you + me)"
-
 tags:
   - animation
   - Sass

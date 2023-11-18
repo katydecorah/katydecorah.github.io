@@ -1,6 +1,5 @@
 ---
 title: North Carolina
-
 locations:
   - Asheville, NC
   - Sliding Rock, Brevard, NC

@@ -1,6 +1,5 @@
 ---
 title: Writing for everyone
-
 image: 2015-03-25-writing-for-everyone-0.jpg
 tags:
   - Jekyll

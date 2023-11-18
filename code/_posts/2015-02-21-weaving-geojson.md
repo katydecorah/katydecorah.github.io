@@ -1,6 +1,5 @@
 ---
 title: Weaving data into GeoJSON with Jekyll
-
 tags:
   - Jekyll
 image: 2015-02-21-weaving-geojson-0.jpg

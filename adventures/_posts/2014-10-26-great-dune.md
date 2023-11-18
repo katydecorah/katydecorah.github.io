@@ -1,6 +1,5 @@
 ---
 title: Great Dune
-
 coordinates:
   - -73.894,42.707
 locations:

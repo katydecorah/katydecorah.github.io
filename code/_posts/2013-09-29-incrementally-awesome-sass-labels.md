@@ -3,7 +3,6 @@ title: Incrementally awesome Sass labels
 tags:
   - Sass
 image: 2013-09-29-incrementally-awesome-sass-labels-0.png
-project: true
 css: |
   .label {
     vertical-align: middle;

@@ -1,6 +1,5 @@
 ---
 title: Apple Pickin &amp; Apple Pie Makin
-
 map: static
 coordinates:
   - -73.6860833,42.4351899

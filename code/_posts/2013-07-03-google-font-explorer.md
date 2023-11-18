@@ -1,12 +1,10 @@
 ---
 title: Google Font Explorer
-
 tags:
   - API
   - CodePen
 pen: vetCA
 image: 2013-07-03-google-font-explorer-0.png
-project: true
 ---
 
 _Update 9/12/2013_ I received many requests on CodePen to make this pen its own page. So [here is the Google Font Explorer](/google-font-explorer/)!

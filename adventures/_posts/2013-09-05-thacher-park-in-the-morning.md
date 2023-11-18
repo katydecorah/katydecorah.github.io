@@ -1,6 +1,5 @@
 ---
 title: Thacher Park in the morning
-
 recommended: true
 map: static
 coordinates:

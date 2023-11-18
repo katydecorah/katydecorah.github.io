@@ -1,6 +1,5 @@
 ---
 title: San Francisco all weekend
-
 image: 2015-04-13-san-francisco-all-weekend-0.jpg
 locations:
   - San Francisco

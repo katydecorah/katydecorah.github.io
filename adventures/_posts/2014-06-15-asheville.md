@@ -1,6 +1,5 @@
 ---
 title: Asheville
-
 coordinates:
   - -82.5669504,35.5896214
 markers: none

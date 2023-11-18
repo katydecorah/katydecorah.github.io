@@ -1,6 +1,5 @@
 ---
 title: What I learned after working remotely for 2 years
-
 image: 2016-06-08-two-years-remote-0.jpg
 ---
 

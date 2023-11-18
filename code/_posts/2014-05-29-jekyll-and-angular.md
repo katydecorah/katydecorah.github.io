@@ -1,6 +1,5 @@
 ---
 title: Jekyll and AngularJS
-
 tags:
   - Jekyll
   - AngularJS

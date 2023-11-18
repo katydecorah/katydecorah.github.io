@@ -1,6 +1,5 @@
 ---
 title: Dean Farm Heritage Trail
-
 recommended: true
 locations:
   - Stony Creek, NY

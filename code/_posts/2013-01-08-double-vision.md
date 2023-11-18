@@ -1,6 +1,5 @@
 ---
 title: Double vision
-
 tags:
   - Sass
   - CodePen

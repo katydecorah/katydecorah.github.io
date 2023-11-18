@@ -1,6 +1,5 @@
 ---
 title: Rensselaerville
-
 image: 2013-08-21-rensselaerville-0.jpg
 locations:
   - Rensselaerville,NY
