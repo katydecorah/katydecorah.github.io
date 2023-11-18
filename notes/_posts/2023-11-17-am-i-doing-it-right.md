@@ -15,6 +15,6 @@ Earlier this year, I migrated a project to use web components. Throughout the en
 
 - **&ldquo;How do you stay up-to-date?&rdquo;** Next time you are in the same space as someone in your industry, consider asking this question to learn from how they learn. Chances are you will learn a new source for information or validate your current learning path.
 
-- **How are others doing it?** After checking out trusted documentation to get a sense for the patterns, search for tutorials on your subject. Tutorials on personal sites are a gift as they can often provide raw feedback and examples that may more closely match your use case. You'll want to consider the author's background before implementing their solutions. If they share their code with a repository, check to see if they have tests and how their tests are structured, this can give a hint into their familiarity with the technology.
+- **How are others doing it?** After checking out trusted documentation to get a sense for the patterns, search for tutorials on your subject. Tutorials on personal sites are a gift as they can often provide raw feedback and examples that may more closely match your use case. You'll want to use the tutorial's material thoughtfully and consider finding an additional source to help verify content.
 
 And once you have learned something new, you should consider writing about it.
