@@ -11,7 +11,7 @@ author:
 assets: https://yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
-remote_theme: katydecorah/theme@v5.1.0
+remote_theme: katydecorah/theme@home-fix
 
 future: true
 
