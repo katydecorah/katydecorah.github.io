@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest && npm run lint-md && npm run test-content",
     "test-content": "extra-eyes {adventures,code,epicurean,notes}/_posts --dict=katydecorah.dic -q",
-    "lint-md": "remark {adventures,code,epicurean,notes}/_posts -q",
+    "lint-md": "remark **/_posts/*.md -q",
     "lint": "eslint .",
     "pretest": "npm run lint",
     "start": "bundle exec jekyll serve",
