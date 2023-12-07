@@ -1,7 +1,10 @@
 export default {
   plugins: [
     "@double-great/remark-lint-alt-text",
-    ["@mapbox/remark-lint-link-text", [2]],
+    [
+      "@double-great/remark-lint-link-text",
+      [2, { unique: false, "not-url": false }],
+    ],
     ["remark-lint-heading-increment", [2]],
     ["remark-frontmatter", ["yaml"]],
     "remark-lint-haiku",
