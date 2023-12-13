@@ -13,9 +13,9 @@
     "start:prod": "JEKYLL_ENV=production bundle exec jekyll serve"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.5",
+    "@babel/core": "^7.23.6",
     "@babel/eslint-parser": "^7.23.3",
-    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-env": "^7.23.6",
     "@double-great/remark-lint-alt-text": "^1.0.0",
     "@double-great/remark-lint-link-text": "^0.9.0",
     "eslint": "^8.55.0",
@@ -23,11 +23,11 @@
     "extra-eyes": "^3.3.0",
     "jest": "^29.7.0",
     "js-yaml": "^4.1.0",
-    "prettier": "^3.1.0",
+    "prettier": "^3.1.1",
     "remark-cli": "^12.0.0",
     "remark-frontmatter": "^5.0.0",
-    "remark-frontmatter-validator": "^0.4.0",
-    "remark-lint-haiku": "^0.2.0",
+    "remark-frontmatter-validator": "^1.0.0",
+    "remark-lint-haiku": "^0.3.0",
     "remark-lint-heading-increment": "^3.1.2"
   },
   "main": "index.js",
