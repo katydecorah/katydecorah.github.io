@@ -6,7 +6,6 @@ baseurl: ""
 permalink: /:categories/:title/
 author:
   name: Katy DeCorah
-  email: katydecorah@gmail.com
   uri: https://katydecorah.com
 assets: https://yo.katydecorah.com/
 
