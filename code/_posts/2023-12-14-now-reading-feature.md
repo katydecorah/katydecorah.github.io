@@ -1,11 +1,11 @@
 ---
-title: How I built a "Now reading" feature
+title: How I built a now reading feature
 image: 2023-12-14-now-reading-feature.png
 tags:
   - GitHub
 ---
 
-I added a [Now reading]({{site.url}}#now-reading) section to my site to share the book I'm currently reading. It's powered by GitHub Actions and the pressure that comes when all my library loans become available on the same day.
+I added a [now reading]({{site.url}}#now-reading) section to my site to share the book I'm currently reading. It's powered by GitHub Actions and the pressure that comes when all my library loans become available on the same day.
 
 (I wrote about this idea last year when I built an [e-paper display to show the book I'm reading](/code/now-reading/).)
 
