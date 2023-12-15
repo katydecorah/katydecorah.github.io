@@ -1,21 +1,23 @@
 ---
-title: How I built "Now reading" feature on my site
+title: How I built a "Now reading" feature
 image: 2023-12-14-now-reading-feature.png
 tags:
   - GitHub
 ---
 
-I added a "Now reading" section to my main page and it's powered by GitHub Actions. I wrote about this idea last year when I built a [an e-paper display to show the book I'm reading](/code/now-reading/).
+I added a [Now reading]({{site.url}}#now-reading) section to my site to share the book I'm currently reading. It's powered by GitHub Actions and the pressure that comes when all my library loans become available on the same day.
+
+(I wrote about this idea last year when I built a [an e-paper display to show the book I'm reading](/code/now-reading/).)
 
 ## New outputs in read-action
 
 To make this feature work, I updated [read-action](https://github.com/katydecorah/read-action) (my GitHub action that keeps track of my books in a JSON file) to add an [output parameter](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter). This output parameter, `nowReading`, is the metadata of the book I'm currently reading.
 
-This means that every time I call read-action to add a book I started, it will return back exactly the data I need to display that book on my site (but I still need to get that data from a private repository to my public repository).
+This means that every time I call read-action to add a book I started, my workflow will now have access to a parameter that has the data I need to display that book on my site. But, I still need to get that data from a private repository to my public repository.
 
 ## Pass data from repository to repository
 
-Since I run read-action in a private repository, I used a [repository dispatch](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch) to pass the book data to my public repository. I did this by updating the workflow in my private repository to add a step after read-action. This new step checks read-action has the output `nowReading`. If it does, then it will use [repository-dispatch](https://github.com/peter-evans/repository-dispatch) to send the contents of `nowReading` to my public repository as an event.
+Since I run read-action in a private repository, I used a [repository dispatch](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch) to pass the book data to my public repository. I did this by updating the workflow in my private repository to add a step after read-action. This new step checks if read-action has the output parameter `nowReading`. If it does, then it will use [repository-dispatch](https://github.com/peter-evans/repository-dispatch) to send the contents of `nowReading` to my public repository as an event.
 
 {% raw %}
 
@@ -61,7 +63,7 @@ jobs:
 
 ## Markup the metadata
 
-As soon as the workflow commits the file, GitHub pages will build the site to display the book that I'm currently reading. My site uses the following markup (more or less):
+As soon as the workflow commits the file, GitHub pages will build the site to display the book. My site uses the following markup (more or less):
 
 {% raw %}
 
