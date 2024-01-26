@@ -3,7 +3,7 @@ title: Weeknight meals, part 2
 image: 2024-01-25-weeknight-meals-2.png
 ---
 
-Here are ten more of our favorite weeknight meals ([previous ten](/notes/weeknight-meals/)) that come together in less than an hour.
+Ten more of our favorite weeknight meals ([previous ten](/notes/weeknight-meals/)) that come together in less than an hour.
 
 <div class="photos">
 {% include img.html src="2024-01-25-weeknight-meals-2.png" alt="" width="3600" height="960" %}
