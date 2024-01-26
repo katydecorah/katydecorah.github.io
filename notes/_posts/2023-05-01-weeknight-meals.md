@@ -5,6 +5,10 @@ image: 2023-05-01-weeknight-meals.png
 
 Our ten favorite weeknight meals that come together in 40 minutes or less.
 
+<div class="photos">
+{% include img.html src="2023-05-01-weeknight-meals.png" alt="" width="3600" height="960" %}
+</div>
+
 1. [Bean burritos](https://cooking.nytimes.com/recipes/1022532-bean-and-cheese-burritos) (Jason's favorite)
 2. [Kerala-style vegetable korma](https://cooking.nytimes.com/recipes/1024095-kerala-style-vegetable-korma) (my favorite)
 3. [Keema shimla mirch](https://cooking.nytimes.com/recipes/1023125-keema-shimla-mirch-ground-chicken-with-bell-peppers) (5-year-old's favorite)
