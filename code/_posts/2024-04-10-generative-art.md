@@ -2,7 +2,7 @@
 title: Generative static art
 ---
 
-I [redesigned my site](https://github.com/katydecorah/theme/releases/tag/v5.0.0) a few months ago and had fun creating small generative art pieces that regenerate at build time.
+I [redesigned my site](https://github.com/katydecorah/theme/releases/tag/v5.0.0) a few months ago and had fun creating small generative art pieces that change at build time.
 
 At the top of every page, next to my name, are four quarter circles with two on top and two on bottom. These circles appear differently on every page.
 
