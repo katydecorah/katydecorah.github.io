@@ -1,29 +1,92 @@
-name: Seasonal post
+name: Seasonal metadata post
+
+# Grant the action permission to write to the repository
+permissions:
+  contents: write
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "00 02 20 Mar,Jun,Sep,Dec *"
-  workflow_dispatch:
-    inputs:
-      date:
-        description: Set a specific date to run the action (YYYY-MM-DD), leave blank for today.
-        type: string
 
 jobs:
-  seasonal_post:
+  metadata-post:
     runs-on: ubuntu-latest
-    name: Write seasonal post
+    name: Write metadata post
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Write seasonal post
-        uses: katydecorah/seasonal-post-action@v6.2.1
+      - name: Set post title and dates
+        id: set-season
+        run: |
+          # Get the current month and year
+          MONTH=$(date +%m)
+          YEAR=$(date +%Y)
+
+          # Define the seasons and corresponding emojis
+          declare -A SEASONS=(
+            ["03"]="Winter"
+            ["06"]="Spring"
+            ["09"]="Summer"
+            ["12"]="Fall"
+          )
+
+          declare -A SEASON_EMOJI=(
+            ["Winter"]="❄️"
+            ["Spring"]="🌷"
+            ["Summer"]="☀️"
+            ["Fall"]="🍂"
+          )
+
+          # Function to set environment variables based on the season
+          set_environment_variables_for_season() {
+            local season=$1
+            local start_date=$2
+            local end_date=$3
+            local post_title=""
+
+            if [ "$season" = "Winter" ]; then
+              post_title="$(($YEAR - 1))/${YEAR} ${season}"
+            else
+              post_title="${YEAR} ${season}"
+            fi
+
+            echo "POST_TITLE=${post_title}" >> $GITHUB_OUTPUT
+            echo "START_DATE=${start_date}" >> $GITHUB_OUTPUT
+            echo "END_DATE=${end_date}" >> $GITHUB_OUTPUT
+            echo "SEASON_EMOJI=${SEASON_EMOJI[$season]}" >> $GITHUB_OUTPUT
+          }
+
+          # Set environment variables based on the current month
+          case $MONTH in
+            "03")
+              set_environment_variables_for_season ${SEASONS[$MONTH]} "$(($YEAR - 1))-12-21" "${YEAR}-03-20"
+              ;;
+            "06")
+              set_environment_variables_for_season ${SEASONS[$MONTH]} "${YEAR}-03-21" "${YEAR}-06-20"
+              ;;
+            "09")
+              set_environment_variables_for_season ${SEASONS[$MONTH]} "${YEAR}-06-21" "${YEAR}-09-20"
+              ;;
+            "12")
+              set_environment_variables_for_season ${SEASONS[$MONTH]} "${YEAR}-09-21" "${YEAR}-12-20"
+              ;;
+            *)
+              echo "Invalid month: $MONTH" >&2
+              exit 1
+              ;;
+          esac
+      - name: Write metadata post
+        uses: library-pals/metadata-post-action@main
         with:
           github-username: katydecorah
           github-repository: archive
           source-bookmarks: recipes|_data/recipes.json
-          seasonal-post-template: .github/actions/seasonal-post-template.md
+          post-template: .github/actions/seasonal-post-template.md
           book-tags: "recommend, skip, content warning"
+          start-date: ${{ steps.set-season.outputs.START_DATE }}
+          end-date: ${{ steps.set-season.outputs.END_DATE }}
+          post-title: ${{ steps.set-season.outputs.POST_TITLE }}
         env:
           TOKEN: ${{ secrets.TOKEN }}
       - name: Commit files
@@ -31,5 +94,5 @@ jobs:
           git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A && git commit -m "${{ env.seasonEmoji }} ${{ env.season }}"
+          git add -A && git commit -m "${{steps.set-season.outputs.SEASON_EMOJI}} ${{ steps.set-season.outputs.POST_TITLE }}"
           git push
