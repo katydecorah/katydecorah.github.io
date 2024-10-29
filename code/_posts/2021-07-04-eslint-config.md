@@ -7,6 +7,8 @@ tags:
 
 Like our [markdown linters](/code/lint-markdown/), all Mapbox documentation repositories use a [shared ESLint configuration](https://eslint.org/docs/developer-guide/shareable-configs). Our configuration covers everything from enforcing React best practices to improving accessibility, including:
 
+<!--double-check ignore component-->
+
 - [`eslint-config-mapbox`](https://github.com/mapbox/eslint-config-mapbox) is a shared ESLint config for Mapbox engineering teams which serves as the base for our configuration.
 - [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react) includes React specific linting rules.
 - [`eslint-plugin-jsx-a11y`](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) checks accessibility rules on JSX elements.

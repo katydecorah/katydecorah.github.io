@@ -33,6 +33,8 @@ At the time, our metric did not meet any of these standards.
 
 We brainstormed what an alternative could look like and considered a system like [how we track 404s](/code/monitor-404s-with-sentry/). After some iteration, we learned that our search provider's data was not meaningful because it did not distinguish how many users entered each search with no results. Userless data is useless.
 
+<!--double-check ignore component-->
+
 We stepped away from our search provider's analytics and updated our search component to send an event to Sentry as soon as the user completes a search with no results. With Sentry, our data was suddenly enriched. Not only did we have a user and event count for each search, we also know what page they searched on.
 
 Instead of tracking the percent of searches with no results, our team now has a service license agreement (SLA) for triaging searches with no results.

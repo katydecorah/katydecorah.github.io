@@ -27,7 +27,7 @@ The project has eight block elements, `.item`, nested in a container. Each `.ite
 <figcaption>Creating the shape with border</figcaption>
 </figure>
 
-<!--extra-eyes ignore previous-->At first, I didn't use the bottom or left borders at all. Instead, I used `box-shadow` to cast a white lip around the broadside of each element providing space between each `.item`. By doing that I had to increment the `z-index` to keep each element's nose underneath the previous. Unfortunately, the first element in the z-index stack was then on top of the last element. I scratched my head for a while, until I removed the `box-shadow` and clipped each element's nose with a transparent left border.
+<!--double-check ignore previous-->At first, I didn't use the bottom or left borders at all. Instead, I used `box-shadow` to cast a white lip around the broadside of each element providing space between each `.item`. By doing that I had to increment the `z-index` to keep each element's nose underneath the previous. Unfortunately, the first element in the z-index stack was then on top of the last element. I scratched my head for a while, until I removed the `box-shadow` and clipped each element's nose with a transparent left border.
 
 Two cheers for simple code.
 
@@ -59,7 +59,7 @@ The above will then compute as:
 
 (I think that this makes sense to me. Hi, I'm insecure about `:nth`.)
 
-<!--extra-eyes ignore initial-->The first and fifth elements take the initial style from `.item`.
+<!--double-check ignore initial-->The first and fifth elements take the initial style from `.item`.
 
 ## Border animation
 

@@ -40,6 +40,8 @@ A spellchecker is incredibly useful, but you must be prepared to teach it new wo
 
 Our copyeditor also has a custom retext plugin to support our voice and tone and to format words and phrases consistently. Some examples:
 
+<!--double-check ignore minimize-->
+
 - Avoid words like `actually`, `a bit`, and `just` which minimize complexity.
 - Avoid superlatives and hyperbole like `amazing`, `awesome`, or `very` and instead use facts to convey meaning.
 - Colloquial and idiomatic phrases rarely make sense when translated. Replace phrases like `on the fly` with `dynamic` or `keep in mind` with `remember`.

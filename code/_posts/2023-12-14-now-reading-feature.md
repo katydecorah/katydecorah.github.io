@@ -5,13 +5,13 @@ tags:
   - GitHub
 ---
 
-I added a [now reading]({{site.url}}#now-reading) section to my site to share the book I'm currently reading. It's powered by GitHub Actions and the pressure that comes when all my library loans become available on the same day.
+I added a [now reading]({{site.url}}#now-reading) section to my site to share the book I'm reading. It's powered by GitHub Actions and the pressure that comes when all my library loans become available on the same day.
 
 (I wrote about this idea last year when I built an [e-paper display to show the book I'm reading](/code/now-reading/).)
 
 ## New outputs in read-action
 
-To make this feature work, I updated [read-action](https://github.com/katydecorah/read-action) (my GitHub action that keeps track of my books in a JSON file) to add an [output parameter](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter). The `nowReading` output parameter contains the metadata of the book I'm currently reading.
+To make this feature work, I updated [read-action](https://github.com/katydecorah/read-action) (my GitHub action that keeps track of my books in a JSON file) to add an [output parameter](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter). The `nowReading` output parameter has the metadata of the book I'm reading.
 
 Now, every time I use read-action to add a book I've started, my workflow can access a parameter containing the data to display that book on my site. But, I still need to get that data from a private repository to my public repository.
 
@@ -82,4 +82,4 @@ As soon as the workflow commits the file, GitHub pages will build the site to di
 
 {% assign nowReading = site.data['now-reading'] %}
 
-Or, I can tell you right here, that I'm currently reading &ldquo;{{nowReading.title}}&rdquo; by {{nowReading.authors | join: ", "}}. (This sentence will update once I start a new book.)
+Or, I can tell you right here, that I'm reading &ldquo;{{nowReading.title}}&rdquo; by {{nowReading.authors | join: ", "}}. (This sentence will update once I start a new book.)

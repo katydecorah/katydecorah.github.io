@@ -6,6 +6,9 @@ tags:
   - Mapbox
 ---
 
+<!--double-check disable component-->
+<!--double-check disable relative-to-->
+
 At Mapbox, we write a majority of documentation in [markdown](https://daringfireball.net/projects/markdown/). We have a suite of markdown linters to help us stay consistent and improve the quality of our documentation.
 
 Our suite includes [remark plugins](https://github.com/remarkjs/remark-lint) to lint markdown. We have built our own plugins and use many from the community:
