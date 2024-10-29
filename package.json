@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "jest && npm run lint-md && npm run test-content",
-    "test-content": "double-check {adventures,code,epicurean}/_posts --dict=katydecorah.dic -q",
+    "test-content": "double-check {adventures,code,epicurean}/_posts/*.md --dict=katydecorah.dic -q",
     "lint-md": "remark **/_posts/*.md -q",
     "lint": "eslint .",
     "pretest": "npm run lint",
