@@ -1,0 +1,23 @@
+{
+  "retext-simplify": {
+    "ignore": [
+      "submit",
+      "forward",
+      "participate",
+      "address",
+      "function",
+      "request",
+      "parameters",
+      "option",
+      "maintain",
+      "evaluate",
+      "delete",
+      "effect",
+      "interface",
+      "expiration"
+    ]
+  },
+  "retext-spell": {
+    "personalDictionary": "./katydecorah.dic"
+  }
+}
