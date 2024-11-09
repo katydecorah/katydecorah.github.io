@@ -16,7 +16,7 @@
     "@babel/core": "^7.23.6",
     "@babel/eslint-parser": "^7.23.3",
     "@babel/preset-env": "^7.23.6",
-    "@double-great/double-check": "^0.3.0",
+    "@double-great/double-check": "^0.4.0",
     "@double-great/remark-lint-alt-text": "^1.0.0",
     "@double-great/remark-lint-link-text": "^0.9.0",
     "eslint": "^8.55.0",
