@@ -3,6 +3,8 @@ title: Weeknight meals, part 2
 image: 2024-01-25-weeknight-meals-2.png
 ---
 
+<!--double-check disable previous kimchi cacciatore hannaford-->
+
 Ten more of our favorite weeknight meals ([previous ten](/notes/weeknight-meals/)) that come together in less than an hour.
 
 <div class="photos">

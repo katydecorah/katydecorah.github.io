@@ -3,6 +3,8 @@ title: Weeknight meals
 image: 2023-05-01-weeknight-meals.png
 ---
 
+<!--double-check disable kerala-style keema shimla mirch xo joes krapow gai parmesan-->
+
 Our ten favorite weeknight meals that come together in 40 minutes or less.
 
 <div class="photos">
