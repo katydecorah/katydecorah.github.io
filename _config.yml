@@ -10,7 +10,7 @@ author:
 assets: https://yo.katydecorah.com/
 
 repository: katydecorah/katydecorah.github.io
-remote_theme: katydecorah/theme@v5.5.0
+remote_theme: katydecorah/theme@v5.6.0
 
 future: true
 
