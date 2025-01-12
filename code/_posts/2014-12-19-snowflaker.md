@@ -7,7 +7,9 @@ image: 2014-12-19-snowflaker.png
 codepen: zxBRKv
 ---
 
-I really wanted to build something last night, heck, something _seasonal_. Something to celebrate the fact that I'm done teaching and my free-time is katy-time.
+I really wanted to build something last night, heck, something _seasonal_.
+Something to celebrate the fact that I'm done teaching and my free-time is
+katy-time.
 
 I decided to try a snowflake.
 
@@ -15,13 +17,20 @@ I decided to try a snowflake.
 
 ## Building it out
 
-With Haml, I spit out 3 `div` tags to act as the snowflake's `.spindles`. I paired the Haml loop with a Sass loop to crisscross the spindles dynamically.
+With Haml, I spit out 3 `div` tags to act as the snowflake's `.spindles`. I
+paired the Haml loop with a Sass loop to crisscross the spindles dynamically.
 
 {% include img.html src='2014-12-19-snowflaker-0.jpg' alt='3 spindles' class='img-half' width='604' height='461' %}
 
-I created `$w` to manage the width of each spindle and sized the height at `1em`. I always like to have at least one dimension at `1em`, because I'll drop a `font-size` on that element or its parent to allow the project to scale on `1em`.
+I created `$w` to manage the width of each spindle and sized the height at
+`1em`. I always like to have at least one dimension at `1em`, because I'll drop
+a `font-size` on that element or its parent to allow the project to scale on
+`1em`.
 
-Next, I used `box-shadow` on the `:before` and `:after` to build the snowflake patterns off the spindles. This took some time to get just right because I had to think of each spindle. Each spindle is part of the pattern pie. Eventually, I got the `:before` to look like this thanks to `box-shadow`:
+Next, I used `box-shadow` on the `:before` and `:after` to build the snowflake
+patterns off the spindles. This took some time to get just right because I had
+to think of each spindle. Each spindle is part of the pattern pie. Eventually, I
+got the `:before` to look like this thanks to `box-shadow`:
 
 {% include img.html src='2014-12-19-snowflaker-1.jpg' alt='before element' class='img-half' width='589' height='467' %}
 
@@ -33,15 +42,18 @@ To really break it down, a single spindle looks like this:
 
 {% include img.html src='2014-12-19-snowflaker-3.jpg' alt='annotated single spindle' class='img-half' width='720' height='476' %}
 
-Now put your finger at the top of the spindle and turn the bottom at (360/number of spindles) degrees and you’ll get the snowflake pattern.
+Now put your finger at the top of the spindle and turn the bottom at (360/number
+of spindles) degrees and you’ll get the snowflake pattern.
 
 ## Making it scale
 
-I refactored the code to use variables wherever possible with the premise that if I add more spindles then the pattern would purr.
+I refactored the code to use variables wherever possible with the premise that
+if I add more spindles then the pattern would purr.
 
 And it did!
 
-If you update the number of spindles in the Haml and Sass, you'll get a different snowflake. Here is 3 through 26 spindles:
+If you update the number of spindles in the Haml and Sass, you'll get a
+different snowflake. Here is 3 through 26 spindles:
 
 ![scaling spindles.](http://i.imgur.com/yNv3nmo.gif)
 

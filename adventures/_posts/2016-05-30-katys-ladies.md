@@ -7,7 +7,8 @@ locations:
   - Castleton, Virginia
 ---
 
-My Mapbox squad threw me a bachelorette party in the woods. We relaxed, hiked, ate, drank, and danced.
+My Mapbox squad threw me a bachelorette party in the woods. We relaxed, hiked,
+ate, drank, and danced.
 
 <div class="photos">
 {% include img.html src="2016-05-30-katys-ladies-1.jpg" alt="The farm" width="1600" height="1200" %}

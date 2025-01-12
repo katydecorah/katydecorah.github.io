@@ -9,7 +9,8 @@ coordinates:
   - -73.9835766,44.2805657
 ---
 
-Traveled up to Lake Placid for the weekend with a college roommate, to visit our other college roommate. She had a nice birthday surprise waiting for me!
+Traveled up to Lake Placid for the weekend with a college roommate, to visit our
+other college roommate. She had a nice birthday surprise waiting for me!
 
 <div class="photos">
 
@@ -17,7 +18,8 @@ Traveled up to Lake Placid for the weekend with a college roommate, to visit our
 
 </div>
 
-We lounged for the weekend, but we made sure to drive into Saranac Lake to see the ice castle.
+We lounged for the weekend, but we made sure to drive into Saranac Lake to see
+the ice castle.
 
 <div class="photos">
 

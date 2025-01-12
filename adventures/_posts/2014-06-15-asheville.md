@@ -10,7 +10,8 @@ map: static
 image: 2014-06-15-asheville-0.jpg
 ---
 
-I spent the past week visiting my sister in Asheville. That place never gets old.
+I spent the past week visiting my sister in Asheville. That place never gets
+old.
 
 <div class="photos">
 
@@ -30,7 +31,8 @@ Saturday night we saw the Montford Park Players production of Henry V.
 
 </div>
 
-Sunday we took the Blue Ridge Parkway to Craggy Gardens and to the Summit of Mount Mitchell.
+Sunday we took the Blue Ridge Parkway to Craggy Gardens and to the Summit of
+Mount Mitchell.
 
 ## Blue Ridge Parkway
 
@@ -74,7 +76,8 @@ Sunday we took the Blue Ridge Parkway to Craggy Gardens and to the Summit of Mou
 
 </div>
 
-We took a few strolls around Biltmore. We rewatched Richie Rich after finding out that the movie was filmed there. (Mind blown.)
+We took a few strolls around Biltmore. We rewatched Richie Rich after finding
+out that the movie was filmed there. (Mind blown.)
 
 <div class="photos">
 
@@ -82,7 +85,8 @@ We took a few strolls around Biltmore. We rewatched Richie Rich after finding ou
 
 </div>
 
-I am no longer terrified of my sister's cat (RE: [last year's trip](/adventures/north-carolina/)).
+I am no longer terrified of my sister's cat (RE:
+[last year's trip](/adventures/north-carolina/)).
 
 <div class="photos">
 

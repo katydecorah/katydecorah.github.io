@@ -16,11 +16,11 @@ const { data } = await octokit.request(
     owner,
     repo,
     pull_number: process.env.PULL_NUMBER,
-  }
+  },
 );
 
 const fileMatcher = new RegExp(
-  /^(.*)\/_posts\/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-(.*).md/
+  /^(.*)\/_posts\/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-(.*).md/,
 );
 
 const files = data

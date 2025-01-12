@@ -12,7 +12,8 @@ image: 2013-10-14-mount-baker-0.jpg
 
 ## Mount Baker
 
-This weekend I visited my friend Becky in Lake Placid. We woke up early on Saturday to hike Mount Baker.
+This weekend I visited my friend Becky in Lake Placid. We woke up early on
+Saturday to hike Mount Baker.
 
 ### Moody Pond
 
@@ -35,7 +36,8 @@ This weekend I visited my friend Becky in Lake Placid. We woke up early on Satur
 
 ### At The Top
 
-Amazing view! There were so many lady bugs at the top of the mountain that we were covered with them!
+Amazing view! There were so many lady bugs at the top of the mountain that we
+were covered with them!
 
 <div class="photos">
 
@@ -60,4 +62,5 @@ Sunday morning Becky and I did a lap of Mirror Lake.
 
 </div>
 
-Unfortunately, the pumpkin I carved over the weekend did not make it home in one piece.
+Unfortunately, the pumpkin I carved over the weekend did not make it home in one
+piece.

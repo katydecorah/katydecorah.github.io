@@ -5,7 +5,11 @@ tags:
 image: 2015-01-29-seasonal-posts-0.png
 ---
 
-After flipping through past posts, I realized that my lush green static map didn't match wintery posts. For example, [Christmas day hike](/adventures/christmas-hike/). It's winter, nothing is green. Everything is white and then gray and then cold and then sometimes sad. So I needed a map style to match winter (minus the sad).
+After flipping through past posts, I realized that my lush green static map
+didn't match wintery posts. For example,
+[Christmas day hike](/adventures/christmas-hike/). It's winter, nothing is
+green. Everything is white and then gray and then cold and then sometimes sad.
+So I needed a map style to match winter (minus the sad).
 
 <div class="photos">
 <img src="https://api.mapbox.com/styles/v1/{{site.mapid}}/static/-73.7440735,42.5726903,15/600x400?access_token={{site.mapbox-token}}" class="img-half" alt="Summer and spring map style">
@@ -13,17 +17,24 @@ After flipping through past posts, I realized that my lush green static map didn
 <img src="https://api.mapbox.com/styles/v1/{{site.mapid-winter}}/static/-73.7440735,42.5726903,15/600x400?access_token={{site.mapbox-token}}" class="img-half" alt="Winter map style">
 </div>
 
-Default style on the left, winter style on the right. ([Read more about my Jekyll-generated Mapbox static maps.](/code/static-mapbox-for-jekyll/))
+Default style on the left, winter style on the right.
+([Read more about my Jekyll-generated Mapbox static maps.](/code/static-mapbox-for-jekyll/))
 
-At first I created an in-post variable that could swap out my default map ID `{%raw%}{% if page.mapid %}{%endraw%}`, but that would need upkeep. I decided to evaluate the post's month and assign a map ID based on the season -- the post's month.
+At first I created an in-post variable that could swap out my default map ID
+`{%raw%}{% if page.mapid %}{%endraw%}`, but that would need upkeep. I decided to
+evaluate the post's month and assign a map ID based on the season -- the post's
+month.
 
-First, I needed to capture the post's month. (It seems like I can only grab this value as a string.)
+First, I needed to capture the post's month. (It seems like I can only grab this
+value as a string.)
 
 ```liquid
 {% raw %}{% capture month %}{{page.date | date: "%m"}}{% endcapture %}{% endraw %}
 ```
 
-Next, I evaluated the month -- December, January, February, and March will receive the winter map ID from my config, while other months will receive my default map ID.
+Next, I evaluated the month -- December, January, February, and March will
+receive the winter map ID from my config, while other months will receive my
+default map ID.
 
 ```liquid
 {% raw %}{% if month == "12" or month == "01" or month == "02" or month == "03" %}
@@ -33,6 +44,12 @@ Next, I evaluated the month -- December, January, February, and March will recei
 {% endif %}{% endraw %}
 ```
 
-I dropped this statement in my static map call and that was it! All my past winter month posts switched to my winter map ID. A fall map style may come in handy, but I'll stick with just two for right now. [See the full code.](https://github.com/katydecorah/katydecorah.github.io/blob/master/_includes/post-map-header.html)
+I dropped this statement in my static map call and that was it! All my past
+winter month posts switched to my winter map ID. A fall map style may come in
+handy, but I'll stick with just two for right now.
+[See the full code.](https://github.com/katydecorah/katydecorah.github.io/blob/master/_includes/post-map-header.html)
 
-By the way, for my map styles I'm using [Mapbox Outdoors](https://github.com/mapbox/mapbox-studio-outdoors.tm2) and [Winter Wonderland](https://github.com/mapbox/mapbox-studio-winter-wonderland.tm2) both with small tweaks to remove the labels.
+By the way, for my map styles I'm using
+[Mapbox Outdoors](https://github.com/mapbox/mapbox-studio-outdoors.tm2) and
+[Winter Wonderland](https://github.com/mapbox/mapbox-studio-winter-wonderland.tm2)
+both with small tweaks to remove the labels.

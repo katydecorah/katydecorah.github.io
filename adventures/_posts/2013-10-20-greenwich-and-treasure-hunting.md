@@ -11,7 +11,10 @@ locations:
 image: 2013-10-20-greenwich-and-treasure-hunting-0.jpg
 ---
 
-On Saturday, I woke up early and drove down to Greenwich, CT. A good friend of mine moved down there earlier this year with her husband. She showed me their new place and around town. We ordered sushi to-go and enjoyed it on the beach. It was a really great day.
+On Saturday, I woke up early and drove down to Greenwich, CT. A good friend of
+mine moved down there earlier this year with her husband. She showed me their
+new place and around town. We ordered sushi to-go and enjoyed it on the beach.
+It was a really great day.
 
 <div class="photos">
 
@@ -23,7 +26,8 @@ On Saturday, I woke up early and drove down to Greenwich, CT. A good friend of m
 
 ## East Arlington Antique Center Movie Theatre
 
-On Sunday, I joined my boyfriend's family to Vermont. We celebrated his sister's birthday with a delicious lunch and treasure hunting in antique stores!
+On Sunday, I joined my boyfriend's family to Vermont. We celebrated his sister's
+birthday with a delicious lunch and treasure hunting in antique stores!
 
 <div class="photos">
 

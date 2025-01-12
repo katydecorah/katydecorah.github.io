@@ -7,17 +7,25 @@ tags:
 
 {% include post/note.html content='This is a devlog I wrote at Mapbox that inspired my talk [Writing for everyone](/writing-for-everyone/).' %}
 
-&hellip;I thought I'd share some of my personal writing tips. Just a few things I picked up from teaching (synchronous), my instructional design days (asynchronous), and for-fun blog writing.
+&hellip;I thought I'd share some of my personal writing tips. Just a few things
+I picked up from teaching (synchronous), my instructional design days
+(asynchronous), and for-fun blog writing.
 
 ## Hey, dummy.
 
 ![]({{site.assets}}2014-10-31-how-i-write-0.gif)
 
-To reassure the reader, you might want to say, "It's easy!". Unfortunately, that can backfire. If your reader doesn't agree, then s/he will probably bail. I like to assume that everything is hard.
+To reassure the reader, you might want to say, "It's easy!". Unfortunately, that
+can backfire. If your reader doesn't agree, then s/he will probably bail. I like
+to assume that everything is hard.
 
-I recommend checking out Chris Coyier's [Words To Avoid in Educational Writing](http://css-tricks.com/words-avoid-educational-writing/) and Brad Frost's [Just](https://the-pastry-box-project.net/brad-frost/2014-january-28).
+I recommend checking out Chris Coyier's
+[Words To Avoid in Educational Writing](http://css-tricks.com/words-avoid-educational-writing/)
+and Brad Frost's
+[Just](https://the-pastry-box-project.net/brad-frost/2014-january-28).
 
-It all depends on context, but here's a quick hit list of words you might want to avoid:
+It all depends on context, but here's a quick hit list of words you might want
+to avoid:
 
 - just
 - easy or simple
@@ -25,7 +33,9 @@ It all depends on context, but here's a quick hit list of words you might want t
 
 ## Jargon meet Acronym. Acronym meet Jargon.
 
-I like to introduce jargon or acronyms like I would introduce two people. Start with full names and explain what they do. Then after that they'll start using first names, have inside jokes, and start hanging out without you on Instagram.
+I like to introduce jargon or acronyms like I would introduce two people. Start
+with full names and explain what they do. Then after that they'll start using
+first names, have inside jokes, and start hanging out without you on Instagram.
 
 ## Who did what in where?
 
@@ -43,7 +53,8 @@ If the user needs to do something, tell them!
 
 ## Easy on the scrolls
 
-I'm an offender of scrolling on a page just to get to the **good** parts. I like to make it easy for others to do the same.
+I'm an offender of scrolling on a page just to get to the **good** parts. I like
+to make it easy for others to do the same.
 
 Here are a few tips:
 
@@ -52,7 +63,8 @@ Here are a few tips:
 
 ## Reorganize
 
-I find that fat paragraphs can be exhausting. If possible, I'll use a table or list to make it more digestible.
+I find that fat paragraphs can be exhausting. If possible, I'll use a table or
+list to make it more digestible.
 
 <table>
 		<thead>
@@ -82,4 +94,7 @@ I find that fat paragraphs can be exhausting. If possible, I'll use a table or l
 
 ## Keep it plain
 
-I keep a dictionary with me almost every time I read a book. Because big words. When writing a tutorial, I try to avoid words that might make a reader reach for the dictionary. I don't want to overload the reader or make him/her glaze over. Instead, I strive to write in [plain language](http://www.plainlanguage.gov/).
+I keep a dictionary with me almost every time I read a book. Because big words.
+When writing a tutorial, I try to avoid words that might make a reader reach for
+the dictionary. I don't want to overload the reader or make him/her glaze over.
+Instead, I strive to write in [plain language](http://www.plainlanguage.gov/).

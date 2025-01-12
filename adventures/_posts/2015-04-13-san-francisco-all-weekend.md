@@ -11,7 +11,9 @@ coordinates:
   - -122.0316793,36.9794772
 ---
 
-I worked out of the SF Mapbox office last week and then hung around for the weekend. Adventure was had (along with cocktails, sunburns, and getting 10,000 steps).
+I worked out of the SF Mapbox office last week and then hung around for the
+weekend. Adventure was had (along with cocktails, sunburns, and getting 10,000
+steps).
 
 ## Año Nuevo beach
 

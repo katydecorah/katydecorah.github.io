@@ -10,7 +10,8 @@ image: 2014-09-01-kaaterskill-falls-0.jpg
 miles: 1.4
 ---
 
-This weekend we visited our families, ate a ton a food, and hiked to Kaaterskill Falls in the Catskills.
+This weekend we visited our families, ate a ton a food, and hiked to Kaaterskill
+Falls in the Catskills.
 
 <div class="photos">
 

@@ -37,4 +37,5 @@ coordinates:
 
 </div>
 
-That's our [Adirondack Balloon Festival](http://www.adirondackballoonfest.org/) ritual. It doesn't seem to get old.
+That's our [Adirondack Balloon Festival](http://www.adirondackballoonfest.org/)
+ritual. It doesn't seem to get old.

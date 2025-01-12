@@ -36,7 +36,9 @@ Beautiful morning.
 
 ## Post-hike treat
 
-Later that day we tried to get a [cronut from The Crispy Cannoli](http://alloveralbany.com/archive/2013/08/26/trying-the-apple-cider-croissant-donut-at-the-cris), but they were all out. I happily settled on a cannoli.
+Later that day we tried to get a
+[cronut from The Crispy Cannoli](http://alloveralbany.com/archive/2013/08/26/trying-the-apple-cider-croissant-donut-at-the-cris),
+but they were all out. I happily settled on a cannoli.
 
 <div class="photos">
 {% include img.html src="2013-09-05-thacher-park-in-the-morning-18.jpg" class="pop-out" alt="Canoli from Crispy Canoli" width="1600" height="2133" %}

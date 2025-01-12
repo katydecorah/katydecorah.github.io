@@ -8,7 +8,8 @@ coordinates:
   - -73.8894491,42.6086815
 ---
 
-This weekend we explored [Five Rivers](http://www.friendsoffiverivers.org/) in Delmar.
+This weekend we explored [Five Rivers](http://www.friendsoffiverivers.org/) in
+Delmar.
 
 <div class="photos">
 

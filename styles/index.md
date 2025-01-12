@@ -44,14 +44,16 @@ Example of some inline code: `var`, `const`, `let`.
 MailApp.sendEmail(
   "hello@email.com", // recipient
   "To my subscribers", // subject
-  "Dear subscriber,\nI love you.\nYours,\nKaty" // body
+  "Dear subscriber,\nI love you.\nYours,\nKaty", // body
 );
 ```
 
 ```yaml
 - length: em
   type: font-relative
-  description: This unit is the calculated font-size of the element. If used on the font-size property itself, it is the inherited font-size of the element.
+  description:
+    This unit is the calculated font-size of the element. If used on the
+    font-size property itself, it is the inherited font-size of the element.
 ```
 
 ```liquid
@@ -97,15 +99,22 @@ MailApp.sendEmail(
 
 ---
 
-**Duis aute irure dolor** in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Duis aute irure dolor** in reprehenderit in voluptate velit esse cillum dolore
+eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+in culpa qui officia deserunt mollit anim id est laborum.
 
 - Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 - Aliquam tincidunt mauris eu risus.
 - Ut enim ad minim veniam, quis nostrud exercitation.
 
-_Lorem ipsum dolor sit amet_, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+_Lorem ipsum dolor sit amet_, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+dolore eu fugiat nulla pariatur.
 
-Excepteur [sint occaecat cupidatat](../) non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Excepteur [sint occaecat cupidatat](../) non proident, sunt in culpa qui officia
+deserunt mollit anim id est laborum.
 
 ---
 

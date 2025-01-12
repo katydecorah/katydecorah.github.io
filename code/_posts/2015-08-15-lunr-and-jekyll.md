@@ -6,15 +6,27 @@ tags:
   - JavaScript
 ---
 
-I recently spent some time hooking up a Jekyll site with [lunr.js](http://lunrjs.com/). Lunr.js is a full text client-side search engine and it works rather well. It took me a few tries to understand how lunr works and then translate that into a Jekyll site ([I had some help from this post](http://matthewdaly.co.uk/blog/2015/04/18/how-i-added-search-to-my-site-with-lunr-dot-js/)) so here's a walk through of I how got it all connected.
+I recently spent some time hooking up a Jekyll site with
+[lunr.js](http://lunrjs.com/). Lunr.js is a full text client-side search engine
+and it works rather well. It took me a few tries to understand how lunr works
+and then translate that into a Jekyll site
+([I had some help from this post](http://matthewdaly.co.uk/blog/2015/04/18/how-i-added-search-to-my-site-with-lunr-dot-js/))
+so here's a walk through of I how got it all connected.
 
 I also built a live demo with my site: [{{site.url}}/search](/search/)
 
 ## Tell lunr all about your fields
 
-I started off by creating a file called, [lunr-feed.js](https://github.com/katydecorah/katydecorah.github.io/blob/master/assets/lunr-feed.js) and adding front matter since I'll be using logic to loop through my posts.
+I started off by creating a file called,
+[lunr-feed.js](https://github.com/katydecorah/katydecorah.github.io/blob/master/assets/lunr-feed.js)
+and adding front matter since I'll be using logic to loop through my posts.
 
-Next, I declared fields to describe my data (and by data I mean my posts). I can customize the field names, but it's important to keep the `id` field (this acts like a unique identifier). I can also add a boost to each field. A boost tells lunr that I want it to favor this field _that_ much more in the context of searching. In my case, I wanted lunr to focus on the content of my posts, so I applied a boost to that field.
+Next, I declared fields to describe my data (and by data I mean my posts). I can
+customize the field names, but it's important to keep the `id` field (this acts
+like a unique identifier). I can also add a boost to each field. A boost tells
+lunr that I want it to favor this field _that_ much more in the context of
+searching. In my case, I wanted lunr to focus on the content of my posts, so I
+applied a boost to that field.
 
 ```js
 var index = lunr(function () {
@@ -28,7 +40,9 @@ var index = lunr(function () {
 
 ## Now give lunr your data
 
-Next, I gave lunr my data. This is the data that I want lunr to search and it corresponds with the fields that I defined above. And to keep my data straight, I increment a `count` to build the `id` as my unique identifier for each post.
+Next, I gave lunr my data. This is the data that I want lunr to search and it
+corresponds with the fields that I defined above. And to keep my data straight,
+I increment a `count` to build the `id` as my unique identifier for each post.
 
 ```js
 {% raw %}{% assign count = 0 %}
@@ -44,11 +58,15 @@ Next, I gave lunr my data. This is the data that I want lunr to search and it co
 {% endfor %}{% endraw %}
 ```
 
-By adding my fields and data, lunr passes it through its pipeline, processes the data, and builds an object that I'll query later.
+By adding my fields and data, lunr passes it through its pipeline, processes the
+data, and builds an object that I'll query later.
 
 ## Build a data reference for lunr
 
-To complement the data that I gave to lunr, I created an object that has basic information about each post. This is so I can reference it against lunr's search results because lunr returns the reference `id` as a search result and _not_ all the data I gave it.
+To complement the data that I gave to lunr, I created an object that has basic
+information about each post. This is so I can reference it against lunr's search
+results because lunr returns the reference `id` as a search result and _not_ all
+the data I gave it.
 
 ```js
 {% raw %}var store = [{% for post in site.posts %}{
@@ -64,7 +82,10 @@ To complement the data that I gave to lunr, I created an object that has basic i
 
 ## Query lunr and the match results
 
-Finally, it's time to query lunr aka query that `index` object lunr created from my fields and data. Lunr returns `id` numbers as search results (in order of most relevant) and then I use that `id` as an index number for my `store` object so I can output details about each search result.
+Finally, it's time to query lunr aka query that `index` object lunr created from
+my fields and data. Lunr returns `id` numbers as search results (in order of
+most relevant) and then I use that `id` as an index number for my `store` object
+so I can output details about each search result.
 
 ```js
 $(document).ready(function () {
@@ -98,9 +119,12 @@ $(document).ready(function () {
 
 ## Now search
 
-And that's how I brought lunr.js to Jekyll. You can add some fun stuff, like the number of search results or even play around with lunr's options to really customize the search.
+And that's how I brought lunr.js to Jekyll. You can add some fun stuff, like the
+number of search results or even play around with lunr's options to really
+customize the search.
 
 - Documentation: [lunr.js](http://lunrjs.com/)
 - Demo: [{{site.url}}/search](/search/)
-- Code: [lunr-feed.js](https://github.com/katydecorah/katydecorah.github.io/blob/gh-pages/assets/lunr-feed.js)
+- Code:
+  [lunr-feed.js](https://github.com/katydecorah/katydecorah.github.io/blob/gh-pages/assets/lunr-feed.js)
 - Live file: [lunr-feed.js](/assets/lunr-feed.js)

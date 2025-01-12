@@ -19,7 +19,8 @@ locations:
   - Kennebunkport
 ---
 
-We took a three-night drive through New England with help from [Hotel Tonight](https://www.hoteltonight.com/).
+We took a three-night drive through New England with help from
+[Hotel Tonight](https://www.hoteltonight.com/).
 
 ## Burlington, VT
 

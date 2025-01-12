@@ -9,7 +9,8 @@ coordinates:
   - -74.0125265,42.6512778
 ---
 
-We drove out for the day for some exploring. I scored this neat shot of Albany through a coin-operated binocular.
+We drove out for the day for some exploring. I scored this neat shot of Albany
+through a coin-operated binocular.
 
 <div class="photos">
 

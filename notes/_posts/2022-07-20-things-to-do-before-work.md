@@ -3,7 +3,8 @@ title: Things to do before work
 image: 2022-07-20-things-to-do-before-work.jpg
 ---
 
-Some of my favorite work days start with an activity that puts me in a good mood. Here are some vetted suggestions.
+Some of my favorite work days start with an activity that puts me in a good
+mood. Here are some vetted suggestions.
 
 - Walk around your neighborhood while listening to an audiobook
 - Exercise with friends in a garage

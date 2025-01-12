@@ -8,7 +8,8 @@ coordinates:
 image: 2013-09-28-mount-greylock-0.jpg
 ---
 
-We woke up early and drove out to Mount Greylock in Mass. It was a gorgeous morning!
+We woke up early and drove out to Mount Greylock in Mass. It was a gorgeous
+morning!
 
 <div class="photos">
 

@@ -5,19 +5,35 @@ tags:
   - GitHub
 ---
 
-I added a [now reading]({{site.url}}#now-reading) section to my site to share the book I'm reading. It's powered by GitHub Actions and the pressure that comes when all my library loans become available on the same day.
+I added a [now reading]({{site.url}}#now-reading) section to my site to share
+the book I'm reading. It's powered by GitHub Actions and the pressure that comes
+when all my library loans become available on the same day.
 
-(I wrote about this idea last year when I built an [e-paper display to show the book I'm reading](/code/now-reading/).)
+(I wrote about this idea last year when I built an
+[e-paper display to show the book I'm reading](/code/now-reading/).)
 
 ## New outputs in read-action
 
-To make this feature work, I updated [read-action](https://github.com/katydecorah/read-action) (my GitHub action that keeps track of my books in a JSON file) to add an [output parameter](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter). The `nowReading` output parameter has the metadata of the book I'm reading.
+To make this feature work, I updated
+[read-action](https://github.com/katydecorah/read-action) (my GitHub action that
+keeps track of my books in a JSON file) to add an
+[output parameter](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter).
+The `nowReading` output parameter has the metadata of the book I'm reading.
 
-Now, every time I use read-action to add a book I've started, my workflow can access a parameter containing the data to display that book on my site. But, I still need to get that data from a private repository to my public repository.
+Now, every time I use read-action to add a book I've started, my workflow can
+access a parameter containing the data to display that book on my site. But, I
+still need to get that data from a private repository to my public repository.
 
 ## Pass data from repository to repository
 
-Since I run read-action in a private repository, I used a [repository dispatch](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch) to pass the book data to my public repository. I did this by updating the workflow in my private repository to add a step after read-action. This new step checks if read-action has the output parameter `nowReading`. If it does, then it will use [repository-dispatch](https://github.com/peter-evans/repository-dispatch) to send the contents of `nowReading` to my public repository as an event.
+Since I run read-action in a private repository, I used a
+[repository dispatch](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch)
+to pass the book data to my public repository. I did this by updating the
+workflow in my private repository to add a step after read-action. This new step
+checks if read-action has the output parameter `nowReading`. If it does, then it
+will use
+[repository-dispatch](https://github.com/peter-evans/repository-dispatch) to
+send the contents of `nowReading` to my public repository as an event.
 
 {% raw %}
 
@@ -28,12 +44,15 @@ Since I run read-action in a private repository, I used a [repository dispatch](
   with:
     repository: katydecorah/katydecorah.github.io
     event-type: now-reading
-    client-payload: '{"github": ${{ toJson(steps.read_action.outputs.nowReading) }}}'
+    client-payload:
+      '{"github": ${{ toJson(steps.read_action.outputs.nowReading) }}}'
 ```
 
 {% endraw %}
 
-In my public repository, I created a workflow that waits to receive the now-reading repository dispatch, and once triggered, it will write the contents to `_data/now-reading.json` and commit the file.
+In my public repository, I created a workflow that waits to receive the
+now-reading repository dispatch, and once triggered, it will write the contents
+to `_data/now-reading.json` and commit the file.
 
 {% raw %}
 
@@ -63,7 +82,8 @@ jobs:
 
 ## Markup the metadata
 
-As soon as the workflow commits the file, GitHub pages will build the site to display the book. My site uses the following markup (more or less):
+As soon as the workflow commits the file, GitHub pages will build the site to
+display the book. My site uses the following markup (more or less):
 
 {% raw %}
 
@@ -82,4 +102,6 @@ As soon as the workflow commits the file, GitHub pages will build the site to di
 
 {% assign nowReading = site.data['now-reading'] %}
 
-Or, I can tell you right here, that I'm reading &ldquo;{{nowReading.title}}&rdquo; by {{nowReading.authors | join: ", "}}. (This sentence will update once I start a new book.)
+Or, I can tell you right here, that I'm reading
+&ldquo;{{nowReading.title}}&rdquo; by {{nowReading.authors | join: ", "}}. (This
+sentence will update once I start a new book.)

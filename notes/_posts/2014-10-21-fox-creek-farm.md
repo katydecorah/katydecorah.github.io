@@ -3,7 +3,8 @@ title: Half Share
 image: 2014-10-21-fox-creek-farm-0.jpg
 ---
 
-We enjoyed 20 weeks of the [Fox Creek Farm CSA](http://www.foxcreekfarmcsa.com/).
+We enjoyed 20 weeks of the
+[Fox Creek Farm CSA](http://www.foxcreekfarmcsa.com/).
 
 <div class="photos">
 
@@ -45,4 +46,5 @@ We enjoyed 20 weeks of the [Fox Creek Farm CSA](http://www.foxcreekfarmcsa.com/)
 
 </div>
 
-We missed week 17 and week 19 due to [adventures](/adventures/rhode-island/) and busy schedules.
+We missed week 17 and week 19 due to [adventures](/adventures/rhode-island/) and
+busy schedules.

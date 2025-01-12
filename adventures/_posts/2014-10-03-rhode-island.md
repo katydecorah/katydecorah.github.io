@@ -8,9 +8,11 @@ coordinates:
 zoom: 9
 ---
 
-We spent last weekend in Newport and the start of the week in Providence, Rhode Island.
+We spent last weekend in Newport and the start of the week in Providence, Rhode
+Island.
 
-Lobster rolls, ocean air, zoo animals, donuts, s'mores everything, and macaroons. (Macaroons not pictured as they were gobbled.)
+Lobster rolls, ocean air, zoo animals, donuts, s'mores everything, and
+macaroons. (Macaroons not pictured as they were gobbled.)
 
 <div class="photos">
 

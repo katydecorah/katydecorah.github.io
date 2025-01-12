@@ -8,27 +8,40 @@ image: 2014-06-05-border-spinners.png
 codepen: tbjqx
 ---
 
-A few days ago, I wanted to create a single element spinner. (Just for funsies.) After several minutes of tinkering, I whipped up _Twinner Spinner_.
+A few days ago, I wanted to create a single element spinner. (Just for funsies.)
+After several minutes of tinkering, I whipped up _Twinner Spinner_.
 
 <p data-height="300" data-theme-id="97" data-slug-hash="tbjqx" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/tbjqx/'>Twinner Spinner</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ## Meet the elements
 
-The main element, `.loader`, acts as a container for the spinner. The real magic happens in its pseudo elements. I did this because once you animate a main element it can be tricky to control its pseudo elements. I also used the main element to dictate the size of the project since I'm using ems.
+The main element, `.loader`, acts as a container for the spinner. The real magic
+happens in its pseudo elements. I did this because once you animate a main
+element it can be tricky to control its pseudo elements. I also used the main
+element to dictate the size of the project since I'm using ems.
 
 ## Pseudo what
 
-I styled the `:before` and `:after` similarly; each element is an `1em` circle with a transparent border. But, one element received `left` and `border-left-color` values, while the other received `right` and `border-right-color` values.
+I styled the `:before` and `:after` similarly; each element is an `1em` circle
+with a transparent border. But, one element received `left` and
+`border-left-color` values, while the other received `right` and
+`border-right-color` values.
 
-My use of the border properties may seem redundant, but the elements need a border all around to keep the border from pinching in.
+My use of the border properties may seem redundant, but the elements need a
+border all around to keep the border from pinching in.
 
 ## Animation
 
-Once I got the elements styled and in place, I created an animation to rotate the elements. I found that by adding an `animation-delay` to one of the elements, I could give the spinner a little more personality, especially paired with an ease `animation-timing-function`.
+Once I got the elements styled and in place, I created an animation to rotate
+the elements. I found that by adding an `animation-delay` to one of the
+elements, I could give the spinner a little more personality, especially paired
+with an ease `animation-timing-function`.
 
 ## Variable-ing Up
 
-Even though I had everything looking pretty darn sweet, I put variables in where I could. By doing so, I can now control the speed, size, and colors of the spinner from the top of my Sass.
+Even though I had everything looking pretty darn sweet, I put variables in where
+I could. By doing so, I can now control the speed, size, and colors of the
+spinner from the top of my Sass.
 
 Naturally, I created a few spin-off spinners.
 
@@ -44,6 +57,8 @@ Naturally, I created a few spin-off spinners.
 </div>
 </div>
 
-I absolutely love a scalable project with smart variables. It really helps push the boundaries on the simplest of properties.
+I absolutely love a scalable project with smart variables. It really helps push
+the boundaries on the simplest of properties.
 
-p.s. the color palette I used for all spinners is from [Flat UI Colors](http://flatuicolors.com/).
+p.s. the color palette I used for all spinners is from
+[Flat UI Colors](http://flatuicolors.com/).

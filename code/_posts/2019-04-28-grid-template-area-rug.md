@@ -11,7 +11,12 @@ tags:
   - Google Sheets
 ---
 
-Inspired by a recent [tile](https://www.instagram.com/p/BTO9mu0gQm6/) [search](https://www.instagram.com/p/BV7hx9blq19/), I set out to create a tiled floor pattern with CSS grid. Thanks to helpful examples on [Grid by Example](https://gridbyexample.com/examples/example11/) by [Rachel Andrew](https://rachelandrew.co.uk/), I tried [grid-template-areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas).
+Inspired by a recent [tile](https://www.instagram.com/p/BTO9mu0gQm6/)
+[search](https://www.instagram.com/p/BV7hx9blq19/), I set out to create a tiled
+floor pattern with CSS grid. Thanks to helpful examples on
+[Grid by Example](https://gridbyexample.com/examples/example11/) by
+[Rachel Andrew](https://rachelandrew.co.uk/), I tried
+[grid-template-areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas).
 
 <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="html,result" data-user="katydecorah" data-slug-hash="52ce7749ea720096a510e91790fe3c1f" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="grid-template-area-rug">
   <span>See the Pen <a href="https://codepen.io/katydecorah/pen/52ce7749ea720096a510e91790fe3c1f/">
@@ -19,41 +24,56 @@ Inspired by a recent [tile](https://www.instagram.com/p/BTO9mu0gQm6/) [search](h
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-With `grid-template-areas` you can assign a `grid-area` to elements you want to manipulate in the grid. Then you call the `grid-area` in the `grid-template-areas` in the exact order you want the elements to appear.
+With `grid-template-areas` you can assign a `grid-area` to elements you want to
+manipulate in the grid. Then you call the `grid-area` in the
+`grid-template-areas` in the exact order you want the elements to appear.
 
 ## Draw the pattern
 
-I decided to see how far I could push the boundaries of `grid-areas`. Taking tool inspiration from [Heroes Queue](/code/heroes-queue/), I created a 57 x 57 grid in Google Sheets by resizing the rows and columns.
+I decided to see how far I could push the boundaries of `grid-areas`. Taking
+tool inspiration from [Heroes Queue](/code/heroes-queue/), I created a 57 x 57
+grid in Google Sheets by resizing the rows and columns.
 
-My ink was the formula `= "r" & ROW() & "c" & COLUMN()` which assigned a unique value to each cell. I also used a conditional formatting rule to turn any cell that began with `r` to black. To denote whitespace, I entered a period `.` which came in handy later.
+My ink was the formula `= "r" & ROW() & "c" & COLUMN()` which assigned a unique
+value to each cell. I also used a conditional formatting rule to turn any cell
+that began with `r` to black. To denote whitespace, I entered a period `.` which
+came in handy later.
 
 <div class="photos">
 {% include img.html src="2019-04-29-grid-template-area-rug.png" alt="Google spreadsheet pattern" width="1600" height="1093" %}
 </div>
 
-You can take a look at the [tile spreadsheet](https://docs.google.com/spreadsheets/d/1NsGr-rOQhd-XCAauMp6gq_YofqHrwaizk9f8z6AO4k8/edit?usp=sharing) I used for this project.
+You can take a look at the
+[tile spreadsheet](https://docs.google.com/spreadsheets/d/1NsGr-rOQhd-XCAauMp6gq_YofqHrwaizk9f8z6AO4k8/edit?usp=sharing)
+I used for this project.
 
 ## Translate the pattern
 
-Next, I created a script (`Tools` > `Script editor`) to generate the code in Google Sheets. The script:
+Next, I created a script (`Tools` > `Script editor`) to generate the code in
+Google Sheets. The script:
 
 1. Reads all rows and columns in my active sheet.
-2. Breaks the rows into chunks (multiples of 14) since I found 14 to be the limit for `grid-template-areas`.
+2. Breaks the rows into chunks (multiples of 14) since I found 14 to be the
+   limit for `grid-template-areas`.
 3. Generates CSS.
 4. Generates Haml.
 5. Displays the generated code in a sidebar in Google Sheets.
 
-When I ran the script from the Script editor, the sidebar appears in the sheet with the code that I copied and pasted.
+When I ran the script from the Script editor, the sidebar appears in the sheet
+with the code that I copied and pasted.
 
 <div class="photos">
 {% include img.html src="2019-04-27-grid-template-area-rug-3.png" alt="generated code in a sidebar in Google Sheets" width="1600" height="1093" %}
 </div>
 
-Since there isn't a straightforward way to share the script and I'm not really up for making this into an official Sheets add-on, I added the script to the JavaScript window of the CodePen.
+Since there isn't a straightforward way to share the script and I'm not really
+up for making this into an official Sheets add-on, I added the script to the
+JavaScript window of the CodePen.
 
 ## Closer look at code
 
-The compiled HTML includes a div for each tile and each tile is assigned a unique `grid-area` using the row and column values from the spreadsheet.
+The compiled HTML includes a div for each tile and each tile is assigned a
+unique `grid-area` using the row and column values from the spreadsheet.
 
 ```html
 <div class="tiles">
@@ -64,7 +84,10 @@ The compiled HTML includes a div for each tile and each tile is assigned a uniqu
 </div>
 ```
 
-Then using `grid-template-areas`, I called each `.tile` by its `grid-area` name exactly where I wanted it to appear in each row. Remember that period `.` for the whitespace? In `grid-template-areas` a period denotes an empty track which kept my whitespace intact.
+Then using `grid-template-areas`, I called each `.tile` by its `grid-area` name
+exactly where I wanted it to appear in each row. Remember that period `.` for
+the whitespace? In `grid-template-areas` a period denotes an empty track which
+kept my whitespace intact.
 
 ```css
 .tiles-0 {
@@ -75,7 +98,8 @@ Then using `grid-template-areas`, I called each `.tile` by its `grid-area` name 
 }
 ```
 
-The CSS above is the first three rows of the floor. You can see the pattern of alternating whitespace `.` and tiles:
+The CSS above is the first three rows of the floor. You can see the pattern of
+alternating whitespace `.` and tiles:
 
 <div class="photos">
 {% include img.html src="2019-04-27-grid-template-area-rug-2.png" alt="First three rows of the Google spreadsheet" width="1227" height="93" %}
@@ -83,9 +107,11 @@ The CSS above is the first three rows of the floor. You can see the pattern of a
 
 ## Style the grid
 
-Finally, I used CSS to add background color to `.tile` which turned all the tiles (except for the whitespace) to the color of my choosing.
+Finally, I used CSS to add background color to `.tile` which turned all the
+tiles (except for the whitespace) to the color of my choosing.
 
-This project was a silly project, but I loved learning more about CSS grid and, unexpectedly, learning how to create sidebars in Google Sheets.
+This project was a silly project, but I loved learning more about CSS grid and,
+unexpectedly, learning how to create sidebars in Google Sheets.
 
 ## More patterns
 

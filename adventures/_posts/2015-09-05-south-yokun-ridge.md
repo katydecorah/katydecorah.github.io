@@ -9,7 +9,8 @@ coordinates:
 miles: 1.6
 ---
 
-Today we visited Olivia's Overlook and then hiked the South Yokun Ridge in Stockbridge, Massachusetts.
+Today we visited Olivia's Overlook and then hiked the South Yokun Ridge in
+Stockbridge, Massachusetts.
 
 <div class="photos">
 {% include img.html src="2015-09-05-south-yokun-ridge-0.jpg" class="img-thirds" alt="South Yokun Ridge" width="1600" height="2133" %}{% include img.html src="2015-09-05-south-yokun-ridge-1.jpg" class="img-thirds" alt="South Yokun Ridge" %}{% include img.html src="2015-09-05-south-yokun-ridge-2.jpg" class="img-thirds" alt="South Yokun Ridge" %}

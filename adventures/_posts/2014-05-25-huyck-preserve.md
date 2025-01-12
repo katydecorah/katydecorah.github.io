@@ -11,7 +11,8 @@ recommended: true
 image: 2014-05-25-huyck-preserve-0.jpg
 ---
 
-We took a ride out to Rensselaerville and explored the Huyck Preserve again. We took the trail around Lake Myosotis.
+We took a ride out to Rensselaerville and explored the Huyck Preserve again. We
+took the trail around Lake Myosotis.
 
 <div class="photos">
 
@@ -29,7 +30,8 @@ We took a ride out to Rensselaerville and explored the Huyck Preserve again. We 
 
 </div>
 
-On the way home, we picked up a jalope&ntilde;o and a cubanelle pepper plant for the garden.
+On the way home, we picked up a jalope&ntilde;o and a cubanelle pepper plant for
+the garden.
 
 <div class="photos">
 

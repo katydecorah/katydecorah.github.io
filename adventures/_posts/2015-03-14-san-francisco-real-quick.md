@@ -7,7 +7,8 @@ coordinates:
   - -122.4333534,37.7777447
 ---
 
-I was in Burlingame and San Francisco this past week for FOSS4G NA. Slides and video to come, but for now:
+I was in Burlingame and San Francisco this past week for FOSS4G NA. Slides and
+video to come, but for now:
 
 <div class="photos">
 

@@ -13,9 +13,17 @@ image: 2013-09-21-adirondack-balloon-festival-0.jpg
 
 ## Balloon Festival
 
-Friday night I drove to my folks house. The next morning, Mom and I woke up at 4 am. We drove to Glens Falls to take the 5:10 bus to the Adirondack Balloon Festival for the 100 balloon launch. We walked around the still dark airport runway while people began accumulating. We purchased a duo of coffee and bagels and stood around until launch time at 6:30. It was a pleasant morning, 55 degrees.
+Friday night I drove to my folks house. The next morning, Mom and I woke up at 4
+am. We drove to Glens Falls to take the 5:10 bus to the Adirondack Balloon
+Festival for the 100 balloon launch. We walked around the still dark airport
+runway while people began accumulating. We purchased a duo of coffee and bagels
+and stood around until launch time at 6:30. It was a pleasant morning, 55
+degrees.
 
-Once the sun came up, the wind picked up. Crews unfolded balloons and brought them to life, but the wind won. The wind tossed the balloons around like rag dolls making the crowd gasp. That was it. No balloons to launch. Everyone was so tired and so disappointed.
+Once the sun came up, the wind picked up. Crews unfolded balloons and brought
+them to life, but the wind won. The wind tossed the balloons around like rag
+dolls making the crowd gasp. That was it. No balloons to launch. Everyone was so
+tired and so disappointed.
 
 <div class="photos">
 
@@ -31,9 +39,12 @@ Once the sun came up, the wind picked up. Crews unfolded balloons and brought th
 
 ## Coldbrook Preserve
 
-We got back into Glens Falls around 9 am and stopped for breakfast at The Peppermill. After mom and I rested a bit, we decided to take advantage of the now sunny Saturday.
+We got back into Glens Falls around 9 am and stopped for breakfast at The
+Peppermill. After mom and I rested a bit, we decided to take advantage of the
+now sunny Saturday.
 
-We drove out to the Coldbrook Preserve in Wilton. The preserve has a few pleasant trails through forest and marsh. I would definitely go back.
+We drove out to the Coldbrook Preserve in Wilton. The preserve has a few
+pleasant trails through forest and marsh. I would definitely go back.
 
 <div class="photos">
 
@@ -65,4 +76,5 @@ Stump vision.
 
 </div>
 
-Despite the disappointment of the canceled balloon launch, I had a really great day with my wonderful mom.
+Despite the disappointment of the canceled balloon launch, I had a really great
+day with my wonderful mom.

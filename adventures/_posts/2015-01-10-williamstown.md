@@ -7,7 +7,8 @@ coordinates:
 image: 2015-01-10-williamstown-0.jpg
 ---
 
-Or, how we beat cabin fever by fleeing cold New York for cold Massachusetts for one night.
+Or, how we beat cabin fever by fleeing cold New York for cold Massachusetts for
+one night.
 
 <div class="photos">
 

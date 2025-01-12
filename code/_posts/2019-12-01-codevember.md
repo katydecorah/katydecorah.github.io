@@ -6,7 +6,8 @@ tags:
 pen: eYYyvde
 ---
 
-Last month I participated in [Codevember](http://codevember.xyz/), which is a challenge to code every day in November.
+Last month I participated in [Codevember](http://codevember.xyz/), which is a
+challenge to code every day in November.
 
 <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="result" data-user="katydecorah" data-slug-hash="eYYyvde" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2019 Codevember">
   <span>See the Pen <a href="https://codepen.io/katydecorah/pen/eYYyvde">
@@ -16,7 +17,9 @@ Last month I participated in [Codevember](http://codevember.xyz/), which is a ch
 
 ## Set up
 
-Before I started the challenge, I knew that I wanted to build a collection. To keep my collection consistent, I created a border CodePen that I referenced in each daily project:
+Before I started the challenge, I knew that I wanted to build a collection. To
+keep my collection consistent, I created a border CodePen that I referenced in
+each daily project:
 
 <p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="css,result" data-user="katydecorah" data-slug-hash="oNNpBwo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2019 Codevember - border">
   <span>See the Pen <a href="https://codepen.io/katydecorah/pen/oNNpBwo">
@@ -31,13 +34,15 @@ To keep myself challenged, I also decided to stay strict to:
 - a color scheme `currentColor` and white.
 - a single div.
 
-Using `currentColor` afforded me flexibility in changing the color scheme, especially in adding a color picker to the first CodePen.
+Using `currentColor` afforded me flexibility in changing the color scheme,
+especially in adding a color picker to the first CodePen.
 
 <div class="photos">
 {% include video.html src="2019-12-01-codevember.mp4" title="" %}
 </div>
 
-I found that in Chrome you need to trigger a repaint when switching currentColor on `background` and I was able to do so with:
+I found that in Chrome you need to trigger a repaint when switching currentColor
+on `background` and I was able to do so with:
 
 ```css
 div,
@@ -49,8 +54,13 @@ div::after {
 }
 ```
 
-The code looks inelegant, but was the best way I trigger a repaint without affecting the elements.
+The code looks inelegant, but was the best way I trigger a repaint without
+affecting the elements.
 
 ## Too much code
 
-I'm glad I tried out Codevember, but I think this will be my first and last. Coding every day for a month is too much code. I also didn't have enough free time to visit projects made by other participants, which didn't make me feel as connected to the spirit of the challenge. I'm looking forward to next year's Codevember, where I'll be cheering from the sidelines.
+I'm glad I tried out Codevember, but I think this will be my first and last.
+Coding every day for a month is too much code. I also didn't have enough free
+time to visit projects made by other participants, which didn't make me feel as
+connected to the spirit of the challenge. I'm looking forward to next year's
+Codevember, where I'll be cheering from the sidelines.

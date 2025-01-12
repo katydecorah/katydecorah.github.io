@@ -9,7 +9,9 @@ coordinates:
   - -73.9045582,42.7519784
 ---
 
-We crossed [trail #9](http://www.albanypinebush.org/recreation-center/trails-maps-and-conditions) of the Albany Pine Bush Preserve off the list :ok_hand:.
+We crossed
+[trail #9](http://www.albanypinebush.org/recreation-center/trails-maps-and-conditions)
+of the Albany Pine Bush Preserve off the list :ok_hand:.
 
 <div class="photos">
 {% include img.html src="2015-08-23-kings-highway-barrens-1.jpg" alt="Albany Pine Bush trail #9" width="1600" height="1200" %}

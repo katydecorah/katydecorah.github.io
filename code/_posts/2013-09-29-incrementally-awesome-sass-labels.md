@@ -75,11 +75,16 @@ css: |
   }
 ---
 
-For this site I wanted my categories to be color coded, but I didn't want to put a lot of effort into managing it. Instead I spent a little effort into making sure I didn't have to manage it.
+For this site I wanted my categories to be color coded, but I didn't want to put
+a lot of effort into managing it. Instead I spent a little effort into making
+sure I didn't have to manage it.
 
 ## The set-up
 
-Where I want a category to be color coded, I used the class of 'label.' While not semantic, it could allow for flexibility in the future. I'm also a Bootstrap fan, so it was a go-to move. This class is intended to be used on inline elements such as spans or anchor tags.
+Where I want a category to be color coded, I used the class of 'label.' While
+not semantic, it could allow for flexibility in the future. I'm also a Bootstrap
+fan, so it was a go-to move. This class is intended to be used on inline
+elements such as spans or anchor tags.
 
 Sample: <span class="label">label</span>
 
@@ -93,7 +98,11 @@ Next I created a Sass list to define each category.
 
 <script src="https://gist.github.com/katydecorah/6748660.js">&nbsp;</script>
 
-For each category I created its own supplemental class. Each class incrementally changes the background-color of the original color `$blue`. Based on how many categories I have I chose 35 to be my increment. This may need to be adjusted if you have more or less items and depending on how close of a color spectrum you want.
+For each category I created its own supplemental class. Each class incrementally
+changes the background-color of the original color `$blue`. Based on how many
+categories I have I chose 35 to be my increment. This may need to be adjusted if
+you have more or less items and depending on how close of a color spectrum you
+want.
 
 <script src="https://gist.github.com/katydecorah/6748663.js">&nbsp;</script>
 
@@ -112,4 +121,5 @@ A miraculous rainbow of categories.
 
 I can also add categories, woo!
 
-...but if I end up with more than 9 categories (hopefully not), then my color spectrum is going to get a bit cozy.
+...but if I end up with more than 9 categories (hopefully not), then my color
+spectrum is going to get a bit cozy.

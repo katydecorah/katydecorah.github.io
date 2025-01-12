@@ -11,7 +11,10 @@ pen: htBka
 dribbble: http://drbl.in/ktXg
 ---
 
-I recreated [Leadership Letters #2. by Jeroen van Eerden](http://drbl.in/ktXg) using Hugo Giraudel's [items in a circle](http://hugogiraudel.com/2013/04/02/items-on-circle/) Sass mixin and generous use of the `border` property.
+I recreated [Leadership Letters #2. by Jeroen van Eerden](http://drbl.in/ktXg)
+using Hugo Giraudel's
+[items in a circle](http://hugogiraudel.com/2013/04/02/items-on-circle/) Sass
+mixin and generous use of the `border` property.
 
 <figure>
 <p data-height="350" data-theme-id="97" data-slug-hash="htBka" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/htBka'>Leadership Letters #2. by Jeroen van Eerden</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -20,7 +23,11 @@ I recreated [Leadership Letters #2. by Jeroen van Eerden](http://drbl.in/ktXg) u
 
 ## Border control
 
-The project has eight block elements, `.item`, nested in a container. Each `.item` is supposed to resemble the letter 'L'. (In my first commit I totally wrote that it was the number '7', re: title.) To get the shape, I assigned the top and right `border-color` colors, while I gave the bottom and left `border-color` transparent values.
+The project has eight block elements, `.item`, nested in a container. Each
+`.item` is supposed to resemble the letter 'L'. (In my first commit I totally
+wrote that it was the number '7', re: title.) To get the shape, I assigned the
+top and right `border-color` colors, while I gave the bottom and left
+`border-color` transparent values.
 
 <figure>
 <p data-height="300" data-slug-hash="b113f096098c45121f65a78adc5f8af6" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/katydecorah/pen/b113f096098c45121f65a78adc5f8af6'>Leadership Letters demo 1</a> by Katy DeCorah (<a href='http://codepen.io/katydecorah'>@katydecorah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -33,17 +40,24 @@ Two cheers for simple code.
 
 ## Circling
 
-Next, I needed to get each `.item` on a circle and rotated about 45 degrees to achieve the cascading effect. I tweaked the _items on a circle_ mixin until each element fell into place. I've used the mixin before, but I must not have examined the code. I didn't realize that you can assign more than one `rotate` values in one `transform` rule. (I learned something new today _/air guitar/_).
+Next, I needed to get each `.item` on a circle and rotated about 45 degrees to
+achieve the cascading effect. I tweaked the _items on a circle_ mixin until each
+element fell into place. I've used the mixin before, but I must not have
+examined the code. I didn't realize that you can assign more than one `rotate`
+values in one `transform` rule. (I learned something new today _/air guitar/_).
 
 ```css
 transform: rotate(0deg) translate(0.875em) rotate(45deg);
 ```
 
-Using the two rotates, I balanced out the items onto the circle and then locked them into position.
+Using the two rotates, I balanced out the items onto the circle and then locked
+them into position.
 
 ## :nth-of-what
 
-I used `:nth-of-type` to alternate the colors of my Sass list, `$colors`. I thought I had the `:nth` selector game figured out, but it took me a few tries to alternate the colors among the items.
+I used `:nth-of-type` to alternate the colors of my Sass list, `$colors`. I
+thought I had the `:nth` selector game figured out, but it took me a few tries
+to alternate the colors among the items.
 
 ```css
 :nth-of-type(4n + 2)
@@ -63,4 +77,8 @@ The above will then compute as:
 
 ## Border animation
 
-Once I had the project built out, I started playing around with a few of the properties. I found that by increasing the `border-bottom-width` each element would appear to tuck its tail in, which created a beautiful inner circle. I added an animation to bounce from sharp edges to smooth edges to capture all the shapes.
+Once I had the project built out, I started playing around with a few of the
+properties. I found that by increasing the `border-bottom-width` each element
+would appear to tuck its tail in, which created a beautiful inner circle. I
+added an animation to bounce from sharp edges to smooth edges to capture all the
+shapes.

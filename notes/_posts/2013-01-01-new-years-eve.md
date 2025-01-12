@@ -7,4 +7,5 @@ image: 2013-01-01-new-years-eve-0.jpg
 {% include img.html src="2013-01-01-new-years-eve-0.jpg" class="pop-out" alt="New Years Eve Sushi Making" width="1276" height="1276" %}
 </div>
 
-This year we stayed in, rolled our own sushi, and fell asleep before midnight. It was my favorite.
+This year we stayed in, rolled our own sushi, and fell asleep before midnight.
+It was my favorite.
