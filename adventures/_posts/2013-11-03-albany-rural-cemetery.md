@@ -8,7 +8,10 @@ locations:
 image: 2013-11-03-albany-rural-cemetery-0.jpg
 ---
 
-On Sunday, mom drove down for part of the day. We grabbed lunch at the Pump Station and then explored the Albany Rural Cemetery. I got the idea to check out the cemetery from [All Over Albany](http://alloveralbany.com/archive/2008/10/17/great-local-autumn-walks).
+On Sunday, mom drove down for part of the day. We grabbed lunch at the Pump
+Station and then explored the Albany Rural Cemetery. I got the idea to check out
+the cemetery from
+[All Over Albany](http://alloveralbany.com/archive/2008/10/17/great-local-autumn-walks).
 
 The cemetery is huge and holds beautiful stones and mausoleums.
 
@@ -64,7 +67,8 @@ The cemetery is huge and holds beautiful stones and mausoleums.
 
 ## Burden 1850
 
-My favorite of the day. The Burden tomb holds Henry Burden, an engineer from Troy, and several of his family members.
+My favorite of the day. The Burden tomb holds Henry Burden, an engineer from
+Troy, and several of his family members.
 
 <div class="photos">
 
@@ -74,7 +78,9 @@ My favorite of the day. The Burden tomb holds Henry Burden, an engineer from Tro
 
 </div>
 
-I found information about the Burden tomb from [Henry Burden By Mrs. Margaret E. Burden](http://books.google.com/books?id=A6UNAAAAYAAJ&ots=t0mx1AjSo-&pg=PA86#v=onepage&q&f=false), including this old rendering of the tomb:
+I found information about the Burden tomb from
+[Henry Burden By Mrs. Margaret E. Burden](http://books.google.com/books?id=A6UNAAAAYAAJ&ots=t0mx1AjSo-&pg=PA86#v=onepage&q&f=false),
+including this old rendering of the tomb:
 
 <div class="photos">
 
@@ -82,6 +88,11 @@ I found information about the Burden tomb from [Henry Burden By Mrs. Margaret E.
 
 </div>
 
-It's amazing to see this rendering after seeing it first hand. The area surrounding the Burden tomb is much more congested now with other stones, tombs, and trees. It makes me want to go back and take a picture from the same angle to catch the differences. I remember seeing the book sculpture out front, but I couldn't read the inscription because the pages were too weathered. The digitized book linked above provides an inscription.
+It's amazing to see this rendering after seeing it first hand. The area
+surrounding the Burden tomb is much more congested now with other stones, tombs,
+and trees. It makes me want to go back and take a picture from the same angle to
+catch the differences. I remember seeing the book sculpture out front, but I
+couldn't read the inscription because the pages were too weathered. The
+digitized book linked above provides an inscription.
 
 I look forward to visiting the Albany Rural Cemetery again.

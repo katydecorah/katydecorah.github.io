@@ -8,9 +8,12 @@ map: static
 image: 2014-07-20-elizabethtown-0.jpg
 ---
 
-This weekend we stayed with friends in Lewis. On Saturday we woke up early to catch the town-wide garage sales in Elizabethtown in the spirit of E-town Day. Our haul included: 1 over-sized sweater, 2 books, and 3 hats.
+This weekend we stayed with friends in Lewis. On Saturday we woke up early to
+catch the town-wide garage sales in Elizabethtown in the spirit of E-town Day.
+Our haul included: 1 over-sized sweater, 2 books, and 3 hats.
 
-In the afternoon we took a little excursion out to Lake Champlain and Ausable Chasm.
+In the afternoon we took a little excursion out to Lake Champlain and Ausable
+Chasm.
 
 <div class="photos">
 
@@ -24,6 +27,8 @@ In the afternoon we took a little excursion out to Lake Champlain and Ausable Ch
 
 </div>
 
-That night we threw a couple blankets down on the E-town golf course and enjoyed the fireworks.
+That night we threw a couple blankets down on the E-town golf course and enjoyed
+the fireworks.
 
-Hot tubs, pools, coconut rum, good company, and poor cell phone service make for a top-notch Summer weekend.
+Hot tubs, pools, coconut rum, good company, and poor cell phone service make for
+a top-notch Summer weekend.

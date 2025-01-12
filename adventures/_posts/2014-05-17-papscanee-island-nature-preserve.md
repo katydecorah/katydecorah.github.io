@@ -9,9 +9,13 @@ map: static
 image: 2014-05-17-papscanee-island-nature-preserve-0.jpg
 ---
 
-This morning we went to the Papscanee Island Nature Preserve in Rensselaer. We started at the north entrance of the preserve, giving us a driving tour of the Port of Rensselaer's oil yard. We didn't think we were in the right place, until we noticed a trail head at the end of a dead end road.
+This morning we went to the Papscanee Island Nature Preserve in Rensselaer. We
+started at the north entrance of the preserve, giving us a driving tour of the
+Port of Rensselaer's oil yard. We didn't think we were in the right place, until
+we noticed a trail head at the end of a dead end road.
 
-Right away were greeted by a giant puddle. We almost turned back, but we shimmied behind the kiosk and stayed dry.
+Right away were greeted by a giant puddle. We almost turned back, but we
+shimmied behind the kiosk and stayed dry.
 
 <div class="photos">
 
@@ -21,7 +25,10 @@ Right away were greeted by a giant puddle. We almost turned back, but we shimmie
 
 </div>
 
-This is one of my favorite trails to date. The preserve has four trails, all relatively short. We started on the white trail, which meandered through a beautiful marsh, an open field, and then met up with the other trails into the woods.
+This is one of my favorite trails to date. The preserve has four trails, all
+relatively short. We started on the white trail, which meandered through a
+beautiful marsh, an open field, and then met up with the other trails into the
+woods.
 
 <div class="photos">
 
@@ -34,7 +41,9 @@ This is one of my favorite trails to date. The preserve has four trails, all rel
 
 </div>
 
-The preserve sits between a railroad and the Hudson River. There's an old rail line that cuts through the marsh; it's really quite beautiful. We were fortunate enough to catch an Amtrak passing by not once, but twice!
+The preserve sits between a railroad and the Hudson River. There's an old rail
+line that cuts through the marsh; it's really quite beautiful. We were fortunate
+enough to catch an Amtrak passing by not once, but twice!
 
 <div class="photos">
 
@@ -44,7 +53,9 @@ The preserve sits between a railroad and the Hudson River. There's an old rail l
 
 </div>
 
-Unfortunately, the trails are a little difficult to navigate as trail markers are few and far between. We accidentally ended up on a trail that the map specifically forbids people to go. Sorry, government.
+Unfortunately, the trails are a little difficult to navigate as trail markers
+are few and far between. We accidentally ended up on a trail that the map
+specifically forbids people to go. Sorry, government.
 
 <div class="photos">
 

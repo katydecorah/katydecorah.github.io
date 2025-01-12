@@ -3,14 +3,7 @@ title: The bird feeder
 image: 2015-03-18-the-bird-feeder-0.jpg
 ---
 
-Swoosh.
-Plunk.
-Flick.
-Flick.
-Flickflick.
-Tap.
-Taptaptaptaptap.
-Swoosh.
+Swoosh. Plunk. Flick. Flick. Flickflick. Tap. Taptaptaptaptap. Swoosh.
 
 All morning.
 
@@ -22,4 +15,5 @@ All morning.
 {% include video.html src="2015-03-18-the-bird-feeder.mp4" title="a bird picks a seed from the feeder and then flies away" %}
 </div>
 
-A pair of cardinals and a blue jay also frequent the feeder, but they're camera shy.
+A pair of cardinals and a blue jay also frequent the feeder, but they're camera
+shy.

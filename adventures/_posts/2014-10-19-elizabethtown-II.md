@@ -9,7 +9,8 @@ image: 2014-10-19-elizabethtown-II-0.jpg
 
 A college roommates weekend in Elizabethtown. A weekend way over due.
 
-Whiskey, pumpkin carving, wine tasting, hot tubs, mulled wine, and goat cheese. And every drive was beautiful.
+Whiskey, pumpkin carving, wine tasting, hot tubs, mulled wine, and goat cheese.
+And every drive was beautiful.
 
 <div class="photos">
 

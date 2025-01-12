@@ -16,9 +16,12 @@ coordinates:
 image: 2013-04-07-north-carolina-0.jpg
 ---
 
-My sister moved to North Carolina a few years ago. Since then my folks and I make an annual trip down to visit.
+My sister moved to North Carolina a few years ago. Since then my folks and I
+make an annual trip down to visit.
 
-This week is ceremoniously dedicated to eating a lot of food between mom geocaching and then my sister and I binging a TV series on Netflix. This year it was Bones.
+This week is ceremoniously dedicated to eating a lot of food between mom
+geocaching and then my sister and I binging a TV series on Netflix. This year it
+was Bones.
 
 ## Snowflake
 
@@ -90,7 +93,8 @@ We fed the trout!
 
 ## Appalachian State University
 
-My sister is a middle school science teacher, so we picked up these hissing Madagascar cockroaches&hellip; on purpose.
+My sister is a middle school science teacher, so we picked up these hissing
+Madagascar cockroaches&hellip; on purpose.
 
 <div class="photos">
 

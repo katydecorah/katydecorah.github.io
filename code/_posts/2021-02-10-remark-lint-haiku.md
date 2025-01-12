@@ -5,9 +5,13 @@ tags:
   - Node.js
 ---
 
-To support my post [Haiku 2018-2019](/notes/haiku-a-day/), I created [remark-lint-haiku](https://github.com/katydecorah/remark-lint-haiku) to make sure that each haiku is in 5, 7, 5 syllable pattern. The linter uses [syllable](https://github.com/words/syllable) to count the syllables.
+To support my post [Haiku 2018-2019](/notes/haiku-a-day/), I created
+[remark-lint-haiku](https://github.com/katydecorah/remark-lint-haiku) to make
+sure that each haiku is in 5, 7, 5 syllable pattern. The linter uses
+[syllable](https://github.com/words/syllable) to count the syllables.
 
-To markup a haiku, I used a fenced code block and set `haiku` as the code language.
+To markup a haiku, I used a fenced code block and set `haiku` as the code
+language.
 
 ````
 ```haiku
@@ -35,7 +39,8 @@ If the haiku does not have 3 lines:
 23:1-27:4  warning  Haiku has 2 lines, it should have 3 lines.  haiku  remark-lint
 ```
 
-I also updated my site's CSS to switch the font for `.language-haiku` to a serif.
+I also updated my site's CSS to switch the font for `.language-haiku` to a
+serif.
 
 ```haiku
 Parallelogram

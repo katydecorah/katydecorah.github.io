@@ -7,11 +7,13 @@ coordinates:
   - -112.1375328,36.0581037
 ---
 
-To celebrate my birthday (and to mitigate cabin fever), J and I headed to the Grand Canyon.
+To celebrate my birthday (and to mitigate cabin fever), J and I headed to the
+Grand Canyon.
 
 ## Hoover Dam
 
-We landed in Las Vegas on Friday, picked up the rental car, and drove about 40 minutes to the Hoover Dam.
+We landed in Las Vegas on Friday, picked up the rental car, and drove about 40
+minutes to the Hoover Dam.
 
 <div class="photos">
 {% include img.html src="2017-02-12-grand-canyon-1.jpg" alt="Hoover Dam" class="img-half" width="1600" height="1200" %}
@@ -34,9 +36,15 @@ We drove back to Las Vegas and stayed the night.
 
 ## Grand Canyon Village
 
-On Saturday we packed up and drove the four and half hour to the Grand Canyon Village.
+On Saturday we packed up and drove the four and half hour to the Grand Canyon
+Village.
 
-We stayed at [El Tovar](http://www.grandcanyonlodges.com/lodging/el-tovar/), conveniently located right on the South Rim, for three nights. The area experience several back-to-back snowstorms which meant that the conditions were icy and left little chance for hiking (that didn't involve lots of snow gear). Fortunately, we were able to drive up and down the South Rim and enjoy the views from the many scenic pull-offs and overlooks.
+We stayed at [El Tovar](http://www.grandcanyonlodges.com/lodging/el-tovar/),
+conveniently located right on the South Rim, for three nights. The area
+experience several back-to-back snowstorms which meant that the conditions were
+icy and left little chance for hiking (that didn't involve lots of snow gear).
+Fortunately, we were able to drive up and down the South Rim and enjoy the views
+from the many scenic pull-offs and overlooks.
 
 <div class="photos">
 
@@ -81,4 +89,6 @@ We stayed at [El Tovar](http://www.grandcanyonlodges.com/lodging/el-tovar/), con
 <div class="caption">Taken by my iPhone propped up by my wallet in a snow bank. (Ok, you got us. We weren't really prepared for this trip.)</div>
 </div>
 
-We spent the last night in Las Vegas on my birthday. Even though we're not into gambling, we turned a $100 bill from our wedding into $300 on the Roulette table. We blew it all on dinner.
+We spent the last night in Las Vegas on my birthday. Even though we're not into
+gambling, we turned a $100 bill from our wedding into $300 on the Roulette
+table. We blew it all on dinner.

@@ -15,7 +15,10 @@ We woke up early and drove up to Moreau Lake State Park for a hike.
 {% include img.html alt="Moreau Lake State Park Map" src="2013-08-24-palmertown-mountain-range-1.png" width="1315" height="695" %}
 </div>
 
-We parked on Spier Falls road, at the bottom of the map just before where the Hudson River curls. We took the Western Ridge (WR) trail, or yellow trail for a majority of the hike. This trail has several scenic overlooks as marked by stars on the map.
+We parked on Spier Falls road, at the bottom of the map just before where the
+Hudson River curls. We took the Western Ridge (WR) trail, or yellow trail for a
+majority of the hike. This trail has several scenic overlooks as marked by stars
+on the map.
 
 <div class="photos">
 
@@ -41,7 +44,9 @@ The next stop was the overlook of the Spier Falls Dam:
 
 </div>
 
-We hiked up to where the yellow and orange trails meet at point 7. We then double backed on yellow and took the white trail to the blue trail until it met up with yellow again.
+We hiked up to where the yellow and orange trails meet at point 7. We then
+double backed on yellow and took the white trail to the blue trail until it met
+up with yellow again.
 
 <div class="photos">
 
@@ -51,7 +56,9 @@ We hiked up to where the yellow and orange trails meet at point 7. We then doubl
 
 </div>
 
-The weather was perfect and the overlooks were gorgeous, but the terrain was exhausting. We didn't bring enough trail snacks, there can never be too many trail snacks.
+The weather was perfect and the overlooks were gorgeous, but the terrain was
+exhausting. We didn't bring enough trail snacks, there can never be too many
+trail snacks.
 
 <div class="photos">
 

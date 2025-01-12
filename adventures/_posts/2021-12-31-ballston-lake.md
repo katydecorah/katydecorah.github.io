@@ -7,7 +7,8 @@ coordinates:
   - -73.85144215707778,42.956294391395296
 ---
 
-The last day of 2021 was all fog, from sunrise to sunset. We were lucky to capture the fog at the Ballston Lake public dock.
+The last day of 2021 was all fog, from sunrise to sunset. We were lucky to
+capture the fog at the Ballston Lake public dock.
 
 <div class="photos">
 {% include img.html src="2021-12-31-ballston-lake-7.jpg" alt="A long dock surrounded in swamp ending in a sheet of white fog." width="4032" height="3024" %}

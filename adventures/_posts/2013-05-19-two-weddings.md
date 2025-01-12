@@ -19,7 +19,9 @@ I had the distinct honor of being in two weddings this month.
 
 </div>
 
-For both weddings, I designed t-shirts for the bachelorette parties. The bride's (below) is actually a giant nightie (this was her favorite garment in college) and she wore it while getting ready on the day.
+For both weddings, I designed t-shirts for the bachelorette parties. The bride's
+(below) is actually a giant nightie (this was her favorite garment in college)
+and she wore it while getting ready on the day.
 
 <div class="photos">
 
@@ -27,4 +29,5 @@ For both weddings, I designed t-shirts for the bachelorette parties. The bride's
 
 </div>
 
-Two straight weekends of friends, traveling, hotels, champagne, and good ole fashion dance offs.
+Two straight weekends of friends, traveling, hotels, champagne, and good ole
+fashion dance offs.

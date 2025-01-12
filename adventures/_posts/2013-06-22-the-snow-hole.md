@@ -10,7 +10,10 @@ coordinates:
   - -73.2685215,42.7412473
 ---
 
-Awesome 2.7 mile hike to the [Snow Hole](http://www.taconichiking.com/snow-hole.php) in the Taconic Mountains. No snow in the hole, but we had a good time exploring inside and enjoying the temperature difference.
+Awesome 2.7 mile hike to the
+[Snow Hole](http://www.taconichiking.com/snow-hole.php) in the Taconic
+Mountains. No snow in the hole, but we had a good time exploring inside and
+enjoying the temperature difference.
 
 I would definitely do this hike again!
 

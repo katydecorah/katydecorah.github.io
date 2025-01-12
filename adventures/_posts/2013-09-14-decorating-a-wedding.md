@@ -8,9 +8,13 @@ locations:
 image: 2013-09-14-decorating-a-wedding-0.jpg
 ---
 
-This weekend I had the privilege of decorating a friend's wedding at the Wilburton Inn in Manchester, Vermont. As payment, my boyfriend and I got to stay all weekend at the Inn. It was an excellent trade!
+This weekend I had the privilege of decorating a friend's wedding at the
+Wilburton Inn in Manchester, Vermont. As payment, my boyfriend and I got to stay
+all weekend at the Inn. It was an excellent trade!
 
-The bride and I worked together weeks before the wedding crafting and scheming. On the day of, I oversaw all the décor preparations. It was a really fun, but exhausting day.
+The bride and I worked together weeks before the wedding crafting and scheming.
+On the day of, I oversaw all the décor preparations. It was a really fun, but
+exhausting day.
 
 Unfortunately I did not take enough pictures, but here are a few.
 
@@ -36,7 +40,11 @@ A few from the Inn.
 
 </div>
 
-I'm so happy with how the slate signs came out. I designed the text in Illustrator, then my boyfriend printed out the designs on vinyl. I applied the vinyl directly to the slate and gently dabbed the paint on with my fingers. I peeled off the vinyl and allowed the slate to dry. I love telling people that I finger painted these!
+I'm so happy with how the slate signs came out. I designed the text in
+Illustrator, then my boyfriend printed out the designs on vinyl. I applied the
+vinyl directly to the slate and gently dabbed the paint on with my fingers. I
+peeled off the vinyl and allowed the slate to dry. I love telling people that I
+finger painted these!
 
 <div class="photos">
 
@@ -49,7 +57,9 @@ I'm so happy with how the slate signs came out. I designed the text in Illustrat
 
 </div>
 
-Some raw materials collected from the great outdoors! Special thanks to my boyfriend's sister for collecting the acorns. We filled glass jars with the acorns and filled the top of the jar with mums.
+Some raw materials collected from the great outdoors! Special thanks to my
+boyfriend's sister for collecting the acorns. We filled glass jars with the
+acorns and filled the top of the jar with mums.
 
 <div class="photos">
 

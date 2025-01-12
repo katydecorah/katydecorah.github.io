@@ -28,7 +28,7 @@ const readPost = (filename) => {
     };
   } catch (err) {
     console.log(
-      `\nCould not read metadata, check the syntax of the metadata and front matter in ${filename}`
+      `\nCould not read metadata, check the syntax of the metadata and front matter in ${filename}`,
     );
   }
 };
@@ -98,7 +98,7 @@ describe("posts", () => {
 
       if (metadata.organizations) {
         const found = await organizations.metadata.find(
-          ({ name }) => name == metadata.organizations
+          ({ name }) => name == metadata.organizations,
         );
         expect(found).toBeDefined();
       }

@@ -9,7 +9,8 @@ recommended: true
 miles: 1.5
 ---
 
-Today we hiked up to [Vroman’s Nose](https://en.wikipedia.org/wiki/Vroman%27s_Nose).
+Today we hiked up to
+[Vroman’s Nose](https://en.wikipedia.org/wiki/Vroman%27s_Nose).
 
 <div class="photos">
 
@@ -20,7 +21,10 @@ Today we hiked up to [Vroman’s Nose](https://en.wikipedia.org/wiki/Vroman%27s_
 
 </div>
 
-Then had an awesome lunch at [Middleburgers BBQ](https://www.facebook.com/pages/Middleburgers-BBQ/437450386276364) and picked up a half dozen at the [Schoharie Carrot Barn](http://www.schoharievalleyfarms.com/the-carrot-barn.php).
+Then had an awesome lunch at
+[Middleburgers BBQ](https://www.facebook.com/pages/Middleburgers-BBQ/437450386276364)
+and picked up a half dozen at the
+[Schoharie Carrot Barn](http://www.schoharievalleyfarms.com/the-carrot-barn.php).
 
 <div class="photos">
 

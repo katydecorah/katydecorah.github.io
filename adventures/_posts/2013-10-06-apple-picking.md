@@ -10,9 +10,14 @@ image: 2013-10-06-apple-picking-0.jpg
 
 ## Saturday
 
-We woke up early and drove to [Golden Harvest Farms](http://goldenharvestfarms.com/) in Valatie. We chose this spot apparently they have the best cider donuts. And they do.
+We woke up early and drove to
+[Golden Harvest Farms](http://goldenharvestfarms.com/) in Valatie. We chose this
+spot apparently they have the best cider donuts. And they do.
 
-We set out to pick a &frac12; bushel of apples and started by taste testing all the available varieties. The [jonagolds](http://en.wikipedia.org/wiki/Jonagold) are definitely my favorite. Then we picked up a &frac12; dozen donuts (+2 for immediate consumption) and apple cider.
+We set out to pick a &frac12; bushel of apples and started by taste testing all
+the available varieties. The [jonagolds](http://en.wikipedia.org/wiki/Jonagold)
+are definitely my favorite. Then we picked up a &frac12; dozen donuts (+2 for
+immediate consumption) and apple cider.
 
 <div class="photos">
 
@@ -32,7 +37,8 @@ We set out to pick a &frac12; bushel of apples and started by taste testing all 
 
 I put those apples to work.
 
-(Right before I rolled out the dough, I realized that I don't own a rolling pin. I found that a cling wrapped a wine bottle rolled dough quite nicely.)
+(Right before I rolled out the dough, I realized that I don't own a rolling pin.
+I found that a cling wrapped a wine bottle rolled dough quite nicely.)
 
 <div class="photos">
 

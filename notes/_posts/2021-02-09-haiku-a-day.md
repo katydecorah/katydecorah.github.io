@@ -3,7 +3,9 @@ title: Haiku 2018-2019
 image: 2021-02-09-haiku.png
 ---
 
-I found an old note that contained a project to write a haiku every day. My project started in December 2018 and ended promptly in January 2019. The themes included work, baking, and difficulty finding nice fabric.
+I found an old note that contained a project to write a haiku every day. My
+project started in December 2018 and ended promptly in January 2019. The themes
+included work, baking, and difficulty finding nice fabric.
 
 ```haiku
 Meal prepped our lunch
