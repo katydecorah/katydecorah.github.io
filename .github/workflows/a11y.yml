@@ -16,12 +16,12 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "2.7" # Not needed with a .ruby-version file
+          ruby-version: "3.2" # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
 
       - run: npm install @octokit/action@5.0.2 @actions/core@1.10.0
 
