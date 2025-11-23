@@ -26,7 +26,7 @@ const readPost = (filename) => {
       metadata: jsyaml.load(frontmatter),
       content: parts[2],
     };
-  } catch (err) {
+  } catch {
     console.log(
       `\nCould not read metadata, check the syntax of the metadata and front matter in ${filename}`,
     );
