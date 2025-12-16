@@ -45,7 +45,7 @@ jobs:
           maxUrls: ${{ steps.files.outputs.MaxUrls }}
 
       - name: Upload report as artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         if: success() || failure()
         with:
           name: "Accessibility report"
