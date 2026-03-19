@@ -7,7 +7,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "00 02 20 Mar,Jun,Sep,Dec *"
+    - cron: "00 11 20 Mar,Jun,Sep,Dec *"
 
 jobs:
   metadata-post:
