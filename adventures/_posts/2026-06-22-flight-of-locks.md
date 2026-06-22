@@ -28,10 +28,10 @@ At each lock, great blue herons swooped along waiting for fish.
 {% include img.html class="img-half" src="2026-06-22-flight-of-locks-4.jpg" alt="Looking back down the canal. The dark murky green water with a bridge in the distance. About a dozen kayakers in the far distance." width="2106" height="2809" %}
 </div>
 
-The following photo shows the door opening after going through the last lock. From the walls, the dark water line indicates the level our kayaks were at when we first entered.
+The following photo shows the gate opening after going through the last lock. From the walls, the dark water line indicates the level our kayaks were at when we first entered.
 
 <div class="photos">
-{% include img.html src="2026-06-22-flight-of-locks-7.jpg" alt="From inside the lock, tall concrete walls flank either side. From the opening a kayaker makes their way through the open doors. Two metal bridges in the distance with the murky green canal flowing under." width="4164" height="5552" %}
+{% include img.html src="2026-06-22-flight-of-locks-7.jpg" alt="From inside the lock, tall concrete walls flank either side. From the opening a kayaker makes their way through the open gates. Two metal bridges in the distance with the murky green canal flowing under." width="4164" height="5552" %}
 </div>
 
 It was quite an amazing water elevator journey.
