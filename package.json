@@ -14,7 +14,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
+    "@babel/core": "^7.29.6",
     "@babel/eslint-parser": "^7.28.5",
     "@babel/preset-env": "^7.28.5",
     "@double-great/double-check": "^0.5.2",
