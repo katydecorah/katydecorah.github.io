@@ -37,7 +37,7 @@ jobs:
       - run: npx serve _site &
 
       - name: Scan site
-        uses: double-great/accessibility-scan-action@v0.5.1
+        uses: double-great/accessibility-scan-action@v0.7.1
         with:
           url: "http://localhost:3000"
           inputUrls: ${{ steps.files.outputs.InputUrls }}
