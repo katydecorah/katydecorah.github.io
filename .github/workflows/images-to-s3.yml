@@ -13,7 +13,7 @@ jobs:
     name: Upload images to S3
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Upload images
         if: success()
         uses: katydecorah/images-to-s3-action@v5.0.0
